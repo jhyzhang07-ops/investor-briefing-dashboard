@@ -5,6 +5,7 @@ Open `index.html` in a browser to view the daily U.S. stock-investor briefing ar
 The daily automation writes each briefing into `data/briefings-data.js`. The dashboard keeps all dates in one place, marks archived days on the calendar, and lets you search prior briefings by ticker, topic, or source.
 
 The briefing view includes a top-priority strip, a compare-with-previous-briefing panel, stock filters, and source confidence labels.
+The stocks-to-watch section links tickers to Yahoo Finance and includes suggested entry and profit-take zones when available. The return calculator estimates long or short trade return from entry, exit, and share count.
 
 ## Access From Phone
 
@@ -49,6 +50,8 @@ Stock watch entries support directional setups and risk/reward labels:
   "ticker": "NVDA",
   "direction": "long",
   "riskLevel": "yellow",
+  "suggestedBuyPrice": "Pullback toward support or confirmed breakout",
+  "suggestedProfitTake": "Scale after a 3%-5% move or near resistance",
   "type": "AI infrastructure",
   "catalyst": "...",
   "why": "...",

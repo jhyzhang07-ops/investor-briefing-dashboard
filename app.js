@@ -148,11 +148,13 @@
       ${renderSection("Compare With Previous Briefing", renderComparePanel(brief))}
       ${renderSection("Forecast For Tonight's U.S. Market", renderList(brief.forecast, "forecast-list"))}
       ${renderSection("U.S. Stocks To Watch", renderStocks(brief.stocks))}
+      ${renderSection("Return Calculator", renderCalculator())}
       ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
       ${renderSection("Sources", renderSources(brief.sources))}
     `;
 
     attachStockFilterHandlers();
+    attachCalculatorHandlers();
   }
 
   function renderSection(title, body) {
@@ -279,12 +281,22 @@
           const riskLevel = normalizeRiskLevel(stock.riskLevel);
           return `
             <div class="stock-row">
-              <div class="ticker">${escapeHtml(stock.ticker || "N/A")}</div>
+              <div class="ticker">${renderTickerLinks(stock.ticker)}</div>
               <div class="stock-detail">
                 <div class="stock-meta">
                   <span class="direction-pill ${direction.className}">${escapeHtml(direction.label)}</span>
                   <span class="risk-pill ${riskLevel.className}">${escapeHtml(riskLevel.label)}</span>
                   <span class="tagline">${escapeHtml(stock.type || "watch item")}</span>
+                </div>
+                <div class="trade-levels">
+                  <div>
+                    <span>Suggested entry</span>
+                    <strong>${escapeHtml(stock.suggestedBuyPrice || stock.entry || "Not specified")}</strong>
+                  </div>
+                  <div>
+                    <span>Profit take</span>
+                    <strong>${escapeHtml(stock.suggestedProfitTake || stock.profitTake || "Not specified")}</strong>
+                  </div>
                 </div>
                 <p><strong>Catalyst:</strong> ${escapeHtml(stock.catalyst || "N/A")}</p>
                 <p><strong>Why it matters:</strong> ${escapeHtml(stock.why || "N/A")}</p>
@@ -295,6 +307,77 @@
         }).join("") : `<p class="empty-note">No stocks match the selected filters.</p>`}
       </div>
     `;
+  }
+
+  function renderTickerLinks(tickerValue) {
+    const tickers = String(tickerValue || "N/A").split("/");
+    return tickers.map((ticker) => {
+      const cleanTicker = ticker.trim();
+      if (!cleanTicker || cleanTicker === "N/A") return escapeHtml(cleanTicker || "N/A");
+      const yahooTicker = cleanTicker.replace(/\./g, "-").replace(/\s+/g, "");
+      const href = `https://finance.yahoo.com/quote/${encodeURIComponent(yahooTicker)}`;
+      return `<a href="${href}" target="_blank" rel="noreferrer" title="Open ${escapeAttribute(cleanTicker)} on Yahoo Finance">${escapeHtml(cleanTicker)}</a>`;
+    }).join("<span>/</span>");
+  }
+
+  function renderCalculator() {
+    return `
+      <div class="calculator-grid">
+        <label>
+          <span>Entry price</span>
+          <input id="calcEntry" type="number" inputmode="decimal" min="0" step="0.01" placeholder="100.00">
+        </label>
+        <label>
+          <span>Exit price</span>
+          <input id="calcExit" type="number" inputmode="decimal" min="0" step="0.01" placeholder="115.00">
+        </label>
+        <label>
+          <span>Shares</span>
+          <input id="calcShares" type="number" inputmode="decimal" min="0" step="1" placeholder="10">
+        </label>
+        <label>
+          <span>Direction</span>
+          <select id="calcDirection">
+            <option value="long">Long</option>
+            <option value="short">Short</option>
+          </select>
+        </label>
+      </div>
+      <div class="calculator-result" id="calculatorResult">
+        Enter trade values to calculate estimated return.
+      </div>
+    `;
+  }
+
+  function attachCalculatorHandlers() {
+    ["calcEntry", "calcExit", "calcShares", "calcDirection"].forEach((id) => {
+      const input = document.getElementById(id);
+      if (input) input.addEventListener("input", updateCalculator);
+    });
+    updateCalculator();
+  }
+
+  function updateCalculator() {
+    const entry = Number(document.getElementById("calcEntry")?.value || 0);
+    const exit = Number(document.getElementById("calcExit")?.value || 0);
+    const shares = Number(document.getElementById("calcShares")?.value || 0);
+    const direction = document.getElementById("calcDirection")?.value || "long";
+    const result = document.getElementById("calculatorResult");
+    if (!result) return;
+
+    if (entry <= 0 || exit <= 0 || shares <= 0) {
+      result.textContent = "Enter trade values to calculate estimated return.";
+      result.className = "calculator-result";
+      return;
+    }
+
+    const perShare = direction === "short" ? entry - exit : exit - entry;
+    const totalReturn = perShare * shares;
+    const capital = entry * shares;
+    const returnPercent = capital ? (totalReturn / capital) * 100 : 0;
+
+    result.className = `calculator-result ${totalReturn >= 0 ? "positive" : "negative"}`;
+    result.textContent = `${formatCurrency(totalReturn)} estimated ${totalReturn >= 0 ? "gain" : "loss"} (${formatPercent(returnPercent)}) on ${formatCurrency(capital)} notional.`;
   }
 
   function filterButton(group, value, label) {
@@ -426,5 +509,17 @@
 
   function escapeAttribute(value) {
     return escapeHtml(value).replace(/`/g, "&#096;");
+  }
+
+  function formatCurrency(value) {
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
+      maximumFractionDigits: 2
+    }).format(value);
+  }
+
+  function formatPercent(value) {
+    return `${value >= 0 ? "+" : ""}${value.toFixed(2)}%`;
   }
 })();

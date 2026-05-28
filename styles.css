@@ -26,7 +26,8 @@ body {
 }
 
 button,
-input {
+input,
+select {
   font: inherit;
 }
 
@@ -450,9 +451,24 @@ button:focus-visible {
 
 .ticker {
   flex: 0 0 88px;
-  color: var(--accent);
   font-size: 18px;
   font-weight: 900;
+}
+
+.ticker a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.ticker a:hover,
+.ticker a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+.ticker span {
+  color: var(--muted);
+  padding: 0 2px;
 }
 
 .stock-detail {
@@ -517,6 +533,80 @@ button:focus-visible {
   border: 1px solid #86bd91;
   background: #e8f6e9;
   color: #276433;
+}
+
+.trade-levels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.trade-levels div {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 9px 10px;
+  background: #ffffff;
+}
+
+.trade-levels span,
+.calculator-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.trade-levels strong {
+  display: block;
+  margin-top: 3px;
+  color: var(--ink);
+}
+
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.calculator-grid label {
+  display: grid;
+  gap: 6px;
+}
+
+.calculator-grid input,
+.calculator-grid select {
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0 10px;
+  background: #ffffff;
+  color: var(--ink);
+}
+
+.calculator-result {
+  margin-top: 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px;
+  background: #fbfcfa;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.calculator-result.positive {
+  border-color: #86bd91;
+  background: #e8f6e9;
+  color: #276433;
+}
+
+.calculator-result.negative {
+  border-color: #e28d82;
+  background: #ffe8e3;
+  color: #a12d1f;
 }
 
 .tagline {
@@ -593,6 +683,10 @@ button:focus-visible {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .calculator-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .topbar {
     position: static;
   }
@@ -627,6 +721,11 @@ button:focus-visible {
   }
 
   .compare-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .calculator-grid,
+  .trade-levels {
     grid-template-columns: 1fr;
   }
 
