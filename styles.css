@@ -434,6 +434,43 @@ button:focus-visible {
   color: #fff;
 }
 
+.sector-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.sector-card {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 13px;
+  background: #fbfcfa;
+}
+
+.sector-card p {
+  margin: 7px 0 0;
+}
+
+.sector-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.sector-head strong {
+  font-size: 17px;
+}
+
+.sector-head div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
 .stock-table {
   display: grid;
   gap: 10px;
@@ -685,6 +722,10 @@ button:focus-visible {
 
   .calculator-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sector-grid {
+    grid-template-columns: 1fr;
   }
 
   .topbar {

@@ -5,7 +5,7 @@ Open `index.html` in a browser to view the daily U.S. stock-investor briefing ar
 The daily automation writes each briefing into `data/briefings-data.js`. The dashboard keeps all dates in one place, marks archived days on the calendar, and lets you search prior briefings by ticker, topic, or source.
 
 The briefing view includes a top-priority strip, a compare-with-previous-briefing panel, stock filters, and source confidence labels.
-The stocks-to-watch section links tickers to Yahoo Finance and includes suggested entry and profit-take zones when available. The return calculator estimates long or short trade return from entry, exit, and share count.
+The briefing includes sectors to watch, ETFs to watch, and stocks to watch. ETF and stock tickers link to Yahoo Finance and include suggested entry and profit-take zones when available. The return calculator estimates long or short trade return from entry, exit, and share count.
 
 ## Access From Phone
 
@@ -43,6 +43,18 @@ bash scripts/publish_dashboard.sh
 
 The daily automation is configured to run this after it updates `data/briefings-data.js`, so the public site can refresh from the same archive.
 
+To avoid manually running the publish command after dashboard edits, install the macOS auto-publisher once:
+
+```bash
+bash scripts/install_auto_publish.sh
+```
+
+It watches the dashboard files and runs `scripts/publish_dashboard.sh` after changes. To remove it later:
+
+```bash
+bash scripts/uninstall_auto_publish.sh
+```
+
 Stock watch entries support directional setups and risk/reward labels:
 
 ```json
@@ -62,6 +74,8 @@ Stock watch entries support directional setups and risk/reward labels:
 Risk colors mean `red` = high risk / potentially large return, `yellow` = medium risk / medium return, and `green` = lower risk / relatively smaller return.
 
 Source confidence labels should be one of `Primary`, `Market data`, `High-quality reporting`, `Calendar`, or `Context`.
+
+ETF watch entries use the same shape as stock entries. Leveraged ETFs such as `SOXL`, `SOXS`, `TQQQ`, or `SQQQ` should usually be marked higher risk unless the setup is unusually controlled.
 
 To manually archive a briefing JSON object:
 

@@ -3,7 +3,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
-git add index.html styles.css app.js README.md .nojekyll data/briefings-data.js scripts/archive_briefing.py scripts/serve_local.sh scripts/publish_dashboard.sh
+git add index.html styles.css app.js README.md .nojekyll data/briefings-data.js scripts/archive_briefing.py scripts/serve_local.sh scripts/publish_dashboard.sh scripts/auto_publish_once.sh scripts/install_auto_publish.sh scripts/uninstall_auto_publish.sh
 
 if git diff --cached --quiet; then
   echo "No dashboard changes to publish."

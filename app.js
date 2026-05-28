@@ -147,6 +147,8 @@
 
       ${renderSection("Compare With Previous Briefing", renderComparePanel(brief))}
       ${renderSection("Forecast For Tonight's U.S. Market", renderList(brief.forecast, "forecast-list"))}
+      ${renderSection("Sectors To Watch", renderSectors(brief.sectors))}
+      ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, "No ETFs archived for this briefing."))}
       ${renderSection("U.S. Stocks To Watch", renderStocks(brief.stocks))}
       ${renderSection("Return Calculator", renderCalculator())}
       ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
@@ -275,36 +277,73 @@
           ${filterButton("riskLevel", "green", "Green")}
         </div>
       </div>
+      ${renderWatchCards(filteredStocks, "No stocks match the selected filters.")}
+    `;
+  }
+
+  function renderSectors(sectors) {
+    const safeSectors = Array.isArray(sectors) ? sectors : [];
+    if (!safeSectors.length) return `<p class="empty-note">No sector watchlist archived for this briefing.</p>`;
+
+    return `
+      <div class="sector-grid">
+        ${safeSectors.map((sector) => {
+          const direction = normalizeDirection(sector.direction);
+          const riskLevel = normalizeRiskLevel(sector.riskLevel);
+          return `
+            <div class="sector-card">
+              <div class="sector-head">
+                <strong>${escapeHtml(sector.name || "Sector")}</strong>
+                <div>
+                  <span class="direction-pill ${direction.className}">${escapeHtml(direction.label)}</span>
+                  <span class="risk-pill ${riskLevel.className}">${escapeHtml(riskLevel.label)}</span>
+                </div>
+              </div>
+              <p><strong>Catalyst:</strong> ${escapeHtml(sector.catalyst || "N/A")}</p>
+              <p><strong>Watch:</strong> ${escapeHtml(sector.watch || sector.why || "N/A")}</p>
+              <p><strong>Risk:</strong> ${escapeHtml(sector.risk || "N/A")}</p>
+            </div>
+          `;
+        }).join("")}
+      </div>
+    `;
+  }
+
+  function renderWatchCards(items, emptyMessage) {
+    const safeItems = Array.isArray(items) ? items : [];
+    if (!safeItems.length) return `<p class="empty-note">${escapeHtml(emptyMessage)}</p>`;
+
+    return `
       <div class="stock-table">
-        ${filteredStocks.length ? filteredStocks.map((stock) => {
-          const direction = normalizeDirection(stock.direction);
-          const riskLevel = normalizeRiskLevel(stock.riskLevel);
+        ${safeItems.map((item) => {
+          const direction = normalizeDirection(item.direction);
+          const riskLevel = normalizeRiskLevel(item.riskLevel);
           return `
             <div class="stock-row">
-              <div class="ticker">${renderTickerLinks(stock.ticker)}</div>
+              <div class="ticker">${renderTickerLinks(item.ticker)}</div>
               <div class="stock-detail">
                 <div class="stock-meta">
                   <span class="direction-pill ${direction.className}">${escapeHtml(direction.label)}</span>
                   <span class="risk-pill ${riskLevel.className}">${escapeHtml(riskLevel.label)}</span>
-                  <span class="tagline">${escapeHtml(stock.type || "watch item")}</span>
+                  <span class="tagline">${escapeHtml(item.type || "watch item")}</span>
                 </div>
                 <div class="trade-levels">
                   <div>
                     <span>Suggested entry</span>
-                    <strong>${escapeHtml(stock.suggestedBuyPrice || stock.entry || "Not specified")}</strong>
+                    <strong>${escapeHtml(item.suggestedBuyPrice || item.entry || "Not specified")}</strong>
                   </div>
                   <div>
                     <span>Profit take</span>
-                    <strong>${escapeHtml(stock.suggestedProfitTake || stock.profitTake || "Not specified")}</strong>
+                    <strong>${escapeHtml(item.suggestedProfitTake || item.profitTake || "Not specified")}</strong>
                   </div>
                 </div>
-                <p><strong>Catalyst:</strong> ${escapeHtml(stock.catalyst || "N/A")}</p>
-                <p><strong>Why it matters:</strong> ${escapeHtml(stock.why || "N/A")}</p>
-                <p><strong>Risk:</strong> ${escapeHtml(stock.risk || "N/A")}</p>
+                <p><strong>Catalyst:</strong> ${escapeHtml(item.catalyst || "N/A")}</p>
+                <p><strong>Why it matters:</strong> ${escapeHtml(item.why || "N/A")}</p>
+                <p><strong>Risk:</strong> ${escapeHtml(item.risk || "N/A")}</p>
               </div>
             </div>
           `;
-        }).join("") : `<p class="empty-note">No stocks match the selected filters.</p>`}
+        }).join("")}
       </div>
     `;
   }

@@ -62,6 +62,135 @@ window.MARKET_BRIEFINGS = [
       "Earnings scenario: strong AI-linked commentary from MRVL, DELL, or related suppliers can keep the AI capex trade bid; weak enterprise software guidance can cap SaaS multiples.",
       "Breadth risk: indexes are at records, so a narrow rally led by a handful of AI names would be less healthy than broader participation from industrials, financials, and small caps."
     ],
+    "sectors": [
+      {
+        "name": "Semiconductors",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "AI infrastructure demand remains the cleanest growth driver after Nvidia's record data-center results and Marvell's AI demand guide.",
+        "watch": "Watch breadth beyond NVDA: networking, custom silicon, memory, AI servers, power, and cooling names need to participate for the trade to stay healthy.",
+        "risk": "Crowded positioning, valuation, export controls, and earnings gaps can make this sector volatile even when the long-term theme is intact."
+      },
+      {
+        "name": "AI Infrastructure",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Hyperscaler AI capex is still the dominant technology story and supports semis, servers, data-center networking, and power-chain suppliers.",
+        "watch": "Favor companies showing demand plus margin conversion, not just AI-related revenue growth.",
+        "risk": "If AI capex commentary slows or margins disappoint, the sector can reprice quickly."
+      },
+      {
+        "name": "Oil And Energy",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Iran/Hormuz headlines are keeping crude volatile, making energy a hedge against geopolitical escalation.",
+        "watch": "Track crude, refiners, integrated majors, and energy-service names if oil holds a rebound.",
+        "risk": "A credible de-escalation headline can reverse oil and energy momentum quickly."
+      },
+      {
+        "name": "Enterprise Software",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "Salesforce guidance concerns highlight AI disruption risk for traditional SaaS models.",
+        "watch": "Focus on guidance, seat growth, pricing power, and whether AI features defend revenue or cannibalize it.",
+        "risk": "High-quality software names can rebound sharply if yields fall or AI monetization improves."
+      },
+      {
+        "name": "Travel And Transports",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "Airlines and cruise lines are directly exposed to fuel-cost volatility from oil and geopolitical headlines.",
+        "watch": "Watch airlines, cruise operators, and logistics names if crude rebounds or consumer sentiment weakens.",
+        "risk": "A fast oil decline or de-escalation could squeeze shorts."
+      },
+      {
+        "name": "Small Caps",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "GDP, PCE, jobless claims, and yields make small caps the cleanest macro sensitivity check.",
+        "watch": "IWM relative strength, credit spreads, regional banks, and domestic cyclicals.",
+        "risk": "Small caps can rally hard if yields fall and macro data lands in a soft-landing zone."
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only on confirmed semiconductor momentum or a clean intraday pullback that holds support; avoid if chip breadth is weak.",
+        "suggestedProfitTake": "Take profits quickly into a 5%-10% leveraged move or near first resistance.",
+        "type": "3x leveraged semiconductors",
+        "catalyst": "AI semiconductor demand and post-earnings momentum.",
+        "why": "SOXL gives amplified exposure to the semiconductor theme when risk appetite is strong.",
+        "risk": "Leveraged ETF decay and high volatility make this unsuitable for passive holding."
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Pullback toward support or breakout confirmation if semis broaden beyond NVDA.",
+        "suggestedProfitTake": "Scale after a 3%-6% move or if AI capex headlines get crowded.",
+        "type": "semiconductor ETF",
+        "catalyst": "Nvidia and Marvell data-center demand read-throughs.",
+        "why": "SMH is a cleaner, less leveraged semiconductor basket than SOXL.",
+        "risk": "Still concentrated in mega-cap chip leadership and sensitive to rates/export controls."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Entry on confirmed crude strength or energy-sector relative strength.",
+        "suggestedProfitTake": "Scale after a 3%-5% move or if Iran/Hormuz headlines de-escalate.",
+        "type": "energy sector ETF",
+        "catalyst": "Oil volatility and geopolitical supply-risk premium.",
+        "why": "XLE provides liquid exposure to U.S. integrated energy and energy-sector hedging.",
+        "risk": "Energy momentum can fade quickly if crude falls."
+      },
+      {
+        "ticker": "USO",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Event-driven only if crude confirms a breakout on supply-risk headlines.",
+        "suggestedProfitTake": "Take profits into sharp oil spikes; do not treat as a long-term crude proxy without understanding roll effects.",
+        "type": "oil ETF",
+        "catalyst": "Strait of Hormuz and Iran-related crude volatility.",
+        "why": "USO is a direct way to watch or trade crude-oil sensitivity.",
+        "risk": "Oil headlines reverse quickly, and futures-structure effects can affect returns."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Short setup if hot macro data lifts yields and IWM fails at resistance.",
+        "suggestedProfitTake": "Cover after a 2%-4% move or near next support.",
+        "type": "Russell 2000 ETF",
+        "catalyst": "Small-cap sensitivity to rates, credit, and domestic macro data.",
+        "why": "IWM is the cleanest ETF proxy for small-cap risk appetite.",
+        "risk": "A Goldilocks macro print could trigger a sharp small-cap squeeze."
+      },
+      {
+        "ticker": "IGV",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Short setup on failed bounce if software guidance concerns broaden.",
+        "suggestedProfitTake": "Cover into a 2%-5% decline or if yields fall and software stabilizes.",
+        "type": "software ETF",
+        "catalyst": "AI disruption and mixed enterprise software guidance.",
+        "why": "IGV captures the broader SaaS/software pressure without single-name concentration.",
+        "risk": "Quality software can rebound quickly on lower rates or strong AI monetization commentary."
+      },
+      {
+        "ticker": "JETS",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Short setup if crude rebounds and airline momentum fails.",
+        "suggestedProfitTake": "Cover after a 4%-7% move or if oil retreats sharply.",
+        "type": "airline ETF",
+        "catalyst": "Fuel-cost sensitivity from oil and geopolitics.",
+        "why": "JETS is a concentrated way to watch airline exposure to crude and travel demand.",
+        "risk": "A de-escalation-driven oil drop can create a fast relief rally."
+      }
+    ],
     "stocks": [
       {
         "ticker": "NVDA",
