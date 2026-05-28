@@ -34,6 +34,14 @@ This is a static site, so it can be published with GitHub Pages, Netlify, Vercel
 
 Publishing online makes the briefing visible to anyone with the URL unless the hosting provider is configured with access control.
 
+After each local briefing update, publish the public GitHub Pages site with:
+
+```bash
+bash scripts/publish_dashboard.sh
+```
+
+The daily automation is configured to run this after it updates `data/briefings-data.js`, so the public site can refresh from the same archive.
+
 Stock watch entries support directional setups and risk/reward labels:
 
 ```json
