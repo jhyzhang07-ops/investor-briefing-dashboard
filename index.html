@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Investor Briefing Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="sidebar" aria-label="Briefing calendar and archive">
+        <div class="brand">
+          <p class="eyebrow">Daily 8:00 Asia/Shanghai</p>
+          <h1>Investor Briefing</h1>
+        </div>
+
+        <section class="calendar-panel" aria-label="Calendar">
+          <div class="calendar-head">
+            <button class="icon-button" id="prevMonth" type="button" aria-label="Previous month">&lt;</button>
+            <h2 id="calendarLabel">Calendar</h2>
+            <button class="icon-button" id="nextMonth" type="button" aria-label="Next month">&gt;</button>
+          </div>
+          <div class="weekday-row" aria-hidden="true">
+            <span>Mon</span>
+            <span>Tue</span>
+            <span>Wed</span>
+            <span>Thu</span>
+            <span>Fri</span>
+            <span>Sat</span>
+            <span>Sun</span>
+          </div>
+          <div class="calendar-grid" id="calendarGrid"></div>
+        </section>
+
+        <section class="archive-panel" aria-label="Previous briefings">
+          <div class="section-title">
+            <h2>Archive</h2>
+            <span id="briefingCount">0</span>
+          </div>
+          <label class="search-box">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Ticker, topic, source">
+          </label>
+          <div class="archive-list" id="archiveList"></div>
+        </section>
+      </aside>
+
+      <section class="content" aria-live="polite">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="selectedDateLabel">No briefing selected</p>
+            <h2 id="briefingTitle">Waiting for the first daily brief</h2>
+          </div>
+          <div class="top-actions">
+            <button id="latestButton" type="button">Latest</button>
+            <button id="printButton" type="button">Print</button>
+          </div>
+        </header>
+
+        <article class="briefing" id="briefingView">
+          <section class="empty-state">
+            <h3>No briefing archived yet</h3>
+            <p>The new automation will add the first entry here after its next 8:00 AM Asia/Shanghai run.</p>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <script src="./data/briefings-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
