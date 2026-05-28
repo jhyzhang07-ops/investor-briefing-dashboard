@@ -29,6 +29,8 @@ cat > "${plist_path}" <<PLIST
     <string>${project_dir}/app.js</string>
     <string>${project_dir}/README.md</string>
     <string>${project_dir}/data/briefings-data.js</string>
+    <string>${project_dir}/data/a-share-briefings-data.js</string>
+    <string>${project_dir}/assets/market-hero.png</string>
     <string>${project_dir}/scripts/archive_briefing.py</string>
     <string>${project_dir}/scripts/publish_dashboard.sh</string>
   </array>

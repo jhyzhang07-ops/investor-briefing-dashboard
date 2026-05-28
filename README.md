@@ -1,11 +1,11 @@
 # Investor Briefing Dashboard
 
-Open `index.html` in a browser to view the daily U.S. stock-investor briefing archive.
+Open `index.html` in a browser to choose between the U.S. stock briefing archive and the A股 briefing archive.
 
-The daily automation writes each briefing into `data/briefings-data.js`. The dashboard keeps all dates in one place, marks archived days on the calendar, and lets you search prior briefings by ticker, topic, or source.
+The U.S. daily automation writes each briefing into `data/briefings-data.js`. The A股 daily automation writes each briefing into `data/a-share-briefings-data.js`. Each dashboard keeps all dates in one place, marks archived days on the calendar, and lets you search prior briefings by ticker, topic, or source.
 
 The briefing view includes a top-priority strip, a compare-with-previous-briefing panel, stock filters, and source confidence labels.
-The briefing includes sectors to watch, ETFs to watch, and stocks to watch. ETF and stock tickers link to Yahoo Finance and include suggested entry and profit-take zones when available. The return calculator estimates long or short trade return from entry, exit, and share count.
+The briefing includes sectors to watch, ETFs to watch, and stocks to watch. ETF and stock tickers link to market quote pages and include suggested entry and profit-take zones when available. The return calculator estimates long or short trade return from entry, exit, and share count.
 
 ## Access From Phone
 
@@ -31,6 +31,8 @@ This is a static site, so it can be published with GitHub Pages, Netlify, Vercel
 - `styles.css`
 - `app.js`
 - `data/briefings-data.js`
+- `data/a-share-briefings-data.js`
+- `assets/market-hero.png`
 - `.nojekyll`
 
 Publishing online makes the briefing visible to anyone with the URL unless the hosting provider is configured with access control.
@@ -41,7 +43,7 @@ After each local briefing update, publish the public GitHub Pages site with:
 bash scripts/publish_dashboard.sh
 ```
 
-The daily automation is configured to run this after it updates `data/briefings-data.js`, so the public site can refresh from the same archive.
+The daily automations are configured to run this after they update their briefing data files, so the public site can refresh from the same archive.
 
 To avoid manually running the publish command after dashboard edits, install the macOS auto-publisher once:
 
@@ -81,6 +83,12 @@ To manually archive a briefing JSON object:
 
 ```bash
 python3 scripts/archive_briefing.py --input briefing.json
+```
+
+To manually archive an A股 briefing JSON object:
+
+```bash
+python3 scripts/archive_briefing.py --input a-share-briefing.json --data-file data/a-share-briefings-data.js --window-var A_SHARE_BRIEFINGS
 ```
 
 Each entry is keyed by `date`, so rerunning the same date replaces that day instead of creating duplicates.

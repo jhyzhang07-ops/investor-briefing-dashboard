@@ -1,19 +1,61 @@
 (function () {
-  const briefings = Array.isArray(window.MARKET_BRIEFINGS)
-    ? window.MARKET_BRIEFINGS.slice().sort((a, b) => b.date.localeCompare(a.date))
-    : [];
-
-  const byDate = new Map(briefings.map((brief) => [brief.date, brief]));
-  const latest = briefings[0] || null;
-  let selectedDate = latest ? latest.date : toDateKey(new Date());
-  let visibleMonth = latest ? monthFromKey(latest.date) : startOfMonth(new Date());
-  let searchTerm = "";
-  let stockFilters = {
-    direction: "all",
-    riskLevel: "all"
+  const MARKET_CONFIGS = {
+    us: {
+      hash: "#us",
+      bodyClass: "market-us",
+      navLabel: "US stock",
+      documentTitle: "U.S. Investor Briefing Dashboard",
+      brandTitle: "Investor Briefing",
+      dashboardEyebrow: "Daily 8:00 Asia/Shanghai",
+      source: () => window.MARKET_BRIEFINGS,
+      emptyTitle: "Waiting for the first daily U.S. brief",
+      emptyDescription: "The U.S. stock automation will add the first entry here after its next 8:00 AM Asia/Shanghai run.",
+      noDateDescription: "Select a marked calendar date, use Latest, or wait for the next scheduled 8:00 AM run.",
+      forecastTitle: "Forecast For Tonight's U.S. Market",
+      stocksTitle: "U.S. Stocks To Watch",
+      noEtfsMessage: "No ETFs archived for this briefing.",
+      noStocksMessage: "No stocks archived for this briefing.",
+      searchPlaceholder: "Ticker, topic, source",
+      currency: "USD",
+      currencyLocale: "en-US",
+      tickerUrl: (ticker) => {
+        const yahooTicker = ticker.replace(/\./g, "-").replace(/\s+/g, "");
+        return `https://finance.yahoo.com/quote/${encodeURIComponent(yahooTicker)}`;
+      },
+      tickerTitle: (ticker) => `Open ${ticker} on Yahoo Finance`
+    },
+    cn: {
+      hash: "#cn",
+      bodyClass: "market-cn",
+      navLabel: "A股",
+      documentTitle: "A股 Investor Briefing Dashboard",
+      brandTitle: "A股 Briefing",
+      dashboardEyebrow: "Daily 8:00 Asia/Shanghai",
+      source: () => window.A_SHARE_BRIEFINGS,
+      emptyTitle: "Waiting for the first daily A股 brief",
+      emptyDescription: "The A股 automation will add the first entry here after its next 8:00 AM Asia/Shanghai run.",
+      noDateDescription: "Select a marked calendar date, use Latest, or wait for the next scheduled 8:00 AM run.",
+      forecastTitle: "Forecast For Today's A股 Market",
+      stocksTitle: "A股 Stocks To Watch",
+      noEtfsMessage: "No A股 ETFs archived for this briefing.",
+      noStocksMessage: "No A股 stocks archived for this briefing.",
+      searchPlaceholder: "Ticker, sector, policy, source",
+      currency: "CNY",
+      currencyLocale: "zh-CN",
+      tickerUrl: (ticker) => getAshareTickerUrl(ticker),
+      tickerTitle: (ticker) => `Open ${ticker} on Eastmoney`
+    }
   };
 
+  const marketStates = {};
+  let currentMarketKey = null;
+  let currentMarket = null;
+
   const els = {
+    landingView: document.getElementById("landingView"),
+    dashboardShell: document.getElementById("dashboardShell"),
+    brandTitle: document.getElementById("brandTitle"),
+    dashboardEyebrow: document.getElementById("dashboardEyebrow"),
     calendarGrid: document.getElementById("calendarGrid"),
     calendarLabel: document.getElementById("calendarLabel"),
     archiveList: document.getElementById("archiveList"),
@@ -25,34 +67,123 @@
     prevMonth: document.getElementById("prevMonth"),
     nextMonth: document.getElementById("nextMonth"),
     latestButton: document.getElementById("latestButton"),
-    printButton: document.getElementById("printButton")
+    printButton: document.getElementById("printButton"),
+    marketLinks: Array.from(document.querySelectorAll("[data-open-market]"))
   };
 
   els.prevMonth.addEventListener("click", () => {
-    visibleMonth = addMonths(visibleMonth, -1);
+    const state = getCurrentState();
+    if (!state) return;
+    state.visibleMonth = addMonths(state.visibleMonth, -1);
     renderCalendar();
   });
 
   els.nextMonth.addEventListener("click", () => {
-    visibleMonth = addMonths(visibleMonth, 1);
+    const state = getCurrentState();
+    if (!state) return;
+    state.visibleMonth = addMonths(state.visibleMonth, 1);
     renderCalendar();
   });
 
   els.latestButton.addEventListener("click", () => {
-    if (!latest) return;
-    selectedDate = latest.date;
-    visibleMonth = monthFromKey(latest.date);
+    const state = getCurrentState();
+    if (!state || !state.latest) return;
+    state.selectedDate = state.latest.date;
+    state.visibleMonth = monthFromKey(state.latest.date);
     render();
   });
 
   els.printButton.addEventListener("click", () => window.print());
 
   els.searchInput.addEventListener("input", (event) => {
-    searchTerm = event.target.value.trim().toLowerCase();
+    const state = getCurrentState();
+    if (!state) return;
+    state.searchTerm = event.target.value.trim().toLowerCase();
     renderArchive();
   });
 
-  render();
+  window.addEventListener("hashchange", syncRoute);
+  syncRoute();
+
+  function syncRoute() {
+    const marketKey = marketKeyFromHash(window.location.hash);
+    if (!marketKey) {
+      showLanding();
+      return;
+    }
+    showMarket(marketKey);
+  }
+
+  function showLanding() {
+    currentMarketKey = null;
+    currentMarket = null;
+    document.title = "Investor Briefing Dashboard";
+    document.body.classList.remove("dashboard-active", "market-us", "market-cn");
+    document.body.classList.add("landing-active");
+    els.landingView.hidden = false;
+    els.dashboardShell.hidden = true;
+    setActiveMarketLinks(null);
+  }
+
+  function showMarket(marketKey) {
+    currentMarketKey = marketKey;
+    currentMarket = MARKET_CONFIGS[marketKey];
+    marketStates[marketKey] = marketStates[marketKey] || createMarketState(currentMarket);
+
+    document.title = currentMarket.documentTitle;
+    document.body.classList.remove("landing-active", "market-us", "market-cn");
+    document.body.classList.add("dashboard-active", currentMarket.bodyClass);
+    els.landingView.hidden = true;
+    els.dashboardShell.hidden = false;
+
+    syncMarketChrome();
+    render();
+  }
+
+  function syncMarketChrome() {
+    const state = getCurrentState();
+    els.brandTitle.textContent = currentMarket.brandTitle;
+    els.dashboardEyebrow.textContent = currentMarket.dashboardEyebrow;
+    els.searchInput.placeholder = currentMarket.searchPlaceholder;
+    els.searchInput.value = state.searchTerm;
+    setActiveMarketLinks(currentMarketKey);
+  }
+
+  function setActiveMarketLinks(marketKey) {
+    els.marketLinks.forEach((link) => {
+      const isActive = link.dataset.openMarket === marketKey;
+      link.classList.toggle("active", isActive);
+      if (isActive) {
+        link.setAttribute("aria-current", "page");
+      } else {
+        link.removeAttribute("aria-current");
+      }
+    });
+  }
+
+  function createMarketState(config) {
+    const briefings = Array.isArray(config.source())
+      ? config.source().slice().sort((a, b) => b.date.localeCompare(a.date))
+      : [];
+    const latest = briefings[0] || null;
+
+    return {
+      briefings,
+      byDate: new Map(briefings.map((brief) => [brief.date, brief])),
+      latest,
+      selectedDate: latest ? latest.date : toDateKey(new Date()),
+      visibleMonth: latest ? monthFromKey(latest.date) : startOfMonth(new Date()),
+      searchTerm: "",
+      stockFilters: {
+        direction: "all",
+        riskLevel: "all"
+      }
+    };
+  }
+
+  function getCurrentState() {
+    return currentMarketKey ? marketStates[currentMarketKey] : null;
+  }
 
   function render() {
     renderCalendar();
@@ -61,12 +192,15 @@
   }
 
   function renderCalendar() {
-    els.calendarLabel.textContent = visibleMonth.toLocaleDateString("en-US", {
+    const state = getCurrentState();
+    if (!state) return;
+
+    els.calendarLabel.textContent = state.visibleMonth.toLocaleDateString("en-US", {
       month: "long",
       year: "numeric"
     });
 
-    const first = startOfMonth(visibleMonth);
+    const first = startOfMonth(state.visibleMonth);
     const offset = (first.getDay() + 6) % 7;
     const start = addDays(first, -offset);
     const days = Array.from({ length: 42 }, (_, index) => addDays(start, index));
@@ -75,31 +209,34 @@
       const key = toDateKey(day);
       const classes = [
         "day-button",
-        day.getMonth() === visibleMonth.getMonth() ? "in-month" : "",
-        byDate.has(key) ? "has-brief" : "",
-        key === selectedDate ? "active" : ""
+        day.getMonth() === state.visibleMonth.getMonth() ? "in-month" : "",
+        state.byDate.has(key) ? "has-brief" : "",
+        key === state.selectedDate ? "active" : ""
       ].filter(Boolean).join(" ");
       return `<button class="${classes}" type="button" data-date="${key}" aria-label="${key}">${day.getDate()}</button>`;
     }).join("");
 
     els.calendarGrid.querySelectorAll("button").forEach((button) => {
       button.addEventListener("click", () => {
-        selectedDate = button.dataset.date;
+        state.selectedDate = button.dataset.date;
         render();
       });
     });
   }
 
   function renderArchive() {
-    const filtered = briefings.filter((brief) => {
-      if (!searchTerm) return true;
-      return JSON.stringify(brief).toLowerCase().includes(searchTerm);
+    const state = getCurrentState();
+    if (!state) return;
+
+    const filtered = state.briefings.filter((brief) => {
+      if (!state.searchTerm) return true;
+      return JSON.stringify(brief).toLowerCase().includes(state.searchTerm);
     });
 
-    els.briefingCount.textContent = String(briefings.length);
+    els.briefingCount.textContent = String(state.briefings.length);
     els.archiveList.innerHTML = filtered.length
       ? filtered.map((brief) => `
-          <button class="archive-item ${brief.date === selectedDate ? "active" : ""}" type="button" data-date="${escapeHtml(brief.date)}">
+          <button class="archive-item ${brief.date === state.selectedDate ? "active" : ""}" type="button" data-date="${escapeHtml(brief.date)}">
             <strong>${escapeHtml(displayDate(brief.date))}</strong>
             <span>${escapeHtml(brief.tone || brief.title || "Daily briefing")}</span>
           </button>
@@ -108,26 +245,29 @@
 
     els.archiveList.querySelectorAll("button").forEach((button) => {
       button.addEventListener("click", () => {
-        selectedDate = button.dataset.date;
-        visibleMonth = monthFromKey(selectedDate);
+        state.selectedDate = button.dataset.date;
+        state.visibleMonth = monthFromKey(state.selectedDate);
         render();
       });
     });
   }
 
   function renderBriefing() {
-    const brief = byDate.get(selectedDate);
+    const state = getCurrentState();
+    if (!state) return;
+
+    const brief = state.byDate.get(state.selectedDate);
 
     els.selectedDateLabel.textContent = brief
       ? `${displayDate(brief.date)} | ${brief.timezone || "Asia/Shanghai"}`
-      : `${displayDate(selectedDate)} | No archive entry`;
+      : `${displayDate(state.selectedDate)} | No archive entry`;
     els.briefingTitle.textContent = brief ? brief.title : "No briefing for this date";
 
     if (!brief) {
       els.briefingView.innerHTML = `
         <section class="empty-state">
-          <h3>No briefing for ${escapeHtml(displayDate(selectedDate))}</h3>
-          <p>Select a marked calendar date, use Latest, or wait for the next scheduled 8:00 AM run.</p>
+          <h3>${state.briefings.length ? `No briefing for ${escapeHtml(displayDate(state.selectedDate))}` : escapeHtml(currentMarket.emptyTitle)}</h3>
+          <p>${escapeHtml(state.briefings.length ? currentMarket.noDateDescription : currentMarket.emptyDescription)}</p>
         </section>
       `;
       return;
@@ -146,10 +286,10 @@
       </section>
 
       ${renderSection("Compare With Previous Briefing", renderComparePanel(brief))}
-      ${renderSection("Forecast For Tonight's U.S. Market", renderList(brief.forecast, "forecast-list"))}
+      ${renderSection(currentMarket.forecastTitle, renderList(brief.forecast, "forecast-list"))}
       ${renderSection("Sectors To Watch", renderSectors(brief.sectors))}
-      ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, "No ETFs archived for this briefing."))}
-      ${renderSection("U.S. Stocks To Watch", renderStocks(brief.stocks))}
+      ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, currentMarket.noEtfsMessage))}
+      ${renderSection(currentMarket.stocksTitle, renderStocks(brief.stocks))}
       ${renderSection("Return Calculator", renderCalculator())}
       ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
       ${renderSection("Sources", renderSources(brief.sources))}
@@ -258,7 +398,7 @@
 
   function renderStocks(stocks) {
     const safeStocks = Array.isArray(stocks) ? stocks : [];
-    if (!safeStocks.length) return `<p class="empty-note">No stocks archived for this briefing.</p>`;
+    if (!safeStocks.length) return `<p class="empty-note">${escapeHtml(currentMarket.noStocksMessage)}</p>`;
     const filteredStocks = safeStocks.filter((stock) => stockMatchesFilters(stock));
 
     return `
@@ -349,13 +489,12 @@
   }
 
   function renderTickerLinks(tickerValue) {
-    const tickers = String(tickerValue || "N/A").split("/");
+    const tickers = String(tickerValue || "N/A").split(/[\/,，、]+/);
     return tickers.map((ticker) => {
       const cleanTicker = ticker.trim();
       if (!cleanTicker || cleanTicker === "N/A") return escapeHtml(cleanTicker || "N/A");
-      const yahooTicker = cleanTicker.replace(/\./g, "-").replace(/\s+/g, "");
-      const href = `https://finance.yahoo.com/quote/${encodeURIComponent(yahooTicker)}`;
-      return `<a href="${href}" target="_blank" rel="noreferrer" title="Open ${escapeAttribute(cleanTicker)} on Yahoo Finance">${escapeHtml(cleanTicker)}</a>`;
+      const href = currentMarket.tickerUrl(cleanTicker);
+      return `<a href="${escapeAttribute(href)}" target="_blank" rel="noreferrer" title="${escapeAttribute(currentMarket.tickerTitle(cleanTicker))}">${escapeHtml(cleanTicker)}</a>`;
     }).join("<span>/</span>");
   }
 
@@ -372,7 +511,7 @@
         </label>
         <label>
           <span>Shares</span>
-          <input id="calcShares" type="number" inputmode="decimal" min="0" step="1" placeholder="10">
+          <input id="calcShares" type="number" inputmode="decimal" min="0" step="1" placeholder="100">
         </label>
         <label>
           <span>Direction</span>
@@ -420,24 +559,27 @@
   }
 
   function filterButton(group, value, label) {
-    const active = stockFilters[group] === value ? "active" : "";
+    const state = getCurrentState();
+    const active = state.stockFilters[group] === value ? "active" : "";
     return `<button class="filter-chip ${active}" type="button" data-filter-group="${escapeAttribute(group)}" data-filter-value="${escapeAttribute(value)}">${escapeHtml(label)}</button>`;
   }
 
   function attachStockFilterHandlers() {
     els.briefingView.querySelectorAll("[data-filter-group]").forEach((button) => {
       button.addEventListener("click", () => {
-        stockFilters[button.dataset.filterGroup] = button.dataset.filterValue;
+        const state = getCurrentState();
+        state.stockFilters[button.dataset.filterGroup] = button.dataset.filterValue;
         renderBriefing();
       });
     });
   }
 
   function stockMatchesFilters(stock) {
+    const state = getCurrentState();
     const direction = normalizeDirection(stock.direction).className;
     const riskLevel = normalizeRiskLevel(stock.riskLevel).value;
-    return (stockFilters.direction === "all" || stockFilters.direction === direction)
-      && (stockFilters.riskLevel === "all" || stockFilters.riskLevel === riskLevel);
+    return (state.stockFilters.direction === "all" || state.stockFilters.direction === direction)
+      && (state.stockFilters.riskLevel === "all" || state.stockFilters.riskLevel === riskLevel);
   }
 
   function normalizeDirection(direction) {
@@ -478,13 +620,14 @@
   }
 
   function getPreviousBriefing(date) {
-    const index = briefings.findIndex((brief) => brief.date === date);
-    return index >= 0 ? briefings[index + 1] || null : null;
+    const state = getCurrentState();
+    const index = state.briefings.findIndex((brief) => brief.date === date);
+    return index >= 0 ? state.briefings[index + 1] || null : null;
   }
 
   function flattenStocks(stocks) {
     return (Array.isArray(stocks) ? stocks : []).flatMap((stock) => {
-      const tickers = String(stock.ticker || "N/A").split("/");
+      const tickers = String(stock.ticker || "N/A").split(/[\/,，、]+/);
       return tickers.map((ticker) => {
         const cleanTicker = ticker.trim();
         const direction = normalizeDirection(stock.direction);
@@ -499,6 +642,32 @@
         };
       });
     });
+  }
+
+  function marketKeyFromHash(hash) {
+    const normalized = decodeURIComponent(String(hash || "").replace(/^#/, "")).trim().toLowerCase();
+    if (["us", "us-stock", "usstock", "usa"].includes(normalized)) return "us";
+    if (["cn", "a", "ashare", "a-share", "china", "a股"].includes(normalized)) return "cn";
+    return null;
+  }
+
+  function getAshareTickerUrl(ticker) {
+    const clean = ticker.trim().toUpperCase();
+    const match = clean.match(/^(\d{6})(?:\.(SH|SS|SZ|BJ))?$/);
+    if (!match) {
+      return `https://www.eastmoney.com/`;
+    }
+
+    const code = match[1];
+    const exchange = match[2] || inferAshareExchange(code);
+    const eastmoneyPrefix = exchange === "SZ" ? "sz" : exchange === "BJ" ? "bj" : "sh";
+    return `https://quote.eastmoney.com/${eastmoneyPrefix}${code}.html`;
+  }
+
+  function inferAshareExchange(code) {
+    if (/^[023]/.test(code)) return "SZ";
+    if (/^[48]/.test(code)) return "BJ";
+    return "SH";
   }
 
   function toDateKey(date) {
@@ -551,9 +720,9 @@
   }
 
   function formatCurrency(value) {
-    return new Intl.NumberFormat("en-US", {
+    return new Intl.NumberFormat(currentMarket.currencyLocale, {
       style: "currency",
-      currency: "USD",
+      currency: currentMarket.currency,
       maximumFractionDigits: 2
     }).format(value);
   }

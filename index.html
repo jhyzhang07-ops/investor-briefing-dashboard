@@ -7,11 +7,26 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <main class="shell">
+    <main class="landing" id="landingView">
+      <section class="landing-content" aria-label="Choose a market briefing">
+        <p class="eyebrow">Daily 8:00 Asia/Shanghai</p>
+        <h1>Investor Briefing</h1>
+        <nav class="market-entry-actions" aria-label="Market briefing dashboards">
+          <a class="market-entry-button us" href="#us" data-open-market="us">US stock</a>
+          <a class="market-entry-button cn" href="#cn" data-open-market="cn">A股</a>
+        </nav>
+      </section>
+    </main>
+
+    <main class="shell dashboard-shell" id="dashboardShell" hidden>
       <aside class="sidebar" aria-label="Briefing calendar and archive">
         <div class="brand">
-          <p class="eyebrow">Daily 8:00 Asia/Shanghai</p>
-          <h1>Investor Briefing</h1>
+          <p class="eyebrow" id="dashboardEyebrow">Daily 8:00 Asia/Shanghai</p>
+          <h1 id="brandTitle">Investor Briefing</h1>
+          <nav class="market-switch" aria-label="Switch market briefing">
+            <a href="#us" data-open-market="us">US stock</a>
+            <a href="#cn" data-open-market="cn">A股</a>
+          </nav>
         </div>
 
         <section class="calendar-panel" aria-label="Calendar">
@@ -67,6 +82,7 @@
     </main>
 
     <script src="./data/briefings-data.js"></script>
+    <script src="./data/a-share-briefings-data.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
