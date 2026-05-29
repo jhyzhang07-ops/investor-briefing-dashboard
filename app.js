@@ -507,6 +507,158 @@
     return `<ul class="${className}">${safeItems.map((item) => `<li>${escapeHtml(String(item))}</li>`).join("")}</ul>`;
   }
 
+  function renderActionBoard(brief) {
+    const board = buildActionBoard(brief);
+    const labels = currentMarket.actionLabels;
+    const cards = [
+      [labels.bestLong, board.bestLong],
+      [labels.bestShort, board.bestShort],
+      [labels.bestEtf, board.bestEtf],
+      [labels.highestRisk, board.highestRiskOpportunity],
+      [labels.avoidWait, board.avoidWait]
+    ];
+
+    return `
+      <div class="action-board">
+        ${cards.map(([label, item]) => renderActionCard(label, item)).join("")}
+      </div>
+    `;
+  }
+
+  function buildActionBoard(brief) {
+    if (brief.actionBoard && typeof brief.actionBoard === "object") {
+      return brief.actionBoard;
+    }
+
+    const stocks = Array.isArray(brief.stocks) ? brief.stocks : [];
+    const smallCaps = Array.isArray(brief.smallCaps) ? brief.smallCaps : [];
+    const etfs = Array.isArray(brief.etfs) ? brief.etfs : [];
+    const sectors = Array.isArray(brief.sectors) ? brief.sectors : [];
+    const allItems = [...stocks, ...smallCaps, ...etfs];
+    const longs = allItems.filter((item) => normalizeDirection(item.direction).className === "long");
+    const shorts = allItems.filter((item) => normalizeDirection(item.direction).className === "short");
+    const redItems = allItems.filter((item) => normalizeRiskLevel(item.riskLevel).value === "red");
+    const shortSector = sectors.find((sector) => normalizeDirection(sector.direction).className === "short");
+
+    return {
+      bestLong: actionFromWatchItem(bestByConviction(longs), "Best long setup from today's watchlist."),
+      bestShort: actionFromWatchItem(bestByConviction(shorts), "Best downside or hedge setup from today's watchlist."),
+      bestEtf: actionFromWatchItem(bestByConviction(etfs), "Most relevant ETF expression for today's market setup."),
+      highestRiskOpportunity: actionFromWatchItem(bestByConviction(redItems), "Highest-volatility setup; size carefully and avoid passive holding."),
+      avoidWait: shortSector
+        ? {
+            title: shortSector.name,
+            direction: shortSector.direction,
+            riskLevel: shortSector.riskLevel,
+            setup: shortSector.watch || shortSector.catalyst,
+            reason: shortSector.risk || shortSector.catalyst,
+            convictionScore: 3,
+            timeframe: "trade"
+          }
+        : actionFromWatchItem(shorts[0], "Avoid chasing until the setup confirms.")
+    };
+  }
+
+  function actionFromWatchItem(item, fallbackReason) {
+    if (!item) {
+      return {
+        title: "No clear setup",
+        setup: "Wait for confirmation",
+        reason: fallbackReason,
+        convictionScore: 1,
+        timeframe: "trade"
+      };
+    }
+
+    return {
+      ticker: item.ticker,
+      chineseName: item.chineseName,
+      title: item.title || item.ticker || item.name || item.type,
+      direction: item.direction,
+      riskLevel: item.riskLevel,
+      setup: item.setup || item.suggestedBuyPrice || item.entry || "Watch for confirmation",
+      reason: item.reason || item.why || item.catalyst || fallbackReason,
+      convictionScore: getConvictionScore(item),
+      timeframe: getTimeframe(item).value
+    };
+  }
+
+  function bestByConviction(items) {
+    return items.slice().sort((a, b) => getConvictionScore(b) - getConvictionScore(a))[0] || null;
+  }
+
+  function renderActionCard(label, item) {
+    const safeItem = item && typeof item === "object" ? item : { title: String(item || "No clear setup") };
+    const direction = normalizeDirection(safeItem.direction);
+    const riskLevel = normalizeRiskLevel(safeItem.riskLevel);
+    const timeframe = getTimeframe(safeItem);
+    const tickerHtml = safeItem.ticker
+      ? `<div class="action-ticker">${renderTickerBlock(safeItem)}</div>`
+      : `<div class="action-ticker">${escapeHtml(safeItem.title || "No clear setup")}</div>`;
+
+    return `
+      <article class="action-card">
+        <span>${escapeHtml(label)}</span>
+        ${tickerHtml}
+        <div class="stock-meta">
+          <span class="direction-pill ${direction.className}">${escapeHtml(direction.label)}</span>
+          <span class="risk-pill ${riskLevel.className}">${escapeHtml(riskLevel.label)}</span>
+          ${renderTimeframePill(timeframe)}
+          ${renderConvictionBadge(safeItem)}
+        </div>
+        <p><strong>${escapeHtml(currentMarket.cardLabels.setup)}:</strong> ${escapeHtml(safeItem.setup || safeItem.action || "Watch for confirmation")}</p>
+        <p><strong>${escapeHtml(currentMarket.cardLabels.reason)}:</strong> ${escapeHtml(safeItem.reason || safeItem.rationale || safeItem.why || "No rationale archived.")}</p>
+      </article>
+    `;
+  }
+
+  function renderCatalystCalendar(items) {
+    const safeItems = Array.isArray(items) ? items : [];
+    if (!safeItems.length) return `<p class="empty-note">Catalyst calendar will populate from the next enhanced briefing.</p>`;
+
+    return `
+      <div class="catalyst-list">
+        ${safeItems.map((item) => `
+          <article class="catalyst-card">
+            <div>
+              <span>${escapeHtml(item.date || item.time || "Upcoming")}</span>
+              <strong>${escapeHtml(item.event || item.title || "Market catalyst")}</strong>
+            </div>
+            <p><strong>${escapeHtml(currentMarket.cardLabels.watch)}:</strong> ${escapeHtml(item.watch || item.why || item.impact || "Watch for market reaction.")}</p>
+            ${item.relatedTickers ? `<p><strong>Tickers:</strong> ${escapeHtml(String(item.relatedTickers))}</p>` : ""}
+          </article>
+        `).join("")}
+      </div>
+    `;
+  }
+
+  function renderPerformanceTracker(items) {
+    const safeItems = Array.isArray(items) ? items : [];
+    if (!safeItems.length) return `<p class="empty-note">Performance notes will appear after calls have enough time to be judged.</p>`;
+
+    return `
+      <div class="tracker-list">
+        ${safeItems.map((item) => {
+          const status = normalizeTrackerStatus(item.status || item.outcome);
+          return `
+            <article class="tracker-card ${status.className}">
+              <div class="tracker-head">
+                <div>
+                  <span>${escapeHtml(item.date || item.callDate || "Prior call")}</span>
+                  <strong>${escapeHtml(item.ticker || item.title || item.call || "Tracked idea")}</strong>
+                  ${item.chineseName ? `<small>${escapeHtml(item.chineseName)}</small>` : ""}
+                </div>
+                <b>${escapeHtml(status.label)}</b>
+              </div>
+              <p><strong>${escapeHtml(currentMarket.cardLabels.outcome)}:</strong> ${escapeHtml(item.result || item.outcome || "Pending.")}</p>
+              <p><strong>${escapeHtml(currentMarket.cardLabels.lesson)}:</strong> ${escapeHtml(item.lesson || item.note || "No lesson archived yet.")}</p>
+            </article>
+          `;
+        }).join("")}
+      </div>
+    `;
+  }
+
   function renderMarketPulse(pulse) {
     if (!pulse || typeof pulse !== "object") {
       return `<p class="empty-note">No market pulse archived.</p>`;
