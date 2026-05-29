@@ -444,13 +444,11 @@
       ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, currentMarket.noEtfsMessage), "brief-etfs")}
       ${renderSection(currentMarket.sectionTitles.catalysts, renderCatalystCalendar(brief.catalystCalendar), "brief-catalysts")}
       ${renderSection(currentMarket.sectionTitles.performance, renderPerformanceTracker(brief.performanceTracker), "brief-performance")}
-      ${renderSection("Return Calculator", renderCalculator(), "brief-calculator")}
       ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
       ${renderSection("Sources", renderSources(brief.sources), "brief-sources")}
     `;
 
     attachStockFilterHandlers();
-    attachCalculatorHandlers();
     attachJumpHandlers();
   }
 
