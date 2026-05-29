@@ -1199,6 +1199,10 @@ button:focus-visible {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .calculator-results {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sector-grid {
     grid-template-columns: 1fr;
   }
@@ -1234,6 +1238,20 @@ button:focus-visible {
     padding: 18px;
   }
 
+  .topbar-banner {
+    display: grid;
+  }
+
+  .top-tabs,
+  .top-actions {
+    width: 100%;
+  }
+
+  .top-tabs a,
+  .top-tabs button {
+    flex: 1;
+  }
+
   .topbar h2 {
     font-size: 23px;
   }
@@ -1259,6 +1277,7 @@ button:focus-visible {
   }
 
   .calculator-grid,
+  .calculator-results,
   .trade-levels {
     grid-template-columns: 1fr;
   }
@@ -1270,6 +1289,7 @@ button:focus-visible {
 
 @media print {
   .sidebar,
+  .top-tabs,
   .top-actions {
     display: none;
   }
