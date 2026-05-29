@@ -392,6 +392,8 @@ button:focus-visible {
 
 .top-actions {
   gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .briefing {

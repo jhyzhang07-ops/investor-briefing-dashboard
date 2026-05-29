@@ -66,6 +66,7 @@
     searchInput: document.getElementById("searchInput"),
     prevMonth: document.getElementById("prevMonth"),
     nextMonth: document.getElementById("nextMonth"),
+    homeButton: document.getElementById("homeButton"),
     latestButton: document.getElementById("latestButton"),
     printButton: document.getElementById("printButton"),
     marketLinks: Array.from(document.querySelectorAll("[data-open-market]"))
@@ -83,6 +84,11 @@
     if (!state) return;
     state.visibleMonth = addMonths(state.visibleMonth, 1);
     renderCalendar();
+  });
+
+  els.homeButton.addEventListener("click", () => {
+    history.pushState(null, "", `${window.location.pathname}${window.location.search}`);
+    showLanding();
   });
 
   els.latestButton.addEventListener("click", () => {
