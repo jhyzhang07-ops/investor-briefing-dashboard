@@ -598,6 +598,103 @@ button:focus-visible {
   margin-top: 12px;
 }
 
+.action-board {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.action-card,
+.catalyst-card,
+.tracker-card {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 13px;
+  background: var(--card-bg);
+}
+
+.action-card > span,
+.catalyst-card span,
+.tracker-head span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.action-ticker {
+  margin: 5px 0 8px;
+  font-size: 20px;
+  font-weight: 950;
+  line-height: 1.1;
+}
+
+.action-ticker a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.action-card p,
+.catalyst-card p,
+.tracker-card p {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.catalyst-list,
+.tracker-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.catalyst-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.35fr) minmax(0, 1fr);
+  gap: 12px;
+}
+
+.catalyst-card strong,
+.tracker-head strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.tracker-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tracker-head b {
+  border-radius: 999px;
+  padding: 4px 9px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 12px;
+}
+
+.tracker-card.hit .tracker-head b {
+  background: #e8f6e9;
+  color: #276433;
+}
+
+.tracker-card.miss .tracker-head b {
+  background: #ffe8e3;
+  color: #a12d1f;
+}
+
+.tracker-card small {
+  display: block;
+  color: var(--muted);
+  font-weight: 800;
+}
+
 .compare-card {
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -753,7 +850,9 @@ button:focus-visible {
 }
 
 .direction-pill,
-.risk-pill {
+.risk-pill,
+.timeframe-pill,
+.conviction-badge {
   display: inline-flex;
   min-height: 26px;
   align-items: center;
@@ -810,6 +909,30 @@ button:focus-visible {
   border: 1px solid #86bd91;
   background: #e8f6e9;
   color: #276433;
+}
+
+.timeframe-pill.trade {
+  border: 1px solid #d59a91;
+  background: #fae9e6;
+  color: #9a2f23;
+}
+
+.timeframe-pill.swing {
+  border: 1px solid #e0bd62;
+  background: #fff5d8;
+  color: #7a5513;
+}
+
+.timeframe-pill.investment {
+  border: 1px solid #86bd91;
+  background: #e8f6e9;
+  color: #276433;
+}
+
+.conviction-badge {
+  border: 1px solid var(--line);
+  background: #ffffff;
+  color: var(--ink);
 }
 
 .trade-levels {
@@ -960,6 +1083,14 @@ button:focus-visible {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .action-board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .catalyst-card {
+    grid-template-columns: 1fr;
+  }
+
   .calculator-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1016,6 +1147,10 @@ button:focus-visible {
   }
 
   .compare-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .action-board {
     grid-template-columns: 1fr;
   }
 
