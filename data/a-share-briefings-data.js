@@ -62,6 +62,88 @@ window.A_SHARE_BRIEFINGS = [
       "风险情景：地产与信用链条仍是最明显的负反馈来源，若市场继续放大“信贷靠行政推动、真实需求不足”的解读，地产链、建材、可选消费和部分地方金融资产可能承压。",
       "周末前瞻：国家统计局发布日程显示5月31日将公布5月PMI。若市场抢跑改善预期，周期与制造业设备可能提前异动；若预期偏弱，高股息和宽基ETF更适合做仓位缓冲。"
     ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "300308.SZ",
+        "chineseName": "中际旭创",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "只在回踩5日线不破并重新放量时考虑，避免无量追高。",
+        "reason": "AI光模块仍是A股科技弹性最强的方向之一，但波动很高。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "000002.SZ",
+        "chineseName": "万科A",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "今天地产股实际上涨，原先偏空判断需要降权；只把它作为风险复盘，不继续机械看空。",
+        "reason": "地产基本面仍弱，但短线政策预期和资金轮动可能压过基本面，说明方向判断需要加入盘面确认。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "588000.SH",
+        "chineseName": "科创50ETF",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "回踩不破并重新放量时分批，放量滞涨则不追。",
+        "reason": "科创和硬科技仍是当前资金最集中的进攻方向。",
+        "convictionScore": 4,
+        "timeframe": "swing"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "159995.SZ",
+        "chineseName": "芯片ETF",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "突破平台后跟随或回踩20日线观察。",
+        "reason": "半导体链有政策和产业催化，但拥挤度高，日内回撤会很快。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "000002.SZ",
+        "chineseName": "万科A",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "等待地产反弹量能和政策持续性确认，不再仅凭弱基本面直接做空判断。",
+        "reason": "用户反馈今天地产股上涨，说明短线交易面与基本面判断发生背离。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-05-29",
+        "event": "月末流动性与公开市场操作",
+        "watch": "央行OMO、资金价格和大行信贷投放口径是否继续支撑风险偏好。",
+        "relatedTickers": "510300.SH, 510050.SH, 512000.SH"
+      },
+      {
+        "date": "2026-05-31",
+        "event": "5月PMI公布",
+        "watch": "制造业景气是否验证科技、设备和周期品种的提前交易。",
+        "relatedTickers": "588000.SH, 159995.SZ, 512480.SH"
+      },
+      {
+        "date": "持续跟踪",
+        "event": "地产政策与地产股反弹持续性",
+        "watch": "今天地产股上涨修正了原先偏空判断；后续重点看反弹是否有成交、政策和信用改善支撑。",
+        "relatedTickers": "000002.SZ, 地产ETF, 建材家居链"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-05-29",
+        "ticker": "000002.SZ",
+        "chineseName": "万科A",
+        "status": "miss",
+        "result": "地产股今天上涨，原先“地产链偏弱/看空”的短线判断没有命中。",
+        "lesson": "地产基本面弱不等于股价当天必跌。以后地产链判断需要同时加入政策预期、成交量、超跌反弹和资金轮动确认。"
+      }
+    ],
     "sectors": [
       {
         "name": "半导体 / 存储链",
