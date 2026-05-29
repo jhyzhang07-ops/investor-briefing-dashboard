@@ -323,6 +323,7 @@
   }
 
   function render() {
+    syncMarketChrome();
     renderCalendar();
     renderArchive();
     renderBriefing();
