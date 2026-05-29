@@ -5,7 +5,7 @@ Open `index.html` in a browser to choose between the U.S. stock briefing archive
 The U.S. daily automation writes each briefing into `data/briefings-data.js`. The A股 daily automation writes each briefing into `data/a-share-briefings-data.js`. Each dashboard keeps all dates in one place, marks archived days on the calendar, and lets you search prior briefings by ticker, topic, or source.
 
 The briefing view includes a top-priority strip, a compare-with-previous-briefing panel, stock filters, and source confidence labels.
-The briefing includes sectors to watch, ETFs to watch, and stocks to watch. ETF and stock tickers link to market quote pages and include suggested entry and profit-take zones when available. The return calculator estimates long or short trade return from entry, exit, and share count.
+The briefing includes sectors to watch, individual stocks to watch, small-cap stocks to watch, and ETFs to watch. ETFs are shown after the individual stock sections. ETF and stock tickers link to market quote pages and include suggested entry and profit-take zones when available. The return calculator estimates long or short trade return from entry, exit, and share count.
 
 ## Access From Phone
 
@@ -78,6 +78,8 @@ Risk colors mean `red` = high risk / potentially large return, `yellow` = medium
 Source confidence labels should be one of `Primary`, `Market data`, `High-quality reporting`, `Calendar`, or `Context`.
 
 ETF watch entries use the same shape as stock entries. Leveraged ETFs such as `SOXL`, `SOXS`, `TQQQ`, or `SQQQ` should usually be marked higher risk unless the setup is unusually controlled.
+
+Small-cap watch entries live under `smallCaps`. For A股 stock and A股 small-cap entries, include `chineseName` so the dashboard can show the Chinese name under the code.
 
 To manually archive a briefing JSON object:
 

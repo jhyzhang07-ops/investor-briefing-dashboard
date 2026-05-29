@@ -645,6 +645,15 @@ button:focus-visible {
   padding: 0 2px;
 }
 
+.ticker small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
 .stock-detail {
   min-width: 0;
 }

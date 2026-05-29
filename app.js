@@ -13,8 +13,10 @@
       noDateDescription: "Select a marked calendar date, use Latest, or wait for the next scheduled 8:00 AM run.",
       forecastTitle: "Forecast For Tonight's U.S. Market",
       stocksTitle: "U.S. Stocks To Watch",
+      smallCapsTitle: "U.S. Small-Cap Stocks To Watch",
       noEtfsMessage: "No ETFs archived for this briefing.",
       noStocksMessage: "No stocks archived for this briefing.",
+      noSmallCapsMessage: "No U.S. small-cap stocks archived for this briefing.",
       searchPlaceholder: "Ticker, topic, source",
       currency: "USD",
       currencyLocale: "en-US",
@@ -37,8 +39,10 @@
       noDateDescription: "Select a marked calendar date, use Latest, or wait for the next scheduled 8:00 AM run.",
       forecastTitle: "Forecast For Today's A股 Market",
       stocksTitle: "A股 Stocks To Watch",
+      smallCapsTitle: "A股 小盘股观察",
       noEtfsMessage: "No A股 ETFs archived for this briefing.",
       noStocksMessage: "No A股 stocks archived for this briefing.",
+      noSmallCapsMessage: "No A股 small-cap stocks archived for this briefing.",
       searchPlaceholder: "Ticker, sector, policy, source",
       currency: "CNY",
       currencyLocale: "zh-CN",
@@ -294,8 +298,9 @@
       ${renderSection("Compare With Previous Briefing", renderComparePanel(brief))}
       ${renderSection(currentMarket.forecastTitle, renderList(brief.forecast, "forecast-list"))}
       ${renderSection("Sectors To Watch", renderSectors(brief.sectors))}
-      ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, currentMarket.noEtfsMessage))}
       ${renderSection(currentMarket.stocksTitle, renderStocks(brief.stocks))}
+      ${renderSection(currentMarket.smallCapsTitle, renderWatchCards(brief.smallCaps, currentMarket.noSmallCapsMessage))}
+      ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, currentMarket.noEtfsMessage))}
       ${renderSection("Return Calculator", renderCalculator())}
       ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
       ${renderSection("Sources", renderSources(brief.sources))}
@@ -466,7 +471,7 @@
           const riskLevel = normalizeRiskLevel(item.riskLevel);
           return `
             <div class="stock-row">
-              <div class="ticker">${renderTickerLinks(item.ticker)}</div>
+              <div class="ticker">${renderTickerBlock(item)}</div>
               <div class="stock-detail">
                 <div class="stock-meta">
                   <span class="direction-pill ${direction.className}">${escapeHtml(direction.label)}</span>
@@ -502,6 +507,14 @@
       const href = currentMarket.tickerUrl(cleanTicker);
       return `<a href="${escapeAttribute(href)}" target="_blank" rel="noreferrer" title="${escapeAttribute(currentMarket.tickerTitle(cleanTicker))}">${escapeHtml(cleanTicker)}</a>`;
     }).join("<span>/</span>");
+  }
+
+  function renderTickerBlock(item) {
+    const chineseName = item.chineseName || item.nameCn || item.cnName || "";
+    return `
+      ${renderTickerLinks(item.ticker)}
+      ${chineseName ? `<small>${escapeHtml(chineseName)}</small>` : ""}
+    `;
   }
 
   function renderCalculator() {
