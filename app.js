@@ -887,37 +887,84 @@
     `;
   }
 
+  function showCalculator() {
+    currentView = "calculator";
+    syncMarketChrome();
+    renderCalculatorView();
+  }
+
+  function renderCalculatorView() {
+    els.sectionJump.innerHTML = "";
+    els.selectedDateLabel.textContent = "Standalone tool";
+    els.briefingTitle.textContent = "Trade Return Calculator";
+    els.briefingView.innerHTML = renderCalculator();
+    attachCalculatorHandlers();
+  }
+
   function renderCalculator() {
     return `
-      <div class="calculator-grid">
-        <label>
-          <span>Entry price</span>
-          <input id="calcEntry" type="number" inputmode="decimal" min="0" step="0.01" placeholder="100.00">
-        </label>
-        <label>
-          <span>Exit price</span>
-          <input id="calcExit" type="number" inputmode="decimal" min="0" step="0.01" placeholder="115.00">
-        </label>
-        <label>
-          <span>Shares</span>
-          <input id="calcShares" type="number" inputmode="decimal" min="0" step="1" placeholder="100">
-        </label>
-        <label>
-          <span>Direction</span>
-          <select id="calcDirection">
-            <option value="long">Long</option>
-            <option value="short">Short</option>
-          </select>
-        </label>
-      </div>
-      <div class="calculator-result" id="calculatorResult">
-        Enter trade values to calculate estimated return.
-      </div>
+      <section class="calculator-view">
+        <div class="calculator-intro">
+          <p class="tone">Position sizing, return, fees, stop loss, and risk/reward in one place.</p>
+          <p>Use stock mode for shares and ETF trades. Use option mode for contracts; the calculator applies the standard 100-share contract multiplier.</p>
+        </div>
+
+        <div class="calculator-panel">
+          <div class="calculator-grid pro">
+            <label>
+              <span>Instrument</span>
+              <select id="calcInstrument">
+                <option value="stock">Stock / ETF</option>
+                <option value="option">Option contract</option>
+              </select>
+            </label>
+            <label>
+              <span>Direction</span>
+              <select id="calcDirection">
+                <option value="long">Long</option>
+                <option value="short">Short</option>
+              </select>
+            </label>
+            <label>
+              <span>Entry price</span>
+              <input id="calcEntry" type="number" inputmode="decimal" min="0" step="0.01" placeholder="100.00">
+            </label>
+            <label>
+              <span>Target / exit price</span>
+              <input id="calcExit" type="number" inputmode="decimal" min="0" step="0.01" placeholder="115.00">
+            </label>
+            <label>
+              <span>Stop price</span>
+              <input id="calcStop" type="number" inputmode="decimal" min="0" step="0.01" placeholder="94.00">
+            </label>
+            <label>
+              <span id="calcQuantityLabel">Shares</span>
+              <input id="calcQuantity" type="number" inputmode="decimal" min="0" step="1" placeholder="100">
+            </label>
+            <label>
+              <span>Round-trip fees</span>
+              <input id="calcFees" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00">
+            </label>
+            <label>
+              <span>Account capital</span>
+              <input id="calcCapital" type="number" inputmode="decimal" min="0" step="0.01" placeholder="1000.00">
+            </label>
+          </div>
+
+          <div class="calculator-results" id="calculatorResult">
+            <div class="result-card muted">
+              <span>Status</span>
+              <strong>Enter trade values</strong>
+              <p>Fill in entry, target, stop, and quantity to calculate estimated return.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     `;
   }
 
   function attachCalculatorHandlers() {
-    ["calcEntry", "calcExit", "calcShares", "calcDirection"].forEach((id) => {
+    ["calcInstrument", "calcDirection", "calcEntry", "calcExit", "calcStop", "calcQuantity", "calcFees", "calcCapital"].forEach((id) => {
       const input = document.getElementById(id);
       if (input) input.addEventListener("input", updateCalculator);
     });
@@ -925,26 +972,67 @@
   }
 
   function updateCalculator() {
+    const instrument = document.getElementById("calcInstrument")?.value || "stock";
+    const multiplier = instrument === "option" ? 100 : 1;
     const entry = Number(document.getElementById("calcEntry")?.value || 0);
     const exit = Number(document.getElementById("calcExit")?.value || 0);
-    const shares = Number(document.getElementById("calcShares")?.value || 0);
+    const stop = Number(document.getElementById("calcStop")?.value || 0);
+    const quantity = Number(document.getElementById("calcQuantity")?.value || 0);
+    const fees = Number(document.getElementById("calcFees")?.value || 0);
+    const accountCapital = Number(document.getElementById("calcCapital")?.value || 0);
     const direction = document.getElementById("calcDirection")?.value || "long";
+    const quantityLabel = document.getElementById("calcQuantityLabel");
     const result = document.getElementById("calculatorResult");
     if (!result) return;
+    if (quantityLabel) quantityLabel.textContent = instrument === "option" ? "Contracts" : "Shares";
 
-    if (entry <= 0 || exit <= 0 || shares <= 0) {
-      result.textContent = "Enter trade values to calculate estimated return.";
-      result.className = "calculator-result";
+    if (entry <= 0 || exit <= 0 || quantity <= 0) {
+      result.innerHTML = `
+        <div class="result-card muted">
+          <span>Status</span>
+          <strong>Enter trade values</strong>
+          <p>Fill in entry, target, and quantity to calculate estimated return.</p>
+        </div>
+      `;
       return;
     }
 
-    const perShare = direction === "short" ? entry - exit : exit - entry;
-    const totalReturn = perShare * shares;
-    const capital = entry * shares;
-    const returnPercent = capital ? (totalReturn / capital) * 100 : 0;
+    const units = quantity * multiplier;
+    const grossPnl = (direction === "short" ? entry - exit : exit - entry) * units;
+    const netPnl = grossPnl - fees;
+    const positionCost = entry * units;
+    const returnPercent = positionCost ? (netPnl / positionCost) * 100 : 0;
+    const capitalUsage = accountCapital ? (positionCost / accountCapital) * 100 : 0;
+    const stopPnl = stop > 0 ? ((direction === "short" ? entry - stop : stop - entry) * units) - fees : null;
+    const riskAmount = stopPnl !== null && stopPnl < 0 ? Math.abs(stopPnl) : 0;
+    const rewardAmount = netPnl > 0 ? netPnl : 0;
+    const riskReward = riskAmount > 0 && rewardAmount > 0 ? rewardAmount / riskAmount : null;
+    const breakeven = direction === "short"
+      ? entry - (fees / units)
+      : entry + (fees / units);
 
-    result.className = `calculator-result ${totalReturn >= 0 ? "positive" : "negative"}`;
-    result.textContent = `${formatCurrency(totalReturn)} estimated ${totalReturn >= 0 ? "gain" : "loss"} (${formatPercent(returnPercent)}) on ${formatCurrency(capital)} notional.`;
+    result.innerHTML = `
+      <div class="result-card ${netPnl >= 0 ? "positive" : "negative"}">
+        <span>Estimated net P/L</span>
+        <strong>${formatCurrency(netPnl)}</strong>
+        <p>${formatPercent(returnPercent)} after estimated round-trip fees.</p>
+      </div>
+      <div class="result-card">
+        <span>Position cost / notional</span>
+        <strong>${formatCurrency(positionCost)}</strong>
+        <p>${accountCapital > 0 ? `${formatPercent(capitalUsage)} of account capital.` : "Add account capital to see allocation size."}</p>
+      </div>
+      <div class="result-card">
+        <span>Break-even exit</span>
+        <strong>${formatCurrency(breakeven)}</strong>
+        <p>Includes entered round-trip fees.</p>
+      </div>
+      <div class="result-card ${stopPnl !== null && stopPnl < 0 ? "negative" : ""}">
+        <span>Stop-loss estimate</span>
+        <strong>${stopPnl === null ? "Not set" : formatCurrency(stopPnl)}</strong>
+        <p>${riskReward ? `Reward/risk: ${riskReward.toFixed(2)}x.` : "Add a stop below/above entry to calculate risk/reward."}</p>
+      </div>
+    `;
   }
 
   function filterButton(group, value, label) {
