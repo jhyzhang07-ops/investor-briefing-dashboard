@@ -297,6 +297,7 @@
     els.briefingTitle.textContent = brief ? brief.title : "No briefing for this date";
 
     if (!brief) {
+      els.sectionJump.innerHTML = "";
       els.briefingView.innerHTML = `
         <section class="empty-state">
           <h3>${state.briefings.length ? `No briefing for ${escapeHtml(displayDate(state.selectedDate))}` : escapeHtml(currentMarket.emptyTitle)}</h3>
