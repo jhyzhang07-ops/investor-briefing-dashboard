@@ -958,6 +958,65 @@
     return { label: "Risk not rated", className: "neutral", value: "neutral" };
   }
 
+  function getConvictionScore(item) {
+    const explicit = Number(item && (item.convictionScore || item.conviction || item.score));
+    if (Number.isFinite(explicit) && explicit > 0) {
+      return Math.max(1, Math.min(5, Math.round(explicit)));
+    }
+
+    const risk = normalizeRiskLevel(item && item.riskLevel).value;
+    const direction = normalizeDirection(item && item.direction).className;
+    let score = 3;
+    if (risk === "yellow") score += 1;
+    if (risk === "red") score -= 0;
+    if (risk === "green") score -= 1;
+    if (direction === "long" || direction === "short") score += 1;
+    if (item && (item.catalyst || item.why)) score += 1;
+    return Math.max(1, Math.min(5, score));
+  }
+
+  function renderConvictionBadge(item) {
+    const score = getConvictionScore(item);
+    return `<span class="conviction-badge">${escapeHtml(currentMarket.cardLabels.conviction)} ${score}/5</span>`;
+  }
+
+  function getTimeframe(item) {
+    const value = String(item && (item.timeframe || item.horizon || item.timeHorizon) || "").toLowerCase();
+    if (["investment", "invest", "long-term", "long term", "配置", "长期"].includes(value)) {
+      return { value: "investment", label: currentMarket.timeframeLabels.investment, className: "investment" };
+    }
+    if (["swing", "medium", "medium-term", "medium term", "波段", "中期"].includes(value)) {
+      return { value: "swing", label: currentMarket.timeframeLabels.swing, className: "swing" };
+    }
+    if (["trade", "short-term", "short term", "短线", "交易"].includes(value)) {
+      return { value: "trade", label: currentMarket.timeframeLabels.trade, className: "trade" };
+    }
+
+    const risk = normalizeRiskLevel(item && item.riskLevel).value;
+    if (risk === "green") {
+      return { value: "investment", label: currentMarket.timeframeLabels.investment, className: "investment" };
+    }
+    if (risk === "yellow") {
+      return { value: "swing", label: currentMarket.timeframeLabels.swing, className: "swing" };
+    }
+    return { value: "trade", label: currentMarket.timeframeLabels.trade, className: "trade" };
+  }
+
+  function renderTimeframePill(timeframe) {
+    return `<span class="timeframe-pill ${timeframe.className}">${escapeHtml(timeframe.label)}</span>`;
+  }
+
+  function normalizeTrackerStatus(status) {
+    const value = String(status || "").toLowerCase();
+    if (["hit", "correct", "win", "worked", "good", "成功", "正确"].some((term) => value.includes(term))) {
+      return { label: currentMarketKey === "cn" ? "命中" : "Hit", className: "hit" };
+    }
+    if (["miss", "wrong", "failed", "loss", "错", "失败"].some((term) => value.includes(term))) {
+      return { label: currentMarketKey === "cn" ? "失误" : "Miss", className: "miss" };
+    }
+    return { label: currentMarketKey === "cn" ? "跟踪中" : "Open", className: "open" };
+  }
+
   function renderSources(sources) {
     const safeSources = Array.isArray(sources) ? sources : [];
     if (!safeSources.length) return `<p class="empty-note">No sources archived.</p>`;
