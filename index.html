@@ -64,14 +64,21 @@
 
       <section class="content" aria-live="polite">
         <header class="topbar">
-          <div>
+          <div class="topbar-banner">
+            <nav class="top-tabs" aria-label="Dashboard views">
+              <a href="#us" data-open-market="us">US stock</a>
+              <a href="#cn" data-open-market="cn">A股</a>
+              <button id="calculatorTab" type="button">Calculator</button>
+            </nav>
+            <div class="top-actions">
+              <button id="homeButton" type="button">Home</button>
+              <button id="latestButton" type="button">Latest</button>
+              <button id="printButton" type="button">Print</button>
+            </div>
+          </div>
+          <div class="topbar-title">
             <p class="eyebrow" id="selectedDateLabel">No briefing selected</p>
             <h2 id="briefingTitle">Waiting for the first daily brief</h2>
-          </div>
-          <div class="top-actions">
-            <button id="homeButton" type="button">Home</button>
-            <button id="latestButton" type="button">Latest</button>
-            <button id="printButton" type="button">Print</button>
           </div>
         </header>
 
