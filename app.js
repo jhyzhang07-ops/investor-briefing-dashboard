@@ -12,8 +12,16 @@
       emptyDescription: "The U.S. stock automation will add the first entry here after its next 8:00 AM Asia/Shanghai run.",
       noDateDescription: "Select a marked calendar date, use Latest, or wait for the next scheduled 8:00 AM run.",
       forecastTitle: "Forecast For Tonight's U.S. Market",
-      stocksTitle: "U.S. Stocks To Watch",
+      stocksTitle: "U.S. Large-Cap Stocks To Watch",
       smallCapsTitle: "U.S. Small-Cap Stocks To Watch",
+      glanceLabels: {
+        sectors: "Sectors",
+        stocks: "Large cap",
+        smallCaps: "Small cap",
+        etfs: "ETFs",
+        longShort: "Long / Short",
+        redRisk: "Red risk"
+      },
       jumpLabels: {
         overview: "Overview",
         compare: "Compare",
@@ -49,8 +57,16 @@
       emptyDescription: "The A股 automation will add the first entry here after its next 8:00 AM Asia/Shanghai run.",
       noDateDescription: "Select a marked calendar date, use Latest, or wait for the next scheduled 8:00 AM run.",
       forecastTitle: "Forecast For Today's A股 Market",
-      stocksTitle: "A股 Stocks To Watch",
+      stocksTitle: "A股 大盘/核心个股观察",
       smallCapsTitle: "A股 小盘股观察",
+      glanceLabels: {
+        sectors: "板块",
+        stocks: "大盘/核心",
+        smallCaps: "小盘股",
+        etfs: "ETF",
+        longShort: "看多/看空",
+        redRisk: "高风险"
+      },
       jumpLabels: {
         overview: "概览",
         compare: "对比",
@@ -391,13 +407,14 @@
     const shorts = watchItems.filter((item) => normalizeDirection(item.direction).className === "short").length;
     const redRisks = watchItems.filter((item) => normalizeRiskLevel(item.riskLevel).value === "red").length;
 
+    const labels = currentMarket.glanceLabels;
     const tiles = [
-      ["Sectors", countItems(brief.sectors)],
-      ["Large cap", countItems(brief.stocks)],
-      ["Small cap", countItems(brief.smallCaps)],
-      ["ETFs", countItems(brief.etfs)],
-      ["Long / Short", `${longs}/${shorts}`],
-      ["Red risk", redRisks]
+      [labels.sectors, countItems(brief.sectors)],
+      [labels.stocks, countItems(brief.stocks)],
+      [labels.smallCaps, countItems(brief.smallCaps)],
+      [labels.etfs, countItems(brief.etfs)],
+      [labels.longShort, `${longs}/${shorts}`],
+      [labels.redRisk, redRisks]
     ];
 
     return `
