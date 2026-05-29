@@ -14,6 +14,17 @@
       forecastTitle: "Forecast For Tonight's U.S. Market",
       stocksTitle: "U.S. Stocks To Watch",
       smallCapsTitle: "U.S. Small-Cap Stocks To Watch",
+      jumpLabels: {
+        overview: "Overview",
+        compare: "Compare",
+        forecast: "Forecast",
+        sectors: "Sectors",
+        stocks: "Large Caps",
+        smallCaps: "Small Caps",
+        etfs: "ETFs",
+        calculator: "Calculator",
+        sources: "Sources"
+      },
       noEtfsMessage: "No ETFs archived for this briefing.",
       noStocksMessage: "No stocks archived for this briefing.",
       noSmallCapsMessage: "No U.S. small-cap stocks archived for this briefing.",
@@ -40,6 +51,17 @@
       forecastTitle: "Forecast For Today's A股 Market",
       stocksTitle: "A股 Stocks To Watch",
       smallCapsTitle: "A股 小盘股观察",
+      jumpLabels: {
+        overview: "概览",
+        compare: "对比",
+        forecast: "情景",
+        sectors: "板块",
+        stocks: "大盘/核心",
+        smallCaps: "小盘股",
+        etfs: "ETF",
+        calculator: "计算器",
+        sources: "来源"
+      },
       noEtfsMessage: "No A股 ETFs archived for this briefing.",
       noStocksMessage: "No A股 stocks archived for this briefing.",
       noSmallCapsMessage: "No A股 small-cap stocks archived for this briefing.",
@@ -60,6 +82,7 @@
     dashboardShell: document.getElementById("dashboardShell"),
     brandTitle: document.getElementById("brandTitle"),
     dashboardEyebrow: document.getElementById("dashboardEyebrow"),
+    sectionJump: document.getElementById("sectionJump"),
     calendarGrid: document.getElementById("calendarGrid"),
     calendarLabel: document.getElementById("calendarLabel"),
     archiveList: document.getElementById("archiveList"),
@@ -283,40 +306,117 @@
       return;
     }
 
+    renderSectionJump(brief);
+
     els.briefingView.innerHTML = `
-      <section class="hero-summary">
+      <section class="hero-summary" id="brief-overview">
         <div>
           <p class="tone">${escapeHtml(brief.tone || "Market tone pending")}</p>
           ${renderPriorityStrip(brief)}
           ${renderList(brief.summary, "summary-list")}
         </div>
-        <div class="market-grid">
-          ${renderMarketPulse(brief.marketPulse)}
+        <div class="overview-panel">
+          ${renderAtAGlance(brief)}
+          <div class="market-grid">
+            ${renderMarketPulse(brief.marketPulse)}
+          </div>
         </div>
       </section>
 
-      ${renderSection("Compare With Previous Briefing", renderComparePanel(brief))}
-      ${renderSection(currentMarket.forecastTitle, renderList(brief.forecast, "forecast-list"))}
-      ${renderSection("Sectors To Watch", renderSectors(brief.sectors))}
-      ${renderSection(currentMarket.stocksTitle, renderStocks(brief.stocks))}
-      ${renderSection(currentMarket.smallCapsTitle, renderWatchCards(brief.smallCaps, currentMarket.noSmallCapsMessage))}
-      ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, currentMarket.noEtfsMessage))}
-      ${renderSection("Return Calculator", renderCalculator())}
+      ${renderSection("Compare With Previous Briefing", renderComparePanel(brief), "brief-compare")}
+      ${renderSection(currentMarket.forecastTitle, renderList(brief.forecast, "forecast-list"), "brief-forecast")}
+      ${renderSection("Sectors To Watch", renderSectors(brief.sectors), "brief-sectors")}
+      ${renderSection(currentMarket.stocksTitle, renderStocks(brief.stocks), "brief-stocks")}
+      ${renderSection(currentMarket.smallCapsTitle, renderWatchCards(brief.smallCaps, currentMarket.noSmallCapsMessage), "brief-smallcaps")}
+      ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, currentMarket.noEtfsMessage), "brief-etfs")}
+      ${renderSection("Return Calculator", renderCalculator(), "brief-calculator")}
       ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
-      ${renderSection("Sources", renderSources(brief.sources))}
+      ${renderSection("Sources", renderSources(brief.sources), "brief-sources")}
     `;
 
     attachStockFilterHandlers();
     attachCalculatorHandlers();
+    attachJumpHandlers();
   }
 
-  function renderSection(title, body) {
+  function renderSection(title, body, id) {
+    const idAttribute = id ? ` id="${escapeAttribute(id)}"` : "";
     return `
-      <section class="brief-section">
+      <section class="brief-section"${idAttribute}>
         <h3>${escapeHtml(title)}</h3>
         ${body}
       </section>
     `;
+  }
+
+  function renderSectionJump(brief) {
+    const labels = currentMarket.jumpLabels;
+    const items = [
+      ["brief-overview", labels.overview, true],
+      ["brief-compare", labels.compare, true],
+      ["brief-forecast", labels.forecast, true],
+      ["brief-sectors", labels.sectors, hasItems(brief.sectors)],
+      ["brief-stocks", labels.stocks, hasItems(brief.stocks)],
+      ["brief-smallcaps", labels.smallCaps, hasItems(brief.smallCaps)],
+      ["brief-etfs", labels.etfs, hasItems(brief.etfs)],
+      ["brief-calculator", labels.calculator, true],
+      ["brief-sources", labels.sources, hasItems(brief.sources)]
+    ].filter((item) => item[2]);
+
+    els.sectionJump.innerHTML = `
+      <span>Jump To</span>
+      <div>
+        ${items.map(([target, label]) => `<button type="button" data-scroll-target="${escapeAttribute(target)}">${escapeHtml(label)}</button>`).join("")}
+      </div>
+    `;
+  }
+
+  function attachJumpHandlers() {
+    els.sectionJump.querySelectorAll("[data-scroll-target]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const target = document.getElementById(button.dataset.scrollTarget);
+        if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
+  function renderAtAGlance(brief) {
+    const watchItems = [
+      ...(Array.isArray(brief.stocks) ? brief.stocks : []),
+      ...(Array.isArray(brief.smallCaps) ? brief.smallCaps : []),
+      ...(Array.isArray(brief.etfs) ? brief.etfs : [])
+    ];
+    const longs = watchItems.filter((item) => normalizeDirection(item.direction).className === "long").length;
+    const shorts = watchItems.filter((item) => normalizeDirection(item.direction).className === "short").length;
+    const redRisks = watchItems.filter((item) => normalizeRiskLevel(item.riskLevel).value === "red").length;
+
+    const tiles = [
+      ["Sectors", countItems(brief.sectors)],
+      ["Large cap", countItems(brief.stocks)],
+      ["Small cap", countItems(brief.smallCaps)],
+      ["ETFs", countItems(brief.etfs)],
+      ["Long / Short", `${longs}/${shorts}`],
+      ["Red risk", redRisks]
+    ];
+
+    return `
+      <div class="glance-grid" aria-label="Briefing at a glance">
+        ${tiles.map(([label, value]) => `
+          <div class="glance-tile">
+            <span>${escapeHtml(label)}</span>
+            <strong>${escapeHtml(String(value))}</strong>
+          </div>
+        `).join("")}
+      </div>
+    `;
+  }
+
+  function hasItems(items) {
+    return Array.isArray(items) && items.length > 0;
+  }
+
+  function countItems(items) {
+    return hasItems(items) ? items.length : 0;
   }
 
   function renderList(items, className) {
