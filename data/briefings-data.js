@@ -62,6 +62,82 @@ window.MARKET_BRIEFINGS = [
       "Energy shock scenario: any sign that Iran sanctions, shipping friction, or Strait of Hormuz disruptions are tightening physical flows would likely help energy and defense while hurting airlines, transports, and rate-sensitive growth.",
       "Positioning scenario: month-end and early-June rebalancing could exaggerate moves, so confirmation from equal-weight indexes, credit ETFs, and regional banks matters more than index-level headlines alone."
     ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "DELL",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "Hold above post-earnings support; avoid chasing if the first move becomes extended.",
+        "reason": "AI-server demand and raised full-year targets gave the call immediate follow-through.",
+        "convictionScore": 4,
+        "timeframe": "swing"
+      },
+      "bestShort": {
+        "ticker": "CRM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "Only if software sentiment stays weak and CRM fails to reclaim the first post-earnings bounce.",
+        "reason": "Mature software still faces harder questions around AI monetization and growth durability.",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "Use only if semiconductor breadth confirms beyond one or two AI leaders.",
+        "reason": "The cleanest liquid ETF expression of the AI infrastructure chain without leveraged ETF decay.",
+        "convictionScore": 4,
+        "timeframe": "swing"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "Event-driven only after a clean semiconductor breakout.",
+        "reason": "Can magnify AI chip momentum, but leverage and path dependency make position sizing critical.",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "IWM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "Wait for failure of relative strength before pressing the short side.",
+        "reason": "Small caps remain vulnerable to sticky inflation and financing costs, but can squeeze if yields fall.",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "May 29, 2026",
+        "event": "Post-earnings reactions: Dell, Marvell, Salesforce, Snowflake",
+        "watch": "Whether AI infrastructure names keep leading while software remains selective.",
+        "relatedTickers": "DELL, MRVL, CRM, SNOW, SMH"
+      },
+      {
+        "date": "May 29, 2026",
+        "event": "Treasury economic security speech / Washington policy tape",
+        "watch": "Trade, sanctions, China, Iran, and industrial-policy language that can affect semis, defense, energy, and multinationals.",
+        "relatedTickers": "SMH, XLE, XLI, LMT"
+      },
+      {
+        "date": "Early June 2026",
+        "event": "Manufacturing and labor-market data",
+        "watch": "Whether Thursday's weaker-growth and sticky-inflation mix becomes a broader repricing trigger.",
+        "relatedTickers": "SPY, QQQ, IWM, HYG"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-05-29",
+        "ticker": "DELL",
+        "status": "hit",
+        "result": "The long watch worked: DELL surged after AI-server demand and raised outlook commentary were rewarded.",
+        "lesson": "When AI demand is confirmed through hardware backlog and guidance, the market may reward real revenue conversion more than broad AI language."
+      }
+    ],
     "sectors": [
       {
         "name": "Semiconductors",
