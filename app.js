@@ -24,14 +24,43 @@
       },
       jumpLabels: {
         overview: "Overview",
+        actionBoard: "Action Board",
         compare: "Compare",
         forecast: "Forecast",
         sectors: "Sectors",
         stocks: "Large Caps",
         smallCaps: "Small Caps",
         etfs: "ETFs",
+        catalysts: "Catalysts",
+        performance: "Tracker",
         calculator: "Calculator",
         sources: "Sources"
+      },
+      sectionTitles: {
+        actionBoard: "Daily Action Board",
+        catalysts: "Catalyst Calendar",
+        performance: "Performance Tracker"
+      },
+      actionLabels: {
+        bestLong: "Best long idea",
+        bestShort: "Best short idea",
+        bestEtf: "Best ETF idea",
+        highestRisk: "Highest-risk opportunity",
+        avoidWait: "Avoid / wait"
+      },
+      cardLabels: {
+        conviction: "Conviction",
+        timeframe: "Timeframe",
+        setup: "Setup",
+        reason: "Reason",
+        outcome: "Outcome",
+        lesson: "Lesson",
+        watch: "Watch"
+      },
+      timeframeLabels: {
+        trade: "Trade: 1-10 days",
+        swing: "Swing: 2-8 weeks",
+        investment: "Investment: 3+ months"
       },
       noEtfsMessage: "No ETFs archived for this briefing.",
       noStocksMessage: "No stocks archived for this briefing.",
@@ -69,14 +98,43 @@
       },
       jumpLabels: {
         overview: "概览",
+        actionBoard: "行动板",
         compare: "对比",
         forecast: "情景",
         sectors: "板块",
         stocks: "大盘/核心",
         smallCaps: "小盘股",
         etfs: "ETF",
+        catalysts: "催化日历",
+        performance: "复盘",
         calculator: "计算器",
         sources: "来源"
+      },
+      sectionTitles: {
+        actionBoard: "每日行动板",
+        catalysts: "催化日历",
+        performance: "表现复盘"
+      },
+      actionLabels: {
+        bestLong: "最佳看多",
+        bestShort: "最佳看空/回避",
+        bestEtf: "最佳ETF",
+        highestRisk: "最高风险机会",
+        avoidWait: "回避/等待"
+      },
+      cardLabels: {
+        conviction: "确信度",
+        timeframe: "周期",
+        setup: "设置",
+        reason: "理由",
+        outcome: "结果",
+        lesson: "复盘",
+        watch: "观察"
+      },
+      timeframeLabels: {
+        trade: "短线：1-10天",
+        swing: "波段：2-8周",
+        investment: "配置：3个月以上"
       },
       noEtfsMessage: "No A股 ETFs archived for this briefing.",
       noStocksMessage: "No A股 stocks archived for this briefing.",
@@ -340,12 +398,15 @@
         </div>
       </section>
 
+      ${renderSection(currentMarket.sectionTitles.actionBoard, renderActionBoard(brief), "brief-action-board")}
       ${renderSection("Compare With Previous Briefing", renderComparePanel(brief), "brief-compare")}
       ${renderSection(currentMarket.forecastTitle, renderList(brief.forecast, "forecast-list"), "brief-forecast")}
       ${renderSection("Sectors To Watch", renderSectors(brief.sectors), "brief-sectors")}
       ${renderSection(currentMarket.stocksTitle, renderStocks(brief.stocks), "brief-stocks")}
       ${renderSection(currentMarket.smallCapsTitle, renderWatchCards(brief.smallCaps, currentMarket.noSmallCapsMessage), "brief-smallcaps")}
       ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, currentMarket.noEtfsMessage), "brief-etfs")}
+      ${renderSection(currentMarket.sectionTitles.catalysts, renderCatalystCalendar(brief.catalystCalendar), "brief-catalysts")}
+      ${renderSection(currentMarket.sectionTitles.performance, renderPerformanceTracker(brief.performanceTracker), "brief-performance")}
       ${renderSection("Return Calculator", renderCalculator(), "brief-calculator")}
       ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
       ${renderSection("Sources", renderSources(brief.sources), "brief-sources")}
@@ -370,12 +431,15 @@
     const labels = currentMarket.jumpLabels;
     const items = [
       ["brief-overview", labels.overview, true],
+      ["brief-action-board", labels.actionBoard, true],
       ["brief-compare", labels.compare, true],
       ["brief-forecast", labels.forecast, true],
       ["brief-sectors", labels.sectors, hasItems(brief.sectors)],
       ["brief-stocks", labels.stocks, hasItems(brief.stocks)],
       ["brief-smallcaps", labels.smallCaps, hasItems(brief.smallCaps)],
       ["brief-etfs", labels.etfs, hasItems(brief.etfs)],
+      ["brief-catalysts", labels.catalysts, hasItems(brief.catalystCalendar)],
+      ["brief-performance", labels.performance, hasItems(brief.performanceTracker)],
       ["brief-calculator", labels.calculator, true],
       ["brief-sources", labels.sources, hasItems(brief.sources)]
     ].filter((item) => item[2]);
