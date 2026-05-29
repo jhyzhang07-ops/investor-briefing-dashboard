@@ -810,6 +810,8 @@
                 <div class="stock-meta">
                   <span class="direction-pill ${direction.className}">${escapeHtml(direction.label)}</span>
                   <span class="risk-pill ${riskLevel.className}">${escapeHtml(riskLevel.label)}</span>
+                  ${renderTimeframePill(getTimeframe(item))}
+                  ${renderConvictionBadge(item)}
                   <span class="tagline">${escapeHtml(item.type || "watch item")}</span>
                 </div>
                 <div class="trade-levels">
