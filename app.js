@@ -150,6 +150,7 @@
   const marketStates = {};
   let currentMarketKey = null;
   let currentMarket = null;
+  let currentView = "briefing";
 
   const els = {
     landingView: document.getElementById("landingView"),
@@ -169,6 +170,7 @@
     nextMonth: document.getElementById("nextMonth"),
     homeButton: document.getElementById("homeButton"),
     latestButton: document.getElementById("latestButton"),
+    calculatorTab: document.getElementById("calculatorTab"),
     printButton: document.getElementById("printButton"),
     marketLinks: Array.from(document.querySelectorAll("[data-open-market]"))
   };
@@ -195,9 +197,18 @@
   els.latestButton.addEventListener("click", () => {
     const state = getCurrentState();
     if (!state || !state.latest) return;
+    currentView = "briefing";
     state.selectedDate = state.latest.date;
     state.visibleMonth = monthFromKey(state.latest.date);
     render();
+  });
+
+  els.calculatorTab.addEventListener("click", () => {
+    if (!currentMarketKey) {
+      history.pushState(null, "", `${window.location.pathname}${window.location.search}#us`);
+      showMarket("us");
+    }
+    showCalculator();
   });
 
   els.printButton.addEventListener("click", () => window.print());
@@ -248,6 +259,7 @@
     currentMarketKey = marketKey;
     currentMarket = MARKET_CONFIGS[marketKey];
     marketStates[marketKey] = marketStates[marketKey] || createMarketState(currentMarket);
+    currentView = "briefing";
 
     document.title = currentMarket.documentTitle;
     document.body.classList.remove("landing-active", "market-us", "market-cn");
@@ -266,6 +278,12 @@
     els.searchInput.placeholder = currentMarket.searchPlaceholder;
     els.searchInput.value = state.searchTerm;
     setActiveMarketLinks(currentMarketKey);
+    els.calculatorTab.classList.toggle("active", currentView === "calculator");
+    if (currentView === "calculator") {
+      els.calculatorTab.setAttribute("aria-current", "page");
+    } else {
+      els.calculatorTab.removeAttribute("aria-current");
+    }
   }
 
   function setActiveMarketLinks(marketKey) {
@@ -337,6 +355,7 @@
 
     els.calendarGrid.querySelectorAll("button").forEach((button) => {
       button.addEventListener("click", () => {
+        currentView = "briefing";
         state.selectedDate = button.dataset.date;
         render();
       });
@@ -364,6 +383,7 @@
 
     els.archiveList.querySelectorAll("button").forEach((button) => {
       button.addEventListener("click", () => {
+        currentView = "briefing";
         state.selectedDate = button.dataset.date;
         state.visibleMonth = monthFromKey(state.selectedDate);
         render();
@@ -374,6 +394,11 @@
   function renderBriefing() {
     const state = getCurrentState();
     if (!state) return;
+
+    if (currentView === "calculator") {
+      renderCalculatorView();
+      return;
+    }
 
     const brief = state.byDate.get(state.selectedDate);
 
@@ -452,7 +477,6 @@
       ["brief-etfs", labels.etfs, hasItems(brief.etfs)],
       ["brief-catalysts", labels.catalysts, hasItems(brief.catalystCalendar)],
       ["brief-performance", labels.performance, hasItems(brief.performanceTracker)],
-      ["brief-calculator", labels.calculator, true],
       ["brief-sources", labels.sources, hasItems(brief.sources)]
     ].filter((item) => item[2]);
 
