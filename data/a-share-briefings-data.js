@@ -131,6 +131,7 @@ window.A_SHARE_BRIEFINGS = [
     "etfs": [
       {
         "ticker": "588000.SH",
+        "chineseName": "科创50ETF",
         "direction": "long",
         "riskLevel": "red",
         "suggestedBuyPrice": "回踩5日线附近不破并重新放量时分批",
@@ -142,6 +143,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "159995.SZ",
+        "chineseName": "芯片ETF",
         "direction": "long",
         "riskLevel": "red",
         "suggestedBuyPrice": "突破近两日整理高点后跟随，或回踩20日线观察",
@@ -153,6 +155,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "512480.SH",
+        "chineseName": "半导体ETF",
         "direction": "long",
         "riskLevel": "red",
         "suggestedBuyPrice": "回踩10日线企稳后分批",
@@ -164,6 +167,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "159915.SZ",
+        "chineseName": "创业板ETF",
         "direction": "long",
         "riskLevel": "red",
         "suggestedBuyPrice": "早盘回踩不破前一交易日收盘价后分批",
@@ -175,6 +179,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "512000.SH",
+        "chineseName": "券商ETF",
         "direction": "long",
         "riskLevel": "yellow",
         "suggestedBuyPrice": "放量站稳近三日平台上沿后跟随",
@@ -186,6 +191,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "510300.SH",
+        "chineseName": "沪深300ETF",
         "direction": "long",
         "riskLevel": "yellow",
         "suggestedBuyPrice": "回踩20日线附近稳住时分批",
@@ -197,6 +203,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "510050.SH",
+        "chineseName": "上证50ETF",
         "direction": "long",
         "riskLevel": "green",
         "suggestedBuyPrice": "回踩10日线至20日线区间低吸",
@@ -208,6 +215,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "512880.SH",
+        "chineseName": "证券ETF",
         "direction": "long",
         "riskLevel": "yellow",
         "suggestedBuyPrice": "券商股集体放量确认后跟随",
@@ -219,6 +227,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "512690.SH",
+        "chineseName": "酒ETF",
         "direction": "short",
         "riskLevel": "yellow",
         "suggestedBuyPrice": "反弹至近两周压力位仅作回避观察",
@@ -232,6 +241,7 @@ window.A_SHARE_BRIEFINGS = [
     "stocks": [
       {
         "ticker": "688981.SH",
+        "chineseName": "中芯国际",
         "direction": "long",
         "riskLevel": "yellow",
         "suggestedBuyPrice": "回踩5日线至10日线区间企稳后分批",
@@ -243,6 +253,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "603986.SH",
+        "chineseName": "兆易创新",
         "direction": "long",
         "riskLevel": "red",
         "suggestedBuyPrice": "放量突破近两日高点后跟随，或回踩20日线",
@@ -254,6 +265,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "300308.SZ",
+        "chineseName": "中际旭创",
         "direction": "long",
         "riskLevel": "red",
         "suggestedBuyPrice": "回踩5日线不破并重新放量时介入",
@@ -265,6 +277,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "300502.SZ",
+        "chineseName": "新易盛",
         "direction": "long",
         "riskLevel": "red",
         "suggestedBuyPrice": "早盘缩量回踩后再放量上行时分批",
@@ -276,6 +289,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "600030.SH",
+        "chineseName": "中信证券",
         "direction": "long",
         "riskLevel": "yellow",
         "suggestedBuyPrice": "站稳近三日整理平台后分批",
@@ -287,6 +301,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "600036.SH",
+        "chineseName": "招商银行",
         "direction": "long",
         "riskLevel": "green",
         "suggestedBuyPrice": "回踩20日线附近或盘中缩量回落时低吸",
@@ -298,6 +313,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "601318.SH",
+        "chineseName": "中国平安",
         "direction": "long",
         "riskLevel": "green",
         "suggestedBuyPrice": "回踩10日线或A/H联动企稳后分批",
@@ -309,6 +325,7 @@ window.A_SHARE_BRIEFINGS = [
       },
       {
         "ticker": "000002.SZ",
+        "chineseName": "万科A",
         "direction": "short",
         "riskLevel": "red",
         "suggestedBuyPrice": "反弹至20日线附近仅作回避/对冲观察位",
