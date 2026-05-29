@@ -159,15 +159,9 @@ button:focus-visible {
 }
 
 .shell {
-  position: relative;
   display: grid;
   grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
   min-height: 100vh;
-  transition: grid-template-columns 180ms ease;
-}
-
-.shell.sidebar-collapsed {
-  grid-template-columns: 0 minmax(0, 1fr);
 }
 
 .sidebar {
@@ -175,46 +169,6 @@ button:focus-visible {
   background: var(--sidebar-bg);
   padding: 24px;
   overflow-y: auto;
-  transition: opacity 160ms ease, visibility 160ms ease;
-}
-
-.sidebar-collapsed .sidebar {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.sidebar-toggle {
-  position: fixed;
-  top: 24px;
-  left: min(306px, calc(100vw - 66px));
-  z-index: 5;
-  display: grid;
-  width: 42px;
-  min-height: 42px;
-  gap: 5px;
-  place-content: center;
-  padding: 0;
-  border-color: var(--line);
-  background: var(--panel);
-}
-
-.sidebar-toggle span {
-  display: block;
-  width: 22px;
-  height: 4px;
-  border-radius: 999px;
-  background: #242232;
-}
-
-.sidebar-toggle:hover,
-.sidebar-toggle:focus-visible {
-  border-color: var(--accent);
-  background: var(--accent-soft);
-}
-
-.sidebar-collapsed .sidebar-toggle {
-  left: 16px;
 }
 
 .brand h1,
@@ -1220,21 +1174,9 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
-  .shell.sidebar-collapsed {
-    grid-template-columns: 1fr;
-  }
-
   .sidebar {
     border-right: 0;
     border-bottom: 1px solid var(--line);
-  }
-
-  .sidebar-toggle {
-    left: calc(100vw - 66px);
-  }
-
-  .sidebar-collapsed .sidebar {
-    display: none;
   }
 
   .hero-summary {
@@ -1347,7 +1289,6 @@ button:focus-visible {
 
 @media print {
   .sidebar,
-  .sidebar-toggle,
   .top-tabs,
   .top-actions {
     display: none;

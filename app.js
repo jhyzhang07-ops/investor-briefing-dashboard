@@ -151,12 +151,10 @@
   let currentMarketKey = null;
   let currentMarket = null;
   let currentView = "briefing";
-  let sidebarCollapsed = localStorage.getItem("investorBriefingSidebarCollapsed") === "true";
 
   const els = {
     landingView: document.getElementById("landingView"),
     dashboardShell: document.getElementById("dashboardShell"),
-    sidebarToggle: document.getElementById("sidebarToggle"),
     brandTitle: document.getElementById("brandTitle"),
     dashboardEyebrow: document.getElementById("dashboardEyebrow"),
     sectionJump: document.getElementById("sectionJump"),
@@ -213,12 +211,6 @@
     showCalculator();
   });
 
-  els.sidebarToggle.addEventListener("click", () => {
-    sidebarCollapsed = !sidebarCollapsed;
-    localStorage.setItem("investorBriefingSidebarCollapsed", String(sidebarCollapsed));
-    syncSidebarState();
-  });
-
   els.printButton.addEventListener("click", () => window.print());
 
   els.searchInput.addEventListener("input", (event) => {
@@ -260,7 +252,6 @@
     document.body.classList.add("landing-active");
     els.landingView.hidden = false;
     els.dashboardShell.hidden = true;
-    syncSidebarState();
     setActiveMarketLinks(null);
     els.calculatorTab.classList.remove("active");
     els.calculatorTab.removeAttribute("aria-current");
@@ -277,15 +268,9 @@
     document.body.classList.add("dashboard-active", currentMarket.bodyClass);
     els.landingView.hidden = true;
     els.dashboardShell.hidden = false;
-    syncSidebarState();
 
     syncMarketChrome();
     render();
-  }
-
-  function syncSidebarState() {
-    els.dashboardShell.classList.toggle("sidebar-collapsed", sidebarCollapsed);
-    els.sidebarToggle.setAttribute("aria-expanded", String(!sidebarCollapsed));
   }
 
   function syncMarketChrome() {
