@@ -1,5 +1,420 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-05-29",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-05-29 08:32 GMT+8",
+    "title": "U.S. Market Brief - 2026-05-29",
+    "tone": "Hotter inflation, softer growth, and AI leadership under macro pressure",
+    "priorities": [
+      "Watch whether Thursday's hotter April PCE and softer revised Q1 GDP push yields back up or simply deepen the soft-landing debate.",
+      "Use Dell and Marvell post-earnings reaction as the cleanest read-through for AI infrastructure breadth beyond Nvidia.",
+      "Track Iran and Strait of Hormuz headlines closely because Treasury's new sanctions campaign keeps oil, shipping, airlines, and inflation expectations tightly linked.",
+      "Stay selective in software after Salesforce's mixed forward setup; the market is rewarding AI capex beneficiaries and punishing slower monetization.",
+      "Monitor small caps, credit-sensitive cyclicals, and regional financials for confirmation or stress because sticky inflation plus weaker growth is the hardest mix for them."
+    ],
+    "summary": [
+      "U.S. equities slipped Thursday after the macro mix worsened: the S&P 500 fell 0.56%, the Nasdaq lost 0.51%, and the Dow dropped 0.58%, while the Russell 2000 managed a modest gain to 2,098.47.",
+      "The macro signal turned less comfortable. BEA's second estimate showed first-quarter real GDP contracted at a 0.2% annual rate, while April PCE and core PCE both rose 0.1% month over month, reinforcing the view that disinflation is progressing only gradually.",
+      "Weekly jobless claims remained low, so the market did not get a clear labor-market cooling signal to offset the inflation disappointment.",
+      "The most important stock-specific bullish offset came from AI infrastructure: Marvell issued an above-consensus outlook and said custom-chip revenue can top $10 billion by fiscal 2029, while Dell raised its full-year outlook and highlighted strong AI-server demand.",
+      "Software remains less clean. Salesforce beat quarterly estimates, but its forward setup did not reset investor concerns about growth durability and AI monetization; dispersion inside software should stay high.",
+      "Geopolitics still matters through energy. Treasury's May 28 sanctions targeting Iranian military oil revenue keep the Iran-Hormuz channel live even as broader market sentiment swings on deal and de-escalation headlines.",
+      "Friday's setup is less about chasing index direction and more about testing whether AI capex winners can absorb a late-cycle macro backdrop of sticky inflation, softer growth, and still-restrictive rates."
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "-0.56% Thursday",
+        "note": "Risk appetite faded after softer GDP revision and firmer inflation data."
+      },
+      "Nasdaq": {
+        "value": "-0.51% Thursday",
+        "note": "AI-linked semis held up better than broad cyclicals, but higher-rate pressure limited support."
+      },
+      "Dow": {
+        "value": "-0.58% Thursday",
+        "note": "Macro-sensitive industrial and cyclical exposure lagged."
+      },
+      "Russell 2000": {
+        "value": "2,098.47, +0.12%",
+        "note": "Relative resilience in smaller companies helped keep broader risk sentiment from deteriorating further."
+      },
+      "Treasury Yields": {
+        "value": "Yields stayed restrictive after the data reset",
+        "note": "Watch whether Friday trading re-prices a higher-for-longer Fed path or treats Thursday as a one-day macro shock."
+      },
+      "Oil": {
+        "value": "Crude stayed two-way on Iran headlines",
+        "note": "De-escalation hopes cooled the immediate risk premium, but sanctions and Hormuz shipping risk keep the floor unstable."
+      },
+      "FX / Dollar": {
+        "value": "Dollar tone remained firm",
+        "note": "A stronger dollar would tighten financial conditions further for small caps, commodities, and multinationals."
+      },
+      "Volatility": {
+        "value": "Contained but vulnerable",
+        "note": "Volatility did not fully reflect the macro deterioration, leaving room for a sharper repricing if breadth weakens."
+      }
+    },
+    "forecast": [
+      "Base case: if Treasury yields do not re-accelerate and Dell plus Marvell keep the AI capex narrative intact, the S&P 500 can stabilize even without broad participation.",
+      "Bearish macro scenario: if investors decide Thursday's GDP-plus-PCE mix implies stagflation-lite rather than soft landing, expect renewed pressure on software, small caps, homebuilders, and lower-quality balance sheets.",
+      "Bullish breadth scenario: if semis, servers, networking, and power names all confirm the AI infrastructure demand chain, the market can treat Thursday's macro wobble as manageable rather than regime-changing.",
+      "Energy shock scenario: any sign that Iran sanctions, shipping friction, or Strait of Hormuz disruptions are tightening physical flows would likely help energy and defense while hurting airlines, transports, and rate-sensitive growth.",
+      "Positioning scenario: month-end and early-June rebalancing could exaggerate moves, so confirmation from equal-weight indexes, credit ETFs, and regional banks matters more than index-level headlines alone."
+    ],
+    "sectors": [
+      {
+        "name": "Semiconductors",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Marvell's outlook and Dell's AI-server commentary reinforce that AI spending is broadening beyond one GPU supplier.",
+        "watch": "Watch whether networking, memory, power, and analog suppliers participate with NVDA and MRVL instead of leaving the trade narrow.",
+        "risk": "Crowded positioning, export-control risk, and high valuation sensitivity can still produce sharp drawdowns on any demand wobble."
+      },
+      {
+        "name": "AI Infrastructure",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Enterprise and hyperscaler capex remains the cleanest growth pool in large-cap tech.",
+        "watch": "Focus on backlog conversion, margin expansion, and whether orders are landing across servers, cooling, networking, and storage.",
+        "risk": "If the market decides AI demand is already fully priced, even strong guidance may fail to lift stocks."
+      },
+      {
+        "name": "Enterprise Software",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "Salesforce's mixed forward picture keeps pressure on slower-growth SaaS names that lack a clear AI monetization bridge.",
+        "watch": "Watch subscription growth, seat expansion, churn, and whether management teams are protecting margins by cutting investment too aggressively.",
+        "risk": "A fast drop in yields or a clean AI product-cycle win can trigger violent upside squeezes in software."
+      },
+      {
+        "name": "Oil And Energy",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "Treasury's latest Iran oil sanctions and persistent Hormuz risk keep energy positioned as the best macro hedge.",
+        "watch": "Integrated majors, refiners, and oil-service names should outperform if crude firms without broad demand destruction.",
+        "risk": "Any credible diplomatic de-escalation or weaker global demand signal can quickly knock out the risk premium."
+      },
+      {
+        "name": "Small Caps",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "Sticky inflation plus weaker growth is usually a poor backdrop for financing-sensitive smaller companies.",
+        "watch": "Track IWM versus SPY, regional-bank behavior, and junk-bond ETFs for confirmation.",
+        "risk": "Small caps can squeeze hard if rates ease and investors rotate into domestic cyclicals."
+      },
+      {
+        "name": "Defense",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "Iran sanctions, shipping security risk, and broader geopolitical uncertainty keep defense spending and order visibility attractive.",
+        "watch": "Watch whether the group starts outperforming on days when oil and Treasury yields both rise.",
+        "risk": "If the geopolitical tape cools quickly, investors may rotate back to higher-beta growth instead."
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SPY",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Only on a hold above Thursday's low and improving breadth",
+        "suggestedProfitTake": "Scale out into a 2%-3% rebound or near the prior record zone",
+        "type": "S&P 500 ETF",
+        "catalyst": "Stabilizing yields and continued AI leadership.",
+        "why": "SPY is the cleanest broad-market test of whether investors treat Thursday's macro miss as noise or a regime shift.",
+        "risk": "Index strength can hide internal weakness if only a few mega-caps are carrying the tape."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Pullback that holds post-data support or a breakout with semis leading",
+        "suggestedProfitTake": "Take partial profits after a 3%-5% move or into the prior high zone",
+        "type": "Nasdaq 100 ETF",
+        "catalyst": "AI infrastructure earnings and stable long-end yields.",
+        "why": "QQQ remains the fastest liquid expression of AI leadership and long-duration tech risk appetite.",
+        "risk": "Hotter inflation or higher real yields can hit the ETF quickly because duration exposure is concentrated."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Short only if it fails to hold Thursday's relative-strength bounce",
+        "suggestedProfitTake": "Cover after a 2%-4% drop or into the next support shelf",
+        "type": "Russell 2000 ETF",
+        "catalyst": "Smaller companies remain exposed to financing costs and a slower domestic growth mix.",
+        "why": "IWM is the best single ETF check on whether macro stress is broadening beyond mega-cap tech.",
+        "risk": "Any fast yield pullback can force a painful rotation squeeze higher."
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Buy only if post-earnings semiconductor breadth is improving",
+        "suggestedProfitTake": "Scale after a 3%-6% move or into a retest of highs",
+        "type": "semiconductor ETF",
+        "catalyst": "Marvell, Nvidia, and broader AI-capex read-throughs.",
+        "why": "SMH captures the highest-conviction structural growth theme without the decay of leverage.",
+        "risk": "Still highly sensitive to valuation compression and export-control headlines."
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Event-driven only after a clean semiconductor breakout",
+        "suggestedProfitTake": "Take profits aggressively after a 5%-10% move",
+        "type": "3x leveraged semiconductors",
+        "catalyst": "Momentum extension in chip leadership.",
+        "why": "SOXL magnifies semiconductor beta when the tape is clean and broad.",
+        "risk": "High leverage, path dependency, and gap risk make this unsuitable for passive holding."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Entry on crude firmness and relative strength versus SPY",
+        "suggestedProfitTake": "Scale after a 3%-5% move or if crude de-escalation headlines hit",
+        "type": "energy sector ETF",
+        "catalyst": "Iran sanctions and persistent geopolitical supply risk.",
+        "why": "XLE offers liquid exposure to integrated majors that can hedge inflation and geopolitical shocks.",
+        "risk": "Energy reverses quickly when the geopolitical premium fades."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Short setup if yields rise for the wrong reason and regional banks lag",
+        "suggestedProfitTake": "Cover after a 2%-4% decline or if credit stays calm",
+        "type": "financial sector ETF",
+        "catalyst": "Weaker growth with sticky inflation is not an ideal mix for cyclically exposed financials.",
+        "why": "XLF helps test whether the market sees Thursday as a benign macro bump or a broader credit signal.",
+        "risk": "Money-center banks can hold up better than expected if the curve steepens without credit stress."
+      },
+      {
+        "ticker": "HYG",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Short only if spreads widen and equity breadth breaks down",
+        "suggestedProfitTake": "Cover after a 1%-2% decline or once spreads stabilize",
+        "type": "high-yield bond ETF",
+        "catalyst": "Credit deterioration would confirm that Thursday's macro mix is becoming a balance-sheet problem.",
+        "why": "HYG is a practical cross-asset warning gauge for equity investors.",
+        "risk": "Credit can stay calm for longer than equity traders expect, making timing difficult."
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Pullback that holds near prior support or a breakout with SMH confirmation",
+        "suggestedProfitTake": "Scale after a 3%-6% move or into fresh highs",
+        "type": "AI infrastructure / index impact",
+        "catalyst": "The market still treats Nvidia as the core read-through for hyperscaler AI capex and semiconductor leadership.",
+        "why": "If NVDA holds while the macro tape worsens, it tells you the market is still willing to pay for scarce growth.",
+        "risk": "Crowded ownership and high expectations mean even strong fundamentals can produce weak near-term price action."
+      },
+      {
+        "ticker": "MRVL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only on post-earnings strength that holds above the opening range",
+        "suggestedProfitTake": "Take partial profits into a 5%-10% extension",
+        "type": "AI networking / custom silicon",
+        "catalyst": "Marvell's above-consensus outlook and fiscal-2029 custom-chip target deepen the AI infrastructure narrative.",
+        "why": "MRVL is a useful gauge for whether investors are broadening beyond GPU concentration toward networking and ASIC beneficiaries.",
+        "risk": "Expectations are elevated and post-earnings reversals can be severe."
+      },
+      {
+        "ticker": "DELL",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Buy on a hold above post-earnings support rather than the first gap",
+        "suggestedProfitTake": "Scale after a 4%-7% move or near the next resistance zone",
+        "type": "AI servers / enterprise hardware",
+        "catalyst": "Dell raised full-year targets and highlighted AI-server demand and backlog strength.",
+        "why": "DELL helps verify whether AI spending is flowing into real hardware revenue and not just chip optimism.",
+        "risk": "PC demand softness or margin pressure can limit upside even with good AI orders."
+      },
+      {
+        "ticker": "CRM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Short only if the stock fails to reclaim the first post-earnings bounce",
+        "suggestedProfitTake": "Cover after a 3%-5% drop or if software sentiment stabilizes",
+        "type": "enterprise software / earnings",
+        "catalyst": "Salesforce beat the quarter but did not fully remove concerns about slower growth and AI monetization efficiency.",
+        "why": "CRM is a bellwether for how the market is discriminating inside large-cap software.",
+        "risk": "If yields fall or management commentary improves sentiment, CRM can recover quickly."
+      },
+      {
+        "ticker": "SNOW",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only on a breakout above the post-earnings high or a constructive retest",
+        "suggestedProfitTake": "Scale after a 5%-8% move",
+        "type": "data platform / AI applications",
+        "catalyst": "Snowflake's results and product positioning keep it in the center of enterprise AI data workflows.",
+        "why": "SNOW shows whether investors still want high-multiple AI application exposure after the macro shock.",
+        "risk": "Valuation risk is high and the stock can reverse hard if growth expectations cool."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Pullback toward support while crude stays firm",
+        "suggestedProfitTake": "Scale after a 3%-5% move or if oil premium fades",
+        "type": "integrated energy / geopolitical hedge",
+        "catalyst": "Treasury's Iran sanctions keep integrated oil majors supported as portfolio hedges.",
+        "why": "XOM offers lower-beta exposure to the energy risk premium than pure E&P names.",
+        "risk": "If crude retreats on diplomacy or demand weakness, defensive energy interest can unwind."
+      },
+      {
+        "ticker": "DAL",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Short only if crude rises and the stock loses near-term support",
+        "suggestedProfitTake": "Cover after a 4%-7% decline or once oil stress cools",
+        "type": "airlines / fuel-cost sensitivity",
+        "catalyst": "Airlines remain one of the clearest losers if oil volatility or Middle East shipping stress returns.",
+        "why": "DAL is a direct macro sensitivity test for fuel, travel demand, and risk appetite.",
+        "risk": "A fast oil pullback can trigger a sharp relief rally."
+      },
+      {
+        "ticker": "JPM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Short only if financials underperform and yield moves start widening credit concern",
+        "suggestedProfitTake": "Cover after a 2%-4% decline or if spreads stay orderly",
+        "type": "money-center bank / macro barometer",
+        "catalyst": "Banks become more interesting if the market starts translating slower growth plus sticky inflation into tighter credit conditions.",
+        "why": "JPM is the highest-quality way to monitor whether macro deterioration is becoming a financial-conditions story.",
+        "risk": "JPM can outperform weaker banks and invalidate the bearish sector read-through."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Company And Sector Highlights",
+        "items": [
+          "Marvell strengthened the AI infrastructure case with an above-consensus outlook and a long-range custom-chip revenue target, reinforcing demand for networking and ASIC exposure.",
+          "Dell raised full-year targets and again pointed to AI-server strength, which matters because it converts the AI trade from narrative into enterprise hardware revenue and backlog.",
+          "Salesforce's quarter was good enough to avoid a collapse but not strong enough to remove the market's concern that mature software names will face tougher AI monetization math.",
+          "Snowflake remains relevant as a second-derivative AI name because enterprises still need data-layer spending even if broad software multiples stay selective."
+        ]
+      },
+      {
+        "title": "Geopolitics And Policy",
+        "items": [
+          "Treasury's May 28 OFAC action explicitly targeted Iranian military oil sales, keeping pressure on the energy-export channel that matters most for inflation expectations and shipping risk.",
+          "The administration's maximum-pressure posture means investors should trade implementation risk, tanker traffic, and insurance costs, not just headline talk of diplomacy or deals.",
+          "Any renewed friction in the Strait of Hormuz would likely hit airlines, transports, chemicals, and rate-sensitive growth faster than it hits the major indexes."
+        ]
+      },
+      {
+        "title": "Technology And Innovation Watch",
+        "items": [
+          "The strongest technology signal remains AI infrastructure, not broad software. Servers, custom silicon, networking, memory, and power-chain suppliers still have the cleanest budget line.",
+          "Investors should distinguish between companies benefiting from actual capex deployment and companies merely using AI language to defend slowing legacy growth.",
+          "If Dell and Marvell hold gains while software stays mixed, that would confirm a continued rotation inside tech rather than a broad technology bull phase."
+        ]
+      },
+      {
+        "title": "Trump Administration And Washington Watch",
+        "items": [
+          "Treasury Secretary Scott Bessent is scheduled to deliver an economic security speech on Friday after the latest China negotiations and G7 finance ministerial, so trade and industrial-policy language matters for semis, defense, and domestic manufacturing.",
+          "Treasury's latest Iran actions show the administration is still willing to use sanctions aggressively in market-sensitive commodity channels.",
+          "The direct market impact of the new Trump Accounts messaging is limited, but the broader America First policy framing can still matter if it translates into new tariff, subsidy, or investment-screening actions."
+        ]
+      },
+      {
+        "title": "Credit, Positioning, And Market Internals",
+        "items": [
+          "Thursday's index decline was less important than the composition: small caps held up better than the major averages, but that relative resilience needs confirmation because the macro mix remains hostile to weaker balance sheets.",
+          "If high-yield credit and regional banks start lagging on Friday, the equity market's macro problem becomes more serious.",
+          "A rally led only by a few AI mega-caps would keep the indexes stable but would not qualify as a healthy risk-on signal."
+        ]
+      },
+      {
+        "title": "Earnings And Macro Calendar",
+        "items": [
+          "Thursday's key macro prints were the revised first-quarter GDP report, April PCE inflation, and weekly jobless claims; collectively they argued for slower growth without a clean inflation release valve.",
+          "Friday's live catalysts are post-earnings reactions in Dell, Marvell, Salesforce, and Snowflake, Treasury Secretary Bessent's economic security speech, and month-end positioning flows.",
+          "Looking just ahead, the next meaningful macro checkpoints are early-June manufacturing and labor-market releases, which will decide whether Thursday was a one-off wobble or the start of a broader repricing."
+        ]
+      },
+      {
+        "title": "Why It Matters",
+        "items": [
+          "The market can usually handle slower growth or sticky inflation by itself. It struggles more when both show up together while valuations are already rich.",
+          "That is why Friday matters less as a single-session call and more as a stress test for breadth, credit, and whether AI cash-flow winners can keep carrying the tape.",
+          "Serious investors should treat the session as a read-through on regime, not just a chance to react to one overnight headline."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Associated Press stock markets coverage",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/hub/stock-markets"
+      },
+      {
+        "label": "Reuters U.S. markets coverage",
+        "confidence": "High-quality reporting",
+        "url": "https://www.reuters.com/markets/us/"
+      },
+      {
+        "label": "BEA Personal Income and Outlays, April 2026",
+        "confidence": "Primary",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026"
+      },
+      {
+        "label": "BEA GDP Second Estimate and Corporate Profits, 1st Quarter 2026",
+        "confidence": "Primary",
+        "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026"
+      },
+      {
+        "label": "U.S. Treasury Daily Treasury Par Yield Curve Rates",
+        "confidence": "Primary",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+      },
+      {
+        "label": "U.S. Treasury press release: Economic Fury Targets Illicit Oil Revenue Fueling Iran's Military",
+        "confidence": "Primary",
+        "url": "https://home.treasury.gov/news/press-releases/sb0510"
+      },
+      {
+        "label": "U.S. Treasury press release: Secretary Bessent Delivers Economic Security Address",
+        "confidence": "Primary",
+        "url": "https://home.treasury.gov/news/press-releases/sb0511"
+      },
+      {
+        "label": "U.S. Department of Labor weekly unemployment insurance claims",
+        "confidence": "Primary",
+        "url": "https://www.dol.gov/ui/data.pdf"
+      },
+      {
+        "label": "Marvell investor relations press releases",
+        "confidence": "Primary",
+        "url": "https://investor.marvell.com/news-events/press-releases"
+      },
+      {
+        "label": "Dell Technologies investor press releases",
+        "confidence": "Primary",
+        "url": "https://investors.delltechnologies.com/news-events/press-releases"
+      },
+      {
+        "label": "Salesforce investor press releases",
+        "confidence": "Primary",
+        "url": "https://investor.salesforce.com/press-releases/"
+      },
+      {
+        "label": "Snowflake investor news",
+        "confidence": "Primary",
+        "url": "https://investors.snowflake.com/news/news-details/default.aspx"
+      }
+    ]
+  },
+  {
     "date": "2026-05-28",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-05-28 16:11 GMT+8",
