@@ -19,14 +19,19 @@
     </main>
 
     <main class="shell dashboard-shell" id="dashboardShell" hidden>
-      <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-expanded="true" aria-controls="dashboardSidebar">
-        <span class="expanded-label">Hide panel</span>
-        <span class="collapsed-label">Show panel</span>
-      </button>
       <aside class="sidebar" id="dashboardSidebar" aria-label="Briefing calendar and archive">
         <div class="brand">
-          <p class="eyebrow" id="dashboardEyebrow">Daily 8:00 Asia/Shanghai</p>
-          <h1 id="brandTitle">Investor Briefing</h1>
+          <div class="brand-head">
+            <div>
+              <p class="eyebrow" id="dashboardEyebrow">Daily 8:00 Asia/Shanghai</p>
+              <h1 id="brandTitle">Investor Briefing</h1>
+            </div>
+            <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Toggle sidebar" aria-expanded="true" aria-controls="dashboardSidebar">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
           <nav class="market-switch" aria-label="Switch market briefing">
             <a href="#us" data-open-market="us">US stock</a>
             <a href="#cn" data-open-market="cn">A股</a>
