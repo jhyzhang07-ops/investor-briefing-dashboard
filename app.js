@@ -253,6 +253,8 @@
     els.landingView.hidden = false;
     els.dashboardShell.hidden = true;
     setActiveMarketLinks(null);
+    els.calculatorTab.classList.remove("active");
+    els.calculatorTab.removeAttribute("aria-current");
   }
 
   function showMarket(marketKey) {
