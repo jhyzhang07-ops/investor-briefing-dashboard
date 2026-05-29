@@ -210,7 +210,19 @@
   });
 
   window.addEventListener("hashchange", syncRoute);
+  resetHashOnRefresh();
   syncRoute();
+
+  function resetHashOnRefresh() {
+    const navigation = performance.getEntriesByType("navigation")[0];
+    const isReload = navigation
+      ? navigation.type === "reload"
+      : performance.navigation && performance.navigation.type === 1;
+
+    if (isReload && marketKeyFromHash(window.location.hash)) {
+      history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+    }
+  }
 
   function syncRoute() {
     const marketKey = marketKeyFromHash(window.location.hash);
