@@ -159,9 +159,15 @@ button:focus-visible {
 }
 
 .shell {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
   min-height: 100vh;
+  transition: grid-template-columns 180ms ease;
+}
+
+.shell.sidebar-collapsed {
+  grid-template-columns: 0 minmax(0, 1fr);
 }
 
 .sidebar {
@@ -169,6 +175,39 @@ button:focus-visible {
   background: var(--sidebar-bg);
   padding: 24px;
   overflow-y: auto;
+  transition: opacity 160ms ease, visibility 160ms ease;
+}
+
+.sidebar-collapsed .sidebar {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sidebar-toggle {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 5;
+  min-height: 38px;
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  box-shadow: 0 10px 28px rgba(23, 32, 27, 0.18);
+}
+
+.collapsed-label {
+  display: none;
+}
+
+.sidebar-collapsed .expanded-label {
+  display: none;
+}
+
+.sidebar-collapsed .collapsed-label {
+  display: inline;
 }
 
 .brand h1,
@@ -1174,9 +1213,17 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .shell.sidebar-collapsed {
+    grid-template-columns: 1fr;
+  }
+
   .sidebar {
     border-right: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .sidebar-collapsed .sidebar {
+    display: none;
   }
 
   .hero-summary {
@@ -1289,6 +1336,7 @@ button:focus-visible {
 
 @media print {
   .sidebar,
+  .sidebar-toggle,
   .top-tabs,
   .top-actions {
     display: none;
