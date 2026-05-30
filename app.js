@@ -179,26 +179,26 @@
     marketLinks: Array.from(document.querySelectorAll("[data-open-market]"))
   };
 
-  els.prevMonth.addEventListener("click", () => {
+  if (els.prevMonth) els.prevMonth.addEventListener("click", () => {
     const state = getCurrentState();
     if (!state) return;
     state.visibleMonth = addMonths(state.visibleMonth, -1);
     renderCalendar();
   });
 
-  els.nextMonth.addEventListener("click", () => {
+  if (els.nextMonth) els.nextMonth.addEventListener("click", () => {
     const state = getCurrentState();
     if (!state) return;
     state.visibleMonth = addMonths(state.visibleMonth, 1);
     renderCalendar();
   });
 
-  els.homeButton.addEventListener("click", () => {
+  if (els.homeButton) els.homeButton.addEventListener("click", () => {
     history.pushState(null, "", `${window.location.pathname}${window.location.search}`);
     showLanding();
   });
 
-  els.latestButton.addEventListener("click", () => {
+  if (els.latestButton) els.latestButton.addEventListener("click", () => {
     const state = getCurrentState();
     if (!state || !state.latest) return;
     currentView = "briefing";
@@ -207,7 +207,7 @@
     render();
   });
 
-  els.calculatorTab.addEventListener("click", () => {
+  if (els.calculatorTab) els.calculatorTab.addEventListener("click", () => {
     if (!currentMarketKey) {
       history.pushState(null, "", `${window.location.pathname}${window.location.search}#us`);
       showMarket("us");
@@ -215,9 +215,9 @@
     showCalculator();
   });
 
-  els.printButton.addEventListener("click", () => window.print());
+  if (els.printButton) els.printButton.addEventListener("click", () => window.print());
 
-  els.searchInput.addEventListener("input", (event) => {
+  if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
     const state = getCurrentState();
     if (!state) return;
     state.searchTerm = event.target.value.trim().toLowerCase();
@@ -254,11 +254,13 @@
     document.title = "Investor Briefing Dashboard";
     document.body.classList.remove("dashboard-active", "market-us", "market-cn");
     document.body.classList.add("landing-active");
-    els.landingView.hidden = false;
-    els.dashboardShell.hidden = true;
+    if (els.landingView) els.landingView.hidden = false;
+    if (els.dashboardShell) els.dashboardShell.hidden = true;
     setActiveMarketLinks(null);
-    els.calculatorTab.classList.remove("active");
-    els.calculatorTab.removeAttribute("aria-current");
+    if (els.calculatorTab) {
+      els.calculatorTab.classList.remove("active");
+      els.calculatorTab.removeAttribute("aria-current");
+    }
   }
 
   function showMarket(marketKey) {
@@ -270,8 +272,8 @@
     document.title = currentMarket.documentTitle;
     document.body.classList.remove("landing-active", "market-us", "market-cn");
     document.body.classList.add("dashboard-active", currentMarket.bodyClass);
-    els.landingView.hidden = true;
-    els.dashboardShell.hidden = false;
+    if (els.landingView) els.landingView.hidden = true;
+    if (els.dashboardShell) els.dashboardShell.hidden = false;
 
     syncMarketChrome();
     render();
@@ -279,16 +281,20 @@
 
   function syncMarketChrome() {
     const state = getCurrentState();
-    els.brandTitle.textContent = currentMarket.brandTitle;
-    els.dashboardEyebrow.textContent = currentMarket.dashboardEyebrow;
-    els.searchInput.placeholder = currentMarket.searchPlaceholder;
-    els.searchInput.value = state.searchTerm;
+    if (els.brandTitle) els.brandTitle.textContent = currentMarket.brandTitle;
+    if (els.dashboardEyebrow) els.dashboardEyebrow.textContent = currentMarket.dashboardEyebrow;
+    if (els.searchInput) {
+      els.searchInput.placeholder = currentMarket.searchPlaceholder;
+      els.searchInput.value = state.searchTerm;
+    }
     setActiveMarketLinks(currentMarketKey);
-    els.calculatorTab.classList.toggle("active", currentView === "calculator");
-    if (currentView === "calculator") {
-      els.calculatorTab.setAttribute("aria-current", "page");
-    } else {
-      els.calculatorTab.removeAttribute("aria-current");
+    if (els.calculatorTab) {
+      els.calculatorTab.classList.toggle("active", currentView === "calculator");
+      if (currentView === "calculator") {
+        els.calculatorTab.setAttribute("aria-current", "page");
+      } else {
+        els.calculatorTab.removeAttribute("aria-current");
+      }
     }
   }
 
@@ -305,11 +311,13 @@
   }
 
   function createMarketState(config) {
-    const briefings = Array.isArray(config.source())
-      ? config.source().slice().sort((a, b) => b.date.localeCompare(a.date))
+    const dailySource = typeof config.source === "function" ? config.source() : [];
+    const weeklySource = typeof config.weeklySource === "function" ? config.weeklySource() : [];
+    const briefings = Array.isArray(dailySource)
+      ? dailySource.slice().sort((a, b) => b.date.localeCompare(a.date))
       : [];
-    const weeklyBriefings = Array.isArray(config.weeklySource())
-      ? config.weeklySource().slice().sort((a, b) => b.date.localeCompare(a.date))
+    const weeklyBriefings = Array.isArray(weeklySource)
+      ? weeklySource.slice().sort((a, b) => b.date.localeCompare(a.date))
       : [];
     const latest = briefings[0] || null;
     const latestWeekly = weeklyBriefings[0] || null;
