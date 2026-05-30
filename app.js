@@ -428,6 +428,7 @@
       els.calculatorTab.classList.remove("active");
       els.calculatorTab.removeAttribute("aria-current");
     }
+    scheduleGoogleTranslate();
   }
 
   function showMarket(marketKey) {
@@ -517,6 +518,7 @@
     renderCalendar();
     renderArchive();
     renderBriefing();
+    scheduleGoogleTranslate();
   }
 
   function renderCalendar() {
