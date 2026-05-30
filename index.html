@@ -7,13 +7,34 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
+    <header class="global-nav" aria-label="Main navigation">
+      <a class="nav-logo" href="#" id="homeButton" aria-label="Home">
+        <span class="logo-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <strong>IB</strong>
+      </a>
+      <nav class="primary-nav" aria-label="Dashboard navigation">
+        <a href="#" data-i18n="home">Home</a>
+        <a href="#us" data-open-market="us" data-i18n="usStock">US stock</a>
+        <a href="#cn" data-open-market="cn" data-i18n="aShare">A股</a>
+        <button id="calculatorTab" type="button" data-i18n="calculator">Calculator</button>
+      </nav>
+      <div class="language-switch" aria-label="Language">
+        <button type="button" data-language="en">ENG</button>
+        <button type="button" data-language="zh">中文</button>
+      </div>
+    </header>
+
     <main class="landing" id="landingView">
       <section class="landing-content" aria-label="Choose a market briefing">
-        <p class="eyebrow">Daily 8:00 Asia/Shanghai</p>
-        <h1>Investor Briefing</h1>
+        <p class="eyebrow" data-i18n="schedule">Daily 8:00 Asia/Shanghai</p>
+        <h1 data-i18n="appTitle">Investor Briefing</h1>
         <nav class="market-entry-actions" aria-label="Market briefing dashboards">
-          <a class="market-entry-button us" href="#us" data-open-market="us">US stock</a>
-          <a class="market-entry-button cn" href="#cn" data-open-market="cn">A股</a>
+          <a class="market-entry-button us" href="#us" data-open-market="us" data-i18n="usStock">US stock</a>
+          <a class="market-entry-button cn" href="#cn" data-open-market="cn" data-i18n="aShare">A股</a>
         </nav>
       </section>
     </main>
@@ -24,8 +45,8 @@
           <p class="eyebrow" id="dashboardEyebrow">Daily 8:00 Asia/Shanghai</p>
           <h1 id="brandTitle">Investor Briefing</h1>
           <nav class="market-switch" aria-label="Switch market briefing">
-            <a href="#us" data-open-market="us">US stock</a>
-            <a href="#cn" data-open-market="cn">A股</a>
+            <a href="#us" data-open-market="us" data-i18n="usStock">US stock</a>
+            <a href="#cn" data-open-market="cn" data-i18n="aShare">A股</a>
           </nav>
           <nav class="section-jump" id="sectionJump" aria-label="Briefing sections"></nav>
         </div>
@@ -37,56 +58,50 @@
             <button class="icon-button" id="nextMonth" type="button" aria-label="Next month">&gt;</button>
           </div>
           <div class="weekday-row" aria-hidden="true">
-            <span>Mon</span>
-            <span>Tue</span>
-            <span>Wed</span>
-            <span>Thu</span>
-            <span>Fri</span>
-            <span>Sat</span>
-            <span>Sun</span>
-            <span>Week</span>
+            <span data-i18n="mon">Mon</span>
+            <span data-i18n="tue">Tue</span>
+            <span data-i18n="wed">Wed</span>
+            <span data-i18n="thu">Thu</span>
+            <span data-i18n="fri">Fri</span>
+            <span data-i18n="sat">Sat</span>
+            <span data-i18n="sun">Sun</span>
+            <span data-i18n="week">Week</span>
           </div>
           <div class="calendar-grid" id="calendarGrid"></div>
         </section>
 
         <section class="archive-panel" aria-label="Previous briefings">
           <div class="section-title">
-            <h2>Archive</h2>
+            <h2 data-i18n="archive">Archive</h2>
             <span id="briefingCount">0</span>
           </div>
           <label class="search-box">
-            <span>Search</span>
+            <span data-i18n="search">Search</span>
             <input id="searchInput" type="search" placeholder="Ticker, topic, source">
           </label>
-          <p class="search-help">Search archived briefings by ticker, sector, topic, or source.</p>
+          <p class="search-help" data-i18n="searchHelp">Search archived briefings by ticker, sector, topic, or source.</p>
           <div class="archive-list" id="archiveList"></div>
         </section>
       </aside>
 
       <section class="content" aria-live="polite">
         <header class="topbar">
-          <div class="topbar-banner">
-            <nav class="top-tabs" aria-label="Dashboard views">
-              <a href="#us" data-open-market="us">US stock</a>
-              <a href="#cn" data-open-market="cn">A股</a>
-              <button id="calculatorTab" type="button">Calculator</button>
-            </nav>
-            <div class="top-actions">
-              <button id="homeButton" type="button">Home</button>
-              <button id="latestButton" type="button">Latest</button>
-              <button id="printButton" type="button">Print</button>
-            </div>
-          </div>
           <div class="topbar-title">
-            <p class="eyebrow" id="selectedDateLabel">No briefing selected</p>
-            <h2 id="briefingTitle">Waiting for the first daily brief</h2>
+            <div>
+              <p class="eyebrow" id="selectedDateLabel">No briefing selected</p>
+              <h2 id="briefingTitle">Waiting for the first daily brief</h2>
+            </div>
+            <div class="briefing-actions">
+              <button id="latestButton" type="button" data-i18n="latest">Latest</button>
+              <button id="printButton" type="button" data-i18n="print">Print</button>
+            </div>
           </div>
         </header>
 
         <article class="briefing" id="briefingView">
           <section class="empty-state">
-            <h3>No briefing archived yet</h3>
-            <p>The new automation will add the first entry here after its next 8:00 AM Asia/Shanghai run.</p>
+            <h3 data-i18n="noBriefing">No briefing archived yet</h3>
+            <p data-i18n="firstRunNote">The new automation will add the first entry here after its next 8:00 AM Asia/Shanghai run.</p>
           </section>
         </article>
       </section>
