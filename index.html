@@ -107,10 +107,24 @@
       </section>
     </main>
 
+    <div id="google_translate_element" class="translate-engine" aria-hidden="true"></div>
+
+    <script>
+      window.googleTranslateElementInit = function () {
+        new google.translate.TranslateElement({
+          pageLanguage: "auto",
+          includedLanguages: "en,zh-CN",
+          multilanguagePage: true,
+          autoDisplay: false
+        }, "google_translate_element");
+        window.dispatchEvent(new Event("google-translate-ready"));
+      };
+    </script>
     <script src="./data/briefings-data.js"></script>
     <script src="./data/a-share-briefings-data.js"></script>
     <script src="./data/weekly-briefings-data.js"></script>
     <script src="./data/a-share-weekly-briefings-data.js"></script>
     <script src="./app.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>
