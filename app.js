@@ -233,6 +233,8 @@
   let currentMarket = null;
   let currentView = "briefing";
   let currentLanguage = getInitialLanguage();
+  let translateRetryCount = 0;
+  let translateRetryTimer = null;
 
   const els = {
     landingView: document.getElementById("landingView"),
@@ -309,6 +311,7 @@
     button.addEventListener("click", () => setLanguage(button.dataset.language));
   });
 
+  window.addEventListener("google-translate-ready", () => scheduleGoogleTranslate(true));
   window.addEventListener("hashchange", syncRoute);
   applyLanguage();
   resetHashOnRefresh();
