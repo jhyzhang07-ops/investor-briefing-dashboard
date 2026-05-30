@@ -1137,8 +1137,8 @@
 
   function renderCalculatorView() {
     els.sectionJump.innerHTML = "";
-    els.selectedDateLabel.textContent = "Standalone tool";
-    els.briefingTitle.textContent = "Trade Return Calculator";
+    els.selectedDateLabel.textContent = t("standaloneTool");
+    els.briefingTitle.textContent = t("calculatorTitle");
     els.briefingView.innerHTML = renderCalculator();
     attachCalculatorHandlers();
   }
@@ -1383,7 +1383,7 @@
 
   function renderSources(sources) {
     const safeSources = Array.isArray(sources) ? sources : [];
-    if (!safeSources.length) return `<p class="empty-note">No sources archived.</p>`;
+    if (!safeSources.length) return `<p class="empty-note">${escapeHtml(t("noSources"))}</p>`;
 
     return `
       <div class="source-list">
