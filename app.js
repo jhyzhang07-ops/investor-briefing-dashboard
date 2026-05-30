@@ -233,8 +233,6 @@
   let currentMarket = null;
   let currentView = "briefing";
   let currentLanguage = getInitialLanguage();
-  let translateRetryCount = 0;
-  let translateRetryTimer = null;
 
   const els = {
     landingView: document.getElementById("landingView"),
@@ -311,7 +309,6 @@
     button.addEventListener("click", () => setLanguage(button.dataset.language));
   });
 
-  window.addEventListener("google-translate-ready", () => scheduleGoogleTranslate(true));
   window.addEventListener("hashchange", syncRoute);
   applyLanguage();
   resetHashOnRefresh();
@@ -360,7 +357,6 @@
     } else {
       showLanding();
     }
-    scheduleGoogleTranslate(true);
   }
 
   function applyLanguage() {
@@ -380,29 +376,6 @@
     });
     if (els.searchInput) {
       els.searchInput.placeholder = currentMarket ? currentMarket.searchPlaceholder : t("search");
-    }
-  }
-
-  function scheduleGoogleTranslate(resetRetries = false) {
-    if (resetRetries) translateRetryCount = 0;
-    window.clearTimeout(translateRetryTimer);
-    translateRetryTimer = window.setTimeout(applyGoogleTranslate, 180);
-  }
-
-  function applyGoogleTranslate() {
-    const combo = document.querySelector(".goog-te-combo");
-    if (!combo) {
-      translateRetryCount += 1;
-      if (translateRetryCount <= 25) {
-        translateRetryTimer = window.setTimeout(applyGoogleTranslate, 300);
-      }
-      return;
-    }
-
-    const targetLanguage = currentLanguage === "zh" ? "zh-CN" : "en";
-    if (combo.value !== targetLanguage) {
-      combo.value = targetLanguage;
-      combo.dispatchEvent(new Event("change"));
     }
   }
 
@@ -428,7 +401,6 @@
       els.calculatorTab.classList.remove("active");
       els.calculatorTab.removeAttribute("aria-current");
     }
-    scheduleGoogleTranslate();
   }
 
   function showMarket(marketKey) {
@@ -518,7 +490,6 @@
     renderCalendar();
     renderArchive();
     renderBriefing();
-    scheduleGoogleTranslate();
   }
 
   function renderCalendar() {
