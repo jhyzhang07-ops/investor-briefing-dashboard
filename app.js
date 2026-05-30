@@ -360,6 +360,7 @@
     } else {
       showLanding();
     }
+    scheduleGoogleTranslate(true);
   }
 
   function applyLanguage() {
@@ -379,6 +380,29 @@
     });
     if (els.searchInput) {
       els.searchInput.placeholder = currentMarket ? currentMarket.searchPlaceholder : t("search");
+    }
+  }
+
+  function scheduleGoogleTranslate(resetRetries = false) {
+    if (resetRetries) translateRetryCount = 0;
+    window.clearTimeout(translateRetryTimer);
+    translateRetryTimer = window.setTimeout(applyGoogleTranslate, 180);
+  }
+
+  function applyGoogleTranslate() {
+    const combo = document.querySelector(".goog-te-combo");
+    if (!combo) {
+      translateRetryCount += 1;
+      if (translateRetryCount <= 25) {
+        translateRetryTimer = window.setTimeout(applyGoogleTranslate, 300);
+      }
+      return;
+    }
+
+    const targetLanguage = currentLanguage === "zh" ? "zh-CN" : "en";
+    if (combo.value !== targetLanguage) {
+      combo.value = targetLanguage;
+      combo.dispatchEvent(new Event("change"));
     }
   }
 
