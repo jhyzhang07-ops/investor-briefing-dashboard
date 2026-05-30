@@ -308,13 +308,21 @@
     const briefings = Array.isArray(config.source())
       ? config.source().slice().sort((a, b) => b.date.localeCompare(a.date))
       : [];
+    const weeklyBriefings = Array.isArray(config.weeklySource())
+      ? config.weeklySource().slice().sort((a, b) => b.date.localeCompare(a.date))
+      : [];
     const latest = briefings[0] || null;
+    const latestWeekly = weeklyBriefings[0] || null;
 
     return {
       briefings,
+      weeklyBriefings,
       byDate: new Map(briefings.map((brief) => [brief.date, brief])),
+      byWeekDate: new Map(weeklyBriefings.map((brief) => [brief.date, brief])),
       latest,
+      latestWeekly,
       selectedDate: latest ? latest.date : toDateKey(new Date()),
+      selectedWeekDate: latestWeekly ? latestWeekly.date : toDateKey(endOfWeekSunday(new Date())),
       visibleMonth: latest ? monthFromKey(latest.date) : startOfMonth(new Date()),
       searchTerm: "",
       stockFilters: {
