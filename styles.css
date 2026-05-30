@@ -168,17 +168,6 @@ body {
   outline: none;
 }
 
-.translate-engine,
-.goog-te-banner-frame,
-.goog-te-balloon-frame,
-.goog-te-gadget {
-  display: none !important;
-}
-
-body {
-  top: 0 !important;
-}
-
 button,
 input,
 select {
