@@ -334,15 +334,69 @@
     showMarket(marketKey);
   }
 
+  function getInitialLanguage() {
+    try {
+      const saved = localStorage.getItem("investorBriefingLanguage");
+      if (saved === "zh" || saved === "en") return saved;
+    } catch (error) {
+      // Keep the dashboard usable if browser storage is unavailable.
+    }
+    return "en";
+  }
+
+  function setLanguage(language) {
+    currentLanguage = language === "zh" ? "zh" : "en";
+    try {
+      localStorage.setItem("investorBriefingLanguage", currentLanguage);
+    } catch (error) {
+      // Non-critical: language still updates for the current session.
+    }
+    applyLanguage();
+    if (currentMarketKey) {
+      render();
+    } else {
+      showLanding();
+    }
+  }
+
+  function applyLanguage() {
+    document.documentElement.lang = currentLanguage === "zh" ? "zh-CN" : "en";
+    els.translatable.forEach((node) => {
+      const key = node.dataset.i18n;
+      if (key && t(key)) node.textContent = t(key);
+    });
+    els.languageButtons.forEach((button) => {
+      const isActive = button.dataset.language === currentLanguage;
+      button.classList.toggle("active", isActive);
+      if (isActive) {
+        button.setAttribute("aria-current", "true");
+      } else {
+        button.removeAttribute("aria-current");
+      }
+    });
+    if (els.searchInput) {
+      els.searchInput.placeholder = currentMarket ? currentMarket.searchPlaceholder : t("search");
+    }
+  }
+
+  function t(key) {
+    return (UI_COPY[currentLanguage] && UI_COPY[currentLanguage][key]) || UI_COPY.en[key] || key;
+  }
+
+  function currentLocale() {
+    return currentLanguage === "zh" ? "zh-CN" : "en-US";
+  }
+
   function showLanding() {
     currentMarketKey = null;
     currentMarket = null;
-    document.title = "Investor Briefing Dashboard";
+    document.title = currentLanguage === "zh" ? "投资简报" : "Investor Briefing Dashboard";
     document.body.classList.remove("dashboard-active", "market-us", "market-cn");
     document.body.classList.add("landing-active");
     if (els.landingView) els.landingView.hidden = false;
     if (els.dashboardShell) els.dashboardShell.hidden = true;
     setActiveMarketLinks(null);
+    if (els.homeButton) els.homeButton.classList.add("active");
     if (els.calculatorTab) {
       els.calculatorTab.classList.remove("active");
       els.calculatorTab.removeAttribute("aria-current");
@@ -360,6 +414,7 @@
     document.body.classList.add("dashboard-active", currentMarket.bodyClass);
     if (els.landingView) els.landingView.hidden = true;
     if (els.dashboardShell) els.dashboardShell.hidden = false;
+    if (els.homeButton) els.homeButton.classList.remove("active");
 
     syncMarketChrome();
     render();
@@ -367,8 +422,8 @@
 
   function syncMarketChrome() {
     const state = getCurrentState();
-    if (els.brandTitle) els.brandTitle.textContent = currentMarket.brandTitle;
-    if (els.dashboardEyebrow) els.dashboardEyebrow.textContent = currentMarket.dashboardEyebrow;
+    if (els.brandTitle) els.brandTitle.textContent = currentLanguage === "zh" ? "投资简报" : currentMarket.brandTitle;
+    if (els.dashboardEyebrow) els.dashboardEyebrow.textContent = t("schedule");
     if (els.searchInput) {
       els.searchInput.placeholder = currentMarket.searchPlaceholder;
       els.searchInput.value = state.searchTerm;
@@ -441,7 +496,7 @@
     const state = getCurrentState();
     if (!state) return;
 
-    els.calendarLabel.textContent = state.visibleMonth.toLocaleDateString("en-US", {
+    els.calendarLabel.textContent = state.visibleMonth.toLocaleDateString(currentLocale(), {
       month: "long",
       year: "numeric"
     });
@@ -512,7 +567,7 @@
             <span>${escapeHtml(brief.tone || brief.title || "Daily briefing")}</span>
           </button>
         `).join("")
-      : `<p class="empty-note">No archived briefings match that search.</p>`;
+      : `<p class="empty-note">${escapeHtml(t("noArchiveMatch"))}</p>`;
 
     els.archiveList.querySelectorAll("button").forEach((button) => {
       button.addEventListener("click", () => {
@@ -542,7 +597,7 @@
 
     els.selectedDateLabel.textContent = brief
       ? `${displayDate(brief.date)} | ${brief.timezone || "Asia/Shanghai"}`
-      : `${displayDate(state.selectedDate)} | No archive entry`;
+      : `${displayDate(state.selectedDate)} | ${t("noArchiveEntry")}`;
     els.briefingTitle.textContent = brief ? brief.title : "No briefing for this date";
 
     if (!brief) {
@@ -574,16 +629,16 @@
       </section>
 
       ${renderSection(currentMarket.sectionTitles.actionBoard, renderActionBoard(brief), "brief-action-board")}
-      ${renderSection("Compare With Previous Briefing", renderComparePanel(brief), "brief-compare")}
+      ${renderSection(t("compareSection"), renderComparePanel(brief), "brief-compare")}
       ${renderSection(currentMarket.forecastTitle, renderList(brief.forecast, "forecast-list"), "brief-forecast")}
-      ${renderSection("Sectors To Watch", renderSectors(brief.sectors), "brief-sectors")}
+      ${renderSection(t("sectorsSection"), renderSectors(brief.sectors), "brief-sectors")}
       ${renderSection(currentMarket.stocksTitle, renderStocks(brief.stocks), "brief-stocks")}
       ${renderSection(currentMarket.smallCapsTitle, renderWatchCards(brief.smallCaps, currentMarket.noSmallCapsMessage), "brief-smallcaps")}
-      ${renderSection("ETFs To Watch", renderWatchCards(brief.etfs, currentMarket.noEtfsMessage), "brief-etfs")}
+      ${renderSection(t("etfsSection"), renderWatchCards(brief.etfs, currentMarket.noEtfsMessage), "brief-etfs")}
       ${renderSection(currentMarket.sectionTitles.catalysts, renderCatalystCalendar(brief.catalystCalendar), "brief-catalysts")}
       ${renderSection(currentMarket.sectionTitles.performance, renderPerformanceTracker(brief.performanceTracker), "brief-performance")}
       ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
-      ${renderSection("Sources", renderSources(brief.sources), "brief-sources")}
+      ${renderSection(t("sourcesSection"), renderSources(brief.sources), "brief-sources")}
     `;
 
     attachStockFilterHandlers();
@@ -603,7 +658,7 @@
     if (!weekly) {
       els.briefingView.innerHTML = `
         <section class="empty-state">
-          <h3>No weekly briefing for Week ${weekNumber}</h3>
+          <h3>${currentLanguage === "zh" ? `${t("noWeeklyTitle")}${weekNumber}周暂无周报` : `${t("noWeeklyTitle")} ${weekNumber}`}</h3>
           <p>${escapeHtml(currentMarket.noWeeklyDescription)}</p>
         </section>
       `;
@@ -635,7 +690,7 @@
       ${renderSection("Watchlist For Next Week", renderWatchCards(weekly.watchlist || weekly.stocks, "No weekly watchlist archived."))}
       ${renderSection("Risk Controls", renderList(weekly.riskControls, "section-list"))}
       ${(weekly.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
-      ${renderSection("Sources", renderSources(weekly.sources))}
+      ${renderSection(t("sourcesSection"), renderSources(weekly.sources))}
     `;
   }
 
@@ -666,7 +721,7 @@
     ].filter((item) => item[2]);
 
     els.sectionJump.innerHTML = `
-      <span>Jump To</span>
+      <span>${escapeHtml(t("jumpTo"))}</span>
       <div>
         ${items.map(([target, label]) => `<button type="button" data-scroll-target="${escapeAttribute(target)}">${escapeHtml(label)}</button>`).join("")}
       </div>
@@ -724,7 +779,7 @@
 
   function renderList(items, className) {
     const safeItems = Array.isArray(items) ? items : [];
-    if (!safeItems.length) return `<p class="empty-note">No items archived for this section.</p>`;
+    if (!safeItems.length) return `<p class="empty-note">${escapeHtml(t("noItems"))}</p>`;
     return `<ul class="${className}">${safeItems.map((item) => `<li>${escapeHtml(String(item))}</li>`).join("")}</ul>`;
   }
 
@@ -1402,7 +1457,7 @@
 
   function displayDate(key) {
     const date = monthFromKey(key);
-    return date.toLocaleDateString("en-US", {
+    return date.toLocaleDateString(currentLocale(), {
       weekday: "short",
       year: "numeric",
       month: "short",
