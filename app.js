@@ -151,10 +151,88 @@
     }
   };
 
+  const UI_COPY = {
+    en: {
+      home: "Home",
+      usStock: "US stock",
+      aShare: "A股",
+      calculator: "Calculator",
+      latest: "Latest",
+      print: "Print",
+      schedule: "Daily 8:00 Asia/Shanghai",
+      appTitle: "Investor Briefing",
+      archive: "Archive",
+      search: "Search",
+      searchHelp: "Search archived briefings by ticker, sector, topic, or source.",
+      noBriefing: "No briefing archived yet",
+      firstRunNote: "The new automation will add the first entry here after its next 8:00 AM Asia/Shanghai run.",
+      mon: "Mon",
+      tue: "Tue",
+      wed: "Wed",
+      thu: "Thu",
+      fri: "Fri",
+      sat: "Sat",
+      sun: "Sun",
+      week: "Week",
+      noSelected: "No briefing selected",
+      waitingTitle: "Waiting for the first daily brief",
+      jumpTo: "Jump To",
+      noArchiveMatch: "No archived briefings match that search.",
+      noItems: "No items archived for this section.",
+      noSources: "No sources archived.",
+      noWeeklyTitle: "No weekly briefing for Week",
+      standaloneTool: "Standalone tool",
+      calculatorTitle: "Trade Return Calculator",
+      compareSection: "Compare With Previous Briefing",
+      sectorsSection: "Sectors To Watch",
+      etfsSection: "ETFs To Watch",
+      sourcesSection: "Sources",
+      noArchiveEntry: "No archive entry"
+    },
+    zh: {
+      home: "首页",
+      usStock: "美股",
+      aShare: "A股",
+      calculator: "计算器",
+      latest: "最新",
+      print: "打印",
+      schedule: "每日 8:00 亚洲/上海",
+      appTitle: "投资简报",
+      archive: "归档",
+      search: "搜索",
+      searchHelp: "按股票代码、板块、主题或来源搜索历史简报。",
+      noBriefing: "暂无归档简报",
+      firstRunNote: "自动化会在下一次亚洲/上海时间早上8点运行后加入第一篇简报。",
+      mon: "周一",
+      tue: "周二",
+      wed: "周三",
+      thu: "周四",
+      fri: "周五",
+      sat: "周六",
+      sun: "周日",
+      week: "周",
+      noSelected: "未选择简报",
+      waitingTitle: "等待第一篇每日简报",
+      jumpTo: "跳转",
+      noArchiveMatch: "没有符合搜索条件的历史简报。",
+      noItems: "此部分暂无归档内容。",
+      noSources: "暂无来源归档。",
+      noWeeklyTitle: "第",
+      standaloneTool: "独立工具",
+      calculatorTitle: "交易收益计算器",
+      compareSection: "与上一份简报对比",
+      sectorsSection: "关注板块",
+      etfsSection: "关注ETF",
+      sourcesSection: "来源",
+      noArchiveEntry: "无归档记录"
+    }
+  };
+
   const marketStates = {};
   let currentMarketKey = null;
   let currentMarket = null;
   let currentView = "briefing";
+  let currentLanguage = getInitialLanguage();
 
   const els = {
     landingView: document.getElementById("landingView"),
@@ -176,7 +254,9 @@
     latestButton: document.getElementById("latestButton"),
     calculatorTab: document.getElementById("calculatorTab"),
     printButton: document.getElementById("printButton"),
-    marketLinks: Array.from(document.querySelectorAll("[data-open-market]"))
+    marketLinks: Array.from(document.querySelectorAll("[data-open-market]")),
+    languageButtons: Array.from(document.querySelectorAll("[data-language]")),
+    translatable: Array.from(document.querySelectorAll("[data-i18n]"))
   };
 
   if (els.prevMonth) els.prevMonth.addEventListener("click", () => {
@@ -193,7 +273,8 @@
     renderCalendar();
   });
 
-  if (els.homeButton) els.homeButton.addEventListener("click", () => {
+  if (els.homeButton) els.homeButton.addEventListener("click", (event) => {
+    event.preventDefault();
     history.pushState(null, "", `${window.location.pathname}${window.location.search}`);
     showLanding();
   });
@@ -224,7 +305,12 @@
     renderArchive();
   });
 
+  els.languageButtons.forEach((button) => {
+    button.addEventListener("click", () => setLanguage(button.dataset.language));
+  });
+
   window.addEventListener("hashchange", syncRoute);
+  applyLanguage();
   resetHashOnRefresh();
   syncRoute();
 
