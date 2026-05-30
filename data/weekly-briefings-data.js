@@ -1,0 +1,1 @@
+window.WEEKLY_MARKET_BRIEFINGS = [];

@@ -1,0 +1,1 @@
+window.A_SHARE_WEEKLY_BRIEFINGS = [];
