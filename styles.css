@@ -287,7 +287,7 @@ button:focus-visible {
 .weekday-row,
 .calendar-grid {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr)) minmax(52px, 0.75fr);
   gap: 6px;
 }
 
@@ -303,7 +303,8 @@ button:focus-visible {
   margin-top: 8px;
 }
 
-.day-button {
+.day-button,
+.week-button {
   position: relative;
   width: 100%;
   min-height: 42px;
@@ -317,12 +318,14 @@ button:focus-visible {
   color: var(--ink);
 }
 
-.day-button.has-brief {
+.day-button.has-brief,
+.week-button.has-week-brief {
   color: var(--accent);
   font-weight: 800;
 }
 
-.day-button.has-brief::after {
+.day-button.has-brief::after,
+.week-button.has-week-brief::after {
   content: "";
   position: absolute;
   bottom: 7px;
@@ -334,14 +337,22 @@ button:focus-visible {
   transform: translateX(-50%);
 }
 
-.day-button.active {
+.day-button.active,
+.week-button.active {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
 }
 
-.day-button.active::after {
+.day-button.active::after,
+.week-button.active::after {
   background: #fff;
+}
+
+.week-button {
+  border-style: dashed;
+  font-size: 12px;
+  font-weight: 900;
 }
 
 .section-title span {

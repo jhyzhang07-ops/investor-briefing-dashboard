@@ -357,21 +357,45 @@
     const start = addDays(first, -offset);
     const days = Array.from({ length: 42 }, (_, index) => addDays(start, index));
 
-    els.calendarGrid.innerHTML = days.map((day) => {
-      const key = toDateKey(day);
-      const classes = [
-        "day-button",
-        day.getMonth() === state.visibleMonth.getMonth() ? "in-month" : "",
-        state.byDate.has(key) ? "has-brief" : "",
-        key === state.selectedDate ? "active" : ""
+    const rows = [];
+    for (let rowIndex = 0; rowIndex < 6; rowIndex += 1) {
+      const weekDays = days.slice(rowIndex * 7, rowIndex * 7 + 7);
+      const weekEnd = weekDays[6];
+      const weekEndKey = toDateKey(weekEnd);
+      const weekNumber = getIsoWeekNumber(weekEnd);
+      const dayButtons = weekDays.map((day) => {
+        const key = toDateKey(day);
+        const classes = [
+          "day-button",
+          day.getMonth() === state.visibleMonth.getMonth() ? "in-month" : "",
+          state.byDate.has(key) ? "has-brief" : "",
+          key === state.selectedDate && currentView === "briefing" ? "active" : ""
+        ].filter(Boolean).join(" ");
+        return `<button class="${classes}" type="button" data-date="${key}" aria-label="${key}">${day.getDate()}</button>`;
+      }).join("");
+      const weekClasses = [
+        "week-button",
+        state.byWeekDate.has(weekEndKey) ? "has-week-brief" : "",
+        weekEndKey === state.selectedWeekDate && currentView === "weekly" ? "active" : ""
       ].filter(Boolean).join(" ");
-      return `<button class="${classes}" type="button" data-date="${key}" aria-label="${key}">${day.getDate()}</button>`;
-    }).join("");
+      rows.push(`${dayButtons}<button class="${weekClasses}" type="button" data-week-date="${weekEndKey}" aria-label="Week ${weekNumber} ending ${weekEndKey}">W${weekNumber}</button>`);
+    }
 
-    els.calendarGrid.querySelectorAll("button").forEach((button) => {
+    els.calendarGrid.innerHTML = rows.join("");
+
+    els.calendarGrid.querySelectorAll("[data-date]").forEach((button) => {
       button.addEventListener("click", () => {
         currentView = "briefing";
         state.selectedDate = button.dataset.date;
+        render();
+      });
+    });
+
+    els.calendarGrid.querySelectorAll("[data-week-date]").forEach((button) => {
+      button.addEventListener("click", () => {
+        currentView = "weekly";
+        state.selectedWeekDate = button.dataset.weekDate;
+        state.visibleMonth = monthFromKey(state.selectedWeekDate);
         render();
       });
     });
@@ -412,6 +436,11 @@
 
     if (currentView === "calculator") {
       renderCalculatorView();
+      return;
+    }
+
+    if (currentView === "weekly") {
+      renderWeeklyBriefing();
       return;
     }
 
@@ -465,6 +494,55 @@
 
     attachStockFilterHandlers();
     attachJumpHandlers();
+  }
+
+  function renderWeeklyBriefing() {
+    const state = getCurrentState();
+    const weekly = state.byWeekDate.get(state.selectedWeekDate);
+    const weekNumber = getIsoWeekNumber(monthFromKey(state.selectedWeekDate));
+    const range = getWeekRangeLabel(state.selectedWeekDate);
+
+    els.sectionJump.innerHTML = "";
+    els.selectedDateLabel.textContent = `Week ${weekNumber} | ${range}`;
+    els.briefingTitle.textContent = weekly ? weekly.title : `Weekly Briefing - Week ${weekNumber}`;
+
+    if (!weekly) {
+      els.briefingView.innerHTML = `
+        <section class="empty-state">
+          <h3>No weekly briefing for Week ${weekNumber}</h3>
+          <p>${escapeHtml(currentMarket.noWeeklyDescription)}</p>
+        </section>
+      `;
+      return;
+    }
+
+    els.briefingView.innerHTML = `
+      <section class="hero-summary weekly-summary">
+        <div>
+          <p class="tone">${escapeHtml(weekly.tone || "Weekly market tone pending")}</p>
+          ${renderPriorityStrip(weekly)}
+          ${renderList(weekly.summary, "summary-list")}
+        </div>
+        <div class="overview-panel">
+          <div class="glance-grid">
+            <div class="glance-tile"><span>Week</span><strong>W${escapeHtml(String(weekNumber))}</strong></div>
+            <div class="glance-tile"><span>Range</span><strong>${escapeHtml(range)}</strong></div>
+            <div class="glance-tile"><span>Next Focus</span><strong>${escapeHtml(String(countItems(weekly.nextWeekFocus)))}</strong></div>
+          </div>
+          <div class="market-grid">
+            ${renderMarketPulse(weekly.marketPulse)}
+          </div>
+        </div>
+      </section>
+
+      ${renderSection("What Happened This Week", renderList(weekly.weekReview || weekly.thisWeek || weekly.summary, "section-list"))}
+      ${renderSection("Next Week Focus", renderList(weekly.nextWeekFocus || weekly.forecast, "forecast-list"))}
+      ${renderSection("Sectors And Themes", renderSectors(weekly.sectors))}
+      ${renderSection("Watchlist For Next Week", renderWatchCards(weekly.watchlist || weekly.stocks, "No weekly watchlist archived."))}
+      ${renderSection("Risk Controls", renderList(weekly.riskControls, "section-list"))}
+      ${(weekly.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
+      ${renderSection("Sources", renderSources(weekly.sources))}
+    `;
   }
 
   function renderSection(title, body, id) {
@@ -1255,6 +1333,28 @@
 
   function addMonths(date, months) {
     return new Date(date.getFullYear(), date.getMonth() + months, 1);
+  }
+
+  function endOfWeekSunday(date) {
+    const next = new Date(date);
+    next.setDate(next.getDate() + ((7 - next.getDay()) % 7));
+    return next;
+  }
+
+  function getIsoWeekNumber(date) {
+    const target = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+    const day = target.getUTCDay() || 7;
+    target.setUTCDate(target.getUTCDate() + 4 - day);
+    const yearStart = new Date(Date.UTC(target.getUTCFullYear(), 0, 1));
+    return Math.ceil((((target - yearStart) / 86400000) + 1) / 7);
+  }
+
+  function getWeekRangeLabel(weekEndKey) {
+    const end = monthFromKey(weekEndKey);
+    const start = addDays(end, -6);
+    const startLabel = start.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+    const endLabel = end.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    return `${startLabel} - ${endLabel}`;
   }
 
   function escapeHtml(value) {
