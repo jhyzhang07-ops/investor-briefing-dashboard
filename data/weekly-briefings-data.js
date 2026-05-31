@@ -64,9 +64,9 @@ window.WEEKLY_MARKET_BRIEFINGS = [
         "name": "EN: Software Dispersion | 中文：软件分化",
         "direction": "short",
         "riskLevel": "yellow",
-        "catalyst": "EN: CRM showed the market still punishes mixed forward setups, while SNOW proved clean guidance upgrades can break that rule. | 中文：CRM说明市场仍会惩罚前瞻不够强的公司，而SNOW则证明只要指引足够干净，上述规则也会失效。",
-        "watch": "EN: Focus on names with raised guidance, durable consumption trends, or clear AI monetization; avoid broad software generalizations. | 中文：重点盯住上调指引、使用量趋势扎实、或AI变现路径清晰的公司，避免把整个软件板块一刀切。",
-        "risk": "EN: Blanket shorts can get squeezed by one strong print, so this is a selectivity theme, not a mechanical sector short. | 中文：软件板块里一份强财报就能把空头挤爆，因此这更像选择性主题，而不是机械做空整个板块。"
+        "catalyst": "EN: CRM invalidated the broad software-short framing by rallying sharply on Friday, while SNOW also proved clean guidance upgrades can drive strong follow-through. | 中文：CRM周五大涨，直接否定了“软件整体可空”的粗糙框架；SNOW也证明，只要指引足够干净，软件股仍能走出强延续。",
+        "watch": "EN: Focus on verified price reaction plus guidance quality: CRM and SNOW both show that actual tape must override a stale bearish setup. | 中文：重点看真实价格反应和指引质量：CRM与SNOW都说明，实际盘口必须优先于旧的看空逻辑。",
+        "risk": "EN: Blanket software shorts can be dangerous when the market rewards even mixed-but-improving AI monetization stories; any short thesis must be invalidated quickly after an 8% upside move. | 中文：当市场愿意奖励“虽有争议但AI变现边际改善”的软件公司时，一刀切做空软件非常危险；若个股上涨约8%，空头逻辑必须快速判定失效。"
       },
       {
         "name": "EN: Energy Hedge | 中文：能源对冲",
@@ -208,13 +208,15 @@ window.WEEKLY_MARKET_BRIEFINGS = [
           "SNOW: EN: roughly +35% to +40% from the earnings gap zone after lifting its outlook and announcing a five-year, $6 billion AWS deal; much of the move began in premarket and then held well in regular trading; tradability status: in progress only if it builds above the gap low, otherwise wait for pullback. | 中文：SNOW从财报缺口区域计算大约上涨35%到40%，催化是上调指引并宣布5年60亿美元AWS合作。大部分涨势先在盘前展开，随后日内承接也较好；当前状态：只有在缺口低点上方继续搭台才算延续，否则应等回踩。",
           "MU: EN: about +19% on Tuesday and materially higher for the short week as AI memory demand and positive analyst read-throughs kept money in the HBM trade; this was mostly regular-session continuation rather than one isolated after-hours spike; tradability status: in progress, but only on orderly pullbacks because the trade is crowded. | 中文：MU周二大约上涨19%，在这个短周里整体也显著走高；原因是AI存储/HBM需求强，以及分析师继续强化行业逻辑。它更像日内延续，不是一次性的盘后脉冲；当前状态：仍在进行中，但只能等有序回踩，因为交易已较拥挤。",
           "HPE: EN: about +18% late in the week in sympathy with Dell ahead of its own June 1 earnings; this was mainly a regular-session sympathy move, not a company-confirmed breakout yet; tradability status: still early only if Monday's first 30 minutes confirm, otherwise treat as a likely gap-fade candidate. | 中文：HPE在本周后段大约上涨18%，主要是受Dell带动并提前交易6月1日自身财报。这更像日内共振，而不是公司基本面已经确认的突破；当前状态：只有周一前30分钟确认时才算早期机会，否则更像高开回落候选。"
+          ,"CRM: EN: roughly +8% on Friday, invalidating the prior short setup. The move showed investors were willing to reward Salesforce's earnings/AI narrative and improved software sentiment rather than punish the mixed forward setup. Tradability status: do not short while it holds the post-earnings breakout; reassess only after failed follow-through. | 中文：CRM周五大约上涨8%，使此前做空设置失效。该走势说明市场愿意奖励Salesforce的财报/AI叙事和软件情绪改善，而不是惩罚其前瞻分歧。当前状态：只要维持财报后突破，就不应继续做空；只有后续延续失败后才重新评估。"
         ]
       },
       {
         "title": "EN: Performance Scorecard | 中文：表现复盘",
         "items": [
           "EN: What worked: the late-week daily emphasis on AI infrastructure leadership was correct, and DELL/SMH-style long bias matched the tape. | 中文：有效之处：日更后段强调AI基础设施主线是对的，DELL/SMH一类的多头偏向与市场主线一致。",
-          "EN: What partly worked: software caution was directionally right, but it needed more selectivity because SNOW proved the market still rewards clear AI-driven acceleration. | 中文：部分有效：对软件板块保持谨慎的大方向没错，但需要更细分，因为SNOW证明只要AI驱动的加速足够明确，市场仍会重奖。",
+          "EN: What failed: the CRM short call was wrong. CRM rallied about 8% on Friday, so the correct process label is miss / thesis invalidated, not 'market punished mixed software.' | 中文：失误之处：CRM做空判断是错的。CRM周五大约上涨8%，因此正确复盘标签应是“失误 / 逻辑失效”，而不是“市场惩罚软件前瞻分歧”。",
+          "EN: What partly worked: software caution needed much more selectivity because both CRM and SNOW showed the market can still reward credible AI/software narratives when the price action confirms. | 中文：部分有效：软件谨慎需要更精细，因为CRM和SNOW都说明，只要价格行为确认，市场仍会奖励可信的AI/软件叙事。",
           "EN: What failed: the May 29 daily macro note was not tight enough on official BEA GDP and PCE figures. This weekly archive corrects the record to GDP +1.6% annualized and April PCE +0.4% month over month. | 中文：失误之处：5月29日日更宏观段落对BEA官方GDP和PCE数字锚定不够严。本周报已修正为GDP年化+1.6%、4月PCE环比+0.4%。",
           "EN: What to improve next week: every big gap should be labeled separately as premarket, after-hours, and regular-session follow-through, because tradability depends on where the real buyers showed up. | 中文：下周要改进：所有大缺口都要单独标记盘前、盘后和日内延续，因为是否可交易，取决于真正买盘出现在哪个阶段。"
         ]
