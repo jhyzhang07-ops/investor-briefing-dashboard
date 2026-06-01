@@ -188,6 +188,12 @@ window.MARKET_BRIEFINGS = [
         "name": "EN: AI Semis And Servers\n中文：AI半导体与服务器",
         "direction": "long",
         "riskLevel": "yellow",
+        "sampleStocks": [
+          "NVDA",
+          "AVGO",
+          "HPE",
+          "DELL"
+        ],
         "catalyst": "EN: Dell's earnings reset the server chain and AVGO plus HPE can extend that read-through this week.\n中文：Dell财报重估了服务器链条，而本周AVGO与HPE有机会把这一逻辑继续扩散。",
         "watch": "EN: Watch whether networking, optics, storage, and enterprise-server suppliers participate, not just GPU-adjacent leaders.\n中文：要看网络、光模块、存储和企业服务器供应商是否一起参与，而不只是GPU相关龙头在涨。",
         "risk": "EN: If yields rise or HPE/AVGO guidance misses, the entire trade can compress quickly because expectations are already high.\n中文：若收益率走高，或HPE/AVGO指引不及预期，由于市场预期已高，整个板块可能迅速压缩。"
@@ -196,6 +202,12 @@ window.MARKET_BRIEFINGS = [
         "name": "EN: Enterprise Software\n中文：企业软件",
         "direction": "short",
         "riskLevel": "yellow",
+        "sampleStocks": [
+          "CRM",
+          "NOW",
+          "ADBE",
+          "MSFT"
+        ],
         "catalyst": "EN: Software remains a selective tape after CRM's squeeze; investors still want proof that AI monetization can exceed capex pressure.\n中文：在CRM挤空之后，软件板块依旧是分化行情；市场仍要求看到AI变现能够超过资本开支压力的证明。",
         "watch": "EN: Only press the short side on real technical failures, not on old narratives.\n中文：只有在出现真实技术破位时才考虑偏空，而不是重复旧叙事。",
         "risk": "EN: If rates stabilize and sentiment broadens, shorts can squeeze hard because software beta still trades off duration.\n中文：若利率稳定、市场风险偏好扩散，软件空头可能被快速挤压，因为这一板块仍明显受久期交易影响。"
@@ -204,6 +216,12 @@ window.MARKET_BRIEFINGS = [
         "name": "EN: Power, Cooling And Data-Center Infrastructure\n中文：电力、散热与数据中心基础设施",
         "direction": "long",
         "riskLevel": "yellow",
+        "sampleStocks": [
+          "VRT",
+          "ETN",
+          "ANET",
+          "TT"
+        ],
         "catalyst": "EN: A broad AI build-out needs power, thermal management, optics, and networking, not only chips.\n中文：广泛的AI建设不仅需要芯片，也需要电力、散热、光模块与网络设备。",
         "watch": "EN: If AVGO and HPE validate spending durability, second-order infrastructure names can catch up.\n中文：若AVGO与HPE验证开支持续性，二阶基础设施标的有机会补涨。",
         "risk": "EN: These names can lag badly if the market decides hyperscaler spending is already fully priced.\n中文：若市场认定超大规模客户开支已被充分计价，这类标的可能明显落后。"
@@ -212,6 +230,11 @@ window.MARKET_BRIEFINGS = [
         "name": "EN: Quantum And Space\n中文：量子与航天",
         "direction": "long",
         "riskLevel": "red",
+        "sampleStocks": [
+          "IONQ",
+          "ASTS",
+          "RKLB"
+        ],
         "catalyst": "EN: IONQ has merger and commercialization milestones, ASTS has a mid-June launch window, and RKLB has June launch cadence.\n中文：IONQ有并购与商业化里程碑，ASTS有6月中旬发射窗口，RKLB有6月发射节奏。",
         "watch": "EN: These are momentum-friendly only while execution headlines stay positive.\n中文：这类标的只有在执行层面的消息持续正面时，才适合顺势交易。",
         "risk": "EN: Valuation, liquidity swings, and overnight event risk are all high; size these smaller than core large-cap tech.\n中文：估值、流动性波动与隔夜事件风险都很高，仓位应明显小于核心大盘科技。"
@@ -220,6 +243,11 @@ window.MARKET_BRIEFINGS = [
         "name": "EN: Energy Hedge\n中文：能源对冲",
         "direction": "long",
         "riskLevel": "green",
+        "sampleStocks": [
+          "XOM",
+          "CVX",
+          "OXY"
+        ],
         "catalyst": "EN: Oil sold off hard in May on Iran-truce hopes, which means any reversal in geopolitical headlines can quickly restore the hedge bid.\n中文：5月油价因伊朗局势缓和预期而大跌，这意味着只要地缘政治消息反转，能源对冲需求就可能迅速回来。",
         "watch": "EN: Use energy as protection against headline risk, not as the main momentum engine unless crude reclaims leadership.\n中文：应把能源当成消息面风险的保护，而不是主要趋势引擎，除非原油重新带领上涨。",
         "risk": "EN: If diplomacy holds and inflation expectations cool further, energy can keep lagging growth.\n中文：若外交缓和持续、通胀预期进一步降温，能源可能继续跑输成长板块。"
@@ -228,6 +256,11 @@ window.MARKET_BRIEFINGS = [
         "name": "EN: Small Caps And Credit-Sensitive Cyclicals\n中文：小盘与信用敏感周期股",
         "direction": "short",
         "riskLevel": "yellow",
+        "sampleStocks": [
+          "IWM",
+          "KRE",
+          "RSP"
+        ],
         "catalyst": "EN: The Russell's Friday lag and still-high Treasury yields keep financing-sensitive companies vulnerable.\n中文：罗素指数周五跑输，加上美债收益率仍高，使融资敏感型公司继续脆弱。",
         "watch": "EN: If IWM cannot improve after ISM and payrolls, that would confirm the market still prefers quality AI over broad domestic beta.\n中文：若IWM在ISM和非农后仍无法改善，就说明市场仍更偏好高质量AI，而不是广泛的美国内需高贝塔。",
         "risk": "EN: If yields drop sharply, small caps can squeeze higher very fast.\n中文：若收益率明显回落，小盘股可能会非常快速地挤空上行。"

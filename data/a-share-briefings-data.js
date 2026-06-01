@@ -171,6 +171,20 @@ window.A_SHARE_BRIEFINGS = [
         "name": "中文：电网设备 / 特高压\nEN: Grid Equipment / UHV",
         "direction": "long",
         "riskLevel": "yellow",
+        "sampleStocks": [
+          {
+            "ticker": "600406.SH",
+            "chineseName": "国电南瑞"
+          },
+          {
+            "ticker": "601126.SH",
+            "chineseName": "四方股份"
+          },
+          {
+            "ticker": "600312.SH",
+            "chineseName": "平高电气"
+          }
+        ],
         "catalyst": "中文：官方PMI仍在扩张区间，电网投资和保供执行链更容易获得资金认可。\nEN: Official PMI remains in expansion, and the grid-investment and power-security execution chain is easier for funds to trust.",
         "watch": "中文：看国电南瑞等龙头能否在市场震荡中继续守住关键均线并缩量抗跌。\nEN: Watch whether leaders like NARI can keep holding key moving averages and resist on lighter volume during market volatility.",
         "risk": "中文：若科技继续大跌并拖累整体风险偏好，电网设备也可能被被动减仓。\nEN: If tech keeps sliding and drags overall risk appetite lower, grid equipment can still face forced de-risking."
@@ -179,6 +193,20 @@ window.A_SHARE_BRIEFINGS = [
         "name": "中文：银行 / 保险 / 高股息\nEN: Banks / Insurance / High Dividend",
         "direction": "long",
         "riskLevel": "green",
+        "sampleStocks": [
+          {
+            "ticker": "601398.SH",
+            "chineseName": "工商银行"
+          },
+          {
+            "ticker": "600036.SH",
+            "chineseName": "招商银行"
+          },
+          {
+            "ticker": "601318.SH",
+            "chineseName": "中国平安"
+          }
+        ],
         "catalyst": "中文：低利率、官方PMI仍扩张、以及大盘风格轮动，都支持防御型金融继续作为底仓。\nEN: Low rates, still-expansionary official PMI, and style rotation all support defensive financials as base exposure.",
         "watch": "中文：观察工商银行等大行能否继续在指数震荡日提供托底，而不是只在情绪最差时短暂护盘。\nEN: Watch whether big banks like ICBC keep supporting the tape through choppy sessions rather than only appearing during the worst risk-off moments.",
         "risk": "中文：若高贝塔科技迅速修复，银行相对收益可能落后，但回撤通常更可控。\nEN: If high-beta tech repairs quickly, banks may lag on relative return, though drawdowns are usually more controlled."
@@ -187,6 +215,20 @@ window.A_SHARE_BRIEFINGS = [
         "name": "中文：油气 / 海工 / 上游资源\nEN: Oil & Gas / Offshore Engineering / Upstream Resources",
         "direction": "long",
         "riskLevel": "yellow",
+        "sampleStocks": [
+          {
+            "ticker": "600938.SH",
+            "chineseName": "中国海油"
+          },
+          {
+            "ticker": "600583.SH",
+            "chineseName": "海油工程"
+          },
+          {
+            "ticker": "601857.SH",
+            "chineseName": "中国石油"
+          }
+        ],
         "catalyst": "中文：Brent仍在90美元上方，现金流和股息确定性使上游资源在风格轮动里更有支撑。\nEN: Brent staying above USD 90 supports cash-flow and dividend visibility, giving upstream resource names better footing in a rotation tape.",
         "watch": "中文：看中国海油等低波动龙头是否继续走出独立于科技的相对强势。\nEN: Watch whether lower-volatility leaders like CNOOC keep trading independently of the tech drawdown.",
         "risk": "中文：若国际油价快速回落或地缘溢价消退，板块弹性会明显下降。\nEN: If crude falls quickly or geopolitical premiums fade, the group's upside beta can compress fast."
@@ -195,6 +237,20 @@ window.A_SHARE_BRIEFINGS = [
         "name": "中文：半导体 / 科创 / AI硬件\nEN: Semiconductors / STAR / AI Hardware",
         "direction": "long",
         "riskLevel": "red",
+        "sampleStocks": [
+          {
+            "ticker": "688981.SH",
+            "chineseName": "中芯国际"
+          },
+          {
+            "ticker": "603986.SH",
+            "chineseName": "兆易创新"
+          },
+          {
+            "ticker": "300308.SZ",
+            "chineseName": "中际旭创"
+          }
+        ],
         "catalyst": "中文：产业景气线并未消失，真正的问题是短线拥挤度和T+1追高成本太高。\nEN: The industry trend has not disappeared; the real problem is short-term crowding and the high T+1 cost of chasing strength.",
         "watch": "中文：先看科创50和芯片ETF能否止跌、缩量、并重新站回盘中均价。\nEN: First watch whether STAR 50 and chip ETFs can stop falling, contract in volume, and reclaim intraday averages.",
         "risk": "中文：如果今天继续放量补跌，这一方向应继续列入“等回踩、不抄第一刀”的名单。\nEN: If this group keeps selling on heavy volume today, it should stay on the wait-for-pullback list rather than on first-dip buy lists."
@@ -203,6 +259,20 @@ window.A_SHARE_BRIEFINGS = [
         "name": "中文：电力 / 公用事业\nEN: Utilities / Power",
         "direction": "long",
         "riskLevel": "red",
+        "sampleStocks": [
+          {
+            "ticker": "000767.SZ",
+            "chineseName": "晋控电力"
+          },
+          {
+            "ticker": "002608.SZ",
+            "chineseName": "江苏国信"
+          },
+          {
+            "ticker": "000539.SZ",
+            "chineseName": "粤电力A"
+          }
+        ],
         "catalyst": "中文：周五电力逆市走强，资金把它当成防御与景气交叉的短线替代。\nEN: Utilities strengthened against the tape on Friday, with funds using them as a short-term blend of defense and cyclical support.",
         "watch": "中文：只观察低吸确认，不追前一交易日涨停与巨量突破。\nEN: Focus only on pullback confirmations; do not chase prior-session limit-ups or giant breakouts.",
         "risk": "中文：高开接力最容易被T+1反噬，一旦没有新增资金跟进，回撤会很快。\nEN: Gap-up continuation trades are the most exposed to T+1 pain; if fresh money does not follow, pullbacks come quickly."
@@ -211,6 +281,20 @@ window.A_SHARE_BRIEFINGS = [
         "name": "中文：地产链\nEN: Property Chain",
         "direction": "short",
         "riskLevel": "red",
+        "sampleStocks": [
+          {
+            "ticker": "000002.SZ",
+            "chineseName": "万科A"
+          },
+          {
+            "ticker": "001979.SZ",
+            "chineseName": "招商蛇口"
+          },
+          {
+            "ticker": "600048.SH",
+            "chineseName": "保利发展"
+          }
+        ],
         "catalyst": "中文：周五更多像交易性反抽，不足以推翻此前销售、融资和信用层面的弱势。\nEN: Friday looked more like a trading rebound than a full reversal of weak sales, financing, and credit conditions.",
         "watch": "中文：看龙头地产股能否在两天内延续放量站稳；没有这个确认，就继续以回避为主。\nEN: Watch whether property leaders can sustain volume and hold for two sessions; without that, the default remains avoidance.",
         "risk": "中文：若再出核心城市宽松政策或融资支持超预期，空头/回避逻辑会再次被短线挤压。\nEN: If core-city easing or financing support surprises again, bearish or avoid-bias views can be squeezed quickly."
