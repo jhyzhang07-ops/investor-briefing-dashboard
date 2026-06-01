@@ -1054,7 +1054,10 @@
           return `
             <div class="sector-card">
               <div class="sector-head">
-                <strong>${escapeHtml(sector.name || "Sector")}</strong>
+                <div class="sector-title-group">
+                  <strong>${escapeHtml(sector.name || "Sector")}</strong>
+                  ${renderSectorExamples(sector)}
+                </div>
                 <div>
                   <span class="direction-pill ${direction.className}">${escapeHtml(direction.label)}</span>
                   <span class="risk-pill ${riskLevel.className}">${escapeHtml(riskLevel.label)}</span>
@@ -1066,6 +1069,41 @@
             </div>
           `;
         }).join("")}
+      </div>
+    `;
+  }
+
+  function renderSectorExamples(sector) {
+    const examples = Array.isArray(sector.sampleStocks)
+      ? sector.sampleStocks
+      : Array.isArray(sector.examples)
+        ? sector.examples
+        : [];
+
+    if (!examples.length) return "";
+
+    const rendered = examples.map((example) => {
+      if (typeof example === "string") {
+        return `<span class="sector-sample-chip">${renderTickerLinks(example)}</span>`;
+      }
+
+      if (example && typeof example === "object" && example.ticker) {
+        const name = example.chineseName || example.name || "";
+        return `
+          <span class="sector-sample-chip">
+            ${renderTickerLinks(example.ticker)}
+            ${name ? `<small>${escapeHtml(name)}</small>` : ""}
+          </span>
+        `;
+      }
+
+      return "";
+    }).filter(Boolean).join("");
+
+    return `
+      <div class="sector-samples">
+        <span class="sector-samples-label">Sample stocks</span>
+        <div class="sector-samples-list">${rendered}</div>
       </div>
     `;
   }
