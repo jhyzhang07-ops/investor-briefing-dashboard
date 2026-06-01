@@ -4,6 +4,8 @@ Open `index.html` in a browser to choose between the U.S. stock briefing archive
 
 The U.S. daily automation writes each briefing into `data/briefings-data.js`. The A股 daily automation writes each briefing into `data/a-share-briefings-data.js`. Each dashboard keeps all dates in one place, marks archived days on the calendar, and lets you search prior briefings by ticker, topic, or source.
 
+The standing process rules for briefing generation and post-close review live in `data/briefing-review-algorithm.md`. Future daily briefings should read that file before writing actionable setups, especially for live-price verification, stale-level rejection, and 1-day / 3-day / 1-week review discipline.
+
 The briefing view includes a top-priority strip, a compare-with-previous-briefing panel, stock filters, and source confidence labels.
 The briefing includes sectors to watch, individual stocks to watch, small-cap stocks to watch, and ETFs to watch. ETFs are shown after the individual stock sections. ETF and stock tickers link to market quote pages and include suggested entry and profit-take zones when available. The return calculator estimates long or short trade return from entry, exit, and share count.
 
