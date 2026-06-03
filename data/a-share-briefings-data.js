@@ -148,9 +148,9 @@ window.A_SHARE_BRIEFINGS = [
         "date": "2026-06-02",
         "ticker": "588000.SH",
         "chineseName": "科创50ETF",
-        "status": "open",
-        "result": "中文：前一份简报强调科创50ETF只适合高风险修复观察。6月2日科创50反弹1.62%，6月3日午盘又涨4.78%，说明修复确实出现；但结合6月2日超3800股下跌的窄宽度特征，它仍更像高波动修复而不是低风险重置。\nEN: The prior briefing said the STAR 50 ETF only belonged in a high-risk repair watch. STAR 50 rebounded 1.62% on June 2 and added another 4.78% by the June 3 midday mark, showing that repair is happening; but given the narrow breadth on June 2, it still looks more like a high-volatility repair than a low-risk reset.",
-        "lesson": "中文：判断正确并不等于马上可追。高贝塔修复最容易在第二天把谨慎投资者引到错误的价格上。\nEN: A correct directional read does not mean immediate chaseability. High-beta repairs are exactly where cautious investors get pulled into the wrong price on the next day."
+        "status": "hit",
+        "result": "中文：前一份简报把科创50ETF放在高风险修复观察区并强调不要追午盘最热斜率。6月3日盘中高贝塔科技确实继续冲高，但创业板从盘中近4%回落到收盘+1.65%，证明修复虽在继续，追涨容错却已经明显变差。\nEN: The prior briefing kept the STAR 50 ETF in a high-risk repair-watch bucket and stressed not chasing the hottest midday slope. On June 3 high-beta tech did push higher again intraday, but ChiNext faded from nearly +4% intraday to +1.65% at the close, proving that the repair continued while the error tolerance for chasing deteriorated materially.",
+        "lesson": "中文：方向对不等于价格对。高贝塔修复最容易在第二天把谨慎投资者引到错误的价位，所以“确认后轻仓”和“不追午盘最热”要一起执行。\nEN: Getting the direction right does not mean getting the price right. High-beta repairs are exactly where cautious investors get pulled into the wrong level on the next day, so 'small size after confirmation' and 'do not chase the hottest noon move' have to be executed together."
       },
       {
         "date": "2026-06-02",
@@ -174,9 +174,9 @@ window.A_SHARE_BRIEFINGS = [
         "name": "中文：AI硬件 / 光模块 / PCB\nEN: AI Hardware / CPO / PCB",
         "direction": "long",
         "riskLevel": "red",
-        "catalyst": "中文：6月2日CPO、PCB、MLCC和光通信领涨，6月3日午盘创业板与科创50继续大幅上冲，资金重新集中到硬科技高景气链条。\nEN: CPO, PCB, MLCC, and optical-communication groups led on June 2, and by the June 3 midday mark ChiNext and STAR 50 were surging again, showing capital re-concentrating into high-momentum hard-tech chains.",
-        "watch": "中文：只看回踩后的承接和量能是否降温；若6月4日继续高开高走而没有换手，不把它当低风险买点。\nEN: Focus only on whether support holds after a pullback and whether volume cools; if June 4 gaps higher again without turnover repair, do not treat it as a low-risk entry.",
-        "risk": "中文：这是最典型的T+1高波动区域，尤其是午盘冲高后次日容易出现高开回落。\nEN: This is the clearest T+1 high-volatility zone, especially because a midday squeeze can easily turn into a next-day gap-up fade."
+        "catalyst": "中文：6月3日收盘前，光通信、CPO、半导体仍是最强方向，说明资金依旧愿意把增量流向高景气硬科技。\nEN: Into the June 3 close, optical communications, CPO, and semis remained the strongest directions, showing that capital still wanted to route incremental flows into high-momentum hard tech.",
+        "watch": "中文：只看回踩后的承接和量能是否降温；若6月4日继续高开却不能扩大宽度，不把它当低风险买点。\nEN: Focus only on whether support holds after a pullback and whether volume cools; if June 4 gaps higher again without improving breadth, do not treat it as a low-risk entry.",
+        "risk": "中文：这是最典型的T+1高波动区域。6月3日已经出现盘中急拉、收盘收敛的迹象，次日再追最容易遇到高开回落。\nEN: This is the clearest T+1 high-volatility zone. June 3 already showed a sharp intraday squeeze followed by a tighter close, which is exactly the setup where next-day chasing most easily runs into a gap-up fade."
       },
       {
         "name": "中文：电网设备 / 电力自动化\nEN: Grid Equipment / Power Automation",
@@ -370,10 +370,10 @@ window.A_SHARE_BRIEFINGS = [
         "type": "中文：高贝塔科技ETF\nEN: high-beta tech ETF",
         "catalyst": "中文：若硬科技修复继续，它仍是最直接的A股弹性表达之一。\nEN: If hard-tech repair continues, it remains one of the most direct upside expressions in A-shares.",
         "why": "中文：比单一个股更分散，但仍足够敏感，只适合在信号确认后轻仓参与。\nEN: It is more diversified than a single name but still highly sensitive, making it suitable only for small-size participation after confirmation.",
-        "risk": "中文：6月2日已反弹1.62%，6月3日午盘又涨4.78%，当日热度过高时继续追价，很容易把次日波动放大成亏损。\nEN: It already rebounded 1.62% on June 2 and another 4.78% by the June 3 midday mark, so continuing to chase when same-day heat is excessive can easily magnify the next-day swing into a loss.",
+        "risk": "中文：6月2日已反弹1.62%，6月3日盘中又明显冲高但收盘收敛，当日热度过高时继续追价，很容易把次日波动放大成亏损。\nEN: It already rebounded 1.62% on June 2 and then surged intraday again on June 3 before closing with a narrower gain, so continuing to chase when same-day heat is excessive can easily magnify the next-day swing into a loss.",
         "convictionScore": 3,
         "timeframe": "trade",
-        "recentPerformance": "中文：从6月1日的大跌转入6月2日和6月3日午盘的连续修复后，当前更像“已启动但偏热”，不再是低位埋伏阶段。\nEN: After shifting from the sharp June 1 selloff into back-to-back repair across June 2 and the June 3 midday tape, it now looks more like 'already moving but overheated' rather than a low-base accumulation stage.",
+        "recentPerformance": "中文：从6月1日的大跌转入6月2日反弹、6月3日盘中再冲高但尾盘收敛后，当前更像“已启动但偏热”，不再是低位埋伏阶段。\nEN: After shifting from the sharp June 1 selloff into a June 2 rebound and another June 3 intraday surge that narrowed into the close, it now looks more like 'already moving but overheated' rather than a low-base accumulation stage.",
         "setupStatus": "extended"
       }
     ],
@@ -390,7 +390,7 @@ window.A_SHARE_BRIEFINGS = [
       {
         "title": "中文：风险控制与失效条件 / Risk Controls And Invalidation\nEN: Risk Controls And Invalidation",
         "items": [
-          "中文：A股T+1仍是最高优先级约束。任何6月3日午盘已经明显冲高的名字，默认都要先写成“不追高”，哪怕逻辑看起来再顺。\nEN: A-share T+1 remains the highest-priority constraint. Any name that was already clearly extended by the June 3 midday tape should default to 'do not chase,' no matter how smooth the story looks.",
+          "中文：A股T+1仍是最高优先级约束。任何6月3日盘中已经明显冲高、且收盘没有继续放大的名字，默认都要先写成“不追高”，哪怕逻辑看起来再顺。\nEN: A-share T+1 remains the highest-priority constraint. Any name that was already clearly extended intraday on June 3 without further expansion into the close should default to 'do not chase,' no matter how smooth the story looks.",
           "中文：对AI硬件、半导体、光模块和科创50，最重要的不是涨幅本身，而是6月4日有没有低量回踩后的承接。没有这个动作，就把它视为高风险修复而不是安全重启。\nEN: For AI hardware, semis, optics, and STAR 50, the key is not the size of the move itself but whether June 4 shows support after a lower-volume pullback. Without that, treat it as high-risk repair rather than a safe restart.",
           "中文：所有前一交易日大涨6%-8%以上、涨停或接近涨停的小票，都必须写清楚失效条件。若次日跌破启动位或放量回落，不再以“题材还在”作为继续持有的理由。\nEN: Every small-cap that rose 6%-8% or more in the prior session, or that hit or neared limit-up, needs a clear invalidation rule. If it loses the launch level the next day or reverses on heavy volume, 'the theme is still alive' is no longer enough reason to stay in.",
           "中文：若510300.SH也开始转弱，说明问题已经从“题材过热”扩散到“市场整体承接下降”，此时应优先减少总仓位，而不是换更高弹性的票。\nEN: If 510300.SH also starts weakening, the problem has spread from 'themes are overheated' to 'the market's overall sponsorship is falling,' and the first response should be reducing gross exposure rather than switching into even higher-beta names.",
