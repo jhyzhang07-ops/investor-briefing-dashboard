@@ -405,14 +405,14 @@ window.A_SHARE_BRIEFINGS = [
         "url": "https://wap.eastmoney.com/a/202606033758985418.html"
       },
       {
-        "label": "东方财富转每日经济新闻：6月3日收评，两市成交额3.13万亿元、较前一日放量3373亿元、全市场超3700股下跌",
-        "confidence": "High-quality reporting",
-        "url": "https://wap.eastmoney.com/a/202606033758966323.html"
-      },
-      {
-        "label": "东方财富转南方财经：6月3日收评，创业板指盘中一度涨近4%后收盘回落至1.65%",
+        "label": "东方财富转南方财经：6月3日收评，两市成交额3.13万亿元、较前一日放量3373亿元、全市场超3700股下跌",
         "confidence": "High-quality reporting",
         "url": "https://wap.eastmoney.com/a/202606033758962275.html"
+      },
+      {
+        "label": "财联社：市场延续结构性分化，CPO、光纤引领AI硬件集体修复，电力受迎峰度夏预期支撑",
+        "confidence": "High-quality reporting",
+        "url": "https://www.cls.cn/detail/2389113"
       },
       {
         "label": "中国人民银行：公开市场业务交易公告 [2026]第104号",
