@@ -400,19 +400,19 @@ window.A_SHARE_BRIEFINGS = [
     ],
     "sources": [
       {
-        "label": "Xinhua：6月2日A股收盘，上证涨0.43%，深成指涨1.63%，创业板指涨2.66%",
+        "label": "东方财富：6月3日收评，上证涨0.22%，深成指涨0.73%，创业板指涨1.65%，两市成交额放量超3300亿元",
         "confidence": "Market data",
-        "url": "https://english.news.cn/20260602/135f9b607ea542f7b8275a9db8daad89/c.html"
+        "url": "https://finance.eastmoney.com/a/202606033758813072.html"
       },
       {
-        "label": "每日经济新闻：6月2日A股收盘，成交额2.81万亿元且超3800只个股下跌",
+        "label": "凤凰网财经：6月3日A股收盘，近3700股下跌，光通信板块逆市上涨",
         "confidence": "High-quality reporting",
-        "url": "https://www.nbd.com.cn/articles/2026-06-02/4415189.html"
+        "url": "https://finance.ifeng.com/c/8k8x6G05vDt"
       },
       {
-        "label": "东方财富：6月3日午评，创业板指涨3.97%，光纤概念涨幅居前",
-        "confidence": "Market data",
-        "url": "https://finance.eastmoney.com/a/202606033758779567.html"
+        "label": "新浪财经：6月3日收评，CPO、光纤、半导体、电力和煤炭领涨，互联金融与影视传媒走弱",
+        "confidence": "High-quality reporting",
+        "url": "https://finance.sina.com.cn/stock/marketresearch/2026-06-03/doc-inezxqnc2136800.shtml"
       },
       {
         "label": "中国人民银行：公开市场业务交易公告 [2026]第104号",
