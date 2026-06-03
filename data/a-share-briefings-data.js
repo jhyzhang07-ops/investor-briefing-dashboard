@@ -1,5 +1,487 @@
 window.A_SHARE_BRIEFINGS = [
   {
+    "date": "2026-06-03",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-03 15:32 GMT+8",
+    "title": "中文：A股市场简报 - 2026-06-03\nEN: A-Share Market Briefing - 2026-06-03",
+    "tone": "中文：这份6月3日归档简报以6月2日完整收盘数据，以及6月3日上午央行与PMI信号为基准。当前最有用的优势不是跟着光模块和PCB午间脉冲一起追，而是在明确T+1隔夜风险后，优先挑选50元以下、走势更稳、回踩结构更清楚的候选。\nEN: This June 3 archived briefing is anchored to the full June 2 close plus the June 3 morning PBOC and PMI signals. The more useful edge here is not joining the midday CPO and PCB squeeze, but favoring sub-RMB 50 names with steadier structures and clearer pullback setups after explicitly accounting for T+1 overnight risk.",
+    "priorities": [
+      "中文：先分清“指数涨”和“多数股票好做”不是一回事。6月2日上证指数涨0.43%、创业板指涨2.66%，但全市场仍有超3800只个股下跌，说明反弹高度集中在AI硬件与少数高景气链条，而不是普涨牛市。\nEN: First separate 'indices are up' from 'most stocks are tradable.' On June 2 the SSE Composite rose 0.43% and ChiNext 2.66%, yet more than 3,800 stocks still fell, showing the rebound was highly concentrated in AI hardware and a few high-momentum chains rather than a broad bull tape.",
+      "中文：把6月3日早上的宏观信号放在一起看。央行公告当日无逆回购操作、也无逆回购到期，不是额外放水；同时财新5月服务业PMI升至54.4，高于前值52.6和预期52.3，说明宏观并不弱，但也不足以替追高提供容错。\nEN: Read the June 3 morning macro signals together. The PBOC announced no reverse-repo operation and no maturities for the day, so there was no fresh easing impulse; at the same time, the Caixin May services PMI rose to 54.4, above 52.6 previously and the 52.3 expectation, which says macro conditions are not weak but still do not create error tolerance for chasing.",
+      "中文：6月3日午盘创业板指涨3.97%、科创50涨4.78%，这已经把高贝塔科技重新推到高风险区。对用户偏好的10日波段来说，今天更像写“等回踩”的日子，而不是把午盘强度直接当成次日可追的起点。\nEN: By the June 3 midday mark, ChiNext was up 3.97% and STAR 50 4.78%, which already puts high-beta tech back into a high-risk zone. For the user's preferred 10-day swing horizon, today is more about writing 'wait for a pullback' than treating midday strength as an automatic next-day entry.",
+      "中文：稳一点的候选仍然要优先于最热的题材。电网设备、环保公用事业、银行和沪深300ETF都更适合做隔夜风险可控的底仓或条件单，而不是用T+1去赌最挤的连板风格。\nEN: Steadier candidates still deserve priority over the hottest themes. Grid equipment, environmental utilities, banks, and the CSI 300 ETF are better suited for overnight-risk-controlled base exposure or conditional orders than using T+1 to gamble on the most crowded streaking style.",
+      "中文：地产链继续只放在风险温度计，不升级为主线。更重要的是纠正数据：可靠行情显示万科A在6月1日收于3.47元、下跌2.25%，此前“反弹约2.25%”的表述不准确，今天已在复盘中修正。\nEN: The property chain stays in the risk-thermometer bucket and does not get upgraded into a core theme. More importantly, the data are corrected here: reliable market data show Vanke A closed at RMB 3.47 on June 1, down 2.25%, so the earlier wording that described a roughly 2.25% rebound was inaccurate and has been fixed in this review."
+    ],
+    "summary": [
+      "中文：这份6月3日归档条目采用“6月2日完整收盘 + 6月3日上午最新信号”的结构。6月2日上证指数收4075.10点涨0.43%，深证成指收15591.13点涨1.63%，创业板指收4055.87点涨2.66%，沪深300收4914.56点涨1.45%，科创50收1690.56点涨1.62%。但同一天全市场成交额约2.81万亿元，且超3800只个股下跌，说明赚钱效应并不均匀。\nEN: This June 3 archive entry uses a 'full June 2 close plus latest June 3 morning signals' structure. On June 2 the SSE Composite closed at 4075.10, up 0.43%, the Shenzhen Component at 15591.13, up 1.63%, ChiNext at 4055.87, up 2.66%, CSI 300 at 4914.56, up 1.45%, and STAR 50 at 1690.56, up 1.62%. But turnover was still around RMB 2.81 trillion and more than 3,800 stocks fell, showing that the money-making effect was far from evenly distributed.",
+      "中文：6月3日上午的新增信息并没有推翻这个结论。央行公告当日无逆回购操作、无逆回购到期，短端流动性保持中性；财新5月服务业PMI为54.4，显示服务需求仍在扩张。宏观背景更像“经济没坏，流动性没失控”，但市场风格仍由高景气AI硬件驱动，而不是低位稳步扩散。\nEN: The new information from the morning of June 3 did not overturn that conclusion. The PBOC announced no reverse-repo operation and no maturities, keeping front-end liquidity neutral; the Caixin May services PMI printed 54.4, showing continued expansion in service demand. The macro backdrop still looks more like 'the economy is not breaking and liquidity is not disorderly,' but market style is still being driven by high-momentum AI hardware rather than a calm low-base broadening move.",
+      "中文：截至6月3日午盘，上证指数涨0.56%，深证成指涨2.31%，创业板指涨3.97%，科创50涨4.78%。这意味着市场重新把最强风险偏好押回光模块、PCB、光通信和相关硬科技。对短线高手这可能是机会，但对追求更稳10日波段的A股投资者，这首先是一个“不要在T+1里追最陡斜率”的警告。\nEN: As of the June 3 midday snapshot, the SSE was up 0.56%, Shenzhen 2.31%, ChiNext 3.97%, and STAR 50 4.78%. That means the market has again pushed the strongest risk appetite back into CPO, PCB, optical communications, and related hard-tech. That may be opportunity for very short-term traders, but for an A-share investor seeking a steadier 10-day swing, it is first and foremost a warning not to chase the steepest slope under T+1.",
+      "中文：因此今天最合理的组合仍然是“宽基或银行做底，电网和环保公用事业等回踩更稳的个股做候选，高弹性科技只做观察”。如果6月4日这些高贝塔方向继续放量高开，不是必须参与；真正值得动手的是回踩后还能缩量稳住的结构。\nEN: That keeps the most reasonable mix as 'broad ETF or banks for the base, grid and environmental-utility names on steadier pullbacks as candidates, and high-beta tech only as a watchlist.' If these high-beta groups gap higher again on June 4 with heavy volume, participation is not mandatory; the structures worth acting on are the ones that can still hold after a pullback on calmer volume.",
+      "中文：复盘上需要继续保持诚实。前一份简报里对地产链的数据描述有误，今天已按可靠行情更正；同时国电南瑞和中兰环保这类观察名单在6月2日分别出现-2.30%和+6.71%的分化，也再次说明“风格相似”不等于“风险相同”。\nEN: The review process also needs to stay honest. The earlier property-chain data description was wrong and has been corrected here using reliable market data; at the same time, watchlist names like NARI Technology and Zhonglan Environmental diverged to -2.30% and +6.71% respectively on June 2, which again shows that 'similar style' does not mean 'same risk.'"
+    ],
+    "marketPulse": {
+      "6月2日收盘 / June 2 Close": {
+        "value": "上证指数 4075.10, +0.43%；深证成指 15591.13, +1.63%；创业板指 4055.87, +2.66%",
+        "note": "中文：这是本条目里最新的完整收盘数据。表面是反弹，但结构上更接近高景气硬科技带动的局部修复，并不支持把所有成长票都视作低风险机会。\nEN: This is the latest fully verified closing data in the entry. On the surface it was a rebound, but structurally it looked more like a localized repair led by high-momentum hard tech rather than a signal that all growth names had become low-risk opportunities."
+      },
+      "6月3日午盘 / June 3 Midday": {
+        "value": "上证指数 4097.94, +0.56%；深证成指 15951.08, +2.31%；创业板指 4216.74, +3.97%；科创50 +4.78%",
+        "note": "中文：同日午盘风险偏好明显回到硬科技。对次日交易来说，这更像需要防止追高的信号，因为午盘过热常常把T+1持仓推向隔夜高波动。\nEN: By the same day's midday mark, risk appetite had clearly swung back into hard tech. For the next session, that looks more like a signal to guard against chasing, because a noon overheat often pushes T+1 holdings into elevated overnight volatility."
+      },
+      "沪深300 / 科创50": {
+        "value": "沪深300 4914.56, +1.45% on 2026-06-02；科创50 1690.56, +1.62% on 2026-06-02",
+        "note": "中文：宽基和科创都反弹，但节奏完全不同。沪深300更适合作为稳健底仓，而科创50在6月3日午盘已经重新进入“只能轻仓观察”的区域。\nEN: Both the broad market and STAR rebounded, but the rhythm was very different. CSI 300 is still better suited as steadier base exposure, while STAR 50 had already moved back into an 'only watch with small size' area by the June 3 midday mark."
+      },
+      "成交额 / 市场宽度": {
+        "value": "6月2日两市成交额约2.81万亿元；全市场超3800只个股下跌",
+        "note": "中文：指数上涨却多数个股下跌，是今天最重要的结构信息之一。若6月4日仍是指数涨、宽度弱，就优先选ETF和低波动个股，不要把指数强势误读成普遍好做。\nEN: Indices rose while most stocks fell, and that is one of the most important structural facts for today. If June 4 still shows strong indices but weak breadth, prioritize ETFs and lower-volatility stocks instead of misreading index strength as broad tradability."
+      },
+      "利率 / 流动性": {
+        "value": "央行6月3日公告：当日无逆回购操作，当日无逆回购到期",
+        "note": "中文：这说明短端流动性没有新的边际刺激，也没有当天到期扰动。市场并非靠突然放水拉升，所以高贝塔题材一旦回吐，回撤也更可能来自交易拥挤而不是流动性误判。\nEN: That means front-end liquidity saw neither a new marginal injection nor same-day maturity pressure. The market is not being lifted by a surprise flood of easing, so if high-beta themes give back gains, the pullback is more likely to come from crowding than from a liquidity misread."
+      },
+      "PMI / 宏观景气": {
+        "value": "国家统计局5月制造业PMI 50.0；财新5月服务业PMI 54.4，前值52.6，预期52.3",
+        "note": "中文：宏观组合是“制造业弱修复、服务业偏强”，更支持选择有现金流或真实订单支撑的方向，而不是只靠情绪推动的小票追涨。\nEN: The macro mix is 'mild manufacturing repair and stronger services,' which better supports directions backed by cash flow or real orders rather than chasing smaller names driven only by emotion."
+      }
+    },
+    "forecast": [
+      "中文：基准情景是6月4日继续出现“硬科技强、宽度未必同步改善”的盘面。在这种情景里，510300.SH和512800.SH仍是更干净的仓位工具，而600406.SH、600323.SH这类个股更适合等回踩。\nEN: The base case for June 4 is a tape where hard tech stays strong but breadth does not necessarily improve in parallel. In that scenario, 510300.SH and 512800.SH remain cleaner positioning tools, while names like 600406.SH and 600323.SH are better handled by waiting for pullbacks.",
+      "中文：偏强情景需要看到两件事同时成立：一是6月3日午盘拉升没有在尾盘明显回吐，二是6月4日不是只有光模块和PCB在涨，而是电网、公用事业和宽基也能承接。只有这样，高贝塔修复才更接近可持续。\nEN: A stronger scenario needs two things at once: the June 3 midday rally should avoid a meaningful late fade, and June 4 should not be a session where only optics and PCB are rising while everything else lags. Only then does the high-beta repair start to look more sustainable.",
+      "中文：偏弱情景是6月4日高贝塔方向高开后快速炸板，或者创业板/科创50回吐而宽基也跟着走弱。若出现这种组合，最应该减少的是追涨冲动，而不是去找更刺激的小盘替代品。\nEN: The weaker scenario is a June 4 gap-up in high-beta names that quickly fails, or a giveback in ChiNext and STAR 50 that also drags the broad market lower. If that combination appears, the main thing to cut is the urge to chase, not to go hunting for an even more exciting small-cap substitute.",
+      "中文：地产链只有在6月15日房地产和投资数据前后出现成交与价格同步改善，才值得上调观察级别。在此之前，万科A更适合作为风险温度计而不是主动进攻对象。\nEN: The property chain only deserves an upgrade if price and turnover improve together around the June 15 property and investment data. Before that, Vanke A is better used as a risk thermometer than as an active offensive idea."
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "600323.SH",
+        "chineseName": "瀚蓝环境",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "中文：仅在30-31元区间回踩后缩量稳住时观察，不追日内拉升。\nEN: Watch only if it retests the RMB 30-31 zone on lighter volume and stabilizes; do not chase an intraday push.",
+        "reason": "中文：价格低于50元，公用事业属性更稳，同时并购与股东会催化是公开可验证事件，比较适合做10日左右的条件单观察。\nEN: It trades below RMB 50, carries steadier utility-like characteristics, and the M&A and shareholder-meeting catalysts are publicly verifiable events, making it better suited for a conditional roughly 10-day swing watch.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "000002.SZ",
+        "chineseName": "万科A",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "中文：把它当回避/风险温度计而不是激进做空对象；只有反弹后再次失守3.47元附近低位，回避逻辑才重新增强。\nEN: Treat it as an avoid or risk-thermometer name rather than an aggressive short; the avoid thesis only strengthens again if a rebound fails and the stock loses the low-3.47 area again.",
+        "reason": "中文：可靠行情显示6月1日并非反弹而是收跌2.25%，基本面和融资压力并未消失，但在缺乏直接做空工具的A股环境里，更适合写成回避而不是冲动押空。\nEN: Reliable market data show June 1 was not a rebound but a 2.25% decline, and the balance-sheet and financing stress has not disappeared; in an A-share environment without easy direct shorting, this is better written as avoidance than as an impulsive bearish bet.",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "510300.SH",
+        "chineseName": "沪深300ETF",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "中文：仅在指数强势但宽度仍不均衡时分批观察，不追情绪性高开。\nEN: Scale in only when the index remains firm while breadth stays uneven; do not chase an emotional gap higher.",
+        "reason": "中文：它能把银行、能源和核心权重一起装进底仓，在T+1约束下比追最热科技题材更适合控制隔夜波动。\nEN: It bundles banks, energy, and core heavyweights into one base position, and under T+1 it is better suited than the hottest tech themes for controlling overnight volatility.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "588000.SH",
+        "chineseName": "科创50ETF",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "中文：只在6月3日午盘的高热度消化后，重新缩量站稳时小仓位观察，不接第一脚追高。\nEN: Watch only with small size after the June 3 midday heat has been digested and the ETF can re-stabilize on cooler volume; do not chase the first leg.",
+        "reason": "中文：如果硬科技修复继续，它仍是最直接的弹性工具之一；但午盘涨幅已经把它推回高风险区域，适合观察，不适合重仓。\nEN: If hard-tech repair continues, it remains one of the most direct upside tools; but the midday surge has already pushed it back into a high-risk zone, making it suitable for observation rather than size.",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "300854.SZ",
+        "chineseName": "中兰环保",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "中文：更适合作为风格参考；6月2日已涨6.71%，若没有回踩缩量确认，6月4日不做高开接力。\nEN: It is better used as a style reference; after a 6.71% gain on June 2, do not attempt a gap-up continuation on June 4 unless there is a confirmed lighter-volume pullback.",
+        "reason": "中文：它最接近用户提到的低价风格，但当前走势已经明显偏热。T+1下继续追这种票，通常是在用隔夜波动换取并不稳定的额外收益。\nEN: It is the closest match to the user's preferred lower-priced style, but the current tape is already clearly overheated. Under T+1, continuing to chase this kind of name usually means swapping overnight volatility for unstable incremental upside.",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-06-10",
+        "event": "中文：国家统计局CPI / PPI\nEN: NBS CPI / PPI release",
+        "watch": "中文：若PPI继续偏弱，市场会更偏向银行、高股息和公用事业；若PPI改善，电网设备和制造链的10日波段会更有支撑。\nEN: If PPI stays soft, the market is more likely to favor banks, dividend defense, and utilities; if PPI improves, 10-day swings in grid equipment and manufacturing chains gain firmer support.",
+        "relatedTickers": "600406.SH, 600323.SH, 510300.SH"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "中文：国家统计局工业增加值、社零、固定资产投资、房地产数据\nEN: NBS industrial output, retail sales, FAI, and property data",
+        "watch": "中文：这是检验地产链是否仍应回避、以及稳增长链条能否继续拿到估值溢价的核心数据窗口。\nEN: This is the key data window for testing whether the property chain still belongs in the avoid bucket and whether steady-growth execution chains can keep their valuation premium.",
+        "relatedTickers": "000002.SZ, 601398.SH, 600406.SH"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "中文：贷款市场报价利率（LPR）\nEN: Loan Prime Rate fixing",
+        "watch": "中文：若LPR进一步下调或政策表述偏宽，银行和地产的相对表现会重新分化；若维持不变，防御与制造链轮动逻辑更可能延续。\nEN: If the LPR is cut further or policy language turns looser, banks and property may reprice differently; if it stays unchanged, the current rotation between defense and manufacturing is more likely to continue.",
+        "relatedTickers": "601398.SH, 000002.SZ, 512800.SH"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "中文：瀚蓝环境2025年年度股东会\nEN: Hanlan Environment 2025 annual shareholder meeting",
+        "watch": "中文：关注并购与资产整合议案推进是否顺利；若推进顺畅，600323.SH更像稳健事件驱动，而不是情绪票。\nEN: Watch whether the M&A and asset-integration agenda advances smoothly; if it does, 600323.SH looks more like a steadier event-driven trade rather than an emotion stock.",
+        "relatedTickers": "600323.SH"
+      },
+      {
+        "date": "2026-06-30",
+        "event": "中文：国家统计局6月PMI\nEN: NBS June PMI release",
+        "watch": "中文：若制造业PMI继续站稳扩张区，电网、环保设备和宽基更容易同步受益；若再度走弱，则需要继续把仓位重心放在低波动底仓。\nEN: If manufacturing PMI holds in expansion again, grid, environmental equipment, and broad-market exposure can benefit together; if it weakens again, exposure should keep leaning toward lower-volatility base positions.",
+        "relatedTickers": "600406.SH, 600323.SH, 510300.SH"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-06-02",
+        "ticker": "600406.SH",
+        "chineseName": "国电南瑞",
+        "status": "miss",
+        "result": "中文：前一份简报把国电南瑞列为稳健波段候选，但可靠行情显示其在6月2日收于24.64元，下跌2.30%。这说明即便逻辑偏稳，入场也仍要等回踩确认，而不能把政策主线直接等同于短线买点。\nEN: The previous briefing listed NARI Technology as a steadier swing candidate, but reliable market data show it closed at RMB 24.64 on June 2, down 2.30%. That shows even a steadier thesis still needs pullback confirmation, and a policy theme cannot be treated as an automatic short-term entry.",
+        "lesson": "中文：稳健风格不代表不会回撤。对这类票，真正的优势来自回踩后的承接质量，而不是先于市场去抢反弹。\nEN: A steadier style does not mean no pullback. In names like this, the real edge comes from the quality of support after a retest rather than trying to front-run the rebound."
+      },
+      {
+        "date": "2026-06-02",
+        "ticker": "588000.SH",
+        "chineseName": "科创50ETF",
+        "status": "open",
+        "result": "中文：前一份简报强调科创50ETF只适合高风险修复观察。6月2日科创50反弹1.62%，6月3日午盘又涨4.78%，说明修复确实出现；但结合6月2日超3800股下跌的窄宽度特征，它仍更像高波动修复而不是低风险重置。\nEN: The prior briefing said the STAR 50 ETF only belonged in a high-risk repair watch. STAR 50 rebounded 1.62% on June 2 and added another 4.78% by the June 3 midday mark, showing that repair is happening; but given the narrow breadth on June 2, it still looks more like a high-volatility repair than a low-risk reset.",
+        "lesson": "中文：判断正确并不等于马上可追。高贝塔修复最容易在第二天把谨慎投资者引到错误的价格上。\nEN: A correct directional read does not mean immediate chaseability. High-beta repairs are exactly where cautious investors get pulled into the wrong price on the next day."
+      },
+      {
+        "date": "2026-06-02",
+        "ticker": "300854.SZ",
+        "chineseName": "中兰环保",
+        "status": "open",
+        "result": "中文：前一份简报把中兰环保定义为风格参考并明确写成不追高。它在6月2日上涨6.71%至29.56元，价格层面是错过了上涨，但执行层面仍然维持了T+1纪律，因为该股随后并没有给出更低风险的回踩点。\nEN: The prior briefing treated Zhonglan Environmental as a style reference and explicitly wrote it as no chase. It then rose 6.71% to RMB 29.56 on June 2, so the move was missed on price, but the execution discipline still respected T+1 because the stock never offered a cleaner lower-risk retest afterward.",
+        "lesson": "中文：有些行情值得承认错过，而不是为了“不能错过”去承担更差的隔夜赔率。\nEN: Some moves are worth admitting you missed instead of taking worse overnight odds merely to avoid missing them."
+      },
+      {
+        "date": "2026-06-01",
+        "ticker": "000002.SZ",
+        "chineseName": "万科A",
+        "status": "hit",
+        "result": "中文：这里需要先纠错。可靠行情显示万科A在6月1日收于3.47元，下跌2.25%，此前简报里把它写成“反弹约2.25%”并不准确。纠正后看，地产回避框架当日方向是对的，只是数据表述有误。\nEN: This one first requires a correction. Reliable market data show Vanke A closed at RMB 3.47 on June 1, down 2.25%, so the earlier wording that described a roughly 2.25% rebound was inaccurate. After correction, the property-avoid framework was directionally right that day, but the data description was wrong.",
+        "lesson": "中文：复盘不仅要看结论对不对，也要检查数据有没有被误读。方向对但数据错，仍然需要主动修正。\nEN: Review is not only about whether the conclusion was right, but also whether the data were read correctly. A right direction with wrong data still needs explicit correction."
+      }
+    ],
+    "sectors": [
+      {
+        "name": "中文：AI硬件 / 光模块 / PCB\nEN: AI Hardware / CPO / PCB",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "中文：6月2日CPO、PCB、MLCC和光通信领涨，6月3日午盘创业板与科创50继续大幅上冲，资金重新集中到硬科技高景气链条。\nEN: CPO, PCB, MLCC, and optical-communication groups led on June 2, and by the June 3 midday mark ChiNext and STAR 50 were surging again, showing capital re-concentrating into high-momentum hard-tech chains.",
+        "watch": "中文：只看回踩后的承接和量能是否降温；若6月4日继续高开高走而没有换手，不把它当低风险买点。\nEN: Focus only on whether support holds after a pullback and whether volume cools; if June 4 gaps higher again without turnover repair, do not treat it as a low-risk entry.",
+        "risk": "中文：这是最典型的T+1高波动区域，尤其是午盘冲高后次日容易出现高开回落。\nEN: This is the clearest T+1 high-volatility zone, especially because a midday squeeze can easily turn into a next-day gap-up fade."
+      },
+      {
+        "name": "中文：电网设备 / 电力自动化\nEN: Grid Equipment / Power Automation",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：国家电网“十五五”期间加快建设新型电力系统的公开表态，为订单能见度和估值提供了长期政策背景。\nEN: State Grid's public commitment to accelerate new power-system construction during the 15th Five-Year period provides a longer-term policy backdrop for order visibility and valuations.",
+        "watch": "中文：看国电南瑞、四方股份这类名字能否在24-25元或关键均线附近缩量稳住，而不是被AI硬件抽走全部增量资金。\nEN: Watch whether names like NARI Technology and Sifang can stabilize on lighter volume around the RMB 24-25 area or key moving averages instead of losing all marginal capital to AI hardware.",
+        "risk": "中文：若市场继续只奖励最陡的科技弹性，电网设备短线可能跑输，但这不一定破坏其10日波段价值。\nEN: If the market keeps rewarding only the steepest tech-beta names, grid equipment may lag in the short term, but that does not necessarily damage its 10-day swing value."
+      },
+      {
+        "name": "中文：环保公用事业 / 资产整合\nEN: Environmental Utilities / Asset Integration",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：瀚蓝环境的并购与6月23日股东会属于公开事件驱动，同时环保方向又贴近用户偏好的低价稳健风格。\nEN: Hanlan Environment's M&A and the June 23 shareholder meeting create a public event-driven setup, while the environmental direction also sits closer to the user's preferred lower-priced steadier style.",
+        "watch": "中文：优先看瀚蓝环境这种更稳的整合交易，不把中兰环保的高弹性直接当成同样风险水平。\nEN: Prioritize steadier integration trades like Hanlan Environment rather than treating Zhonglan Environmental's high beta as the same risk profile.",
+        "risk": "中文：若并购推进低于预期，或环保小票情绪突然转冷，板块会分化得很快。\nEN: If M&A progress disappoints or sentiment toward smaller environmental names cools abruptly, the group can split very quickly."
+      },
+      {
+        "name": "中文：银行 / 沪深300防御底仓\nEN: Banks / CSI 300 Defensive Base",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "中文：央行6月3日维持中性流动性表态，服务业PMI改善但没有催生全面冒险，仍支持银行与宽基承担组合缓冲器角色。\nEN: The PBOC's neutral June 3 liquidity stance and better services PMI without a full market-wide risk sprint still support banks and the broad index as portfolio shock absorbers.",
+        "watch": "中文：若6月4日指数再强但宽度偏弱，就继续优先看510300.SH与512800.SH，而不是把仓位全交给最热题材。\nEN: If June 4 brings another firm index but weak breadth, keep prioritizing 510300.SH and 512800.SH rather than handing all exposure to the hottest themes.",
+        "risk": "中文：一旦高贝塔成长全面反包，银行会相对落后，但这通常是收益率比较问题，不是风险失控问题。\nEN: If high-beta growth stages a full recovery, banks will likely lag relatively, but that is usually a return-comparison issue rather than a risk-control problem."
+      },
+      {
+        "name": "中文：地产链\nEN: Property Chain",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "中文：真正的验证还要等6月15日地产与投资数据，而不是依赖情绪性猜政策。\nEN: The real validation still has to wait for the June 15 property and investment data rather than leaning on emotional policy guessing.",
+        "watch": "中文：继续用万科A和相关ETF当风险温度计；没有成交与数据同步改善前，不升级为主线。\nEN: Keep using Vanke A and related property proxies as a risk thermometer; without simultaneous improvement in turnover and data, do not upgrade the group into a core theme.",
+        "risk": "中文：若后续政策支持或融资安排明显超预期，地产会出现技术性快速修复，回避逻辑必须及时修正。\nEN: If later policy support or refinancing arrangements materially beat expectations, property can stage a fast technical repair and the avoid thesis must be updated quickly."
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "600323.SH",
+        "chineseName": "瀚蓝环境",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：仅在30-31元区间企稳并缩量时观察\nEN: watch only if it stabilizes in the RMB 30-31 zone on lighter volume",
+        "suggestedProfitTake": "中文：若回踩确认后上涨3%-5%分批止盈\nEN: scale profit-taking after a confirmed 3%-5% move",
+        "type": "中文：环保公用事业 / 事件驱动稳健票\nEN: environmental utility / steadier event-driven name",
+        "catalyst": "中文：公司拟通过发行股份及支付现金方式实现对粤丰环保的控股，并将于6月23日召开年度股东会，事件催化公开可跟踪。\nEN: The company plans to gain control of Canvest Environmental through a share-and-cash transaction and will hold its annual shareholder meeting on June 23, making the catalyst public and trackable.",
+        "why": "中文：价格低于50元、波动率通常低于高热题材，且并购主线比纯情绪炒作更适合做条件单观察。\nEN: It trades below RMB 50, usually carries lower volatility than hotter themes, and the M&A track is better suited than pure sentiment for conditional-order observation.",
+        "risk": "中文：若并购推进不及预期或跌破30元附近支撑，稳健事件驱动逻辑会减弱。\nEN: If the deal progresses worse than expected or the stock loses support around RMB 30, the steadier event-driven thesis weakens.",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "中文：6月2日收于31.00元，下跌1.34%，并未被推成情绪票，更适合等回踩后的稳住确认。\nEN: It closed at RMB 31.00 on June 2, down 1.34%, and has not been pushed into an emotion stock, making it better suited to waiting for stabilization after a pullback.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "600406.SH",
+        "chineseName": "国电南瑞",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：仅在24-25元区间回踩缩量企稳时观察\nEN: watch only if it stabilizes on lighter volume in the RMB 24-25 zone",
+        "suggestedProfitTake": "中文：确认后若反弹3%-5%分批止盈\nEN: after confirmation, scale out on a 3%-5% rebound",
+        "type": "中文：电网设备 / 稳健波段\nEN: grid equipment / steadier swing",
+        "catalyst": "中文：新型电力系统建设的公开政策支持仍在，板块逻辑更接近真实资本开支，而不是纯题材想象。\nEN: Public policy support for building a new power system remains intact, and the sector logic is closer to real capex than to pure theme imagination.",
+        "why": "中文：价格仍在50元以下，流动性足够，且比光模块链更容易设计出T+1下可接受的失效条件。\nEN: The stock remains below RMB 50, has adequate liquidity, and is easier than the optics chain to frame with acceptable invalidation rules under T+1.",
+        "risk": "中文：若再度放量跌破24元附近支撑，说明资金仍在回避非最强主线，短线要继续等。\nEN: If it breaks the RMB 24 area again on expanding volume, money is still avoiding anything outside the strongest theme and the short-term wait should continue.",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "中文：6月2日收于24.64元，下跌2.30%，相较6月1日的1.29%上涨已经进入消化阶段，因此今天更适合等支撑确认而非直接抄底。\nEN: It closed at RMB 24.64 on June 2, down 2.30%, and after a 1.29% rise on June 1 it has moved into a digestion phase, so today is better suited to waiting for support confirmation rather than immediate bottom-fishing.",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "601398.SH",
+        "chineseName": "工商银行",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：仅在银行板块早盘回踩后继续守稳时观察，不追脉冲拉升\nEN: watch only if the bank group keeps holding after an early retest; do not chase a pulse higher",
+        "suggestedProfitTake": "中文：若防御轮动延续、上涨2%-4%可分批兑现\nEN: scale out after a 2%-4% rise if the defensive rotation continues",
+        "type": "中文：大行 / 低波动底仓\nEN: large bank / low-volatility base position",
+        "catalyst": "中文：中性流动性、低利率环境以及大行股息属性，继续支撑其作为组合缓冲器的角色。\nEN: Neutral liquidity, a low-rate backdrop, and dividend attributes continue to support its role as a portfolio shock absorber.",
+        "why": "中文：它不会给出最强单日弹性，但在用户偏好的“稳一点”路径里，比午盘已过热的高贝塔科技更实用。\nEN: It will not deliver the strongest one-day upside, but in the user's preferred steadier path it is more practical than midday-overheated high-beta tech.",
+        "risk": "中文：若6月4日科技全面延续强修复，它会相对跑输；但只要不破关键支撑，落后不等于失效。\nEN: If tech extends a powerful repair on June 4, it will likely lag relatively; but as long as key support holds, lagging does not mean invalidation.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：6月1日收于7.30元、上涨1.11%，且5月13日已完成除息，当前更像稳定型底仓而非过热方向。\nEN: It closed at RMB 7.30 on June 1, up 1.11%, and has already gone ex-dividend on May 13, leaving it looking more like stable base exposure than an overheated direction.",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "000002.SZ",
+        "chineseName": "万科A",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "中文：不主张主动做多；仅在反弹失败、再次失守3.47元附近时继续作为回避观察\nEN: not a proactive long; only continue treating it as an avoid watch if rebounds fail and it loses the 3.47 area again",
+        "suggestedProfitTake": "中文：若回避逻辑兑现并回落3%-5%，不再扩大负面押注\nEN: if the avoid thesis plays out and the stock falls another 3%-5%, do not overstay the bearish view",
+        "type": "中文：地产龙头 / 风险温度计\nEN: property bellwether / risk thermometer",
+        "catalyst": "中文：真正催化要看6月中旬地产与投资数据，以及后续融资支持是否超预期。\nEN: The true catalysts are the mid-June property and investment data and whether later financing support surprises to the upside.",
+        "why": "中文：它更适合监测地产风险偏好，而不是在证据不足时升级成主线机会。\nEN: It is more useful for monitoring property risk appetite than for upgrading into a core opportunity before the evidence improves.",
+        "risk": "中文：若连续两天放量站稳，回避逻辑必须承认失效；但在那之前，主动追地产反弹并不划算。\nEN: If it can hold with volume for two straight sessions, the avoid thesis must be marked invalid; before that, actively chasing a property rebound remains unattractive.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：可靠行情显示6月1日收于3.47元、下跌2.25%，说明此前把它写成“反弹”并不准确；当前仍以弱势修复看待。\nEN: Reliable market data show it closed at RMB 3.47 on June 1, down 2.25%, so the earlier description as a 'rebound' was inaccurate; for now it is still treated as weak repair at best.",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "603598.SH",
+        "chineseName": "引力传媒",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "中文：仅在23元附近止跌并缩量时观察，不追日内脉冲\nEN: watch only if it stops falling around RMB 23 on lighter volume; do not chase intraday spikes",
+        "suggestedProfitTake": "中文：若修复确认后上涨3%-5%分批止盈\nEN: scale out after a 3%-5% move once repair is confirmed",
+        "type": "中文：AI应用 / 传媒小票\nEN: AI application / media small cap",
+        "catalyst": "中文：AI应用题材仍有热度，但个股弹性更高、兑现更快，6月1日涨停后次日已经明显分化。\nEN: AI application themes still carry heat, but the single-name beta is higher and monetization of the move is faster, with clear divergence already appearing the day after the June 1 limit-up.",
+        "why": "中文：它能反映市场愿不愿意继续在AI应用端做情绪延伸，但更适合拿来观察，而不是在T+1里重仓追击。\nEN: It helps show whether the market still wants to extend emotion into AI applications, but it is better used as an observation tool than as a heavy T+1 chase.",
+        "risk": "中文：6月1日涨9.99%后，6月2日已经回落5.08%，这是典型的次日高波动警示。\nEN: After a 9.99% rise on June 1, it gave back 5.08% on June 2, which is a classic warning about next-day volatility.",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "中文：6月1日收于24.23元、上涨9.99%，6月2日收于23.00元、下跌5.08%，两日组合已经足够说明不适合盲追。\nEN: It closed at RMB 24.23, up 9.99%, on June 1 and then at RMB 23.00, down 5.08%, on June 2; that two-day sequence is enough to show it is not suitable for blind chasing.",
+        "setupStatus": "avoid chase"
+      },
+      {
+        "ticker": "000767.SZ",
+        "chineseName": "晋控电力",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "中文：仅在6元附近回踩不破、且换手降温时观察\nEN: watch only if it holds around RMB 6 on a pullback and turnover cools",
+        "suggestedProfitTake": "中文：若回踩确认后再涨3%-5%分批止盈\nEN: after pullback confirmation, scale out on a further 3%-5% rise",
+        "type": "中文：低价电力小票 / 情绪扩散观察\nEN: lower-priced utility small cap / sentiment-spread watch",
+        "catalyst": "中文：低价电力风格仍有资金关注，但更偏情绪扩散而非基本面重估。\nEN: The lower-priced power style still has capital attention, but it is driven more by sentiment spread than by full fundamental re-rating.",
+        "why": "中文：它符合低价风格，能反映市场是否还愿意追逐便宜高弹性品种，但不属于稳健起点。\nEN: It fits the lower-priced style and helps show whether the market still wants cheaper high-beta names, but it is not a steady starting point.",
+        "risk": "中文：6月2日换手率高达31.05%，这已经属于拥挤交易特征；T+1下次日接力风险很高。\nEN: Its 31.05% turnover on June 2 already fits the profile of a crowded trade, and under T+1 the next-day continuation risk is high.",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "中文：6月2日收于6.11元、下跌0.49%，但成交额56.83亿元、换手率31.05%，说明筹码交换非常激烈，不适合把小跌误读成安全。\nEN: It closed at RMB 6.11 on June 2, down 0.49%, but with RMB 5.683 billion in turnover and 31.05% turnover rate, showing very intense chip rotation and making it unsafe to read a small decline as low risk.",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "300854.SZ",
+        "chineseName": "中兰环保",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "中文：仅在29元附近回踩缩量企稳时观察，6月4日不做高开接力\nEN: watch only if it retests around RMB 29 and stabilizes on lighter volume; do not play gap-up continuation on June 4",
+        "suggestedProfitTake": "中文：若回踩确认后再涨3%-5%分批止盈\nEN: after confirmation on the pullback, scale out on a further 3%-5% rise",
+        "type": "中文：低价环保 / 风格参考样本\nEN: lower-priced environmental name / style-reference sample",
+        "catalyst": "中文：它更像市场风格映射，而不是今天有新增一级公告催化的事件票。\nEN: It looks more like a market-style proxy than a name with a fresh first-order announcement catalyst today.",
+        "why": "中文：它最接近用户提到的风格参考，因此必须保留观察；但恰恰因为风格热度高，所以要把纪律写得更严格。\nEN: It is the closest match to the user's stated style reference, so it belongs on the watchlist; precisely because the style heat is high, the discipline has to be written more strictly.",
+        "risk": "中文：若没有回踩缩量确认，继续追高最容易把隔夜跳空风险留在手里。\nEN: Without a lighter-volume pullback confirmation, continued chasing is the easiest way to keep the overnight gap risk in the position.",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "中文：6月2日涨6.71%至29.56元，价格已经进入偏热区；近5日主力净流入为负，也说明并不是所有资金都在无条件接力。\nEN: It rose 6.71% to RMB 29.56 on June 2, putting the price into a hotter zone; the five-day main-force flow was still negative, which also shows not all money is blindly extending the move.",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "510300.SH",
+        "chineseName": "沪深300ETF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：仅在指数维持强势但市场宽度不均时分批观察\nEN: scale in only when the index stays firm while market breadth remains uneven",
+        "suggestedProfitTake": "中文：若从观察位反弹2%-4%分批兑现\nEN: scale profits after a 2%-4% rebound from the watch level",
+        "type": "中文：宽基底仓ETF\nEN: broad-base ETF",
+        "catalyst": "中文：当指数强于多数个股时，宽基ETF仍是比单一高贝塔个股更干净的执行工具。\nEN: When indices are stronger than most individual stocks, the broad ETF remains a cleaner execution tool than a single high-beta name.",
+        "why": "中文：它同时覆盖银行、能源和核心权重，能显著降低T+1下单一持仓的隔夜波动。\nEN: It covers banks, energy, and core heavyweights together and materially reduces overnight volatility versus single-name exposure under T+1.",
+        "risk": "中文：若后续指数也跟随高贝塔回吐，宽基同样会回撤，只是通常幅度更可控。\nEN: If indices later give back gains along with high-beta names, the broad ETF will also retrace, though usually in a more manageable way.",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "中文：对应的沪深300指数在6月2日上涨1.45%，强于上证但明显稳于午盘已过热的创业板节奏。\nEN: The corresponding CSI 300 Index gained 1.45% on June 2, stronger than the SSE but still materially steadier than the already overheated midday ChiNext rhythm.",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "512800.SH",
+        "chineseName": "银行ETF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：仅在早盘回踩后继续守稳时观察，不追单边拉升\nEN: watch only if it keeps holding after an early retest; do not chase a one-way push",
+        "suggestedProfitTake": "中文：若防御轮动延续、上涨2%-3%可分批止盈\nEN: if the defensive rotation extends, scale out after a 2%-3% move",
+        "type": "中文：防御型行业ETF\nEN: defensive sector ETF",
+        "catalyst": "中文：中性公开市场操作、低利率和大行股息属性，继续支持银行承担组合防守角色。\nEN: Neutral open-market operations, low rates, and large-bank dividend attributes continue to support banks as a defensive portfolio role.",
+        "why": "中文：当市场主要机会集中在过热科技时，银行ETF能提供更可控的替代敞口。\nEN: When the market's main opportunities are concentrated in overheated tech, the bank ETF offers a more controllable substitute exposure.",
+        "risk": "中文：若硬科技连续两天都强势扩散，它会相对落后，但这类落后通常能换来更低波动。\nEN: If hard tech broadens strongly for two sessions in a row, it may lag relatively, though that lag usually buys lower volatility.",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "中文：近期银行风格没有进入过热区，仍更接近底仓工具而不是情绪交易工具。\nEN: The recent bank style has not entered an overheated zone and still looks closer to a base-position tool than to an emotion-trading vehicle.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "588000.SH",
+        "chineseName": "科创50ETF",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "中文：只在午盘高热度消化后、回踩不破并缩量时轻仓观察\nEN: watch only with small size after the midday heat is digested and the pullback holds on cooler volume",
+        "suggestedProfitTake": "中文：若从确认位反弹3%-5%，分批兑现而不是恋战\nEN: if it rises 3%-5% from a confirmed level, scale out rather than overstay",
+        "type": "中文：高贝塔科技ETF\nEN: high-beta tech ETF",
+        "catalyst": "中文：若硬科技修复继续，它仍是最直接的A股弹性表达之一。\nEN: If hard-tech repair continues, it remains one of the most direct upside expressions in A-shares.",
+        "why": "中文：比单一个股更分散，但仍足够敏感，只适合在信号确认后轻仓参与。\nEN: It is more diversified than a single name but still highly sensitive, making it suitable only for small-size participation after confirmation.",
+        "risk": "中文：6月2日已反弹1.62%，6月3日午盘又涨4.78%，当日热度过高时继续追价，很容易把次日波动放大成亏损。\nEN: It already rebounded 1.62% on June 2 and another 4.78% by the June 3 midday mark, so continuing to chase when same-day heat is excessive can easily magnify the next-day swing into a loss.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：从6月1日的大跌转入6月2日和6月3日午盘的连续修复后，当前更像“已启动但偏热”，不再是低位埋伏阶段。\nEN: After shifting from the sharp June 1 selloff into back-to-back repair across June 2 and the June 3 midday tape, it now looks more like 'already moving but overheated' rather than a low-base accumulation stage.",
+        "setupStatus": "extended"
+      }
+    ],
+    "sections": [
+      {
+        "title": "中文：即将发生的催化 / Upcoming Catalyst Watch\nEN: Upcoming Catalyst Watch",
+        "items": [
+          "中文：6月10日CPI/PPI是最近的第一组关键宏观数据。若PPI继续偏弱，市场更可能继续把仓位压在银行、公用事业和宽基；若PPI改善，电网设备和制造链的10日波段更容易得到基本面支持。\nEN: The June 10 CPI and PPI are the first key macro release ahead. If PPI stays soft, the market is more likely to keep leaning on banks, utilities, and broad ETFs; if PPI improves, 10-day swings in grid equipment and manufacturing chains get better fundamental support.",
+          "中文：6月15日工业增加值、社零、投资和地产数据，是检验地产链是否要继续回避、以及稳增长链条是否需要加分的核心节点。\nEN: The June 15 industrial output, retail sales, investment, and property data are the core checkpoint for whether the property chain should stay in avoidance mode and whether steady-growth execution chains deserve an upgrade.",
+          "中文：6月20日LPR若有变化，会直接影响银行和地产的相对定价。即使没有变化，市场也会重新交易“政策有没有更宽”的预期差。\nEN: Any June 20 LPR move would directly affect the relative pricing of banks and property. Even if it stays unchanged, the market will reprice the gap between easing expectations and the actual signal.",
+          "中文：6月23日瀚蓝环境股东会属于少数可验证的公司级事件催化，适合作为稳健事件驱动观察，而不是把全部注意力放在最拥挤的硬科技上。\nEN: Hanlan Environment's June 23 shareholder meeting is one of the few verifiable company-level catalysts, making it a useful steadier event-driven watch instead of placing all attention on the most crowded hard-tech names."
+        ]
+      },
+      {
+        "title": "中文：风险控制与失效条件 / Risk Controls And Invalidation\nEN: Risk Controls And Invalidation",
+        "items": [
+          "中文：A股T+1仍是最高优先级约束。任何6月3日午盘已经明显冲高的名字，默认都要先写成“不追高”，哪怕逻辑看起来再顺。\nEN: A-share T+1 remains the highest-priority constraint. Any name that was already clearly extended by the June 3 midday tape should default to 'do not chase,' no matter how smooth the story looks.",
+          "中文：对AI硬件、半导体、光模块和科创50，最重要的不是涨幅本身，而是6月4日有没有低量回踩后的承接。没有这个动作，就把它视为高风险修复而不是安全重启。\nEN: For AI hardware, semis, optics, and STAR 50, the key is not the size of the move itself but whether June 4 shows support after a lower-volume pullback. Without that, treat it as high-risk repair rather than a safe restart.",
+          "中文：所有前一交易日大涨6%-8%以上、涨停或接近涨停的小票，都必须写清楚失效条件。若次日跌破启动位或放量回落，不再以“题材还在”作为继续持有的理由。\nEN: Every small-cap that rose 6%-8% or more in the prior session, or that hit or neared limit-up, needs a clear invalidation rule. If it loses the launch level the next day or reverses on heavy volume, 'the theme is still alive' is no longer enough reason to stay in.",
+          "中文：若510300.SH也开始转弱，说明问题已经从“题材过热”扩散到“市场整体承接下降”，此时应优先减少总仓位，而不是换更高弹性的票。\nEN: If 510300.SH also starts weakening, the problem has spread from 'themes are overheated' to 'the market's overall sponsorship is falling,' and the first response should be reducing gross exposure rather than switching into even higher-beta names.",
+          "中文：复盘必须允许主动纠错。万科A的6月1日数据误读已经在本条目里更正；今后若地产、银行或硬科技的事实走向与原判断相反，也要继续按同样标准修正。\nEN: The review process must allow active correction. The June 1 Vanke A data misread has been corrected in this entry; if later facts in property, banks, or hard tech run against the original view, they should be revised to the same standard."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Xinhua：6月2日A股收盘，上证涨0.43%，深成指涨1.63%，创业板指涨2.66%",
+        "confidence": "Market data",
+        "url": "https://english.news.cn/20260602/135f9b607ea542f7b8275a9db8daad89/c.html"
+      },
+      {
+        "label": "每日经济新闻：6月2日A股收盘，成交额2.81万亿元且超3800只个股下跌",
+        "confidence": "High-quality reporting",
+        "url": "https://www.nbd.com.cn/articles/2026-06-02/4415189.html"
+      },
+      {
+        "label": "东方财富：6月3日午评，创业板指涨3.97%，光纤概念涨幅居前",
+        "confidence": "Market data",
+        "url": "https://finance.eastmoney.com/a/202606033758779567.html"
+      },
+      {
+        "label": "中国人民银行：公开市场业务交易公告 [2026]第104号",
+        "confidence": "Primary",
+        "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026060308521286488/index.html"
+      },
+      {
+        "label": "国家统计局：2026年5月中国采购经理指数运行情况",
+        "confidence": "Primary",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260531_1963824.html"
+      },
+      {
+        "label": "Investing Economic Calendar：6月3日财新中国服务业PMI 54.4，前值52.6，预期52.3",
+        "confidence": "Calendar",
+        "url": "https://ng.investing.com/economic-calendar/ratingdog-services-pmi-596"
+      },
+      {
+        "label": "SASAC：国家电网推进新型电力系统建设相关报道",
+        "confidence": "Primary",
+        "url": "https://www.sasac.gov.cn/n2588025/n2641611/c33261551/content.html"
+      },
+      {
+        "label": "国家统计局：2026年主要统计信息发布日程表",
+        "confidence": "Calendar",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html"
+      },
+      {
+        "label": "证券之星：国电南瑞6月2日收盘24.64元，下跌2.30%",
+        "confidence": "Market data",
+        "url": "https://stock.stockstar.com/RB2026060200041133.shtml"
+      },
+      {
+        "label": "证券之星：瀚蓝环境6月2日收盘31.00元，下跌1.34%，并披露6月23日股东会等事项",
+        "confidence": "Market data",
+        "url": "https://4g.stockstar.com/detail/RB2026060300002732"
+      },
+      {
+        "label": "证券之星：引力传媒6月1日收盘24.23元，上涨9.99%",
+        "confidence": "Market data",
+        "url": "https://stock.stockstar.com/RB2026060100016609.shtml"
+      },
+      {
+        "label": "证券之星：引力传媒6月2日收盘23.00元，下跌5.08%",
+        "confidence": "Market data",
+        "url": "https://stock.stockstar.com/RB2026060200023393.shtml"
+      },
+      {
+        "label": "证券之星：晋控电力6月2日收盘6.11元，下跌0.49%，换手率31.05%",
+        "confidence": "Market data",
+        "url": "https://stock.stockstar.com/RB2026060200045701.shtml"
+      },
+      {
+        "label": "新浪财经个股资讯：中兰环保6月2日涨6.71%，成交额4.28亿元，近5日主力净流入为负",
+        "confidence": "Market data",
+        "url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz300854.phtml"
+      },
+      {
+        "label": "证券之星：万科A 6月1日收盘3.47元，下跌2.25%",
+        "confidence": "Market data",
+        "url": "https://stock.stockstar.com/RB2026060100036384.shtml"
+      },
+      {
+        "label": "AASTOCKS：工商银行5月13日除息等交易信息",
+        "confidence": "Market data",
+        "url": "https://www.aastocks.tw/sc/cnhk/quote/detail-quote.aspx?shsymbol=601398"
+      }
+    ]
+  },
+  {
     "date": "2026-06-02",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-06-02 08:49 GMT+8",
