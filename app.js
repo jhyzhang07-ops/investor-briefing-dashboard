@@ -633,7 +633,13 @@
       ${renderSection(currentMarket.forecastTitle, renderList(brief.forecast, "forecast-list"), "brief-forecast")}
       ${renderSection(t("sectorsSection"), renderSectors(brief.sectors), "brief-sectors")}
       ${renderSection(currentMarket.stocksTitle, renderStocks(brief.stocks), "brief-stocks")}
-      ${renderSection(currentMarket.smallCapsTitle, renderWatchCards(brief.smallCaps, currentMarket.noSmallCapsMessage), "brief-smallcaps")}
+      ${hasItems(brief.smallCaps)
+        ? renderSection(
+            currentMarket.smallCapsTitle,
+            renderWatchCards(brief.smallCaps, currentMarket.noSmallCapsMessage),
+            "brief-smallcaps"
+          )
+        : ""}
       ${renderSection(t("etfsSection"), renderWatchCards(brief.etfs, currentMarket.noEtfsMessage), "brief-etfs")}
       ${renderSection(currentMarket.sectionTitles.catalysts, renderCatalystCalendar(brief.catalystCalendar), "brief-catalysts")}
       ${renderSection(currentMarket.sectionTitles.performance, renderPerformanceTracker(brief.performanceTracker), "brief-performance")}
