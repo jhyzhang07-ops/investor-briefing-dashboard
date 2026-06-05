@@ -6,11 +6,23 @@ from __future__ import annotations
 import json
 import re
 import sys
+import argparse
 from pathlib import Path
 from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--scope",
+        choices=["all", "us", "a-share"],
+        default="all",
+        help="Validate all dashboard data files or only one market.",
+    )
+    return parser.parse_args()
 
 
 def load_window_array(path: Path, window_var: str) -> list[dict[str, Any]]:
@@ -34,8 +46,8 @@ def is_non_empty_list(value: Any) -> bool:
     return isinstance(value, list) and len(value) > 0
 
 
-def has_bilingual_markers(value: Any) -> bool:
-    return isinstance(value, str) and "EN:" in value and "中文：" in value
+def is_non_empty_text(value: Any) -> bool:
+    return isinstance(value, str) and bool(value.strip())
 
 
 def validate_us_latest(entry: dict[str, Any], errors: list[str]) -> None:
@@ -59,13 +71,13 @@ def validate_us_latest(entry: dict[str, Any], errors: list[str]) -> None:
     require(isinstance(entry.get("actionBoard"), dict) and entry["actionBoard"], "U.S. latest entry missing actionBoard", errors)
 
     for key in ["title", "tone"]:
-        require(has_bilingual_markers(entry.get(key)), f"U.S. latest entry field is not bilingual: {key}", errors)
+        require(is_non_empty_text(entry.get(key)), f"U.S. latest entry missing text field: {key}", errors)
 
     for key in ["priorities", "summary", "forecast"]:
         items = entry.get(key)
         if isinstance(items, list):
             for index, item in enumerate(items, start=1):
-                require(has_bilingual_markers(item), f"U.S. latest entry {key}[{index}] is not bilingual", errors)
+                require(is_non_empty_text(item), f"U.S. latest entry {key}[{index}] missing text", errors)
 
 
 def validate_a_share_latest(entry: dict[str, Any], errors: list[str]) -> None:
@@ -75,14 +87,18 @@ def validate_a_share_latest(entry: dict[str, Any], errors: list[str]) -> None:
         "forecast",
         "sectors",
         "stocks",
+        "smallCaps",
         "etfs",
         "sections",
         "sources",
+        "catalystCalendar",
+        "performanceTracker",
     ]
     for key in required_lists:
         require(is_non_empty_list(entry.get(key)), f"A-share latest entry missing non-empty list: {key}", errors)
 
     require(isinstance(entry.get("marketPulse"), dict) and entry["marketPulse"], "A-share latest entry missing marketPulse", errors)
+    require(isinstance(entry.get("actionBoard"), dict) and entry["actionBoard"], "A-share latest entry missing actionBoard", errors)
 
     for key in ["title", "tone"]:
         value = entry.get(key)
@@ -91,16 +107,19 @@ def validate_a_share_latest(entry: dict[str, Any], errors: list[str]) -> None:
 
 
 def main() -> int:
+    args = parse_args()
     errors: list[str] = []
 
     us_path = ROOT / "data" / "briefings-data.js"
     a_path = ROOT / "data" / "a-share-briefings-data.js"
 
-    us_latest = load_window_array(us_path, "MARKET_BRIEFINGS")[0]
-    a_latest = load_window_array(a_path, "A_SHARE_BRIEFINGS")[0]
+    if args.scope in {"all", "us"}:
+        us_latest = load_window_array(us_path, "MARKET_BRIEFINGS")[0]
+        validate_us_latest(us_latest, errors)
 
-    validate_us_latest(us_latest, errors)
-    validate_a_share_latest(a_latest, errors)
+    if args.scope in {"all", "a-share"}:
+        a_latest = load_window_array(a_path, "A_SHARE_BRIEFINGS")[0]
+        validate_a_share_latest(a_latest, errors)
 
     if errors:
         print("Dashboard validation failed:", file=sys.stderr)

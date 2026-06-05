@@ -1,5 +1,673 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-06-05",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-05 08:00 GMT+8",
+    "title": "U.S. Market Brief - 2026-06-05",
+    "tone": "Constructive but selective: June 4 finally broadened beyond AI, but tonight still runs through payrolls, yields, and whether event-heavy tech can absorb post-earnings supply without forcing bad premarket entries.",
+    "priorities": [
+      "Do not size aggressively before the U.S. May payrolls report at 20:30 Beijing time. The first real signal tonight is the rates reaction, not the pre-data futures drift.",
+      "Broadcom remains the anchor risk for semis. A thin premarket bounce is not enough; AVGO, NVDA, and SMH need regular-session VWAP reclaim and real volume before the long side becomes actionable.",
+      "Small caps and banks only stay interesting if the 10-year Treasury remains contained after payrolls. If yields re-accelerate, IWM catch-up and rate-sensitive fintech quickly revert from opportunity to trap.",
+      "Single-stock implied volatility is still elevated even while index volatility stays relatively calm. That argues for ETFs or only the cleanest liquid leaders instead of scattered event chasing.",
+      "Treat the small-cap watchlist as execution-heavy, not thesis-light. JOBY, ACHR, IONQ, SOUN, and ASTS all require tighter timing discipline than the mega-cap list because liquidity and valuation risk are less forgiving."
+    ],
+    "summary": [
+      "On the June 4 U.S. close, the S&P 500 rose 0.4% to 7,584.31, the Dow gained 1.7% to a record 51,561.93, the Nasdaq slipped 0.1% to 26,830.96, and the Russell 2000 climbed 1.4% to 2,935.33 as oil and yields eased and breadth broadened beyond the AI complex.",
+      "Broadcom reported record fiscal Q2 revenue of $22.2 billion, up 48% year over year, with AI semiconductor revenue up 143% to $10.8 billion and fiscal Q3 revenue guided to roughly $29.4 billion. The business stayed strong, but the stock reaction showed that crowded AI expectations still matter as much as fundamentals in the first 24 hours after earnings.",
+      "CrowdStrike reported fiscal Q1 revenue of $1.39 billion, up 26%, record free cash flow of $468.5 million, raised its full-year ARR growth view, and announced a 4-for-1 stock split. Quality remained high, but event IV and valuation still argue for confirmation instead of blind gap chasing.",
+      "Macro remains mixed rather than cleanly risk-on. April JOLTS hires slowed, first-quarter productivity was revised down to 0.3%, and unit labor costs to 1.8%, while ISM Services rose to 54.5 and prices paid stayed hot at 71.3.",
+      "The main macro gate tonight is the May U.S. payrolls report. Consensus in high-quality reporting has centered around roughly 80,000 to 90,000 jobs with unemployment expected near 4.3%, so a hot surprise would matter more than usual for small caps, duration, and speculative growth.",
+      "The White House tariff changes for aluminum, steel, and copper take effect on June 8. That keeps a cost-pressure tail risk in the tape for industrials and materials even if the broad market looks calm at the open.",
+      "The right posture tonight is selective aggression: allow strong fundamentals to matter, but only after regular-session confirmation. For this user profile, avoiding the wrong premarket chase is more important than predicting the first five-minute move."
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "7,584.31 on the June 4 close, up 0.4%",
+        "note": "Breadth improved, but the next decision still belongs to payrolls and the rates response rather than to Thursday's closing print alone."
+      },
+      "Nasdaq": {
+        "value": "26,830.96 on the June 4 close, down 0.1%",
+        "note": "The Nasdaq absorbed Broadcom-related semiconductor weakness, but tonight still needs semis to stabilize before QQQ can be trusted on the long side."
+      },
+      "Dow": {
+        "value": "51,561.93 on the June 4 close, up 1.7% and a record",
+        "note": "Banks and cyclicals carried the Dow, which matters because it signals broader participation if rates do not turn back up after payrolls."
+      },
+      "Russell 2000": {
+        "value": "2,935.33 on the June 4 close, up 1.4%",
+        "note": "That was a real breadth improvement, but small caps remain the fastest place to fail again if payrolls or wages surprise hot."
+      },
+      "Treasury Yields": {
+        "value": "The 10-year Treasury stayed in the mid-4.4% area after easing on June 4",
+        "note": "Tonight's cleanest regime filter is whether payrolls keep the long end contained. Softer yields help IWM, SOFI, and TLT; hotter yields quickly narrow leadership back toward balance-sheet quality."
+      },
+      "Oil": {
+        "value": "Brent crude fell 2.8% to $95.03 per barrel on June 4",
+        "note": "That helped breadth, but energy leadership can return quickly if Middle East supply-route risk re-expands."
+      },
+      "FX / Dollar": {
+        "value": "The dollar remains payroll-sensitive after sticky service-sector inflation signals",
+        "note": "A stronger post-payroll dollar would tighten conditions for small caps, cyclicals, and speculative growth even if index futures initially look stable."
+      },
+      "Volatility / Options": {
+        "value": "Latest Cboe daily statistics showed total put/call 0.73, SPX put/call 1.17, equity put/call 0.43, while VIX stayed in the mid-teens",
+        "note": "Index hedging exists without broad panic. The bigger risk remains violent single-name repricing and IV crush around AVGO, CRWD, and high-beta small caps."
+      }
+    },
+    "forecast": [
+      "Base case: payrolls land near consensus, yields stay contained, and Thursday's breadth improvement extends. In that setup, SPY, XLF, and IWM can continue improving while QQQ still needs AVGO and NVDA to prove the semiconductor reset is being absorbed rather than sold again.",
+      "Bull case: payrolls and wages are soft enough to cool rates without reviving recession fear. Then small caps, profitable fintech, software, and duration-sensitive growth can all participate, with IWM and SOFI offering cleaner catch-up than crowded AI beta.",
+      "Bear case: payrolls or hourly earnings run hot, the 10-year Treasury pushes higher, and the dollar firms. That would likely compress the broad tape, turn IWM and SOFI into lower-quality longs, and make any AVGO or CRWD bounce more vulnerable to fade.",
+      "AI digestion case: Broadcom and CrowdStrike remain fundamentally strong, but traders need one full regular session to digest positioning and IV crush. In that setup the best trade is usually pullback hold, opening-range breakout, or VWAP reclaim instead of buying the first green print.",
+      "Speculative-beta case: if rates stay soft and headline risk cools, high-beta smaller-cap names such as JOBY, ACHR, IONQ, and SOUN can move harder than the index, but they should still be treated as second-wave trades after index and sector confirmation."
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "IWM",
+        "title": "Small-cap breadth can extend if payrolls are benign",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "Only actionable above the opening-range high after payrolls and only if the 10-year Treasury stays contained; otherwise keep it watch-only.",
+        "reason": "June 4 showed real catch-up potential in rate-sensitive breadth, but that thesis survives only if yields do not reverse higher after the macro release.",
+        "convictionScore": 4,
+        "timeframe": "trade for 1-3 days"
+      },
+      "bestShort": {
+        "ticker": "XLE",
+        "title": "Energy is the cleaner downside only if crude stays heavy",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "Only below regular-session VWAP and only if Brent remains weak after the U.S. open; avoid pressing shorts into fresh geopolitical headlines.",
+        "reason": "Cooling oil helped the broad tape on June 4, but this remains a headline-sensitive short rather than a conviction trend bet.",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "SPY",
+        "title": "Broad tape ETF remains the cleanest expression",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "Actionable only after payrolls and preferably on a clean VWAP reclaim with breadth improving beyond mega-cap tech.",
+        "reason": "SPY captures the better breadth backdrop without forcing post-earnings single-name risk at the exact moment event volatility is still elevated.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "IONQ",
+        "title": "Quantum strength is real, but the tape is hot",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "Only after a first-hour base or VWAP reclaim; if it opens extended after the Q1 beat, passing is better than chasing.",
+        "reason": "The company posted explosive growth and raised guidance, but valuation, overnight volatility, and crowded retail momentum make execution quality more important than thesis quality.",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "AVGO",
+        "title": "Good company, still not an automatic entry",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "Watch only until regular-session VWAP reclaim or a clean first-hour base above the post-earnings low.",
+        "reason": "The quarter was fundamentally strong, but the crowded-AI reaction still says the stock can be right long term and wrong for a fresh entry at the same time.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-06-05 20:30 Beijing / 08:30 ET",
+        "event": "U.S. Employment Situation for May 2026",
+        "watch": "The main market gate tonight. Focus on payrolls, unemployment, and wage growth together because the rate reaction matters more than the headline alone.",
+        "relatedTickers": "SPY, IWM, QQQ, TLT, SOFI"
+      },
+      {
+        "date": "2026-06-05 20:30 Beijing / 08:30 ET",
+        "event": "Average Hourly Earnings and labor-market quality",
+        "watch": "A soft payroll print with hot wages can still pressure yields. If wage growth re-accelerates, small caps and speculative growth lose some of their catch-up appeal.",
+        "relatedTickers": "IWM, SOFI, TLT, JPM"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Updated U.S. tariffs on aluminum, steel, and copper take effect",
+        "watch": "Monitor industrials, materials, and margin-sensitive machinery names for second-order cost-pressure reactions.",
+        "relatedTickers": "CAT, NUE, X, XLI"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "U.S. CPI for May",
+        "watch": "Even if payrolls are benign, CPI is the next macro durability test for any broadening beyond AI leadership.",
+        "relatedTickers": "SPY, QQQ, IWM, TLT"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "U.S. PPI for May",
+        "watch": "PPI matters for industrial and margin-sensitive follow-through after the tariff changes begin taking effect.",
+        "relatedTickers": "XLI, CAT, NUE, TLT"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-06-04",
+        "ticker": "IWM",
+        "status": "miss",
+        "result": "The prior briefing's small-cap hedge framing was too defensive for June 4. The Russell 2000 rose 1.4% as yields eased and breadth broadened.",
+        "lesson": "Do not mechanically carry forward small-cap bearishness once rates cool and breadth improves. The correct stance is conditional, not stubborn."
+      },
+      {
+        "date": "2026-06-04",
+        "ticker": "AVGO",
+        "status": "hit",
+        "result": "Broadcom's quarter was fundamentally strong, but the stock reaction stayed unstable. The non-chase framing was correct because the event created crowding risk, not a clean immediate long.",
+        "lesson": "Good report does not equal good next entry. For crowded AI leaders, watch-only until regular-session confirmation remains the default."
+      },
+      {
+        "date": "2026-06-04",
+        "ticker": "CRWD",
+        "status": "open",
+        "result": "CrowdStrike kept its quality-growth case intact, but the split headline and event IV still left the entry verdict to the next regular session.",
+        "lesson": "A premium software leader can remain fundamentally right while still needing volume-backed confirmation after earnings."
+      },
+      {
+        "date": "2026-06-04",
+        "ticker": "XLE",
+        "status": "hit",
+        "result": "Cooling crude relieved pressure on the rest of the tape and reduced the urgency of energy leadership.",
+        "lesson": "Energy works best as a tactical macro expression. When oil cools, it is usually cleaner to rotate back toward breadth than to force late energy longs."
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Semiconductors And AI Infrastructure",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Broadcom's Q2 report showed AI semiconductor revenue up 143% year over year to $10.8 billion and guided Q3 AI semiconductor revenue to roughly $16.0 billion.",
+        "watch": "Watch only until AVGO, NVDA, or SMH reclaim regular-session VWAP and the first 30-60 minutes show real volume absorption rather than just after-hours stabilization.",
+        "risk": "Invalidated if AVGO breaks its post-earnings low and SMH fails to recover relative strength versus QQQ, which would imply the thesis is still right fundamentally but tactically unready."
+      },
+      {
+        "name": "Cybersecurity And Infrastructure Software",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "CrowdStrike raised FY27 ARR-growth expectations, produced record cash flow, and reinforced security as an AI-enablement spend category rather than a discretionary budget line.",
+        "watch": "Wait for CRWD and IGV to hold above regular-session VWAP before adding. If the move only works in thin premarket trade, it is still watch-only.",
+        "risk": "A muted or negative reaction after good numbers would show expectations and valuation were already full, which lowers reward-to-risk for fresh entries."
+      },
+      {
+        "name": "Banks And Financials",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "June 4 rewarded balance-sheet quality and broadened leadership into banks as oil and yields eased.",
+        "watch": "Look for XLF, JPM, and better regional-bank breadth to hold the opening range after payrolls; leadership is cleaner if it survives a data-driven rates move instead of a quiet pre-open drift.",
+        "risk": "Invalidated if payrolls or wages push the long end sharply higher or if regional banks lag badly enough to show that the rally is too narrow to trust."
+      },
+      {
+        "name": "Small Caps And Domestic Cyclicals",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "IWM outperformed on June 4 as lower yields eased pressure on financing-sensitive domestic companies.",
+        "watch": "Only actionable above the opening-range high after payrolls and only if the 10-year Treasury stays contained; otherwise keep the basket as watch-only instead of an automatic catch-up trade.",
+        "risk": "Invalidated below VWAP or the prior-day low if yields spike, because small caps are still the first place where a hot macro print shows up."
+      },
+      {
+        "name": "Rates-Sensitive Fintech",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "SoFi's Q1 results showed record net revenue of $1.1 billion, 35% member growth, and a tenth straight quarter of GAAP profitability, which supports fundamental credibility if rates do not re-tighten.",
+        "watch": "Best observed through SOFI and broader small-cap breadth only after payrolls. A weak first bounce without rates support is not enough.",
+        "risk": "If yields re-accelerate or the group loses relative strength versus IWM, the setup becomes a valuation and credit-duration problem instead of a growth catch-up opportunity."
+      },
+      {
+        "name": "Energy",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "Brent fell 2.8% on June 4 as the market leaned toward temporary cooling in supply-route stress rather than a fresh immediate shock.",
+        "watch": "Only consider the downside if XLE fails regular-session VWAP and Brent cannot reclaim Thursday's range; avoid pressing the short if geopolitical headlines turn again.",
+        "risk": "This is a headline-sensitive sector. Any renewed Strait-of-Hormuz or shipping-route disruption risk can invalidate the short quickly."
+      },
+      {
+        "name": "Industrials, Metals, And Machinery",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "The White House's updated tariff regime for aluminum, steel, and copper becomes effective June 8, which can squeeze input costs and raise margin uncertainty for downstream manufacturers.",
+        "watch": "Watch for failed morning bounces in CAT, NUE, X, or transport-sensitive names if the group cannot confirm Thursday's Dow strength with follow-through volume.",
+        "risk": "Domestic-producer enthusiasm, fiscal-demand expectations, or defense-spending narratives can overpower the margin-risk thesis, so do not assume this theme works without price confirmation."
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SPY",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Actionable only after payrolls and only above the opening-range high or on a clean VWAP reclaim with breadth improving across sectors, not just mega-cap tech.",
+        "suggestedProfitTake": "Take partial profits into any fast post-payroll squeeze if volume fades near intraday resistance; keep a runner only if breadth and rates stay supportive into midday.",
+        "type": "broad market ETF",
+        "catalyst": "Broadening beyond AI improved on June 4 as oil and yields eased.",
+        "why": "SPY is the cleanest expression of a benign macro print because it captures breadth without forcing single-name event risk. Technically it still needs opening-range or VWAP confirmation, and volume should improve outside the mega-cap complex.",
+        "risk": "Invalidated if payrolls push yields and the dollar higher together or if the market narrows back to a few defensive leaders after the open."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Wait for the first 30-60 minutes and only consider entries after a regular-session VWAP reclaim with AVGO and NVDA stabilizing; do not chase a thin gap.",
+        "suggestedProfitTake": "Trim into any move back toward the prior high or if QQQ rallies while semis stop confirming; post-event mean reversion is common after event-heavy tech sessions.",
+        "type": "large-cap growth ETF",
+        "catalyst": "Tonight's tech tape is driven by post-earnings semiconductor digestion and payroll-linked duration risk.",
+        "why": "QQQ still contains the market's structural leaders, but the near-term setup is more about execution than thesis because semis just reset on an extremely high expectations bar. Volume confirmation from AVGO and NVDA matters more than futures noise.",
+        "risk": "Invalidated if AVGO remains a drag, the 10-year Treasury backs up materially, or QQQ cannot hold regular-session VWAP after the first reaction."
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only above the opening-range high or after a pullback hold once AVGO proves the post-earnings low can hold on volume; avoid chasing premarket sympathy moves unless volume is clearly above normal.",
+        "suggestedProfitTake": "Scale out into gap-fill attempts or if the ETF outpaces its heaviest components on fading volume; semis can overshoot quickly after earnings resets.",
+        "type": "semiconductor ETF",
+        "catalyst": "Broadcom's AI revenue growth and Q3 guide confirmed continued accelerator and networking demand.",
+        "why": "The semiconductor fundamental backdrop is still strong, and the ETF diversifies single-name event risk. The technical question is whether the group can reclaim momentum after a sharp expectations reset without simply relying on one or two mega-caps.",
+        "risk": "Invalidated if AVGO and NVDA both fail to confirm or if the sector stays below VWAP after the first hour, which would imply supply is still dominant."
+      },
+      {
+        "ticker": "IGV",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Watch only until CRWD and other software leaders confirm above VWAP; better entries come from an orderly first-hour base than from a headline-driven pop.",
+        "suggestedProfitTake": "Take partials if the ETF stretches quickly without broad software participation or if CRWD fails to hold its opening range after the initial move.",
+        "type": "software ETF",
+        "catalyst": "CrowdStrike's results reinforced high-quality recurring-revenue software and cybersecurity demand.",
+        "why": "IGV gives exposure to software quality without forcing single-name earnings timing. Fundamentals are stronger than many crowded AI-adjacent names, but the ETF still benefits from calmer rates and healthy follow-through volume.",
+        "risk": "Invalidated if payrolls re-price rates higher or if software lags even while the broader market is firm, which would show the group is still too expensive near term."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only consider above the opening-range high after payrolls if Treasury yields stay contained; otherwise keep it watch-only and do not chase a weak first bounce.",
+        "suggestedProfitTake": "Take quicker profits than usual into sharp morning squeezes because small caps reverse fast if rates rebound; keep size modest unless breadth stays broad into the afternoon.",
+        "type": "small-cap ETF",
+        "catalyst": "The June 4 session showed real catch-up potential when yields back off.",
+        "why": "IWM is the clearest high-beta expression of a benign payroll and softer-rate outcome. The fundamental backdrop for many constituents is still mixed, so the trade relies more on rates, breadth, and volume than on a single company story.",
+        "risk": "Invalidated below VWAP or the prior-day low if the 10-year Treasury and dollar both push higher after the data."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Actionable if banks hold the first pullback after payrolls and reclaim or hold VWAP with broad participation across money-center and regional names.",
+        "suggestedProfitTake": "Scale out near prior highs or if regional banks stop confirming the move; broad financial participation matters more than a few large-bank prints.",
+        "type": "financial sector ETF",
+        "catalyst": "Thursday's record Dow session was led partly by banks as rates pressure eased.",
+        "why": "Financials offer balance-sheet quality and broaden the market beyond AI. The technical setup is cleaner than many extended tech names if yields stay orderly, and relative volume in regionals can confirm whether the breadth signal is real.",
+        "risk": "Invalidated if payrolls or wages shock yields higher or if regional banks materially lag, which would weaken the breadth signal."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only if payrolls are soft enough to pull the 10-year Treasury lower and TLT holds the first post-data pullback; avoid pre-data guessing.",
+        "suggestedProfitTake": "Take partials into the first strong rate-driven spike because payroll reactions often retrace once cash equities open.",
+        "type": "long-duration Treasury ETF",
+        "catalyst": "Lower productivity and softer hiring data have already nudged the bond market toward a slower-growth interpretation.",
+        "why": "TLT is the cleanest hedge if rates fall and growth-sensitive equities broaden. It helps manage portfolio beta without forcing a single-stock view, but the move is highly dependent on wages as well as headline payrolls.",
+        "risk": "Invalidated immediately if payrolls or wages run hot and the long end sells off instead of rallying."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Short only below regular-session VWAP and only if Brent stays heavy after the U.S. open; avoid fighting the tape on a geopolitical headline pop.",
+        "suggestedProfitTake": "Take profits aggressively on flushes because oil-linked reversals can be violent; do not expect a smooth trend lower in a headline-driven complex.",
+        "type": "energy sector ETF",
+        "catalyst": "Brent's 2.8% drop on June 4 reduced the immediate inflation and supply-shock pressure that had been supporting energy leadership.",
+        "why": "If oil continues to cool, breadth can keep rotating away from energy toward banks, small caps, and selected growth. The trade works best only when the commodity confirms, because sector moves still track headlines more than fundamentals intraday.",
+        "risk": "Invalidated by any renewed escalation that tightens supply expectations or pushes Brent back through Thursday's range."
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "AVGO",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Watch only until regular-session VWAP reclaim or a first 30-60 minute base above the post-earnings low; avoid chasing any thin premarket rebound unless volume is clearly above 2x normal.",
+        "suggestedProfitTake": "Trim into gap-fill attempts or if the stock cannot clear the opening-range high on the second push; event-driven IV compression can cap bounce quality quickly.",
+        "type": "AI infrastructure and custom silicon leader",
+        "catalyst": "Broadcom delivered record Q2 revenue, AI semiconductor revenue up 143%, and Q3 revenue guidance of about $29.4 billion.",
+        "why": "Fundamentally the report was strong: growth accelerated, margins stayed elite, free cash flow was massive, and the balance sheet remains well-supported by software and semiconductor cash generation. Technically the stock is digesting an expectations-reset gap after a huge run, so the trade depends on whether real volume can absorb supply and restore relative strength versus SMH and QQQ.",
+        "risk": "Invalidated below the post-earnings low or if AVGO cannot hold VWAP while the broader market is firm; that would show positioning and valuation are still overpowering the strong fundamentals."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only consider after the first 30-60 minutes if CRWD reclaims or holds regular-session VWAP with software-sector confirmation; do not buy a split headline in isolation.",
+        "suggestedProfitTake": "Take partials if the stock becomes extended versus the opening range or if volume fades after the first impulse; event IV should cool after the open.",
+        "type": "cybersecurity and AI-security leader",
+        "catalyst": "CrowdStrike posted 26% revenue growth, record free cash flow, raised ARR expectations, and announced a 4-for-1 split.",
+        "why": "Fundamentals remain high quality: durable recurring revenue, expanding profitability, strong cash generation, and a large cash balance. Technically the setup is better on a pullback hold than on a headline chase because the stock already trades as a premium software leader and needs volume-backed confirmation to prove institutions are still adding after the event.",
+        "risk": "Invalidated if CRWD loses the opening range and cannot reclaim VWAP or if software peers fail to confirm, which would indicate valuation fatigue is stronger than the good quarter."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Actionable only after payrolls if NVDA holds its first pullback and reclaims intraday VWAP with SMH and QQQ confirmation; if it gaps hard, wait for a base instead of chasing.",
+        "suggestedProfitTake": "Scale out into prior highs or if the stock leads but semiconductor breadth thins out; keep a runner only if relative strength versus QQQ remains obvious through midday.",
+        "type": "AI mega-cap and index-impact leader",
+        "catalyst": "Broadcom's results reinforced continued accelerator, networking, and AI-infrastructure spending across hyperscale and enterprise buyers.",
+        "why": "NVIDIA still has the strongest combination of AI demand, margins, cash generation, and balance-sheet flexibility in the group. The technical setup remains leadership-based, but tonight's entry quality depends on whether Broadcom's reset becomes a group-wide pause or merely a single-stock digestion event.",
+        "risk": "Invalidated if NVDA loses the prior-day low or cannot hold VWAP while QQQ is stable; that would show the leadership complex is de-risking more broadly."
+      },
+      {
+        "ticker": "JPM",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Only above the opening-range high or on a successful first pullback hold with XLF and regional banks also confirming; wait for the post-payroll rates reaction first.",
+        "suggestedProfitTake": "Trim near fresh highs or if the stock advances while the rest of financials fade; broad confirmation matters more than a single-bank breakout.",
+        "type": "money-center bank and breadth proxy",
+        "catalyst": "June 4 rewarded financials as yields eased and the market broadened beyond AI.",
+        "why": "JPM offers scale, capital strength, fee diversity, and relative insulation versus weaker credit or funding stories. Technically it benefits when the tape broadens and when rates stop rising fast enough to threaten credit-sensitive risk appetite, and volume confirmation from the broader group matters more than a one-bank pop.",
+        "risk": "Invalidated if payrolls reignite long-end selling or if regional banks underperform badly enough to show that financial breadth is not real."
+      },
+      {
+        "ticker": "SOFI",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only consider after payrolls if SOFI holds above regular-session VWAP and IWM plus XLF are both confirming; if yields firm, wait rather than forcing the trade.",
+        "suggestedProfitTake": "Take partials into fast morning squeezes because the stock remains volatile and can round-trip if rates turn; keep only a smaller runner if breadth stays broad into midday.",
+        "type": "profitable fintech and rate-sensitive growth",
+        "catalyst": "SoFi reported record Q1 2026 net revenue of $1.1 billion, 35% member growth, and net income of $167 million while extending loan-platform and digital-asset initiatives.",
+        "why": "Fundamentally, SoFi now has record revenue, improving margins, a diversified platform across lending, financial services, and technology, and its tenth straight quarter of GAAP profitability. Technically, the stock has been volatile and remains tied to rates sentiment, so the better setup is a payroll-supported hold rather than a blind pre-open catch. Relative volume and confirmation from IWM help distinguish real demand from a rates head fake.",
+        "risk": "Invalidated if payrolls push the long end higher or if SOFI cannot hold VWAP while small caps and financials fade, which would suggest rate sensitivity is dominating the strong quarter."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Consider only if Brent stabilizes after the open and XOM holds or reclaims VWAP; if oil keeps fading, stay patient and do not force the trade.",
+        "suggestedProfitTake": "Take partials into any headline-driven oil spike or if the stock outruns crude confirmation; integrated oils often give back fast gains when geopolitical risk cools.",
+        "type": "integrated energy major",
+        "catalyst": "Geopolitical supply risk remains unresolved even after Brent's June 4 pullback.",
+        "why": "Exxon still brings strong free cash flow, capital discipline, and lower execution risk than thinner energy names. Technically it is a cleaner vehicle than high-beta explorers if oil reasserts strength, but the move still depends more on headline flow and commodity confirmation than on company-specific fundamentals tonight.",
+        "risk": "Invalidated if Brent continues lower and XLE lags, because the market would then be rotating away from inflation-sensitive energy leadership."
+      },
+      {
+        "ticker": "CAT",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only below the opening-range low or on a failed VWAP reclaim if industrials cannot confirm the Dow's record close; do not short into a strong broad tape without price failure first.",
+        "suggestedProfitTake": "Take profits into quick downdrafts near prior support because tariff and capex headlines can reverse the group sharply.",
+        "type": "industrial cyclical exposed to metals and machinery costs",
+        "catalyst": "June 8 tariff changes on steel, aluminum, and copper keep input-cost and margin sensitivity in focus for heavy industrial names.",
+        "why": "Caterpillar has solid end-market exposure and balance-sheet quality, but tonight's tactical setup is about whether tariff risk and sticky rates start to matter more than capex optimism. Technically it becomes interesting only on relative weakness against the Dow or SPY, and volume should confirm that the group is failing rather than simply consolidating.",
+        "risk": "Invalidated if the stock holds VWAP and the industrial group keeps participating in a broad risk-on session, which would show margin fears are not the market's priority yet."
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "JOBY",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Watch only until the first 30-60 minutes pass; only actionable above the opening-range high or after a clean VWAP reclaim if the White House air-taxi program headline still has real volume behind it.",
+        "suggestedProfitTake": "Take profits aggressively into sharp intraday extensions because the stock already trades with event volatility and can gap-fade after a fast first push.",
+        "type": "eVTOL / pre-revenue mobility small-cap",
+        "catalyst": "Joby reported Q1 2026 revenue of $24 million and highlighted its 2026 Electric Skies Tour, while a federal next-generation aircraft program added another policy tailwind for U.S. operations.",
+        "why": "Fundamentally, Joby still has minimal revenue and remains pre-profit, but it also has roughly $1.4 billion of cash and low debt, which materially extends runway compared with weaker speculative peers. Technically, Yahoo market data showed the stock with 26.1 million shares of volume versus roughly 25.9 million average and a one-year return above 50%, so momentum is real but not cheap. The setup is only attractive if regular-session volume confirms that policy and certification headlines are creating durable demand rather than just a thin premarket squeeze.",
+        "risk": "Invalidated below the opening range or if it loses VWAP while ACHR and the broader speculative-growth tape weaken. This remains a high-beta story stock where a pass is valid if the move gets too extended before the open."
+      },
+      {
+        "ticker": "ACHR",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only after a first-hour base or VWAP reclaim if JOBY is also behaving well; do not chase a sympathy pop just because the eVTOL theme is in motion.",
+        "suggestedProfitTake": "Scale out on fast upside bursts because the stock remains headline-driven and can reverse if volume narrows to retail-only participation.",
+        "type": "eVTOL / certification-driven small-cap",
+        "catalyst": "Archer's Q1 update emphasized record FAA certification progress and said initial U.S. operations are still expected in 2026.",
+        "why": "Fundamentally, Archer still operates before commercial scale but retains nearly $2.0 billion of cash with low debt, which is critical for a capital-intensive certification story. The setup is more speculative than Joby because execution still depends on regulatory timing and commercialization. Technically it works best as a confirmation trade after the first hour if both the theme and volume persist rather than as a premarket chase.",
+        "risk": "Invalidated if it cannot hold VWAP, if JOBY fades hard, or if the group trades as a one-candle reaction instead of a volume-backed theme."
+      },
+      {
+        "ticker": "IONQ",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only actionable after a first-hour base or VWAP reclaim; if the stock opens extended after the Q1 beat and raised guidance, wait for IV to cool before considering any entry.",
+        "suggestedProfitTake": "Take partials aggressively into strength because quantum names frequently overshoot and then mean-revert once the initial volume impulse fades.",
+        "type": "quantum computing high-beta growth name",
+        "catalyst": "IonQ reported Q1 revenue of $64.7 million, up 755% year over year, and raised full-year guidance to $260 million to $270 million while highlighting RPO growth to $470 million.",
+        "why": "Fundamentally, this was a strong quarter: revenue beat, guidance rose, backlog expanded, and liquidity stayed exceptional with about $3.1 billion in cash and investments. Technically, Yahoo market data showed five-day performance near +24.8% and volume above 58 million shares versus about 25.8 million average, which confirms real momentum but also means the stock can be tactically crowded. This is the classic case where fundamentals are strong but the better trade may still be to wait for a base instead of buying the first green candle.",
+        "risk": "Invalidated if it loses VWAP and the overnight strength fails in the first hour, or if payrolls push yields higher and the market rotates away from speculative beta."
+      },
+      {
+        "ticker": "SOUN",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only above the opening-range high or on a clean VWAP reclaim if software and AI-app names are participating; do not chase if the opening move already consumes most of the day's expected range.",
+        "suggestedProfitTake": "Take partials into 5% to 8% intraday extensions because the name often retraces quickly once initial call buying cools.",
+        "type": "voice AI smaller-cap software",
+        "catalyst": "SoundHound reported record Q1 revenue of $44.2 million, up 52%, and reaffirmed full-year 2026 revenue guidance of $225 million to $260 million.",
+        "why": "Fundamentally, SoundHound is growing quickly and has improved revenue scale, but it is still not consistently profitable and trades at a rich sales multiple for a software name of this size. Yahoo market data showed five-day performance above 21% and a market cap around $4.0 billion, which is exactly the profile that can deliver fast upside but also abrupt reversals. Technically the setup is only attractive if sector breadth confirms and the stock is not merely benefiting from one-night AI enthusiasm.",
+        "risk": "Invalidated if it cannot hold VWAP, if software ETFs fail to confirm, or if volume collapses after the open. This is a momentum vehicle, not a low-risk core holding."
+      },
+      {
+        "ticker": "ASTS",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only consider on the short side below the opening-range low or on a failed VWAP reclaim if the stock extends again without broader space-sector confirmation; do not step in front of strength without an actual failure signal.",
+        "suggestedProfitTake": "Cover partials quickly into sharp drops because the stock remains news-sensitive and can reverse hard if buyers defend the trend.",
+        "type": "space connectivity high-beta growth name",
+        "catalyst": "AST SpaceMobile still has large strategic optionality and Q1 results resources, but the stock has also been wrestling with execution news such as satellite setbacks after a huge one-year run.",
+        "why": "Fundamentally, ASTS has ambitious direct-to-cell ambitions and a large cash position, but it remains unprofitable and richly valued relative to current revenue. Yahoo market data showed a one-year return above 190%, one-month performance around -22%, and volume above average, which points to a volatile, momentum-driven structure rather than a stable accumulation base. Technically that makes it more suitable as a watch-for-failure candidate than as a fresh long at stretched levels.",
+        "risk": "Invalidated if ASTS reclaims and holds VWAP with real volume while the broader speculative space and communications basket also strengthens, because that would show the trend is still being defended despite valuation stretch."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Options And Volatility Watch",
+        "items": [
+          "Latest Cboe daily market statistics showed total put/call 0.73, equity put/call 0.43, and SPX put/call 1.17. Translation: index hedging exists, but single-name call appetite is still active.",
+          "Cboe has also highlighted that average single-stock volatility recently climbed near a one-year high around 45% while VIX stayed near the mid-teens. A calm-looking index tape can therefore hide violent stock-specific repricing.",
+          "Treat AVGO and CRWD as event-volatility names first and directional longs second. The real question is not whether the stories are good, but whether implied volatility comes out faster than spot can trend after the open.",
+          "For smaller-cap names such as IONQ, JOBY, and SOUN, overnight or premarket gains do not automatically improve the setup. Elevated implied volatility often means the move is already partially paid for before the regular session begins."
+        ]
+      },
+      {
+        "title": "Entry Timing And Risk Controls",
+        "items": [
+          "Do not treat premarket or after-hours prints as confirmation by themselves. For event names, wait for the first 30-60 minutes, then judge VWAP, opening-range behavior, and real relative volume.",
+          "Avoid chasing any premarket gap unless volume is clearly above normal and the matching ETF or sector peers confirm. A one-stock gap without breadth support is lower quality.",
+          "Use prior-day lows, post-earnings gap lows, or failed VWAP reclaims as invalidation points. If the trade is wrong there, do not average down before liquidity fully normalizes.",
+          "When yields, oil, and the dollar are not aligned, reduce size rather than forcing conviction. Clean macro alignment is more important tonight than an isolated bullish candle."
+        ]
+      },
+      {
+        "title": "Company And Sector Highlights",
+        "items": [
+          "Broadcom's quarter kept the AI capex thesis alive even as the stock reset. That combination often creates a second-chance setup later, but only after the first cash-session sell pressure gets absorbed cleanly.",
+          "CrowdStrike's quarter reinforced cybersecurity as essential spend rather than discretionary spend. That favors quality software exposure, but still only on patient entries because valuation is rich.",
+          "Banks, small caps, and profitable fintech finally participated on June 4. That is constructive breadth, but it is highly contingent on payrolls not forcing yields higher again tonight.",
+          "Energy lost some urgency as Brent fell, which helped the rest of the tape breathe. Keep watching whether that rotation persists or snaps back on geopolitics."
+        ]
+      },
+      {
+        "title": "Geopolitics And Policy",
+        "items": [
+          "The market is still trading around supply-route and ceasefire assumptions in the Middle East. Brent's June 4 drop helped equities, but the situation remains headline-sensitive and reversible.",
+          "The updated U.S. tariff regime for aluminum, steel, and copper becomes effective June 8. That matters for metal producers, machinery companies, autos, construction inputs, and inflation-sensitive rates.",
+          "Industrial-margin narratives and inflation expectations can shift faster than earnings models when trade policy changes hit raw-material costs. Watch those second-order effects, not just the tariff headline itself."
+        ]
+      },
+      {
+        "title": "Technology And Innovation Watch",
+        "items": [
+          "The White House's June 2 AI order reinforces policy support for frontier-model access, security coordination, and federal adoption. That remains structurally supportive for AI infrastructure and cybersecurity vendors.",
+          "Broadcom's custom-accelerator and networking demand confirms that AI spending is broadening beyond a single chip vendor, which helps the entire infrastructure stack if the tape stops punishing valuation.",
+          "Quantum, voice AI, and eVTOL remain second-wave speculative themes rather than core market leadership. They can outperform if rates cooperate, but each one still needs stricter timing discipline than the mega-cap list."
+        ]
+      },
+      {
+        "title": "Trump Administration And Washington Watch",
+        "items": [
+          "President Trump's administration updated tariff treatment for aluminum, steel, and copper imports, with changes effective June 8. This is directly market relevant for industrial costs and inflation expectations.",
+          "The administration's June 2 AI order focuses on innovation, security coordination, and earlier government access to frontier models. That creates a constructive backdrop for AI infrastructure, cloud, cyber procurement, and adjacent federal-technology themes.",
+          "Recent federal support for next-generation aircraft initiatives also matters for JOBY and ACHR, but those remain execution-sensitive story stocks rather than clean set-and-forget investments."
+        ]
+      },
+      {
+        "title": "Credit, Positioning, And Market Internals",
+        "items": [
+          "June 4 looked more like a breadth rotation than a credit-stress session. Leadership from banks and small caps argues against an immediate accident in the background tape.",
+          "Index volatility remains relatively tame, but single-stock volatility is elevated. That combination often produces cleaner ETF trades than aggressive single-name entries right after earnings.",
+          "If payrolls are benign and breadth stays broad, the market can sustain rotation outside AI. If payrolls are hot, the market is more likely to snap back toward balance-sheet quality and defensive duration discipline.",
+          "Watch whether financials, industrials, and small caps confirm each other in the first hour. Internal confirmation matters more tonight than one sector's isolated strength."
+        ]
+      },
+      {
+        "title": "Earnings And Macro Calendar",
+        "items": [
+          "20:30 Beijing / 08:30 ET: U.S. Employment Situation for May 2026. This is tonight's main macro catalyst and the key rates trigger for index, small-cap, and duration positioning.",
+          "Next week matters too: CPI for May is due June 10 and PPI on June 11. Even if payrolls pass cleanly, inflation data can still decide whether broadening has real durability.",
+          "Broadcom and CrowdStrike already reset the near-term tech tape after reporting. Tonight is about the first full regular-session verdict on those numbers, not the headlines alone.",
+          "For smaller-cap names, the key question is whether a benign payroll print widens the opportunity set or merely creates a brief squeeze that fades once cash-session liquidity arrives."
+        ]
+      },
+      {
+        "title": "Why It Matters",
+        "items": [
+          "The market is trying to broaden beyond AI leadership at the same time that macro and policy noise remain elevated. That creates opportunity, but only for disciplined entries.",
+          "When index volatility is calm and single-stock volatility is high, sloppy timing gets punished faster. That is why tonight's edge is in waiting for confirmation, not in predicting the first move.",
+          "If payrolls cooperate, the opportunity set widens into small caps, profitable fintech, and selective speculative growth. If they do not, preserving flexibility matters more than forcing conviction."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "AP: How major U.S. stock indexes fared Thursday 6/4/2026",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/a04eae4ada711aef2b629f3895de2376"
+      },
+      {
+        "label": "AP: Dow record as oil and yields eased on June 4",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/cb4ab2243ffaf300b61f1ad6985d4456"
+      },
+      {
+        "label": "Broadcom fiscal Q2 2026 results",
+        "confidence": "Primary",
+        "url": "https://investors.broadcom.com/node/64371/pdf"
+      },
+      {
+        "label": "CrowdStrike fiscal Q1 2027 results",
+        "confidence": "Primary",
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-first-quarter-fiscal-year-2027-financial"
+      },
+      {
+        "label": "BLS June 2026 release calendar",
+        "confidence": "Calendar",
+        "url": "https://www.bls.gov/schedule/news_release/"
+      },
+      {
+        "label": "BLS Current Employment Statistics page",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/ces/"
+      },
+      {
+        "label": "BLS JOLTS April 2026 summary",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+      },
+      {
+        "label": "ISM May 2026 Services PMI report",
+        "confidence": "Context",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/may/"
+      },
+      {
+        "label": "White House AI executive order of June 2, 2026",
+        "confidence": "Primary",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+      },
+      {
+        "label": "White House tariff adjustment for aluminum, steel, and copper",
+        "confidence": "Primary",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/"
+      },
+      {
+        "label": "Reuters payroll preview",
+        "confidence": "High-quality reporting",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N3SL0E4:0-financial-markets-economists-see-slower-job-growth-unemployment-rate-steady/"
+      },
+      {
+        "label": "Cboe U.S. options daily market statistics",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/markets/us/options/market-statistics/daily"
+      },
+      {
+        "label": "Cboe on single-stock volatility versus VIX",
+        "confidence": "Context",
+        "url": "https://www.cboe.com/insights/posts/single-stock-volatility-jumps-to-a-record-vs-the-vix-index"
+      },
+      {
+        "label": "SoFi Q1 2026 results",
+        "confidence": "Primary",
+        "url": "https://investors.sofi.com/news/news-details/2026/SoFi-Reports-First-Quarter-2026-with-Record-Net-Revenue-of-1-1-Billion-Record-Member-and-Product-Growth-Net-Income-of-167-Million/default.aspx"
+      },
+      {
+        "label": "Joby Q1 2026 shareholder letter / 8-K",
+        "confidence": "Primary",
+        "url": "https://ir.jobyaviation.com/sec-filings/all-sec-filings/content/0001819848-26-000321/0001819848-26-000321.pdf"
+      },
+      {
+        "label": "Archer Q1 2026 results",
+        "confidence": "Primary",
+        "url": "https://investors.archer.com/news/news-details/2026/Archer-Announces-First-Quarter-2026-Results-Highlighting-Record-FAA-Certification-Progress-With-Initial-US-Operations-Expected-In-2026/"
+      },
+      {
+        "label": "IonQ Q1 2026 results",
+        "confidence": "Primary",
+        "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-First-Quarter-2026-Financial-Results/default.aspx"
+      },
+      {
+        "label": "SoundHound AI Q1 2026 results",
+        "confidence": "Primary",
+        "url": "https://investors.soundhound.com/node/10921/pdf"
+      },
+      {
+        "label": "AST SpaceMobile quarterly results portal",
+        "confidence": "Primary",
+        "url": "https://investors.ast-science.com/quarterly-results"
+      },
+      {
+        "label": "Yahoo Finance quote page for JOBY",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/JOBY/"
+      },
+      {
+        "label": "Yahoo Finance quote page for SOUN",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/SOUN/"
+      },
+      {
+        "label": "Yahoo Finance quote page for IONQ",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/IONQ/"
+      },
+      {
+        "label": "Yahoo Finance quote page for ASTS",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/ASTS/"
+      },
+      {
+        "label": "Yahoo Finance quote page for SOFI",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/SOFI/"
+      },
+      {
+        "label": "Yahoo Finance quote page for ACHR",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/ACHR/"
+      }
+    ]
+  },
+  {
     "date": "2026-06-04",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-06-04 08:00 GMT+8",
