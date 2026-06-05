@@ -3,113 +3,113 @@ window.MARKET_BRIEFINGS = [
     "date": "2026-06-05",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-06-05 08:00 GMT+8",
-    "title": "U.S. Market Brief - 2026-06-05",
-    "tone": "Constructive but selective: June 4 finally broadened beyond AI, but tonight still runs through payrolls, yields, and whether event-heavy tech can absorb post-earnings supply without forcing bad premarket entries.",
+    "title": "EN: U.S. Market Brief - 2026-06-05\n中文：美股市场简报 - 2026-06-05",
+    "tone": "EN: Constructive but selective: breadth improved outside AI, yet tonight still runs through payrolls, yields, and whether event-heavy tech can absorb supply without forcing bad premarket entries.\n中文：偏建设性但必须选择性出手：AI之外的市场宽度已有改善，但今晚仍取决于非农、利率以及事件驱动科技股能否在不制造糟糕盘前追价的情况下消化抛压。",
     "priorities": [
-      "Do not size aggressively before the U.S. May payrolls report at 20:30 Beijing time. The first real signal tonight is the rates reaction, not the pre-data futures drift.",
-      "Broadcom remains the anchor risk for semis. A thin premarket bounce is not enough; AVGO, NVDA, and SMH need regular-session VWAP reclaim and real volume before the long side becomes actionable.",
-      "Small caps and banks only stay interesting if the 10-year Treasury remains contained after payrolls. If yields re-accelerate, IWM catch-up and rate-sensitive fintech quickly revert from opportunity to trap.",
-      "Single-stock implied volatility is still elevated even while index volatility stays relatively calm. That argues for ETFs or only the cleanest liquid leaders instead of scattered event chasing.",
-      "Treat the small-cap watchlist as execution-heavy, not thesis-light. JOBY, ACHR, IONQ, SOUN, and ASTS all require tighter timing discipline than the mega-cap list because liquidity and valuation risk are less forgiving."
+      "EN: Do not size aggressively before the U.S. May payrolls report at 20:30 Beijing time. The first real signal tonight is the rates reaction, not the pre-data futures drift.\n中文：在北京时间20:30美国5月非农公布前不要重仓。今晚第一个真正有效的信号是利率反应，而不是数据前的期指漂移。",
+      "EN: Broadcom remains the anchor risk for semis. A thin premarket bounce is not enough; AVGO, NVDA, and SMH need regular-session VWAP reclaim and real volume before the long side becomes actionable.\n中文：博通仍是半导体板块的锚风险。薄量盘前反弹不够，AVGO、NVDA和SMH必须在常规交易时段收复VWAP并有真实成交量，做多才算成立。",
+      "EN: Small caps and banks only stay interesting if the 10-year Treasury remains contained after payrolls. If yields re-accelerate, IWM catch-up and rate-sensitive fintech quickly revert from opportunity to trap.\n中文：只有在非农后10年期美债收益率不重新上冲的前提下，小盘和银行才值得继续看。若收益率再度走高，IWM补涨和利率敏感型金融科技很快会从机会变成陷阱。",
+      "EN: Single-stock implied volatility is still elevated even while index volatility stays relatively calm. That argues for ETFs or only the cleanest liquid leaders instead of scattered event chasing.\n中文：在指数波动相对平静时，个股隐含波动率仍然很高。这意味着更适合做ETF或最干净的高流动性龙头，而不是分散追逐事件票。",
+      "EN: Treat the small-cap watchlist as execution-heavy, not thesis-light. JOBY, ACHR, IONQ, SOUN, and ASTS all require tighter timing discipline than the mega-cap list because liquidity and valuation risk are less forgiving.\n中文：小盘股观察名单更看执行而不是只看故事。JOBY、ACHR、IONQ、SOUN和ASTS都比大盘龙头更需要严格时机纪律，因为流动性和估值风险容错率更低。"
     ],
     "summary": [
-      "On the June 4 U.S. close, the S&P 500 rose 0.4% to 7,584.31, the Dow gained 1.7% to a record 51,561.93, the Nasdaq slipped 0.1% to 26,830.96, and the Russell 2000 climbed 1.4% to 2,935.33 as oil and yields eased and breadth broadened beyond the AI complex.",
-      "Broadcom reported record fiscal Q2 revenue of $22.2 billion, up 48% year over year, with AI semiconductor revenue up 143% to $10.8 billion and fiscal Q3 revenue guided to roughly $29.4 billion. The business stayed strong, but the stock reaction showed that crowded AI expectations still matter as much as fundamentals in the first 24 hours after earnings.",
-      "CrowdStrike reported fiscal Q1 revenue of $1.39 billion, up 26%, record free cash flow of $468.5 million, raised its full-year ARR growth view, and announced a 4-for-1 stock split. Quality remained high, but event IV and valuation still argue for confirmation instead of blind gap chasing.",
-      "Macro remains mixed rather than cleanly risk-on. April JOLTS hires slowed, first-quarter productivity was revised down to 0.3%, and unit labor costs to 1.8%, while ISM Services rose to 54.5 and prices paid stayed hot at 71.3.",
-      "The main macro gate tonight is the May U.S. payrolls report. Consensus in high-quality reporting has centered around roughly 80,000 to 90,000 jobs with unemployment expected near 4.3%, so a hot surprise would matter more than usual for small caps, duration, and speculative growth.",
-      "The White House tariff changes for aluminum, steel, and copper take effect on June 8. That keeps a cost-pressure tail risk in the tape for industrials and materials even if the broad market looks calm at the open.",
-      "The right posture tonight is selective aggression: allow strong fundamentals to matter, but only after regular-session confirmation. For this user profile, avoiding the wrong premarket chase is more important than predicting the first five-minute move."
+      "EN: On the June 4 U.S. close, the S&P 500 rose 0.4% to 7,584.31, the Dow gained 1.7% to a record 51,561.93, the Nasdaq slipped 0.1% to 26,830.96, and the Russell 2000 climbed 1.4% to 2,935.33 as oil and yields eased and breadth broadened beyond the AI complex.\n中文：6月4日美股收盘，标普500上涨0.4%至7584.31点，道指上涨1.7%并创下51561.93点新高，纳指下跌0.1%至26830.96点，罗素2000上涨1.4%至2935.33点；油价和收益率回落推动市场宽度扩散到AI之外。",
+      "EN: Broadcom reported record fiscal Q2 revenue of $22.2 billion, up 48% year over year, with AI semiconductor revenue up 143% to $10.8 billion and fiscal Q3 revenue guided to roughly $29.4 billion. The business stayed strong, but the stock reaction showed that crowded AI expectations still matter as much as fundamentals in the first 24 hours after earnings.\n中文：博通公布2026财年二季度营收创纪录达222亿美元，同比增长48%，其中AI半导体收入同比增长143%至108亿美元，三季度营收指引约294亿美元。基本面很强，但股价反应说明在财报后的前24小时里，拥挤的AI预期仍与基本面同样重要。",
+      "EN: CrowdStrike reported fiscal Q1 revenue of $1.39 billion, up 26%, record free cash flow of $468.5 million, raised its full-year ARR growth view, and announced a 4-for-1 stock split. Quality remained high, but event IV and valuation still argue for confirmation instead of blind gap chasing.\n中文：CrowdStrike公布一季度营收13.9亿美元，同比增长26%，自由现金流创纪录达4.685亿美元，并上调全年ARR增长预期，同时宣布1拆4。质量仍然很高，但事件隐波和估值仍要求等待确认，而不是盲目追跳空。",
+      "EN: Macro remains mixed rather than cleanly risk-on. April JOLTS hires slowed, first-quarter productivity was revised down to 0.3%, and unit labor costs to 1.8%, while ISM Services rose to 54.5 and prices paid stayed hot at 71.3.\n中文：宏观环境仍是分化而非单边风险偏好。4月JOLTS招聘放缓，一季度生产率下修至0.3%，单位劳工成本下修至1.8%，但ISM服务业升至54.5，支付价格仍高达71.3。",
+      "EN: The main macro gate tonight is the May U.S. payrolls report. Consensus has centered around roughly 80,000 to 90,000 jobs with unemployment expected near 4.3%, so a hot surprise would matter more than usual for small caps, duration, and speculative growth.\n中文：今晚最关键的宏观闸门是美国5月非农。市场一致预期大致在8万到9万人之间，失业率预期约4.3%，因此一旦出现偏热意外，对小盘、久期资产和投机成长的影响会比平时更大。",
+      "EN: The White House tariff changes for aluminum, steel, and copper take effect on June 8. That keeps a cost-pressure tail risk in the tape for industrials and materials even if the broad market looks calm at the open.\n中文：白宫对铝、钢和铜的关税调整将在6月8日生效。即便开盘时大盘看上去平静，这仍会给工业和材料板块保留成本压力尾部风险。",
+      "EN: The right posture tonight is selective aggression: allow strong fundamentals to matter, but only after regular-session confirmation. For this user profile, avoiding the wrong premarket chase is more important than predicting the first five-minute move.\n中文：今晚正确的姿态是选择性进攻：让强基本面发挥作用，但必须建立在常规交易时段确认之后。对这个用户而言，避免错误的盘前追价比猜对开盘五分钟走势更重要。"
     ],
     "marketPulse": {
       "S&P 500": {
-        "value": "7,584.31 on the June 4 close, up 0.4%",
-        "note": "Breadth improved, but the next decision still belongs to payrolls and the rates response rather than to Thursday's closing print alone."
+        "value": "EN: 7,584.31 on the June 4 close, up 0.4%\n中文：6月4日收于7584.31点，上涨0.4%",
+        "note": "EN: Breadth improved, but the next decision still belongs to payrolls and the rates response rather than to Thursday's closing print alone.\n中文：市场宽度改善了，但下一步仍主要取决于非农和利率反应，而不是周四收盘点位本身。"
       },
       "Nasdaq": {
-        "value": "26,830.96 on the June 4 close, down 0.1%",
-        "note": "The Nasdaq absorbed Broadcom-related semiconductor weakness, but tonight still needs semis to stabilize before QQQ can be trusted on the long side."
+        "value": "EN: 26,830.96 on the June 4 close, down 0.1%\n中文：6月4日收于26830.96点，下跌0.1%",
+        "note": "EN: The Nasdaq absorbed Broadcom-related semiconductor weakness, but tonight still needs semis to stabilize before QQQ can be trusted on the long side.\n中文：纳指消化了博通带来的半导体压力，但今晚在QQQ能够被信任做多之前，半导体板块仍需先企稳。"
       },
       "Dow": {
-        "value": "51,561.93 on the June 4 close, up 1.7% and a record",
-        "note": "Banks and cyclicals carried the Dow, which matters because it signals broader participation if rates do not turn back up after payrolls."
+        "value": "EN: 51,561.93 on the June 4 close, up 1.7% and a record\n中文：6月4日收于51561.93点，上涨1.7%，并创历史新高",
+        "note": "EN: Banks and cyclicals carried the Dow, which matters because it signals broader participation if rates do not turn back up after payrolls.\n中文：银行和周期股带动了道指，这很重要，因为若非农后利率不再回升，说明更广泛的板块参与有望延续。"
       },
       "Russell 2000": {
-        "value": "2,935.33 on the June 4 close, up 1.4%",
-        "note": "That was a real breadth improvement, but small caps remain the fastest place to fail again if payrolls or wages surprise hot."
+        "value": "EN: 2,935.33 on the June 4 close, up 1.4%\n中文：6月4日收于2935.33点，上涨1.4%",
+        "note": "EN: That was a real breadth improvement, but small caps remain the fastest place to fail again if payrolls or wages surprise hot.\n中文：这是真实的市场宽度改善，但若非农或工资数据偏热，小盘股仍是最快重新转弱的地方。"
       },
       "Treasury Yields": {
-        "value": "The 10-year Treasury stayed in the mid-4.4% area after easing on June 4",
-        "note": "Tonight's cleanest regime filter is whether payrolls keep the long end contained. Softer yields help IWM, SOFI, and TLT; hotter yields quickly narrow leadership back toward balance-sheet quality."
+        "value": "EN: The 10-year Treasury stayed in the mid-4.4% area after easing on June 4\n中文：10年期美债收益率在6月4日回落后仍处于4.4%中段区域",
+        "note": "EN: Tonight's cleanest regime filter is whether payrolls keep the long end contained. Softer yields help IWM, SOFI, and TLT; hotter yields quickly narrow leadership back toward balance-sheet quality.\n中文：今晚最干净的风格过滤器是非农能否让长端收益率继续受控。收益率偏软有利于IWM、SOFI和TLT；收益率偏热则会迅速把市场重新收缩到资产负债表质量更高的标的。"
       },
       "Oil": {
-        "value": "Brent crude fell 2.8% to $95.03 per barrel on June 4",
-        "note": "That helped breadth, but energy leadership can return quickly if Middle East supply-route risk re-expands."
+        "value": "EN: Brent crude fell 2.8% to $95.03 per barrel on June 4\n中文：6月4日布伦特原油下跌2.8%，至每桶95.03美元",
+        "note": "EN: That helped breadth, but energy leadership can return quickly if Middle East supply-route risk re-expands.\n中文：这有助于市场扩散，但若中东供应路线风险重新扩大，能源领导地位也会很快回归。"
       },
       "FX / Dollar": {
-        "value": "The dollar remains payroll-sensitive after sticky service-sector inflation signals",
-        "note": "A stronger post-payroll dollar would tighten conditions for small caps, cyclicals, and speculative growth even if index futures initially look stable."
+        "value": "EN: The dollar remains payroll-sensitive after sticky service-sector inflation signals\n中文：在服务业通胀黏性仍存的背景下，美元对非农依然高度敏感",
+        "note": "EN: A stronger post-payroll dollar would tighten conditions for small caps, cyclicals, and speculative growth even if index futures initially look stable.\n中文：若非农后美元走强，即使股指期货最初看似稳定，也会收紧小盘、周期和投机成长的环境。"
       },
       "Volatility / Options": {
-        "value": "Latest Cboe daily statistics showed total put/call 0.73, SPX put/call 1.17, equity put/call 0.43, while VIX stayed in the mid-teens",
-        "note": "Index hedging exists without broad panic. The bigger risk remains violent single-name repricing and IV crush around AVGO, CRWD, and high-beta small caps."
+        "value": "EN: Latest Cboe daily statistics showed total put/call 0.73, SPX put/call 1.17, equity put/call 0.43, while VIX stayed in the mid-teens\n中文：最新Cboe日度数据显示，总体沽购比0.73，SPX沽购比1.17，个股沽购比0.43，VIX仍在十几区间",
+        "note": "EN: Index hedging exists without broad panic. The bigger risk remains violent single-name repricing and IV crush around AVGO, CRWD, and high-beta small caps.\n中文：指数层面存在对冲但并未恐慌，更大的风险仍是AVGO、CRWD以及高贝塔小盘股的个股剧烈重定价和事件后隐波回落。"
       }
     },
     "forecast": [
-      "Base case: payrolls land near consensus, yields stay contained, and Thursday's breadth improvement extends. In that setup, SPY, XLF, and IWM can continue improving while QQQ still needs AVGO and NVDA to prove the semiconductor reset is being absorbed rather than sold again.",
-      "Bull case: payrolls and wages are soft enough to cool rates without reviving recession fear. Then small caps, profitable fintech, software, and duration-sensitive growth can all participate, with IWM and SOFI offering cleaner catch-up than crowded AI beta.",
-      "Bear case: payrolls or hourly earnings run hot, the 10-year Treasury pushes higher, and the dollar firms. That would likely compress the broad tape, turn IWM and SOFI into lower-quality longs, and make any AVGO or CRWD bounce more vulnerable to fade.",
-      "AI digestion case: Broadcom and CrowdStrike remain fundamentally strong, but traders need one full regular session to digest positioning and IV crush. In that setup the best trade is usually pullback hold, opening-range breakout, or VWAP reclaim instead of buying the first green print.",
-      "Speculative-beta case: if rates stay soft and headline risk cools, high-beta smaller-cap names such as JOBY, ACHR, IONQ, and SOUN can move harder than the index, but they should still be treated as second-wave trades after index and sector confirmation."
+      "EN: Base case: payrolls land near consensus, yields stay contained, and Thursday's breadth improvement extends. In that setup, SPY, XLF, and IWM can continue improving while QQQ still needs AVGO and NVDA to prove the semiconductor reset is being absorbed rather than sold again.\n中文：基准情景：非农接近预期，收益率维持受控，周四的市场宽度改善继续延续。在这种情况下，SPY、XLF和IWM可继续修复，但QQQ仍需要AVGO和NVDA证明半导体的重定价是在被承接，而不是继续被抛售。",
+      "EN: Bull case: payrolls and wages are soft enough to cool rates without reviving recession fear. Then small caps, profitable fintech, software, and duration-sensitive growth can all participate, with IWM and SOFI offering cleaner catch-up than crowded AI beta.\n中文：偏强情景：非农和工资数据足够温和，既让利率降温，又不重新点燃衰退担忧。那样小盘、盈利型金融科技、软件和久期敏感成长都能参与，其中IWM和SOFI比拥挤的AI高贝塔更像干净的补涨表达。",
+      "EN: Bear case: payrolls or hourly earnings run hot, the 10-year Treasury pushes higher, and the dollar firms. That would likely compress the broad tape, turn IWM and SOFI into lower-quality longs, and make any AVGO or CRWD bounce more vulnerable to fade.\n中文：偏弱情景：非农或时薪偏热，10年期美债收益率上行，美元走强。这样大盘会重新收缩，IWM和SOFI的做多质量下降，AVGO或CRWD的任何反弹也更容易被卖掉。",
+      "EN: AI digestion case: Broadcom and CrowdStrike remain fundamentally strong, but traders need one full regular session to digest positioning and IV crush. In that setup the best trade is usually pullback hold, opening-range breakout, or VWAP reclaim instead of buying the first green print.\n中文：AI消化情景：博通和CrowdStrike的基本面仍强，但交易者需要一个完整的常规交易时段去消化仓位和隐波回落。在这种情况下，最好的交易通常是等回踩守住、开盘区间突破或VWAP收复，而不是买第一根翻绿转红的K线。",
+      "EN: Speculative-beta case: if rates stay soft and headline risk cools, high-beta smaller-cap names such as JOBY, ACHR, IONQ, and SOUN can move harder than the index, but they should still be treated as second-wave trades after index and sector confirmation.\n中文：投机高贝塔情景：如果利率保持温和且消息面风险降温，JOBY、ACHR、IONQ和SOUN这类高贝塔小盘股可能跑赢指数，但它们仍应被视作在指数和板块确认之后的第二波交易，而不是先手主仓。"
     ],
     "actionBoard": {
       "bestLong": {
         "ticker": "IWM",
-        "title": "Small-cap breadth can extend if payrolls are benign",
+        "title": "EN: Small-cap breadth can extend if payrolls are benign\n中文：若非农温和，小盘宽度有望继续扩散",
         "direction": "long",
         "riskLevel": "yellow",
-        "setup": "Only actionable above the opening-range high after payrolls and only if the 10-year Treasury stays contained; otherwise keep it watch-only.",
-        "reason": "June 4 showed real catch-up potential in rate-sensitive breadth, but that thesis survives only if yields do not reverse higher after the macro release.",
+        "setup": "EN: Only actionable above the opening-range high after payrolls and only if the 10-year Treasury stays contained; otherwise keep it watch-only.\n中文：只有在非农后突破开盘区间高点且10年期收益率维持受控时才可执行；否则继续只看不做。",
+        "reason": "EN: June 4 showed real catch-up potential in rate-sensitive breadth, but that thesis survives only if yields do not reverse higher after the macro release.\n中文：6月4日显示出利率敏感型宽度的真实补涨潜力，但这一逻辑只有在宏观数据后收益率不重新上冲时才能成立。",
         "convictionScore": 4,
         "timeframe": "trade for 1-3 days"
       },
       "bestShort": {
         "ticker": "XLE",
-        "title": "Energy is the cleaner downside only if crude stays heavy",
+        "title": "EN: Energy is the cleaner downside only if crude stays heavy\n中文：只有在原油继续走弱时，能源才是更干净的下行表达",
         "direction": "short",
         "riskLevel": "yellow",
-        "setup": "Only below regular-session VWAP and only if Brent remains weak after the U.S. open; avoid pressing shorts into fresh geopolitical headlines.",
-        "reason": "Cooling oil helped the broad tape on June 4, but this remains a headline-sensitive short rather than a conviction trend bet.",
+        "setup": "EN: Only below regular-session VWAP and only if Brent remains weak after the U.S. open; avoid pressing shorts into fresh geopolitical headlines.\n中文：只有在常规交易时段跌破VWAP且美股开盘后布油仍偏弱时才可偏空；不要在新的地缘政治headline里硬压空单。",
+        "reason": "EN: Cooling oil helped the broad tape on June 4, but this remains a headline-sensitive short rather than a conviction trend bet.\n中文：油价降温帮助了6月4日的大盘，但这仍然是一个对headline极度敏感的空头，而不是高确定性的趋势押注。",
         "convictionScore": 3,
         "timeframe": "trade"
       },
       "bestEtf": {
         "ticker": "SPY",
-        "title": "Broad tape ETF remains the cleanest expression",
+        "title": "EN: Broad tape ETF remains the cleanest expression\n中文：大盘ETF仍是最干净的表达",
         "direction": "long",
         "riskLevel": "yellow",
-        "setup": "Actionable only after payrolls and preferably on a clean VWAP reclaim with breadth improving beyond mega-cap tech.",
-        "reason": "SPY captures the better breadth backdrop without forcing post-earnings single-name risk at the exact moment event volatility is still elevated.",
+        "setup": "EN: Actionable only after payrolls and preferably on a clean VWAP reclaim with breadth improving beyond mega-cap tech.\n中文：仅在非农后才考虑，最好是干净收复VWAP并且市场宽度扩散到超级权重科技之外。",
+        "reason": "EN: SPY captures the better breadth backdrop without forcing post-earnings single-name risk at the exact moment event volatility is still elevated.\n中文：在事件波动仍高的时点，SPY能捕捉更好的宽度背景，同时避免财报后单一个股风险。",
         "convictionScore": 4,
         "timeframe": "trade"
       },
       "highestRiskOpportunity": {
         "ticker": "IONQ",
-        "title": "Quantum strength is real, but the tape is hot",
+        "title": "EN: Quantum strength is real, but the tape is hot\n中文：量子主线的强势是真实的，但盘面已偏热",
         "direction": "long",
         "riskLevel": "red",
-        "setup": "Only after a first-hour base or VWAP reclaim; if it opens extended after the Q1 beat, passing is better than chasing.",
-        "reason": "The company posted explosive growth and raised guidance, but valuation, overnight volatility, and crowded retail momentum make execution quality more important than thesis quality.",
+        "setup": "EN: Only after a first-hour base or VWAP reclaim; if it opens extended after the Q1 beat, passing is better than chasing.\n中文：只在首小时形成平台或收复VWAP后才观察；若因一季报超预期而高开过度，放弃比追高更好。",
+        "reason": "EN: The company posted explosive growth and raised guidance, but valuation, overnight volatility, and crowded retail momentum make execution quality more important than thesis quality.\n中文：公司交出爆发式增长并上调指引，但估值、隔夜波动和拥挤的散户动量使得执行质量比逻辑本身更重要。",
         "convictionScore": 3,
         "timeframe": "trade"
       },
       "avoidWait": {
         "ticker": "AVGO",
-        "title": "Good company, still not an automatic entry",
+        "title": "EN: Good company, still not an automatic entry\n中文：好公司，不代表现在就是自动买点",
         "direction": "long",
         "riskLevel": "yellow",
-        "setup": "Watch only until regular-session VWAP reclaim or a clean first-hour base above the post-earnings low.",
-        "reason": "The quarter was fundamentally strong, but the crowded-AI reaction still says the stock can be right long term and wrong for a fresh entry at the same time.",
+        "setup": "EN: Watch only until regular-session VWAP reclaim or a clean first-hour base above the post-earnings low.\n中文：在常规交易时段收复VWAP或在财报后低点上方形成干净的一小时平台之前，都只看不做。",
+        "reason": "EN: The quarter was fundamentally strong, but the crowded-AI reaction still says the stock can be right long term and wrong for a fresh entry at the same time.\n中文：这个季度的基本面很强，但拥挤AI交易的反应仍说明：一只股票可以长期逻辑正确，同时在当前并不是好的新开仓点。",
         "convictionScore": 4,
         "timeframe": "trade"
       }
@@ -117,32 +117,32 @@ window.MARKET_BRIEFINGS = [
     "catalystCalendar": [
       {
         "date": "2026-06-05 20:30 Beijing / 08:30 ET",
-        "event": "U.S. Employment Situation for May 2026",
-        "watch": "The main market gate tonight. Focus on payrolls, unemployment, and wage growth together because the rate reaction matters more than the headline alone.",
+        "event": "EN: U.S. Employment Situation for May 2026\n中文：美国2026年5月非农就业报告",
+        "watch": "EN: The main market gate tonight. Focus on payrolls, unemployment, and wage growth together because the rate reaction matters more than the headline alone.\n中文：这是今晚最重要的市场闸门。要把新增就业、失业率和工资增速放在一起看，因为利率反应比单一headline更重要。",
         "relatedTickers": "SPY, IWM, QQQ, TLT, SOFI"
       },
       {
         "date": "2026-06-05 20:30 Beijing / 08:30 ET",
-        "event": "Average Hourly Earnings and labor-market quality",
-        "watch": "A soft payroll print with hot wages can still pressure yields. If wage growth re-accelerates, small caps and speculative growth lose some of their catch-up appeal.",
+        "event": "EN: Average Hourly Earnings and labor-market quality\n中文：平均时薪与就业质量",
+        "watch": "EN: A soft payroll print with hot wages can still pressure yields. If wage growth re-accelerates, small caps and speculative growth lose some of their catch-up appeal.\n中文：即使非农人数偏软，只要工资偏热，收益率仍可能受压上行。若工资增速重新加快，小盘和投机成长的补涨吸引力会下降。",
         "relatedTickers": "IWM, SOFI, TLT, JPM"
       },
       {
         "date": "2026-06-08",
-        "event": "Updated U.S. tariffs on aluminum, steel, and copper take effect",
-        "watch": "Monitor industrials, materials, and margin-sensitive machinery names for second-order cost-pressure reactions.",
+        "event": "EN: Updated U.S. tariffs on aluminum, steel, and copper take effect\n中文：美国新的铝、钢、铜关税正式生效",
+        "watch": "EN: Monitor industrials, materials, and margin-sensitive machinery names for second-order cost-pressure reactions.\n中文：关注工业、材料和利润率敏感机械股的二阶成本压力反应。",
         "relatedTickers": "CAT, NUE, X, XLI"
       },
       {
         "date": "2026-06-10",
-        "event": "U.S. CPI for May",
-        "watch": "Even if payrolls are benign, CPI is the next macro durability test for any broadening beyond AI leadership.",
+        "event": "EN: U.S. CPI for May\n中文：美国5月CPI",
+        "watch": "EN: Even if payrolls are benign, CPI is the next macro durability test for any broadening beyond AI leadership.\n中文：即便非农结果温和，CPI仍是检验AI之外市场扩散能否持续的下一道宏观关口。",
         "relatedTickers": "SPY, QQQ, IWM, TLT"
       },
       {
         "date": "2026-06-11",
-        "event": "U.S. PPI for May",
-        "watch": "PPI matters for industrial and margin-sensitive follow-through after the tariff changes begin taking effect.",
+        "event": "EN: U.S. PPI for May\n中文：美国5月PPI",
+        "watch": "EN: PPI matters for industrial and margin-sensitive follow-through after the tariff changes begin taking effect.\n中文：在关税变化开始生效后，PPI对工业和利润率敏感板块的后续表现很重要。",
         "relatedTickers": "XLI, CAT, NUE, TLT"
       }
     ],
@@ -151,87 +151,87 @@ window.MARKET_BRIEFINGS = [
         "date": "2026-06-04",
         "ticker": "IWM",
         "status": "miss",
-        "result": "The prior briefing's small-cap hedge framing was too defensive for June 4. The Russell 2000 rose 1.4% as yields eased and breadth broadened.",
-        "lesson": "Do not mechanically carry forward small-cap bearishness once rates cool and breadth improves. The correct stance is conditional, not stubborn."
+        "result": "EN: The prior briefing's small-cap hedge framing was too defensive for June 4. The Russell 2000 rose 1.4% as yields eased and breadth broadened.\n中文：上一份简报里把小盘更多当作对冲的框架，对6月4日来说过于保守。随着收益率回落和市场宽度扩散，罗素2000上涨了1.4%。",
+        "lesson": "EN: Do not mechanically carry forward small-cap bearishness once rates cool and breadth improves. The correct stance is conditional, not stubborn.\n中文：当利率降温、市场宽度改善后，不要机械性延续前一天对小盘的偏空。正确姿态应该是条件式，而不是固执式。"
       },
       {
         "date": "2026-06-04",
         "ticker": "AVGO",
         "status": "hit",
-        "result": "Broadcom's quarter was fundamentally strong, but the stock reaction stayed unstable. The non-chase framing was correct because the event created crowding risk, not a clean immediate long.",
-        "lesson": "Good report does not equal good next entry. For crowded AI leaders, watch-only until regular-session confirmation remains the default."
+        "result": "EN: Broadcom's quarter was fundamentally strong, but the stock reaction stayed unstable. The non-chase framing was correct because the event created crowding risk, not a clean immediate long.\n中文：博通这个季度的基本面很强，但股价反应仍不稳定。不追高的框架是对的，因为这个事件制造的是拥挤风险，而不是干净的即时做多点。",
+        "lesson": "EN: Good report does not equal good next entry. For crowded AI leaders, watch-only until regular-session confirmation remains the default.\n中文：好财报不等于好买点。对于拥挤的AI龙头，默认应当是只观察，直到常规交易时段给出确认。"
       },
       {
         "date": "2026-06-04",
         "ticker": "CRWD",
         "status": "open",
-        "result": "CrowdStrike kept its quality-growth case intact, but the split headline and event IV still left the entry verdict to the next regular session.",
-        "lesson": "A premium software leader can remain fundamentally right while still needing volume-backed confirmation after earnings."
+        "result": "EN: CrowdStrike kept its quality-growth case intact, but the split headline and event IV still left the entry verdict to the next regular session.\n中文：CrowdStrike依旧维持高质量成长逻辑，但拆股headline和事件隐波仍把真正的入场判断留给了下一次常规交易时段。",
+        "lesson": "EN: A premium software leader can remain fundamentally right while still needing volume-backed confirmation after earnings.\n中文：高溢价软件龙头即便基本面仍对，财报后也依然需要成交量确认。"
       },
       {
         "date": "2026-06-04",
         "ticker": "XLE",
         "status": "hit",
-        "result": "Cooling crude relieved pressure on the rest of the tape and reduced the urgency of energy leadership.",
-        "lesson": "Energy works best as a tactical macro expression. When oil cools, it is usually cleaner to rotate back toward breadth than to force late energy longs."
+        "result": "EN: Cooling crude relieved pressure on the rest of the tape and reduced the urgency of energy leadership.\n中文：原油降温缓解了其余板块的压力，也降低了能源主线的紧迫性。",
+        "lesson": "EN: Energy works best as a tactical macro expression. When oil cools, it is usually cleaner to rotate back toward breadth than to force late energy longs.\n中文：能源更适合做战术性宏观表达。油价降温时，通常比继续追后手能源多头更干净的做法，是重新回到更广泛的市场宽度。"
       }
     ],
     "sectors": [
       {
-        "name": "Semiconductors And AI Infrastructure",
+        "name": "EN: Semiconductors And AI Infrastructure\n中文：半导体与AI基础设施",
         "direction": "long",
         "riskLevel": "yellow",
-        "catalyst": "Broadcom's Q2 report showed AI semiconductor revenue up 143% year over year to $10.8 billion and guided Q3 AI semiconductor revenue to roughly $16.0 billion.",
-        "watch": "Watch only until AVGO, NVDA, or SMH reclaim regular-session VWAP and the first 30-60 minutes show real volume absorption rather than just after-hours stabilization.",
-        "risk": "Invalidated if AVGO breaks its post-earnings low and SMH fails to recover relative strength versus QQQ, which would imply the thesis is still right fundamentally but tactically unready."
+        "catalyst": "EN: Broadcom's Q2 report showed AI semiconductor revenue up 143% year over year to $10.8 billion and guided Q3 AI semiconductor revenue to roughly $16.0 billion.\n中文：博通二季报显示AI半导体收入同比增长143%至108亿美元，并给出三季度AI半导体收入约160亿美元的指引。",
+        "watch": "EN: Watch only until AVGO, NVDA, or SMH reclaim regular-session VWAP and the first 30-60 minutes show real volume absorption rather than just after-hours stabilization.\n中文：在AVGO、NVDA或SMH于常规交易时段收复VWAP，且前30到60分钟显示真实成交承接而不只是盘后企稳之前，都只观察不追。",
+        "risk": "EN: Invalidated if AVGO breaks its post-earnings low and SMH fails to recover relative strength versus QQQ, which would imply the thesis is still right fundamentally but tactically unready.\n中文：若AVGO跌破财报后低点、SMH相对QQQ仍无法恢复强势，则说明基本面逻辑也许仍对，但战术上还没准备好。"
       },
       {
-        "name": "Cybersecurity And Infrastructure Software",
+        "name": "EN: Cybersecurity And Infrastructure Software\n中文：网络安全与基础设施软件",
         "direction": "long",
         "riskLevel": "yellow",
-        "catalyst": "CrowdStrike raised FY27 ARR-growth expectations, produced record cash flow, and reinforced security as an AI-enablement spend category rather than a discretionary budget line.",
-        "watch": "Wait for CRWD and IGV to hold above regular-session VWAP before adding. If the move only works in thin premarket trade, it is still watch-only.",
-        "risk": "A muted or negative reaction after good numbers would show expectations and valuation were already full, which lowers reward-to-risk for fresh entries."
+        "catalyst": "EN: CrowdStrike raised FY27 ARR-growth expectations, produced record cash flow, and reinforced security as an AI-enablement spend category rather than a discretionary budget line.\n中文：CrowdStrike上调了FY27 ARR增长预期，创出纪录现金流，并强化了安全支出属于AI部署必需开支而非可选预算。",
+        "watch": "EN: Wait for CRWD and IGV to hold above regular-session VWAP before adding. If the move only works in thin premarket trade, it is still watch-only.\n中文：等CRWD和IGV在常规交易时段守住VWAP后再考虑加仓。如果这波上涨只存在于薄量盘前，那仍然只是观察。",
+        "risk": "EN: A muted or negative reaction after good numbers would show expectations and valuation were already full, which lowers reward-to-risk for fresh entries.\n中文：若在不错的数据之后反应仍平淡甚至走弱，说明预期和估值已很满，新的风险收益比就会下降。"
       },
       {
-        "name": "Banks And Financials",
+        "name": "EN: Banks And Financials\n中文：银行与金融",
         "direction": "long",
         "riskLevel": "green",
-        "catalyst": "June 4 rewarded balance-sheet quality and broadened leadership into banks as oil and yields eased.",
-        "watch": "Look for XLF, JPM, and better regional-bank breadth to hold the opening range after payrolls; leadership is cleaner if it survives a data-driven rates move instead of a quiet pre-open drift.",
-        "risk": "Invalidated if payrolls or wages push the long end sharply higher or if regional banks lag badly enough to show that the rally is too narrow to trust."
+        "catalyst": "EN: June 4 rewarded balance-sheet quality and broadened leadership into banks as oil and yields eased.\n中文：6月4日市场开始奖励资产负债表质量，随着油价和收益率回落，领导力扩散到了银行板块。",
+        "watch": "EN: Look for XLF, JPM, and better regional-bank breadth to hold the opening range after payrolls; leadership is cleaner if it survives a data-driven rates move instead of a quiet pre-open drift.\n中文：观察XLF、JPM以及地区银行宽度能否在非农后守住开盘区间；若它们能经受住数据驱动的利率波动，而不是只靠盘前安静上移，领导力会更干净。",
+        "risk": "EN: Invalidated if payrolls or wages push the long end sharply higher or if regional banks lag badly enough to show that the rally is too narrow to trust.\n中文：若非农或工资数据把长端收益率明显推高，或地区银行严重落后，说明这轮上涨过于狭窄，不能轻信。"
       },
       {
-        "name": "Small Caps And Domestic Cyclicals",
+        "name": "EN: Small Caps And Domestic Cyclicals\n中文：小盘股与美国内需周期",
         "direction": "long",
         "riskLevel": "yellow",
-        "catalyst": "IWM outperformed on June 4 as lower yields eased pressure on financing-sensitive domestic companies.",
-        "watch": "Only actionable above the opening-range high after payrolls and only if the 10-year Treasury stays contained; otherwise keep the basket as watch-only instead of an automatic catch-up trade.",
-        "risk": "Invalidated below VWAP or the prior-day low if yields spike, because small caps are still the first place where a hot macro print shows up."
+        "catalyst": "EN: IWM outperformed on June 4 as lower yields eased pressure on financing-sensitive domestic companies.\n中文：随着收益率回落缓解了融资敏感型美国内需公司的压力，IWM在6月4日明显跑赢。",
+        "watch": "EN: Only actionable above the opening-range high after payrolls and only if the 10-year Treasury stays contained; otherwise keep the basket as watch-only instead of an automatic catch-up trade.\n中文：仅在非农后突破开盘区间高点且10年期美债收益率维持受控时才算可执行；否则这类标的都应维持观察而不是自动当作补涨交易。",
+        "risk": "EN: Invalidated below VWAP or the prior-day low if yields spike, because small caps are still the first place where a hot macro print shows up.\n中文：若收益率跳升，小盘跌破VWAP或前一日低点就视为失效，因为宏观偏热最先反映在小盘上。"
       },
       {
-        "name": "Rates-Sensitive Fintech",
+        "name": "EN: Rates-Sensitive Fintech\n中文：利率敏感型金融科技",
         "direction": "long",
         "riskLevel": "yellow",
-        "catalyst": "SoFi's Q1 results showed record net revenue of $1.1 billion, 35% member growth, and a tenth straight quarter of GAAP profitability, which supports fundamental credibility if rates do not re-tighten.",
-        "watch": "Best observed through SOFI and broader small-cap breadth only after payrolls. A weak first bounce without rates support is not enough.",
-        "risk": "If yields re-accelerate or the group loses relative strength versus IWM, the setup becomes a valuation and credit-duration problem instead of a growth catch-up opportunity."
+        "catalyst": "EN: SoFi's Q1 results showed record net revenue of $1.1 billion, 35% member growth, and a tenth straight quarter of GAAP profitability, which supports fundamental credibility if rates do not re-tighten.\n中文：SoFi一季报显示净营收创纪录达11亿美元，会员增长35%，并实现连续第十个季度GAAP盈利；若利率不再收紧，这强化了其基本面可信度。",
+        "watch": "EN: Best observed through SOFI and broader small-cap breadth only after payrolls. A weak first bounce without rates support is not enough.\n中文：最好通过SOFI与更广泛的小盘宽度在非农后一起观察。若只是没有利率支持的第一波弱反弹，并不足以动作。",
+        "risk": "EN: If yields re-accelerate or the group loses relative strength versus IWM, the setup becomes a valuation and credit-duration problem instead of a growth catch-up opportunity.\n中文：若收益率重新上冲，或该板块相对IWM失去强势，这笔交易就会从成长补涨机会变成估值和信用久期问题。"
       },
       {
-        "name": "Energy",
+        "name": "EN: Energy\n中文：能源",
         "direction": "short",
         "riskLevel": "yellow",
-        "catalyst": "Brent fell 2.8% on June 4 as the market leaned toward temporary cooling in supply-route stress rather than a fresh immediate shock.",
-        "watch": "Only consider the downside if XLE fails regular-session VWAP and Brent cannot reclaim Thursday's range; avoid pressing the short if geopolitical headlines turn again.",
-        "risk": "This is a headline-sensitive sector. Any renewed Strait-of-Hormuz or shipping-route disruption risk can invalidate the short quickly."
+        "catalyst": "EN: Brent fell 2.8% on June 4 as the market leaned toward temporary cooling in supply-route stress rather than a fresh immediate shock.\n中文：由于市场更倾向于认为供应路线压力暂时降温而非出现新的即时冲击，布油在6月4日下跌2.8%。",
+        "watch": "EN: Only consider the downside if XLE fails regular-session VWAP and Brent cannot reclaim Thursday's range; avoid pressing the short if geopolitical headlines turn again.\n中文：只有在XLE跌破常规交易时段VWAP，且布油无法收回周四波动区间时才考虑偏空；若地缘政治headline再转强，不要硬做空。",
+        "risk": "EN: This is a headline-sensitive sector. Any renewed Strait-of-Hormuz or shipping-route disruption risk can invalidate the short quickly.\n中文：这是一个对headline极度敏感的板块。任何新的霍尔木兹海峡或航运路线扰动风险，都可能迅速让空头失效。"
       },
       {
-        "name": "Industrials, Metals, And Machinery",
+        "name": "EN: Industrials, Metals, And Machinery\n中文：工业、金属与机械",
         "direction": "short",
         "riskLevel": "red",
-        "catalyst": "The White House's updated tariff regime for aluminum, steel, and copper becomes effective June 8, which can squeeze input costs and raise margin uncertainty for downstream manufacturers.",
-        "watch": "Watch for failed morning bounces in CAT, NUE, X, or transport-sensitive names if the group cannot confirm Thursday's Dow strength with follow-through volume.",
-        "risk": "Domestic-producer enthusiasm, fiscal-demand expectations, or defense-spending narratives can overpower the margin-risk thesis, so do not assume this theme works without price confirmation."
+        "catalyst": "EN: The White House's updated tariff regime for aluminum, steel, and copper becomes effective June 8, which can squeeze input costs and raise margin uncertainty for downstream manufacturers.\n中文：白宫更新后的铝、钢和铜关税将在6月8日生效，这会推高下游制造商的投入成本并增加利润率不确定性。",
+        "watch": "EN: Watch for failed morning bounces in CAT, NUE, X, or transport-sensitive names if the group cannot confirm Thursday's Dow strength with follow-through volume.\n中文：若CAT、NUE、X或运输敏感股在早盘反弹失败，且该组无法用后续放量来确认周四道指强势，就值得继续观察其偏弱。",
+        "risk": "EN: Domestic-producer enthusiasm, fiscal-demand expectations, or defense-spending narratives can overpower the margin-risk thesis, so do not assume this theme works without price confirmation.\n中文：本土生产商受益预期、财政需求或国防支出叙事，可能盖过利润率受压逻辑，因此在没有价格确认前不要默认这条偏空主题一定成立。"
       }
     ],
     "etfs": [
@@ -239,89 +239,89 @@ window.MARKET_BRIEFINGS = [
         "ticker": "SPY",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Actionable only after payrolls and only above the opening-range high or on a clean VWAP reclaim with breadth improving across sectors, not just mega-cap tech.",
-        "suggestedProfitTake": "Take partial profits into any fast post-payroll squeeze if volume fades near intraday resistance; keep a runner only if breadth and rates stay supportive into midday.",
-        "type": "broad market ETF",
-        "catalyst": "Broadening beyond AI improved on June 4 as oil and yields eased.",
-        "why": "SPY is the cleanest expression of a benign macro print because it captures breadth without forcing single-name event risk. Technically it still needs opening-range or VWAP confirmation, and volume should improve outside the mega-cap complex.",
-        "risk": "Invalidated if payrolls push yields and the dollar higher together or if the market narrows back to a few defensive leaders after the open."
+        "suggestedBuyPrice": "EN: Actionable only after payrolls and only above the opening-range high or on a clean VWAP reclaim with breadth improving across sectors, not just mega-cap tech.\n中文：仅在非农后才考虑，且必须突破开盘区间高点，或在市场宽度向多个板块扩散而非只靠超级权重科技时干净收复VWAP。",
+        "suggestedProfitTake": "EN: Take partial profits into any fast post-payroll squeeze if volume fades near intraday resistance; keep a runner only if breadth and rates stay supportive into midday.\n中文：若非农后快速拉升至日内阻力附近而成交开始转弱，可分批止盈；只有在市场宽度和利率到中午前仍继续支持时才保留一部分。",
+        "type": "EN: broad market ETF\n中文：大盘ETF",
+        "catalyst": "EN: Broadening beyond AI improved on June 4 as oil and yields eased.\n中文：随着油价和收益率回落，6月4日AI之外的市场扩散得到改善。",
+        "why": "EN: SPY is the cleanest expression of a benign macro print because it captures breadth without forcing single-name event risk. Technically it still needs opening-range or VWAP confirmation, and volume should improve outside the mega-cap complex.\n中文：SPY是温和宏观结果下最干净的表达，因为它捕捉的是市场宽度而不是单一个股事件风险。技术上仍需要开盘区间或VWAP确认，且成交扩散应出现在超级权重之外。",
+        "risk": "EN: Invalidated if payrolls push yields and the dollar higher together or if the market narrows back to a few defensive leaders after the open.\n中文：若非农同时推高收益率和美元，或市场开盘后重新收缩到少数防御性龙头，这笔交易就失效。"
       },
       {
         "ticker": "QQQ",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Wait for the first 30-60 minutes and only consider entries after a regular-session VWAP reclaim with AVGO and NVDA stabilizing; do not chase a thin gap.",
-        "suggestedProfitTake": "Trim into any move back toward the prior high or if QQQ rallies while semis stop confirming; post-event mean reversion is common after event-heavy tech sessions.",
-        "type": "large-cap growth ETF",
-        "catalyst": "Tonight's tech tape is driven by post-earnings semiconductor digestion and payroll-linked duration risk.",
-        "why": "QQQ still contains the market's structural leaders, but the near-term setup is more about execution than thesis because semis just reset on an extremely high expectations bar. Volume confirmation from AVGO and NVDA matters more than futures noise.",
-        "risk": "Invalidated if AVGO remains a drag, the 10-year Treasury backs up materially, or QQQ cannot hold regular-session VWAP after the first reaction."
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and only consider entries after a regular-session VWAP reclaim with AVGO and NVDA stabilizing; do not chase a thin gap.\n中文：等待前30到60分钟，只有在AVGO和NVDA企稳且常规交易时段收复VWAP后才考虑入场；不要追薄量跳空。",
+        "suggestedProfitTake": "EN: Trim into any move back toward the prior high or if QQQ rallies while semis stop confirming; post-event mean reversion is common after event-heavy tech sessions.\n中文：若回到前高附近，或QQQ上涨但半导体不再确认，可分批减仓；在事件密集的科技交易日后，均值回归非常常见。",
+        "type": "EN: large-cap growth ETF\n中文：大盘成长ETF",
+        "catalyst": "EN: Tonight's tech tape is driven by post-earnings semiconductor digestion and payroll-linked duration risk.\n中文：今晚科技盘面由财报后半导体消化和非农带来的久期风险共同驱动。",
+        "why": "EN: QQQ still contains the market's structural leaders, but the near-term setup is more about execution than thesis because semis just reset on an extremely high expectations bar. Volume confirmation from AVGO and NVDA matters more than futures noise.\n中文：QQQ仍然包含市场结构性龙头，但短线更看执行而不是逻辑，因为半导体刚刚在极高预期下被重新定价。AVGO和NVDA的成交量确认比期指噪音更重要。",
+        "risk": "EN: Invalidated if AVGO remains a drag, the 10-year Treasury backs up materially, or QQQ cannot hold regular-session VWAP after the first reaction.\n中文：若AVGO继续拖累、10年期收益率明显反弹，或QQQ在首轮反应后无法守住常规时段VWAP，这笔交易就失效。"
       },
       {
         "ticker": "SMH",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Triggered only above the opening-range high or after a pullback hold once AVGO proves the post-earnings low can hold on volume; avoid chasing premarket sympathy moves unless volume is clearly above normal.",
-        "suggestedProfitTake": "Scale out into gap-fill attempts or if the ETF outpaces its heaviest components on fading volume; semis can overshoot quickly after earnings resets.",
-        "type": "semiconductor ETF",
-        "catalyst": "Broadcom's AI revenue growth and Q3 guide confirmed continued accelerator and networking demand.",
-        "why": "The semiconductor fundamental backdrop is still strong, and the ETF diversifies single-name event risk. The technical question is whether the group can reclaim momentum after a sharp expectations reset without simply relying on one or two mega-caps.",
-        "risk": "Invalidated if AVGO and NVDA both fail to confirm or if the sector stays below VWAP after the first hour, which would imply supply is still dominant."
+        "suggestedBuyPrice": "EN: Triggered only above the opening-range high or after a pullback hold once AVGO proves the post-earnings low can hold on volume; avoid chasing premarket sympathy moves unless volume is clearly above normal.\n中文：只有在突破开盘区间高点，或AVGO证明财报后低点在成交量支持下守住、并完成回踩后才触发；除非量能明显高于常态，否则不要追盘前联动。",
+        "suggestedProfitTake": "EN: Scale out into gap-fill attempts or if the ETF outpaces its heaviest components on fading volume; semis can overshoot quickly after earnings resets.\n中文：若开始回补缺口，或ETF在量能转弱时明显跑赢其最大权重股，可分批止盈；半导体在财报后重定价阶段很容易快速过冲。",
+        "type": "EN: semiconductor ETF\n中文：半导体ETF",
+        "catalyst": "EN: Broadcom's AI revenue growth and Q3 guide confirmed continued accelerator and networking demand.\n中文：博通的AI收入增长和三季度指引确认了加速器与网络需求仍在延续。",
+        "why": "EN: The semiconductor fundamental backdrop is still strong, and the ETF diversifies single-name event risk. The technical question is whether the group can reclaim momentum after a sharp expectations reset without simply relying on one or two mega-caps.\n中文：半导体的基本面背景仍强，而ETF能分散单一个股事件风险。技术上的关键问题是，在经历一次剧烈预期重置之后，这个板块能否在不只靠一两只超级权重的情况下重新夺回动能。",
+        "risk": "EN: Invalidated if AVGO and NVDA both fail to confirm or if the sector stays below VWAP after the first hour, which would imply supply is still dominant.\n中文：若AVGO和NVDA都无法确认，或板块在首小时后仍处于VWAP下方，就意味着抛压仍占主导，交易失效。"
       },
       {
         "ticker": "IGV",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Watch only until CRWD and other software leaders confirm above VWAP; better entries come from an orderly first-hour base than from a headline-driven pop.",
-        "suggestedProfitTake": "Take partials if the ETF stretches quickly without broad software participation or if CRWD fails to hold its opening range after the initial move.",
-        "type": "software ETF",
-        "catalyst": "CrowdStrike's results reinforced high-quality recurring-revenue software and cybersecurity demand.",
-        "why": "IGV gives exposure to software quality without forcing single-name earnings timing. Fundamentals are stronger than many crowded AI-adjacent names, but the ETF still benefits from calmer rates and healthy follow-through volume.",
-        "risk": "Invalidated if payrolls re-price rates higher or if software lags even while the broader market is firm, which would show the group is still too expensive near term."
+        "suggestedBuyPrice": "EN: Watch only until CRWD and other software leaders confirm above VWAP; better entries come from an orderly first-hour base than from a headline-driven pop.\n中文：在CRWD和其他软件龙头确认站上VWAP之前都只观察；更好的入场来自首小时有序的平台，而不是headline驱动的一脚冲高。",
+        "suggestedProfitTake": "EN: Take partials if the ETF stretches quickly without broad software participation or if CRWD fails to hold its opening range after the initial move.\n中文：若ETF快速拉升但软件板块并未广泛参与，或CRWD在首轮上冲后守不住开盘区间，可分批止盈。",
+        "type": "EN: software ETF\n中文：软件ETF",
+        "catalyst": "EN: CrowdStrike's results reinforced high-quality recurring-revenue software and cybersecurity demand.\n中文：CrowdStrike的业绩强化了高质量订阅软件和网络安全需求。",
+        "why": "EN: IGV gives exposure to software quality without forcing single-name earnings timing. Fundamentals are stronger than many crowded AI-adjacent names, but the ETF still benefits from calmer rates and healthy follow-through volume.\n中文：IGV提供了软件高质量资产的敞口，而不需要去赌单一财报节奏。它的基本面比许多拥挤的AI边缘票更强，但仍需要更平稳的利率和健康的后续成交量。",
+        "risk": "EN: Invalidated if payrolls re-price rates higher or if software lags even while the broader market is firm, which would show the group is still too expensive near term.\n中文：若非农重新把利率定得更高，或大盘稳而软件仍然落后，则说明该组短期估值仍然过贵。"
       },
       {
         "ticker": "IWM",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Only consider above the opening-range high after payrolls if Treasury yields stay contained; otherwise keep it watch-only and do not chase a weak first bounce.",
-        "suggestedProfitTake": "Take quicker profits than usual into sharp morning squeezes because small caps reverse fast if rates rebound; keep size modest unless breadth stays broad into the afternoon.",
-        "type": "small-cap ETF",
-        "catalyst": "The June 4 session showed real catch-up potential when yields back off.",
-        "why": "IWM is the clearest high-beta expression of a benign payroll and softer-rate outcome. The fundamental backdrop for many constituents is still mixed, so the trade relies more on rates, breadth, and volume than on a single company story.",
-        "risk": "Invalidated below VWAP or the prior-day low if the 10-year Treasury and dollar both push higher after the data."
+        "suggestedBuyPrice": "EN: Only consider above the opening-range high after payrolls if Treasury yields stay contained; otherwise keep it watch-only and do not chase a weak first bounce.\n中文：只有在非农后突破开盘区间高点且美债收益率维持受控时才考虑；否则继续只看不做，不要去追一波无力的初反弹。",
+        "suggestedProfitTake": "EN: Take quicker profits than usual into sharp morning squeezes because small caps reverse fast if rates rebound; keep size modest unless breadth stays broad into the afternoon.\n中文：若早盘快速拉升，止盈应比平时更快，因为一旦收益率反弹，小盘回撤也会很快；除非宽度到下午仍维持扩散，否则仓位要适度。",
+        "type": "EN: small-cap ETF\n中文：小盘ETF",
+        "catalyst": "EN: The June 4 session showed real catch-up potential when yields back off.\n中文：6月4日已经显示，只要收益率回落，小盘就存在真实补涨潜力。",
+        "why": "EN: IWM is the clearest high-beta expression of a benign payroll and softer-rate outcome. The fundamental backdrop for many constituents is still mixed, so the trade relies more on rates, breadth, and volume than on a single company story.\n中文：IWM是温和非农与更软利率结果下最清晰的高贝塔表达。其成分股的基本面背景仍较分化，因此这笔交易更多依赖利率、市场宽度和成交量，而不是某一家公司的故事。",
+        "risk": "EN: Invalidated below VWAP or the prior-day low if the 10-year Treasury and dollar both push higher after the data.\n中文：若数据后10年期收益率和美元同时走高，且IWM跌破VWAP或前一日低点，则交易失效。"
       },
       {
         "ticker": "XLF",
         "direction": "long",
         "riskLevel": "green",
-        "suggestedBuyPrice": "Actionable if banks hold the first pullback after payrolls and reclaim or hold VWAP with broad participation across money-center and regional names.",
-        "suggestedProfitTake": "Scale out near prior highs or if regional banks stop confirming the move; broad financial participation matters more than a few large-bank prints.",
-        "type": "financial sector ETF",
-        "catalyst": "Thursday's record Dow session was led partly by banks as rates pressure eased.",
-        "why": "Financials offer balance-sheet quality and broaden the market beyond AI. The technical setup is cleaner than many extended tech names if yields stay orderly, and relative volume in regionals can confirm whether the breadth signal is real.",
-        "risk": "Invalidated if payrolls or wages shock yields higher or if regional banks materially lag, which would weaken the breadth signal."
+        "suggestedBuyPrice": "EN: Actionable if banks hold the first pullback after payrolls and reclaim or hold VWAP with broad participation across money-center and regional names.\n中文：若非农后银行在首波回踩中守住，并能收复或站稳VWAP，且大型银行与地区银行广泛参与，则可执行。",
+        "suggestedProfitTake": "EN: Scale out near prior highs or if regional banks stop confirming the move; broad financial participation matters more than a few large-bank prints.\n中文：接近前高可分批减仓；若地区银行不再确认走势，也应收缩仓位，因为广泛的金融参与比少数大银行更重要。",
+        "type": "EN: financial sector ETF\n中文：金融ETF",
+        "catalyst": "EN: Thursday's record Dow session was led partly by banks as rates pressure eased.\n中文：周四道指创高的过程中，银行在收益率压力减轻后起到了部分带动作用。",
+        "why": "EN: Financials offer balance-sheet quality and broaden the market beyond AI. The technical setup is cleaner than many extended tech names if yields stay orderly, and relative volume in regionals can confirm whether the breadth signal is real.\n中文：金融板块提供了资产负债表质量，也让市场从AI之外扩散。若收益率保持有序，它的技术形态比许多过热科技股更干净，而地区银行的相对成交量能帮助确认宽度是否真实。",
+        "risk": "EN: Invalidated if payrolls or wages shock yields higher or if regional banks materially lag, which would weaken the breadth signal.\n中文：若非农或工资数据把收益率推高，或地区银行明显掉队，说明市场宽度信号被削弱，交易失效。"
       },
       {
         "ticker": "TLT",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Triggered only if payrolls are soft enough to pull the 10-year Treasury lower and TLT holds the first post-data pullback; avoid pre-data guessing.",
-        "suggestedProfitTake": "Take partials into the first strong rate-driven spike because payroll reactions often retrace once cash equities open.",
-        "type": "long-duration Treasury ETF",
-        "catalyst": "Lower productivity and softer hiring data have already nudged the bond market toward a slower-growth interpretation.",
-        "why": "TLT is the cleanest hedge if rates fall and growth-sensitive equities broaden. It helps manage portfolio beta without forcing a single-stock view, but the move is highly dependent on wages as well as headline payrolls.",
-        "risk": "Invalidated immediately if payrolls or wages run hot and the long end sells off instead of rallying."
+        "suggestedBuyPrice": "EN: Triggered only if payrolls are soft enough to pull the 10-year Treasury lower and TLT holds the first post-data pullback; avoid pre-data guessing.\n中文：只有在非农足够偏软、把10年期收益率拉低，且TLT在数据后首波回踩中守住时才触发；不要在数据前押方向。",
+        "suggestedProfitTake": "EN: Take partials into the first strong rate-driven spike because payroll reactions often retrace once cash equities open.\n中文：在第一波由利率驱动的明显上冲中可分批止盈，因为非农后的债券反应常在现货股市开盘后回吐一部分。",
+        "type": "EN: long-duration Treasury ETF\n中文：长久期美债ETF",
+        "catalyst": "EN: Lower productivity and softer hiring data have already nudged the bond market toward a slower-growth interpretation.\n中文：较低的生产率和偏软的招聘数据已经让债券市场更倾向于解读为增长放缓。",
+        "why": "EN: TLT is the cleanest hedge if rates fall and growth-sensitive equities broaden. It helps manage portfolio beta without forcing a single-stock view, but the move is highly dependent on wages as well as headline payrolls.\n中文：若利率下行且成长敏感资产扩散，TLT是最干净的对冲工具。它能管理组合beta，而不必押单一个股，但走势对工资数据和非农headline都很敏感。",
+        "risk": "EN: Invalidated immediately if payrolls or wages run hot and the long end sells off instead of rallying.\n中文：若非农或工资偏热导致长端债券不涨反跌，则立即失效。"
       },
       {
         "ticker": "XLE",
         "direction": "short",
         "riskLevel": "red",
-        "suggestedBuyPrice": "Short only below regular-session VWAP and only if Brent stays heavy after the U.S. open; avoid fighting the tape on a geopolitical headline pop.",
-        "suggestedProfitTake": "Take profits aggressively on flushes because oil-linked reversals can be violent; do not expect a smooth trend lower in a headline-driven complex.",
-        "type": "energy sector ETF",
-        "catalyst": "Brent's 2.8% drop on June 4 reduced the immediate inflation and supply-shock pressure that had been supporting energy leadership.",
-        "why": "If oil continues to cool, breadth can keep rotating away from energy toward banks, small caps, and selected growth. The trade works best only when the commodity confirms, because sector moves still track headlines more than fundamentals intraday.",
-        "risk": "Invalidated by any renewed escalation that tightens supply expectations or pushes Brent back through Thursday's range."
+        "suggestedBuyPrice": "EN: Short only below regular-session VWAP and only if Brent stays heavy after the U.S. open; avoid fighting the tape on a geopolitical headline pop.\n中文：只有在常规交易时段跌破VWAP且美股开盘后布油仍偏弱时才考虑做空；不要在地缘政治headline拉升中硬逆势。",
+        "suggestedProfitTake": "EN: Take profits aggressively on flushes because oil-linked reversals can be violent; do not expect a smooth trend lower in a headline-driven complex.\n中文：出现快速下杀时应积极止盈，因为油价相关标的的反转往往很暴力；不要指望在headline驱动的品种里得到平滑下跌趋势。",
+        "type": "EN: energy sector ETF\n中文：能源板块ETF",
+        "catalyst": "EN: Brent's 2.8% drop on June 4 reduced the immediate inflation and supply-shock pressure that had been supporting energy leadership.\n中文：布油在6月4日下跌2.8%，削弱了原本支撑能源领涨的即时通胀与供应冲击压力。",
+        "why": "EN: If oil continues to cool, breadth can keep rotating away from energy toward banks, small caps, and selected growth. The trade works best only when the commodity confirms, because sector moves still track headlines more than fundamentals intraday.\n中文：若油价继续降温，市场宽度就有望继续从能源转向银行、小盘和部分成长。这个交易只有在商品本身确认时才最好做，因为该板块日内更多跟踪headline而非基本面。",
+        "risk": "EN: Invalidated by any renewed escalation that tightens supply expectations or pushes Brent back through Thursday's range.\n中文：任何让供应预期再次收紧、或将布油重新推回周四区间之上的升级消息，都会让交易失效。"
       }
     ],
     "stocks": [
@@ -329,78 +329,78 @@ window.MARKET_BRIEFINGS = [
         "ticker": "AVGO",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Watch only until regular-session VWAP reclaim or a first 30-60 minute base above the post-earnings low; avoid chasing any thin premarket rebound unless volume is clearly above 2x normal.",
-        "suggestedProfitTake": "Trim into gap-fill attempts or if the stock cannot clear the opening-range high on the second push; event-driven IV compression can cap bounce quality quickly.",
-        "type": "AI infrastructure and custom silicon leader",
-        "catalyst": "Broadcom delivered record Q2 revenue, AI semiconductor revenue up 143%, and Q3 revenue guidance of about $29.4 billion.",
-        "why": "Fundamentally the report was strong: growth accelerated, margins stayed elite, free cash flow was massive, and the balance sheet remains well-supported by software and semiconductor cash generation. Technically the stock is digesting an expectations-reset gap after a huge run, so the trade depends on whether real volume can absorb supply and restore relative strength versus SMH and QQQ.",
-        "risk": "Invalidated below the post-earnings low or if AVGO cannot hold VWAP while the broader market is firm; that would show positioning and valuation are still overpowering the strong fundamentals."
+        "suggestedBuyPrice": "EN: Watch only until regular-session VWAP reclaim or a first 30-60 minute base above the post-earnings low; avoid chasing any thin premarket rebound unless volume is clearly above 2x normal.\n中文：在常规交易时段收复VWAP，或在财报后低点上方形成前30到60分钟的平台前，只能观察；除非盘前量能明显超过常态两倍，否则不要追任何薄量反弹。",
+        "suggestedProfitTake": "EN: Trim into gap-fill attempts or if the stock cannot clear the opening-range high on the second push; event-driven IV compression can cap bounce quality quickly.\n中文：若开始回补缺口，或第二次上冲仍无法越过开盘区间高点，可分批减仓；事件驱动后的隐波压缩会很快限制反弹质量。",
+        "type": "EN: AI infrastructure and custom silicon leader\n中文：AI基础设施与定制芯片龙头",
+        "catalyst": "EN: Broadcom delivered record Q2 revenue, AI semiconductor revenue up 143%, and Q3 revenue guidance of about $29.4 billion.\n中文：博通交出了创纪录的二季度营收，AI半导体收入同比增长143%，三季度营收指引约294亿美元。",
+        "why": "EN: Fundamentally the report was strong: growth accelerated, margins stayed elite, free cash flow was massive, and the balance sheet remains well-supported by software and semiconductor cash generation. Technically the stock is digesting an expectations-reset gap after a huge run, so the trade depends on whether real volume can absorb supply and restore relative strength versus SMH and QQQ.\n中文：从基本面看，这份财报很强：增长加速、利润率维持顶级、自由现金流巨大，软件和半导体业务的现金创造能力继续支撑资产负债表。技术上，该股在巨大涨幅后正消化一次预期重置型缺口，因此交易关键在于真实成交能否吸收抛压并恢复相对SMH和QQQ的强势。",
+        "risk": "EN: Invalidated below the post-earnings low or if AVGO cannot hold VWAP while the broader market is firm; that would show positioning and valuation are still overpowering the strong fundamentals.\n中文：若跌破财报后低点，或大盘稳而AVGO仍守不住VWAP，则说明仓位和估值压力仍压过强基本面，交易失效。"
       },
       {
         "ticker": "CRWD",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Only consider after the first 30-60 minutes if CRWD reclaims or holds regular-session VWAP with software-sector confirmation; do not buy a split headline in isolation.",
-        "suggestedProfitTake": "Take partials if the stock becomes extended versus the opening range or if volume fades after the first impulse; event IV should cool after the open.",
-        "type": "cybersecurity and AI-security leader",
-        "catalyst": "CrowdStrike posted 26% revenue growth, record free cash flow, raised ARR expectations, and announced a 4-for-1 split.",
-        "why": "Fundamentals remain high quality: durable recurring revenue, expanding profitability, strong cash generation, and a large cash balance. Technically the setup is better on a pullback hold than on a headline chase because the stock already trades as a premium software leader and needs volume-backed confirmation to prove institutions are still adding after the event.",
-        "risk": "Invalidated if CRWD loses the opening range and cannot reclaim VWAP or if software peers fail to confirm, which would indicate valuation fatigue is stronger than the good quarter."
+        "suggestedBuyPrice": "EN: Only consider after the first 30-60 minutes if CRWD reclaims or holds regular-session VWAP with software-sector confirmation; do not buy a split headline in isolation.\n中文：只有在前30到60分钟之后，且CRWD在软件板块确认配合下收复或守住常规交易时段VWAP时才考虑；不要单独因为拆股headline去买。",
+        "suggestedProfitTake": "EN: Take partials if the stock becomes extended versus the opening range or if volume fades after the first impulse; event IV should cool after the open.\n中文：若股价相对开盘区间明显延展，或首轮冲高后成交开始转弱，可分批止盈；开盘后事件隐波通常会降温。",
+        "type": "EN: cybersecurity and AI-security leader\n中文：网络安全与AI安全龙头",
+        "catalyst": "EN: CrowdStrike posted 26% revenue growth, record free cash flow, raised ARR expectations, and announced a 4-for-1 split.\n中文：CrowdStrike营收增长26%，自由现金流创纪录，上调ARR预期，并宣布1拆4。",
+        "why": "EN: Fundamentals remain high quality: durable recurring revenue, expanding profitability, strong cash generation, and a large cash balance. Technically the setup is better on a pullback hold than on a headline chase because the stock already trades as a premium software leader and needs volume-backed confirmation to prove institutions are still adding after the event.\n中文：基本面仍属高质量：经常性收入稳定、盈利能力扩张、现金创造强、现金储备充足。技术上，更好的形态是回踩守住，而不是headline追涨，因为该股本就以高溢价软件龙头交易，需要成交量确认机构仍在事件后继续加仓。",
+        "risk": "EN: Invalidated if CRWD loses the opening range and cannot reclaim VWAP or if software peers fail to confirm, which would indicate valuation fatigue is stronger than the good quarter.\n中文：若CRWD跌破开盘区间且无法收回VWAP，或软件同业不予确认，则说明估值疲劳强于这份好财报，交易失效。"
       },
       {
         "ticker": "NVDA",
         "direction": "long",
         "riskLevel": "green",
-        "suggestedBuyPrice": "Actionable only after payrolls if NVDA holds its first pullback and reclaims intraday VWAP with SMH and QQQ confirmation; if it gaps hard, wait for a base instead of chasing.",
-        "suggestedProfitTake": "Scale out into prior highs or if the stock leads but semiconductor breadth thins out; keep a runner only if relative strength versus QQQ remains obvious through midday.",
-        "type": "AI mega-cap and index-impact leader",
-        "catalyst": "Broadcom's results reinforced continued accelerator, networking, and AI-infrastructure spending across hyperscale and enterprise buyers.",
-        "why": "NVIDIA still has the strongest combination of AI demand, margins, cash generation, and balance-sheet flexibility in the group. The technical setup remains leadership-based, but tonight's entry quality depends on whether Broadcom's reset becomes a group-wide pause or merely a single-stock digestion event.",
-        "risk": "Invalidated if NVDA loses the prior-day low or cannot hold VWAP while QQQ is stable; that would show the leadership complex is de-risking more broadly."
+        "suggestedBuyPrice": "EN: Actionable only after payrolls if NVDA holds its first pullback and reclaims intraday VWAP with SMH and QQQ confirmation; if it gaps hard, wait for a base instead of chasing.\n中文：只有在非农后、NVDA首波回踩守住并在SMH和QQQ确认下收复日内VWAP时才可执行；若它高开过猛，就等平台，不要追。",
+        "suggestedProfitTake": "EN: Scale out into prior highs or if the stock leads but semiconductor breadth thins out; keep a runner only if relative strength versus QQQ remains obvious through midday.\n中文：接近前高可分批止盈；若个股领涨但半导体宽度变窄，也应减仓；只有在相对QQQ的强势到中午仍明显时才留一部分。",
+        "type": "EN: AI mega-cap and index-impact leader\n中文：AI超级权重与指数核心龙头",
+        "catalyst": "EN: Broadcom's results reinforced continued accelerator, networking, and AI-infrastructure spending across hyperscale and enterprise buyers.\n中文：博通业绩强化了超大规模客户与企业客户在加速器、网络和AI基础设施上的持续支出。",
+        "why": "EN: NVIDIA still has the strongest combination of AI demand, margins, cash generation, and balance-sheet flexibility in the group. The technical setup remains leadership-based, but tonight's entry quality depends on whether Broadcom's reset becomes a group-wide pause or merely a single-stock digestion event.\n中文：英伟达仍是这一组里AI需求、利润率、现金创造和资产负债表弹性最强的组合。技术上它依旧具备龙头属性，但今晚的入场质量取决于博通的重定价是演变成整个板块的暂停，还是仅仅一次单一个股消化。",
+        "risk": "EN: Invalidated if NVDA loses the prior-day low or cannot hold VWAP while QQQ is stable; that would show the leadership complex is de-risking more broadly.\n中文：若NVDA跌破前一日低点，或在QQQ稳定时仍守不住VWAP，则说明龙头群体正在更广泛去风险，交易失效。"
       },
       {
         "ticker": "JPM",
         "direction": "long",
         "riskLevel": "green",
-        "suggestedBuyPrice": "Only above the opening-range high or on a successful first pullback hold with XLF and regional banks also confirming; wait for the post-payroll rates reaction first.",
-        "suggestedProfitTake": "Trim near fresh highs or if the stock advances while the rest of financials fade; broad confirmation matters more than a single-bank breakout.",
-        "type": "money-center bank and breadth proxy",
-        "catalyst": "June 4 rewarded financials as yields eased and the market broadened beyond AI.",
-        "why": "JPM offers scale, capital strength, fee diversity, and relative insulation versus weaker credit or funding stories. Technically it benefits when the tape broadens and when rates stop rising fast enough to threaten credit-sensitive risk appetite, and volume confirmation from the broader group matters more than a one-bank pop.",
-        "risk": "Invalidated if payrolls reignite long-end selling or if regional banks underperform badly enough to show that financial breadth is not real."
+        "suggestedBuyPrice": "EN: Only above the opening-range high or on a successful first pullback hold with XLF and regional banks also confirming; wait for the post-payroll rates reaction first.\n中文：只有在突破开盘区间高点，或首波回踩守住且XLF与地区银行也一并确认时才考虑；先等非农后的利率反应。",
+        "suggestedProfitTake": "EN: Trim near fresh highs or if the stock advances while the rest of financials fade; broad confirmation matters more than a single-bank breakout.\n中文：接近新高可分批减仓；若JPM上涨但其他金融股转弱，也应收缩仓位，因为广泛确认比单一银行突破更重要。",
+        "type": "EN: money-center bank and breadth proxy\n中文：大型银行与市场宽度代理",
+        "catalyst": "EN: June 4 rewarded financials as yields eased and the market broadened beyond AI.\n中文：随着收益率回落、市场从AI之外扩散，6月4日金融股获得了明显奖励。",
+        "why": "EN: JPM offers scale, capital strength, fee diversity, and relative insulation versus weaker credit or funding stories. Technically it benefits when the tape broadens and when rates stop rising fast enough to threaten credit-sensitive risk appetite, and volume confirmation from the broader group matters more than a one-bank pop.\n中文：摩根大通具备规模、资本实力、手续费业务多样性，并相对弱信用或弱融资故事更稳健。技术上，当市场宽度扩散且利率不再快到足以威胁信用敏感风险偏好时，它会受益；而且更重要的是整个金融组的成交确认，而不是单一大银行异动。",
+        "risk": "EN: Invalidated if payrolls reignite long-end selling or if regional banks underperform badly enough to show that financial breadth is not real.\n中文：若非农重新引发长端抛售，或地区银行明显跑输到说明金融宽度并不真实，则交易失效。"
       },
       {
         "ticker": "SOFI",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Only consider after payrolls if SOFI holds above regular-session VWAP and IWM plus XLF are both confirming; if yields firm, wait rather than forcing the trade.",
-        "suggestedProfitTake": "Take partials into fast morning squeezes because the stock remains volatile and can round-trip if rates turn; keep only a smaller runner if breadth stays broad into midday.",
-        "type": "profitable fintech and rate-sensitive growth",
-        "catalyst": "SoFi reported record Q1 2026 net revenue of $1.1 billion, 35% member growth, and net income of $167 million while extending loan-platform and digital-asset initiatives.",
-        "why": "Fundamentally, SoFi now has record revenue, improving margins, a diversified platform across lending, financial services, and technology, and its tenth straight quarter of GAAP profitability. Technically, the stock has been volatile and remains tied to rates sentiment, so the better setup is a payroll-supported hold rather than a blind pre-open catch. Relative volume and confirmation from IWM help distinguish real demand from a rates head fake.",
-        "risk": "Invalidated if payrolls push the long end higher or if SOFI cannot hold VWAP while small caps and financials fade, which would suggest rate sensitivity is dominating the strong quarter."
+        "suggestedBuyPrice": "EN: Only consider after payrolls if SOFI holds above regular-session VWAP and IWM plus XLF are both confirming; if yields firm, wait rather than forcing the trade.\n中文：只有在非农后SOFI守住常规交易时段VWAP，且IWM与XLF同时确认时才考虑；若收益率走强，应等待而不是硬做。",
+        "suggestedProfitTake": "EN: Take partials into fast morning squeezes because the stock remains volatile and can round-trip if rates turn; keep only a smaller runner if breadth stays broad into midday.\n中文：若早盘快速挤空上冲，可分批止盈，因为这只股票波动仍大，利率一转向就可能回吐；只有在市场宽度到中午仍扩散时才保留小仓位。",
+        "type": "EN: profitable fintech and rate-sensitive growth\n中文：盈利型金融科技与利率敏感成长",
+        "catalyst": "EN: SoFi reported record Q1 2026 net revenue of $1.1 billion, 35% member growth, and net income of $167 million while extending loan-platform and digital-asset initiatives.\n中文：SoFi公布2026年一季度净营收创纪录达11亿美元，会员增长35%，净利润1.67亿美元，并继续推进贷款平台和数字资产业务。",
+        "why": "EN: Fundamentally, SoFi now has record revenue, improving margins, a diversified platform across lending, financial services, and technology, and its tenth straight quarter of GAAP profitability. Technically, the stock has been volatile and remains tied to rates sentiment, so the better setup is a payroll-supported hold rather than a blind pre-open catch. Relative volume and confirmation from IWM help distinguish real demand from a rates head fake.\n中文：基本面上，SoFi已具备创纪录营收、改善中的利润率、覆盖贷款、金融服务和科技平台的多元化结构，并实现连续第十个季度GAAP盈利。技术上，该股波动仍大，且与利率情绪紧密绑定，因此更好的做法是等待非农支持下的守稳，而不是盘前盲抓。相对成交量以及IWM的同步确认，有助于分辨真实需求和利率假动作。",
+        "risk": "EN: Invalidated if payrolls push the long end higher or if SOFI cannot hold VWAP while small caps and financials fade, which would suggest rate sensitivity is dominating the strong quarter.\n中文：若非农推高长端收益率，或SOFI在小盘与金融一起转弱时守不住VWAP，就说明利率敏感性压过了强劲季度表现，交易失效。"
       },
       {
         "ticker": "XOM",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Consider only if Brent stabilizes after the open and XOM holds or reclaims VWAP; if oil keeps fading, stay patient and do not force the trade.",
-        "suggestedProfitTake": "Take partials into any headline-driven oil spike or if the stock outruns crude confirmation; integrated oils often give back fast gains when geopolitical risk cools.",
-        "type": "integrated energy major",
-        "catalyst": "Geopolitical supply risk remains unresolved even after Brent's June 4 pullback.",
-        "why": "Exxon still brings strong free cash flow, capital discipline, and lower execution risk than thinner energy names. Technically it is a cleaner vehicle than high-beta explorers if oil reasserts strength, but the move still depends more on headline flow and commodity confirmation than on company-specific fundamentals tonight.",
-        "risk": "Invalidated if Brent continues lower and XLE lags, because the market would then be rotating away from inflation-sensitive energy leadership."
+        "suggestedBuyPrice": "EN: Consider only if Brent stabilizes after the open and XOM holds or reclaims VWAP; if oil keeps fading, stay patient and do not force the trade.\n中文：只有在开盘后布油企稳、且XOM守住或收复VWAP时才考虑；若油价继续回落，就保持耐心，不要硬做。",
+        "suggestedProfitTake": "EN: Take partials into any headline-driven oil spike or if the stock outruns crude confirmation; integrated oils often give back fast gains when geopolitical risk cools.\n中文：若因headline导致油价快速上冲，或个股涨幅明显跑赢原油确认，可分批止盈；地缘风险一降温，一体化石油龙头往往会很快回吐。",
+        "type": "EN: integrated energy major\n中文：一体化石油巨头",
+        "catalyst": "EN: Geopolitical supply risk remains unresolved even after Brent's June 4 pullback.\n中文：即便布油在6月4日回落，地缘供应风险仍未真正解决。",
+        "why": "EN: Exxon still brings strong free cash flow, capital discipline, and lower execution risk than thinner energy names. Technically it is a cleaner vehicle than high-beta explorers if oil reasserts strength, but the move still depends more on headline flow and commodity confirmation than on company-specific fundamentals tonight.\n中文：埃克森美孚仍具备强自由现金流、资本纪律，并比更高贝塔的能源股执行风险更低。技术上，如果油价重新走强，它是比高贝塔勘探股更干净的载体，但今晚这笔交易仍更多依赖headline流与商品确认，而不是公司自身基本面。",
+        "risk": "EN: Invalidated if Brent continues lower and XLE lags, because the market would then be rotating away from inflation-sensitive energy leadership.\n中文：若布油继续下跌且XLE走弱，则说明市场正在远离对通胀敏感的能源主线，交易失效。"
       },
       {
         "ticker": "CAT",
         "direction": "short",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Triggered only below the opening-range low or on a failed VWAP reclaim if industrials cannot confirm the Dow's record close; do not short into a strong broad tape without price failure first.",
-        "suggestedProfitTake": "Take profits into quick downdrafts near prior support because tariff and capex headlines can reverse the group sharply.",
-        "type": "industrial cyclical exposed to metals and machinery costs",
-        "catalyst": "June 8 tariff changes on steel, aluminum, and copper keep input-cost and margin sensitivity in focus for heavy industrial names.",
-        "why": "Caterpillar has solid end-market exposure and balance-sheet quality, but tonight's tactical setup is about whether tariff risk and sticky rates start to matter more than capex optimism. Technically it becomes interesting only on relative weakness against the Dow or SPY, and volume should confirm that the group is failing rather than simply consolidating.",
-        "risk": "Invalidated if the stock holds VWAP and the industrial group keeps participating in a broad risk-on session, which would show margin fears are not the market's priority yet."
+        "suggestedBuyPrice": "EN: Triggered only below the opening-range low or on a failed VWAP reclaim if industrials cannot confirm the Dow's record close; do not short into a strong broad tape without price failure first.\n中文：只有在跌破开盘区间低点，或工业股无法确认道指新高、反抽VWAP失败时才触发；在价格尚未失败前，不要对着强势大盘硬做空。",
+        "suggestedProfitTake": "EN: Take profits into quick downdrafts near prior support because tariff and capex headlines can reverse the group sharply.\n中文：接近前支撑位的快速下杀中可止盈，因为关税和资本开支headline都可能让这个板块急速反向。",
+        "type": "EN: industrial cyclical exposed to metals and machinery costs\n中文：暴露于金属与机械成本的工业周期股",
+        "catalyst": "EN: June 8 tariff changes on steel, aluminum, and copper keep input-cost and margin sensitivity in focus for heavy industrial names.\n中文：6月8日生效的钢、铝、铜关税变化，让重型工业公司的投入成本和利润率敏感性重新成为焦点。",
+        "why": "EN: Caterpillar has solid end-market exposure and balance-sheet quality, but tonight's tactical setup is about whether tariff risk and sticky rates start to matter more than capex optimism. Technically it becomes interesting only on relative weakness against the Dow or SPY, and volume should confirm that the group is failing rather than simply consolidating.\n中文：卡特彼勒本身具备扎实的终端市场敞口和资产负债表质量，但今晚的战术重点在于关税风险和偏高利率是否开始比资本开支乐观叙事更重要。技术上，只有当它相对道指或SPY显出弱势时才值得看，且成交量需要确认这是失败而非单纯整理。",
+        "risk": "EN: Invalidated if the stock holds VWAP and the industrial group keeps participating in a broad risk-on session, which would show margin fears are not the market's priority yet.\n中文：若股价守住VWAP，且工业组继续参与一轮更广泛的风险偏好行情，就说明利润率担忧暂时并非市场重点，交易失效。"
       }
     ],
     "smallCaps": [
@@ -408,134 +408,134 @@ window.MARKET_BRIEFINGS = [
         "ticker": "JOBY",
         "direction": "long",
         "riskLevel": "red",
-        "suggestedBuyPrice": "Watch only until the first 30-60 minutes pass; only actionable above the opening-range high or after a clean VWAP reclaim if the White House air-taxi program headline still has real volume behind it.",
-        "suggestedProfitTake": "Take profits aggressively into sharp intraday extensions because the stock already trades with event volatility and can gap-fade after a fast first push.",
-        "type": "eVTOL / pre-revenue mobility small-cap",
-        "catalyst": "Joby reported Q1 2026 revenue of $24 million and highlighted its 2026 Electric Skies Tour, while a federal next-generation aircraft program added another policy tailwind for U.S. operations.",
-        "why": "Fundamentally, Joby still has minimal revenue and remains pre-profit, but it also has roughly $1.4 billion of cash and low debt, which materially extends runway compared with weaker speculative peers. Technically, Yahoo market data showed the stock with 26.1 million shares of volume versus roughly 25.9 million average and a one-year return above 50%, so momentum is real but not cheap. The setup is only attractive if regular-session volume confirms that policy and certification headlines are creating durable demand rather than just a thin premarket squeeze.",
-        "risk": "Invalidated below the opening range or if it loses VWAP while ACHR and the broader speculative-growth tape weaken. This remains a high-beta story stock where a pass is valid if the move gets too extended before the open."
+        "suggestedBuyPrice": "EN: Watch only until the first 30-60 minutes pass; only actionable above the opening-range high or after a clean VWAP reclaim if the White House air-taxi program headline still has real volume behind it.\n中文：在前30到60分钟结束前都只观察；只有在突破开盘区间高点，或在白宫空中出租车项目headline仍有真实成交支持下干净收复VWAP后才可考虑。",
+        "suggestedProfitTake": "EN: Take profits aggressively into sharp intraday extensions because the stock already trades with event volatility and can gap-fade after a fast first push.\n中文：若日内快速拉伸，应积极止盈，因为该股本就带事件波动属性，首波急冲后很容易走出跳空回落。",
+        "type": "EN: eVTOL / pre-revenue mobility small-cap\n中文：eVTOL / 前收入阶段出行小盘股",
+        "catalyst": "EN: Joby reported Q1 2026 revenue of $24 million and highlighted its 2026 Electric Skies Tour, while a federal next-generation aircraft program added another policy tailwind for U.S. operations.\n中文：Joby公布2026年一季度营收2400万美元，并强调其2026年Electric Skies Tour计划，同时美国联邦下一代飞行器项目又为其美国运营增添了一层政策顺风。",
+        "why": "EN: Fundamentally, Joby still has minimal revenue and remains pre-profit, but it also has roughly $1.4 billion of cash and low debt, which materially extends runway compared with weaker speculative peers. Technically, Yahoo market data showed the stock with volume near average and strong one-year momentum, so the theme is real but not cheap. The setup is only attractive if regular-session volume confirms that policy and certification headlines are creating durable demand rather than just a thin premarket squeeze.\n中文：基本面上，Joby的收入规模仍很小，且尚未盈利，但它也拥有约14亿美元现金且负债较低，相比更弱的投机同类，其生存跑道明显更长。技术上，雅虎行情数据显示该股成交量接近均值、过去一年动量很强，所以主题是真实的，但绝不便宜。只有在常规交易时段量能确认政策和认证headline带来的是持续需求，而不是薄量盘前挤压时，这个形态才更值得做。",
+        "risk": "EN: Invalidated below the opening range or if it loses VWAP while ACHR and the broader speculative-growth tape weaken. A pass is valid if the move gets too extended before the open.\n中文：若跌破开盘区间，或在ACHR及更广泛投机成长盘面转弱时失守VWAP，就视为失效。若开盘前已过度延展，选择放弃是完全合理的。"
       },
       {
         "ticker": "ACHR",
         "direction": "long",
         "riskLevel": "red",
-        "suggestedBuyPrice": "Only after a first-hour base or VWAP reclaim if JOBY is also behaving well; do not chase a sympathy pop just because the eVTOL theme is in motion.",
-        "suggestedProfitTake": "Scale out on fast upside bursts because the stock remains headline-driven and can reverse if volume narrows to retail-only participation.",
-        "type": "eVTOL / certification-driven small-cap",
-        "catalyst": "Archer's Q1 update emphasized record FAA certification progress and said initial U.S. operations are still expected in 2026.",
-        "why": "Fundamentally, Archer still operates before commercial scale but retains nearly $2.0 billion of cash with low debt, which is critical for a capital-intensive certification story. The setup is more speculative than Joby because execution still depends on regulatory timing and commercialization. Technically it works best as a confirmation trade after the first hour if both the theme and volume persist rather than as a premarket chase.",
-        "risk": "Invalidated if it cannot hold VWAP, if JOBY fades hard, or if the group trades as a one-candle reaction instead of a volume-backed theme."
+        "suggestedBuyPrice": "EN: Only after a first-hour base or VWAP reclaim if JOBY is also behaving well; do not chase a sympathy pop just because the eVTOL theme is in motion.\n中文：只有在首小时形成平台或收复VWAP，且JOBY表现也稳的前提下才考虑；不要因为eVTOL主题在动就去追联动拉升。",
+        "suggestedProfitTake": "EN: Scale out on fast upside bursts because the stock remains headline-driven and can reverse if volume narrows to retail-only participation.\n中文：快速上冲时应分批减仓，因为该股仍高度受headline驱动，一旦成交缩窄到只剩散户参与，就容易反转。",
+        "type": "EN: eVTOL / certification-driven small-cap\n中文：eVTOL / 认证驱动型小盘股",
+        "catalyst": "EN: Archer's Q1 update emphasized record FAA certification progress and said initial U.S. operations are still expected in 2026.\n中文：Archer一季报更新强调FAA认证进展创纪录，并称最初的美国运营仍预计在2026年启动。",
+        "why": "EN: Fundamentally, Archer still operates before commercial scale but retains nearly $2.0 billion of cash with low debt, which matters for a capital-intensive certification story. The setup is more speculative than Joby because execution still depends heavily on regulatory timing and commercialization. Technically it works best as a confirmation trade after the first hour if both the theme and volume persist rather than as a premarket chase.\n中文：基本面上，Archer仍处于商业化规模前阶段，但拥有接近20亿美元现金且低负债，这对一个资本密集型认证故事非常重要。相比Joby，这个交易更投机，因为执行仍高度依赖监管节奏和商业化进展。技术上，它最适合作为首小时后的确认交易，而不是盘前追价。",
+        "risk": "EN: Invalidated if it cannot hold VWAP, if JOBY fades hard, or if the group trades as a one-candle reaction instead of a volume-backed theme.\n中文：若守不住VWAP，或JOBY明显走弱，或整个板块只是单根K线反应而非有成交支撑的主题，则交易失效。"
       },
       {
         "ticker": "IONQ",
         "direction": "long",
         "riskLevel": "red",
-        "suggestedBuyPrice": "Only actionable after a first-hour base or VWAP reclaim; if the stock opens extended after the Q1 beat and raised guidance, wait for IV to cool before considering any entry.",
-        "suggestedProfitTake": "Take partials aggressively into strength because quantum names frequently overshoot and then mean-revert once the initial volume impulse fades.",
-        "type": "quantum computing high-beta growth name",
-        "catalyst": "IonQ reported Q1 revenue of $64.7 million, up 755% year over year, and raised full-year guidance to $260 million to $270 million while highlighting RPO growth to $470 million.",
-        "why": "Fundamentally, this was a strong quarter: revenue beat, guidance rose, backlog expanded, and liquidity stayed exceptional with about $3.1 billion in cash and investments. Technically, Yahoo market data showed five-day performance near +24.8% and volume above 58 million shares versus about 25.8 million average, which confirms real momentum but also means the stock can be tactically crowded. This is the classic case where fundamentals are strong but the better trade may still be to wait for a base instead of buying the first green candle.",
-        "risk": "Invalidated if it loses VWAP and the overnight strength fails in the first hour, or if payrolls push yields higher and the market rotates away from speculative beta."
+        "suggestedBuyPrice": "EN: Only actionable after a first-hour base or VWAP reclaim; if the stock opens extended after the Q1 beat and raised guidance, wait for IV to cool before considering any entry.\n中文：只有在首小时形成平台或收复VWAP后才算可执行；若因一季报超预期和上调指引而高开过度，应先等隐波降温再考虑。",
+        "suggestedProfitTake": "EN: Take partials aggressively into strength because quantum names frequently overshoot and then mean-revert once the initial volume impulse fades.\n中文：量子概念股经常在首轮量能冲击后先过冲再回归，因此上涨中应积极分批止盈。",
+        "type": "EN: quantum computing high-beta growth name\n中文：量子计算高贝塔成长股",
+        "catalyst": "EN: IonQ reported Q1 revenue of $64.7 million, up 755% year over year, and raised full-year guidance to $260 million to $270 million while highlighting RPO growth to $470 million.\n中文：IonQ公布一季度营收6470万美元，同比增长755%，并将全年指引上调至2.6亿至2.7亿美元，同时强调RPO增长至4.7亿美元。",
+        "why": "EN: Fundamentally, this was a strong quarter: revenue beat, guidance rose, backlog expanded, and liquidity stayed exceptional with about $3.1 billion in cash and investments. Technically, Yahoo market data showed five-day performance near +24.8% and volume well above average, which confirms real momentum but also means the stock can be tactically crowded. This is the classic case where fundamentals are strong but the better trade may still be to wait for a base instead of buying the first green candle.\n中文：从基本面看，这是一个很强的季度：营收超预期、指引上调、积压订单扩大，且现金与投资约31亿美元，流动性极佳。技术上，雅虎行情显示其5日涨幅接近24.8%，成交量也显著高于均值，这确认了真实动量，但也意味着战术上已经拥挤。这正是那种‘基本面很强，但更好的交易仍然可能是等平台，而不是追第一根上涨K线’的典型案例。",
+        "risk": "EN: Invalidated if it loses VWAP and the overnight strength fails in the first hour, or if payrolls push yields higher and the market rotates away from speculative beta.\n中文：若跌破VWAP且隔夜强势在首小时内失效，或非农推高收益率导致市场远离投机高贝塔，交易即失效。"
       },
       {
         "ticker": "SOUN",
         "direction": "long",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Triggered only above the opening-range high or on a clean VWAP reclaim if software and AI-app names are participating; do not chase if the opening move already consumes most of the day's expected range.",
-        "suggestedProfitTake": "Take partials into 5% to 8% intraday extensions because the name often retraces quickly once initial call buying cools.",
-        "type": "voice AI smaller-cap software",
-        "catalyst": "SoundHound reported record Q1 revenue of $44.2 million, up 52%, and reaffirmed full-year 2026 revenue guidance of $225 million to $260 million.",
-        "why": "Fundamentally, SoundHound is growing quickly and has improved revenue scale, but it is still not consistently profitable and trades at a rich sales multiple for a software name of this size. Yahoo market data showed five-day performance above 21% and a market cap around $4.0 billion, which is exactly the profile that can deliver fast upside but also abrupt reversals. Technically the setup is only attractive if sector breadth confirms and the stock is not merely benefiting from one-night AI enthusiasm.",
-        "risk": "Invalidated if it cannot hold VWAP, if software ETFs fail to confirm, or if volume collapses after the open. This is a momentum vehicle, not a low-risk core holding."
+        "suggestedBuyPrice": "EN: Triggered only above the opening-range high or on a clean VWAP reclaim if software and AI-app names are participating; do not chase if the opening move already consumes most of the day's expected range.\n中文：只有在突破开盘区间高点，或在软件和AI应用股同步参与时干净收复VWAP后才触发；若开盘走势已消耗掉大部分当日预期波幅，就不要追。",
+        "suggestedProfitTake": "EN: Take partials into 5% to 8% intraday extensions because the name often retraces quickly once initial call buying cools.\n中文：若日内拉升5%到8%，可分批止盈，因为该股在首轮看涨买盘降温后经常快速回撤。",
+        "type": "EN: voice AI smaller-cap software\n中文：语音AI小市值软件股",
+        "catalyst": "EN: SoundHound reported record Q1 revenue of $44.2 million, up 52%, and reaffirmed full-year 2026 revenue guidance of $225 million to $260 million.\n中文：SoundHound公布一季度营收创纪录达4420万美元，同比增长52%，并重申2026全年营收指引2.25亿至2.6亿美元。",
+        "why": "EN: Fundamentally, SoundHound is growing quickly and has improved revenue scale, but it is still not consistently profitable and trades at a rich sales multiple for a software name of this size. Yahoo market data showed five-day performance above 21% and a market cap around $4.0 billion, which is exactly the profile that can deliver fast upside but also abrupt reversals. Technically the setup is only attractive if sector breadth confirms and the stock is not merely benefiting from one-night AI enthusiasm.\n中文：从基本面看，SoundHound增长很快、收入规模也在提升，但它仍未形成稳定盈利，而且以这个体量的软件股来看，其市销率依然很高。雅虎行情显示其5日涨幅超过21%，市值约40亿美元，这正是那种既能快速上冲、也能急速反转的典型画像。技术上，只有在板块宽度确认，且该股并非仅受一夜AI情绪带动时，这个形态才值得考虑。",
+        "risk": "EN: Invalidated if it cannot hold VWAP, if software ETFs fail to confirm, or if volume collapses after the open. This is a momentum vehicle, not a low-risk core holding.\n中文：若守不住VWAP、软件ETF不予确认，或开盘后成交量迅速塌陷，则交易失效。它是动量工具，不是低风险核心持仓。"
       },
       {
         "ticker": "ASTS",
         "direction": "short",
         "riskLevel": "yellow",
-        "suggestedBuyPrice": "Only consider on the short side below the opening-range low or on a failed VWAP reclaim if the stock extends again without broader space-sector confirmation; do not step in front of strength without an actual failure signal.",
-        "suggestedProfitTake": "Cover partials quickly into sharp drops because the stock remains news-sensitive and can reverse hard if buyers defend the trend.",
-        "type": "space connectivity high-beta growth name",
-        "catalyst": "AST SpaceMobile still has large strategic optionality and Q1 results resources, but the stock has also been wrestling with execution news such as satellite setbacks after a huge one-year run.",
-        "why": "Fundamentally, ASTS has ambitious direct-to-cell ambitions and a large cash position, but it remains unprofitable and richly valued relative to current revenue. Yahoo market data showed a one-year return above 190%, one-month performance around -22%, and volume above average, which points to a volatile, momentum-driven structure rather than a stable accumulation base. Technically that makes it more suitable as a watch-for-failure candidate than as a fresh long at stretched levels.",
-        "risk": "Invalidated if ASTS reclaims and holds VWAP with real volume while the broader speculative space and communications basket also strengthens, because that would show the trend is still being defended despite valuation stretch."
+        "suggestedBuyPrice": "EN: Only consider on the short side below the opening-range low or on a failed VWAP reclaim if the stock extends again without broader space-sector confirmation; do not step in front of strength without an actual failure signal.\n中文：只有在跌破开盘区间低点，或在缺乏更广泛航天板块确认的情况下再次冲高后VWAP反抽失败时，才考虑偏空；在没有真实失败信号前不要硬挡强势。",
+        "suggestedProfitTake": "EN: Cover partials quickly into sharp drops because the stock remains news-sensitive and can reverse hard if buyers defend the trend.\n中文：若出现快速下跌，应迅速分批回补，因为这只股票对消息极敏感，只要买盘开始守趋势，就可能剧烈反转。",
+        "type": "EN: space connectivity high-beta growth name\n中文：太空通信高贝塔成长股",
+        "catalyst": "EN: AST SpaceMobile still has large strategic optionality and substantial resources, but the stock has also been wrestling with execution news such as satellite setbacks after a huge one-year run.\n中文：AST SpaceMobile仍有很大的战略想象空间和资金储备，但在过去一年大涨之后，股价也正受到卫星执行挫折等消息的影响。",
+        "why": "EN: Fundamentally, ASTS has ambitious direct-to-cell ambitions and a large cash position, but it remains unprofitable and richly valued relative to current revenue. Yahoo market data showed a one-year return above 190%, one-month performance around -22%, and volume above average, which points to a volatile, momentum-driven structure rather than a stable accumulation base. Technically that makes it more suitable as a watch-for-failure candidate than as a fresh long at stretched levels.\n中文：从基本面看，ASTS拥有雄心很大的直连手机愿景和较大现金储备，但相对当前收入，它仍然未盈利且估值昂贵。雅虎行情显示其一年涨幅超过190%，一个月回撤约22%，且成交量高于均值，这更像波动剧烈、由动量驱动的结构，而不是稳定吸筹底。因此从技术上看，它更适合被视为等待失败的观察对象，而不是在高位做新的多头。",
+        "risk": "EN: Invalidated if ASTS reclaims and holds VWAP with real volume while the broader speculative space and communications basket also strengthens, because that would show the trend is still being defended despite valuation stretch.\n中文：若ASTS在真实成交量下收复并守住VWAP，同时更广泛的投机性航天和通信组也一起走强，则说明尽管估值拉满，这个趋势仍在被防守，空头逻辑失效。"
       }
     ],
     "sections": [
       {
-        "title": "Options And Volatility Watch",
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
         "items": [
-          "Latest Cboe daily market statistics showed total put/call 0.73, equity put/call 0.43, and SPX put/call 1.17. Translation: index hedging exists, but single-name call appetite is still active.",
-          "Cboe has also highlighted that average single-stock volatility recently climbed near a one-year high around 45% while VIX stayed near the mid-teens. A calm-looking index tape can therefore hide violent stock-specific repricing.",
-          "Treat AVGO and CRWD as event-volatility names first and directional longs second. The real question is not whether the stories are good, but whether implied volatility comes out faster than spot can trend after the open.",
-          "For smaller-cap names such as IONQ, JOBY, and SOUN, overnight or premarket gains do not automatically improve the setup. Elevated implied volatility often means the move is already partially paid for before the regular session begins."
+          "EN: Latest Cboe daily market statistics showed total put/call 0.73, equity put/call 0.43, and SPX put/call 1.17. Translation: index hedging exists, but single-name call appetite is still active.\n中文：最新Cboe日度统计显示，总体沽购比0.73、个股沽购比0.43、SPX沽购比1.17。直白地说：指数有对冲，但个股看涨博弈仍然活跃。",
+          "EN: Cboe has also highlighted that average single-stock volatility recently climbed near a one-year high around 45% while VIX stayed near the mid-teens. A calm-looking index tape can therefore hide violent stock-specific repricing.\n中文：Cboe还指出，近期个股平均波动率升至接近一年高位的约45%，而VIX仍在十几区间。也就是说，看似平静的指数盘面，其实可能隐藏着剧烈的个股重定价。",
+          "EN: Treat AVGO and CRWD as event-volatility names first and directional longs second. The real question is not whether the stories are good, but whether implied volatility comes out faster than spot can trend after the open.\n中文：先把AVGO和CRWD当作事件波动票，其次才是方向多头。真正的问题不是故事好不好，而是开盘后隐波回落的速度是否快过现货股价延续趋势的速度。",
+          "EN: For smaller-cap names such as IONQ, JOBY, and SOUN, overnight or premarket gains do not automatically improve the setup. Elevated implied volatility often means the move is already partially paid for before the regular session begins.\n中文：对IONQ、JOBY和SOUN这类小盘股来说，隔夜或盘前上涨并不会自动改善买点。隐含波动率高往往意味着在常规交易时段开始前，行情的一部分已经被提前计价。"
         ]
       },
       {
-        "title": "Entry Timing And Risk Controls",
+        "title": "EN: Entry Timing And Risk Controls\n中文：进场时机与风控",
         "items": [
-          "Do not treat premarket or after-hours prints as confirmation by themselves. For event names, wait for the first 30-60 minutes, then judge VWAP, opening-range behavior, and real relative volume.",
-          "Avoid chasing any premarket gap unless volume is clearly above normal and the matching ETF or sector peers confirm. A one-stock gap without breadth support is lower quality.",
-          "Use prior-day lows, post-earnings gap lows, or failed VWAP reclaims as invalidation points. If the trade is wrong there, do not average down before liquidity fully normalizes.",
-          "When yields, oil, and the dollar are not aligned, reduce size rather than forcing conviction. Clean macro alignment is more important tonight than an isolated bullish candle."
+          "EN: Do not treat premarket or after-hours prints as confirmation by themselves. For event names, wait for the first 30-60 minutes, then judge VWAP, opening-range behavior, and real relative volume.\n中文：不要把盘前或盘后价格本身当作确认。对事件股来说，先等30到60分钟，再观察VWAP、开盘区间表现和真实相对成交量。",
+          "EN: Avoid chasing any premarket gap unless volume is clearly above normal and the matching ETF or sector peers confirm. A one-stock gap without breadth support is lower quality.\n中文：除非成交量明显高于常态，且对应ETF或同板块个股一起确认，否则不要追任何盘前跳空。没有市场宽度支持的单一个股跳空，质量都偏低。",
+          "EN: Use prior-day lows, post-earnings gap lows, or failed VWAP reclaims as invalidation points. If the trade is wrong there, do not average down before liquidity fully normalizes.\n中文：把前一日低点、财报后缺口低点或VWAP反抽失败作为失效位。一旦在那里证明交易错误，在流动性完全正常前不要摊平。",
+          "EN: When yields, oil, and the dollar are not aligned, reduce size rather than forcing conviction. Clean macro alignment is more important tonight than an isolated bullish candle.\n中文：当收益率、油价和美元没有对齐时，应该缩小仓位，而不是硬做高信念。今晚更重要的是宏观信号一致，而不是单根看涨K线。"
         ]
       },
       {
-        "title": "Company And Sector Highlights",
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
         "items": [
-          "Broadcom's quarter kept the AI capex thesis alive even as the stock reset. That combination often creates a second-chance setup later, but only after the first cash-session sell pressure gets absorbed cleanly.",
-          "CrowdStrike's quarter reinforced cybersecurity as essential spend rather than discretionary spend. That favors quality software exposure, but still only on patient entries because valuation is rich.",
-          "Banks, small caps, and profitable fintech finally participated on June 4. That is constructive breadth, but it is highly contingent on payrolls not forcing yields higher again tonight.",
-          "Energy lost some urgency as Brent fell, which helped the rest of the tape breathe. Keep watching whether that rotation persists or snaps back on geopolitics."
+          "EN: Broadcom's quarter kept the AI capex thesis alive even as the stock reset. That combination often creates a second-chance setup later, but only after the first cash-session sell pressure gets absorbed cleanly.\n中文：博通的季度表现让AI资本开支逻辑继续成立，即使股价已经重定价。这种组合常会在稍后给出第二次机会，但前提是首个现货交易时段的抛压被干净吸收。",
+          "EN: CrowdStrike's quarter reinforced cybersecurity as essential spend rather than discretionary spend. That favors quality software exposure, but still only on patient entries because valuation is rich.\n中文：CrowdStrike的季度表现再次证明网络安全更像必需开支而非可选开支。这利好高质量软件敞口，但由于估值不低，仍只适合耐心等待买点。",
+          "EN: Banks, small caps, and profitable fintech finally participated on June 4. That is constructive breadth, but it is highly contingent on payrolls not forcing yields higher again tonight.\n中文：银行、小盘和盈利型金融科技终于在6月4日开始参与，这是建设性的市场宽度，但高度依赖今晚非农不会再度把收益率推高。",
+          "EN: Energy lost some urgency as Brent fell, which helped the rest of the tape breathe. Keep watching whether that rotation persists or snaps back on geopolitics.\n中文：随着布油回落，能源主线的紧迫性下降，也让其他板块获得喘息。要继续观察这种轮动是会延续，还是会因地缘政治再度转回。"
         ]
       },
       {
-        "title": "Geopolitics And Policy",
+        "title": "EN: Geopolitics And Policy\n中文：地缘政治与政策",
         "items": [
-          "The market is still trading around supply-route and ceasefire assumptions in the Middle East. Brent's June 4 drop helped equities, but the situation remains headline-sensitive and reversible.",
-          "The updated U.S. tariff regime for aluminum, steel, and copper becomes effective June 8. That matters for metal producers, machinery companies, autos, construction inputs, and inflation-sensitive rates.",
-          "Industrial-margin narratives and inflation expectations can shift faster than earnings models when trade policy changes hit raw-material costs. Watch those second-order effects, not just the tariff headline itself."
+          "EN: The market is still trading around supply-route and ceasefire assumptions in the Middle East. Brent's June 4 drop helped equities, but the situation remains headline-sensitive and reversible.\n中文：市场仍围绕中东供应路线和停火预期来交易。布油在6月4日的回落帮助了权益市场，但局势仍对headline极其敏感，且可逆。",
+          "EN: The updated U.S. tariff regime for aluminum, steel, and copper becomes effective June 8. That matters for metal producers, machinery companies, autos, construction inputs, and inflation-sensitive rates.\n中文：美国更新后的铝、钢和铜关税将在6月8日生效。这对金属生产商、机械、汽车、建筑原料以及对通胀敏感的利率都很重要。",
+          "EN: Industrial-margin narratives and inflation expectations can shift faster than earnings models when trade policy changes hit raw-material costs. Watch those second-order effects, not just the tariff headline itself.\n中文：当贸易政策变化冲击原材料成本时，工业利润率叙事和通胀预期的变化速度，往往快于盈利模型的调整。要盯的是这些二阶影响，而不只是关税headline本身。"
         ]
       },
       {
-        "title": "Technology And Innovation Watch",
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
         "items": [
-          "The White House's June 2 AI order reinforces policy support for frontier-model access, security coordination, and federal adoption. That remains structurally supportive for AI infrastructure and cybersecurity vendors.",
-          "Broadcom's custom-accelerator and networking demand confirms that AI spending is broadening beyond a single chip vendor, which helps the entire infrastructure stack if the tape stops punishing valuation.",
-          "Quantum, voice AI, and eVTOL remain second-wave speculative themes rather than core market leadership. They can outperform if rates cooperate, but each one still needs stricter timing discipline than the mega-cap list."
+          "EN: The White House's June 2 AI order reinforces policy support for frontier-model access, security coordination, and federal adoption. That remains structurally supportive for AI infrastructure and cybersecurity vendors.\n中文：白宫6月2日的AI行政令强化了对前沿模型访问、安全协调和联邦采用的政策支持，这在结构上继续利好AI基础设施与网络安全供应商。",
+          "EN: Broadcom's custom-accelerator and networking demand confirms that AI spending is broadening beyond a single chip vendor, which helps the entire infrastructure stack if the tape stops punishing valuation.\n中文：博通在定制加速器和网络上的需求确认，说明AI支出已在单一芯片供应商之外扩散。如果市场不再一味惩罚估值，这会利好整个基础设施链。",
+          "EN: Quantum, voice AI, and eVTOL remain second-wave speculative themes rather than core market leadership. They can outperform if rates cooperate, but each one still needs stricter timing discipline than the mega-cap list.\n中文：量子、语音AI和eVTOL仍更像第二波投机主题，而不是市场核心主线。若利率配合，它们可以跑赢，但每一个都比大盘龙头更需要严格的进场纪律。"
         ]
       },
       {
-        "title": "Trump Administration And Washington Watch",
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
         "items": [
-          "President Trump's administration updated tariff treatment for aluminum, steel, and copper imports, with changes effective June 8. This is directly market relevant for industrial costs and inflation expectations.",
-          "The administration's June 2 AI order focuses on innovation, security coordination, and earlier government access to frontier models. That creates a constructive backdrop for AI infrastructure, cloud, cyber procurement, and adjacent federal-technology themes.",
-          "Recent federal support for next-generation aircraft initiatives also matters for JOBY and ACHR, but those remain execution-sensitive story stocks rather than clean set-and-forget investments."
+          "EN: President Trump's administration updated tariff treatment for aluminum, steel, and copper imports, with changes effective June 8. This is directly market relevant for industrial costs and inflation expectations.\n中文：特朗普政府更新了对铝、钢和铜进口的关税处理，调整将于6月8日生效。这对工业成本和通胀预期都有直接市场影响。",
+          "EN: The administration's June 2 AI order focuses on innovation, security coordination, and earlier government access to frontier models. That creates a constructive backdrop for AI infrastructure, cloud, cyber procurement, and adjacent federal-technology themes.\n中文：政府6月2日的AI行政令聚焦创新、安全协调以及政府更早接触前沿模型，这为AI基础设施、云、网络安全采购以及相关联邦科技主题提供了建设性背景。",
+          "EN: Recent federal support for next-generation aircraft initiatives also matters for JOBY and ACHR, but those remain execution-sensitive story stocks rather than clean set-and-forget investments.\n中文：近期联邦对下一代飞行器计划的支持也利好JOBY和ACHR，但它们仍是高度依赖执行的故事股，而不是可以买完不管的干净投资标的。"
         ]
       },
       {
-        "title": "Credit, Positioning, And Market Internals",
+        "title": "EN: Credit, Positioning, And Market Internals\n中文：信用、仓位与市场内部结构",
         "items": [
-          "June 4 looked more like a breadth rotation than a credit-stress session. Leadership from banks and small caps argues against an immediate accident in the background tape.",
-          "Index volatility remains relatively tame, but single-stock volatility is elevated. That combination often produces cleaner ETF trades than aggressive single-name entries right after earnings.",
-          "If payrolls are benign and breadth stays broad, the market can sustain rotation outside AI. If payrolls are hot, the market is more likely to snap back toward balance-sheet quality and defensive duration discipline.",
-          "Watch whether financials, industrials, and small caps confirm each other in the first hour. Internal confirmation matters more tonight than one sector's isolated strength."
+          "EN: June 4 looked more like a breadth rotation than a credit-stress session. Leadership from banks and small caps argues against an immediate accident in the background tape.\n中文：6月4日更像是市场宽度轮动，而不是信用压力事件。银行和小盘的领涨说明背景盘面里并没有立刻发生事故。",
+          "EN: Index volatility remains relatively tame, but single-stock volatility is elevated. That combination often produces cleaner ETF trades than aggressive single-name entries right after earnings.\n中文：指数波动仍相对温和，但个股波动偏高。这种组合通常意味着，相比财报后直接重仓单票，更适合用ETF表达。",
+          "EN: If payrolls are benign and breadth stays broad, the market can sustain rotation outside AI. If payrolls are hot, the market is more likely to snap back toward balance-sheet quality and defensive duration discipline.\n中文：若非农温和且市场宽度保持扩散，AI之外的轮动可以持续。若非农偏热，市场更可能迅速回到资产负债表质量和防御性久期纪律。",
+          "EN: Watch whether financials, industrials, and small caps confirm each other in the first hour. Internal confirmation matters more tonight than one sector's isolated strength.\n中文：观察金融、工业和小盘是否在首小时彼此确认。今晚比起单一板块的孤立强势，更重要的是内部结构是否统一。"
         ]
       },
       {
-        "title": "Earnings And Macro Calendar",
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
         "items": [
-          "20:30 Beijing / 08:30 ET: U.S. Employment Situation for May 2026. This is tonight's main macro catalyst and the key rates trigger for index, small-cap, and duration positioning.",
-          "Next week matters too: CPI for May is due June 10 and PPI on June 11. Even if payrolls pass cleanly, inflation data can still decide whether broadening has real durability.",
-          "Broadcom and CrowdStrike already reset the near-term tech tape after reporting. Tonight is about the first full regular-session verdict on those numbers, not the headlines alone.",
-          "For smaller-cap names, the key question is whether a benign payroll print widens the opportunity set or merely creates a brief squeeze that fades once cash-session liquidity arrives."
+          "EN: 20:30 Beijing / 08:30 ET: U.S. Employment Situation for May 2026. This is tonight's main macro catalyst and the key rates trigger for index, small-cap, and duration positioning.\n中文：北京时间20:30 / 美东08:30：美国2026年5月非农就业报告。这是今晚最重要的宏观催化，也是指数、小盘与久期仓位的关键利率触发点。",
+          "EN: Next week matters too: CPI for May is due June 10 and PPI on June 11. Even if payrolls pass cleanly, inflation data can still decide whether broadening has real durability.\n中文：下周同样重要：5月CPI将在6月10日公布，PPI将在6月11日公布。即便非农顺利过关，通胀数据仍会决定市场扩散是否真正具备持续性。",
+          "EN: Broadcom and CrowdStrike already reset the near-term tech tape after reporting. Tonight is about the first full regular-session verdict on those numbers, not the headlines alone.\n中文：博通和CrowdStrike在公布财报后已经重置了短线科技盘面的定价。今晚关注的是市场在第一个完整常规交易时段对这些数据的真实判决，而不只是headline本身。",
+          "EN: For smaller-cap names, the key question is whether a benign payroll print widens the opportunity set or merely creates a brief squeeze that fades once cash-session liquidity arrives.\n中文：对小盘股而言，关键问题是：一份温和的非农会真正扩大机会集，还是只会制造一次在现货流动性到来后就消失的短暂挤压。"
         ]
       },
       {
-        "title": "Why It Matters",
+        "title": "EN: Why It Matters\n中文：为什么重要",
         "items": [
-          "The market is trying to broaden beyond AI leadership at the same time that macro and policy noise remain elevated. That creates opportunity, but only for disciplined entries.",
-          "When index volatility is calm and single-stock volatility is high, sloppy timing gets punished faster. That is why tonight's edge is in waiting for confirmation, not in predicting the first move.",
-          "If payrolls cooperate, the opportunity set widens into small caps, profitable fintech, and selective speculative growth. If they do not, preserving flexibility matters more than forcing conviction."
+          "EN: The market is trying to broaden beyond AI leadership at the same time that macro and policy noise remain elevated. That creates opportunity, but only for disciplined entries.\n中文：市场正在尝试从AI龙头之外扩散，而宏观和政策噪音又仍然偏高。这确实创造了机会，但前提是进场纪律足够强。",
+          "EN: When index volatility is calm and single-stock volatility is high, sloppy timing gets punished faster. That is why tonight's edge is in waiting for confirmation, not in predicting the first move.\n中文：当指数波动平静而个股波动很高时，糟糕的时机会更快被惩罚。这就是为什么今晚真正的优势在于等待确认，而不是猜第一步。",
+          "EN: If payrolls cooperate, the opportunity set widens into small caps, profitable fintech, and selective speculative growth. If they do not, preserving flexibility matters more than forcing conviction.\n中文：若非农配合，机会集会扩展到小盘、盈利型金融科技和选择性的投机成长；若不配合，保留灵活性就比强行高信念更重要。"
         ]
       }
     ],
