@@ -1,5 +1,334 @@
 window.WEEKLY_MARKET_BRIEFINGS = [
   {
+    "date": "2026-06-07",
+    "weekId": "2026-W23",
+    "weekNumber": 23,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-07 08:00 GMT+8",
+    "title": "EN: U.S. Weekly Market Brief - Week 23\n中文：美股周度市场简报 - 第23周",
+    "tone": "EN: The nine-week uptrend did not break because growth suddenly died; it cracked because crowded AI semis met hotter macro and a fast rates repricing. Next week is about distinguishing post-earnings survivors from extended leaders, not blindly buying Friday's dip.\n中文：九周上涨趋势不是因为增长突然失速而结束，而是因为拥挤的AI半导体遇上偏热宏观和利率快速重定价。下周重点是区分财报后还能站住的标的与已经过热的龙头，而不是盲目抄周五的下跌。",
+    "priorities": [
+      "EN: Wednesday's CPI, Thursday's PPI, and Oracle earnings after the close on June 10 are the main gates for whether Friday's tech washout becomes a durable reset or just the first leg lower.\n中文：周三CPI、周四PPI，以及6月10日盘后Oracle财报，是判断周五科技股大跌究竟是一次可修复的重置，还是下跌第一腿的核心闸门。",
+      "EN: Do not average down AVGO, SMH, SOXL, or other crowded AI-chip trades just because the story is still strong. If yields stay near 4.55% and breadth remains weak, price matters more than narrative.\n中文：不要因为逻辑还强，就去摊平AVGO、SMH、SOXL这类拥挤AI芯片交易。只要收益率维持在4.55%附近且市场广度仍弱，价格位置比故事更重要。",
+      "EN: Treat HPE and Oracle differently. HPE already delivered and must now defend support; Oracle is the cleaner upcoming event because expectations are high but the chart is less stretched than the chip complex.\n中文：要把HPE和Oracle分开看。HPE已经交卷，接下来要守支撑；Oracle则是更干净的下一场事件，因为预期高，但图形没有芯片链那么拥挤。",
+      "EN: Safer money should start with XLF/XLE or other rotation beneficiaries before reaching for leveraged semis. Defensive participation broadened on Thursday even while Nasdaq leadership faded.\n中文：更稳的资金应先看XLF、XLE这类轮动受益方向，再考虑杠杆半导体。周四即使纳指主线转弱，防守与轮动板块仍在扩散。",
+      "EN: Software now demands selectivity rather than blanket bearishness. CRM invalidated the old short framing, while DOCU proved that even decent software beats can still get only mixed tape rewards.\n中文：软件板块现在需要精选，而不是一刀切看空。CRM已经使旧的做空框架失效，而DOCU说明即便交出不错成绩，软件股得到的盘口反馈也未必会很强。"
+    ],
+    "summary": [
+      "EN: U.S. stocks suffered their first losing week in 10. Reuters reported the S&P 500 closed Friday at 7,383.74, down 2.64% on the day and 2.59% over five sessions, while the Nasdaq-100 ended at 28,957.60, down 4.77% Friday and 4.53% on the week.\n中文：美股录得过去10周来的首个下跌周。路透数据经MarketScreener转引显示，标普500周五收于7,383.74点，单日跌2.64%、五日跌2.59%；纳斯达克100收于28,957.60点，单日跌4.77%、周跌4.53%。",
+      "EN: Friday did the damage, but the week's setup was built earlier. ISM manufacturing rose to 54.0, ISM services held at a strong 54.4, JOLTS job openings jumped to 7.618 million, and weekly equity-fund inflows improved through June 3. The macro tape was firm, not recessionary.\n中文：真正的伤害主要发生在周五，但这一周的条件是前面几天就埋下的。ISM制造业升至54.0，ISM服务业维持在强劲的54.4，JOLTS职位空缺升至761.8万，且截至6月3日的股票基金周度流入也在改善。宏观背景偏强，而非衰退。",
+      "EN: HPE was the cleanest upside earnings reaction. The company posted record revenue of $10.7 billion, raised guidance, and Reuters reported the stock surged roughly 28% on Tuesday as AI-server demand and networking growth pulled forward its long-term targets.\n中文：HPE是本周最干净的财报上行反应。公司实现创纪录的107亿美元营收并上调指引，路透称该股周二一度大涨约28%，核心驱动来自AI服务器需求和网络业务增长把长期目标提前兑现。",
+      "EN: Broadcom was the key lesson in a market that now demands perfection. AVGO reported record quarterly revenue of $22.187 billion and AI semiconductor revenue of $10.8 billion, but the stock still fell and then helped trigger a Friday chip wipeout exceeding $1 trillion in lost market value across U.S.-traded chipmakers.\n中文：Broadcom给出的则是“市场现在要求完美”的典型教训。AVGO披露创纪录的221.87亿美元季度营收和108亿美元AI半导体收入，但股价仍然下跌，并进一步引发周五美股芯片股合计蒸发逾1万亿美元市值。",
+      "EN: The jobs report hardened the rates problem. May payrolls rose 172,000, unemployment stayed at 4.3%, and Nasdaq's own weekly note said markets repriced a full 25bp hike this year while the 10-year Treasury yield rose to 4.55%.\n中文：就业数据让利率问题进一步变硬。5月非农新增17.2万人、失业率维持4.3%，Nasdaq周报明确写到市场重新计入了年内完整25个基点加息预期，10年期美债收益率升至4.55%。",
+      "EN: The key process lesson is that a strong theme can still be a bad trade if the entry is late. HPE remained tradable because the catalyst was fresh; AVGO, SMH, and leveraged semis became riskier precisely because everyone already knew the story.\n中文：最重要的流程教训是：强主题也可能是差交易，问题在于进场太晚。HPE之所以还可交易，是因为催化刚落地；而AVGO、SMH和杠杆半导体之所以危险，恰恰是因为所有人都已经知道这套故事。",
+      "EN: The older broad software-short framing also needs to stay retired. CRM invalidated that thesis by holding stronger than expected, while DOCU's beat-plus-mixed-reaction showed software now trades on selectivity, not on a single sector-wide rule.\n中文：此前那种“软件整体可空”的粗框架也该继续废止。CRM已经用更强的实际走势否定了该逻辑，而DOCU的“业绩不错但反应一般”则说明，软件如今靠精选，而不是靠一个全板块规则。"
+    ],
+    "marketPulse": {
+      "SPY/QQQ/IWM": {
+        "value": "S&P 500 7,383.74 / Nasdaq Composite 25,709.43 / Russell 2000 2,833.50",
+        "note": "EN: The headline was not just lower indexes; it was a violent reversal in leadership. Small caps did not become a new safe haven, and semis absorbed the bulk of the forced de-risking.\n中文：重点不只是指数回落，而是领涨结构发生了剧烈反转。小盘股没有成为新的避风港，去风险的主要压力仍集中在半导体。"
+      },
+      "Rates": {
+        "value": "May payrolls +172,000 / unemployment 4.3% / U.S. 10Y yield about 4.55%",
+        "note": "EN: Strong labor plus sticky price signals kept the market focused on a hawkish Fed path. That is why Friday's selloff hit duration-heavy AI and software much harder than the Dow.\n中文：强就业叠加偏黏的价格信号，让市场继续聚焦偏鹰的美联储路径。这也是为什么周五的抛压对高久期AI和软件的杀伤远大于道指。"
+      },
+      "Volatility / Options": {
+        "value": "VIX 21.51 on June 5; QQQ IV 28.24%, IWM IV 25.04%, SPY IV 17.36%",
+        "note": "EN: Volatility was repriced fast, not slowly. That makes post-earnings calls, leveraged ETFs, and same-day options much less forgiving unless breadth and volume both confirm.\n中文：波动率是快速重定价，而不是慢慢抬升。这意味着财报后认购、杠杆ETF和超短期期权都会变得更苛刻，除非量能和广度同时确认。"
+      }
+    },
+    "weekReview": [
+      "EN: Monday and Tuesday still looked like a continuation market. ISM manufacturing hit 54.0, HPE printed a record quarter, and the tape still rewarded companies that could show real AI infrastructure demand.\n中文：周一和周二看起来仍像延续市。ISM制造业升至54.0，HPE交出创纪录季度成绩，盘口仍愿意奖励能证明AI基础设施真实需求的公司。",
+      "EN: By Wednesday and Thursday the market was already rotating under the surface. ISM services stayed strong at 54.4, the Dow hit a record, and financials plus defensives held up better while semis lost the ability to power every index higher.\n中文：到周三和周四，市场在水面下已经开始轮动。ISM服务业维持强劲的54.4，道指创历史新高，金融和防守板块表现更稳，而半导体已经失去“独自抬升所有指数”的能力。",
+      "EN: Broadcom became the most important sentiment inflection. The company delivered excellent absolute numbers, but Reuters noted investors focused on what was not perfect enough, reinforcing that crowded AI trades now need upside surprise, not just good results.\n中文：Broadcom成了最重要的情绪拐点。公司绝对业绩并不差，但路透指出投资者更在意“不够完美”的地方，这说明拥挤AI交易现在需要的是超预期，而不仅仅是好结果。",
+      "EN: Friday confirmed that rates were the accelerant. A 172,000 payroll gain and unchanged 4.3% unemployment pushed yields higher, and the chip complex then turned a three-day wobble into a full de-crowding event.\n中文：周五则确认了利率才是加速器。17.2万的非农和4.3%不变的失业率推高收益率，芯片板块也因此把三天的摇摆演变成完整的去拥挤事件。",
+      "EN: Process scorecard: the old CRM short framing remains a miss / thesis invalidated; the better habit is to separate fresh catalysts like HPE from already-crowded names like AVGO, NVDA, and SOXL.\n中文：流程复盘上，旧的CRM做空框架仍应记作失误/逻辑失效；更好的习惯是把HPE这种新催化，与AVGO、NVDA、SOXL这类已高度拥挤的标的严格分开。"
+    ],
+    "nextWeekFocus": [
+      "EN: Wednesday, June 10: CPI for May at 08:30 ET, then Oracle after the close. If inflation is hot and ORCL cannot rescue AI-cloud sentiment, the market may keep rotating away from crowded growth.\n中文：6月10日周三：08:30公布5月CPI，盘后看Oracle。若通胀偏热且ORCL无法修复AI云计算情绪，市场可能继续远离拥挤成长股。",
+      "EN: Thursday, June 11: PPI and jobless claims. Another firm inflation print would make Friday's 10-year yield spike feel less like a one-day panic and more like a regime reminder.\n中文：6月11日周四：PPI和初请失业金。若通胀再次偏强，周五10年期收益率的上冲就更像阶段性风格提醒，而不是单日恐慌。",
+      "EN: Watch whether HPE can hold post-earnings support. If the best AI-server reaction of the week starts to fail, that would be a warning that even fresh winners are no longer getting paid.\n中文：要看HPE能否守住财报后支撑。如果本周最干净的AI服务器反应都开始失效，就说明连新鲜赢家也不再容易得到溢价。",
+      "EN: Semis need breadth, not just a hero candle. AVGO, NVDA, MU, and SMH must stabilize together; one green day in a single name is not enough after a $1 trillion chip drawdown.\n中文：半导体需要的是广度，而不是一根英雄阳线。AVGO、NVDA、MU和SMH必须一起稳定；在1万亿美元芯片市值蒸发之后，只看单一股票一天反弹远远不够。",
+      "EN: Rotation matters. If XLF and XLE keep holding while QQQ and SMH struggle, safer capital should stay with the rotation instead of trying to be the first buyer of a broken momentum trade.\n中文：轮动很重要。若XLF和XLE继续稳住，而QQQ和SMH仍承压，更稳的资金就应该留在轮动方向，而不是抢做失速动量交易的第一个接刀者。"
+    ],
+    "sectors": [
+      {
+        "name": "EN: Financials / Rotation Beta\n中文：金融 / 轮动Beta",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: Higher yields, record Dow leadership on Thursday, and broadening away from semis improve the case for banks and diversified financials.\n中文：更高的收益率、周四创纪录的道指表现，以及资金从半导体外溢，都在改善银行和多元金融的相对逻辑。",
+        "watch": "EN: Prefer XLF or liquid large-cap financials if they keep holding while QQQ remains weak. This is the cleaner way to express rotation without chasing a broken AI chart.\n中文：如果QQQ继续偏弱而金融板块能稳住，优先看XLF或流动性好的大金融。这是表达风格轮动、同时避免去追失速AI图形的更干净方式。",
+        "risk": "EN: If CPI/PPI cool sharply and tech breadth comes back fast, financials can underperform even without doing anything wrong.\n中文：若CPI/PPI意外降温、科技广度迅速回归，金融板块即便本身没犯错，也可能相对跑输。"
+      },
+      {
+        "name": "EN: Energy Hedge\n中文：能源对冲",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: Geopolitical risk cooled but did not disappear, and oil remained elevated enough to keep energy useful as a portfolio shock absorber.\n中文：地缘风险虽然降温，但并未消失；油价仍处在足以让能源板块保有组合缓冲价值的位置。",
+        "watch": "EN: Use XLE or integrated oils as a hedge only if they keep relative strength while AI remains volatile.\n中文：只有当AI继续波动而能源维持相对强势时，才把XLE或一体化石油股当成对冲工具。",
+        "risk": "EN: If peace headlines improve and inflation cools simultaneously, energy can lose sponsorship fast.\n中文：如果和平预期改善且通胀同步降温，能源板块的资金支持会很快减弱。"
+      },
+      {
+        "name": "EN: AI Infrastructure / Servers\n中文：AI基础设施 / 服务器",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: HPE proved enterprise AI infrastructure demand is still real, with record revenue and stronger guidance. Oracle is the next major check on whether cloud/AI infrastructure spending still commands a premium.\n中文：HPE用创纪录营收和更强指引证明企业级AI基础设施需求仍真实存在。接下来Oracle将检验云和AI基础设施支出是否仍值得市场付溢价。",
+        "watch": "EN: Favor post-event support tests, not gap chasing. HPE must hold above its post-earnings base, and ORCL needs a controlled reaction rather than a euphoric spike.\n中文：优先看事件后的支撑测试，而不是追缺口。HPE要守住财报后平台，ORCL则需要可控反应，而不是情绪化暴冲。",
+        "risk": "EN: If the market starts fading even fresh AI winners, the problem is no longer valuation alone but demand for risk itself.\n中文：如果市场开始连刚出炉的AI赢家都一起抛售，问题就不只是估值，而是整体风险承受能力在下降。"
+      },
+      {
+        "name": "EN: Semiconductors\n中文：半导体",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: Long-term AI demand is still intact, but Broadcom proved the market now punishes even very strong numbers when positioning is stretched.\n中文：长期AI需求仍在，但Broadcom证明只要仓位太拥挤，市场就会惩罚“非常好但不够完美”的业绩。",
+        "watch": "EN: Only consider names like AVGO or SMH after a pullback holds and breadth improves. One reflex bounce after an 8%-plus semiconductor washout is not enough.\n中文：像AVGO、SMH这类标的，只能在回踩守住、且板块广度改善后再看。经历8%以上级别的半导体洗盘后，一次技术性反弹并不够。",
+        "risk": "EN: If yields stay high and semis keep underperforming on good news, the crowding reset is still unfinished.\n中文：如果收益率维持高位、而半导体连利好都涨不动，那就说明拥挤出清还没结束。"
+      },
+      {
+        "name": "EN: Small Caps / Rate-Sensitive Risk\n中文：小盘股 / 利率敏感风险",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Higher yields and stronger labor data remain a hard mix for weaker balance sheets and refinancing-sensitive names.\n中文：更高收益率加上偏强的就业数据，对资产负债表更弱、再融资更敏感的小盘股仍然不友好。",
+        "watch": "EN: Treat IWM strength skeptically unless yields cool and breadth broadens for more than one session.\n中文：除非收益率回落且市场广度连续改善，否则对IWM的强势应保持怀疑。",
+        "risk": "EN: A cooler-than-expected CPI can still trigger a fast relief squeeze in small caps.\n中文：如果CPI低于预期，小盘股仍可能出现快速的缓解式轧空。"
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Consider only if XLF keeps holding while QQQ remains soft and CPI does not immediately reverse the rates trade.\n中文：只有在QQQ继续偏软、且CPI没有立刻逆转利率交易时，才考虑XLF。",
+        "suggestedProfitTake": "EN: Scale out into a 3% to 5% move or if yields cool enough to rotate capital back into growth.\n中文：上涨3%到5%先分批兑现；若收益率明显回落、资金重新切回成长，也应主动减仓。",
+        "type": "EN: safer rotation ETF\n中文：相对稳健的轮动ETF",
+        "catalyst": "EN: Dow leadership and stronger rates supported financial rotation late this week.\n中文：本周后段，道指领涨与更高收益率支撑了金融轮动。",
+        "why": "EN: It is a cleaner expression of the market's style shift than trying to catch a falling semiconductor knife.\n中文：和去接半导体下坠飞刀相比，它是表达风格切换更干净的工具。",
+        "risk": "EN: If CPI is soft and QQQ breadth snaps back, this rotation trade can fade quickly.\n中文：若CPI偏软、QQQ广度快速恢复，这类轮动交易也会很快降温。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Held up better than the chip complex while the Dow reached a record on Thursday.\n中文：在道指周四创纪录时，它的表现明显强于芯片板块。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Use only on relative strength versus SPY, not as a blind peace-headline fade.\n中文：只在相对SPY保持强势时使用，不要把它当成随意交易和平headline的工具。",
+        "suggestedProfitTake": "EN: Trim into a 3% to 4% push or if oil and geopolitical headlines both cool.\n中文：反弹3%到4%可先减；若油价和地缘headline同时降温，也应减仓。",
+        "type": "EN: hedge / lower-beta alternative\n中文：对冲 / 低Beta替代",
+        "catalyst": "EN: Elevated crude and persistent geopolitical uncertainty kept energy relevant even during a tech-led market.\n中文：即使市场长期由科技主导，较高油价和持续地缘不确定性仍让能源维持相关性。",
+        "why": "EN: It is more useful as portfolio balance than as a momentum hero trade.\n中文：它更适合做组合平衡，而不是主升浪英雄交易。",
+        "risk": "EN: If inflation fears cool and growth leadership repairs, XLE can lag rapidly.\n中文：若通胀担忧降温、成长主线修复，XLE可能很快转为跑输。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Held up relatively well versus tech as investors searched for non-AI exposure with cash flow.\n中文：在资金寻找非AI、且有现金流支撑的方向时，它相对科技表现更稳。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Best expressed after earnings only if the first 30-minute range holds on June 11; avoid pre-print FOMO.\n中文：更好的做法是等财报后、6月11日首30分钟区间被守住再考虑；不要财报前FOMO。",
+        "suggestedProfitTake": "EN: Scale into a 5% to 7% earnings move or trail under day-one VWAP if cloud/AI guidance lands cleanly.\n中文：若财报后波动达到5%到7%可分批兑现；如果云和AI指引足够干净，也可以首日VWAP下方做移动止盈。",
+        "type": "EN: cleaner AI-cloud event\n中文：更干净的AI云计算事件",
+        "catalyst": "EN: Oracle will report fiscal Q4 2026 results after the close on June 10.\n中文：Oracle将在6月10日盘后公布2026财年第四季度业绩。",
+        "why": "EN: Expectations are high, but the setup is less crowded than front-end semis and offers a fresh catalyst rather than a stale one.\n中文：预期虽然不低，但它的拥挤度低于前端半导体，而且催化是新鲜的，不是旧故事。",
+        "risk": "EN: If CPI is hot and the stock gaps up into a weak tape, even a good report can fail.\n中文：如果CPI偏热且个股高开时大盘仍弱，即便财报不错也可能失败。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Entered earnings week with strong cloud/AI expectations but without the same exhaustion as SMH leaders.\n中文：进入财报周时，市场对其云和AI预期较强，但没有SMH龙头那种同等程度的透支。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "HPE",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only consider if post-earnings support holds after the first pullback; do not chase a second vertical leg.\n中文：只有在财报后首轮回踩能守住支撑时才考虑；不要追第二段垂直拉升。",
+        "suggestedProfitTake": "EN: Take partial profits into another 5% to 8% extension or exit quickly if the post-earnings base fails.\n中文：若再延续5%到8%可先兑现部分利润；若财报后平台失守，则应快速退出。",
+        "type": "EN: in-progress AI-server winner\n中文：进行中的AI服务器赢家",
+        "catalyst": "EN: Record $10.7 billion revenue, raised outlook, and stronger networking plus Cloud & AI growth.\n中文：创纪录的107亿美元营收、上调指引，以及更强的网络与Cloud & AI增长。",
+        "why": "EN: This was the freshest upside reaction of the week and the cleanest proof that enterprise AI spending is still converting into revenue.\n中文：这是本周最新鲜的上行反应，也是企业级AI支出仍在兑现为收入的最干净证明。",
+        "risk": "EN: If even HPE starts to give back the move, it would signal that the market is done rewarding fresh AI wins.\n中文：如果连HPE都开始明显回吐，就说明市场连新鲜AI胜利都不想继续奖励了。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reuters reported the stock surged about 28% on June 2 after results.\n中文：路透称该股在6月2日财报后大涨约28%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for a pullback that actually holds. No new entry unless AVGO stabilizes with SMH and the first reflex bounce does not immediately fade.\n中文：先等真正守住的回踩。只有在AVGO与SMH一起企稳，且第一次反抽不立刻失败时，才考虑新仓。",
+        "suggestedProfitTake": "EN: If a rebound comes, sell into strength quickly and avoid turning it into a thesis-hold before breadth improves.\n中文：如果出现反弹，应更快逢强兑现；在板块广度恢复前，不要把它硬扛成中线逻辑单。",
+        "type": "EN: crowded AI semi reset\n中文：拥挤AI半导体重置",
+        "catalyst": "EN: Broadcom reported record results but the market focused on a revenue miss versus elevated expectations and on whether AI forecasts were perfect enough.\n中文：Broadcom业绩本身创纪录，但市场更在意其相对高预期的收入失手，以及AI前景是否足够完美。",
+        "why": "EN: This is a prime example of a great company becoming a poor trade because the setup was too crowded.\n中文：这是“好公司也会变成差交易”的典型，因为这个设置本身已经太拥挤。",
+        "risk": "EN: Another hot inflation print or another day of semiconductor underperformance would prove the reset is unfinished.\n中文：若再来一次偏热通胀，或半导体再度明显跑输，就说明这轮重置还没结束。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reuters reported AVGO fell about 7.9% on Friday as the chip selloff intensified.\n中文：路透称，随着芯片抛售升级，AVGO周五下跌约7.9%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: ETF entry only if semis stop making lower lows after CPI and the sector breadth improves together.\n中文：只有在CPI之后半导体不再创新低、且板块广度同步改善时，才考虑ETF介入。",
+        "suggestedProfitTake": "EN: Take profits into 4% to 6% rebounds unless breadth materially broadens; this is not the tape for passive holding.\n中文：除非板块广度明显扩散，否则出现4%到6%反弹就应先兑现；这不是适合被动持有的盘口。",
+        "type": "EN: safer-than-SOXL chip expression\n中文：比SOXL更稳的芯片表达",
+        "catalyst": "EN: Best non-single-name way to track whether the AI-chip selloff was a reset or the start of a larger unwind.\n中文：这是观察AI芯片大跌到底是一次重置，还是更大级别去杠杆开端的最佳非个股工具。",
+        "why": "EN: It avoids single-name earnings gaps, but it still carries the same crowding risk as the broader chip complex.\n中文：它避免了单一个股财报缺口风险，但仍承受整个芯片板块相同的拥挤风险。",
+        "risk": "EN: If AVGO, NVDA, and MU cannot stabilize together, SMH can easily become just a cleaner way to lose money.\n中文：如果AVGO、NVDA和MU不能一起企稳，SMH也只会变成一种更干净的亏钱方式。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Friday's chip unwind was severe enough that the semis tape shifted from momentum continuation to damage control.\n中文：周五芯片板块的抛售已经足够剧烈，整个半导体盘口从动量延续切换成了伤害控制。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "IWM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Here short means avoid or hedge. Only lean defensive if small caps continue to lag while yields stay firm after CPI/PPI.\n中文：这里的short表示回避或对冲。只有在CPI/PPI后收益率仍坚挺、且小盘股继续跑输时，才保留偏防守态度。",
+        "suggestedProfitTake": "EN: Reduce the hedge quickly if inflation cools and small-cap breadth expands for more than one session.\n中文：如果通胀降温且小盘股广度连续改善超过一天，应迅速降低对冲。",
+        "type": "EN: rate-sensitive risk proxy\n中文：利率敏感风险代理",
+        "catalyst": "EN: Strong labor data and firmer yields remain difficult for weaker-balance-sheet small caps.\n中文：更强的就业数据和更高的收益率，仍会压制资产负债表更弱的小盘公司。",
+        "why": "EN: It is a cleaner macro risk expression than trying to short a single speculative name into a volatile tape.\n中文：与其在高波动盘口里押空单一投机股，不如把它当成更干净的宏观风险表达。",
+        "risk": "EN: A soft CPI or softer claims trend can still spark a sharp relief squeeze.\n中文：若CPI偏软，或初请失业金走弱，仍可能触发小盘股快速缓解式反弹。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Small caps ended the week at 2,833.50 and did not become a durable hideout when semis cracked.\n中文：小盘股周收于2,833.50点，在半导体失速时并没有成为可靠避风港。",
+        "setupStatus": "early"
+      }
+    ],
+    "riskControls": [
+      "EN: Any gap larger than 5% in HPE, ORCL, AVGO, or DOCU should be treated as a wait-first setup. In this tape, the first 30 minutes matter more than the first headline.\n中文：HPE、ORCL、AVGO、DOCU这类标的只要跳空超过5%，都应先等再说。在当前盘口里，前30分钟比第一条headline更重要。",
+      "EN: Do not average down leveraged ETFs or same-week calls into a rising-yield backdrop. Friday showed that a strong story plus bad timing still destroys P&L.\n中文：不要在收益率上行背景下去摊平杠杆ETF或当周期权。周五已经证明，再强的故事碰上错误时点，也会直接毁掉盈亏比。",
+      "EN: If CPI and PPI both run hot, assume semis and high-duration software need another reset leg before they become investable again.\n中文：若CPI和PPI都偏热，就应默认半导体和高久期软件还需要再走一腿重置，之后才谈得上重新可投。",
+      "EN: If XLF and XLE lose relative strength at the same time as QQQ and SMH stay weak, the market is not rotating; it is simply de-risking, and total exposure should be cut.\n中文：如果XLF和XLE也同时失去相对强势，而QQQ和SMH依旧偏弱，那就不是轮动，而是整体去风险，应优先减总仓。",
+      "EN: The old blanket software-short framework stays invalidated unless price action newly confirms it. CRM already taught that stale narratives cannot override the tape.\n中文：除非新的价格行为重新确认，否则“软件整体可空”的旧框架继续视为失效。CRM已经证明，过时叙事不能凌驾于实际盘口之上。"
+    ],
+    "sections": [
+      {
+        "title": "EN: Major Surges And Reasons\n中文：本周大涨股票与原因",
+        "items": [
+          "HPE: EN: Reuters reported HPE surged about 28% on June 2 after a record quarter, raised guidance, and evidence that AI server plus networking demand is arriving in enterprise budgets right now. The move was mainly a regular-session earnings response after the report, not just a thin after-hours spike. Tradability status: still in progress, but only if post-earnings support survives the first real pullback.\n中文：HPE：路透称HPE在6月2日大涨约28%，原因是创纪录季度、上调指引，以及AI服务器和网络需求已经真实进入企业预算。这个涨幅主要发生在财报后的日内正规交易时段，不只是盘后虚拉。可交易性状态：仍在进行中，但前提是财报后平台要经得住第一次真正回踩。",
+          "CRM: EN: The stock's strong post-earnings response kept invalidating the older short framing. This was important because it showed the market was willing to reward credible AI/software monetization instead of mechanically selling software. Tradability status: no fresh short while the breakout holds; reassess only after a failed continuation.\n中文：CRM：该股财报后的强势反应继续否定旧的做空框架。它的重要性在于，市场愿意奖励可信的AI/软件变现叙事，而不是机械性卖出软件股。可交易性状态：只要突破还在，就不应新开空头；只有后续延续失败后才重新评估。",
+          "AVGO: EN: This was the week's most instructive non-surge. Broadcom delivered record results, but the stock still sold off because expectations and positioning were too high. Tradability status: extended on the downside as an event, but not yet repaired enough for blind dip-buying.\n中文：AVGO：这不是大涨，而是本周最有教育意义的“反例”。Broadcom交出创纪录结果，但股价仍下跌，因为预期和仓位都已经太高。可交易性状态：从事件角度看已经进入下修阶段，但还没修复到可以盲目抄底。",
+          "DOCU: EN: Docusign beat on revenue and kept IAM adoption moving higher, but the stock reaction was mixed rather than explosive. That matters because it shows software beats can still struggle to command premium tape sponsorship when rates are rising. Tradability status: watch only unless the stock can hold the first post-print low.\n中文：DOCU：Docusign营收超预期，IAM渗透率也继续提升，但股价反应只是中性偏弱，并没有爆发。这说明在利率上行环境里，软件股即便交出不错成绩，也未必能获得高溢价买盘。可交易性状态：先观察，除非它能守住财报后首个低点。"
+        ]
+      },
+      {
+        "title": "EN: Performance Scorecard\n中文：表现复盘",
+        "items": [
+          "EN: What worked: emphasizing fresh AI infrastructure catalysts over stale momentum did work. HPE was the best example because the numbers, guide, and tape all aligned.\n中文：有效之处：把“新鲜的AI基础设施催化”放在“陈旧动量”之前是有效的。HPE就是最佳范例，因为业绩、指引和盘口三者一致。",
+          "EN: What failed: broad software-short framing remained wrong. CRM stayed stronger than a valid short setup should, so the proper label remains miss / thesis invalidated.\n中文：失误之处：软件整体做空框架依然是错的。CRM的走势明显强于一个有效空头设置应有的表现，因此正确标签仍然是失误/逻辑失效。",
+          "EN: What partly worked: chip caution was directionally right by Thursday and Friday, but the better execution was to wait for the reset rather than trying to sell perfect companies too early.\n中文：部分有效：到周四和周五，对芯片保持谨慎的方向是对的，但更好的执行方式不是过早去赌空优秀公司，而是等重置出现后再处理。",
+          "EN: Main lesson: a strong narrative does not rescue a late entry. The market rewarded HPE because the catalyst was fresh, and punished AVGO because perfection was already priced in.\n中文：核心教训：再强的叙事也救不了太晚的进场。市场奖励HPE，是因为催化刚刚落地；惩罚AVGO，则是因为完美预期早已被提前计入。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Setup\n中文：期权与波动率设置",
+        "items": [
+          "EN: VIX closed at 21.51 on Friday, up nearly 40% in a day. That means post-earnings premium is no longer cheap, and late call buying needs either defined risk or very small size.\n中文：VIX周五收于21.51，单日飙升近40%。这意味着财报后权利金已经不便宜，晚追认购必须用限定风险结构，或者把仓位缩得很小。",
+          "EN: ORCL is the cleaner options candidate next week because the event is still ahead. HPE and AVGO are now more about support/repair than about paying up for fresh event premium.\n中文：下周期权里更干净的候选是ORCL，因为事件还在前面；HPE和AVGO现在更适合看支撑与修复，而不是继续为新事件溢价付钱。",
+          "EN: SOXL and same-week chip calls should only be used if semis breadth returns together. A single green candle in one AI name is not enough after Friday's drawdown.\n中文：SOXL和当周芯片认购，只应在半导体广度一起回归时使用。经历周五大跌后，单一AI个股的一根阳线远远不够。",
+          "EN: If trading DOCU or software events, remember that mixed tape plus elevated IV can still punish both sides. Stock or call spreads remain safer than naked premium.\n中文：如果做DOCU或软件事件，要记住中性偏弱盘口叠加高IV仍会双杀。正股或牛市价差通常比裸买权利金更安全。"
+        ]
+      },
+      {
+        "title": "EN: Upcoming Catalyst Watch\n中文：下周催化观察",
+        "items": [
+          "EN: Tuesday, June 9: U.S. trade data. Watch whether external-demand and inventory data keep the macro tape firm or start to soften.\n中文：6月9日周二：美国贸易数据。关注外需和库存线索是继续支撑强宏观，还是开始软化。",
+          "EN: Wednesday, June 10: CPI and Oracle earnings after the close. This is the single most important day for rates-sensitive growth next week.\n中文：6月10日周三：CPI和Oracle盘后财报。这是下周对利率敏感成长股最关键的一天。",
+          "EN: Thursday, June 11: PPI and jobless claims. If inflation stays hot while claims remain calm, Friday's hawkish repricing may keep extending.\n中文：6月11日周四：PPI和初请失业金。若通胀继续偏热、而失业金申请依旧平稳，周五的偏鹰重定价可能继续延伸。",
+          "EN: Friday, June 12: University of Michigan sentiment and inflation expectations. This can matter if the market becomes more focused on inflation psychology than on hard growth data.\n中文：6月12日周五：密歇根大学消费者信心与通胀预期。若市场开始更在意通胀心理而不是硬增长数据，这项指标的重要性会上升。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Reuters / MarketScreener June 5 Wall Street selloff wrap",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketscreener.com/news/wall-street-ends-sharply-lower-as-chips-slide-jobs-data-fuels-rate-hike-fears-ce7f5dd2d98cf524"
+      },
+      {
+        "label": "BLS Employment Situation for May 2026",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm"
+      },
+      {
+        "label": "ISM Manufacturing PMI May 2026",
+        "confidence": "Primary",
+        "url": "https://www.ismworld.org/globalassets/pub/research-and-surveys/rob/pmi/irun202605pmi.pdf"
+      },
+      {
+        "label": "ISM Services PMI roundup for May 2026",
+        "confidence": "Primary",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-06/ism-pmi-reports-roundup-may-2026-services/"
+      },
+      {
+        "label": "BLS JOLTS April 2026 release",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+      },
+      {
+        "label": "Reuters fund-flow report via Investing.com",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investing.com/news/stock-market-news/us-equity-fund-inflows-surge-as-tech-rally-boosts-sentiment-4728380"
+      },
+      {
+        "label": "HPE fiscal Q2 2026 results",
+        "confidence": "Primary",
+        "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-reports-fiscal-2026-second-quarter-results.html"
+      },
+      {
+        "label": "Reuters on HPE share surge via MarketScreener",
+        "confidence": "High-quality reporting",
+        "url": "https://ca.marketscreener.com/news/hpe-shares-soar-30-as-demand-for-ai-infrastructure-powers-stellar-quarter-ce7f5ddedb8cf424/"
+      },
+      {
+        "label": "Broadcom fiscal Q2 2026 results",
+        "confidence": "Primary",
+        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
+      },
+      {
+        "label": "Reuters chip selloff report via Investing.com",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+      },
+      {
+        "label": "Docusign fiscal Q1 2027 results",
+        "confidence": "Primary",
+        "url": "https://investor.docusign.com/news-and-events/press-releases/news-details/2026/Docusign-Announces-First-Quarter-Fiscal-2027-Financial-Results/default.aspx"
+      },
+      {
+        "label": "BLS June 2026 release schedule",
+        "confidence": "Calendar",
+        "url": "https://www.bls.gov/schedule/2026/06_sched_list.htm"
+      },
+      {
+        "label": "BEA trade release schedule",
+        "confidence": "Calendar",
+        "url": "https://www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services"
+      },
+      {
+        "label": "Oracle Q4 FY2026 earnings date",
+        "confidence": "Primary",
+        "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-Fourth-Quarter-Fiscal-Year-2026-Earnings-Announcement/default.aspx"
+      },
+      {
+        "label": "Nasdaq Chartstopper June 5, 2026",
+        "confidence": "Market data",
+        "url": "https://www.nasdaq.com/articles/chartstopper-june-5-2026"
+      },
+      {
+        "label": "VIX close data June 5, 2026",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/%5EVIX/"
+      }
+    ]
+  },
+  {
     "date": "2026-05-31",
     "weekId": "2026-W22",
     "weekNumber": 22,
@@ -207,8 +536,8 @@ window.WEEKLY_MARKET_BRIEFINGS = [
           "DELL: EN: roughly +33% on Friday and the week's signature surge after record Q1 results, raised FY27 guidance, and huge AI server order metrics; the move started after earnings and then showed strong regular-session follow-through; tradability status: already extended, better to wait for a pullback or tight consolidation. | 中文：DELL周五大约上涨33%，是本周最具代表性的暴涨个股；原因是Q1创纪录、FY27指引上调，以及AI服务器订单数据极强。走势先由财报触发，再在日内持续跟随；当前状态：已明显拉伸，更适合等回踩或紧凑整理。",
           "SNOW: EN: roughly +35% to +40% from the earnings gap zone after lifting its outlook and announcing a five-year, $6 billion AWS deal; much of the move began in premarket and then held well in regular trading; tradability status: in progress only if it builds above the gap low, otherwise wait for pullback. | 中文：SNOW从财报缺口区域计算大约上涨35%到40%，催化是上调指引并宣布5年60亿美元AWS合作。大部分涨势先在盘前展开，随后日内承接也较好；当前状态：只有在缺口低点上方继续搭台才算延续，否则应等回踩。",
           "MU: EN: about +19% on Tuesday and materially higher for the short week as AI memory demand and positive analyst read-throughs kept money in the HBM trade; this was mostly regular-session continuation rather than one isolated after-hours spike; tradability status: in progress, but only on orderly pullbacks because the trade is crowded. | 中文：MU周二大约上涨19%，在这个短周里整体也显著走高；原因是AI存储/HBM需求强，以及分析师继续强化行业逻辑。它更像日内延续，不是一次性的盘后脉冲；当前状态：仍在进行中，但只能等有序回踩，因为交易已较拥挤。",
-          "HPE: EN: about +18% late in the week in sympathy with Dell ahead of its own June 1 earnings; this was mainly a regular-session sympathy move, not a company-confirmed breakout yet; tradability status: still early only if Monday's first 30 minutes confirm, otherwise treat as a likely gap-fade candidate. | 中文：HPE在本周后段大约上涨18%，主要是受Dell带动并提前交易6月1日自身财报。这更像日内共振，而不是公司基本面已经确认的突破；当前状态：只有周一前30分钟确认时才算早期机会，否则更像高开回落候选。"
-          ,"CRM: EN: roughly +8% on Friday, invalidating the prior short setup. The move showed investors were willing to reward Salesforce's earnings/AI narrative and improved software sentiment rather than punish the mixed forward setup. Tradability status: do not short while it holds the post-earnings breakout; reassess only after failed follow-through. | 中文：CRM周五大约上涨8%，使此前做空设置失效。该走势说明市场愿意奖励Salesforce的财报/AI叙事和软件情绪改善，而不是惩罚其前瞻分歧。当前状态：只要维持财报后突破，就不应继续做空；只有后续延续失败后才重新评估。"
+          "HPE: EN: about +18% late in the week in sympathy with Dell ahead of its own June 1 earnings; this was mainly a regular-session sympathy move, not a company-confirmed breakout yet; tradability status: still early only if Monday's first 30 minutes confirm, otherwise treat as a likely gap-fade candidate. | 中文：HPE在本周后段大约上涨18%，主要是受Dell带动并提前交易6月1日自身财报。这更像日内共振，而不是公司基本面已经确认的突破；当前状态：只有周一前30分钟确认时才算早期机会，否则更像高开回落候选。",
+          "CRM: EN: roughly +8% on Friday, invalidating the prior short setup. The move showed investors were willing to reward Salesforce's earnings/AI narrative and improved software sentiment rather than punish the mixed forward setup. Tradability status: do not short while it holds the post-earnings breakout; reassess only after failed follow-through. | 中文：CRM周五大约上涨8%，使此前做空设置失效。该走势说明市场愿意奖励Salesforce的财报/AI叙事和软件情绪改善，而不是惩罚其前瞻分歧。当前状态：只要维持财报后突破，就不应继续做空；只有后续延续失败后才重新评估。"
         ]
       },
       {
