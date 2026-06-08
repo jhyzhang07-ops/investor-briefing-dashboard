@@ -8,7 +8,7 @@ window.A_SHARE_BRIEFINGS = [
     "priorities": [
       "先看市场结构，再看题材弹性。若510300.SH、510050.SH与银行/运营商一侧先稳住，而不是159995.SZ、300308.SZ先脉冲，今天才有资格讨论科技回补；若顺序反过来，高贝塔反弹仍按减仓与观察处理。",
       "6月5日沪深两市成交仍有3.07万亿元，但近4600股下跌，说明问题不是没量，而是资金集中出逃拥挤主线。今天若宽度仍修复不了，AI、半导体、光模块、券商统一降级。",
-      "上次重点 watchlist 里的芯片ETF、券商ETF与中际旭创都没有给出舒服承接，属于典型的‘方向未必错、位置和拥挤度明显错’。在板块扩散重新改善前，类似高换手高弹性 setups 统一降低置信度。",
+      "上次重点观察名单里的芯片ETF、券商ETF与中际旭创都没有给出舒服承接，属于典型的‘方向未必错、位置和拥挤度明显错’。在板块扩散重新改善前，类似高换手高弹性结构统一降低置信度。",
       "央行6月5日开展5000亿元3个月期买断式逆回购，周末证监会一边强调支持科技创新，一边点名反对概念炒作。这个组合更偏稳市场和压泡沫，不支持无条件追高。",
       "外部扰动正在抬头。美国5月非农强于预期推高美元和利率预期，油价在中东冲突升级下重新上行，A股成长股今天若高开，追价风险反而更大。"
     ],
@@ -251,7 +251,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 4,
         "timeframe": "trade",
         "recentPerformance": "它更像当前风险预算阶段的承接型对象，而不是短线爆发票。",
-        "setupStatus": "steady"
+        "setupStatus": "承接稳定"
       },
       {
         "ticker": "600941.SH",
@@ -267,7 +267,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 4,
         "timeframe": "trade",
         "recentPerformance": "当前更适合作为低波动仓位的观察底座，而不是进攻型主线。",
-        "setupStatus": "defensive"
+        "setupStatus": "防御观察"
       },
       {
         "ticker": "688981.SH",
@@ -283,7 +283,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 2,
         "timeframe": "trade",
         "recentPerformance": "方向仍在，但交易位置显著恶化，今天继续只保留条件观察。",
-        "setupStatus": "wait for confirmation"
+        "setupStatus": "等待确认"
       },
       {
         "ticker": "300308.SZ",
@@ -298,8 +298,8 @@ window.A_SHARE_BRIEFINGS = [
         "risk": "若高开低走、放量长阴、量增价不涨，同时港股科技和海外半导体继续转弱，就说明拥挤筹码仍在出清；这会直接证明当前更像情绪交易而非高胜率加仓位。",
         "convictionScore": 2,
         "timeframe": "trade",
-        "recentPerformance": "上次名单里最典型的 miss 之一：逻辑没坏，但位置和拥挤度都不支持主动追。",
-        "setupStatus": "avoid chase"
+        "recentPerformance": "上次名单里最典型的失误之一：逻辑没坏，但位置和拥挤度都不支持主动追。",
+        "setupStatus": "避免追高"
       },
       {
         "ticker": "000002.SZ",
@@ -315,7 +315,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 2,
         "timeframe": "trade",
         "recentPerformance": "它继续只适合作为地产信用风险温度计，而不是主动进攻方向。",
-        "setupStatus": "avoid"
+        "setupStatus": "回避"
       }
     ],
     "smallCaps": [
@@ -333,7 +333,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 2,
         "timeframe": "trade",
         "recentPerformance": "它更像‘小而有底子但流动性有限’的观察票，不应与硬科技龙头同等看待。",
-        "setupStatus": "watch only"
+        "setupStatus": "仅观察"
       },
       {
         "ticker": "603598.SH",
@@ -349,7 +349,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 1,
         "timeframe": "trade",
         "recentPerformance": "它保留在名单里不是为了推荐，而是为了提醒AI应用端仍以情绪博弈为主。",
-        "setupStatus": "avoid chase"
+        "setupStatus": "避免追高"
       },
       {
         "ticker": "300854.SZ",
@@ -365,7 +365,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 1,
         "timeframe": "trade",
         "recentPerformance": "它只适合结构重置后的低仓位观察，绝不适合当主攻方向。",
-        "setupStatus": "reversal-capable but chase-risky"
+        "setupStatus": "反包可看但不宜追高"
       }
     ],
     "etfs": [
@@ -383,7 +383,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 4,
         "timeframe": "trade",
         "recentPerformance": "周五没有立刻提供正反馈，但它的重要性反而提高。今天第一优先级仍是先确认宽基承接。",
-        "setupStatus": "steady"
+        "setupStatus": "承接稳定"
       },
       {
         "ticker": "510050.SH",
@@ -399,7 +399,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 4,
         "timeframe": "trade",
         "recentPerformance": "在高贝塔拥挤阶段，它比题材ETF更接近真正的风险控制工具。",
-        "setupStatus": "defensive"
+        "setupStatus": "防御观察"
       },
       {
         "ticker": "588000.SH",
@@ -415,7 +415,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 3,
         "timeframe": "trade",
         "recentPerformance": "周五的跌幅已经足够说明，今天只能等确认，不能抢修复。",
-        "setupStatus": "wait for confirmation"
+        "setupStatus": "等待确认"
       },
       {
         "ticker": "159995.SZ",
@@ -431,7 +431,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 2,
         "timeframe": "trade",
         "recentPerformance": "它不是今天的主推方向，只是高风险条件观察清单的一部分。",
-        "setupStatus": "avoid chase"
+        "setupStatus": "避免追高"
       },
       {
         "ticker": "512000.SH",
@@ -447,7 +447,7 @@ window.A_SHARE_BRIEFINGS = [
         "convictionScore": 2,
         "timeframe": "trade",
         "recentPerformance": "高成交额没有自动转化成板块承接，今天继续把它放在确认后再考虑的位置。",
-        "setupStatus": "needs confirmation"
+        "setupStatus": "需要确认"
       }
     ],
     "sections": [
