@@ -1,5 +1,601 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-06-11",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-11 08:00 GMT+8",
+    "title": "U.S. Market Brief - 2026-06-11",
+    "tone": "Risk-first and confirmation-driven: hot headline CPI did not stop a broad AI de-risking, Oracle's post-earnings drop keeps software under pressure, and tonight's edge comes from waiting for regular-session confirmation instead of chasing overnight moves.",
+    "priorities": [
+      "Start with regime, not tickers. Wednesday, June 10 ended with a 1.6% S&P 500 drop and a 2.0% Nasdaq decline, while the VIX stayed above 21, so breadth, yields, oil, and QQQ/SMH relative strength matter more than any single pre-market gap.",
+      "Treat Oracle's after-hours selloff as the first read for tonight's software and AI-capex tape. A weak ORCL open that cannot hold its first bounce would argue that the market still punishes expensive AI infrastructure even after headline beats.",
+      "Do not trust thin extended-hours rebounds in semis or speculative AI names by themselves. Wait for the first 30 to 60 minutes, watch for a VWAP reclaim, and require volume plus sector ETF confirmation before acting on the long side.",
+      "Oil, yields, and Trump/Iran headline flow remain cross-asset drivers. If crude re-accelerates while the 10-year holds near 4.55%, crowded growth trades remain vulnerable even if futures look calmer before the bell.",
+      "Tonight's key scheduled macro follow-through is the U.S. Producer Price Index at 20:30 Beijing / 08:30 ET on Thursday, June 11. If PPI runs hotter than CPI's softer core details implied, rate pressure can extend the AI unwind another session."
+    ],
+    "summary": [
+      "Wednesday, June 10 closed with a sharp de-risking move: the S&P 500 fell 1.6% to 7,266.99, the Nasdaq lost 2.0% to 25,169.50, the Dow dropped 1.9% to 49,918.78, and the Russell 2000 fell 1.1% to 2,835.46.",
+      "BLS reported May CPI up 0.5% month over month and 4.2% year over year, while core CPI rose only 0.2% month over month and 2.9% year over year. That means the inflation problem is still energy-led, but not yet a clean all-clear for duration-sensitive growth.",
+      "Treasury's June 10 curve put the 2-year at 4.17% and the 10-year at 4.55%, so valuation pressure on long-duration tech remains real even after the softer core line.",
+      "Oracle beat on revenue and EPS and posted 93% OCI growth, but the stock still fell roughly 6% to 10% after hours as capex, negative free cash flow, and fresh financing needs overshadowed the headline beat.",
+      "Super Micro's $7 billion financing plan and roughly $39 billion order backlog exposed the market's current AI test: demand is still there, but dilution, margin pressure, and funding strain now matter more than simple growth headlines.",
+      "Oil and geopolitics continue to set the macro tone. MarketWatch and WSJ reporting tied Wednesday's move in crude and equities to fresh Trump pressure on Iran, with Brent around $93 to $94 and WTI near $93 during the session.",
+      "Market internals were weak but not indiscriminate panic. MarketWatch noted the equal-weight S&P still outperformed the cap-weighted index over the past six sessions, which means the market is de-crowding AI leadership more than fully abandoning risk.",
+      "The practical stance for Beijing Thursday is selective and conditional: favor cleaner relative-strength groups such as healthcare, defense, and selected energy only after regular-session confirmation, while treating semis, software, and smaller AI beta as trade-only or watch-only until price structure repairs."
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "7,266.99 on June 10, down 1.6%.",
+        "note": "The index broke lower with eight of eleven sectors down, but the bigger message was renewed pressure on cap-weighted AI leadership rather than universal liquidation."
+      },
+      "Nasdaq": {
+        "value": "25,169.50 on June 10, down 2.0%.",
+        "note": "This remains the cleanest barometer for whether the AI de-crowding is extending or stabilizing; tonight it starts on the back foot again because Oracle's after-hours reaction was weak."
+      },
+      "Dow": {
+        "value": "49,918.78 on June 10, down 1.9%.",
+        "note": "Industrials were also hit, which matters because tariff, oil, and inflation pressure are spreading beyond pure tech."
+      },
+      "Russell 2000": {
+        "value": "2,835.46 on June 10, down 1.1%.",
+        "note": "Small caps held up better than the Nasdaq but still lost ground, reinforcing that lower-quality beta still needs calmer yields before it can lead."
+      },
+      "Treasury Yields": {
+        "value": "U.S. Treasury's June 10 curve showed about 4.17% on the 2-year and 4.55% on the 10-year.",
+        "note": "Those levels keep discount-rate pressure elevated for richly valued software and semis even though core CPI was softer than the headline number."
+      },
+      "Oil": {
+        "value": "Brent traded around $93.10 to $94.40 and WTI near $93 during Wednesday's Iran-driven moves.",
+        "note": "Oil is still a macro trigger, not just a commodity story. If crude re-accelerates tonight, it tightens the tape for airlines, transports, small caps, and duration-heavy tech."
+      },
+      "FX / Dollar": {
+        "value": "Barron's said the WSJ Dollar Index was little changed on Wednesday, while a separate WSJ currency update showed 96.58 before CPI.",
+        "note": "A flat-to-firm dollar is not yet a crisis signal, but it is enough to keep pressure on speculative growth if yields stay high."
+      },
+      "Volatility / Options": {
+        "value": "MarketWatch said the VIX was around 21.13 on Wednesday, above its long-term average, while Oracle's options-implied move was roughly 11% into earnings.",
+        "note": "That is a high-volatility, event-heavy regime where overnight price action can mislead and regular-session liquidity matters more than thin pre-market prints."
+      }
+    },
+    "forecast": [
+      "Base case: the U.S. session opens with pressure on software and AI-capex names because Oracle's beat was not enough to satisfy investors on capex, margins, and financing. If QQQ and IGV cannot reclaim VWAP in the first hour, expect sellers to stay in control.",
+      "Bull case: PPI and rates do not worsen the macro picture, oil stays contained, and equal-weight breadth stabilizes. In that setup, healthcare, defense, and quality mega-cap software can hold up better than semis and offer cleaner low-chase pullback entries.",
+      "Bear case: PPI comes in hot, yields push above Wednesday's curve, and crude stays bid on Iran headlines. That combination would likely extend the de-rating in QQQ, SMH, ORCL, and SMCI while dragging IWM lower as financing sensitivity returns.",
+      "Rotation case: the market keeps selling expensive AI infrastructure but does not fully break down. If that happens, watch XLV, XLE, ITA, and selected cash-generative mega-caps rather than trying to bottom-fish second-tier AI names.",
+      "Mean-reversion case: if Oracle's selloff holds inside the options-implied range and semis stop making new lows, a tactical rebound is possible. Even then, the higher-probability entry remains after a first-hour base and VWAP reclaim, not at the opening print."
+    ],
+    "sectors": [
+      {
+        "name": "Semiconductors",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "The market is still de-crowding AI hardware after a two-day selloff, and Oracle plus Super Micro both reinforced that AI demand is strong but capital intensity and dilution risk are rising.",
+        "watch": "Only actionable on the short side below Wednesday's low or after a failed first-hour bounce under VWAP in SMH with NVDA and AVGO also failing to confirm. Any long setup is watch-only until regular-session volume repairs the structure.",
+        "risk": "Invalidated if SMH, NVDA, and AVGO all reclaim VWAP with broad participation and yields stop rising, which would indicate the de-crowding wave is at least pausing."
+      },
+      {
+        "name": "Cloud And Enterprise Software",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "Oracle's strong quarter still produced an after-hours selloff because investors focused on capex, free-cash-flow strain, margin pressure, and additional capital raises.",
+        "watch": "Watch ORCL, IGV, and MSFT in the first 30 to 60 minutes. If software cannot hold its opening range even with calmer index futures, the group's valuation reset is likely still underway.",
+        "risk": "Invalidated if Oracle stabilizes quickly, software breadth improves, and the group holds above VWAP despite early weakness."
+      },
+      {
+        "name": "Healthcare And Obesity Therapeutics",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "Healthcare remains one of the cleaner relative-strength areas because earnings visibility, margins, and balance sheets are better insulated from the AI-capex reset and from immediate tariff noise.",
+        "watch": "Prefer pullbacks that hold VWAP in XLV and leaders such as LLY rather than chasing strength at the open. The setup improves if healthcare is green while QQQ remains weak.",
+        "risk": "Invalidated if the market rotates hard back into high-beta growth and healthcare loses relative strength while volume fades."
+      },
+      {
+        "name": "Energy",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Trump/Iran rhetoric and still-elevated crude keep cash-flow support in place for integrated oils even after sharp prior swings in the oil market.",
+        "watch": "Only actionable if crude stays firm into the U.S. cash session and XLE or XOM clear the opening range with real volume. Avoid chasing a one-candle pre-market spike.",
+        "risk": "Invalidated if oil fades on de-escalation headlines or if XLE cannot hold its first pullback above VWAP."
+      },
+      {
+        "name": "Defense And Aerospace",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Persistent Middle East conflict and a national-security push from Washington keep defense spending and strategic-technology demand in focus.",
+        "watch": "Prefer liquid names and ETF confirmation through ITA rather than thin headline chases. The trade is cleaner if defense outperforms even while the broader market remains unstable.",
+        "risk": "Invalidated if geopolitical rhetoric cools abruptly and the group fails to hold its opening range."
+      },
+      {
+        "name": "Industrials And Metals Users",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "The June 1 White House tariff adjustment on aluminum, steel, and copper raises input-cost and margin risk for machinery and downstream industrial users at the same time inflation remains elevated.",
+        "watch": "Only press the short on failed bounces in XLI or names like CAT after the open. Do not assume tariff fear matters unless price and volume show real rejection.",
+        "risk": "Invalidated if industrials keep participating broadly and margin concerns do not translate into relative weakness."
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SPY",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only below Wednesday's low or after a failed first-hour rally under regular-session VWAP; otherwise wait for the market to prove that sellers still control breadth.",
+        "suggestedProfitTake": "Take partial profits into a fast downside extension or if equal-weight breadth improves while SPY stops making lower lows.",
+        "type": "broad market ETF",
+        "catalyst": "Wednesday's 1.6% decline, elevated VIX, and continuing geopolitical inflation pressure keep the broad index vulnerable to another unstable session.",
+        "why": "The S&P 500 is no longer a clean buy-the-dip tape. Fundamentally, policy and energy shocks are compressing valuation tolerance, while technically the index needs a real VWAP reclaim and better sector participation before a long setup improves. Volume matters because overnight stabilization has repeatedly failed in the cash session.",
+        "risk": "Invalidated if SPY reclaims VWAP with stronger breadth across defensives and cyclicals rather than just a few megacaps."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only actionable below Wednesday's low or on a failed 30 to 60 minute bounce under VWAP with semis and software both lagging. Avoid pressing the short if QQQ reclaims VWAP on improving breadth.",
+        "suggestedProfitTake": "Scale out into weakness because event-heavy Nasdaq sessions can reverse sharply if yields or oil suddenly cool.",
+        "type": "large-cap growth ETF",
+        "catalyst": "Oracle's post-earnings weakness and ongoing AI de-crowding keep QQQ as the main expression of duration and expectations risk.",
+        "why": "QQQ still contains high-quality businesses, but tonight the technical and positioning picture dominates the fundamental one. It is below short-term repair levels, highly options-active, and still vulnerable to a second leg lower if rates or oil rise again. Relative volume in semis and software is the key confirmation signal.",
+        "risk": "Invalidated if QQQ reclaims VWAP while ORCL, NVDA, and MSFT all stabilize and the 10-year yield stops leaning higher."
+      },
+      {
+        "ticker": "SMH",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Triggered only below Wednesday's low or after a weak first-hour bounce fails at VWAP. Do not chase an opening gap lower because semis can squeeze violently.",
+        "suggestedProfitTake": "Take profits incrementally into fast downside moves and avoid overstaying if volume dries up after the first leg lower.",
+        "type": "semiconductor ETF",
+        "catalyst": "The AI hardware demand story remains strong, but Oracle and Super Micro underscored that investors now care about returns on capital, funding strain, and margin durability.",
+        "why": "Fundamentally the group still has strong secular demand, but technically it is the most crowded and most sensitive pocket when rates, oil, and dilution fears combine. Relative weakness versus SPY and a failure to hold prior support would confirm that institutions are still reducing exposure rather than just rotating internally.",
+        "risk": "Invalidated if SMH reclaims VWAP with confirmation from NVDA, AVGO, and equipment names on above-normal volume."
+      },
+      {
+        "ticker": "XLV",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Wait for a first pullback to hold above VWAP or for a clean breakout with broad healthcare confirmation. There is no edge in chasing an opening pop.",
+        "suggestedProfitTake": "Trim into new highs or when relative strength versus SPY stalls while volume fades.",
+        "type": "healthcare sector ETF",
+        "catalyst": "Healthcare remains one of the cleaner quality-growth and defensive-growth groups in a market that is punishing capital-intensive AI expansion.",
+        "why": "XLV offers better earnings visibility, healthier balance sheets, and less direct exposure to oil-driven duration swings than crowded AI beta. Technically it tends to work best when markets rotate out of expensive momentum and into quality. Volume should stay orderly rather than spike only on headlines.",
+        "risk": "Invalidated if healthcare loses relative strength while the market pivots decisively back to semis and speculative growth."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Actionable only if crude remains firm into the regular session and XLE clears its opening range with confirmation from XOM and CVX; avoid chasing if strength is only overnight noise.",
+        "suggestedProfitTake": "Trim into headline-driven spikes or if crude stops advancing while the ETF stretches beyond what volume supports.",
+        "type": "energy sector ETF",
+        "catalyst": "Middle East risk and higher energy-linked inflation keep energy cash flows in focus even while the rest of the market struggles with rate pressure.",
+        "why": "Energy is one of the few sectors where the macro backdrop can directly support earnings and free cash flow rather than only compress valuation. Technically the group works best when oil, integrated majors, and services names confirm together rather than when a single headline triggers a thin spike.",
+        "risk": "Invalidated if oil fades on de-escalation headlines or if XLE fails to hold its first pullback above VWAP."
+      },
+      {
+        "ticker": "ITA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only after the first 30 minutes if ITA holds above VWAP and broader defense names confirm. Avoid chasing a headline gap without follow-through volume.",
+        "suggestedProfitTake": "Take partials into fast strength if the move becomes purely geopolitical and breadth inside the ETF narrows.",
+        "type": "defense and aerospace ETF",
+        "catalyst": "U.S.-Iran tensions and Washington's national-security AI push keep defense and strategic-technology spending themes alive.",
+        "why": "Defense has cleaner earnings visibility than many cyclical groups and benefits from both geopolitical hedging and structural budget support. Technically it is most attractive when it outperforms in a weak tape instead of relying on a brief fear bid.",
+        "risk": "Invalidated if tension headlines cool and the ETF loses VWAP while the broader market remains weak."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only below VWAP after a failed early rebound or below Wednesday's low if yields rise again. Stand aside if breadth improves and rates stabilize.",
+        "suggestedProfitTake": "Cover into downside breaks that start losing momentum or if yields reverse lower intraday.",
+        "type": "small-cap ETF",
+        "catalyst": "Small caps remain exposed to financing costs, weaker balance sheets, and a still-high 10-year yield.",
+        "why": "IWM can outperform tactically, but structurally it still needs lower yields and wider risk appetite. Fundamentally the balance-sheet quality is weaker than in large caps, while technically failed bounces under VWAP tend to matter more when the macro tape is unstable.",
+        "risk": "Invalidated if IWM leads breadth on strong advancing volume while yields stay contained."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only if Thursday's PPI and the post-open rates tape push the 10-year yield lower; before that it is watch-only, not a pre-market chase.",
+        "suggestedProfitTake": "Trim into a sharp rates rally if the move becomes purely event-driven and equities stop confirming.",
+        "type": "long-duration Treasury ETF",
+        "catalyst": "A softer inflation follow-through or easing geopolitical pressure would give bonds room to catch a relief bid.",
+        "why": "TLT is the direct expression of a rates-cooling scenario that could also stabilize broad risk assets. Technically it only becomes attractive if the market starts rejecting the higher-for-longer path instead of merely pausing it for a few hours.",
+        "risk": "Invalidated immediately by hotter producer inflation, stronger oil, or another geopolitical inflation shock that sends yields higher again."
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Watch only unless the stock fails a first-hour bounce under VWAP or breaks Wednesday's low with SMH confirming. Avoid chasing a thin pre-market drop or a thin pre-market rebound.",
+        "suggestedProfitTake": "Take partial profits into a sharp extension lower because the stock can reverse quickly when yields ease or shorts crowd in.",
+        "type": "AI / options-active mega-cap",
+        "catalyst": "Nvidia remains the market's most important AI expectations barometer, and the current tape is questioning how much capital intensity the market will tolerate across the stack.",
+        "why": "Fundamentally Nvidia still has elite growth, margins, and balance-sheet strength. Technically that is not enough by itself in a de-crowding phase; the stock needs a volume-backed regular-session repair before the long side becomes higher quality. Relative strength versus SMH and QQQ is the main tell.",
+        "risk": "Invalidated if NVDA reclaims VWAP on strong volume while yields stabilize and semis broadly recover."
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Actionable only on orderly pullbacks that hold VWAP or on a breakout if software breadth improves after the open. Do not treat overnight green prints as confirmation.",
+        "suggestedProfitTake": "Trim into resistance or if MSFT rises while the rest of software fails to confirm.",
+        "type": "mega-cap platform / cash-generative AI beneficiary",
+        "catalyst": "Microsoft is still one of the cleaner monetization stories in enterprise AI and cloud, which matters when the market is punishing weaker free-cash-flow profiles elsewhere.",
+        "why": "Fundamentally Microsoft combines durable free cash flow, fortress balance sheet quality, and less financing sensitivity than Oracle or Super Micro. Technically it works best when it outperforms QQQ on a weak day, not when it simply bounces with everything else.",
+        "risk": "Invalidated if MSFT cannot hold VWAP while QQQ and software breadth remain weak."
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only actionable below Wednesday's low or after a failed first-hour rally at VWAP. If the stock bases cleanly and semis repair, stand aside rather than force the short.",
+        "suggestedProfitTake": "Scale out into fast downside extensions because post-earnings semiconductor names can snap back hard.",
+        "type": "AI semiconductor and infrastructure software",
+        "catalyst": "Broadcom still has strong AI demand, but the tape is no longer rewarding even strong AI names automatically when capex, rates, and crowding all matter.",
+        "why": "The business quality is strong, but technically the stock still needs repair after the broader AI reset. Relative strength, volume, and behavior versus SMH matter more than the long-term thesis in tonight's session.",
+        "risk": "Invalidated if AVGO reclaims VWAP with strong volume and broader semiconductor participation."
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only consider after the regular-session open and only if the post-earnings gap cannot reclaim VWAP or the opening range. If it stabilizes quickly, do not force it.",
+        "suggestedProfitTake": "Take profits into downside follow-through below the opening range or into an exhaustion move because post-earnings reversals are common once IV starts to collapse.",
+        "type": "cloud infrastructure / post-earnings AI capex verdict",
+        "catalyst": "Oracle beat on revenue and EPS, posted 93% OCI growth, and lifted its outlook, but heavy capex, negative free cash flow, and expected funding needs drove the stock lower after hours.",
+        "why": "Fundamentally demand is real, but the market is now stress-testing whether the economics of AI infrastructure justify the capital being deployed. Technically the stock is reacting like an expensive, crowded AI beneficiary whose expected move is being used for de-risking rather than fresh accumulation. Compare the actual move to the roughly 11% implied move and watch whether sellers still dominate after the open.",
+        "risk": "Invalidated if ORCL reclaims VWAP and its opening range with improving software breadth, which would suggest the initial capex scare is getting absorbed."
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Triggered only below the first bounce failure or below the prior day's low. Avoid chasing a deeply oversold pre-market print unless regular-session volume keeps confirming supply.",
+        "suggestedProfitTake": "Take profits quickly into sharp downdrafts because heavily shorted AI infrastructure names can mean-revert violently.",
+        "type": "AI server maker / financing-sensitive mover",
+        "catalyst": "Super Micro's $7 billion financing plan to support roughly $39 billion of new AI server orders deepened the market's concern about dilution and weak margin quality inside the AI buildout trade.",
+        "why": "Demand is impressive, but the fundamentals are less durable than for mega-cap peers because margins are thinner, financing needs are larger, and credibility risk remains higher. Technically the stock is below key support and trading more on balance-sheet stress than on backlog excitement. Volume confirmation is crucial because oversold squeezes are common.",
+        "risk": "Invalidated if SMCI reclaims VWAP and the opening range while AI hardware breadth improves materially."
+      },
+      {
+        "ticker": "LLY",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Actionable on orderly pullbacks that hold VWAP or on a controlled breakout with healthcare confirmation. No need to chase a gap in a defensive-growth leader.",
+        "suggestedProfitTake": "Trim into sharp extensions or fresh highs if intraday volume fades after the initial push.",
+        "type": "defensive growth / obesity therapeutics leader",
+        "catalyst": "Lilly remains one of the market's cleaner earnings-visibility stories and does not depend on fresh AI financing appetite to work.",
+        "why": "Lilly combines real revenue growth, strong margins, cash-generation quality, and balance-sheet strength. Technically it offers cleaner relative strength than the AI complex when rates or geopolitics pressure risk assets. Breakouts still need volume, but the fundamental base is sturdier than most growth alternatives tonight.",
+        "risk": "Invalidated if healthcare loses relative strength or if LLY cannot hold its breakout area while the broader market rebounds."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only if crude remains firm and XOM either holds the first pullback above VWAP or clears the opening range with sector support. Avoid chasing a thin pre-market pop.",
+        "suggestedProfitTake": "Trim into fast oil-driven spikes or if crude strength decouples from equity participation.",
+        "type": "integrated oil major / geopolitical hedge",
+        "catalyst": "Energy prices remain headline-sensitive, and Exxon is one of the cleaner large-cap vehicles for expressing persistent Middle East supply risk.",
+        "why": "Exxon offers stronger balance-sheet quality, cash-flow resilience, and capital discipline than smaller energy names. Technically it works best when crude, XLE, and the integrated majors confirm together rather than when one headline creates a temporary spike.",
+        "risk": "Invalidated if crude fades, if XLE leadership narrows, or if XOM cannot stay above VWAP after the first hour."
+      },
+      {
+        "ticker": "RTX",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Wait for a first-hour base or a pullback hold above VWAP with ITA confirming. If the stock gaps too far on headlines, leave it alone until it digests.",
+        "suggestedProfitTake": "Take partials into new highs or into a sharp extension if the move becomes purely fear-driven and volume narrows.",
+        "type": "defense prime / geopolitical beneficiary",
+        "catalyst": "Persistent Middle East risk and Washington's national-security emphasis keep defense demand and budget narratives supportive.",
+        "why": "RTX offers a liquid, institutionally sponsored way to express the defense theme without relying on weaker balance-sheet names. Technically it becomes more attractive when it outperforms in a weak tape and volume remains steady instead of spiking only on headlines.",
+        "risk": "Invalidated if geopolitical headlines cool abruptly or if the stock loses VWAP while ITA also weakens."
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "IONQ",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only after a first-hour base or VWAP reclaim and only if QQQ plus speculative tech stabilize. If the stock opens extended, wait for IV to cool before considering any entry.",
+        "suggestedProfitTake": "Take partials aggressively into strength because quantum names can overshoot and then mean-revert once the initial volume impulse fades.",
+        "type": "quantum computing high-beta growth",
+        "catalyst": "Speculative innovation themes can still catch flows if rates cool, but they remain second-order trades rather than true market leadership.",
+        "why": "IonQ is liquid enough to matter for momentum traders, but it remains a narrative-rich, high-beta vehicle rather than a cash-flow anchor. The setup only improves if broader risk appetite returns and volume confirms genuine participation instead of retail-only bursts.",
+        "risk": "Invalidated if it loses VWAP early or if the broader high-beta tech tape remains under pressure."
+      },
+      {
+        "ticker": "SOUN",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Watch only until the first 30 to 60 minutes finish; actionable only on a clean VWAP reclaim with sustained volume well above normal.",
+        "suggestedProfitTake": "Take profits into quick squeezes because the stock remains speculative, unprofitable, and retail-sensitive.",
+        "type": "voice AI / application-layer small-cap",
+        "catalyst": "If the market stops punishing every AI-adjacent name equally, smaller software names can bounce hard, but they still require calmer rates and real participation.",
+        "why": "The story can attract speculative money, but the fundamentals remain weaker than in larger cash-generative AI leaders. Technical discipline matters more than the headline narrative because these names often fail once early momentum dries up.",
+        "risk": "Invalidated if SOUN cannot hold VWAP or if software ETFs fail to confirm."
+      },
+      {
+        "ticker": "JOBY",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only above the opening-range high or after a first-hour base if speculative growth stabilizes. Otherwise leave it alone.",
+        "suggestedProfitTake": "Take profits quickly into sharp extensions because certification and policy headlines can create fast but fragile momentum.",
+        "type": "eVTOL / pre-profit mobility",
+        "catalyst": "Speculative innovation themes can bounce if yields soften, but funding and certification risk remain the core reality.",
+        "why": "Joby has a clearer operational roadmap than many tiny-cap peers, but it is still pre-profit and highly dependent on favorable capital markets. Technical timing matters far more than the long-term story on a day like tonight.",
+        "risk": "Invalidated if it loses VWAP while IWM and speculative growth names remain weak."
+      },
+      {
+        "ticker": "ASTS",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only consider on the short side below the opening-range low or on a failed VWAP reclaim if the stock extends again without broader space-sector confirmation.",
+        "suggestedProfitTake": "Cover partials quickly into sharp drops because the stock remains news-sensitive and can reverse hard if buyers defend the trend.",
+        "type": "space connectivity high-beta growth name",
+        "catalyst": "The stock still carries strategic optionality, but its valuation remains rich relative to current revenue in a market that is becoming less forgiving of long-duration stories.",
+        "why": "Fundamentally ASTS remains unprofitable and capital-intensive. Technically it is better suited as a watch-for-failure name than as a fresh long when the market is already de-risking expensive narratives.",
+        "risk": "Invalidated if ASTS reclaims and holds VWAP with real volume while broader speculative growth strengthens."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Options And Volatility Watch",
+        "items": [
+          "The VIX near 21.13 keeps the market in a regime where 0DTE hedging can amplify both downside breaks and sharp reversals. That means extended-hours direction is lower quality than regular-session confirmation.",
+          "Oracle's options market had implied roughly an 11% earnings move before the print. The after-hours decline of roughly 6% to 10% is large but still broadly inside that envelope, which means IV crush can matter as much as price direction at Thursday's open.",
+          "For index traders, elevated implied volatility argues for smaller size and cleaner triggers. A QQQ or SMH bounce without declining implied stress, improving breadth, and actual cash-session volume is more likely short-covering than durable repair.",
+          "Single-name options signals in AI hardware should be treated carefully tonight. When the market is repricing funding quality, heavy call activity can be a contrarian warning rather than a confirmation signal."
+        ]
+      },
+      {
+        "title": "Entry Timing And Risk Controls",
+        "items": [
+          "Do not treat thin pre-market strength as confirmation. For every long setup tonight, the cleaner trigger is either a first-hour base, an opening-range break with volume, or a regular-session VWAP reclaim.",
+          "For short setups in semis, software, and speculative growth, the higher-quality trigger is a failed first bounce or a break of Wednesday's low. Chasing a gap-down open is lower quality because squeezes are common when IV is elevated.",
+          "If oil and the 10-year both rise after the open, reduce long-duration exposure first. If they both cool, then quality longs such as XLV, LLY, or MSFT get a better tactical backdrop.",
+          "Invalidation matters more than prediction tonight. If a name reclaims VWAP with improving breadth and above-normal volume, the correct move is usually to step aside rather than stay stubborn."
+        ]
+      },
+      {
+        "title": "Company And Sector Highlights",
+        "items": [
+          "Oracle showed the market's new AI test in one print: demand, cloud growth, and backlog were strong, but investors focused on capex, negative free cash flow, and more financing. That is bearish for low-margin or capital-hungry AI beneficiaries even if demand stays healthy.",
+          "Super Micro reinforced the same message. Roughly $39 billion of order momentum was not enough to overcome dilution fears from the $7 billion financing package.",
+          "Healthcare remains a relative-strength contrast. It offers real earnings quality and better balance sheets without needing the market to keep paying a higher multiple for infrastructure-heavy AI buildout.",
+          "Energy and defense remain macro-expression sectors rather than pure micro stories. They can work, but only if the cross-asset backdrop confirms."
+        ]
+      },
+      {
+        "title": "Geopolitics And Policy",
+        "items": [
+          "Trump's Iran rhetoric helped push oil higher and accelerated Wednesday's risk-off move. That is the main non-company variable to watch before the U.S. open.",
+          "The market still has to price the inflation and supply implications of any renewed Strait of Hormuz stress. If shipping risk rises again, airlines, industrials, and small caps likely absorb more pressure than integrated oils.",
+          "Tariff policy is also a live market input. The administration's June 1 adjustment to aluminum, steel, and copper import regimes raises cost sensitivity for downstream machinery and industrial users."
+        ]
+      },
+      {
+        "title": "Technology And Innovation Watch",
+        "items": [
+          "Washington's AI national-security directive reinforces the strategic importance of advanced AI, but the equity market is currently separating strategic importance from shareholder return quality.",
+          "That means the right question tonight is not whether AI demand exists. It is whether margins, financing structure, and returns on invested capital still justify current valuations across the supply chain.",
+          "Mega-cap platforms with cash flow and balance-sheet strength remain fundamentally safer than second-tier AI infrastructure names, but even they need better technical repair before aggressive entries make sense."
+        ]
+      },
+      {
+        "title": "Trump Administration And Washington Watch",
+        "items": [
+          "The administration's Iran posture is the most immediate market-moving Washington input because it directly affects oil, inflation expectations, defense spending narratives, and safe-haven positioning.",
+          "The White House's metals tariff changes remain relevant for industrial margin assumptions and for domestic-input-price sensitivity in machinery, autos, and construction-linked names.",
+          "The administration's AI security push is bullish for long-run strategic spending but also raises the likelihood that AI winners are judged more on execution and financing discipline, not just headline demand."
+        ]
+      },
+      {
+        "title": "Credit, Positioning, And Market Internals",
+        "items": [
+          "Wednesday looked more like de-crowding than full panic. The equal-weight S&P's recent outperformance versus the cap-weighted index suggests the market is mainly unwinding concentration in AI leaders rather than completely abandoning equities.",
+          "That distinction matters for timing. If breadth stabilizes while semis remain weak, there may still be selective long setups in healthcare, defense, and energy rather than a blanket risk-off message.",
+          "Watch whether funding-sensitive groups such as IWM and SMCI remain weak even if the major indices try to bounce. If they do, the market is still prioritizing balance-sheet quality and liquidity discipline."
+        ]
+      },
+      {
+        "title": "Earnings And Macro Calendar",
+        "items": [
+          "Oracle's regular-session reaction on Thursday, June 11 is the first major post-close read for software, cloud, and AI capex appetite.",
+          "U.S. Producer Price Index for May is due at 20:30 Beijing / 08:30 ET on Thursday, June 11. If producer inflation runs hotter than the softer core CPI details suggested, the rates problem can quickly return.",
+          "Keep watching oil-sensitive and tariff-sensitive commentary around the open because cross-asset headlines are moving faster than most company fundamentals right now."
+        ]
+      },
+      {
+        "title": "Why It Matters",
+        "items": [
+          "This is the phase of the cycle where good demand alone is no longer enough. Investors are now asking who can fund growth, protect margins, and survive a higher-rate, higher-energy backdrop without leaning on constant external capital.",
+          "That shift changes execution. Cleaner trades are showing up in high-quality defensives, energy hedges, and selective defense exposure, while many AI and high-beta names have moved from trend-following longs to event-driven trading vehicles.",
+          "For tonight's U.S. session, patience is part of the edge. Waiting for real volume and a cash-session trigger is likely more valuable than being early on any overnight narrative."
+        ]
+      }
+    ],
+    "catalystCalendar": [
+      {
+        "date": "2026-06-11 20:30 Beijing / 08:30 ET",
+        "event": "U.S. Producer Price Index for May 2026",
+        "watch": "This is the next macro test for whether Wednesday's softer core-CPI details were a real relief signal or just a temporary offset to headline energy inflation.",
+        "relatedTickers": "SPY, QQQ, TLT, XLI, IWM"
+      },
+      {
+        "date": "2026-06-11 regular U.S. session",
+        "event": "Oracle post-earnings price discovery",
+        "watch": "Focus on whether ORCL can reclaim VWAP and whether IGV, XLK, and AI-capex names follow. The first 30 to 60 minutes matter more than the initial gap.",
+        "relatedTickers": "ORCL, IGV, XLK, MSFT, NVDA"
+      },
+      {
+        "date": "Ongoing during the June 11 U.S. session",
+        "event": "Iran, oil, and White House headline flow",
+        "watch": "Oil, defense, airlines, industrials, and rates can all react faster to these headlines than to company fundamentals.",
+        "relatedTickers": "XLE, XOM, ITA, DAL, SPY"
+      },
+      {
+        "date": "Effective backdrop into June 11",
+        "event": "White House metals tariff regime changes",
+        "watch": "Watch for downstream margin sensitivity in machinery, transports, and metals-consuming industrial names.",
+        "relatedTickers": "XLI, CAT, NUE, NUE, PAVE"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-06-10",
+        "ticker": "SMH",
+        "status": "hit",
+        "result": "The June 10 briefing kept semiconductors in the high-risk, confirmation-required bucket. Wednesday validated that caution as the Nasdaq fell 2.0% and the AI complex stayed under distribution.",
+        "lesson": "Strong long-term fundamentals do not overrule near-term positioning stress. In crowded AI trades, timing and volume confirmation remain first-order variables."
+      },
+      {
+        "date": "2026-06-10",
+        "ticker": "IWM",
+        "status": "hit",
+        "result": "The prior briefing treated small caps as conditional rather than a clean catch-up long. Wednesday's 1.1% Russell decline showed that financing sensitivity still matters when yields stay elevated.",
+        "lesson": "Small-cap bullishness should be earned by calmer rates and better breadth, not assumed from one rotation day."
+      },
+      {
+        "date": "2026-06-10",
+        "ticker": "ORCL",
+        "status": "hit",
+        "result": "The prior briefing framed Oracle as watch-only into earnings because IV, capex, and leverage risk mattered as much as the headline beat. The post-earnings selloff confirmed that pre-event caution was the right stance.",
+        "lesson": "For event names, a strong quarter can still be a poor trade if the market is focused on financing quality and return on capital."
+      }
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "LLY",
+        "title": "Defensive growth with cleaner sponsorship",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "Use only on orderly pullbacks that hold VWAP or on a controlled breakout with healthcare confirmation.",
+        "reason": "Pipeline depth, free-cash-flow quality, and lower dependence on falling yields make Lilly a better-quality long than crowded AI beta in tonight's tape.",
+        "convictionScore": 4,
+        "timeframe": "trade for 1 to 3 days"
+      },
+      "bestShort": {
+        "ticker": "SMH",
+        "title": "Crowded AI beta still under distribution",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "Only below Wednesday's low or after a failed first-hour rally at VWAP.",
+        "reason": "Oracle and Super Micro both reinforced that the market is re-pricing capital intensity and dilution across AI infrastructure.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "XLV",
+        "title": "Cleaner quality rotation vehicle",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "Actionable only after a pullback holds VWAP or on a controlled breakout with broad healthcare confirmation.",
+        "reason": "Healthcare currently offers better earnings quality and less financing sensitivity than the AI complex.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "ORCL",
+        "title": "Post-earnings AI capex stress test",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "Prefer post-open confirmation only; if the gap cannot reclaim VWAP, the move can extend, but event volatility remains high.",
+        "reason": "The print was good, but the market is punishing capex and financing strain. That creates opportunity, but only with disciplined timing.",
+        "convictionScore": 3,
+        "timeframe": "event trade"
+      },
+      "avoidWait": {
+        "ticker": "NVDA",
+        "title": "Do not chase the first bounce",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "Avoid unless a failed bounce under VWAP gives a clean structure; otherwise wait for the tape to calm.",
+        "reason": "The company is still strong fundamentally, but the stock remains the market's most crowded AI expression and can whipsaw violently in an elevated-VIX session.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      }
+    },
+    "sources": [
+      {
+        "label": "AP market close recap for June 10, 2026",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/f200bcea8e8c66c07539651474569506"
+      },
+      {
+        "label": "BLS Consumer Price Index Summary for May 2026",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+      },
+      {
+        "label": "U.S. Treasury daily yield curve rates",
+        "confidence": "Primary",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+      },
+      {
+        "label": "BLS Producer Price Index release schedule",
+        "confidence": "Calendar",
+        "url": "https://www.bls.gov/schedule/news_release/ppi.htm"
+      },
+      {
+        "label": "MarketWatch on the VIX staying elevated",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-us-strikes-iran-cpi-oracle-results/card/wall-street-fear-gauge-remains-elevated-after-latest-market-wobble--NRWx23cMGVheQoAwaSGo"
+      },
+      {
+        "label": "MarketWatch on Oracle's post-earnings selloff",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309"
+      },
+      {
+        "label": "WSJ on Oracle's quarter and cloud growth",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/business/earnings/oracle-reports-higher-profit-on-surging-cloud-revenue-5f7d25eb"
+      },
+      {
+        "label": "Barron's on Oracle capex and stock reaction",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/oracle-earnings-ai-cloud-stock-c2570ca6"
+      },
+      {
+        "label": "Investopedia on Super Micro's $7 billion financing plan",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investopedia.com/supermicro-said-it-wants-to-raise-usd7b-to-meet-ai-demand-the-stock-is-tumbling-to-lead-s-and-p-500-losses-smci-11994709"
+      },
+      {
+        "label": "WSJ live market coverage on Trump's Iran post and oil",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/livecoverage/stock-market-cpi-inflation-06-10-2026/card/trump-post-on-iran-accelerates-stock-sell-off-sends-oil-higher-HJ2tHQj71YFjmz2EFMxF"
+      },
+      {
+        "label": "MarketWatch on oil jumping after Trump threats on Iran",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-us-strikes-iran-cpi-oracle-results/card/oil-prices-jump-more-than-3-as-trump-threatens-more-iran-strikes-krBmZiXUn8173nnwHouO"
+      },
+      {
+        "label": "Barron's on Treasury yields and dollar after CPI and Iran tensions",
+        "confidence": "Market data",
+        "url": "https://www.barrons.com/livecoverage/stock-market-news-today-061026/card/treasury-yields-dollar-little-changed-on-inflation-data-iran-tensions-vDtClq6mY6VqdJ2KLECf"
+      },
+      {
+        "label": "MarketWatch on equal-weight S&P outperformance versus cap-weighted index",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-us-strikes-iran-cpi-oracle-results/card/investors-aren-t-selling-everything-in-june-zC0elAdAMVXf27iyVRI5"
+      },
+      {
+        "label": "White House AI directive for the national security enterprise",
+        "confidence": "Primary",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/"
+      },
+      {
+        "label": "White House tariff action on aluminum, steel, and copper",
+        "confidence": "Primary",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/"
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-06-10 08:00 GMT+8",
