@@ -1,5 +1,630 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-06-20",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-20 08:00 GMT+8",
+    "title": "U.S. Market Brief - 2026-06-20",
+    "tone": "Weekend planning mode: Saturday, June 20, 2026 in Shanghai follows a full U.S. Juneteenth market closure on Friday, June 19, so the edge is to prepare for Monday, June 22 cash-session confirmation rather than chase stale holiday or overnight moves.",
+    "priorities": [
+      "Saturday, June 20, 2026 in Shanghai falls after the full U.S. Juneteenth closure on Friday, June 19, 2026. The next full NYSE and Nasdaq cash session is Monday, June 22, 2026 in the United States, which is Monday night, June 22 in Beijing time.",
+      "Use Monday's first 30 to 60 minutes as the real signal. SPY, QQQ, SMH, XLF, and IWM should either defend or quickly reclaim VWAP with healthy breadth before any long setup is treated as actionable.",
+      "Keep regime inputs ahead of ticker chasing. Oil stability after Hormuz traffic resumed, the 10-year Treasury yield near Thursday's 4.46%, and whether financials plus small caps confirm semiconductors will decide whether Thursday's rebound can extend.",
+      "Semiconductors and memory still have the cleaner AI demand story, but Micron's Wednesday, June 24 earnings event means extended winners should be treated as wait-for-pullback or trigger-only setups, not automatic chases.",
+      "Washington remains a live macro variable. The Trump administration's tariff case, reshoring rhetoric, and Iran-related policy headlines can reprice industrial, hardware, and rate-sensitive growth sectors faster than bottom-up narratives alone."
+    ],
+    "summary": [
+      "No new U.S. cash-equity price discovery occurred after the June 19 Shanghai briefing because Friday, June 19, 2026 was a full Juneteenth holiday for NYSE, Nasdaq, and regular Cboe U.S. options trading.",
+      "The latest U.S. cash close therefore remains Thursday, June 18, 2026: the S&P 500 finished at 7,500.58, the Nasdaq at 26,517.93, the Dow at 51,564.70, and the Russell 2000 at 2,979.77.",
+      "The Federal Reserve held the fed-funds target at 3.50% to 3.75% on Wednesday, June 17, 2026 and repeated that inflation is still elevated, which keeps long-duration growth sensitive to any renewed yield backup next week.",
+      "Treasury yields eased from the post-FOMC spike but stayed restrictive at roughly 4.19% on the 2-year, 4.46% on the 10-year, and 4.90% on the 30-year as of Thursday, June 18.",
+      "Index volatility cooled, with VIX at 16.40 on Thursday, June 18, but that mainly says broad panic faded; it does not remove single-name event risk ahead of Micron earnings or erase software breakdown risk after Accenture.",
+      "Oil shock pressure has eased because ships have started moving through the Strait of Hormuz again, but AP also notes that normal energy flows can still take weeks or months to normalize, so the relief trade remains conditional.",
+      "Semiconductors, memory, and selected financials still look like the stronger relative-strength pockets, while software and IT services remain the cleaner weak-tape candidates after Adobe, Oracle, and Accenture failed to earn investor trust.",
+      "The practical stance is patient and conditional: because there is no reliable U.S. pre-market read yet early Saturday in Shanghai, wait for Monday's regular session, judge entries against VWAP, breadth, and volume, and avoid treating thin extended-hours prints as proof."
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "7,500.58 at the latest U.S. cash close on Thursday, June 18, 2026.",
+        "note": "That rebound repaired much of the post-FOMC damage, but the next trustworthy confirmation point is Monday, June 22 regular-session breadth and VWAP behavior."
+      },
+      "Nasdaq": {
+        "value": "26,517.93 at the latest U.S. cash close on Thursday, June 18, 2026.",
+        "note": "Leadership came back through semiconductors and memory, yet Monday still needs to show software weakness will not reassert control."
+      },
+      "Dow": {
+        "value": "51,564.70 at the latest U.S. cash close on Thursday, June 18, 2026.",
+        "note": "The Dow lagged tech on Thursday, so the market still needs broader cyclicals and financials to validate a durable follow-through."
+      },
+      "Russell 2000": {
+        "value": "2,979.77 at the latest U.S. cash close on Thursday, June 18, 2026.",
+        "note": "Small-cap outperformance was a healthy breadth signal, but it only upgrades to higher conviction if IWM holds that leadership on Monday after the open."
+      },
+      "Treasury Yields": {
+        "value": "Thursday, June 18 Treasury rates were about 4.19% on the 2-year, 4.46% on the 10-year, and 4.90% on the 30-year.",
+        "note": "Those levels are calmer than the post-FOMC spike but still restrictive enough to matter for valuation-heavy growth."
+      },
+      "Oil": {
+        "value": "Crude has backed off the war-panic highs as Hormuz traffic started moving again, but energy markets are still above their pre-war baseline.",
+        "note": "Oil relief helps growth, airlines, and small caps only if the shipping normalization keeps holding into next week."
+      },
+      "FX / Dollar": {
+        "value": "The dollar backdrop matters more as a Monday confirmation tool than as a Saturday signal because U.S. cash markets are closed and there is no live institutional equity tape to validate cross-asset moves.",
+        "note": "A firmer dollar alongside higher yields on Monday would be a warning against chasing already-extended tech leadership."
+      },
+      "Volatility / Options": {
+        "value": "VIX closed at 16.40 on Thursday, June 18, and regular U.S. options trading was closed Friday, June 19 for Juneteenth.",
+        "note": "Lower index volatility does not remove single-name event risk; it mainly means Monday should be judged by real cash-session positioning rather than holiday noise."
+      }
+    },
+    "forecast": [
+      "Base case for Monday, June 22 U.S. time: the market opens steady to modestly firm, then spends the first hour proving whether Thursday's rebound can hold once real cash liquidity returns. The key tell is whether SPY, QQQ, and IWM defend VWAP after the opening rotation.",
+      "Bull case: oil stays calmer, the 10-year Treasury yield remains near or below Thursday's 4.46%, and semiconductors keep leading while financials and small caps confirm. That would favor continuation in SMH, QQQ, XLF, and IWM after a first-pullback hold rather than an opening chase.",
+      "Bear case: tariff, Iran, or rates headlines push yields back up and narrow breadth into a handful of names. In that setup, failed regular-session bounces in IGV, ADBE, ORCL, and ACN offer cleaner risk-reward than buying extended AI winners.",
+      "Rotation case: semiconductors pause but the market does not break; money rotates into financials, select industrials, travel, and small caps. That would still be constructive for the broader tape even if the next move is less mega-cap concentrated.",
+      "Event-risk case: Micron's Wednesday, June 24 earnings keep memory and AI-capex names bid into the event, but the higher the pre-earnings extension runs, the more IV-crush and expectation risk matter after the print."
+    ],
+    "sectors": [
+      {
+        "name": "Semiconductors",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Thursday's rebound restored chip leadership, helped by AI-memory tightness, Intel's Apple headline, and calmer oil/rates pressure.",
+        "watch": "Actionable only on Monday if SMH and leaders such as NVDA, AVGO, MU, and INTC hold the first pullback above VWAP or reclaim it quickly on above-normal regular-session volume.",
+        "risk": "Invalidated if yields rise again, software weakness infects all of tech, or chip leaders fail to outperform QQQ during the first hour."
+      },
+      {
+        "name": "Software And IT Services",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "Adobe, Oracle, and Accenture all reinforced the market's skepticism toward delayed AI monetization, capex-heavy cloud narratives, and weakening services demand.",
+        "watch": "Best setup is a failed regular-session bounce in IGV, ADBE, ORCL, or ACN under VWAP rather than chasing gap-down weakness into the open.",
+        "risk": "Invalidated if software breadth improves materially and the group reclaims VWAP with steady volume rather than short-covering spikes."
+      },
+      {
+        "name": "Financials",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "A still-high but orderly yield backdrop plus broader participation favors banks more than duration-sensitive software.",
+        "watch": "Prefer XLF and liquid money-center banks only if Monday breadth stays positive and yields are firm for benign reasons rather than renewed inflation panic.",
+        "risk": "Invalidated if yields fall because growth is deteriorating or if credit sentiment worsens enough to hit cyclical exposure."
+      },
+      {
+        "name": "Small Caps",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "The Russell 2000 outperformed on Thursday, signaling broader risk appetite beyond the largest AI names.",
+        "watch": "Only actionable if IWM keeps relative strength after the open and does not immediately lose VWAP; the first 30 minutes matter more than any holiday futures print.",
+        "risk": "Invalidated if the 10-year yield turns higher sharply or if breadth narrows back into a handful of megacaps."
+      },
+      {
+        "name": "Energy",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "Easing shipping stress and cooler crude reduce the urgency of owning war-premium energy exposure.",
+        "watch": "Short setups need crude weakness to persist into Monday's cash session and XLE to fail at VWAP. Do not force it while geopolitical headline risk still exists.",
+        "risk": "Invalidated immediately by any supply-shock headline or a sharp oil reversal that restores war-premium pricing."
+      },
+      {
+        "name": "Consumer Discretionary And Travel",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Lower energy stress helps airlines, cruises, and consumer-sensitive groups if the oil relief proves durable.",
+        "watch": "Look for XLY and travel names only if oil remains contained and the group holds opening gains with broad participation, not just one or two high-beta names.",
+        "risk": "Invalidated if oil rebounds, gasoline relief proves temporary, or the market reverts back to a pure AI-only tape."
+      },
+      {
+        "name": "Defense And Aerospace",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "The Iran deal has eased immediate stress, but geopolitical execution risk remains high and keeps defense as a hedge-friendly pocket.",
+        "watch": "Use ITA or liquid components only after a controlled base or first-hour hold; avoid buying emotional headline spikes.",
+        "risk": "Invalidated if diplomacy continues improving and defense names lose relative strength in a stable broader tape."
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SPY",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Wait for Monday's regular session. Only consider long exposure if SPY holds above the first 30-minute range and defends or reclaims VWAP with improving breadth.",
+        "suggestedProfitTake": "Take partial profits into a push through Thursday's high or any momentum extension that is not matched by equal-weight breadth, then trail only while higher lows keep holding above VWAP.",
+        "type": "broad market ETF",
+        "catalyst": "Thursday's rebound repaired the tape, but Friday's Juneteenth closure means the next real decision point is Monday's cash open.",
+        "why": "Fundamentally the broad index benefits from lower oil and calmer shipping stress, but still faces a hawkish Fed and restrictive yields. Technically Thursday was strong, yet holiday gaps are not trustworthy. Volume and breadth confirmation on Monday are essential.",
+        "risk": "Invalidated if SPY loses VWAP and the opening range while crude or yields turn back against the tape."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only after the first 30 to 60 minutes on Monday if QQQ holds VWAP and software damage from ADBE, ORCL, and ACN is not dragging the complex lower. Avoid chasing an opening gap.",
+        "suggestedProfitTake": "Scale out into strength if semis lead but software lags badly, because that split often caps index follow-through.",
+        "type": "large-cap growth ETF",
+        "catalyst": "AI infrastructure leadership revived Thursday, but the group still needs broader confirmation after the holiday.",
+        "why": "QQQ still has the strongest earnings-growth profile, but valuation sensitivity is high with the 10-year near 4.5%. Technically it needs a real cash-session hold, not holiday optimism. Relative volume from both semis and software is the tell.",
+        "risk": "Invalidated if QQQ fails at VWAP, yields gap higher, or software weakness broadens again."
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only after a regular-session pullback holds above VWAP or after a clean opening-range breakout with NVDA, AVGO, MU, and INTC confirming on strong volume.",
+        "suggestedProfitTake": "Trim into sharp upside extensions, especially if momentum outruns breadth or if semis begin diverging from QQQ later in the day.",
+        "type": "semiconductor ETF",
+        "catalyst": "AI-memory strength, Intel's foundry headline, and calmer macro stress all favored semis into the break.",
+        "why": "Fundamentals remain stronger than software because real AI compute and memory demand are still visible. Technically the group is leading again, but some names are extended into event risk. Relative volume and confirmation from top weights matter more than headlines alone.",
+        "risk": "Invalidated if SMH cannot hold the opening range or if yields and oil both move higher and force a broader AI de-risking."
+      },
+      {
+        "ticker": "IGV",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Short only if IGV fails a regular-session bounce under VWAP or breaks Thursday's low on expanding volume; otherwise keep it watch-only.",
+        "suggestedProfitTake": "Cover partials into fast downside extensions because post-event software rebounds can be violent even inside a weak tape.",
+        "type": "software ETF",
+        "catalyst": "Adobe, Oracle, and Accenture all pointed to fragile demand quality or AI monetization skepticism.",
+        "why": "Fundamentally software now faces a pricing-power and disruption debate while rates remain restrictive. Technically the group is weaker than semis and the broad indexes. Volume and failed retests are more trustworthy than overnight gaps.",
+        "risk": "Invalidated if IGV quickly reclaims VWAP with broad participation and the recent post-earnings laggards stabilize."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only consider if IWM holds Thursday's relative strength after Monday's open and does not immediately lose VWAP; wait for the first 30 minutes.",
+        "suggestedProfitTake": "Take profits faster than in SPY if the ETF stalls after an early breakout, because small-cap follow-through can reverse quickly when rates wobble.",
+        "type": "small-cap ETF",
+        "catalyst": "The Russell 2000 led Thursday's session, signaling broader participation beyond megacap AI names.",
+        "why": "Fundamentally small caps still carry more financing sensitivity, so calm yields are essential. Technically the leadership is constructive but not self-validating after a holiday. Volume confirmation is critical because false starts are common here.",
+        "risk": "Invalidated if yields move higher, breadth narrows, or IWM underperforms SPY early while losing the opening range."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Best on a pullback that holds VWAP or after an opening-range breakout with banks and brokers both participating on Monday.",
+        "suggestedProfitTake": "Trim into steady advances if XLF rises while cyclical breadth fades, because that can turn the move into a defensive rates trade rather than a healthy risk-on signal.",
+        "type": "financial sector ETF",
+        "catalyst": "A still-high yield backdrop and broader market participation make financials one of the cleaner non-software expressions of continuation risk-on.",
+        "why": "Large banks have stronger balance sheets and clearer earnings sensitivity to a firm nominal-growth backdrop than speculative software names. Technically the group benefits when the market broadens. Confirmation from money-center banks matters.",
+        "risk": "Invalidated if credit sentiment worsens or if yields fall for recessionary reasons rather than benign inflation easing."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only if crude continues fading into Monday's cash session and XLE fails to reclaim VWAP. Stay watch-only if geopolitical headlines keep oil unstable.",
+        "suggestedProfitTake": "Cover partials into fast downside moves or if crude stops making lower lows.",
+        "type": "energy sector ETF",
+        "catalyst": "Oil shock risk eased as Hormuz traffic began reopening after the memorandum.",
+        "why": "Energy still has solid cash generation, so this is a tactical short rather than a structural bearish call. Technically the setup only works if crude weakness persists into regular trading. Thin holiday softness is not enough.",
+        "risk": "Invalidated by any renewed supply-risk headline, a sharp crude reversal, or a strong XLE reclaim of VWAP with broad participation from integrated oils."
+      },
+      {
+        "ticker": "ITA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only after the first 30 minutes on Monday if ITA holds above VWAP and component breadth confirms; avoid chasing a geopolitical headline gap.",
+        "suggestedProfitTake": "Take partials into fast spikes because geopolitical hedges can unwind abruptly on diplomacy headlines.",
+        "type": "defense and aerospace ETF",
+        "catalyst": "The Iran agreement reduced acute stress but did not remove policy and security execution risk.",
+        "why": "Defense can still act as a hedge-friendly quality industrial group when geopolitical narratives stay active. Technically it works best on orderly bases, not emotional surges. Liquidity is better through the ETF than smaller single names.",
+        "risk": "Invalidated if diplomacy continues improving and ITA cannot hold relative strength versus SPY and XLI."
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Watch only until Monday's regular session; actionable only on a first-pullback hold above VWAP or a clean opening-range breakout with SMH and QQQ confirming. Avoid chasing any thin overnight pop.",
+        "suggestedProfitTake": "Take partial profits into upside extensions if NVDA outruns SMH breadth or fails to add volume after breaking the opening range.",
+        "type": "AI / options-active mega-cap",
+        "catalyst": "Thursday's rebound restored confidence in AI infrastructure leadership as rates eased and oil stress cooled.",
+        "why": "Fundamentally Nvidia still sits on the strongest AI demand profile and balance-sheet quality in the group. Technically it remains a leadership name, but the tape is extended enough that entry quality matters more than the story. Volume confirmation versus SMH is essential.",
+        "risk": "Invalidated if NVDA loses VWAP while SMH and QQQ fade or if yields rise enough to compress AI multiples again."
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only consider after Monday's first 30 to 60 minutes if AVGO holds above VWAP and the broader chip complex is not diverging lower.",
+        "suggestedProfitTake": "Scale out into strength near any new momentum burst if the stock advances without broad sector follow-through.",
+        "type": "AI networking and custom silicon mega-cap",
+        "catalyst": "Broadcom remains a core beneficiary of AI networking and custom accelerator demand as infrastructure spending continues.",
+        "why": "Fundamentally Broadcom has stronger free cash flow and diversification than many AI names. Technically it tends to confirm durable chip leadership better than lower-quality momentum plays. Volume and relative strength versus SMH matter more than headline enthusiasm.",
+        "risk": "Invalidated if semis lose leadership or if AVGO cannot hold VWAP on the first pullback."
+      },
+      {
+        "ticker": "MU",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Wait for Monday's first hour. Only consider on a controlled pullback hold above VWAP or a breakout that is supported by volume greater than 2x normal; otherwise treat it as watch-only into June 24 earnings.",
+        "suggestedProfitTake": "Take profits faster than usual into pre-earnings extensions and do not assume a breakout can survive through earnings without IV and event risk biting back.",
+        "type": "memory / AI supply-chain leader",
+        "catalyst": "Micron's investor-relations site says Q3 results are due June 24, and management already framed Q2 as record revenue, margin, EPS, and free cash flow with expectations for significant records again in Q3.",
+        "why": "Fundamentally memory pricing and AI demand remain extremely strong, and Micron now has unusually good visibility for a cyclical business. Technically the stock is powerful but also extended and vulnerable to event-risk air pockets. Volume and post-open structure matter because pre-earnings chase risk is high.",
+        "risk": "Invalidated if MU cannot hold VWAP on Monday, if semis stop confirming, or if the run-up expands too far ahead of earnings and raises IV-crush risk beyond a sensible reward."
+      },
+      {
+        "ticker": "INTC",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Triggered only above the opening-range high on Monday or after a first-hour base. Avoid chasing an emotional gap tied only to the Apple headline unless regular-session volume confirms sustained sponsorship.",
+        "suggestedProfitTake": "Take partials aggressively into strength because policy-driven semiconductor headlines can overextend before investors demand contract detail, margin impact, and execution proof.",
+        "type": "foundry turnaround / policy-sensitive semiconductor",
+        "catalyst": "Trump's public claim that Intel will design and build chips for Apple in the U.S. revived the domestic foundry and reshoring narrative.",
+        "why": "Fundamentally Intel has the most to gain from a credible Apple relationship, but it also has the most to prove on execution, margins, and contract economics. Technically the move was powerful, yet headline spikes without follow-up often fade. Strong regular-session volume and peer confirmation are necessary.",
+        "risk": "Invalidated if the stock fails to hold VWAP, if management detail does not materialize, or if the move stays purely policy-sentiment driven without sector confirmation."
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Watch only until Monday. Consider only after the first 30 to 60 minutes if AAPL holds VWAP and the market rewards pricing power rather than penalizing margin pressure from higher memory costs.",
+        "suggestedProfitTake": "Trim into any relief rally that stalls near recent resistance, especially if semis are outperforming while Apple itself lags.",
+        "type": "consumer hardware mega-cap",
+        "catalyst": "Apple's pricing comments around memory and storage costs reinforce the supply tightness supporting memory names, but they also create a margin and demand-balancing question for Apple itself.",
+        "why": "Fundamentally Apple still has balance-sheet strength and pricing power, but the current signal is more useful for the memory supply chain than for Apple near term. Technically it needs relative-strength confirmation versus QQQ, not just sympathy moves from chip headlines.",
+        "risk": "Invalidated if AAPL cannot hold VWAP, if consumer-spending concerns resurface, or if the market starts treating higher component costs as a demand risk instead of a manageable pricing issue."
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Short only on a failed regular-session bounce below VWAP or a breakdown through a fresh intraday base. Avoid chasing already-extended weakness after the post-earnings drop.",
+        "suggestedProfitTake": "Cover partials into fast downside extensions because post-event IV crush and oversold bounces can work against late sellers even when the thesis is right.",
+        "type": "creative software / AI monetization debate",
+        "catalyst": "Adobe reported record Q2 results, but investors focused on delayed monetization, the freemium AI push, and management-transition concerns rather than the headline beat.",
+        "why": "Fundamentally Adobe remains profitable and cash-generative, but the market is discounting slower pricing power and rising competitive pressure in generative tools. Technically the stock is weak and still below trust-repair levels. Volume-confirmed failed bounces are cleaner than emotional post-gap chasing.",
+        "risk": "Invalidated if ADBE reclaims VWAP with improving software breadth and the stock starts holding higher lows rather than rejecting them."
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only on a weak regular-session retest below VWAP or a failed bounce into resistance. Do not short blindly if semis and cloud infrastructure sentiment regain control.",
+        "suggestedProfitTake": "Take partials into quick downside moves because Oracle can snap back violently when AI-capex bulls reassert themselves.",
+        "type": "cloud infrastructure / capex-sensitive large-cap",
+        "catalyst": "Oracle's growth story remains real, but investors are still debating the financing load, cash-flow timing, and return on the heavy AI buildout.",
+        "why": "Fundamentally Oracle has strong demand but also unusually heavy capital-intensity questions for a software-adjacent name. Technically the stock needs time to rebuild trust after the post-earnings damage. Volume-confirmed failed bounces are the higher-quality setup.",
+        "risk": "Invalidated if ORCL quickly reclaims VWAP and AI-capex sentiment broadens back beyond the highest-quality chip names."
+      },
+      {
+        "ticker": "ACN",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Watch only until Monday's cash session; short only on a failed bounce under VWAP or a break of the opening-range low if the stock cannot stabilize after the earnings shock.",
+        "suggestedProfitTake": "Cover partials into sharp downside follow-through because the stock already moved far more than its implied pre-earnings swing and reflex rallies can be violent after IV resets.",
+        "type": "IT services / post-earnings high-volume breakdown",
+        "catalyst": "Accenture's guidance cut, weaker bookings, and comments that AI has not yet meaningfully lifted the consulting engine triggered one of the cleanest post-earnings breakdowns in large-cap tech services.",
+        "why": "Fundamentally the issue is not headline EPS but deteriorating forward demand quality and weaker visibility. Technically the stock broke hard on high volume and now sits in penalty-box behavior. The options market had implied roughly a 7% move, while the actual drop was much larger, underscoring how violent the reset was.",
+        "risk": "Invalidated if ACN quickly repairs the damage with a sustained VWAP reclaim and broader IT-services selling pressure fails to spread."
+      },
+      {
+        "ticker": "JPM",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Best on a first-pullback hold above VWAP on Monday or after an opening-range breakout with XLF and broader bank participation confirming.",
+        "suggestedProfitTake": "Trim into steady advances if rates fall for growth-scare reasons or if JPM rises while broader financial breadth lags.",
+        "type": "money-center bank / breadth confirmation leader",
+        "catalyst": "Higher-but-orderly yields and improved breadth favor money-center banks if the market's rebound is genuine rather than purely speculative tech.",
+        "why": "Fundamentally JPM offers strong balance-sheet quality, earnings resilience, and better valuation support than crowded software names. Technically it is a useful breadth-confirmation stock because it tends to work when the market broadens for healthy reasons. Volume and sector participation matter.",
+        "risk": "Invalidated if credit concerns worsen, rates fall for recessionary reasons, or JPM cannot hold VWAP while XLF weakens."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Options And Volatility Watch",
+        "items": [
+          "Friday, June 19, 2026 was a full Juneteenth closure for NYSE cash equities and regular Cboe U.S. options trading, so there is no fresh Friday cash-session options signal to trust. Monday, June 22 becomes the first real read on dealer positioning after Thursday's rebound.",
+          "VIX finished Thursday at 16.40, which is calm relative to the recent oil-war panic but not truly complacent. The practical read is that broad market hedging eased, while single-name event volatility remains more relevant than index fear for next week.",
+          "Micron is the main event-volatility setup. Strong fundamentals and AI-memory tightness support the story, but implied volatility should stay elevated into the June 24 report, so a pre-earnings chase must clear a higher bar than an ordinary trend trade.",
+          "Accenture is the opposite lesson: the stock already moved more than the options market had implied, which means late shorts now face IV normalization and reflex-bounce risk even if the fundamental damage remains real.",
+          "For index ETFs, keep the focus simple: if Monday's opening rally lacks breadth or loses VWAP quickly, lower VIX by itself is not a reason to trust a breakout."
+        ]
+      },
+      {
+        "title": "Entry Timing And Risk Controls",
+        "items": [
+          "There is no actionable U.S. regular session on Saturday morning in Shanghai. Treat any thin overnight, weekend, or holiday print as context only, not confirmation.",
+          "For Monday, June 22, prefer first-pullback holds above VWAP, clean opening-range breakouts with breadth, or failed bounces under VWAP in weak software names. The first 30 to 60 minutes matter more than any stale holiday tape.",
+          "For semiconductors and memory, do not chase if price gaps higher but volume does not broaden across SMH, NVDA, AVGO, and MU. Strong stories still need regular-session sponsorship.",
+          "For post-earnings shorts such as ACN or ADBE, avoid emotional gap chasing. Wait for a failed retest, a rejected VWAP reclaim, or an opening-range breakdown so the invalidation level is clear.",
+          "If Monday breadth narrows back into only a few AI names while IWM, XLF, and equal-weight exposure fade, reduce size rather than rationalize the trade."
+        ]
+      },
+      {
+        "title": "Company And Sector Highlights",
+        "items": [
+          "Accenture remains the clearest fresh warning that AI demand rhetoric is not enough when bookings weaken and guidance softens. That matters for the whole IT-services complex, not just one stock.",
+          "Adobe and Oracle still represent the market's skepticism toward software monetization and capital-intensity stories. Until those groups can reclaim trust on real volume, failed-bounce setups remain more attractive than dip buying.",
+          "Micron remains one of the strongest bottom-up AI beneficiaries because the demand signal is tangible in memory pricing, margins, and free cash flow. The issue now is timing, not just thesis quality.",
+          "Intel's Apple-related reshoring narrative can still matter, but it remains a headline-sensitive trade that needs contract detail and cash-session follow-through before it deserves full conviction.",
+          "JPM and broader financials remain a useful breadth check because a healthy continuation rally should not depend entirely on semiconductors."
+        ]
+      },
+      {
+        "title": "Geopolitics And Policy",
+        "items": [
+          "The market's macro relief still comes from the U.S.-Iran agreement and the reopening of limited transit through the Strait of Hormuz. That support is real, but AP reporting makes clear the route is not yet fully normalized.",
+          "Tariff risk remains active after the appeals court allowed the administration to keep collecting the 10% worldwide tariff while litigation continues. That still hangs over industrial, consumer, and hardware margin assumptions.",
+          "The market-friendly geopolitical case for Monday is calmer oil with no new tariff escalation. The bearish version is easy to define as well: any reversal in either variable can hit rates and expensive growth quickly."
+        ]
+      },
+      {
+        "title": "Technology And Innovation Watch",
+        "items": [
+          "AI infrastructure still looks stronger than AI application software. The market is rewarding parts of the stack with visible demand and punishing parts where monetization, disruption, or capital-intensity concerns dominate.",
+          "Memory remains strategically important because supply tightness is now influencing pricing and margin conversations across the ecosystem. That supports Micron and related capex names, but also raises the risk of overpaying into the event.",
+          "Speculative innovation pockets such as quantum and space can follow through only if Monday's broader tape remains constructive. Without breadth, those themes become liquidity traps rather than leadership."
+        ]
+      },
+      {
+        "title": "Trump Administration And Washington Watch",
+        "items": [
+          "Trump administration tariff policy is still directly market-relevant because the 10% global levy remains in force for now while the case moves through the courts.",
+          "The administration's reshoring and domestic manufacturing rhetoric still supports names like Intel in theory, but investors should separate policy optics from booked revenue and margin economics.",
+          "Washington's Iran-related posture remains market-positive only as long as the shipping reopening holds and fresh escalation does not send oil or freight risk back into the system."
+        ]
+      },
+      {
+        "title": "Credit, Positioning, And Market Internals",
+        "items": [
+          "The Treasury curve is calmer than it was immediately after the June 17 FOMC meeting, but not easy enough to ignore. A 10-year yield around 4.46% still puts pressure on expensive long-duration growth if it drifts higher again.",
+          "Thursday's internal picture was healthier than a pure megacap squeeze because the Russell 2000 outperformed and the Dow still finished positive. Monday needs to confirm that breadth with live volume.",
+          "High-yield credit has not yet shown the kind of stress expansion that would overrule the equity rebound, but it remains an important cross-check if Monday's risk appetite fades.",
+          "If semis lead but software, small caps, and financials all fail on Monday, the rally quality drops sharply and position sizing should adjust lower."
+        ]
+      },
+      {
+        "title": "Earnings And Macro Calendar",
+        "items": [
+          "Monday, June 22, 2026: first full U.S. cash-equity session after the Friday, June 19 Juneteenth closure. The opening hour matters more than usual because Thursday was the last real price-discovery session.",
+          "Wednesday, June 24, 2026 at 8:30 AM EDT: BEA releases U.S. International Transactions and Investment Position data for the first quarter. This is not the top equity catalyst, but it contributes to macro and dollar context.",
+          "Wednesday, June 24, 2026 at 4:30 PM EDT: Micron's third-quarter fiscal 2026 earnings call. This is the key single-name AI memory event of the week.",
+          "Thursday, June 25, 2026 at 8:30 AM EDT: BEA schedules both GDP (third estimate) for the first quarter and Personal Income and Outlays for May 2026. That is the main rates-sensitive macro cluster for the week."
+        ]
+      },
+      {
+        "title": "Why It Matters",
+        "items": [
+          "Saturday, June 20, 2026 in Shanghai is a planning day, not a U.S. trading day. The edge comes from preparation and scenario mapping before Monday, not from reacting to a market that is not open.",
+          "The market has shown it can rally when oil stress cools, but the Fed's June 17 statement means inflation and rates are still live constraints. That is why timing discipline is as important as directional conviction.",
+          "A durable bullish case still needs three conditions together: calmer oil, stable yields, and breadth beyond a few AI names. Missing any one of those makes the tape easier to fade.",
+          "The best opportunities remain conditional rather than absolute. Strong fundamentals with stretched technicals should be treated as wait-for-pullback setups, while broken software names should be treated as failed-bounce shorts instead of emotional gap chases."
+        ]
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "IONQ",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only after a first-hour base or VWAP reclaim on Monday and only if QQQ plus speculative tech stabilize. If it opens extended, wait for IV to cool before considering any entry.",
+        "suggestedProfitTake": "Take partials aggressively into strength because quantum names can overshoot and then mean-revert once the first burst of volume fades.",
+        "type": "quantum computing high-beta growth",
+        "catalyst": "If Thursday's broader risk-on tone survives the holiday into Monday, speculative innovation themes can catch follow-through without needing a fresh earnings event.",
+        "why": "IonQ remains one of the more liquid high-beta innovation vehicles, but its fundamentals are weaker and more valuation-sensitive than cash-generative megacaps. Technically it only works if broader speculative appetite improves and volume shows real sponsorship.",
+        "risk": "Invalidated if it loses VWAP early or if QQQ and high-beta growth fail to confirm."
+      },
+      {
+        "ticker": "RKLB",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only above the opening-range high or after a first-hour base if space and industrial innovation sentiment stay firm. Otherwise leave it alone.",
+        "suggestedProfitTake": "Take profits quickly into sharp extensions because launch and policy headlines can create fast but fragile momentum.",
+        "type": "space / launch small-cap growth",
+        "catalyst": "Space-related enthusiasm remains elevated after the broader attention drawn to aerospace and space themes this week.",
+        "why": "Rocket Lab has a more credible operating base than many story stocks, but it is still a long-duration small-cap whose trade quality depends heavily on tape conditions and liquidity. Monday confirmation matters more than narrative heat.",
+        "risk": "Invalidated if it loses VWAP while IWM and speculative growth weaken."
+      },
+      {
+        "ticker": "SOUN",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only on a failed VWAP reclaim or a break of the opening-range low if software and AI-application names remain under pressure on Monday.",
+        "suggestedProfitTake": "Cover partials quickly into sharp drops because speculative software can reverse hard once the first flush passes.",
+        "type": "voice AI / speculative software",
+        "catalyst": "Weakness in software, IT services, and near-term AI monetization stories keeps pressure on lower-quality AI-adjacent small caps.",
+        "why": "The narrative can still attract flows, but the cash-flow profile is weak and the stock remains extremely sentiment-driven. In a tape punishing weak software setups, technical failure under VWAP matters more than the story.",
+        "risk": "Invalidated if software ETFs stabilize and SOUN reclaims VWAP with sustained volume."
+      }
+    ],
+    "catalystCalendar": [
+      {
+        "date": "2026-06-22 U.S. regular session / 2026-06-22 Beijing evening",
+        "event": "First full cash session after the Juneteenth closure and weekend",
+        "watch": "The first 30 to 60 minutes should confirm whether Thursday's rebound still has sponsorship through breadth, VWAP defense, and orderly yields.",
+        "relatedTickers": "SPY, QQQ, IWM, SMH, XLF"
+      },
+      {
+        "date": "2026-06-24 08:30 ET / 2026-06-24 20:30 Beijing",
+        "event": "BEA U.S. International Transactions and Investment Position release",
+        "watch": "Useful for macro and dollar context, but still secondary to live market internals and the looming Micron event.",
+        "relatedTickers": "DXY, TLT, SPY"
+      },
+      {
+        "date": "2026-06-24 16:30 ET / 2026-06-25 04:30 Beijing",
+        "event": "Micron third-quarter fiscal 2026 earnings call",
+        "watch": "Compare demand, pricing, capacity, and margin commentary with a stock that is already being treated as an AI-memory leader.",
+        "relatedTickers": "MU, NVDA, AVGO, SMH, QQQ"
+      },
+      {
+        "date": "2026-06-25 08:30 ET / 2026-06-25 20:30 Beijing",
+        "event": "BEA GDP third estimate and Personal Income and Outlays for May",
+        "watch": "Rates will react if growth or inflation inputs surprise, which matters directly for duration-sensitive tech, banks, and consumer names.",
+        "relatedTickers": "TLT, SPY, QQQ, XLF, XLY"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-06-19",
+        "ticker": "SMH",
+        "status": "pending",
+        "result": "No new U.S. cash session printed on Friday, June 19 because of the Juneteenth closure, so the semiconductor-leadership thesis has not yet had its next live confirmation day.",
+        "lesson": "When a holiday interrupts a strong move, preserve the thesis but lower the confidence until real cash-session breadth and volume return."
+      },
+      {
+        "date": "2026-06-19",
+        "ticker": "ACN",
+        "status": "pending",
+        "result": "Accenture still sits in a post-earnings penalty box, but Friday's closure means there was no follow-up cash session to validate whether institutions would keep selling failed bounces.",
+        "lesson": "Fresh breakdowns often offer the best entries on the first weak retest, not immediately after the event shock."
+      },
+      {
+        "date": "2026-06-19",
+        "ticker": "IWM",
+        "status": "pending",
+        "result": "Thursday's Russell 2000 strength was constructive, but the breadth thesis remains incomplete until Monday proves small caps can hold up when cash trading resumes.",
+        "lesson": "Breadth signals are more trustworthy after a second live session confirms them, especially when a holiday interrupts momentum."
+      }
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "XLF",
+        "title": "Breadth exposure without paying peak software multiples",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "Use only on Monday's first-pullback hold above VWAP or an opening-range breakout with money-center banks and brokers both confirming.",
+        "reason": "Financials offer a cleaner expression of broader participation than crowded software while yields remain high but orderly.",
+        "convictionScore": 4,
+        "timeframe": "trade for 1 to 3 days"
+      },
+      "bestShort": {
+        "ticker": "ACN",
+        "title": "Post-earnings breakdown still needs a weak retest",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "Triggered only on a failed regular-session bounce below VWAP or below the opening-range low if the stock cannot stabilize on Monday.",
+        "reason": "Accenture combines weaker demand visibility, softer bookings, and a high-volume breakdown inside a weak software and services tape.",
+        "convictionScore": 5,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "SMH",
+        "title": "Cleaner AI leadership than single-name chasing",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "Only after a first pullback holds VWAP or the first-hour high breaks with NVDA, AVGO, MU, and broader chip breadth confirming.",
+        "reason": "SMH captures the strongest visible AI demand pocket while reducing single-name event and headline risk.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "MU",
+        "title": "Strong pre-earnings tape with elevated event risk",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "Speculative only after the stock forms a Monday base or shows an opening-range breakout on heavy volume.",
+        "reason": "The fundamentals are strong, but the stock is extended into a June 24 catalyst and can punish late entries even when the thesis is correct.",
+        "convictionScore": 3,
+        "timeframe": "intraday to 2-day trade only"
+      },
+      "avoidWait": {
+        "ticker": "INTC",
+        "title": "Headline heat still needs economic proof",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "Wait for either a first-hour base or a well-supported breakout; avoid reacting to stale holiday or overnight spikes.",
+        "reason": "The Apple relationship headline matters, but trade quality still depends on real volume, peer behavior, and eventually contract detail.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      }
+    },
+    "sources": [
+      {
+        "label": "NYSE Hours and Calendars",
+        "confidence": "Primary",
+        "url": "https://www.nyse.com/trade/hours-calendars"
+      },
+      {
+        "label": "Cboe U.S. Options Hours and Holidays",
+        "confidence": "Primary",
+        "url": "https://www.cboe.com/about/hours/us-options"
+      },
+      {
+        "label": "Federal Reserve FOMC Statement - June 17, 2026",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "label": "U.S. Treasury Daily Yield Curve Rates",
+        "confidence": "Primary",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+      },
+      {
+        "label": "AP - How major U.S. stock indexes fared Thursday 6/18/2026",
+        "confidence": "Market data",
+        "url": "https://apnews.com/article/411ec68891aa5dc7d7f684e0305e2aa3"
+      },
+      {
+        "label": "AP - Stocks rise on Wall Street, erasing much of their loss from a day earlier",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/dc678fb5647a136f75caf2d1fbaa2092"
+      },
+      {
+        "label": "AP - Appeals court says U.S. government can keep collecting 10% tariffs for now",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/a95ef7309d89018477a3265ebf93d620"
+      },
+      {
+        "label": "AP - Stranded ships have begun transiting the Strait of Hormuz",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/01c1335e69e40f2ee921e25e59a18a71"
+      },
+      {
+        "label": "AP - Oil and gas supplies could take months to return to normal after Iran deal",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/42bdd71d5afa6fb5ac5d0c3e7857de6c"
+      },
+      {
+        "label": "Cboe VIX Volatility Products",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/tradable-products/vix"
+      },
+      {
+        "label": "FRED - ICE BofA US High Yield Index Option-Adjusted Spread",
+        "confidence": "Market data",
+        "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+      },
+      {
+        "label": "Accenture Newsroom - Accenture Reports Third-Quarter Fiscal 2026 Results",
+        "confidence": "Primary",
+        "url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results"
+      },
+      {
+        "label": "Adobe Newsroom - Adobe Reports Record Revenue in Fiscal Year 2026 Second Quarter",
+        "confidence": "Primary",
+        "url": "https://news.adobe.com/news/2026/06/adobe-q2fy26-financial-results"
+      },
+      {
+        "label": "Micron Investor Relations",
+        "confidence": "Primary",
+        "url": "https://investors.micron.com/"
+      },
+      {
+        "label": "MarketWatch - Micron stock is overbought, but there is one good reason to keep buying it",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/micron-stock-is-overbought-but-there-is-one-good-reason-to-keep-buying-it-c2a4ff31"
+      },
+      {
+        "label": "Investopedia - Here is How Much Accenture Stock Is Expected to Move After Earnings",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investopedia.com/here-is-how-much-accenture-stock-is-expected-to-move-after-earnings-acn-q3-fy2026-11994702"
+      },
+      {
+        "label": "Axios - Intel shares surge after Trump touts deal with Apple",
+        "confidence": "High-quality reporting",
+        "url": "https://www.axios.com/2026/06/18/intel-stock-apple-trump"
+      },
+      {
+        "label": "BEA Release Schedule",
+        "confidence": "Calendar",
+        "url": "https://www.bea.gov/news/schedule"
+      }
+    ]
+  },
+  {
     "date": "2026-06-19",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-06-19 08:00 GMT+8",
