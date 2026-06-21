@@ -1,5 +1,275 @@
 window.A_SHARE_WEEKLY_BRIEFINGS = [
   {
+    "date": "2026-06-21",
+    "weekId": "2026-W25",
+    "weekNumber": 25,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-21 08:00 GMT+8",
+    "title": "中文：A股周度市场简报 - 第25周\nEN: A-share Weekly Market Brief - Week 25",
+    "tone": "中文：这是宏观分化但风险偏好明显回到深市科技的一周：工业数据比消费和地产链更强，周三先炒低价工程央企，周四再冲创新与半导体。真正有效的做法不是周一去追周四最热，而是先确认宽度、券商和宽基，再决定是否加进攻仓。\nEN: This was a macro-divergent week with risk appetite clearly shifting back into Shenzhen technology: industrial data were firmer than consumption and property-linked demand, Wednesday favored lower-priced engineering SOEs, and Thursday accelerated into innovation and semiconductors. The effective approach is not to chase Thursday's hottest names on Monday, but to confirm breadth, brokers, and broad indices first before adding offensive exposure.",
+    "priorities": [
+      "中文：6月22日先看LPR是否按惯例在节假日顺延后公布，以及510300.SH、510050.SH、512000.SH和上涨家数能否同步改善；若宽基和金融不确认，就不要把科技高开当成新趋势。\nEN: On June 22, first watch whether the LPR is published on the normal holiday-delayed schedule, and whether 510300.SH, 510050.SH, 512000.SH, and market breadth improve together; if broad indices and financials do not confirm, do not treat a tech gap-up as a new trend.",
+      "中文：继续把‘工业偏强、消费和地产偏弱’当成主框架。更优先的是电网、工程央企、券商弹性和宽基确认，不是直接追已经拥挤的光模块。\nEN: Keep the 'industry stronger, consumption and property weaker' split as the core framework. Prioritize grid equipment, engineering SOEs, broker beta, and broad-index confirmation ahead of directly chasing already-crowded optical-module names.",
+      "中文：所有本周后半段急拉的科技票默认只做回踩观察。A股T+1下，若周一高开再追，最容易把政策利好变成隔夜跳空风险。\nEN: Any tech name that spiked in the second half of this week should default to pullback-watch only. Under A-share T+1, chasing a fresh Monday gap is the easiest way to turn policy optimism into overnight gap risk.",
+      "中文：用户偏好的低于50元、流动性深、约10日持有风格，本周更匹配国电南瑞、四方股份、华泰证券、中国电建这类标的，而不是高价高拥挤的AI龙头。\nEN: The user's preferred sub-RMB50, liquid, roughly 10-day holding style fits names like Guodian Nari, Sifang, Huatai Securities, and Power Construction Corp. better this week than expensive and crowded AI leaders.",
+      "中文：如果周一到周二银行继续拖累沪指、而深市只靠少数科技撑着，说明这仍是窄幅风险偏好，不应上调总仓位。\nEN: If banks keep dragging the Shanghai market on Monday and Tuesday while Shenzhen is held up by only a few tech names, this is still narrow risk appetite and total exposure should not be increased."
+    ],
+    "summary": [
+      "中文：以6月12日收盘对比6月18日节前最后一个交易日，上证指数从4031.51升至4090.48，约涨1.46%；深证成指从14963.41升至约16030，约涨7.13%；沪深300从4777.32升至4941.60，约涨3.44%。指数表现说明本周真正占优的是深市成长，而不是全市场齐涨。\nEN: Comparing the June 12 close with the final pre-holiday session on June 18, the SSE Composite rose from 4031.51 to 4090.48, about 1.46%; the Shenzhen Component climbed from 14963.41 to around 16030, about 7.13%; and the CSI 300 increased from 4777.32 to 4941.60, about 3.44%. The message was clear: Shenzhen growth led, not the whole market together.",
+      "中文：5月工业增加值同比4.5%，高于预期且高于4月的4.1%；但5月社零同比-0.6%，为2022年12月以来首次下滑；1-5月固定资产投资同比-4.1%，地产仍是主要拖累。宏观结论是：制造和政策执行链还有支撑，消费和地产链仍偏弱。\nEN: May industrial production grew 4.5% year on year, above expectations and above April's 4.1%; but May retail sales fell 0.6%, the first decline since December 2022; and January-May fixed-asset investment was down 4.1%, with property still the main drag. The macro takeaway is that manufacturing and policy-execution chains still have support, while consumption and property-linked chains remain weak.",
+      "中文：6月18日央行开展2480亿元7天逆回购、操作利率1.40%；中国10年期国债收益率收在1.75%附近；USD/CNY在6月19日约6.7784，离岸人民币一度接近6.79。流动性仍偏宽松，但汇率与长端利率都提醒市场不能把高贝塔修复理解成无条件牛市。\nEN: On June 18, the PBOC conducted RMB 2,480 billion of 7-day reverse repos at 1.40%; China's 10-year yield closed near 1.75%; and USD/CNY was about 6.7784 on June 19 while offshore yuan briefly neared 6.79. Liquidity is still supportive, but the currency and long-end rates both warn against reading this high-beta rebound as an unconditional bull market.",
+      "中文：周三的强势来自低价工程央企和基建链，中国电建单日约+7.04%，中国交建约+3.40%；周四的强势转到创新与半导体，中际旭创约+7.19%，新易盛约+4.23%，北方华创约+2.39%。这说明市场本周在轮动，但热点切换极快。\nEN: Wednesday's strength came from lower-priced engineering SOEs and infrastructure, with Power Construction Corp. up about 7.04% and China Communications Construction up about 3.40% on the day; Thursday rotated into innovation and semiconductors, where Zhongji Innolight gained about 7.19%, Eoptolink about 4.23%, and NAURA about 2.39%. The market rotated this week, but leadership changed very quickly.",
+      "中文：本周对日报体系最有效的部分，仍是把‘宽度优先、不要追拥挤高贝塔、先看宽基和券商确认’放在前面。这一点在周四银行拖累沪指、但科技继续冲高的分化环境里仍然成立。\nEN: The most effective part of the daily-brief framework this week remained putting 'breadth first, do not chase crowded high beta, confirm broad indices and brokers first' at the top. That discipline still held in Thursday's divergence, when banks dragged Shanghai while tech kept squeezing higher.",
+      "中文：本周需要修正的地方，是不能把‘防守正确’误写成‘车辆正确’。市场风险偏好在周中确实改善，但最强执行工具已经从单纯大行/防守，转到更低价、流动性更好的工程、设备和政策科技ETF。\nEN: The adjustment needed this week is not to confuse 'defensive regime call correct' with 'defensive vehicle correct.' Risk appetite did improve midweek, but the best execution vehicles shifted from pure big-bank defense toward lower-priced, more liquid engineering, equipment, and policy-tech vehicles.",
+      "中文：下周若宽基、券商和银行能跟上深市，反弹才更像可持有约10天的扩散行情；若仍只有少数科技高开领涨，则更像短促脉冲，应该继续等回踩而不是追价。\nEN: Next week, only if broad indices, brokers, and banks start to follow Shenzhen does the rebound begin to look like a holdable 10-day broadening move; if only a few tech names gap up and lead, it is more likely a short pulse and still better treated with pullback patience rather than price chasing."
+    ],
+    "marketPulse": {
+      "主要指数": {
+        "value": "上证指数 4090.48（较6月12日约+1.46%） / 深证成指 约16030（较6月12日约+7.13%） / 沪深300 4941.60（较6月12日约+3.44%）",
+        "note": "中文：本周是明显的‘深强沪弱、成长强于权重’。若下周这个结构不扩散到宽基和金融，周内高弹性机会仍以交易性为主。\nEN: This week clearly showed 'Shenzhen stronger than Shanghai, growth stronger than heavyweight defensives.' If that structure does not broaden into broad indices and financials next week, high-beta opportunities remain mostly tactical trades."
+      },
+      "成交/宽度": {
+        "value": "周三工程央企领涨，周四创新科技领涨；银行拖累上证、深证创一个月高位",
+        "note": "中文：本周最关键的不是总量，而是扩散质量。热点能切换，说明风险偏好在回升；但如果每次都只靠单一方向拉升，T+1下追高的回撤仍会很难受。\nEN: The key this week was not just total activity but the quality of breadth. Leadership rotation showed risk appetite was improving; but if each leg still depends on only one direction at a time, drawdowns from chasing remain painful under T+1."
+      },
+      "流动性": {
+        "value": "6月18日央行2480亿元7天逆回购，利率1.40% / 中国10年期国债约1.75% / USD/CNY约6.7784，离岸人民币一度接近6.79",
+        "note": "中文：流动性并不紧，但人民币和长端利率都在提醒市场，当前更适合做有条件的扩散与回踩确认，而不是无差别加风险。\nEN: Liquidity is not tight, but both the yuan and the long-end yield are reminding the market that this is better suited to conditional broadening and pullback confirmation, not indiscriminate risk adding."
+      }
+    },
+    "weekReview": [
+      "中文：本周前半段，宏观数据给出的信号是‘工业好于预期，但消费和地产仍弱’，所以纯内需和地产链没有成为稳定主线；这也解释了为什么工程、设备、科技比可选消费更强。\nEN: In the first half of the week, macro data said 'industry beat expectations, but consumption and property stayed weak,' so pure domestic-demand and property chains never became stable leaders; that helps explain why engineering, equipment, and tech beat discretionary consumption.",
+      "中文：周三资金先去了中国电建、中国交建这类低价、流动性好的工程央企，说明市场愿意接受低位高流动性Beta；这与用户偏好的低价稳健风格更接近。\nEN: On Wednesday, money first moved into lower-priced, liquid engineering SOEs such as Power Construction Corp. and China Communications Construction, showing the market was willing to own lower-base, high-liquidity beta; that is closer to the user's preferred lower-priced, steadier style.",
+      "中文：周四科技和‘未来产业’题材接棒，中际旭创、新易盛、北方华创等走强，但同时银行显著拖累沪指。这个组合意味着风险偏好回来了，但还不是健康、全面、低风险的风险偏好。\nEN: On Thursday, tech and 'future industries' names took over, with Zhongji Innolight, Eoptolink, and NAURA all strengthening, while banks materially dragged Shanghai. That mix means risk appetite returned, but not yet in a healthy, broad, low-risk form.",
+      "中文：从日报方法论看，‘先看宽基和券商、不要直接追拥挤龙头’依旧是正确的底线；真正要改的是，不要把旧防守票自动当成本周最优执行工具。\nEN: From the daily-brief methodology perspective, 'check broad indices and brokers first, do not directly chase crowded leaders' remains the correct floor; what needs changing is not to treat old defensive names automatically as the best execution vehicles for this week's tape.",
+      "中文：A股T+1再次证明，方向对了也不等于买点对了。尤其是周四这种政策和情绪叠加的科技急拉，隔夜追价的风险大于多拿一根阳线的收益。\nEN: A-share T+1 again proved that being right on direction does not mean being right on entry. In Thursday's policy-and-sentiment-fueled tech squeeze especially, overnight chase risk was greater than the benefit of squeezing out one more up candle."
+    ],
+    "nextWeekFocus": [
+      "中文：6月22日09:00前后看LPR。若1年期和5年期以上LPR维持不变，市场更可能把焦点放回宽度和风格扩散；若有边际宽松，券商和地产可能先脉冲，但没有成交扩散仍不宜追高。\nEN: Watch the LPR around 09:00 on June 22. If the 1-year and 5-year-plus LPR stay unchanged, the market is more likely to refocus on breadth and style broadening; if there is marginal easing, brokers and property may pulse first, but without turnover expansion they still should not be chased.",
+      "中文：周一前60到90分钟最重要的是510300.SH、510050.SH、512000.SH、银行和上涨家数是否一起改善。若只有深市科技继续冲，而宽基不跟，仍按窄行情处理。\nEN: In the first 60 to 90 minutes on Monday, the main question is whether 510300.SH, 510050.SH, 512000.SH, banks, and the number of advancers improve together. If only Shenzhen tech keeps surging while broad indices lag, treat it as a narrow market again.",
+      "中文：继续跟踪人民币、10年期国债和央行公开市场操作。若人民币继续走弱、10年期收益率再下，说明市场还在把风险偏好建立在宽松和题材上，而不是盈利扩散上。\nEN: Keep tracking the yuan, the 10-year yield, and PBOC open-market operations. If the yuan weakens further and the 10-year yield falls again, the market is still building risk appetite on liquidity and themes rather than on earnings broadening.",
+      "中文：科技链只看回踩后的承接，不看高开第一脚。芯片ETF、科创50ETF与核心权重必须同步；若只有中际旭创这类个股独强，默认是拥挤延续而不是新一轮安全起点。\nEN: In tech, only respect absorption after a pullback, not the first gap-up leg. Semiconductor and STAR ETFs must confirm together with core heavyweights; if only names like Zhongji Innolight stay strong alone, default to reading it as crowding continuation rather than a fresh safe starting point.",
+      "中文：对用户的约10日持有框架而言，下周更值得看的不是最热票还能冲多高，而是国电南瑞、四方股份、华泰证券、中国电建这类低价液态工具能否在不高开的前提下给出二次入场点。\nEN: For the user's roughly 10-day holding framework, the better question next week is not how much farther the hottest names can run, but whether lower-priced, liquid tools like Guodian Nari, Sifang, Huatai Securities, and Power Construction Corp. offer secondary entries without a punishing gap-up."
+    ],
+    "sectors": [
+      {
+        "name": "电网设备 / Grid Equipment",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：工业生产中的电气机械和公用事业供给改善，叠加低利率环境，继续支持订单兑现型设备资产。\nEN: Improvement in electrical machinery and utilities-related production, combined with a low-rate backdrop, continues to support order-delivery equipment assets.",
+        "watch": "中文：优先看国电南瑞、四方股份这类低于50元且流动性足的名字，是否在回踩5日或10日线后缩量稳住。\nEN: Prefer sub-RMB50, liquid names such as Guodian Nari and Sifang, and watch whether they stabilize on lighter volume after pulling back to the 5- or 10-day average.",
+        "risk": "中文：若周一工程、券商和宽基都走强而电网设备反而跟不上，说明资金更偏交易性弹性，这个方向就应降级成底仓而非主攻。\nEN: If engineering, brokers, and broad indices all strengthen on Monday while grid equipment fails to follow, money is preferring trading beta and this group should be downgraded to base-position status rather than a main attack line."
+      },
+      {
+        "name": "券商 / Brokers",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：若节后宽基扩散，券商通常是最先受益的低价高流动性Beta；LPR和资本市场政策预期也容易先传导到这一板块。\nEN: If the market broadens after the holiday, brokers are usually one of the first lower-priced, high-liquidity beta beneficiaries; LPR and capital-market policy expectations also tend to hit this group early.",
+        "watch": "中文：只有在512000.SH、上证50和上涨家数一起改善时才观察，不做孤立龙头的脉冲追价。\nEN: Only watch this sector if 512000.SH, the SSE 50, and market breadth improve together; do not chase isolated spikes in a single leader.",
+        "risk": "中文：如果券商放量但宽度不扩散，第二天在T+1下往往最难处理，因为它容易从趋势预期退化成日内情绪。\nEN: If brokers gain on volume but breadth does not broaden, they often become hardest to manage the next day under T+1 because trend expectations degrade into intraday emotion."
+      },
+      {
+        "name": "工程央企 / Engineering SOEs",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：周三资金已经验证了市场愿意接受中国电建、中国交建这类低价大票；当工业数据优于消费数据时，这类票更容易承接。\nEN: Wednesday already showed the market is willing to accept lower-priced large caps like Power Construction Corp. and China Communications Construction; when industrial data are stronger than consumption data, these names can absorb capital more easily.",
+        "watch": "中文：只在不高开、回踩后仍守住节前强势结构时观察，适合作为‘不追科技时的替代进攻仓’。\nEN: Only watch on non-gap-up pullbacks that still hold the pre-holiday strong structure; this is better used as an alternative offensive sleeve when not chasing tech.",
+        "risk": "中文：若周一直接大幅高开，T+1会让回撤处理很被动；若量价分离，也要小心这里只是一次性政策脉冲。\nEN: If these names gap sharply on Monday, T+1 makes any pullback much harder to manage; if price rises without healthy volume structure, it may just be a one-off policy pulse."
+      },
+      {
+        "name": "半导体与科创平台 / Semiconductors And STAR Platform",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "中文：陆家嘴论坛对创新和未来产业融资支持，叠加工业生产中的计算机通信设备维持17.0%增长，给半导体和科创平台带来政策与基本面双支撑。\nEN: Support for innovation and future-industry financing from the Lujiazui Forum, combined with 17.0% growth in computers and communications equipment output, gives semiconductors and STAR-platform assets both policy and fundamental backing.",
+        "watch": "中文：只看芯片ETF、科创50ETF和核心权重同步回踩后再放量，不看周一高开第一脚。\nEN: Only watch after semiconductor ETF, STAR 50 ETF, and core heavyweights pull back and then re-expand together on volume; do not buy the first Monday gap-up leg.",
+        "risk": "中文：这里最大的问题不是逻辑，而是位置和拥挤度。若ETF不确认、或只剩个股独强，就默认等待回踩。\nEN: The biggest issue here is not the thesis but the location and crowding. If ETFs do not confirm, or only a few names stay strong, default to waiting for a pullback."
+      },
+      {
+        "name": "大行与高股息权重 / Big Banks And High-Dividend Heavyweights",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "中文：若周初科技分化、人民币转弱或长端利率继续回落，大行和高股息仍是组合稳压器。\nEN: If tech starts to diverge early in the week, the yuan weakens, or long-end yields keep falling, big banks and high-dividend heavyweights remain portfolio stabilizers.",
+        "watch": "中文：这里只适合做底仓与风险过滤器，不适合因为便宜就把它们当成本周最强进攻线。\nEN: This group fits base positions and risk filtering, not a default assumption that low price alone makes it the week's strongest offensive line.",
+        "risk": "中文：若深市与科技持续扩散成功，这些票大概率相对跑输；周四银行已经证明，它们也会在风格切换里成为拖累。\nEN: If Shenzhen and tech broaden successfully, these names will likely underperform on a relative basis; Thursday already showed that banks can become a drag during style rotation."
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "600406.SH",
+        "chineseName": "国电南瑞",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：仅在周一或周二回踩节前收盘附近、且5日或10日线附近缩量稳住时观察；若直接高开急拉，不追。\nEN: Only watch if it pulls back toward the pre-holiday close and stabilizes on lighter volume near the 5- or 10-day average on Monday or Tuesday; do not chase a direct sharp gap-up.",
+        "suggestedProfitTake": "中文：若二次放量上攻但板块扩散不足，可先分批落袋；若宽基和券商同步确认，可把持有周期放到约10个交易日。\nEN: If it re-expands on volume but sector breadth is still limited, scale out in batches; if broad indices and brokers confirm together, the holding window can extend toward roughly 10 trading days.",
+        "type": "中文：10日波段 / 低于50元 / 稳健订单执行链\nEN: 10-day swing / below RMB 50 / steadier order-execution chain",
+        "catalyst": "中文：电网投资与设备交付逻辑仍在，且这类票更符合回踩后二次上车。\nEN: Grid-investment and equipment-delivery logic remain intact, and this type of name fits second-entry pullback setups better.",
+        "why": "中文：它比最热科技更稳、流动性深，且能在市场不愿全面加风险时承接部分资金。\nEN: It is steadier and more liquid than the hottest tech names, and it can absorb capital when the market is not ready to add risk indiscriminately.",
+        "risk": "中文：若工程、券商、科技一起走强而它反而不跟，说明资金偏好更高弹性，这里只能当底仓。\nEN: If engineering, brokers, and tech all strengthen while it fails to follow, money is preferring higher beta and this should be treated only as a base position.",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周风格上受益于工业链偏强与低利率环境，但涨速明显慢于光模块和半导体，更适合等待回踩而不是追热。\nEN: This week it benefited from stronger industrial tone and low rates, but its pace was still much slower than optical modules and semis, making it better for pullback patience than hot-money chasing.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "601126.SH",
+        "chineseName": "四方股份",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：只在回踩后仍强于同主题大票、且日内承接不弱时观察；不接受高开后第一次冲顶。\nEN: Only watch if it stays relatively stronger than larger peers in the same theme after a pullback and still shows solid intraday absorption; do not buy the first post-gap push.",
+        "suggestedProfitTake": "中文：若相对强度继续领先国电南瑞等同主题标的，可分段持有；一旦失去相对强势就先兑现。\nEN: If its relative strength continues to lead peers such as Guodian Nari, it can be held in stages; once it loses that relative edge, take profits first.",
+        "type": "中文：10日波段 / 低于50元 / 同主题相对强势\nEN: 10-day swing / below RMB 50 / relative-strength name within the theme",
+        "catalyst": "中文：反馈日志已提示同一主题内相对强弱很重要，四方股份更适合当电网方向的弹性补充。\nEN: The feedback log already showed that relative strength matters within the same theme, and Sifang is a better beta supplement inside the grid trade.",
+        "why": "中文：比纯防守票更有弹性，但仍属于价格不高、易于执行的工业设备方向。\nEN: It offers more upside elasticity than pure defensive names while still sitting in a not-too-expensive, executable industrial-equipment lane.",
+        "risk": "中文：若只是短线题材轮动而没有板块持续性，它会比央企龙头更容易回吐。\nEN: If this is only a short-term theme rotation without sector persistence, it can give back gains faster than the larger SOE leaders.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：近期相对强度好于部分更大市值同主题标的，说明资金在找低价但有弹性的工业设备票。\nEN: Its recent relative strength has been better than some larger-cap peers in the same theme, suggesting capital is looking for lower-priced but still responsive industrial-equipment names.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "601688.SH",
+        "chineseName": "华泰证券",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：只有在512000.SH、510300.SH和上涨家数同步改善时观察；若只是券商自己高开，不追。\nEN: Only watch if 512000.SH, 510300.SH, and market breadth improve together; if brokers gap up on their own, do not chase.",
+        "suggestedProfitTake": "中文：若市场扩散成立，可按约10个交易日思路持有；若成交量放大但宽度回落，应更早分批止盈。\nEN: If market broadening truly takes hold, it can fit a roughly 10-trading-day hold; if turnover expands but breadth rolls over, take profits earlier in batches.",
+        "type": "中文：10日波段 / 低于50元 / 流动性Beta\nEN: 10-day swing / below RMB 50 / liquidity beta",
+        "catalyst": "中文：LPR和资本市场政策预期容易先传导到券商，且券商是判断反弹能否扩散的关键中介。\nEN: LPR and capital-market policy expectations tend to flow quickly into brokers, and brokers are a key transmission channel for whether the rebound can broaden.",
+        "why": "中文：它是比追高AI更适合执行的低价高流动性进攻工具，但前提必须是宽基确认。\nEN: It is a more executable lower-priced, high-liquidity offensive tool than chasing extended AI names, but only if broad-index confirmation is present.",
+        "risk": "中文：若宽度不跟，它就容易变成一天的情绪脉冲，T+1下第二天非常被动。\nEN: If breadth does not follow, it can quickly degrade into a one-day emotion spike, which becomes very awkward to manage the next day under T+1.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周相较纯防守票更值得关注，但真正的升级信号还没有从银行和宽基那里拿到完全确认。\nEN: This week it became more interesting than pure defensive names, but the full upgrade signal still has not been confirmed by banks and broad indices.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "601669.SH",
+        "chineseName": "中国电建",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：只在不高开、回踩后仍守住周三强势结构时观察；若节后直接跳空走高，先等第一次分歧。\nEN: Only watch if it avoids a big gap-up and still holds Wednesday's strong structure after a pullback; if it jumps immediately after the holiday, wait for the first disagreement.",
+        "suggestedProfitTake": "中文：若低价工程央企继续轮动，可按分批推止盈方式处理；若板块量能衰减，就先收缩持仓。\nEN: If lower-priced engineering SOEs keep rotating higher, use staged trailing profit-taking; if sector volume fades, reduce the position first.",
+        "type": "中文：10日波段 / 低于50元 / 低价工程央企\nEN: 10-day swing / below RMB 50 / lower-priced engineering SOE",
+        "catalyst": "中文：周三单日约+7.04%，说明资金愿意把工业数据偏强和低价大票结合起来交易。\nEN: Its roughly 7.04% single-day gain on Wednesday showed that capital is willing to trade the combination of stronger industrial data and lower-priced large caps.",
+        "why": "中文：它比高价科技更符合‘稳一点但还有弹性’的风格，也比大行更有进攻属性。\nEN: It fits the 'steadier but still with upside' style better than expensive tech and offers more offense than big banks.",
+        "risk": "中文：如果这里只是一日政策脉冲，节后高开后很容易在T+1下变成回吐风险。\nEN: If this was only a one-day policy pulse, a post-holiday gap-up can quickly turn into giveback risk under T+1.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周中段是最清晰的低价大票领涨代表之一，但持续性仍需要周一到周二验证。\nEN: In the middle of this week it was one of the clearest lower-priced large-cap leaders, but persistence still needs Monday-Tuesday confirmation.",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "510300.SH",
+        "chineseName": "沪深300ETF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：仅在节后首日站稳前一交易日高点并得到银行、券商、工业权重共振时观察；否则只把它当宽度信号。\nEN: Only watch if it holds above the prior session's high on the first day after the holiday with confirmation from banks, brokers, and industrial heavyweights; otherwise use it only as a breadth signal.",
+        "suggestedProfitTake": "中文：若宽基放量后第二天不能延续，就及时降仓；若扩散成立，可用缩量滞涨作为离场信号。\nEN: If broad indices expand on volume but fail to follow through the next day, cut size quickly; if broadening holds, use volume contraction and stalled price action as the exit signal.",
+        "type": "中文：宽基ETF / 风险确认工具\nEN: Broad-index ETF / risk-confirmation tool",
+        "catalyst": "中文：下周真正需要确认的是风险偏好是否从少数科技扩散到更大的权重和行业，而510300.SH最能反映这一点。\nEN: What next week really needs to confirm is whether risk appetite broadens from a handful of tech names into larger heavyweights and sectors, and 510300.SH is the clearest tool for that.",
+        "why": "中文：它不是收益弹性最大的标的，但它最能避免在窄行情里把个股强势误判成普遍机会。\nEN: It is not the highest-beta instrument, but it is the best at preventing the mistake of reading a few strong stocks as a broad opportunity in a narrow market.",
+        "risk": "中文：若深市继续独强而宽基跟不上，它会相对乏力；但那恰恰是提醒不要追高的信号。\nEN: If Shenzhen keeps outperforming while broad indices lag, it will look relatively dull; but that is exactly the signal not to chase aggressively.",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周较6月12日约涨3.44%，强于上证但弱于深证，正好体现了‘风险偏好回升但尚未全面扩散’。\nEN: It rose about 3.44% this week versus June 12, stronger than Shanghai but weaker than Shenzhen, which neatly captures 'risk appetite improved, but not yet fully broadened.'",
+        "setupStatus": "early"
+      }
+    ],
+    "riskControls": [
+      "中文：凡是本周后半段已经急拉过的科技股，默认不追周一高开第一脚；必须先看到第一次分歧、回踩缩量和ETF同步。\nEN: Any tech stock that already spiked in the second half of this week should default to no chasing on the first Monday gap-up leg; first require the initial disagreement, a lighter-volume pullback, and ETF confirmation.",
+      "中文：若510300.SH、510050.SH、银行和券商没有一起改善，就不要把深市单边走强误判成全面行情。\nEN: If 510300.SH, 510050.SH, banks, and brokers do not improve together, do not misread unilateral Shenzhen strength as a full-market rally.",
+      "中文：若人民币继续走弱到6.79附近或更弱、同时10年期国债收益率继续下行，说明资金仍偏防御和题材交易，高位追涨的容错率更差。\nEN: If the yuan weakens again toward 6.79 or beyond while the 10-year yield keeps falling, capital is still leaning defensive and thematic, making error tolerance for chasing even worse.",
+      "中文：工程、券商、电网这些低价工具一旦在不高开的前提下都无法承接，说明市场不是在健康轮动，而是节前脉冲后乏力，应优先降总仓位。\nEN: If lower-priced tools like engineering, brokers, and grid names all fail to absorb demand without a gap-up, the market is not rotating healthily but fading after a pre-holiday pulse, and total exposure should be cut first.",
+      "中文：对于任何隔夜持仓，都要先假设第二天不能当日止损的T+1约束；因此入场条件必须比平时更严格，尤其是高换手和高开票。\nEN: For any overnight holding, assume the next day cannot be managed like an instant same-day stop because of T+1; that means entry conditions must be stricter than usual, especially in high-turnover or gap-up names."
+    ],
+    "sections": [
+      {
+        "title": "中文：本周大涨股票与原因\nEN: Major Surges And Reasons",
+        "items": [
+          "300308.SZ 中际旭创：中文：6月18日单日约+7.19%，是本周尾段最明显的AI光模块加速之一；催化来自陆家嘴论坛对创新和\"未来产业\"融资支持，叠加科技风险偏好回流；但当前位置已偏拥挤，若周一高开再追，在T+1下更像把政策利好变成隔夜风险；状态：avoid chase / wait for pullback。\nEN: Zhongji Innolight gained about 7.19% on June 18, one of the clearest late-week AI optical-module accelerations. The catalyst was policy support for innovation and 'future industries' financing from the Lujiazui Forum plus returning tech risk appetite. But the setup is already crowded; chasing another Monday gap under T+1 would turn policy optimism into overnight risk; status: avoid chase / wait for pullback.",
+          "300502.SZ 新易盛：中文：6月18日单日约+4.23%，与光模块主线共振；上涨理由可信，但它和中际旭创一样属于高拥挤高换手区域，更适合等换手降温和回踩确认；状态：wait for pullback。\nEN: Eoptolink rose about 4.23% on June 18 in line with the optical-module theme. The reason is credible, but like Zhongji it sits in a high-crowding, high-turnover zone and is better treated with cooler turnover and pullback confirmation first; status: wait for pullback.",
+          "002371.SZ 北方华创：中文：6月18日单日约+2.39%，虽然弹性不如光模块，但半导体设备更贴近工业与国产替代逻辑；如果芯片ETF和科创50ETF同步确认，它比纯情绪票更值得观察；状态：watch for pullback。\nEN: NAURA gained about 2.39% on June 18. Its upside was smaller than optical modules, but semiconductor equipment is closer to the industrial and localization thesis. If the semiconductor ETF and STAR 50 ETF confirm together, it is more worth watching than pure emotion names; status: watch for pullback.",
+          "601669.SH 中国电建：中文：6月17日单日约+7.04%，代表了本周中段低价工程央企的风险偏好修复；催化来自工业数据相对偏强与低价大票承接；如果节后不给高开，它仍是更接近用户风格的可执行标的；但若周一直接跳空，T+1下不宜追；状态：in progress / only tradable on pullback。\nEN: Power Construction Corp. gained about 7.04% on June 17, representing the midweek repair in lower-priced engineering SOEs. The catalyst was relatively stronger industrial data and capital absorption into lower-priced large caps. If it does not gap too hard after the holiday, it still fits the user's style better; but if Monday jumps immediately, it should not be chased under T+1; status: in progress / only tradable on pullback.",
+          "601800.SH 中国交建：中文：6月17日单日约+3.40%，是工程链跟涨确认；上涨可信度高于纯小题材，但持续性仍要看宽基和券商是否共振；状态：still tradable only if breadth improves。\nEN: China Communications Construction rose about 3.40% on June 17 as confirmation follow-through inside the engineering chain. The move is more credible than pure micro-theme speculation, but persistence still depends on broad-index and broker confirmation; status: still tradable only if breadth improves."
+        ]
+      },
+      {
+        "title": "中文：本周表现复盘\nEN: Weekly Performance Scorecard",
+        "items": [
+          "中文：做对的部分，是继续把‘宽度优先、不要追拥挤高贝塔、先看宽基与券商确认’放在前面。这在周四银行拖累沪指、但科技继续冲的分化环境里依然能保护执行质量。\nEN: The part that worked was keeping 'breadth first, do not chase crowded high beta, confirm broad indices and brokers first' at the top. That still protected execution quality when banks dragged Shanghai on Thursday while tech kept running.",
+          "中文：做错或需要修正的部分，是不能把纯防守票自动当成本周最优车辆。市场风险偏好在周中确实回升，但最佳工具转向了低价工程、设备和条件式科技ETF，而不是单纯大行。\nEN: The part that missed, or needs adjustment, is assuming pure defensive names were automatically the week's best vehicles. Risk appetite genuinely improved midweek, but the best tools shifted toward lower-priced engineering, equipment, and conditional tech ETFs rather than pure big-bank defense.",
+          "中文：本周应继续保留‘市场风险更好，不代表任何一个高价龙头都值得追’这条纪律；要把市场判断和个股买点判断分开。\nEN: This week reinforces the rule that 'better market risk does not mean every expensive leader is worth chasing'; market-regime judgment and stock-entry judgment need to stay separate.",
+          "中文：对下周最实用的改进，是优先寻找低于50元、液态、可持有约10天的二次入场点，而不是在节后第一分钟追周四最强票。\nEN: The most practical improvement for next week is to prioritize sub-RMB50, liquid, roughly 10-day secondary entries rather than chasing Thursday's strongest names in the first minute after the holiday."
+        ]
+      },
+      {
+        "title": "中文：下周即将发生的催化\nEN: Upcoming Catalyst Watch",
+        "items": [
+          "2026-06-22 09:00前后：中文：关注LPR是否按节假日顺延规则公布，以及1年期和5年期以上LPR是否有变化。若维持不变，市场更需要靠宽度自己证明反弹。\nEN: Around 09:00 on 2026-06-22, watch whether the LPR is published on the holiday-delayed schedule and whether the 1-year and 5-year-plus LPR change. If they stay unchanged, the market will need breadth to prove the rebound on its own.",
+          "2026-06-22 开盘后前60-90分钟：中文：先看510300.SH、510050.SH、512000.SH、银行和上涨家数能否同步改善；没有这个共振，就不把高弹性科技视为安全起点。\nEN: In the first 60-90 minutes after the June 22 open, first watch whether 510300.SH, 510050.SH, 512000.SH, banks, and the number of advancers improve together; without that resonance, high-beta tech should not be treated as a safe starting point.",
+          "2026-06-22 至 2026-06-26：中文：继续跟踪央行公开市场操作、人民币与10年期国债收益率。若宽松延续但汇率偏弱，市场更像题材轮动而不是盈利扩散。\nEN: From 2026-06-22 to 2026-06-26, keep tracking PBOC open-market operations, the yuan, and the 10-year yield. If liquidity stays easy but the currency stays weak, the market still looks more like thematic rotation than earnings broadening.",
+          "2026-06-22 至 2026-06-26：中文：关注陆家嘴论坛后创新融资和未来产业表述是否真正扩散到芯片ETF、科创50ETF和券商，而不是只停留在少数高价个股。\nEN: From 2026-06-22 to 2026-06-26, watch whether post-Lujiazui innovation-financing rhetoric truly broadens into semiconductor ETFs, STAR 50 ETFs, and brokers rather than staying trapped in only a few expensive single names."
+        ]
+      },
+      {
+        "title": "中文：风险控制与失效条件\nEN: Risk Controls And Invalidation",
+        "items": [
+          "中文：任何周四急拉的科技票，若周一高开后30到60分钟内不能继续扩散到ETF与板块多数个股，就按冲高兑现处理。\nEN: Any tech name that spiked hard on Thursday should be treated as a sell-into-strength candidate if, after a Monday gap-up, it cannot broaden within 30-60 minutes into ETFs and most of the group.",
+          "中文：若510300.SH、510050.SH、银行和券商继续弱，而深市只靠少数龙头上涨，就不要把总仓位提高到进攻水平。\nEN: If 510300.SH, 510050.SH, banks, and brokers remain weak while Shenzhen is supported by only a few leaders, do not lift total exposure to an offensive level.",
+          "中文：若低价工程、电网和券商这些更易执行的标的都不给回踩承接，说明节后并没有新的健康买点，应优先保留现金与底仓。\nEN: If lower-priced, more executable names in engineering, grid equipment, and brokers do not offer constructive pullback absorption, there is no fresh healthy post-holiday entry and cash plus base positions should come first.",
+          "中文：所有隔夜仓位都必须先假设T+1带来的次日流动性约束，尤其要防高开、放量滞涨和一字化风险。\nEN: Every overnight position should begin with the assumption of next-day liquidity constraints under T+1, especially against gap-ups, heavy-volume stalls, and one-way opening risk."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "中文：Trading Economics中国股市页面（6月18日指数收盘、科技与工程龙头表现）\nEN: Trading Economics China stock market page for the June 18 index close and the week's tech/engineering leader moves.",
+        "confidence": "Primary",
+        "url": "https://tradingeconomics.com/china/stock-market"
+      },
+      {
+        "label": "中文：Trading Economics中国工业增加值（援引国家统计局5月数据）\nEN: Trading Economics China industrial production page citing NBS May data.",
+        "confidence": "Primary",
+        "url": "https://tradingeconomics.com/china/industrial-production"
+      },
+      {
+        "label": "中文：Trading Economics中国社会消费品零售总额（援引国家统计局5月数据）\nEN: Trading Economics China retail sales page citing NBS May data.",
+        "confidence": "Primary",
+        "url": "https://tradingeconomics.com/china/retail-sales-annual"
+      },
+      {
+        "label": "中文：Trading Economics中国固定资产投资（援引国家统计局1-5月数据）\nEN: Trading Economics China fixed-asset investment page citing NBS January-May data.",
+        "confidence": "Primary",
+        "url": "https://tradingeconomics.com/china/fixed-asset-investment"
+      },
+      {
+        "label": "中文：中国人民银行6月18日公开市场业务交易公告\nEN: PBOC June 18 open-market operation announcement.",
+        "confidence": "Primary",
+        "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026061808500376299/index.html"
+      },
+      {
+        "label": "中文：中国货币网LPR页面（每月20日、遇节假日顺延的公布规则）\nEN: ChinaMoney LPR page for the publication rule stating monthly release on the 20th, delayed on holidays.",
+        "confidence": "Primary",
+        "url": "https://www.chinamoney.com.cn/chinese/bklpr/"
+      },
+      {
+        "label": "中文：Trading Economics人民币页面（6月19日USD/CNY与离岸人民币观察）\nEN: Trading Economics yuan page for June 19 USD/CNY and offshore yuan conditions.",
+        "confidence": "Primary",
+        "url": "https://tradingeconomics.com/china/currency"
+      },
+      {
+        "label": "中文：Trading Economics中国10年期国债收益率\nEN: Trading Economics China 10-year government bond yield page.",
+        "confidence": "Primary",
+        "url": "https://tradingeconomics.com/china/government-bond-yield"
+      },
+      {
+        "label": "中文：Trading Economics中国7天逆回购利率页面\nEN: Trading Economics China 7-day reverse repo rate page.",
+        "confidence": "Primary",
+        "url": "https://tradingeconomics.com/china/reverse-repo-rate"
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "weekId": "2026-W23",
     "weekNumber": 23,
