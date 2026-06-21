@@ -1,5 +1,356 @@
 window.WEEKLY_MARKET_BRIEFINGS = [
   {
+    "date": "2026-06-21",
+    "weekId": "2026-W25",
+    "weekNumber": 25,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-21 08:00 GMT+8",
+    "title": "EN: U.S. Weekly Market Brief - Week 25\n中文：美股周度市场简报 - 第25周",
+    "tone": "EN: This was a four-session, post-Fed, post-oil-shock week where semiconductors and memory won, software split lower, and the real edge came from respecting entry quality rather than blindly trusting the theme.\n中文：这是一个只有四个交易日、经历美联储与油价冲击后的交易周：半导体和存储最强，软件继续分化走弱，真正的优势来自尊重进场质量，而不是盲目相信主题。",
+    "priorities": [
+      "EN: Wednesday, June 24 after the U.S. close, Micron reports. After a verified +15.5% weekly run, treat any MU, SMH, or SOXL gap as wait-first, not auto-buy.\n中文：6月24日周三美股收盘后，Micron公布业绩。在已确认周涨约15.5%之后，MU、SMH、SOXL若再跳空，应先等确认，而不是自动追买。",
+      "EN: Thursday, June 25 at 08:30 ET, BEA releases May Personal Income and Outlays and the third estimate of Q1 GDP/corporate profits. A hotter PCE read can hit QQQ/SMH faster than SPY/XLF.\n中文：6月25日周四美东08:30，BEA公布5月个人收入与支出，以及一季度GDP/企业利润终值。若PCE偏热，QQQ/SMH通常会比SPY/XLF先承压。",
+      "EN: Require regular-session confirmation in semis. Monday and Tuesday, June 22-23 U.S. time should prove whether SMH, MU, AVGO, and INTC can hold the first 30 to 60 minutes without oil/yield help.\n中文：半导体必须用正规交易时段确认。6月22日至23日美股时段，要看SMH、MU、AVGO、INTC能否在没有油价/利率额外助推下守住前30到60分钟。",
+      "EN: Software shorts remain selective, not blanket. ACN and ADBE continued to validate weakness, but ORCL did not offer clean week-two downside follow-through, so failed bounces matter more than gap chasing.\n中文：软件空头依然只能精选，不能一刀切。ACN与ADBE继续验证弱势，但ORCL没有给出干净的第二周下跌延续，因此“反弹失败”比“追空缺口”更重要。",
+      "EN: Keep safer and speculative ideas separate. XLF or SMH are cleaner than SOXL, MU calls, or INTC headline chasing when capital is small and execution quality matters.\n中文：要把相对稳健与投机想法分开。对小资金来说，在执行质量更重要的环境里，XLF或SMH通常比SOXL、MU认购或追INTC消息面更干净。"
+    ],
+    "summary": [
+      "EN: The week ended on Thursday, June 18 because Friday, June 19 was the Juneteenth market holiday. Verified closes show SPY rose from 741.75 on June 12 to 746.74 on June 18 (+0.7%), QQQ from 721.34 to 740.62 (+2.7%), and IWM from 292.95 to 295.59 (+0.9%).\n中文：本周实际在6月18日周四结束，因为6月19日周五是美国六月节休市。经核实，SPY从6月12日的741.75涨到6月18日的746.74（约+0.7%），QQQ从721.34涨到740.62（约+2.7%），IWM从292.95涨到295.59（约+0.9%）。",
+      "EN: The tape was leadership-heavy, not a broad melt-up. Semis and memory did the work: SMH gained about 6.4%, MU about 15.5%, AVGO about 7.7%, and leveraged SOXL about 19.0% for the four-session week.\n中文：这不是全面普涨，而是强者领涨。真正出力的是半导体与存储：SMH周涨约6.4%，MU约15.5%，AVGO约7.7%，三倍杠杆SOXL约19.0%。",
+      "EN: The Federal Reserve held rates at 3.50% to 3.75% on Wednesday, June 17 and said inflation remains elevated. Treasury's June 18 curve then still showed restrictive yields, with the 2-year at 4.19% and the 10-year at 4.46%.\n中文：美联储在6月17日周三将利率维持在3.50%至3.75%，并明确表示通胀仍然偏高。随后美国财政部6月18日收益率曲线仍显示限制性利率环境，2年期约4.19%，10年期约4.46%。",
+      "EN: Software stayed fragile. Verified weekly moves show ACN fell about 24.8% and ADBE about 4.3%, while ORCL finished nearly flat for the week after its prior earnings damage.\n中文：软件板块依然脆弱。经核实，ACN本周约跌24.8%，ADBE约跌4.3%，而ORCL在此前财报受挫后，本周基本走平。",
+      "EN: Energy unwound as the oil-shock hedge cooled. XLE fell from 57.55 to 53.77 for a roughly 6.6% weekly drop, which helped travel and broader risk appetite early in the week.\n中文：随着油价冲击缓和，能源对冲交易明显回吐。XLE从57.55跌到53.77，周跌约6.6%，这在周初帮助了旅行板块和整体风险偏好。",
+      "EN: The recent daily-briefing process mostly worked where it emphasized semis, memory, and no-chase execution. It was mixed on software shorts: ACN and ADBE worked, ORCL continuation did not.\n中文：近期日更里，强调半导体、存储以及“不要乱追”的执行框架，大方向基本有效；但软件空头是混合结果：ACN与ADBE有效，ORCL的继续下跌则并不干净。",
+      "EN: The old CRM short remains a miss / thesis invalidated. CRM later fell about 8.5% this week, but that does not repair the earlier failed short because the original post-earnings squeeze already invalidated that setup.\n中文：旧的CRM做空仍应记作失误 / 逻辑失效。CRM本周后来确实回落约8.5%，但这并不能修复此前失败的空单，因为最初财报后的挤空走势早已让原始设置失效。"
+    ],
+    "marketPulse": {
+      "SPY/QQQ/IWM": {
+        "value": "SPY 746.74 / QQQ 740.62 / IWM 295.59 at the June 18, 2026 U.S. close",
+        "note": "EN: QQQ outperformed IWM and SPY, so the week still belonged to growth leadership, not full breadth confirmation. Small caps improved, but they did not become the new lead horse.\n中文：QQQ跑赢IWM与SPY，说明本周依然是成长主线领涨，而不是全面广度确认。小盘股有改善，但并没有成为新的领头板块。"
+      },
+      "Rates": {
+        "value": "Fed 3.50%-3.75% on June 17; U.S. 2Y 4.19% / 10Y 4.46% on June 18",
+        "note": "EN: The market recovered after Wednesday's hawkish shock, but yields never got cheap enough to make execution sloppy. Higher-for-longer risk is still alive for duration-heavy trades.\n中文：市场虽然从周三偏鹰冲击中修复，但收益率并没有低到可以让执行变得随意。对高久期交易来说，“更高更久”的利率风险仍然存在。"
+      },
+      "Volatility / Options": {
+        "value": "VIX 16.40 on June 18; Micron earnings due June 24 after the close",
+        "note": "EN: Index fear cooled, but single-name event risk did not. That is the exact setup where naked calls, post-gap chasing, and ignoring IV crush become expensive mistakes.\n中文：指数层面的恐慌回落了，但个股事件风险并没有消失。这样的环境最容易让裸买认购、跳空后追涨以及忽视IV crush，变成代价很高的错误。"
+      }
+    },
+    "weekReview": [
+      "EN: Monday, June 15 was the cleanest risk-on day. AP said the S&P 500 rose 1.7% and the Nasdaq 3.1% as a tentative U.S.-Iran deal and a 4.8% drop in Brent eased inflation pressure while AI stocks rebounded.\n中文：6月15日周一是本周最干净的风险偏好日。美联社称，因美伊暂定协议及布伦特油价下跌4.8%缓解通胀压力，标普涨1.7%，纳指涨3.1%，AI股同步反弹。",
+      "EN: Tuesday, June 16 exposed the path risk. Oil fell further, but semis and AI names slipped, which matters because it showed that even a correct weekly bullish thesis could still punish bad entries.\n中文：6月16日周二暴露了路径风险。油价继续下跌，但半导体与AI个股反而回落，这说明即便周度方向看对，错误进场依旧会被惩罚。",
+      "EN: Wednesday, June 17 was the reset day. AP said the S&P 500 fell 1.2% after the Fed projections showed nine officials expecting at least one hike in 2026, and that rates shock hit duration-heavy growth first.\n中文：6月17日周三是重置日。美联社称，因美联储点阵图显示九位官员预计2026年至少加息一次，标普跌1.2%，而这种利率冲击首先打击了高久期成长板块。",
+      "EN: Thursday, June 18 repaired the week but did not make it easy. Semis ripped again, MU closed +8.7% on the day, INTC +10.6%, and ACN -18.0%, which means trend selection mattered more than broad market guessing.\n中文：6月18日周四把这一周修回来了，但并不代表好做。半导体再次强拉，MU单日收涨约8.7%，INTC涨约10.6%，而ACN跌约18.0%，说明本周更重要的是选对趋势，而不是泛泛猜大盘。",
+      "EN: The AAOI-style first-30-minute failure risk remained relevant even though the weekly direction ended positive. SOXL went roughly +16.1% Monday, -17.0% Tuesday, and +19.4% Thursday, so small-account traders had to respect intraday structure, spreads, and leverage decay.\n中文：即便周线最终向上，AAOI式“前30分钟失败”的风险依旧存在。SOXL周一约+16.1%、周二约-17.0%、周四又约+19.4%，所以小资金交易者必须尊重日内结构、价差和杠杆损耗。",
+      "EN: Process discipline improved because the daily notes did not try to resurrect the old CRM short. That remains the correct approach: once a post-earnings short is invalidated, later weakness is a new chart, not proof the old call was secretly right.\n中文：流程纪律改进的一点在于，近期日更没有去“复活”旧的CRM空单。这仍是正确做法：一旦财报后空头逻辑被否定，之后的回落就是一张新图，而不是证明旧判断其实没错。"
+    ],
+    "nextWeekFocus": [
+      "EN: Micron on Wednesday, June 24 is the week's main stock-specific catalyst. The question is not whether memory demand is real; it is whether an already crowded winner can still reward fresh risk after a +15.5% weekly surge.\n中文：6月24日周三的Micron，是下周最核心的个股催化。问题不在于存储需求是不是真的，而在于一个已经拥挤的赢家，在周涨15.5%之后还能否继续奖励新风险。",
+      "EN: Thursday, June 25 at 08:30 ET is the macro gate because BEA schedules both May Personal Income and Outlays and the third estimate of Q1 GDP/corporate profits. A hot inflation print can quickly pressure QQQ, SMH, MU, and AVGO.\n中文：6月25日周四美东08:30是宏观闸门，因为BEA安排了5月个人收入与支出，以及一季度GDP/企业利润终值。若通胀偏热，QQQ、SMH、MU、AVGO可能会很快承压。",
+      "EN: Watch whether financials and small caps can do more than simply confirm one strong day. XLF rose only about 0.4% and IWM about 0.9% for the week, so broadening is still more potential than fact.\n中文：要观察金融与小盘能否不只是“确认一个强日”而已。XLF周涨仅约0.4%，IWM约0.9%，所以市场广度扩散仍更像潜力，而不是既成事实。",
+      "EN: Oil and Hormuz headlines remain live risk. If crude re-spikes, the energy short and travel relief themes can unwind fast, while long-duration growth may again face inflation pressure.\n中文：油价与霍尔木兹相关headline仍是活跃风险。若原油再次急拉，能源回落与旅行修复两条交易都可能快速反转，而高久期成长也会重新面对通胀压力。",
+      "EN: Software should be treated tactically, not ideologically. ACN and ADBE remain weak, but new shorts should come from failed rebounds under VWAP, not from emotional gap chasing after the easy move is gone.\n中文：软件板块应以战术方式处理，而不是意识形态式看空。ACN与ADBE仍偏弱，但新空点应该来自VWAP下方的反弹失败，而不是在容易的那一段走完后情绪化追空。"
+    ],
+    "sectors": [
+      {
+        "name": "EN: Semiconductors / Memory\n中文：半导体 / 存储",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Verified weekly winners were SMH (+6.4%), MU (+15.5%), AVGO (+7.7%), and SOXL (+19.0%), with Micron earnings on June 24 keeping attention on the group.\n中文：经核实，本周赢家包括SMH（约+6.4%）、MU（约+15.5%）、AVGO（约+7.7%）和SOXL（约+19.0%），再加上Micron将于6月24日公布业绩，整个板块继续是焦点。",
+        "watch": "EN: Favor SMH, MU, or AVGO only if the group holds opening ranges in regular trading. Treat premarket pops as information, not confirmation.\n中文：只有在正规交易时段能守住开盘区间时，才优先考虑SMH、MU或AVGO。盘前上涨只能算信息，不能直接当确认。",
+        "risk": "EN: Crowding, IV crush into Micron, and higher-for-longer rates can turn a bullish weekly chart into a bad next-day entry.\n中文：拥挤交易、Micron前的IV crush，以及“更高更久”的利率，都可能让看起来很强的周线图，变成很差的次日进场点。"
+      },
+      {
+        "name": "EN: Software / IT Services\n中文：软件 / IT服务",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "EN: ACN (-24.8%) and ADBE (-4.3%) confirmed that investors still punish weak guidance, AI monetization doubt, and execution complexity.\n中文：ACN（约-24.8%）与ADBE（约-4.3%）都确认了一点：只要指引偏弱、AI变现存疑或执行路径复杂，投资者仍会惩罚软件股。",
+        "watch": "EN: Focus on ACN, ADBE, or IGV failed bounces. ORCL is only worth revisiting on the short side if it loses week support again.\n中文：重点看ACN、ADBE或IGV的反弹失败结构。ORCL只有在再次跌破本周支撑时，才值得重新考虑空头。",
+        "risk": "EN: A sudden yield cooldown can trigger violent software squeezes, especially after a large gap-down day.\n中文：如果收益率突然回落，软件股在大跌后很容易出现激烈挤空。"
+      },
+      {
+        "name": "EN: Financials\n中文：金融",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: Rates stayed firm enough to support banks versus long-duration software, and XLF still finished the week higher.\n中文：收益率仍足够高，支持银行相对跑赢高久期软件，而XLF本周也最终收涨。",
+        "watch": "EN: Prefer XLF or liquid banks only if breadth stays constructive on June 22-25 and the move is not purely defensive.\n中文：只有在6月22日至25日期间市场广度继续建设性改善、且走势不只是防御性轮动时，才优先看XLF或流动性好的银行股。",
+        "risk": "EN: If yields drop for recessionary reasons, financials can lose the relative-strength advantage quickly.\n中文：如果收益率是因为衰退担忧而下行，金融板块的相对强势可能会很快消失。"
+      },
+      {
+        "name": "EN: Small Caps / Domestic Beta\n中文：小盘股 / 国内经济Beta",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: IWM improved, but only by about 0.9% for the week, so the breadth case remains constructive but unproven.\n中文：IWM有所改善，但全周只涨约0.9%，因此市场广度扩散的逻辑仍属建设性、但尚未完全证实。",
+        "watch": "EN: Only upgrade small caps if they hold VWAP after the first 30 minutes and stop lagging QQQ on strong days.\n中文：只有当小盘股在前30分钟后能守住VWAP，并且在强势日不再明显落后QQQ时，才考虑上调级别。",
+        "risk": "EN: Small caps are still the easiest place for first-30-minute failures when yields back up unexpectedly.\n中文：一旦收益率意外回升，小盘股仍是最容易出现“前30分钟失败”的地方。"
+      },
+      {
+        "name": "EN: Energy / Oil Hedge\n中文：能源 / 油价对冲",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: XLE dropped about 6.6% for the week as shipping and ceasefire hopes reduced the oil-shock premium.\n中文：随着航运恢复与停火预期降温油价冲击溢价，XLE本周约下跌6.6%。",
+        "watch": "EN: The short only remains clean if crude stays softer into the June 22-25 cash sessions.\n中文：只有当原油在6月22日至25日的正规交易时段继续偏弱时，能源空头才仍算干净。",
+        "risk": "EN: This setup invalidates immediately on a new Hormuz or supply-shock headline.\n中文：一旦出现新的霍尔木兹或供给冲击headline，这个设置会立刻失效。"
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Consider only on a regular-session pullback hold above VWAP or a clean breakout with breadth across NVDA, MU, and AVGO.\n中文：只有在正规交易时段回踩VWAP不破，或NVDA、MU、AVGO同步扩散的干净突破时，才考虑。",
+        "suggestedProfitTake": "EN: Scale out into a 3% to 5% extension or if semis keep rising while breadth narrows back into one or two names.\n中文：若继续上冲3%到5%可分批兑现；若半导体继续涨但广度又缩回一两只龙头，也应减仓。",
+        "type": "EN: safer semiconductor ETF\n中文：相对稳健的半导体ETF",
+        "catalyst": "EN: Verified four-session gain of about 6.4%, with Micron earnings as the next group catalyst.\n中文：经核实，四个交易日上涨约6.4%，而Micron业绩将是下一个板块催化。",
+        "why": "EN: It is a cleaner way to express the semi trend than forcing SOXL in a whipsaw tape.\n中文：在高波动行情里，它比硬上SOXL更适合作为半导体趋势表达。",
+        "risk": "EN: If June 25 inflation data is hot, semis can give back multiple days of gains quickly.\n中文：如果6月25日通胀数据偏热，半导体可能很快回吐多日涨幅。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SMH rose from 619.96 on June 12 to 659.88 on June 18, about +6.4% for the week.\n中文：SMH从6月12日的619.96涨到6月18日的659.88，周涨约6.4%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Best on a pullback that holds VWAP while SPY stays firm and June 25 data does not shock yields higher.\n中文：如果SPY保持稳定，且6月25日数据没有把收益率再度顶高，优先考虑VWAP上方的回踩承接。",
+        "suggestedProfitTake": "EN: Trim into a 2% to 4% move or if the trade becomes defensive rather than broad-risk participation.\n中文：上涨2%到4%先减一部分；若走势变成防御性配置而不是广泛风险偏好，也应减仓。",
+        "type": "EN: safer rotation ETF\n中文：相对稳健的轮动ETF",
+        "catalyst": "EN: Banks held up better than software in a still-restrictive yield backdrop.\n中文：在收益率仍具限制性的背景下，银行明显比软件更稳。",
+        "why": "EN: For small capital, this is a cleaner alternative than forcing leveraged semis after a big week.\n中文：对小资金账户来说，它比在大涨之后硬追杠杆半导体更干净。",
+        "risk": "EN: If yields drop for bad macro reasons, the trade can lose sponsorship quickly.\n中文：如果收益率因坏宏观而回落，这笔交易可能会很快失去资金支持。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: XLF rose from 53.34 on June 12 to 53.57 on June 18, a modest +0.4% weekly gain.\n中文：XLF从6月12日的53.34涨到6月18日的53.57，周涨幅温和，约+0.4%。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "MU",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for a pullback or for the first 30-minute range to hold after June 24 earnings; avoid blind premarket chasing.\n中文：更好的做法是等回踩，或等6月24日财报后首30分钟区间被守住；不要盲目追盘前。",
+        "suggestedProfitTake": "EN: If the stock gaps on earnings, take partial profits quickly into extension and consider trailing only with defined risk.\n中文：若财报后再跳空，应更快在延伸段分批兑现；若继续持有，也尽量采用明确风险控制。",
+        "type": "EN: high-beta earnings leader\n中文：高贝塔财报龙头",
+        "catalyst": "EN: MU gained about 15.5% on the week and reports fiscal Q3 on Wednesday, June 24.\n中文：MU本周约涨15.5%，并将在6月24日周三公布第三财季业绩。",
+        "why": "EN: Memory remains one of the strongest real-AI-demand pockets, but the stock is now crowded enough that entry discipline matters more than conviction slogans.\n中文：存储仍是最强的真实AI需求分支之一，但该股现在足够拥挤，进场纪律比口号式看多更重要。",
+        "risk": "EN: IV crush, overbought positioning, and a first-30-minute failure can all punish late longs.\n中文：IV crush、过热仓位以及前30分钟失败，都可能惩罚太晚进场的多头。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: MU moved from 981.61 on June 12 to 1,133.99 on June 18, about +15.5% weekly, including +8.7% on Thursday alone.\n中文：MU从6月12日的981.61涨到6月18日的1,133.99，周涨约15.5%，其中周四单日就涨约8.7%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Consider only if AVGO and SMH both hold the same-day opening range; do not buy it as a solo hero trade.\n中文：只有当AVGO与SMH一起守住同日开盘区间时才考虑；不要把它当成单兵英雄交易。",
+        "suggestedProfitTake": "EN: Scale out into a 3% to 5% rebound leg or sooner if MU earnings lifts only one part of the chip complex.\n中文：若出现3%到5%的反弹腿可分批兑现；若Micron财报只带动局部芯片股，也应更早减仓。",
+        "type": "EN: large-cap semiconductor leader\n中文：大盘半导体龙头",
+        "catalyst": "EN: AVGO verified about +7.7% weekly follow-through as the chip complex repaired after the Fed shock.\n中文：经核实，随着芯片板块在美联储冲击后修复，AVGO本周跟涨约7.7%。",
+        "why": "EN: It is cleaner than a pure headline trade, but still depends on sector breadth rather than on its own story alone.\n中文：它比纯消息面交易更干净，但仍然依赖板块广度，而不是只靠自身故事。",
+        "risk": "EN: If rates back up or Micron disappoints, AVGO can lose momentum quickly despite still-good fundamentals.\n中文：如果收益率再度上冲，或Micron不及预期，AVGO即便基本面不错，也可能很快失去动能。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AVGO rose from 382.07 on June 12 to 411.35 on June 18, roughly +7.7% for the week.\n中文：AVGO从6月12日的382.07涨到6月18日的411.35，周涨约7.7%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only after the stock proves it can hold a post-headline base in regular trading; avoid buying the first emotional spike.\n中文：只有在正规交易时段证明能够守住消息后平台时才考虑；不要买第一波情绪冲高。",
+        "suggestedProfitTake": "EN: Take profits faster than usual into strength because headline-driven foundry rallies often retrace once detail is questioned.\n中文：消息驱动的代工反弹往往会在市场追问细节后回吐，因此应比平时更快止盈。",
+        "type": "EN: high-beta headline semiconductor\n中文：高贝塔消息驱动半导体",
+        "catalyst": "EN: Intel jumped after President Donald Trump said Apple would work with Intel to design and build chips in the U.S.\n中文：在特朗普表示苹果将与英特尔合作在美国设计并制造芯片后，英特尔大涨。",
+        "why": "EN: The tape clearly rewarded the headline, but this is still more fragile than a clean earnings-driven semi move.\n中文：盘口明显奖励了这个headline，但它仍比干净的财报驱动型半导体上涨更脆弱。",
+        "risk": "EN: If detail, timing, or economics disappoint, a large part of the move can unwind fast.\n中文：如果后续细节、时间表或经济性不及预期，涨幅中的很大一部分都可能快速回吐。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: INTC moved from 124.57 on June 12 to 133.99 on June 18, about +7.6% weekly, including a +10.6% Thursday surge.\n中文：INTC从6月12日的124.57涨到6月18日的133.99，周涨约7.6%，其中周四单日暴涨约10.6%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Use only if semis breadth is broad and the first pullback holds; otherwise this should stay watch-only.\n中文：只有在半导体广度足够广、且第一次回踩能守住时才用；否则更适合只观察。",
+        "suggestedProfitTake": "EN: Take profits aggressively into 5% to 10% bursts. Do not convert a leveraged ETF into a weekly conviction hold.\n中文：出现5%到10%的爆发就应积极止盈；不要把杠杆ETF硬拿成周度信仰仓。",
+        "type": "EN: leveraged speculative ETF\n中文：杠杆投机ETF",
+        "catalyst": "EN: The four-session path was violent but positive, reflecting the same semi leadership with far more path risk.\n中文：这四个交易日的路径极其剧烈但最终收红，本质上反映的是同样的半导体领涨，只是路径风险大得多。",
+        "why": "EN: For a small account it can express momentum efficiently, but only when execution quality is already good.\n中文：对小资金账户来说，它可以高效率表达动量，但前提是你的执行质量本来就过关。",
+        "risk": "EN: Leverage decay, wide spreads, and first-30-minute failures can do more damage than being right on direction can repair.\n中文：杠杆损耗、较宽价差以及前30分钟失败，造成的伤害往往比方向看对更难弥补。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SOXL went about +16.1% Monday, -17.0% Tuesday, and +19.4% Thursday, ending the week up about 19.0%.\n中文：SOXL周一约+16.1%、周二约-17.0%、周四约+19.4%，全周最终约涨19.0%。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "ACN",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only on a failed bounce under VWAP or a weak retest of Thursday's breakdown zone; avoid chasing if the easy gap move is already gone.\n中文：只有在VWAP下方反弹失败，或回抽周四破位区无力时才考虑；如果容易赚的缺口段已经走完，就不要硬追空。",
+        "suggestedProfitTake": "EN: Cover partials into fast downside extensions because a 15% to 20% one-day break often invites reflex squeezes.\n中文：若出现快速延伸下跌，应先回补一部分，因为单日15%到20%的崩跌常会引发技术性反抽。",
+        "type": "EN: weak software short\n中文：弱势软件空头",
+        "catalyst": "EN: Accenture gave a weaker revenue outlook and investors reacted badly to bookings and execution concerns.\n中文：Accenture给出更弱的收入展望，而投资者对订单与执行风险的反应非常负面。",
+        "why": "EN: This remains one of the cleanest examples of software weakness actually being paid, unlike older stale short narratives.\n中文：这仍是“软件弱势真的得到兑现”的最干净例子之一，不同于那些过时的空头叙事。",
+        "risk": "EN: After a collapse this large, the risk is not thesis failure first; it is entering too late into a squeezeable tape.\n中文：在这么大的崩跌之后，首要风险不一定是逻辑错，而是你进场太晚，反而撞上容易反抽的盘口。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: ACN fell from 170.28 on June 12 to 127.98 on June 18, about -24.8% for the week.\n中文：ACN从6月12日的170.28跌到6月18日的127.98，周跌约24.8%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Short only if ORCL loses week support again; otherwise treat it as a watch-only failed-bounce candidate, not a fresh chase.\n中文：只有在ORCL再次跌破本周支撑时才考虑偏空；否则应把它视作观察中的反弹失败候选，而不是新鲜可追的空单。",
+        "suggestedProfitTake": "EN: If the trade works, take profits faster than in ACN because the easy post-earnings damage already happened last week.\n中文：如果空单有效，止盈节奏应比ACN更快，因为最容易赚的财报后伤害已经发生在上周。",
+        "type": "EN: post-earnings software watch\n中文：财报后软件观察标的",
+        "catalyst": "EN: Oracle's heavy AI capex and funding concerns already caused the large post-earnings break; this week only offered mixed follow-through.\n中文：Oracle此前因高额AI资本开支和融资担忧而大跌；本周只给出混合式后续表现。",
+        "why": "EN: It still belongs on the weak-software list, but the tape no longer justifies emotional week-two chasing.\n中文：它仍在弱势软件名单里，但盘口已经不支持情绪化地在第二周继续猛追空。",
+        "risk": "EN: A normal relief bounce can hurt late shorts more than the remaining downside can reward them.\n中文：一次正常反弹对晚到空头的杀伤，可能比剩余下跌空间更大。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: ORCL finished nearly flat for the week, moving from 184.13 on June 12 to 184.29 on June 18.\n中文：ORCL本周基本走平，从6月12日的184.13变到6月18日的184.29。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "riskControls": [
+      "EN: Any Monday or Tuesday gap larger than 4% in MU, INTC, SOXL, or post-gap semis should default to wait-first mode. In this tape, the first 30 minutes are often more honest than the first print.\n中文：如果周一或周二MU、INTC、SOXL或其他跳空半导体再出现超过4%的缺口，默认先等。在当前盘口里，前30分钟往往比第一笔成交更诚实。",
+      "EN: Around Micron earnings, prefer defined-risk spreads or smaller stock size over oversized naked calls. IV crush is not a theory; it is the normal outcome after crowded events.\n中文：围绕Micron财报，优先考虑有限风险价差或更小的正股仓位，而不是放大仓位裸买认购。IV crush不是理论，而是拥挤事件后的常见结局。",
+      "EN: Do not treat SOXL or other leveraged ETFs as overnight conviction holdings just because the weekly chart looks strong. Leverage decay and gap risk compound fast.\n中文：不要因为周线看起来强，就把SOXL或其他杠杆ETF当成隔夜信仰仓。杠杆损耗和跳空风险会很快叠加。",
+      "EN: For software shorts, require failed bounces, weak VWAP retests, or opening-range breakdowns. Gap-down chasing after ACN-style damage often gives a worse reward-to-risk than waiting.\n中文：做软件空头时，要等反弹失败、VWAP弱回抽或开盘区间跌破。像ACN这样大跌之后再去追空，往往不如等待更划算。",
+      "EN: U.S. T+0 mechanics help with exits, but account rules still matter: PDT limits, cash settlement, options permissions, liquidity, and spreads can all turn a good idea into a bad execution.\n中文：美股T+0机制有利于日内退出，但账户规则仍然关键：PDT限制、现金交割、期权权限、流动性和价差，都可能把一个好想法变成差执行。"
+    ],
+    "sections": [
+      {
+        "title": "EN: Major Surges And Reasons\n中文：本周大涨股票与原因",
+        "items": [
+          "MU: EN: about +15.5% for the week, with a +10.8% regular-session jump on Monday and +8.7% on Thursday. The move was not just after-hours noise; it had real cash-session follow-through. The credible reasons were AI-memory tightness, Apple price-hike read-throughs, and crowding into the June 24 earnings event. Tradability status: still bullish structurally, but already extended and better handled on pullbacks or defined-risk structures.\n中文：MU：全周约+15.5%，其中周一正规交易时段约+10.8%，周四又约+8.7%。这不是单纯盘后噪音，而是有真实日内承接。可信原因包括AI存储供给偏紧、苹果提价带来的产业链联想，以及市场资金提前押注6月24日财报。可交易性状态：结构性仍偏强，但已明显拉伸，更适合等回踩或用有限风险结构处理。",
+          "INTC: EN: about +7.6% for the week, with a +10.6% Thursday surge after President Donald Trump said Apple would work with Intel on U.S.-built chips. This started with a premarket headline and then did get regular-session follow-through, which makes it more than a thin rumor spike. Tradability status: headline-driven and fragile; watch for pullback or base, do not chase the first emotional move.\n中文：INTC：全周约+7.6%，其中周四在特朗普表示苹果将与英特尔合作美国本土芯片后，单日暴涨约10.6%。这波上涨先由盘前headline启动，但随后也获得了日内正规交易跟随，因此不只是空洞传闻拉抬。可交易性状态：强消息驱动、但也脆弱；适合等回踩或搭平台，不适合追第一波情绪。",
+          "SOXL: EN: about +19.0% for the week, but the path was wild: +16.1% Monday, -17.0% Tuesday, +19.4% Thursday. The move reflected real semi leadership, yet the execution profile was AAOI-style dangerous for small accounts. Tradability status: only for fast, disciplined traders; otherwise use SMH instead and wait for pullbacks.\n中文：SOXL：全周约+19.0%，但路径极其剧烈：周一约+16.1%、周二约-17.0%、周四约+19.4%。这说明半导体主线确实强，但对小资金而言，执行层面非常像AAOI式高风险场景。可交易性状态：只适合反应快且纪律强的交易者；否则更适合用SMH替代并等待回踩。",
+          "AVGO / SMH: EN: AVGO gained about +7.7% and SMH about +6.4% for the week as the broad chip complex repaired after Wednesday's Fed shock. This was mostly regular-session follow-through rather than a single isolated after-hours burst. Tradability status: in progress, but not early anymore; better to buy resets than strength.\n中文：AVGO / SMH：AVGO周涨约+7.7%，SMH约+6.4%，反映的是整个芯片板块在周三美联储冲击后快速修复。这主要是正规交易时段的持续跟进，而不是一次孤立的盘后脉冲。可交易性状态：仍在进行中，但已不算早期；更适合买调整，而不是买强追涨。"
+        ]
+      },
+      {
+        "title": "EN: Performance Scorecard\n中文：表现复盘",
+        "items": [
+          "HIT: EN: The semi/memory long bias worked. SMH, MU, AVGO, and even SOXL finished materially higher, proving that AI hardware demand still owned the tape.\n中文：命中：半导体/存储多头偏向是对的。SMH、MU、AVGO，甚至SOXL都显著收高，证明AI硬件需求仍主导盘口。",
+          "PARTIAL HIT: EN: Software weakness was real, but it was not equally clean across every ticker. ACN and ADBE validated the bearish read, while ORCL was basically flat for the week and no longer offered easy continuation.\n中文：部分命中：软件弱势确实存在，但并不是每只都一样干净。ACN与ADBE验证了偏空判断，而ORCL本周基本走平，不再提供轻松的延续机会。",
+          "OPEN / PARTIAL: EN: The financials and small-cap confirmation idea improved but did not fully mature. XLF gained only about 0.4% and IWM about 0.9%, so breadth helped but still lagged the chip leaders.\n中文：进行中 / 部分有效：金融与小盘确认逻辑有改善，但还没完全成熟。XLF周涨仅约0.4%，IWM约0.9%，说明广度虽然帮忙，但仍落后于芯片龙头。",
+          "HIT: EN: The energy-short / oil-relief framing worked. XLE dropped about 6.6% for the week as the oil shock premium cooled, which also helped travel and general risk appetite.\n中文：命中：能源偏空 / 油价缓和框架是有效的。随着油价冲击溢价降温，XLE全周约跌6.6%，也帮助了旅行板块与整体风险偏好。",
+          "MISS / THESIS INVALIDATED: EN: The old CRM short remains a miss. CRM later fell about 8.5% this week, but the original post-earnings squeeze had already invalidated the short, so this later decline does not convert the old call into a delayed win.\n中文：失误 / 逻辑失效：旧的CRM空单仍应记作失误。CRM本周后来约跌8.5%，但最初财报后的挤空早已否定了那笔空单，所以这次回落不能把旧判断洗成“迟来的正确”。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Setup\n中文：期权与波动率设置",
+        "items": [
+          "EN: Micron is the central options event on Wednesday, June 24. After a +15.5% weekly run, stock or call spreads are usually cleaner than oversized short-dated calls.\n中文：Micron是6月24日周三最核心的期权事件。在周涨15.5%之后，正股或认购价差通常比放大仓位买短期期权更干净。",
+          "EN: VIX at 16.40 says index panic cooled, not that single-name premium is cheap. Event IV can still collapse even if the fundamental story remains bullish.\n中文：VIX在16.40说明的是指数恐慌降温，不代表个股事件权利金便宜。即便基本面仍偏多，事件IV也照样可能塌。",
+          "EN: SOXL and 0DTE-style leverage should only be used when breadth, volume, and the first 30-minute structure all agree. One green candle is not confirmation.\n中文：SOXL和0DTE式杠杆只应在广度、量能和前30分钟结构同时确认时使用。只有一根阳线不算确认。",
+          "EN: For ACN, ADBE, or ORCL shorts, spreads or smaller stock size are better than emotional puts after a big gap. Late premium buying often overpays for fear that the market already priced in.\n中文：对于ACN、ADBE或ORCL空头来说，价差或更小的正股仓位，通常比大缺口后情绪化买认沽更好。太晚去买高权利金，往往是在为市场已经计入的恐慌再付一次钱。"
+        ]
+      },
+      {
+        "title": "EN: Upcoming Catalyst Watch\n中文：下周催化观察",
+        "items": [
+          "EN: Monday-Tuesday, June 22-23 U.S. time: first real post-holiday cash-session test. Watch whether semis hold the opening range without oil and diplomatic headlines doing the work.\n中文：美股时间6月22日至23日周一至周二：这是节后第一个真正的现金盘测试。要看半导体能否在没有油价和外交headline帮忙的情况下守住开盘区间。",
+          "EN: Wednesday, June 24 after the close: Micron fiscal Q3 results. Key questions are HBM pricing, calendar-2027 supply visibility, and whether expectations are already too crowded.\n中文：6月24日周三收盘后：Micron第三财季业绩。关键问题是HBM定价、2027年供给能见度，以及预期是否已经过度拥挤。",
+          "EN: Thursday, June 25 at 08:30 ET: BEA's Personal Income and Outlays plus Q1 GDP/corporate profits third estimate. Hot inflation can break the semi chase; cooler inflation can broaden the rally.\n中文：6月25日周四美东08:30：BEA公布个人收入与支出，以及一季度GDP/企业利润终值。通胀偏热可能打断半导体追涨；通胀偏冷则可能让反弹扩散。",
+          "EN: Ongoing: Hormuz/oil normalization and software failed-bounce setups. If oil re-spikes, XLE can rebound quickly; if it stays calm, financials and travel become more usable than defensive energy.\n中文：持续观察：霍尔木兹/油价恢复进展，以及软件的反弹失败结构。若油价再度急拉，XLE可能快速反弹；若油价保持平稳，金融和旅行股会比防御性能源更可用。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: AP - Monday risk-on after oil relief\n中文：美联社 - 周一油价缓和后的风险偏好反弹",
+        "confidence": "EN: Primary market reporting\n中文：一手市场报道",
+        "url": "https://apnews.com/article/f2ee51f1b0686688b3e50068b4b71d70"
+      },
+      {
+        "label": "EN: AP - Wednesday Fed-driven selloff\n中文：美联社 - 周三美联储引发的回落",
+        "confidence": "EN: Primary market reporting\n中文：一手市场报道",
+        "url": "https://apnews.com/article/02e500f15edc505cedd8a8428197744c"
+      },
+      {
+        "label": "EN: AP - Thursday rebound into holiday close\n中文：美联社 - 周四节前反弹",
+        "confidence": "EN: Primary market reporting\n中文：一手市场报道",
+        "url": "https://apnews.com/article/411ec68891aa5dc7d7f684e0305e2aa3"
+      },
+      {
+        "label": "EN: Federal Reserve FOMC statement, June 17, 2026\n中文：美联储2026年6月17日FOMC声明",
+        "confidence": "EN: Primary\n中文：一手来源",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "label": "EN: U.S. Treasury daily yield curve, June 18, 2026\n中文：美国财政部2026年6月18日收益率曲线",
+        "confidence": "EN: Primary\n中文：一手来源",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+      },
+      {
+        "label": "EN: BEA release schedule\n中文：美国经济分析局发布时间表",
+        "confidence": "EN: Primary\n中文：一手来源",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      {
+        "label": "EN: StockAnalysis SPY history\n中文：StockAnalysis 的SPY历史价格",
+        "confidence": "EN: Market-data provider\n中文：市场数据来源",
+        "url": "https://stockanalysis.com/etf/spy/history/"
+      },
+      {
+        "label": "EN: StockAnalysis SMH history\n中文：StockAnalysis 的SMH历史价格",
+        "confidence": "EN: Market-data provider\n中文：市场数据来源",
+        "url": "https://stockanalysis.com/etf/smh/history/"
+      },
+      {
+        "label": "EN: StockAnalysis SOXL history\n中文：StockAnalysis 的SOXL历史价格",
+        "confidence": "EN: Market-data provider\n中文：市场数据来源",
+        "url": "https://stockanalysis.com/etf/soxl/history/"
+      },
+      {
+        "label": "EN: StockAnalysis MU history\n中文：StockAnalysis 的MU历史价格",
+        "confidence": "EN: Market-data provider\n中文：市场数据来源",
+        "url": "https://stockanalysis.com/stocks/mu/history/"
+      },
+      {
+        "label": "EN: StockAnalysis INTC history\n中文：StockAnalysis 的INTC历史价格",
+        "confidence": "EN: Market-data provider\n中文：市场数据来源",
+        "url": "https://stockanalysis.com/stocks/intc/history/"
+      },
+      {
+        "label": "EN: StockAnalysis ACN history\n中文：StockAnalysis 的ACN历史价格",
+        "confidence": "EN: Market-data provider\n中文：市场数据来源",
+        "url": "https://stockanalysis.com/stocks/acn/history/"
+      },
+      {
+        "label": "EN: StockAnalysis CRM history\n中文：StockAnalysis 的CRM历史价格",
+        "confidence": "EN: Market-data provider\n中文：市场数据来源",
+        "url": "https://stockanalysis.com/stocks/crm/history/"
+      },
+      {
+        "label": "EN: MarketWatch - Accenture post-earnings selloff\n中文：MarketWatch - Accenture财报后大跌原因",
+        "confidence": "EN: Secondary reporting\n中文：二手报道",
+        "url": "https://www.marketwatch.com/story/two-big-reasons-accentures-stock-is-sliding-in-the-wake-of-earnings-9353b184"
+      },
+      {
+        "label": "EN: WSJ recap - Intel / Apple / Micron session drivers\n中文：华尔街日报回顾 - 英特尔 / 苹果 / 美光当日驱动",
+        "confidence": "EN: Secondary reporting\n中文：二手报道",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-18-2026/card/stocks-to-watch-intel-apple-smith-wesson-CPWrDsktYLV7juQ6yYSl"
+      },
+      {
+        "label": "EN: MarketWatch - Oracle AI capex reaction\n中文：MarketWatch - Oracle AI资本开支引发的市场反应",
+        "confidence": "EN: Secondary reporting\n中文：二手报道",
+        "url": "https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309"
+      },
+      {
+        "label": "EN: MarketWatch - Adobe post-earnings leadership and AI concerns\n中文：MarketWatch - Adobe财报后的人事与AI担忧",
+        "confidence": "EN: Secondary reporting\n中文：二手报道",
+        "url": "https://www.marketwatch.com/story/adobe-is-losing-another-top-executive-and-investors-dont-like-it-587603e9"
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "weekId": "2026-W23",
     "weekNumber": 23,
