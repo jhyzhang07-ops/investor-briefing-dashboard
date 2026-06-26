@@ -1,5 +1,588 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-06-26",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-26 08:00 GMT+8",
+    "title": "U.S. Market Brief - 2026-06-26",
+    "tone": "AI hardware regained leadership on Micron, but Apple-driven demand and inflation sensitivity kept the broader Nasdaq from confirming a clean risk-on reset.",
+    "priorities": [
+      "Treat Micron-led semiconductor strength as a leadership test, not an automatic all-clear for QQQ. Thursday, June 25 U.S. regular trading ended with Micron up 15.7% and Qualcomm up 3.8%, but the Nasdaq still fell 0.5% because Apple dropped 6.1% on price-hike concerns.",
+      "Later today when U.S. premarket opens, do not chase thin extended-hours gaps by themselves. The best tells for Friday, June 26 U.S. trading are whether SMH and NVDA can hold a regular-session VWAP reclaim and whether Apple stops dragging XLK lower.",
+      "Macro did not get worse on Thursday. BEA said May PCE rose 0.4% month over month and 4.1% year over year, with core PCE at 3.4%, while Treasury yields eased instead of breaking higher. That keeps the door open for rotation into banks and small caps if tech leadership broadens.",
+      "Options are still pricing event and gap risk. Cboe showed VIX at 18.89 after Thursday&apos;s close, and MarketWatch said Micron&apos;s options had implied about an 11% move into Friday&apos;s close before earnings; the stock exceeded that with a 15.7% regular-session jump, so Friday brings IV-crush and profit-taking risk.",
+      "Financials remain the cleaner non-tech long if Friday stays a rotation market. The Fed&apos;s June 24 stress-test release said all 32 large banks stayed above minimum capital requirements, and JPMorgan followed with a dividend increase plus a new $50 billion buyback plan."
+    ],
+    "summary": [
+      "Thursday, June 25 U.S. closes were S&P 500 7,357.49, Nasdaq 25,358.60, Dow 51,920.62, and Russell 2000 3,007.86. The tape stayed mixed rather than broadly risk-off.",
+      "Micron delivered the strongest single-name catalyst into Friday. AP said Micron jumped 15.7% after reporting much stronger profit and revenue than expected and giving a stronger growth forecast, while MarketWatch noted long-term customer agreements are giving the company better revenue visibility than in prior memory cycles.",
+      "Apple became the key counterweight. AP said the stock fell 6.1% after price hikes on many products, underscoring that AI-memory tightness is now colliding with consumer demand sensitivity instead of lifting all tech names together.",
+      "Qualcomm added a second bullish AI-infrastructure signal. AP and MarketWatch said the company raised its fiscal 2029 non-handset revenue target to $40 billion and outlined a larger data-center push tied in part to Meta.",
+      "Macro pressure eased but did not disappear. BEA reported May PCE inflation at 4.1% year over year and core PCE at 3.4%, yet the 2-year Treasury yield fell to 4.11% and the 10-year to 4.41% in the latest Fed/FRED data, showing the market did not treat the report as a fresh inflation spiral.",
+      "Credit still supports risk-taking outside the most crowded AI names. FRED showed ICE BofA U.S. corporate OAS at 0.75 and high-yield OAS at 2.76 on June 24, both still relatively contained.",
+      "Oil no longer dominates the session setup. AP reported Brent at $75.50 on Thursday, well below the war-driven highs above $100, which helps the inflation outlook but removes the easiest hedge trade from last week.",
+      "Friday&apos;s key scheduled data is the final June University of Michigan consumer-sentiment release at 10:00 ET, but the bigger driver for tonight&apos;s Beijing-time setup is whether Thursday&apos;s semiconductor strength survives a full regular session once Apple, bank rotation, and profit-taking all interact."
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "7,357.49 at the June 25 U.S. close.",
+        "note": "The index held almost flat because semiconductor strength offset Apple-led tech weakness. Friday needs breadth confirmation, not just one strong chip complex."
+      },
+      "Nasdaq": {
+        "value": "25,358.60, down 0.5% on June 25.",
+        "note": "The Nasdaq still failed despite Micron and Qualcomm, which says leadership remains too narrow to chase the whole growth complex blindly."
+      },
+      "Dow": {
+        "value": "51,920.62, up 0.1% on June 25.",
+        "note": "The Dow staying green while Nasdaq fell shows rotation is still possible if banks and industrials absorb the flows leaving consumer-tech heavyweights."
+      },
+      "Russell 2000": {
+        "value": "3,007.86, up 0.7% on June 25.",
+        "note": "Small-cap relative strength argues against calling this a full market breakdown. IWM matters as a breadth check on Friday."
+      },
+      "Treasury Yields": {
+        "value": "Latest FRED/Fed data through June 24: 2-year 4.11%, 10-year 4.41%.",
+        "note": "Yields eased after the inflation release, which lowers the odds of an immediate rate-shock extension and helps banks and smaller cyclicals."
+      },
+      "Oil": {
+        "value": "Brent crude at $75.50 on Thursday, according to AP.",
+        "note": "Crude is still elevated versus pre-conflict norms but far below the panic highs. That reduces the immediate inflation shock to tonight&apos;s U.S. session."
+      },
+      "FX / Dollar": {
+        "value": "The dollar was not the main driver on Thursday; rates and sector rotation mattered more than FX.",
+        "note": "If Friday&apos;s Michigan inflation-expectations data surprises higher, a firmer dollar would be another reason to avoid chasing tech rebounds."
+      },
+      "Volatility / Options": {
+        "value": "Cboe VIX spot 18.89 as of June 25, with a 18.63 prior close.",
+        "note": "Volatility is elevated but not panic-level. That supports tactical trading, but sticky VIX around 19 means failed bounces can still fade fast."
+      }
+    },
+    "forecast": [
+      "Base case: Friday opens with continued attention on semiconductors, but the real test comes after the first 30 to 60 minutes. If SMH and NVDA hold VWAP while Apple stops worsening, the market can stabilize even without a broad tech melt-up.",
+      "Bull case: Micron follow-through, Qualcomm sympathy, and contained yields let semiconductors pull QQQ and XLK back above VWAP while XLF and IWM stay firm. In that setup, selective long exposure works better than blanket index chasing.",
+      "Bear case: Apple weakness spreads to other mega-cap growth names, Friday&apos;s Michigan inflation expectations surprise higher, and QQQ fails its first VWAP reclaim while VIX stays firm. Then broad tech shorts become cleaner than stock picking on the long side.",
+      "Rotation case: QQQ remains mixed while banks, industrials, and small caps carry the Dow and Russell. That is constructive for stock selection but still argues for smaller index exposure and faster profit-taking on long tech trades.",
+      "Event-risk case: Micron already exceeded its pre-earnings implied move, so Friday can become a classic good-news digestion session. If the stock cannot absorb profit-taking with volume support, semis can stall even if the long-term AI thesis remains intact."
+    ],
+    "sectors": [
+      {
+        "name": "Semiconductors",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Micron&apos;s beat-and-raise plus Qualcomm&apos;s higher long-term non-handset targets refreshed AI-hardware demand confidence.",
+        "watch": "Actionable only after regular-session confirmation. Favor names or ETFs that hold VWAP after the first 30 to 60 minutes instead of chasing a premarket gap.",
+        "risk": "Invalidated if Micron cannot hold post-earnings gains, if NVDA and SMH lag despite the news, or if Apple-led tech weakness drags the whole complex back under VWAP."
+      },
+      {
+        "name": "Large-Cap Technology Hardware",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "Apple&apos;s 6.1% drop on price-hike concerns showed that higher component costs can hurt downstream demand stories even when chip suppliers are rallying.",
+        "watch": "Best used as a wait-and-see short bias in names that fail a regular-session bounce. Do not force it if Apple stabilizes and XLK breadth improves quickly.",
+        "risk": "Invalidated if Apple reclaims VWAP with broad mega-cap support and the Nasdaq turns positive on expanding breadth."
+      },
+      {
+        "name": "Financials",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "Fed stress tests and new shareholder-return announcements strengthen the large-bank capital story.",
+        "watch": "Only buy with regular-session breadth confirmation. XLF and leading banks should hold the opening range or reclaim VWAP while yields stay orderly.",
+        "risk": "Invalidated if yields drop for recessionary reasons, if spreads widen, or if bank strength fails to confirm the opening move."
+      },
+      {
+        "name": "Small Caps And Domestic Cyclicals",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "Russell 2000 outperformance and lower oil favor domestically exposed, less-duration-sensitive groups.",
+        "watch": "Only actionable if IWM stays stronger than SPY during the first hour. If small caps lose that relative strength, leave the trade alone.",
+        "risk": "Invalidated by a hot Michigan inflation-expectations read, a sharp rates reversal, or weak breadth in transports and regional cyclicals."
+      },
+      {
+        "name": "Transports And Logistics",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "FedEx recovered on Thursday after its post-earnings reset, and FedEx Freight guided for growth as a standalone company.",
+        "watch": "Better as a pullback-and-hold trade than an opening chase. Use volume and opening-range behavior to confirm that institutional buyers are stepping back in.",
+        "risk": "Invalidated if industrial breadth weakens or if freight and parcel names fail to confirm one another."
+      },
+      {
+        "name": "Energy",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "Crude remaining well below the recent war spike reduces the urgency of oil-hedge positioning.",
+        "watch": "Only short failed bounces with live crude confirmation. If oil firms on headlines, step back immediately.",
+        "risk": "Invalidated by a fresh geopolitical shock or any sharp reversal in Brent and WTI during U.S. trading hours."
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SPY",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Watch only until the Friday regular session proves the mixed-close tape is broadening. Actionable on a first-hour VWAP reclaim with improving breadth and Russell participation.",
+        "suggestedProfitTake": "Trim into any move that stalls near intraday resistance if QQQ is not confirming. Keep exits faster than usual if VIX stays near 19.",
+        "type": "broad market ETF",
+        "catalyst": "Contained yields and better breadth outside mega-cap tech kept Thursday&apos;s S&P 500 nearly flat despite Apple pressure.",
+        "why": "Fundamentally the broad market still has earnings support, and technically SPY held up better than QQQ. Volume and breadth need to prove that semis plus financials can offset consumer-tech weakness.",
+        "risk": "Invalidated if SPY cannot reclaim VWAP, advance-decline breadth worsens, or QQQ drags the index lower on a second leg down."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Triggered only on a failed regular-session VWAP reclaim or a break of the opening-range low with Apple and other mega-caps still weighing on the tape. Avoid using thin overnight action as the signal by itself.",
+        "suggestedProfitTake": "Take partials quickly if semiconductors diverge positively or if VIX stops rising, because QQQ can mean-revert violently once the pressure eases.",
+        "type": "large-cap growth ETF",
+        "catalyst": "The Nasdaq still fell 0.5% on Thursday even after Micron and Qualcomm delivered bullish hardware signals.",
+        "why": "QQQ remains hostage to index concentration. Fundamentals in AI infrastructure are still strong, but technically the ETF has to prove that gains in semis can outweigh demand sensitivity in Apple and other consumer-facing giants.",
+        "risk": "Invalidated if QQQ reclaims VWAP with improving market breadth and Apple stops acting as an index drag."
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only after a regular-session pullback holds above VWAP or on an opening-range breakout with Micron, Nvidia, and volume confirmation. Avoid chasing a large premarket gap.",
+        "suggestedProfitTake": "Trim into sharp extensions if Micron fails to hold its post-earnings lead or if the sector stalls while QQQ stays weak.",
+        "type": "semiconductor ETF",
+        "catalyst": "Micron&apos;s results and Qualcomm&apos;s raised targets refreshed the AI-hardware demand story.",
+        "why": "The group still has the cleanest revenue-growth and capex exposure, but Thursday showed that one chip rally does not automatically fix the broader growth tape. Volume breadth across multiple holdings matters.",
+        "risk": "Invalidated if SMH loses Friday VWAP, if Micron reverses sharply, or if the sector cannot separate from Apple-led Nasdaq weakness."
+      },
+      {
+        "ticker": "XLK",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only if Friday&apos;s regular session bounce fails under VWAP and Apple remains the dominant weight on the sector. Do not press if semis are broadening strongly enough to offset Apple.",
+        "suggestedProfitTake": "Take partials into fast downside extensions because sector concentration can reverse quickly once Apple stabilizes.",
+        "type": "technology sector ETF",
+        "catalyst": "Apple&apos;s price-hike shock and the market&apos;s reluctance to reward all tech equally kept the Nasdaq under pressure.",
+        "why": "XLK is the clean sector vehicle for the tension between upstream AI winners and downstream hardware demand risk. Thursday&apos;s close says investors are starting to discriminate aggressively inside tech.",
+        "risk": "Invalidated if Apple reclaims VWAP and semiconductors stay strong enough to turn the whole sector positive."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Actionable only after the Friday cash session shows a pullback hold above VWAP or an opening-range breakout with broad bank participation.",
+        "suggestedProfitTake": "Trim into steady advances if yields stop helping or if XLF rises while the rest of cyclical breadth fades.",
+        "type": "financial sector ETF",
+        "catalyst": "Fed stress tests and announced capital returns keep banks attractive as a rotation vehicle.",
+        "why": "Balance-sheet strength, buyback capacity, and still-contained credit spreads make large banks a cleaner long than extended AI names if the market keeps rotating.",
+        "risk": "Invalidated if spreads widen, if yields fall on recession fear, or if bank breadth fails to confirm the move."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only after an early dip holds and price reclaims VWAP while staying stronger than SPY. If it loses relative strength, stand down.",
+        "suggestedProfitTake": "Take profits faster than in XLF because small-cap reversals become violent when macro headlines change.",
+        "type": "small-cap ETF",
+        "catalyst": "Thursday&apos;s 0.7% Russell 2000 gain signaled healthier breadth outside mega-cap tech.",
+        "why": "Lower oil and easier yields help small-cap risk appetite, and the technical relative strength versus the Nasdaq is constructive. It still needs confirmation from live volume, not just the prior close.",
+        "risk": "Invalidated if IWM loses VWAP early or if Friday macro data pushes rates or inflation expectations higher again."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Short only on a failed regular-session bounce under VWAP or a break of the opening-range low while crude stays soft. Do not force it if oil is stabilizing.",
+        "suggestedProfitTake": "Take partials into quick downside flushes because energy can reverse on one headline.",
+        "type": "energy sector ETF",
+        "catalyst": "Oil remains far below the recent conflict spike, reducing the urgency of the inflation-hedge trade.",
+        "why": "Energy cash flow is still solid, but the market has started paying less for the hedge premium. Technically the trade only works if crude weakness persists through the U.S. session.",
+        "risk": "Invalidated by a fresh geopolitical shock or a strong intraday reversal in crude and energy equities."
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "MU",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Watch only until Friday regular-session volume confirms. Best entry is a pullback that holds above VWAP or a clean opening-range breakout after the first 30 to 60 minutes; avoid chasing the first extended-hours pop because the stock already exceeded its pre-earnings implied move.",
+        "suggestedProfitTake": "Take partials into fresh record extensions or any failed intraday breakout because event-driven winners often stall once IV crush and profit-taking hit together.",
+        "type": "AI memory / options-active semiconductor leader",
+        "catalyst": "Micron beat on fiscal Q3 revenue and earnings, guided the current quarter higher, and highlighted stronger long-term customer agreements.",
+        "why": "Fundamentally the AI-memory demand story remains elite, margins and visibility improved, and MarketWatch flagged take-or-pay style agreements that reduce historical cyclicality. Technically the stock had been extended even before earnings, and options markets had implied about an 11% move into Friday while the stock rose 15.7% on Thursday, so follow-through needs real volume support.",
+        "risk": "Invalidated if MU cannot hold VWAP, if the stock gives back a large part of Thursday&apos;s gain on heavy volume, or if semis fail to confirm the move."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Wait for a regular-session VWAP reclaim or a first-pullback hold with SMH and MU confirming. Avoid paying up purely on sympathy strength before the open.",
+        "suggestedProfitTake": "Trim into sharp momentum extensions if Nvidia outpaces the rest of semis or if QQQ remains weak.",
+        "type": "AI infrastructure mega-cap",
+        "catalyst": "Micron and Qualcomm both reinforced the broader AI-infrastructure spending case that underpins Nvidia demand.",
+        "why": "Fundamentals remain exceptional, but the stock is a crowded institutional core holding and can get sold for liquidity even when the thesis stays intact. The best signal is not headline enthusiasm but whether regular-session buyers defend VWAP with sector breadth.",
+        "risk": "Invalidated if NVDA fails a VWAP reclaim, if semis lose momentum quickly, or if rates and inflation expectations turn higher again."
+      },
+      {
+        "ticker": "QCOM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Actionable only on a pullback that holds VWAP or an opening-range breakout with continued volume. Do not chase if the stock gaps too far above its Thursday range.",
+        "suggestedProfitTake": "Trim into strength if the move becomes purely theme-driven and broader chip participation weakens.",
+        "type": "AI diversification / communications and data-center chipmaker",
+        "catalyst": "Qualcomm raised its fiscal 2029 non-handset revenue target to $40 billion and outlined a larger data-center push with Meta collaboration.",
+        "why": "Fundamentally Qualcomm offers a less crowded valuation and a real diversification story beyond handsets. Technically the stock responded well on Thursday, but it still needs Friday volume confirmation to prove investors will underwrite the longer-dated data-center story.",
+        "risk": "Invalidated if the stock cannot hold VWAP, if handset concerns retake control of the narrative, or if chip leadership narrows back to Micron only."
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Triggered only on a failed regular-session bounce under VWAP or a break of the opening-range low. Avoid forcing it if the stock already opens deeply stretched.",
+        "suggestedProfitTake": "Cover partials into sharp drops because Apple can stabilize quickly once index selling exhausts.",
+        "type": "consumer hardware mega-cap / index-weight pressure point",
+        "catalyst": "Apple fell 6.1% after price hikes on many products raised new demand-elasticity questions.",
+        "why": "Fundamentally Apple still has balance-sheet strength and buyback support, but Thursday&apos;s move showed investors are punishing any sign that upstream component inflation must be passed through to end customers. Technically it is now a key drag on XLK and QQQ, so Friday&apos;s open matters for market direction.",
+        "risk": "Invalidated if Apple reclaims VWAP with strong volume or if the market decides the pricing move protects margins without damaging demand."
+      },
+      {
+        "ticker": "JPM",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "Use only if Friday shows a first-pullback hold above VWAP or an opening-range breakout with XLF and broad bank confirmation.",
+        "suggestedProfitTake": "Take partials into steady strength if yields stop helping or if the move becomes isolated to one or two money-center banks.",
+        "type": "money-center bank / capital-return beneficiary",
+        "catalyst": "The Fed&apos;s stress test confirmed system strength, and JPMorgan announced a higher dividend plus an additional $50 billion buyback authorization.",
+        "why": "Fundamentally JPM combines capital strength, profitability, and shareholder returns better than most large-cap financials. Technically it is a cleaner rotation long than chasing extended semis if Friday remains a breadth market instead of a pure AI chase.",
+        "risk": "Invalidated if credit spreads widen, if yields fall on recession fear, or if XLF and bank breadth fail to confirm."
+      },
+      {
+        "ticker": "FDX",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only after a regular-session pullback holds or after an opening-range breakout with transport confirmation. Avoid buying a weak open without volume support.",
+        "suggestedProfitTake": "Trim into resistance if the stock rebounds on light breadth or if industrials stop confirming the move.",
+        "type": "parcel logistics cyclical",
+        "catalyst": "FedEx rose 3.98% on Thursday after the market started digesting its post-earnings reset, while FedEx Freight separately guided for growth as a newly independent company.",
+        "why": "Fundamentally the parcel franchise is still a margin and cost-discipline story, and the freight separation may simplify the operating profile over time. Technically Thursday&apos;s recovery was constructive, but Friday still needs transport-volume confirmation before the setup becomes durable.",
+        "risk": "Invalidated if FDX loses VWAP quickly or if transports fail to confirm broader cyclical rotation."
+      },
+      {
+        "ticker": "WDC",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Only after the first hour confirms that Thursday&apos;s Micron sympathy bid is holding. Best entries are VWAP holds or disciplined breakouts, not gap chases.",
+        "suggestedProfitTake": "Take partials aggressively because sympathy trades can fade faster than the original catalyst stock.",
+        "type": "data-storage hardware sympathy play",
+        "catalyst": "Micron&apos;s earnings rekindled demand enthusiasm across memory and storage names, and peer storage stocks rallied with it.",
+        "why": "Fundamentally WDC still benefits from tighter storage demand and AI infrastructure build-out, but it does not have Micron&apos;s same earnings visibility. Technically it works only if the broader memory basket keeps attracting volume after the open.",
+        "risk": "Invalidated if Micron rolls over or if WDC cannot hold VWAP once the opening impulse fades."
+      },
+      {
+        "ticker": "STX",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "Triggered only on a regular-session VWAP reclaim or an opening-range breakout with WDC and broader storage peers confirming. Avoid late chasing.",
+        "suggestedProfitTake": "Trim into momentum bursts because second-order AI suppliers can give back gains quickly when the primary catalyst cools.",
+        "type": "data-storage hardware sympathy play",
+        "catalyst": "Seagate participated in Thursday&apos;s post-Micron memory and storage rally.",
+        "why": "The company benefits from the same capex and storage-demand tailwind, but its setup is more sentiment-driven than Micron&apos;s direct earnings catalyst. Volume confirmation matters more here than the headline alone.",
+        "risk": "Invalidated if STX fails to hold VWAP, if storage peers diverge, or if Friday turns into broad tech de-risking instead of selective AI follow-through."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Options And Volatility Watch",
+        "items": [
+          "Cboe showed VIX at 18.89 after Thursday&apos;s close versus a 18.63 prior close. That is elevated enough to respect failed bounces, but not yet a panic regime that automatically breaks every dip-buy setup.",
+          "MarketWatch said Micron options had implied about an 11% move into Friday&apos;s close before earnings, with front-week implied volatility at 155% versus 108.5% for the first monthly expiry after earnings. The stock&apos;s 15.7% Thursday gain already beat that expected move, so Friday is vulnerable to both IV crush and headline-profit-taking.",
+          "The practical takeaway is simple: if Friday&apos;s premarket and opening cash session show semis green but QQQ cannot hold VWAP and VIX stays sticky near 19, treat the move as hedge-heavy and tactical rather than the start of a clean new momentum leg."
+        ]
+      },
+      {
+        "title": "Entry Timing And Risk Controls",
+        "items": [
+          "Later today in Beijing time, treat U.S. premarket only as a clue. Actionable entries should wait for the first 30 to 60 minutes of the U.S. regular session whenever the move is driven by earnings or a large overnight gap.",
+          "For longs, prefer VWAP reclaims, opening-range breakouts with real volume, or first pullbacks that hold. For shorts, prefer failed bounces under VWAP or clean breaks of the opening-range low.",
+          "Do not confuse extended-hours strength in thin liquidity with real confirmation. If Apple stays weak while Micron is strong, the better trade may be stock selection or sector rotation rather than broad index exposure."
+        ]
+      },
+      {
+        "title": "Company And Sector Highlights",
+        "items": [
+          "Micron was the day&apos;s core catalyst: AP said the company reported much stronger profit and revenue than expected and gave a stronger growth forecast, while MarketWatch highlighted the improved visibility coming from longer-term customer agreements.",
+          "Qualcomm reinforced the AI-capex story from a different angle, raising its long-term non-handset revenue target and pushing harder into data-center silicon. That gives the chip rally a second fundamental leg beyond Micron alone.",
+          "Apple was the opposite message: upstream AI and memory demand is powerful, but downstream consumers may not absorb every cost increase gracefully. That tension is now central to Friday&apos;s Nasdaq setup.",
+          "Financials were quietly constructive. Fed stress tests, contained credit spreads, and new capital-return plans support money-center banks if the market keeps rotating."
+        ]
+      },
+      {
+        "title": "Geopolitics And Policy",
+        "items": [
+          "The most important geopolitical variable for tonight remains oil, not a fresh equity-specific policy headline. AP reported Brent at $75.50 on Thursday and well below the war-driven triple-digit highs, which materially softens the inflation shock relative to last week.",
+          "That calmer oil backdrop helps explain why the market absorbed a 4.1% year-over-year PCE print without sending yields sharply higher. If crude stays contained, inflation expectations may matter less than earnings and sector leadership tonight.",
+          "Any sudden change in Middle East headlines can still flip the session back toward energy and defensives, so energy shorts should stay smaller and more tactical than the semiconductor or bank setups."
+        ]
+      },
+      {
+        "title": "Technology And Innovation Watch",
+        "items": [
+          "Thursday&apos;s tape sharpened the market&apos;s internal split inside AI: memory and infrastructure suppliers regained sponsorship, while consumer-device exposure got punished.",
+          "Micron and Qualcomm argue that enterprise and data-center demand remains powerful. Apple argues that the market will not pay up blindly for every company exposed to the same supply chain.",
+          "That makes Friday a useful read-through for whether the next AI leg is broad, narrow, or already pricing perfection. Nvidia and the semiconductor ETFs are the cleanest monitors."
+        ]
+      },
+      {
+        "title": "Trump Administration And Washington Watch",
+        "items": [
+          "Washington is a second-order driver tonight, but it still shapes sector preference. The administration&apos;s metals-tariff adjustments earlier this month and strategic-tech posture remain relevant background for industrial, hardware, quantum, and defense supply chains.",
+          "In practical market terms, the policy channel that matters most right now is whether Washington developments move oil, inflation expectations, or capital-return confidence in financials. Thursday&apos;s stress-test and oil backdrop mattered more than any fresh fiscal headline.",
+          "If a new administration headline hits during U.S. premarket later today, judge it by whether it changes costs, regulation, or commodity pricing, not by headline volume alone."
+        ]
+      },
+      {
+        "title": "Credit, Positioning, And Market Internals",
+        "items": [
+          "FRED showed ICE BofA corporate OAS at 0.75 and high-yield OAS at 2.76 on June 24. Those levels are still contained and do not confirm a broad credit stress event.",
+          "The better breadth signal came from the tape itself: Dow and Russell both rose while the Nasdaq fell. That is not what a full-risk-off breakdown usually looks like.",
+          "Positioning is still crowded in AI leaders. When a stock like Micron beats and still has to absorb an implied-move overshoot, Friday can become more about positioning cleanup than headline interpretation."
+        ]
+      },
+      {
+        "title": "Earnings And Macro Calendar",
+        "items": [
+          "Friday, June 26 at 10:00 ET brings the final University of Michigan June consumer-sentiment report. The inflation-expectations component matters more than the headline sentiment number for tonight&apos;s market reaction.",
+          "The bigger macro reset already happened Thursday: BEA reported May personal income up 0.7%, PCE up 0.7%, headline PCE inflation up 0.4% month over month and 4.1% year over year, and core PCE up 3.4% year over year.",
+          "For earnings, Friday is about reaction quality more than a dense calendar. Watch whether Micron, Qualcomm, and transport names hold their post-news gains once regular-session liquidity is fully live."
+        ]
+      },
+      {
+        "title": "Why It Matters",
+        "items": [
+          "Thursday showed the market is no longer rewarding &quot;AI&quot; as a single monolithic theme. It is paying for revenue visibility and punishing downstream demand risk.",
+          "That creates opportunity, but only for disciplined entries. The best trade may be the right pocket of the market, not the index that gets the headline.",
+          "If Friday confirms semis plus banks plus small caps together, the market can heal. If Apple and sticky volatility still overpower everything else, expect another narrow and tactical session instead of a trend day."
+        ]
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "IONQ",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only after a first-hour base or VWAP reclaim and only if speculative growth plus semiconductors are both stable. If it gaps hard, wait for IV to cool.",
+        "suggestedProfitTake": "Take partials quickly into strength because quantum names can overshoot and then mean-revert once the first burst of volume fades.",
+        "type": "quantum computing high-beta growth",
+        "catalyst": "Strategic-tech policy attention and continued appetite for AI-adjacent innovation can keep the theme active if Friday&apos;s tape cooperates.",
+        "why": "IonQ is liquid enough to attract momentum, but fundamentals remain far weaker than cash-generative large caps. The trade only works when broader speculative risk appetite is improving too.",
+        "risk": "Invalidated if it loses VWAP early or if QQQ and high-beta growth fail to confirm."
+      },
+      {
+        "ticker": "RKLB",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only above the opening-range high or after a first-hour base if defense, industrial innovation, and small caps stay firm. Otherwise leave it alone.",
+        "suggestedProfitTake": "Take profits quickly into sharp extensions because policy and contract headlines can create fast but fragile momentum.",
+        "type": "space / launch small-cap growth",
+        "catalyst": "Strategic-industrial and defense themes remain supportive background if Friday keeps rewarding domestic cyclicals and innovation.",
+        "why": "Rocket Lab has a more credible operating base than many story stocks, but it is still a high-beta small cap whose trade quality depends heavily on tape conditions and liquidity.",
+        "risk": "Invalidated if it loses VWAP while IWM and speculative growth weaken."
+      },
+      {
+        "ticker": "SOUN",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "Only on a failed VWAP reclaim or a break of the opening-range low if software and lower-quality AI application names remain under pressure.",
+        "suggestedProfitTake": "Cover partials quickly into sharp drops because speculative software can reverse violently once the first flush passes.",
+        "type": "voice AI / speculative software",
+        "catalyst": "The market is rewarding proven AI infrastructure demand more than lower-visibility application stories.",
+        "why": "The narrative can still attract flows, but the cash-flow profile is weak and the stock remains highly sentiment-driven. In a tape discriminating aggressively inside AI, technical failure matters more than the story.",
+        "risk": "Invalidated if software stabilizes broadly and SOUN reclaims VWAP with sustained volume."
+      }
+    ],
+    "catalystCalendar": [
+      {
+        "date": "2026-06-25 08:30 ET / 2026-06-25 20:30 Beijing",
+        "event": "BEA Personal Income and Outlays for May",
+        "watch": "Headline PCE at 4.1% year over year and core PCE at 3.4% already reset the rates backdrop; Friday is about whether yields stay contained after the release.",
+        "relatedTickers": "SPY, QQQ, TLT, XLF, IWM"
+      },
+      {
+        "date": "2026-06-25 U.S. regular session and after close / 2026-06-25 Beijing evening to 2026-06-26 early morning",
+        "event": "Micron and Qualcomm read-through versus Apple demand concerns",
+        "watch": "The key question is whether AI hardware strength broadens or whether consumer-tech demand sensitivity keeps capping the Nasdaq.",
+        "relatedTickers": "MU, NVDA, QCOM, AAPL, SMH, QQQ"
+      },
+      {
+        "date": "2026-06-24 16:00 ET / 2026-06-25 04:00 Beijing",
+        "event": "Federal Reserve annual bank stress test",
+        "watch": "The result supports bank capital returns and keeps XLF and JPM on the rotation shortlist if Friday remains a breadth market.",
+        "relatedTickers": "JPM, BAC, XLF, KRE"
+      },
+      {
+        "date": "2026-06-26 10:00 ET / 2026-06-26 22:00 Beijing",
+        "event": "University of Michigan final June consumer sentiment and inflation expectations",
+        "watch": "The inflation-expectations component matters more than the headline. A hot print would hurt long-duration tech more than banks or value.",
+        "relatedTickers": "QQQ, XLK, XLF, SPY"
+      },
+      {
+        "date": "2026-06-26 U.S. regular session / 2026-06-26 Beijing evening",
+        "event": "Regular-session confirmation of whether semis can lead without broad tech breaking down",
+        "watch": "The first 30 to 60 minutes should confirm whether SMH and MU can hold VWAP while Apple stops worsening and financials keep participating.",
+        "relatedTickers": "MU, SMH, AAPL, XLF, IWM, QQQ"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-06-23",
+        "ticker": "XLF",
+        "status": "working",
+        "result": "The rotation case held up better than broad index longs. Thursday&apos;s mixed close plus the Fed stress-test result kept banks and the Dow/Russell side of the market constructive.",
+        "lesson": "When the market is digesting concentrated tech stress, cleaner capital-return and balance-sheet stories can outperform crowded momentum names."
+      },
+      {
+        "date": "2026-06-23",
+        "ticker": "MU",
+        "status": "working",
+        "result": "The &quot;great story, dangerous entry&quot; framing was right. Micron delivered the bullish catalyst, but the stock moved so far so fast that entry timing became the whole trade.",
+        "lesson": "Being right on the thesis is not enough around earnings. Compare the actual move with the options-implied move before chasing follow-through."
+      },
+      {
+        "date": "2026-06-23",
+        "ticker": "NVDA",
+        "status": "working",
+        "result": "Avoiding blind AI-chasing was the correct discipline. Thursday rewarded selective chip exposure but not the entire Nasdaq, exactly the kind of environment where confirmation matters more than narrative heat.",
+        "lesson": "In an index-concentration market, wait for relative-strength confirmation from the sector ETF and the regular-session tape before pressing longs."
+      }
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "JPM",
+        "title": "Cleaner breadth long than a hot semiconductor chase",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "Use only if Friday&apos;s cash session shows a first-pullback hold above VWAP or an opening-range breakout with XLF and broad bank participation confirming.",
+        "reason": "JPM pairs capital strength, shareholder returns, and a contained credit backdrop with less event-risk stretch than Micron or Nvidia.",
+        "convictionScore": 4,
+        "timeframe": "trade for 1 to 3 days"
+      },
+      "bestShort": {
+        "ticker": "AAPL",
+        "title": "Mega-cap demand-risk weak spot",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "Triggered only on a failed regular-session bounce below VWAP or a break of the opening-range low while XLK stays heavy.",
+        "reason": "Apple is the clearest large-cap expression of downstream pricing and demand risk after Thursday&apos;s price-hike selloff.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "XLF",
+        "title": "Best rotation ETF if breadth stays healthy",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "Only after regular-session confirmation that XLF can hold above the opening range or reclaim VWAP on broad bank volume.",
+        "reason": "XLF captures stronger capital returns and contained credit stress without demanding that crowded AI longs immediately re-expand.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "MU",
+        "title": "Great earnings, dangerous late entry",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "Speculative only after the stock forms a Friday base or shows an opening-range breakout on heavy volume; avoid late chasing after it already outran the implied move.",
+        "reason": "The AI-memory thesis is strong, but the post-earnings extension and IV-crush risk can punish late buyers even when the story is right.",
+        "convictionScore": 3,
+        "timeframe": "intraday to 2-day trade only"
+      },
+      "avoidWait": {
+        "ticker": "QQQ",
+        "title": "Do not assume one chip rally fixes the whole index",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "Wait for a clean regular-session VWAP reclaim and better breadth before treating the Nasdaq as actionable long exposure.",
+        "reason": "Thursday already proved that Micron strength alone could not overcome Apple-led index drag, so QQQ needs confirmation that the rally is broadening.",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      }
+    },
+    "sources": [
+      {
+        "label": "AP: Wall Street drifts to a mixed finish after Micron soars and Apple drops",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/119e56cb6b1fc041b46af9bb778bdf07"
+      },
+      {
+        "label": "AP: How major U.S. stock indexes fared Thursday 6/25/2026",
+        "confidence": "Market data",
+        "url": "https://apnews.com/article/18741e4dabafb7a44b41231159f10599"
+      },
+      {
+        "label": "BEA: Personal Income and Outlays, May 2026",
+        "confidence": "Primary",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+      },
+      {
+        "label": "Federal Reserve: FOMC statement, June 17, 2026",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "label": "Federal Reserve: 2026 annual bank stress test release",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm"
+      },
+      {
+        "label": "FRED / Federal Reserve: 2-year Treasury yield (DGS2)",
+        "confidence": "Primary",
+        "url": "https://fred.stlouisfed.org/series/DGS2"
+      },
+      {
+        "label": "FRED / Federal Reserve: 10-year Treasury yield (DGS10)",
+        "confidence": "Primary",
+        "url": "https://fred.stlouisfed.org/series/DGS10"
+      },
+      {
+        "label": "FRED / ICE BofA: U.S. High Yield OAS",
+        "confidence": "Market data",
+        "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+      },
+      {
+        "label": "FRED / ICE BofA: U.S. Corporate OAS",
+        "confidence": "Market data",
+        "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM"
+      },
+      {
+        "label": "Cboe: VIX Volatility Products dashboard",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/tradable-products/vix"
+      },
+      {
+        "label": "MarketWatch: Micron options implied move and IV into earnings",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-tech-rout-micron-earnings-results/card/option-traders-see-double-digit-percentage-move-for-micron-around-earnings-pwPXkKeZmIjcZfFWU0tr"
+      },
+      {
+        "label": "MarketWatch: Micron revenue visibility from long-term agreements",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/in-a-shift-micron-now-has-some-of-the-chip-sectors-best-visibility-into-future-revenue-uycmAVImJctWurRMttY7"
+      },
+      {
+        "label": "MarketWatch: Qualcomm data-center and diversification push",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/can-qualcomm-actually-compete-with-nvidia-inside-its-bold-data-center-gamble-38ac48b3"
+      },
+      {
+        "label": "Barron&apos;s: FedEx falls after earnings beat expectations",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/fedex-earnings-stock-price-6cf5da17"
+      },
+      {
+        "label": "Investopedia: FedEx expected move around earnings",
+        "confidence": "Context",
+        "url": "https://www.investopedia.com/here-is-how-much-fedex-stock-is-expected-to-move-after-earnings-fdx-q4-fy2026-12003740"
+      },
+      {
+        "label": "AP: Trump makes changes to steel, aluminum and copper tariffs",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/7ca5a76dbe13db7e732fa48462ccde92"
+      }
+    ]
+  },
+  {
     "date": "2026-06-23",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-06-23 08:00 GMT+8",
