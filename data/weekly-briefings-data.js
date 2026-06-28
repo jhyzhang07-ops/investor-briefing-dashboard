@@ -1,5 +1,318 @@
 window.WEEKLY_MARKET_BRIEFINGS = [
   {
+    "date": "2026-06-28",
+    "weekId": "2026-W26",
+    "weekNumber": 26,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-06-28 08:00 GMT+8",
+    "title": "EN: U.S. Weekly Market Brief - Week 26\n中文：美股周度市场简报 - 第26周",
+    "tone": "EN: This was a distribution week disguised by a few headline surges: small caps held up, semiconductors whipped violently, and the cleanest edge for next week is separating real rotation from gap-chasing in crowded AI names.\n中文：这是一个被几个headline大涨掩盖的派发周：小盘相对抗跌，半导体剧烈来回，真正的优势在于把真实轮动和拥挤AI缺口追涨区分开。",
+    "priorities": [
+      "EN: Tuesday, June 30 U.S. time, JOLTS is the first macro check. If job openings stay too firm, rates can pressure QQQ and speculative AI faster than IWM or XLF.\n中文：美股时间6月30日周二，JOLTS是第一道宏观检查点。若职位空缺仍过强，利率可能会比IWM或XLF更快压制QQQ和高波动AI。",
+      "EN: Thursday, July 2 U.S. time, the Employment Situation report is the week's main catalyst because Friday, July 3 is the NYSE Independence Day holiday. Treat Thursday's first 30 to 60 minutes as the real signal, not the headline print alone.\n中文：美股时间7月2日周四，就业报告是全周最重要催化，因为7月3日周五NYSE因独立日休市。真正的信号应看周四开盘后30到60分钟，而不是只看headline数据。",
+      "EN: Safer rotation remains the cleaner base. IWM closed the week at 299.83, up about 1.4%, while JPM gained about 1.2% and XLF finished flat, which still held up far better than QQQ at -4.6%.\n中文：相对稳健的轮动仍是更干净的底仓。IWM周收299.83，约涨1.4%；JPM约涨1.2%；XLF周线持平，整体明显强于周跌约4.6%的QQQ。",
+      "EN: Treat Micron-style and Qualcomm-style surges as information, not automatic entries. MU finished almost flat for the week and QCOM still lost about 16.2% despite Thursday's event spikes.\n中文：要把Micron式和Qualcomm式的大涨当成信息，而不是自动入场信号。MU全周几乎收平，而QCOM即便有周四事件拉升，周线仍约跌16.2%。",
+      "EN: Keep speculative vehicles strictly separate from safer alternatives. SMH is a cleaner semi expression than SOXL, and defined-risk options are cleaner than naked calls into payroll-week and holiday-thinned liquidity.\n中文：必须把高投机工具和相对稳健替代方案严格分开。表达半导体主线时，SMH比SOXL更干净；而在就业周和假日前流动性变薄的环境里，有限风险期权也比裸买认购更干净。"
+    ],
+    "summary": [
+      "EN: Verified Friday, June 26 U.S. closes show SPY at 728.99, QQQ at 706.52, and IWM at 299.83. From the prior Thursday, June 18 close, that is about -2.4%, -4.6%, and +1.4%, so the week was broad-tech weak but not broad-market collapse.\n中文：经核实，6月26日周五美股收盘，SPY报728.99，QQQ报706.52，IWM报299.83。相对前一个周四6月18日收盘，周变动约为-2.4%、-4.6%和+1.4%，说明这是科技走弱的一周，而不是全市场同步崩塌。",
+      "EN: Semiconductor headline strength was real intraday, but not clean by week end. SMH still fell about 7.3% for the week, SOXL about 22.8%, and MU finished nearly flat after Thursday's beat-and-raise spike.\n中文：半导体headline强势在日内确实存在，但到周末并不干净。SMH全周仍约跌7.3%，SOXL约跌22.8%，而MU在周四业绩大涨后，周线几乎收平。",
+      "EN: Safer rotation held better. IWM outperformed, JPM rose about 1.2%, and XLF finished essentially unchanged, which means the weekly edge was in relative strength and breadth, not in blindly buying the most crowded AI ticker.\n中文：相对稳健的轮动更抗打。IWM跑赢，JPM约涨1.2%，XLF基本收平，这说明本周真正的优势来自相对强度和广度，而不是盲目去买最拥挤的AI股票。",
+      "EN: Software was split rather than one-way weak. ORCL dropped about 19.4% and validated selective downside, but Friday's software squeeze pushed SNOW up about 7.2% for the week and CRM up about 4.3%, so blanket late-week shorts were wrong.\n中文：软件板块并不是单边走弱，而是明显分化。ORCL周跌约19.4%，验证了部分空头逻辑；但周五的软件挤空又把SNOW推到周涨约7.2%、CRM推到周涨约4.3%，因此到了周后段再去一刀切追空是错的。",
+      "EN: AAOI was the clean reminder that first-30-minute failure risk is real. After a strong Monday close, it still ended the week down about 16.2%, which is exactly why small accounts should not equate an opening burst with a safe swing entry.\n中文：AAOI再次清楚提醒了“前30分钟失败”风险是真实存在的。它在周一强势收涨后，全周仍约跌16.2%，这正说明小资金账户不能把开盘冲高直接等同于安全波段买点。",
+      "EN: Next week is a labor-data and liquidity week, not a clean earnings week. JOLTS lands on June 30, payrolls on July 2, and NYSE is closed on July 3, so macro reaction and holiday-thinned follow-through matter more than narrative confidence.\n中文：下周更像是劳动数据与流动性周，而不是干净的财报周。JOLTS在6月30日，就业报告在7月2日，而NYSE在7月3日休市，因此宏观反应和假日前变薄的跟随性，比叙事信心更重要。"
+    ],
+    "marketPulse": {
+      "SPY/QQQ/IWM": {
+        "value": "SPY 728.99 / QQQ 706.52 / IWM 299.83 at the June 26, 2026 U.S. close",
+        "note": "EN: QQQ lost leadership while IWM outperformed, so broadening improved even as large-cap growth cracked. That is constructive for rotation trades, but not a blanket all-clear for risk.\n中文：QQQ失去领涨地位，而IWM相对跑赢，说明即便大盘成长承压，市场广度反而有所改善。这对轮动交易是建设性的，但并不等于风险资产全面放行。"
+      },
+      "Rates": {
+        "value": "Fed 3.50%-3.75%; 10Y about 4.37% and 5Y about 4.13% into June 26",
+        "note": "EN: Rates stayed restrictive enough that long-duration tech could not hide inside the AI story. The cleaner longs were the areas that tolerated yields rather than needed yields to fall.\n中文：利率仍足够偏紧，使高久期科技无法仅靠AI叙事躲开压力。更干净的多头是那些能承受收益率，而不是必须依赖收益率下行的板块。"
+      },
+      "Volatility / Options": {
+        "value": "VIX 18.41 at the June 26 close",
+        "note": "EN: Volatility rose from the prior week, but the bigger problem was path risk. MU, QCOM, SNOW, and SOXL all showed that a correct story can still produce poor fresh entries, IV crush, or fast reversals.\n中文：波动率较前周上升，但更大的问题在于路径风险。MU、QCOM、SNOW和SOXL都说明，即便故事没错，新进场也仍可能遭遇差执行、IV crush或快速反转。"
+      }
+    },
+    "weekReview": [
+      "EN: The most useful daily-briefing rule this week was execution discipline, not directional conviction. Monday's and Thursday's biggest movers both proved that waiting for the first 30 to 60 minutes was more valuable than trusting the first gap print.\n中文：本周最有价值的日更规则是执行纪律，而不是方向自信。周一和周四的最大波动都证明，等开盘后30到60分钟，比相信第一笔缺口更有价值。",
+      "EN: The June 22 daily continuation bias toward QQQ and semis was a miss on weekly follow-through. QQQ fell from 740.62 to 706.52 for about -4.6%, SMH from 659.88 to 611.61 for about -7.3%, and NVDA from 210.69 to 192.53 for about -8.6%.\n中文：6月22日日更中对QQQ和半导体延续性的偏多判断，在周度跟随上属于失误。QQQ从740.62跌到706.52，约-4.6%；SMH从659.88跌到611.61，约-7.3%；NVDA从210.69跌到192.53，约-8.6%。",
+      "EN: The rotation idea worked better than the crowded-tech idea. IWM gained about 1.4% for the week, JPM gained about 1.2%, and XLF held flat, which means the safer alternative bucket did what it was supposed to do even while mega-cap growth weakened.\n中文：轮动思路比拥挤科技思路更有效。IWM全周约涨1.4%，JPM约涨1.2%，XLF持平，这说明即便大盘成长走弱，相对稳健替代方案仍发挥了该有的作用。",
+      "EN: Thursday's Micron and Qualcomm surges were real but not easy to monetize fresh. MU jumped about 15.7% on June 25 and then gave back about 6.7% on Friday; QCOM also spiked on June 25 but still finished the week down about 16.2%. That is the correct DELL-or-SNOW-style lesson: a dramatic gap still needs regular-session and next-day hold.\n中文：周四Micron和Qualcomm的大涨是真的，但对新买盘并不容易兑现。MU在6月25日约涨15.7%，随后周五又回吐约6.7%；QCOM在6月25日也冲高，但全周仍约跌16.2%。这才是正确的DELL或SNOW式缺口复盘：大缺口仍必须通过正规交易时段和次日承接来验证。",
+      "EN: The old CRM short remains a miss and thesis invalidated. CRM rose from 151.78 to 158.37 for about +4.3% on the week, including a +4.5% Friday session, so the weekly scorecard must say plainly that the stale short thesis was wrong and should not be rationalized.\n中文：旧的CRM空头仍然是失误，而且逻辑已失效。CRM本周从151.78涨到158.37，约+4.3%，其中周五单日约+4.5%，因此这份周报必须直接承认：那个过时的空头逻辑是错的，不能再用叙事替它圆回来。"
+    ],
+    "nextWeekFocus": [
+      "EN: Tuesday, June 30 U.S. time, JOLTS should decide whether the market keeps favoring IWM and banks over crowded long-duration tech.\n中文：美股时间6月30日周二，JOLTS将决定市场是否继续偏向IWM和银行，而不是拥挤的高久期科技。",
+      "EN: Thursday, July 2 payrolls is the real regime event because Friday, July 3 is a holiday. A cool labor print can help IWM, XLF, and selected software rebounds; a hot print can pressure QQQ, SMH, and leveraged tech immediately.\n中文：7月2日周四的就业报告是真正的风格切换事件，因为7月3日周五休市。若就业数据偏冷，IWM、XLF和部分软件反弹更有利；若数据偏热，QQQ、SMH和杠杆科技可能立刻承压。",
+      "EN: Watch whether MU and SMH can build a real post-earnings base instead of just living off Thursday's headline. If they cannot hold VWAP or Friday's recovery levels, semis remain pullback-only rather than fresh momentum.\n中文：要看MU和SMH能否在财报后真正搭出平台，而不是只靠周四headline活着。若它们守不住VWAP或周五反抽位，半导体就仍然只适合等回踩，而不适合当新动量。",
+      "EN: Friday's SNOW-and-CRM-style software squeeze is only useful if it survives the first failed-bounce test next week. If software rips once and then loses VWAP, that is still better used as a tactical short than as a new core long theme.\n中文：周五类似SNOW与CRM的软件挤空，只有在下周经受住第一次回落考验时才有意义。若软件只冲一次就跌回VWAP下方，那它仍更适合当战术性空头，而不是新的核心多头主线。",
+      "EN: Holiday-thinned liquidity can exaggerate both gaps and reversals. Small accounts should assume worse spreads, less forgiveness, and faster stop-outs around Thursday's data and into the Friday closure.\n中文：假日前变薄的流动性会放大缺口和反转。小资金账户应默认周四数据前后、以及周五休市前，价差更差、容错更低、止损触发更快。"
+    ],
+    "sectors": [
+      {
+        "name": "EN: Small Caps / Domestic Beta\n中文：小盘股 / 内需Beta",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: IWM rose about 1.4% for the week while QQQ fell about 4.6%, so relative breadth improved even during a weak tech tape.\n中文：IWM全周约涨1.4%，而QQQ约跌4.6%，说明即便科技走弱，市场相对广度仍在改善。",
+        "watch": "EN: Favor only if IWM holds VWAP after JOLTS and payrolls and stays stronger than SPY during the first hour.\n中文：只有在JOLTS和就业数据后，IWM能守住VWAP并在首小时继续强于SPY时，才优先考虑。",
+        "risk": "EN: If labor data is hot enough to lift yields sharply, the relative-strength edge can disappear fast.\n中文：如果劳动数据热到把收益率迅速顶高，这种相对强势优势会很快消失。"
+      },
+      {
+        "name": "EN: Financials\n中文：金融",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: XLF held flat and JPM still gained about 1.2%, which is not explosive but was much cleaner than the crowded AI complex.\n中文：XLF周线持平，JPM仍约涨1.2%，虽然不算爆发，但明显比拥挤AI板块更干净。",
+        "watch": "EN: Prefer XLF or liquid banks only if rates stay orderly and the group holds opening ranges on data days.\n中文：只有当利率保持有序、且板块在数据日能守住开盘区间时，才优先考虑XLF或流动性好的银行股。",
+        "risk": "EN: If yields fall for recession reasons rather than for soft-landing reasons, financials can lose support quickly.\n中文：如果收益率下行是因为衰退担忧，而不是软着陆预期，金融板块会很快失去支撑。"
+      },
+      {
+        "name": "EN: Semiconductors / Memory\n中文：半导体 / 存储",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Micron's earnings beat created a real event surge, but MU finished the week nearly flat, SMH fell about 7.3%, and SOXL fell about 22.8%, so the group is strong in bursts but not clean in follow-through.\n中文：Micron财报超预期确实带来事件性拉升，但MU周线几乎收平，SMH约跌7.3%，SOXL约跌22.8%，说明这个板块会阶段性爆发，但跟随并不干净。",
+        "watch": "EN: Only buy pullbacks that hold VWAP or a post-earnings base. Fresh gaps without same-day breadth confirmation should be treated as watch-only.\n中文：只考虑VWAP上方承接住的回踩，或财报后平台确认。若缺少当天广度确认，新缺口应默认只观察、不追买。",
+        "risk": "EN: Payrolls, IV crush, and holiday liquidity can all turn a correct semi thesis into a bad entry.\n中文：就业报告、IV crush和假日前流动性，都可能把一个方向正确的半导体逻辑变成糟糕的入场点。"
+      },
+      {
+        "name": "EN: Software / Cloud Dispersion\n中文：软件 / 云计算分化",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "EN: ORCL dropped about 19.4% for the week, but SNOW and CRM squeezed higher on Friday, so the group remains two-way rather than cleanly bearish.\n中文：ORCL全周约跌19.4%，但SNOW和CRM在周五挤空上行，说明这个板块依然是双向分化，而不是干净单边空头。",
+        "watch": "EN: Short only failed bounces under VWAP. If Friday's squeeze survivors keep holding up, late shorts are the wrong vehicle.\n中文：只做VWAP下方的反弹失败。若周五的挤空强者仍能维持强势，晚到的空头就不是好工具。",
+        "risk": "EN: Once positioning turns too one-sided, software can squeeze violently even without new company-specific news.\n中文：一旦仓位过于单边，软件股即便没有新的公司级消息，也会出现剧烈挤空。"
+      },
+      {
+        "name": "EN: Consumer Hardware / Mega-Cap Tech\n中文：消费硬件 / 大盘科技",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Apple lost about 4.8% for the week after its pricing move raised demand-sensitivity concerns, which kept pressure on the broader large-cap tech complex.\n中文：苹果在提价引发需求敏感担忧后，全周约跌4.8%，也给更广泛的大盘科技板块带来压力。",
+        "watch": "EN: Only useful on failed bounces if AAPL cannot reclaim VWAP and QQQ keeps lagging IWM.\n中文：只有在AAPL无法收复VWAP、且QQQ继续落后IWM时，反弹失败空头才更有价值。",
+        "risk": "EN: A fast Apple stabilization can suddenly improve index sentiment and squeeze shorts.\n中文：苹果若快速企稳，指数情绪会突然改善，并对空头形成挤压。"
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Safer long only if post-data weakness holds above VWAP or the ETF breaks opening range highs with breadth still improving.\n中文：相对稳健的多头只在数据后回踩VWAP不破，或在市场广度继续改善时突破开盘区间高点才考虑。",
+        "suggestedProfitTake": "EN: Scale out into a 2% to 4% extension or sooner if QQQ suddenly regains leadership and rotation fades.\n中文：若出现2%到4%的延伸可分批兑现；若QQQ突然重新领涨、轮动减弱，则应更早止盈。",
+        "type": "EN: safer small-cap ETF\n中文：相对稳健的小盘ETF",
+        "catalyst": "EN: IWM outperformed the major growth ETF complex and finished the week about 1.4% higher.\n中文：IWM跑赢主要成长ETF组合，并以全周约+1.4%收官。",
+        "why": "EN: It is the cleaner way to express improving breadth without needing a fresh AI gap to work.\n中文：它能在不依赖新的AI缺口行情下，更干净地表达市场广度改善。",
+        "risk": "EN: A hot payrolls print or abrupt yield backup can quickly break the relative-strength thesis.\n中文：若就业数据偏热或收益率突然上冲，这个相对强势逻辑会很快失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: IWM moved from 295.59 on June 18 to 299.83 on June 26, about +1.4% for the week.\n中文：IWM从6月18日的295.59涨到6月26日的299.83，全周约+1.4%。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Best on a pullback that holds VWAP after JOLTS or payrolls while rates stay orderly.\n中文：若JOLTS或就业数据后回踩VWAP能守住、且利率保持有序，则是更好的切入点。",
+        "suggestedProfitTake": "EN: Trim into a 2% to 3% move or if the trade turns purely defensive rather than genuine breadth participation.\n中文：上涨2%到3%可先减仓；若走势变成纯防御而非真实广度参与，也应减仓。",
+        "type": "EN: safer financial ETF\n中文：相对稳健的金融ETF",
+        "catalyst": "EN: XLF finished the week flat, which was still a meaningful relative win versus QQQ at -4.6%.\n中文：XLF周线收平，但相对周跌约4.6%的QQQ，这仍是有意义的相对胜利。",
+        "why": "EN: It offers a steadier alternative for a small account when crowded semis and software are whipsawing.\n中文：在拥挤半导体和软件来回剧烈波动时，它为小资金账户提供了更稳的替代方案。",
+        "risk": "EN: If yields fall for bad macro reasons, financials can underperform quickly.\n中文：如果收益率下行源于糟糕的宏观担忧，金融股会很快转弱。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: XLF closed at 53.57 on both June 18 and June 26, essentially flat for the week.\n中文：XLF在6月18日和6月26日都收于53.57，周线基本持平。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only on a regular-session pullback hold above VWAP or a reclaim of the post-payroll opening range with multiple chip names confirming.\n中文：只有在正规交易时段回踩VWAP不破，或在就业数据后重新夺回开盘区间且多只芯片股共振时，才考虑。",
+        "suggestedProfitTake": "EN: Trim into a 3% to 5% rebound leg or faster if breadth narrows back into one or two names.\n中文：若出现3%到5%的反弹腿可减仓；若板块广度又缩回一两只龙头，应更快止盈。",
+        "type": "EN: cleaner semiconductor ETF\n中文：更干净的半导体ETF",
+        "catalyst": "EN: Micron earnings proved the sector still has event demand, but SMH still finished the week down about 7.3%.\n中文：Micron财报证明板块仍有事件驱动需求，但SMH全周仍约跌7.3%。",
+        "why": "EN: It is a better semi vehicle than SOXL when the user wants participation without maximum path risk.\n中文：如果用户想参与半导体但不想承受最大路径风险，它比SOXL更合适。",
+        "risk": "EN: If payrolls push yields higher or MU loses its post-earnings base, SMH can fail again.\n中文：如果就业数据把收益率推高，或MU失守财报后平台，SMH仍可能再次失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SMH fell from 659.88 on June 18 to 611.61 on June 26, about -7.3% for the week.\n中文：SMH从6月18日的659.88跌到6月26日的611.61，全周约-7.3%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "MU",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: High-beta long only if MU builds above VWAP after the earnings gap and then retakes Friday's rebound zone. Do not chase a fresh gap by itself.\n中文：高波动多头只在MU财报缺口后能稳在VWAP上方、并重新夺回周五反抽区时才考虑。不要只因为再跳空就追买。",
+        "suggestedProfitTake": "EN: Take partials aggressively into renewed record pushes because IV crush and profit-taking can hit together.\n中文：若再次冲击新高，应积极分批兑现，因为IV crush和获利了结往往会同时出现。",
+        "type": "EN: speculative event-driven memory leader\n中文：投机型事件驱动存储龙头",
+        "catalyst": "EN: MU surged about 15.7% on June 25 after earnings, but still finished the week almost flat.\n中文：MU在6月25日财报后约涨15.7%，但全周最终几乎收平。",
+        "why": "EN: The memory story is still real, but the tape showed the difference between a strong catalyst and a clean fresh entry.\n中文：存储逻辑本身仍然真实，但盘口已经清楚展示了“催化强”和“新进场干净”并不是一回事。",
+        "risk": "EN: Earnings gaps, IV crush, and payroll-week volatility can punish late longs even when the story stays bullish.\n中文：即便故事仍偏多，财报缺口、IV crush和就业周波动也足以惩罚晚到的多头。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: MU moved from 1133.99 on June 18 to 1132.33 on June 26, roughly flat for the week after a major Thursday spike.\n中文：MU从6月18日的1133.99变到6月26日的1132.33，在周四大涨之后全周大致收平。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "SNOW",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only if the stock retests Friday's breakout area and holds, or if it reclaims VWAP after a weak open with software breadth improving.\n中文：只有在回踩周五突破区后能守住，或弱开后重新收复VWAP且软件广度同步改善时，才考虑。",
+        "suggestedProfitTake": "EN: Trim quickly into 5% to 8% continuation bursts because Friday's squeeze can easily become next-week supply.\n中文：若继续爆发5%到8%，应快速减仓，因为周五的挤空很容易在下周变成上方抛压。",
+        "type": "EN: speculative software squeeze long\n中文：投机型软件挤空多头",
+        "catalyst": "EN: SNOW finished the week up about 7.2%, including a Friday close near the highs after the software squeeze.\n中文：SNOW全周约涨7.2%，其中周五在软件挤空中接近全日高位收盘。",
+        "why": "EN: It is the cleanest high-beta way to monitor whether Friday's software squeeze was real or just a one-day pain trade for shorts.\n中文：它是观察周五软件挤空究竟是真启动，还是只是一天空头受伤行情的较干净高弹性工具。",
+        "risk": "EN: If software loses VWAP early next week, Friday's winner can turn into a late-chase trap quickly.\n中文：如果下周初软件很快跌回VWAP下方，周五强者就会迅速变成追涨陷阱。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SNOW rose from 232.29 on June 18 to 248.96 on June 26, about +7.2% for the week, with a strong Friday regular-session move.\n中文：SNOW从6月18日的232.29涨到6月26日的248.96，全周约+7.2%，其中周五正规交易时段表现强势。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only for disciplined traders if semis breadth is broad and the first pullback holds. Otherwise this stays watch-only.\n中文：只有在半导体广度足够宽、且第一次回踩能守住时，纪律足够强的交易者才考虑；否则默认只观察。",
+        "suggestedProfitTake": "EN: Take profits aggressively into 5% to 10% bursts. Do not turn it into a weekly hold across jobs data.\n中文：出现5%到10%的爆发就应积极止盈；不要把它拿成跨就业数据的周度持仓。",
+        "type": "EN: leveraged speculative ETF\n中文：杠杆投机ETF",
+        "catalyst": "EN: SOXL showed violent leadership bursts and still ended the week down about 22.8%.\n中文：SOXL虽然出现过剧烈领涨脉冲，但全周仍约跌22.8%。",
+        "why": "EN: It matches the user's risk appetite, but this week proved it is only useful when execution quality is already high.\n中文：它符合用户偏高风险偏好，但本周也证明了，只有在执行质量本来就很高时，它才有价值。",
+        "risk": "EN: Leverage decay, gaps, and first-30-minute failures can do more damage than being right on theme can repair.\n中文：杠杆损耗、跳空和前30分钟失败，造成的伤害往往比主题看对更难弥补。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SOXL fell from 279.29 on June 18 to 215.60 on June 26, about -22.8% for the week despite multiple surge days.\n中文：SOXL从6月18日的279.29跌到6月26日的215.60，尽管周内有多次脉冲上涨，全周仍约-22.8%。",
+        "setupStatus": "avoid chase"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Short only on a failed bounce below VWAP or a weak retest of Friday's breakdown zone. Do not chase a stock already deep in the hole.\n中文：只有在VWAP下方反弹失败，或回抽周五破位区无力时才考虑做空。不要去追一个已经深跌的股票。",
+        "suggestedProfitTake": "EN: Cover partials into fast flushes because an oversold software name can squeeze hard on one rotation day.\n中文：若出现快速下杀，应先回补一部分，因为超跌软件股可能在一次轮动日里剧烈挤空。",
+        "type": "EN: tactical software short\n中文：战术型软件空头",
+        "catalyst": "EN: ORCL fell about 19.4% for the week and closed lower every day from Monday through Friday.\n中文：ORCL全周约跌19.4%，而且从周一到周五每天都比前一天更低收。",
+        "why": "EN: It is the cleanest current example that selective software downside can still work, but much of the easy move is gone.\n中文：它是目前最干净的“精选软件空头仍然有效”的例子，但最容易赚的那一段已经过去。",
+        "risk": "EN: Friday's software squeeze warns that late shorts can get trapped quickly if the sector catches a bid.\n中文：周五的软件挤空已经提醒过，若板块突然得到买盘支持，晚到空头会很快被困住。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: ORCL moved from 184.29 on June 18 to 148.53 on June 26, about -19.4% for the week.\n中文：ORCL从6月18日的184.29跌到6月26日的148.53，全周约-19.4%。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "riskControls": [
+      "EN: Any fresh gap larger than about 4% in MU, SNOW, SOXL, or similar event names should default to wait-first mode. The first 30 to 60 minutes matter more than the first print.\n中文：若MU、SNOW、SOXL或类似事件股再出现约4%以上的新缺口，默认先等。前30到60分钟的重要性高于第一笔成交。",
+      "EN: Treat payroll week plus a Friday holiday as a spread-and-liquidity warning. Small accounts should assume worse fills and smaller acceptable size.\n中文：要把就业周加上周五休市，视作价差与流动性风险警告。小资金账户应默认成交更差、可接受仓位更小。",
+      "EN: If IWM and XLF lose VWAP immediately after JOLTS or payrolls, do not force the safer-rotation thesis. A broken relative-strength setup is still broken.\n中文：如果IWM和XLF在JOLTS或就业数据后立刻失守VWAP，就不要强行坚持稳健轮动逻辑。相对强势一旦破坏，就仍然是破坏。",
+      "EN: For MU, SNOW, or SOXL options, prefer defined-risk spreads or smaller stock size. IV crush and leverage decay are normal outcomes here, not edge cases.\n中文：对于MU、SNOW或SOXL的期权，优先考虑有限风险价差或更小的正股仓位。IV crush和杠杆损耗在这里不是极端情况，而是常见结果。",
+      "EN: Never revive a stale thesis just because price later wiggles your way. CRM is the standing example: the old short was wrong, and next week's decisions must use a new chart, not emotional score-settling.\n中文：不要因为价格后来有一段朝你方向波动，就去复活一个过时逻辑。CRM就是固定案例：旧空头是错的，下周的决策必须基于新图形，而不是情绪化“算账”。"
+    ],
+    "sections": [
+      {
+        "title": "EN: Major Surges And Reasons\n中文：本周大涨股票与原因",
+        "items": [
+          "MU: EN: about +15.7% on Thursday, June 25 regular trading after Micron's earnings beat-and-raise, but Friday gave back much of the move and the stock finished the week roughly flat. The catalyst was credible, but the tradability for fresh buyers was not clean. Status: watch for pullback or base, not chase.\n中文：MU：6月25日周四在Micron财报超预期并上调指引后，正规交易时段约涨15.7%，但周五回吐了相当一部分涨幅，周线最终大致收平。催化是真实的，但对新买盘的可交易性并不干净。状态：等回踩或搭平台，不追涨。",
+          "QCOM: EN: Thursday's investor-day surge was tied to higher non-handset targets and Meta-linked data-center messaging, but the move faded badly and the stock still ended the week about -16.2%. This was part premarket optimism and part regular-session fade. Status: not a clean fresh long until a real base appears.\n中文：QCOM：周四的投资者日拉升，来自更高的非手机业务目标和与Meta相关的数据中心叙事，但随后大幅回落，周线仍约跌16.2%。这是一部分盘前乐观、一部分日内回落的组合。状态：在真正搭平台前，并不是干净的新多头。",
+          "SNOW and CRM: EN: Friday's software squeeze was the closest thing to a SNOW-style regular-session gap-and-go. SNOW closed the week up about 7.2% and CRM up about 4.3% as the market punished crowded shorts and treated the OpenAI threat as less immediate. Status: tradable only on pullback or hold; late chase is low quality.\n中文：SNOW与CRM：周五的软件挤空，是本周最接近SNOW式正规交易时段缺口走高的行情。SNOW周涨约7.2%，CRM约涨4.3%，原因在于市场开始惩罚过度拥挤的空头，并把OpenAI威胁视为没那么立刻。状态：只有回踩承接或强势维持时才值得看；晚追质量很低。"
+        ]
+      },
+      {
+        "title": "EN: Performance Scorecard\n中文：表现复盘",
+        "items": [
+          "HIT: EN: The best repeated call was to wait for regular-session confirmation and to respect the first 30 to 60 minutes. That discipline aged better than any single directional opinion.\n中文：命中：最有效的重复判断，是等待正规交易时段确认并尊重前30到60分钟。这条纪律比任何单一方向观点都更耐用。",
+          "MISS: EN: The June 22 bullish continuation bias in QQQ and semis failed. QQQ, SMH, and NVDA all ended the week materially lower, so the weekly scorecard should mark that continuation thesis wrong.\n中文：失误：6月22日对QQQ和半导体延续性的偏多判断失败。QQQ、SMH和NVDA周末都明显更低，因此周度复盘必须把这个延续逻辑记为错误。",
+          "HIT / PARTIAL: EN: The safer-rotation bucket worked better. IWM and JPM held up, but XLF was only flat, so this was a cleaner relative-strength call than an explosive absolute-return call.\n中文：命中 / 部分命中：相对稳健轮动组更有效。IWM与JPM抗跌，但XLF只是持平，因此这更像相对强势判断，而不是爆发性绝对收益判断。",
+          "MISS / THESIS INVALIDATED: EN: The old CRM short is still wrong. CRM rose about 4.3% this week and rallied sharply on Friday, so the short setup was not merely early. It was invalidated by the actual tape and should be labeled that way.\n中文：失误 / 逻辑失效：旧的CRM空头仍然是错的。CRM本周约涨4.3%，并在周五明显拉升，因此这个空头设置不只是“太早”，而是被真实盘口否定了，必须这样标注。",
+          "OPEN / EXECUTION WARNING: EN: Micron and Qualcomm proved that an event move can be directionally right but still poor for late entries. The lesson is not to deny the surge, but to separate leadership from fresh risk-reward.\n中文：进行中 / 执行警告：Micron与Qualcomm说明，事件行情可以方向没错，但晚进场依然很差。教训不是否认上涨，而是把“龙头地位”和“新风险回报”分开看。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Setup\n中文：期权与波动率设置",
+        "items": [
+          "EN: With VIX at 18.41 and payrolls plus a Friday holiday ahead, event decay matters more than usual. Defined-risk structures are cleaner than oversized naked calls or puts.\n中文：在VIX收于18.41、且前方还有就业数据和周五休市的环境里，事件衰减比平时更重要。有限风险结构比放大仓位裸买认购或认沽更干净。",
+          "EN: MU is still the best example of why good earnings do not equal good fresh options entry. A big gap can leave the stock bullish and the buyer still overpaying.\n中文：MU仍是“好财报不等于好新期权入场”的最佳案例。大缺口可以让股票方向偏多，但买方仍可能付出过高成本。",
+          "EN: SOXL or short-dated tech leverage only belongs in the account when breadth, volume, and the first pullback all agree. One green candle is not permission.\n中文：SOXL或短周期科技杠杆，只有在广度、量能和第一次回踩都同意时，才配出现在账户里。只有一根阳线，不代表许可。",
+          "EN: For ORCL or other software shorts, spreads or smaller stock positions are cleaner than emotional puts after a big down week. Late premium buying often pays for fear that is already in the tape.\n中文：对于ORCL或其他软件空头来说，在大跌周之后，价差或更小的正股仓位通常比情绪化买认沽更干净。太晚去买高权利金，往往是在为盘口里已经存在的恐慌再付一次钱。"
+        ]
+      },
+      {
+        "title": "EN: Upcoming Catalyst Watch\n中文：下周催化观察",
+        "items": [
+          "EN: Tuesday, June 30 U.S. time: JOLTS. Watch whether the labor-market read keeps favoring IWM and banks over crowded long-duration tech.\n中文：美股时间6月30日周二：JOLTS。要看劳动力市场读数是否继续让IWM和银行跑赢拥挤的高久期科技。",
+          "EN: Thursday, July 2 U.S. time: Employment Situation. This is the week's main macro event because NYSE is closed Friday, July 3.\n中文：美股时间7月2日周四：就业报告。这是全周最重要的宏观事件，因为NYSE将在7月3日周五休市。",
+          "EN: Friday, July 3 U.S. time: NYSE Independence Day closure. Thin liquidity before the close can create false breaks and exaggerated late-day moves.\n中文：美股时间7月3日周五：NYSE独立日休市。休市前的变薄流动性容易制造假突破和尾盘夸张波动。",
+          "EN: Tape question for next week: can semis reclaim leadership after a failed weekly follow-through, or does rotation stay with IWM, XLF, and selective software rebound names?\n中文：下周盘口核心问题：半导体能否在周度跟随失败后重新夺回领涨，还是轮动继续留在IWM、XLF以及部分软件反弹股？"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: Yahoo Finance SPY historical prices\n中文：Yahoo Finance SPY历史价格",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/SPY/history/"
+      },
+      {
+        "label": "EN: Yahoo Finance QQQ historical prices\n中文：Yahoo Finance QQQ历史价格",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/QQQ/history/"
+      },
+      {
+        "label": "EN: Yahoo Finance IWM historical prices\n中文：Yahoo Finance IWM历史价格",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/quote/IWM/history/"
+      },
+      {
+        "label": "EN: Yahoo Finance semiconductor and key stock histories including SMH, MU, QCOM, AAPL, CRM, ORCL, AAOI, and SNOW\n中文：Yahoo Finance半导体及关键个股历史数据，包括SMH、MU、QCOM、AAPL、CRM、ORCL、AAOI与SNOW",
+        "confidence": "Market data",
+        "url": "https://finance.yahoo.com/"
+      },
+      {
+        "label": "EN: AP Thursday market wrap with Micron, Apple, and Qualcomm context\n中文：美联社周四市场综述，涵盖Micron、Apple与Qualcomm背景",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/119e56cb6b1fc041b46af9bb778bdf07"
+      },
+      {
+        "label": "EN: AP Friday market wrap\n中文：美联社周五市场综述",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/e356760ec69cab916e53a9804336b845"
+      },
+      {
+        "label": "EN: AP Monday index close summary\n中文：美联社周一指数收盘摘要",
+        "confidence": "Market data",
+        "url": "https://apnews.com/article/7f09c8db83b0d6bf2c3686ea4a5ff4fe"
+      },
+      {
+        "label": "EN: MarketWatch live coverage on Friday software squeeze and Russell participation\n中文：MarketWatch关于周五软件挤空与Russell参与度的直播报道",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-softwares-jump-as-openai-threat-weakens-russell-rejoins-nasdaq-in-fresh-rally"
+      },
+      {
+        "label": "EN: Federal Reserve H.15 selected interest rates\n中文：美联储H.15利率数据",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/releases/h15/"
+      },
+      {
+        "label": "EN: FRED VIX series VIXCLS\n中文：FRED VIX波动率序列VIXCLS",
+        "confidence": "Market data",
+        "url": "https://fred.stlouisfed.org/series/VIXCLS"
+      },
+      {
+        "label": "EN: BLS JOLTS release schedule\n中文：美国劳工统计局JOLTS发布时间表",
+        "confidence": "Calendar",
+        "url": "https://www.bls.gov/schedule/news_release/jolts.htm"
+      },
+      {
+        "label": "EN: BLS Employment Situation release schedule\n中文：美国劳工统计局就业报告发布时间表",
+        "confidence": "Calendar",
+        "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+      },
+      {
+        "label": "EN: NYSE trading-hours and holiday calendar\n中文：NYSE交易时间与假日安排",
+        "confidence": "Calendar",
+        "url": "https://www.nyse.com/trade/hours-calendars"
+      }
+    ]
+  },
+  {
     "date": "2026-06-21",
     "weekId": "2026-W25",
     "weekNumber": 25,
