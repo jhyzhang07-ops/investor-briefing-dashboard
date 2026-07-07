@@ -50,6 +50,42 @@ def is_non_empty_text(value: Any) -> bool:
     return isinstance(value, str) and bool(value.strip())
 
 
+def has_bilingual_markers(value: Any) -> bool:
+    if not isinstance(value, str):
+        return False
+    return "EN:" in value and ("中文" in value or "Chinese:" in value)
+
+
+def iter_watch_items(entry: dict[str, Any]) -> list[dict[str, Any]]:
+    items: list[dict[str, Any]] = []
+    for key in ["stocks", "smallCaps", "etfs"]:
+        value = entry.get(key)
+        if isinstance(value, list):
+            items.extend(item for item in value if isinstance(item, dict))
+    return items
+
+
+def validate_practical_watch_items(prefix: str, entry: dict[str, Any], errors: list[str]) -> None:
+    for item in iter_watch_items(entry):
+        ticker = item.get("ticker", "unknown ticker")
+        why = item.get("why", "")
+        require(
+            "Fundamental" in why or "基本面" in why,
+            f"{prefix} {ticker} why field missing fundamental/basic-metrics discussion",
+            errors,
+        )
+        require(
+            "Technical" in why or "技术面" in why,
+            f"{prefix} {ticker} why field missing technical discussion",
+            errors,
+        )
+        require(
+            "Volume" in why or "成交量" in why or "流动性" in why,
+            f"{prefix} {ticker} why field missing volume/liquidity discussion",
+            errors,
+        )
+
+
 def validate_us_latest(entry: dict[str, Any], errors: list[str]) -> None:
     required_lists = [
         "priorities",
@@ -71,13 +107,18 @@ def validate_us_latest(entry: dict[str, Any], errors: list[str]) -> None:
     require(isinstance(entry.get("actionBoard"), dict) and entry["actionBoard"], "U.S. latest entry missing actionBoard", errors)
 
     for key in ["title", "tone"]:
-        require(is_non_empty_text(entry.get(key)), f"U.S. latest entry missing text field: {key}", errors)
+        value = entry.get(key)
+        require(is_non_empty_text(value), f"U.S. latest entry missing text field: {key}", errors)
+        require(has_bilingual_markers(value), f"U.S. latest entry {key} must be bilingual EN/中文", errors)
 
     for key in ["priorities", "summary", "forecast"]:
         items = entry.get(key)
         if isinstance(items, list):
             for index, item in enumerate(items, start=1):
                 require(is_non_empty_text(item), f"U.S. latest entry {key}[{index}] missing text", errors)
+                require(has_bilingual_markers(item), f"U.S. latest entry {key}[{index}] must be bilingual EN/中文", errors)
+
+    validate_practical_watch_items("U.S. latest entry", entry, errors)
 
 
 def validate_a_share_latest(entry: dict[str, Any], errors: list[str]) -> None:
@@ -103,7 +144,13 @@ def validate_a_share_latest(entry: dict[str, Any], errors: list[str]) -> None:
     for key in ["title", "tone"]:
         value = entry.get(key)
         require(isinstance(value, str) and value.strip(), f"A-share latest entry missing text field: {key}", errors)
-        require("EN:" not in value, f"A-share latest entry should not contain English marker in {key}", errors)
+        require(has_bilingual_markers(value), f"A-share latest entry {key} must be bilingual 中文/EN", errors)
+
+    for item in iter_watch_items(entry):
+        ticker = item.get("ticker", "unknown ticker")
+        require(is_non_empty_text(item.get("chineseName")), f"A-share latest entry {ticker} missing chineseName", errors)
+
+    validate_practical_watch_items("A-share latest entry", entry, errors)
 
 
 def main() -> int:

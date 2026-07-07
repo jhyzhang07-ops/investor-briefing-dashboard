@@ -1,5 +1,413 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-07-07",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-07 16:10 GMT+8",
+    "title": "EN: U.S. Market Brief - 2026-07-07\n中文：美股市场简报 - 2026-07-07",
+    "tone": "EN: Monday's U.S. tape was constructive, led by AI and semiconductor momentum, but Tuesday's premarket setup is more fragile because Samsung's reaction hit global chip sentiment and oil rose on renewed Hormuz risk.\n中文：周一美股盘面偏强，AI和半导体带动上涨；但周二盘前更脆弱，因为Samsung业绩后的股价反应打击全球芯片情绪，同时霍尔木兹风险推高油价。",
+    "priorities": [
+      "EN: Start with QQQ/SMH confirmation, not ticker chasing; Nasdaq rose 1.12% Monday, but Tuesday tech futures weakened after Samsung's reaction, so the first 30-60 minutes matter.\n中文：先看QQQ/SMH确认，不要先追个股；纳指周一涨1.12%，但周二科技期货受Samsung拖累走弱，所以开盘前30-60分钟很关键。",
+      "EN: AI infrastructure remains the main long theme, but only if regular-session volume confirms; ALAB, BE, MU, NVDA and data-center names need VWAP/retest discipline.\n中文：AI基础设施仍是主线，但必须等正股交易时段成交量确认；ALAB、BE、MU、NVDA和数据中心链都需要VWAP/回踩纪律。",
+      "EN: Oil and defense are back on the risk board after reports of ship attacks near Hormuz; treat XLE/energy as hedge exposure, not blind momentum.\n中文：霍尔木兹附近船只遇袭报道让油价和防务重新进入风险看板；XLE/能源更适合作为对冲，而不是盲目追动量。",
+      "EN: This is a light earnings day; the bigger calendar tests are Fed minutes Wednesday, PepsiCo Thursday, and Delta Friday, so do not over-size before the week's catalysts.\n中文：今天财报不密集；更重要的是周三Fed纪要、周四PepsiCo、周五Delta，所以不要在本周催化前过度上仓。",
+      "EN: For small capital, avoid buying large premarket gaps; use staged entries, hard invalidation, and smaller size in SOXL or options.\n中文：小资金最忌追大幅盘前高开；SOXL和期权必须分批、轻仓、带明确失效条件。"
+    ],
+    "summary": [
+      "EN: Monday U.S. indexes closed higher: Dow +0.29%, S&P 500 +0.72%, Nasdaq +1.12%, with AI-related names leading.\n中文：周一美股收高：道指+0.29%、标普500+0.72%、纳指+1.12%，AI相关股票领涨。",
+      "EN: The immediate risk is that Samsung's post-results selloff hit the global memory/AI supply chain even though its preliminary profit was strong; that is classic 'good news, crowded trade' risk.\n中文：眼前风险是Samsung初步利润虽强但股价下跌，拖累全球存储/AI供应链，这属于典型“消息好但交易太拥挤”的风险。",
+      "EN: Oil rose after renewed Hormuz-related ship-attack headlines, which can help energy hedges but pressure airlines and inflation-sensitive risk.\n中文：霍尔木兹相关船只遇袭headline推高油价，这有利于能源对冲，但会压制航空和通胀敏感风险资产。",
+      "EN: Fundamental quality still matters: NVDA and MU have real AI revenue/margin support; IREN, BE, ALAB and PRAX are more event/momentum driven and need stricter sizing.\n中文：基本面质量仍然重要：NVDA和MU有真实AI收入/利润率支撑；IREN、BE、ALAB、PRAX更偏事件/动量，仓位必须更谨慎。",
+      "EN: Today's useful trade process is not 'buy AI'; it is 'buy only the AI names that hold VWAP and show relative volume after the open.'\n中文：今天有用的交易流程不是简单“买AI”，而是“只买开盘后守住VWAP且相对成交量确认的AI标的”。",
+      "EN: If QQQ fails the opening range while oil and yields rise together, reduce beta first and leave SOXL/options alone.\n中文：如果QQQ跌破开盘区间，同时油价和收益率一起上行，先降beta，不碰SOXL和期权。"
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "Monday close: +0.72% to 7,537.43",
+        "note": "EN: Broad index strength was real, but Tuesday needs confirmation because tech futures softened overnight.\n中文：大盘强度真实，但周二需要确认，因为科技期货隔夜转弱。"
+      },
+      "Nasdaq": {
+        "value": "Monday close: +1.12% to 26,121.16",
+        "note": "EN: AI leadership is still intact, but Samsung's reaction can test whether memory/semis are extended.\n中文：AI主线仍在，但Samsung反应会测试存储/半导体是否过热。"
+      },
+      "Dow": {
+        "value": "Monday close: +0.29% to 53,055.91",
+        "note": "EN: Industrials and quality cyclicals give some cushion if tech cools.\n中文：工业和优质周期股能在科技降温时提供缓冲。"
+      },
+      "Russell 2000": {
+        "value": "Use IWM first-hour relative strength as breadth check",
+        "note": "EN: Small-cap confirmation matters more for the user's high-beta strategy than headline mega-cap strength.\n中文：对小资金高beta策略来说，小盘确认比大盘股headline更重要。"
+      },
+      "Treasury Yields": {
+        "value": "10-year around mid/high-4% zone in cited market reports",
+        "note": "EN: Rising yields ahead of Fed minutes would pressure long-duration AI and unprofitable growth.\n中文：Fed纪要前若收益率上行，会压制高久期AI和未盈利成长股。"
+      },
+      "Oil": {
+        "value": "Brent/WTI rose in early trade on Hormuz headlines",
+        "note": "EN: Energy hedges improve, airlines/travel risk worsens.\n中文：能源对冲价值上升，航空/旅游风险上升。"
+      },
+      "FX / Dollar": {
+        "value": "Dollar firmer in pre-Fed-minutes setup",
+        "note": "EN: A stronger dollar can weigh on commodities and multinational earnings sentiment.\n中文：美元走强会压制大宗商品和跨国公司盈利情绪。"
+      },
+      "Volatility / Options": {
+        "value": "Watch QQQ/SMH IV and post-gap single-name IV crush",
+        "note": "EN: Options are most dangerous after a gap if IV falls while price chops sideways.\n中文：跳空后如果IV回落、价格横盘，期权最容易亏。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: QQQ and SMH reclaim VWAP after the open, MU/NVDA hold prior-day support, and AI infrastructure names show real relative volume.\n中文：偏强情景：QQQ和SMH开盘后收回VWAP，MU/NVDA守住前一日支撑，AI基础设施股出现真实相对成交量。",
+      "EN: Base case: AI remains tradable but choppy; use pullbacks and opening-range confirmation, not premarket chasing.\n中文：基准情景：AI仍可交易但波动较大；用回踩和开盘区间确认，不追盘前。",
+      "EN: Bear case: Samsung weakness spills into memory, QQQ loses the first-hour low, oil rises, and yields firm; then reduce beta and avoid SOXL.\n中文：偏弱情景：Samsung弱势扩散到存储，QQQ跌破首小时低点，油价和收益率走高；此时降beta，回避SOXL。",
+      "EN: Rotation case: energy, defense, and financials outperform while semis consolidate; use XLE/XLF as lower-beta alternatives.\n中文：轮动情景：能源、防务、金融跑赢，半导体整理；用XLE/XLF作为较低beta替代。",
+      "EN: Event case: wait for Fed minutes and Thursday/Friday earnings before adding swing exposure.\n中文：事件情景：在Fed纪要和周四/周五财报前，不急着增加波段仓位。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "NVDA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Watch only if it holds regular-session VWAP and SMH confirms; no premarket chase.\n中文：仅在正股交易时段守住VWAP且SMH确认时观察；不追盘前。",
+        "reason": "EN: Best liquid AI quality proxy, but crowded.\n中文：最有流动性的AI质量代理，但交易拥挤。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "QQQ",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "EN: Only on failed VWAP reclaim plus weak semis.\n中文：只有VWAP收复失败且半导体走弱时才作为对冲观察。",
+        "reason": "EN: Index hedge if AI breadth fails.\n中文：AI广度失败时的指数对冲。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Enter only after first-hour hold/reclaim.\n中文：只在首小时守住或收复后观察。",
+        "reason": "EN: Cleaner semiconductor basket than single-name earnings risk.\n中文：比单一个股财报风险更干净的半导体组合。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Intraday only if SMH confirms and breadth improves; never blind overnight.\n中文：仅在SMH确认且广度改善时做日内观察；绝不盲目隔夜。",
+        "reason": "EN: Fastest upside, highest decay/path risk.\n中文：弹性最大，但损耗和路径风险最高。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "MU",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Wait after Samsung shock; only buy if memory group stabilizes.\n中文：Samsung冲击后先等；只有存储板块稳定后再看。",
+        "reason": "EN: Great fundamentals, dangerous timing.\n中文：基本面强，但时点危险。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-07-07 U.S. session",
+        "event": "EN: Samsung reaction and AI supply-chain read-through\n中文：Samsung反应与AI供应链映射",
+        "watch": "EN: MU, NVDA, SMH, SOXL first-hour behavior.\n中文：观察MU、NVDA、SMH、SOXL首小时表现。",
+        "relatedTickers": "MU, NVDA, SMH, SOXL"
+      },
+      {
+        "date": "2026-07-08",
+        "event": "EN: Federal Reserve minutes\n中文：美联储会议纪要",
+        "watch": "EN: Rate-sensitive tech, small caps, TLT and dollar reaction.\n中文：关注利率敏感科技、小盘、TLT和美元反应。",
+        "relatedTickers": "QQQ, IWM, TLT, NVDA"
+      },
+      {
+        "date": "2026-07-09 to 2026-07-10",
+        "event": "EN: PepsiCo and Delta earnings\n中文：PepsiCo与Delta财报",
+        "watch": "EN: Consumer demand, travel demand, oil-cost sensitivity.\n中文：观察消费需求、出行需求、油价成本敏感度。",
+        "relatedTickers": "PEP, DAL, XLY, XLE"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-07-07",
+        "ticker": "CRM",
+        "status": "miss",
+        "result": "EN: Prior CRM short framing was wrong because CRM rallied materially after the call.\n中文：此前CRM做空框架错误，因为CRM在该判断后明显上涨。",
+        "lesson": "EN: Actual tape overrides narrative; shorts must be invalidated quickly after upside follow-through.\n中文：真实价格行为优先于叙事；做空遇到向上延续必须快速判定失效。"
+      },
+      {
+        "date": "2026-07-07",
+        "ticker": "DELL/SNOW",
+        "status": "hit",
+        "result": "EN: Prior warning not to chase after major gaps remains valid.\n中文：此前关于大跳空后不要追高的提醒仍然有效。",
+        "lesson": "EN: Separate good company/catalyst from good entry.\n中文：好公司/好催化不等于好买点。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: AI Infrastructure / Semiconductors\n中文：AI基础设施 / 半导体",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Monday AI strength plus this week's Samsung/SK Hynix memory catalysts.\n中文：周一AI强势叠加本周Samsung/SK Hynix存储催化。",
+        "watch": "EN: SMH/NVDA/MU must hold regular-session VWAP.\n中文：SMH/NVDA/MU必须守住正股交易时段VWAP。",
+        "risk": "EN: Samsung selloff can signal crowded memory positioning.\n中文：Samsung下跌可能说明存储交易拥挤。"
+      },
+      {
+        "name": "EN: Energy / Geopolitical Hedge\n中文：能源 / 地缘对冲",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: Oil rose after Hormuz-related ship-attack headlines.\n中文：霍尔木兹相关船只遇袭headline推高油价。",
+        "watch": "EN: XLE only if crude holds gains during U.S. hours.\n中文：只有原油在美股时段守住涨幅时才看XLE。",
+        "risk": "EN: De-escalation can quickly remove the hedge premium.\n中文：局势降温会快速抹去对冲溢价。"
+      },
+      {
+        "name": "EN: Small-Cap High Beta\n中文：高beta小盘",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: PRAX/IREN-style premarket momentum shows risk appetite exists.\n中文：PRAX/IREN这类盘前动量说明风险偏好还在。",
+        "watch": "EN: Only use names with volume confirmation and tight invalidation.\n中文：只做成交量确认且失效条件明确的标的。",
+        "risk": "EN: First-30-minute fades can erase premarket gains.\n中文：前30分钟回落会吞掉盘前涨幅。"
+      },
+      {
+        "name": "EN: Consumer / Travel\n中文：消费 / 出行",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Oil rebound can pressure airlines ahead of Delta earnings.\n中文：油价反弹会在Delta财报前压制航空。",
+        "watch": "EN: DAL and JETS reaction into Friday.\n中文：观察DAL和JETS到周五的表现。",
+        "risk": "EN: Strong travel demand can offset oil worries.\n中文：强出行需求可能抵消油价压力。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Watch only after regular-session VWAP reclaim/hold with SMH confirmation; skip if it gaps and fades in first 30 minutes.\n中文：仅在正股交易时段收复/守住VWAP且SMH确认时观察；若高开后前30分钟回落则跳过。",
+        "suggestedProfitTake": "EN: Scale partials into a 4%-6% push or trail below first-hour low.\n中文：上涨4%-6%先分批止盈，或以前一小时低点做移动止盈。",
+        "type": "EN: AI mega-cap / quality leader\n中文：AI大盘核心 / 质量龙头",
+        "catalyst": "EN: AI infrastructure leadership and Monday tech strength.\n中文：AI基础设施主线和周一科技强势。",
+        "why": "EN Fundamentals / 中文基本面: Nvidia has record AI/data-center demand and very high gross-margin profile in recent reporting; valuation is sensitive to growth expectations.\nEN Technicals / 中文技术面: Treat as strong but crowded; only valid if it holds VWAP and relative strength versus SMH/QQQ.\nEN Volume/Liquidity / 中文成交量/流动性: Excellent liquidity and options depth, but crowding means failed breakouts can reverse fast.",
+        "risk": "EN: Invalidated if SMH fails and NVDA loses VWAP/opening-range low.\n中文：若SMH失败且NVDA跌破VWAP/开盘区间低点，逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Participated in Monday AI-led advance but faces Tuesday Samsung read-through risk.\n中文：参与周一AI上涨，但周二面临Samsung映射风险。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "MU",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for memory group stabilization after Samsung; consider only if MU reclaims VWAP and holds prior-day support.\n中文：Samsung冲击后先等存储板块稳定；仅在MU收复VWAP并守住前日支撑时观察。",
+        "suggestedProfitTake": "EN: Take profits quickly into sharp rebounds because memory trades are crowded.\n中文：存储交易拥挤，急反弹要快速分批止盈。",
+        "type": "EN: AI memory / high-beta semiconductor\n中文：AI存储 / 高beta半导体",
+        "catalyst": "EN: AI memory demand remains strong, but Samsung reaction tests crowding.\n中文：AI存储需求仍强，但Samsung反应测试拥挤度。",
+        "why": "EN Fundamentals / 中文基本面: Recent Micron earnings commentary showed AI memory demand and margin expansion; this is a strong fundamental story.\nEN Technicals / 中文技术面: After a large post-earnings move, entry quality is lower unless price holds above VWAP/support.\nEN Volume/Liquidity / 中文成交量/流动性: Highly liquid, options-active; watch whether selling volume after Samsung is absorbed or expands.",
+        "risk": "EN: Invalidated if MU opens weak and cannot reclaim VWAP while SMH rolls over.\n中文：若MU低开后无法收复VWAP且SMH转弱，做多失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Strong AI-memory winner, now vulnerable to crowded-trade reset.\n中文：AI存储强势股，但现在容易受拥挤交易重置影响。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "ALAB",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Watch only if Monday's rebound holds and it breaks the opening range on above-average volume.\n中文：仅在周一反弹守住，并且放量突破开盘区间时观察。",
+        "suggestedProfitTake": "EN: Take partials into 6%-10% momentum bursts; do not let failed breakout become a swing hold.\n中文：上涨6%-10%动量脉冲先止盈；突破失败不要硬扛成波段。",
+        "type": "EN: AI connectivity / high-beta growth\n中文：AI互连 / 高beta成长",
+        "catalyst": "EN: IBD reported ALAB rose 6.5% Monday as AI infrastructure names recovered.\n中文：IBD报道ALAB周一涨6.5%，跟随AI基础设施修复。",
+        "why": "EN Fundamentals / 中文基本面: Astera targets AI/cloud connectivity bottlenecks, a real capex theme, but valuation is sensitive.\nEN Technicals / 中文技术面: Rebound after prior weakness is actionable only if it holds above opening range/VWAP.\nEN Volume/Liquidity / 中文成交量/流动性: Liquidity is adequate for trading, but high beta requires relative-volume confirmation.",
+        "risk": "EN: Invalidated on failed breakout or QQQ/SMH weakness.\n中文：突破失败或QQQ/SMH走弱则失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: +6.5% Monday rebound after prior selling.\n中文：周一反弹约6.5%，此前经历回落。",
+        "setupStatus": "in progress"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "IREN",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only after first-hour support and high relative volume; no chasing if it gaps >8%.\n中文：只在首小时承接和高相对成交量确认后观察；若跳空超过8%不追。",
+        "suggestedProfitTake": "EN: Scale into 8%-12% spikes or if Bitcoin/AI-infra sympathy fades.\n中文：上涨8%-12%或比特币/AI基建情绪降温时分批止盈。",
+        "type": "EN: AI data-center / Bitcoin-linked high beta\n中文：AI数据中心 / 比特币相关高beta",
+        "catalyst": "EN: Barron's noted IREN was a premarket leader Monday; Axios also reported a high-profile Warriors sponsorship tied to AI-infrastructure visibility.\n中文：Barron's提到IREN周一盘前领涨；Axios也报道其与勇士球衣赞助相关，提升AI基础设施曝光。",
+        "why": "EN Fundamentals / 中文基本面: IREN has AI/HPC data-center ambition but remains more speculative than profitable mega-cap AI.\nEN Technicals / 中文技术面: Needs pullback-hold or opening-range breakout; extended gaps are poor entries.\nEN Volume/Liquidity / 中文成交量/流动性: High-beta and sentiment-driven; only usable with strong relative volume and tight stops.",
+        "risk": "EN: Invalidated if it loses first-hour low or Bitcoin/data-center peers weaken.\n中文：若跌破首小时低点或比特币/数据中心同类走弱，则失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Premarket strength noted Monday; treat as momentum, not core holding.\n中文：周一盘前强势；按动量票处理，不当核心持仓。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "BE",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Watch only if it holds the first pullback after Monday's nearly 9% rise.\n中文：周一接近9%上涨后，只在第一次回踩守住时观察。",
+        "suggestedProfitTake": "EN: Take profits into another 6%-8% push; do not chase vertical extensions.\n中文：再涨6%-8%先止盈，不追垂直拉升。",
+        "type": "EN: power / AI infrastructure sympathy\n中文：电力 / AI基础设施共振",
+        "catalyst": "EN: IBD reported Bloom Energy gained nearly 9% Monday as AI infrastructure and power themes strengthened.\n中文：IBD报道Bloom Energy周一接近涨9%，受AI基础设施和电力主题强化带动。",
+        "why": "EN Fundamentals / 中文基本面: Power demand is a real AI-data-center bottleneck, but BE's profitability and valuation are less stable than mature industrials.\nEN Technicals / 中文技术面: After a sharp one-day move, only a controlled pullback gives a usable entry.\nEN Volume/Liquidity / 中文成交量/流动性: Liquid enough for trading, but momentum needs continued sector participation.",
+        "risk": "EN: Invalidated if it gives back Monday's breakout on heavy volume.\n中文：若放量回吐周一突破，则失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Nearly +9% Monday; already extended for fresh chase.\n中文：周一接近+9%，新追高已经偏伸展。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "PRAX",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only if the gap holds after the open and volume remains exceptional; otherwise watch-only.\n中文：只有开盘后缺口守住且成交量继续异常放大时观察，否则仅观望。",
+        "suggestedProfitTake": "EN: Take quick partials into 10%+ biotech/event moves.\n中文：生物科技/事件票上涨10%以上要快速分批兑现。",
+        "type": "EN: biotech event momentum\n中文：生物科技事件动量",
+        "catalyst": "EN: Barron's noted PRAX was up sharply in Monday premarket.\n中文：Barron's提到PRAX周一盘前大涨。",
+        "why": "EN Fundamentals / 中文基本面: Biotech catalysts can be powerful, but revenue/earnings visibility is often weaker than established companies.\nEN Technicals / 中文技术面: Large gap requires first-hour confirmation; failed gap is an avoid.\nEN Volume/Liquidity / 中文成交量/流动性: Trade only if relative volume and spreads are acceptable.",
+        "risk": "EN: Invalidated by gap-fill below VWAP or wide spreads.\n中文：若回补缺口、跌破VWAP或价差过宽，则失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Large premarket move Monday; risk of fade is high.\n中文：周一盘前大涨，回落风险高。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Watch after first-hour VWAP hold/reclaim; avoid if Samsung weakness drags semis lower.\n中文：首小时VWAP守住/收复后观察；若Samsung拖累半导体则回避。",
+        "suggestedProfitTake": "EN: Scale into 3%-5% rebound or trail under first-hour low.\n中文：反弹3%-5%分批止盈，或以首小时低点移动止盈。",
+        "type": "EN: semiconductor ETF\n中文：半导体ETF",
+        "catalyst": "EN: AI chip leadership versus Samsung crowding test.\n中文：AI芯片主线与Samsung拥挤度测试。",
+        "why": "EN Fundamentals / 中文基本面: Basket captures AI compute and memory demand without single-name risk.\nEN Technicals / 中文技术面: Needs VWAP/opening-range confirmation after overnight pressure.\nEN Volume/Liquidity / 中文成交量/流动性: High ETF liquidity; volume confirmation matters because sector is crowded.",
+        "risk": "EN: Invalidated if MU/NVDA fail together.\n中文：若MU/NVDA同步失败，则失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Benefited from Monday AI strength but faces Tuesday memory read-through.\n中文：受益周一AI强势，但周二面临存储映射。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Intraday only after SMH confirms; no overnight unless position is tiny and hedged.\n中文：只在SMH确认后做日内；除非仓位极小且有对冲，否则不隔夜。",
+        "suggestedProfitTake": "EN: Take profits aggressively into 5%-10% bursts.\n中文：5%-10%脉冲就积极止盈。",
+        "type": "EN: 3x semiconductor ETF\n中文：3倍半导体ETF",
+        "catalyst": "EN: Tactical expression of semiconductor rebound.\n中文：半导体反弹的战术表达。",
+        "why": "EN Fundamentals / 中文基本面: ETF does not have fundamentals; underlying semis still have AI demand support.\nEN Technicals / 中文技术面: Only valid when SMH trend confirms; otherwise leverage magnifies chop.\nEN Volume/Liquidity / 中文成交量/流动性: Liquid but path-dependent; decay and gaps are major risks.",
+        "risk": "EN: Invalidated if SMH loses VWAP or first-hour low.\n中文：若SMH跌破VWAP或首小时低点，则失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: High-beta proxy; not suitable for passive holding.\n中文：高beta代理，不适合被动持有。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Watch only if crude holds gains into U.S. session and XLE holds VWAP.\n中文：只有原油在美股时段守住涨幅且XLE守住VWAP时观察。",
+        "suggestedProfitTake": "EN: Scale out on 2%-4% move or de-escalation headlines.\n中文：上涨2%-4%或地缘降温headline出现时分批止盈。",
+        "type": "EN: energy hedge ETF\n中文：能源对冲ETF",
+        "catalyst": "EN: Hormuz risk and oil rebound.\n中文：霍尔木兹风险和油价反弹。",
+        "why": "EN Fundamentals / 中文基本面: Energy cash flows benefit from higher crude but are headline-sensitive.\nEN Technicals / 中文技术面: Needs crude confirmation and VWAP hold.\nEN Volume/Liquidity / 中文成交量/流动性: Very liquid hedge; still vulnerable to headline reversals.",
+        "risk": "EN: Invalidated if crude reverses and XLE loses VWAP.\n中文：若原油反转且XLE跌破VWAP，则失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Hedge demand improves with oil headlines.\n中文：油价headline增强对冲需求。",
+        "setupStatus": "early"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
+        "items": [
+          "EN: Avoid buying short-dated calls after a large premarket gap unless stock and sector VWAP confirm; IV crush can beat correct direction.\n中文：大幅盘前跳空后，不要在没有个股和板块VWAP确认时买短期期权；方向对也可能输给IV回落。",
+          "EN: SOXL should be treated like an intraday instrument, not a swing investment.\n中文：SOXL应当按日内工具处理，不是波段投资品。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Metrics Check\n中文：基本面指标检查",
+        "items": [
+          "EN: NVDA/MU have the clearest AI revenue and margin support; ALAB/IREN/BE/PRAX need more tactical sizing because valuation/profitability is less stable.\n中文：NVDA/MU有最清晰的AI收入和利润率支撑；ALAB/IREN/BE/PRAX估值/盈利稳定性较弱，必须更战术化。",
+          "EN: For any name without fresh filing metrics today, treat the trade as technical/catalyst driven and reduce conviction.\n中文：若今天没有新的财报/公告指标，就把交易视为技术/催化驱动，并降低确信度。"
+        ]
+      },
+      {
+        "title": "EN: Entry Timing And Risk Controls\n中文：入场时机与风险控制",
+        "items": [
+          "EN: First 30-60 minutes decide whether AI gaps are real or fade-prone.\n中文：前30-60分钟决定AI跳空是真突破还是容易回落。",
+          "EN: Use hard invalidation: VWAP loss, opening-range low break, or sector ETF failure.\n中文：使用硬性失效条件：跌破VWAP、跌破开盘区间低点、或板块ETF失败。"
+        ]
+      },
+      {
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
+        "items": [
+          "EN: Samsung reaction is the key negative read-through for memory; SK Hynix listing later this week can keep attention on AI memory.\n中文：Samsung股价反应是存储链的关键负面映射；本周SK Hynix上市会继续让AI存储保持关注度。",
+          "EN: IREN/BE represent AI power and data-center infrastructure, but they are not low-risk core holdings.\n中文：IREN/BE代表AI电力和数据中心基础设施，但不是低风险核心仓位。"
+        ]
+      },
+      {
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
+        "items": [
+          "EN: Watch AI compute, memory, data-center power and interconnect; avoid broad AI chasing without volume.\n中文：关注AI算力、存储、数据中心电力和互连；没有成交量就不要泛泛追AI。"
+        ]
+      },
+      {
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
+        "items": [
+          "EN: Tariff, technology export, defense and energy headlines can move semis, oil, industrials and defense faster than company fundamentals.\n中文：关税、科技出口、防务和能源headline可能比公司基本面更快影响半导体、油气、工业和军工。"
+        ]
+      },
+      {
+        "title": "EN: Credit Positioning And Market Internals\n中文：信用、仓位与市场内部结构",
+        "items": [
+          "EN: If AI rallies but IWM and breadth lag, treat the move as narrow and reduce size.\n中文：如果AI上涨但IWM和市场宽度落后，把行情视为窄幅行情并降低仓位。"
+        ]
+      },
+      {
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
+        "items": [
+          "EN: Tuesday has no major premarket earnings; Fed minutes Wednesday, PepsiCo Thursday, Delta Friday are bigger tests.\n中文：周二盘前没有重大财报；周三Fed纪要、周四PepsiCo、周五Delta更关键。"
+        ]
+      },
+      {
+        "title": "EN: Why It Matters\n中文：为什么重要",
+        "items": [
+          "EN: The lesson from CRM, DELL and SNOW is that price action and entry quality matter as much as the story.\n中文：CRM、DELL、SNOW的教训是：价格行为和进场质量与故事本身同样重要。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "WSJ - U.S. tech futures down, oil up on Hormuz attacks",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/finance/stocks/u-s-tech-futures-down-oil-prices-rise-on-ship-attacks-near-hormuz-587c9bb9"
+      },
+      {
+        "label": "WSJ - U.S. stocks rose Monday on AI strength",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-investors-brace-for-busy-week-of-ai-stocks-664c036b"
+      },
+      {
+        "label": "Investor's Business Daily - Monday AI/semiconductor movers and Tuesday futures",
+        "confidence": "Market data",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-astera-bloom-nvidia-tesla/"
+      },
+      {
+        "label": "Kiplinger - July 6-10 earnings calendar",
+        "confidence": "Calendar",
+        "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      },
+      {
+        "label": "MarketWatch / Investopedia - Micron margin and AI memory context",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investopedia.com/micron-earnings-q3-fy2026-memory-stock-soars-ai-demand-12006096"
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-06-28 08:00 GMT+8",

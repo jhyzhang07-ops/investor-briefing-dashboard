@@ -1,5 +1,376 @@
 window.A_SHARE_BRIEFINGS = [
   {
+    "date": "2026-07-07",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-07 20:20 GMT+8",
+    "title": "EN: A-share Market Brief - 2026-07-07\n中文：A股市场简报 - 2026-07-07",
+    "tone": "EN: Today should be treated as a selective, liquidity-confirmed market, not a broad chase market. For your current style, the best utility is below-50 RMB stocks with 10-day catalysts, clean volume, and T+1-safe entries.\n中文：今天更适合作为“精选个股、成交量确认”的市场，而不是全面追涨。按照你现在的小资金策略，最有用的是50元以下、10天左右有催化、成交量健康、且T+1下不容易隔日被套的票。",
+    "priorities": [
+      "EN: Do not buy only because a theme is hot; require price below/near your plan, sector confirmation, and volume above the recent average.\n中文：不要因为题材热就买；必须同时满足价格接近计划、板块确认、成交量高于近期均值。",
+      "EN: Prefer environmental services, power equipment, data-center cooling/power, brokerage beta, and semiconductor ETFs only after confirmation.\n中文：优先观察环保治理、电力设备、数据中心散热/电源、券商beta、半导体ETF，但都必须等确认。",
+      "EN: A-share T+1 means failed entries cannot be fixed intraday; avoid opening-minute chasing and use 10:00-10:30 confirmation.\n中文：A股T+1意味着买错后当天不能卖出修正；不要开盘前几分钟追高，尽量等10:00-10:30确认。",
+      "EN: For below-50 RMB stocks, liquidity and turnover quality matter more than the story; avoid names with one-candle spikes and no follow-through.\n中文：对50元以下股票，流动性和换手质量比故事更重要；避免只有一根脉冲K线、没有延续的票。",
+      "EN: Keep large caps as market-temperature references; they are not the main recommendation list unless the market turns defensive.\n中文：大盘股只作为市场温度参考；除非市场转防守，否则不是今天的主推荐。"
+    ],
+    "summary": [
+      "EN: The rebuilt A-share list is now aligned with your strategy: below-50 RMB conditional entries, mid-term 5-10 trading-day horizon, and T+1 risk control.\n中文：本次重做后的A股清单按你的策略重新对齐：50元以下条件型入场、5-10个交易日中短线视角、并加入T+1风控。",
+      "EN: The most useful setup is not the strongest headline stock, but the stock that can hold VWAP/5-day average with rising volume after the first hour.\n中文：最有用的不是headline最强的票，而是开盘一小时后能守住VWAP/5日线并且成交量放大的票。",
+      "EN: Fundamental checks focus on revenue visibility, industry policy support, margin pressure, balance-sheet stress, and whether the company has a real order/capex cycle.\n中文：基本面检查重点看收入可见度、产业政策支持、利润率压力、资产负债表压力，以及公司是否真的处在订单/资本开支周期里。",
+      "EN: Technical checks focus on 5-day/10-day trend, previous resistance, gap risk, turnover expansion, and whether the stock can avoid a T+1 trap.\n中文：技术面检查重点看5日/10日趋势、前高压力、跳空风险、换手放大、以及是否能避免T+1陷阱。",
+      "EN: ETF recommendations are placed after individual stocks because your current edge depends more on stock selection than passive sector exposure.\n中文：ETF推荐放在个股之后，因为你现在的收益边际更多来自选股，而不是被动板块暴露。"
+    ],
+    "marketPulse": {
+      "上证指数 / SSE Composite": {
+        "value": "EN: Use as market-temperature reference, not a trade by itself.\n中文：作为市场温度参考，不直接当交易标的。",
+        "note": "EN: If the index is flat but chosen sectors show rising turnover, selective trades remain valid.\n中文：若指数平淡但目标板块换手放大，精选个股仍可做。"
+      },
+      "创业板 / ChiNext": {
+        "value": "EN: Watch for growth-stock breadth and risk appetite.\n中文：观察成长股广度和风险偏好。",
+        "note": "EN: Your small-cap strategy needs ChiNext/RMB liquidity confirmation.\n中文：你的小盘策略需要创业板和人民币流动性确认。"
+      },
+      "北向/成交额 / Flows and turnover": {
+        "value": "EN: Confirm with total market turnover and northbound-style flow proxies before sizing.\n中文：加仓前用全市场成交额和资金流代理确认。",
+        "note": "EN: Low turnover means reduce position even if the story looks attractive.\n中文：低成交额环境下，即使故事好也要降仓位。"
+      },
+      "T+1 risk": {
+        "value": "EN: No same-day exit after buying.\n中文：买入后当天不能卖出。",
+        "note": "EN: This is why entries should wait for 10:00-10:30 confirmation, not opening impulse.\n中文：所以入场应等10:00-10:30确认，不追开盘冲动。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: environmental services, power equipment, and AI data-center support names hold 5-day lines with rising volume; use 5-10 day swing entries.\n中文：偏强情景：环保治理、电力设备、AI数据中心配套股放量守住5日线；可用5-10天波段策略。",
+      "EN: Base case: index remains mixed, but individual low-price stocks rotate; buy only pullbacks or confirmed breakouts.\n中文：基准情景：指数分化，但低价个股轮动；只买回踩确认或有效突破。",
+      "EN: Bear case: turnover shrinks and high-beta themes fade after open; reduce small-cap exposure and wait for next day.\n中文：偏弱情景：成交额萎缩，高beta题材开盘后回落；降低小盘仓位，等下一天。",
+      "EN: ETF case: if stock selection feels unclear, use CSI 300/brokerage/chip ETFs with smaller risk rather than forcing single names.\n中文：ETF情景：如果个股不清晰，用沪深300/券商/芯片ETF降低风险，不强行买个股。",
+      "EN: Risk-control case: any name that gaps up over 5% and fails to hold the first pullback should be skipped because T+1 makes the downside hard to manage.\n中文：风控情景：任何高开超过5%且第一次回踩守不住的票都跳过，因为T+1下下行很难处理。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "300854.SZ",
+        "chineseName": "中兰环保",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Best fit for your preferred style only if price stays below/near 50 RMB, holds 5-day trend, and volume expands after 10:00.\n中文：只有价格仍在50元以下/附近、守住5日趋势、10点后成交量放大时，才最符合你的风格。",
+        "reason": "EN: Environmental governance theme plus smaller-cap swing profile.\n中文：环保治理主题叠加中小盘波段属性。",
+        "convictionScore": 4,
+        "timeframe": "5-10 trading days"
+      },
+      "bestShort": {
+        "ticker": "600941.SH",
+        "chineseName": "中国移动",
+        "direction": "short/avoid",
+        "riskLevel": "green",
+        "setup": "EN: Not a true short call; it is an avoid for your strategy because upside beta is limited unless the market turns defensive.\n中文：这不是真正做空建议，而是对你策略的回避项；除非市场转防守，否则弹性有限。",
+        "reason": "EN: Mega-cap defensive profile does not match small-cap capital-growth objective.\n中文：大盘防御属性不匹配你的小资金增长目标。",
+        "convictionScore": 3,
+        "timeframe": "watch-only"
+      },
+      "bestEtf": {
+        "ticker": "512000.SH",
+        "chineseName": "券商ETF",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Use only if market turnover expands and brokerage names lead, otherwise wait.\n中文：只有全市场成交额放大且券商领涨时使用，否则等待。",
+        "reason": "EN: Brokerage ETF gives beta when market activity improves.\n中文：券商ETF在市场活跃度改善时提供beta。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "300490.SZ",
+        "chineseName": "华自科技",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Speculative only; needs volume breakout and strict next-day invalidation because T+1 risk is high.\n中文：仅投机观察；必须放量突破，并设置次日严格失效，因为T+1风险高。",
+        "reason": "EN: Power/energy-storage theme can move fast but fundamentals are less stable.\n中文：电力/储能题材弹性大，但基本面稳定性较弱。",
+        "convictionScore": 2,
+        "timeframe": "2-5 trading days"
+      },
+      "avoidWait": {
+        "ticker": "688981.SH",
+        "chineseName": "中芯国际",
+        "direction": "wait",
+        "riskLevel": "yellow",
+        "setup": "EN: Important semiconductor benchmark, but not ideal below-50 small-cap style; use ETF instead if chip breadth improves.\n中文：这是半导体重要温度计，但不适合50元以下小盘策略；若芯片广度改善，用ETF更合适。",
+        "reason": "EN: Benchmark role is useful, trade utility is lower for your capital size.\n中文：作为板块温度计有用，但对你的小资金交易实用性较低。",
+        "convictionScore": 3,
+        "timeframe": "watch-only"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-07-07 to 2026-07-11",
+        "event": "EN: A-share first-half earnings pre-announcement window\n中文：A股半年报预告窗口",
+        "watch": "EN: Prefer names with order visibility and positive guidance; avoid weak balance-sheet stories.\n中文：优先有订单可见度和正向预告的公司；回避资产负债表弱的故事票。",
+        "relatedTickers": "300854.SZ, 002335.SZ, 300693.SZ"
+      },
+      {
+        "date": "2026-07-07",
+        "event": "EN: Liquidity and turnover confirmation day\n中文：成交额与换手确认日",
+        "watch": "EN: Do not size up unless total turnover and sector volume improve after the first hour.\n中文：若全市场成交额和板块成交量在首小时后没有改善，不要加仓。",
+        "relatedTickers": "512000.SH, 510300.SH"
+      },
+      {
+        "date": "This week",
+        "event": "EN: AI/data-center power and cooling theme tracking\n中文：AI数据中心电力与散热主题跟踪",
+        "watch": "EN: Watch whether power-supply/cooling names show real volume, not just concept tags.\n中文：观察电源/散热股是否有真实成交量，而不是只有概念标签。",
+        "relatedTickers": "002335.SZ, 301018.SZ, 002837.SZ"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-07-07",
+        "ticker": "600941.SH",
+        "chineseName": "中国移动",
+        "status": "style mismatch",
+        "result": "EN: Large defensive names may be stable but do not fit the user's requested small-cap/medium-swing utility.\n中文：大盘防御股可能稳定，但不符合用户要求的小盘/中期波段实用性。",
+        "lesson": "EN: Keep mega-caps as benchmarks unless the market turns defensive.\n中文：除非市场转防守，否则大盘股只作为温度计。"
+      },
+      {
+        "date": "2026-07-07",
+        "ticker": "300854.SZ",
+        "chineseName": "中兰环保",
+        "status": "strategy fit",
+        "result": "EN: Matches the user's stated preference better than large caps if volume confirms.\n中文：若成交量确认，比大盘股更符合用户偏好的低价中短线风格。",
+        "lesson": "EN: Recommendation quality improves when screened by price, liquidity, holding period, and T+1 risk.\n中文：用价格、流动性、持仓周期、T+1风险筛选后，推荐质量会更贴近实际交易。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: Environmental Services / Water Treatment\n中文：环保治理 / 污水处理",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Policy-supported theme with smaller-cap swing potential.\n中文：政策支持主题，具备中小盘波段潜力。",
+        "watch": "EN: Confirm by sector breadth and whether 300854.SZ holds trend.\n中文：用板块广度和300854.SZ是否守趋势确认。",
+        "risk": "EN: Project-based revenue can be lumpy; avoid illiquid spikes.\n中文：项目制收入波动较大，避免低流动性脉冲。"
+      },
+      {
+        "name": "EN: Data-center Power / Cooling\n中文：数据中心电源 / 散热",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: AI capex theme is still the strongest cross-market narrative.\n中文：AI资本开支仍是跨市场最强主线。",
+        "watch": "EN: Look for volume in power/cooling names, not just chip headlines.\n中文：关注电源/散热标的成交量，而不只是芯片headline。",
+        "risk": "EN: Valuation can move faster than fundamentals.\n中文：估值可能跑得比基本面更快。"
+      },
+      {
+        "name": "EN: Power Equipment / Energy Storage\n中文：电力设备 / 储能",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Grid investment and storage demand can support 5-10 day swings.\n中文：电网投资和储能需求可支撑5-10天波段。",
+        "watch": "EN: Require improving orders, margin stability, and volume.\n中文：需要订单改善、毛利稳定和成交量确认。",
+        "risk": "EN: Sector is crowded and policy-sensitive.\n中文：板块拥挤且政策敏感。"
+      },
+      {
+        "name": "EN: Brokerage / Market Activity Beta\n中文：券商 / 市场活跃度beta",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Better only if market turnover expands.\n中文：只有全市场成交额放大时更好。",
+        "watch": "EN: Use 512000.SH rather than forcing a single broker.\n中文：优先用512000.SH，不强行选单一券商。",
+        "risk": "EN: If turnover fades, brokerage beta fades quickly.\n中文：成交额回落时，券商beta很快消失。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "300854.SZ",
+        "chineseName": "中兰环保",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Watch only below/near 50 RMB after 10:00 if price holds the 5-day line or reclaims VWAP with rising volume.\n中文：只在50元以下/附近，且10点后守住5日线或放量收复VWAP时观察。",
+        "suggestedProfitTake": "EN: Take partial profit around 6%-10% swing gain, or trail below the 5-day line.\n中文：波段上涨6%-10%先分批止盈，或跌破5日线移动止盈。",
+        "type": "EN: environmental services / small-cap swing\n中文：环保治理 / 中小盘波段",
+        "catalyst": "EN: Environmental governance theme plus user-preferred low-price swing style.\n中文：环保治理主题叠加用户偏好的低价波段风格。",
+        "why": "EN Fundamentals / 中文基本面: Environmental-project companies can benefit from policy and local-government investment, but revenue recognition and receivables must be watched.\nEN Technicals / 中文技术面: Best only if it holds 5-day/10-day trend and avoids a failed morning spike.\nEN Volume/Liquidity / 中文成交量/流动性: Need turnover expansion after 10:00; thin volume makes T+1 risk unacceptable.",
+        "risk": "EN: Invalidated if it spikes at the open then loses VWAP/5-day line before close.\n中文：若开盘冲高后跌破VWAP/5日线，逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "5-10 trading days",
+        "recentPerformance": "EN: Treat as watchlist stock; buy only on confirmed volume, not because it is familiar.\n中文：作为观察票处理；只在成交量确认后买，不因为熟悉就买。",
+        "setupStatus": "watch"
+      },
+      {
+        "ticker": "002335.SZ",
+        "chineseName": "科华数据",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Consider only if quoted price is below 50 RMB and it reclaims/holds the 5-day average on above-average turnover.\n中文：仅在实时价格低于50元且放量守住/收复5日均线时考虑。",
+        "suggestedProfitTake": "EN: Scale out into 5%-9% move or before failed retest of prior resistance.\n中文：上涨5%-9%分批止盈，或前高压力回踩失败前止盈。",
+        "type": "EN: data-center power / energy infrastructure\n中文：数据中心电源 / 能源基础设施",
+        "catalyst": "EN: AI data-center power demand and power-infrastructure theme.\n中文：AI数据中心电力需求和电源基础设施主题。",
+        "why": "EN Fundamentals / 中文基本面: Data-center power and energy infrastructure are real capex areas, but margins and order quality need confirmation in filings.\nEN Technicals / 中文技术面: Entry is valid only if price builds above short moving averages instead of one-day theme chasing.\nEN Volume/Liquidity / 中文成交量/流动性: Require turnover expansion; avoid if volume dries up after a gap.",
+        "risk": "EN: Invalidated if AI-power theme weakens or price closes below 10-day trend.\n中文：若AI电力主题走弱或收盘跌破10日趋势，则失效。",
+        "convictionScore": 3,
+        "timeframe": "5-10 trading days",
+        "recentPerformance": "EN: Use as conditional AI-infrastructure China proxy.\n中文：作为A股AI基础设施条件型代理观察。",
+        "setupStatus": "conditional"
+      },
+      {
+        "ticker": "300693.SZ",
+        "chineseName": "盛弘股份",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Watch only if below 50 RMB and power-equipment breadth is positive after the first hour.\n中文：仅在低于50元且首小时后电力设备板块广度为正时观察。",
+        "suggestedProfitTake": "EN: Take partials into 6%-10% gain; protect if it loses 5-day line.\n中文：上涨6%-10%分批止盈；跌破5日线保护。",
+        "type": "EN: energy storage / power electronics\n中文：储能 / 电力电子",
+        "catalyst": "EN: Storage, charging, and grid-equipment themes remain active when risk appetite improves.\n中文：风险偏好改善时，储能、充电和电网设备主题仍活跃。",
+        "why": "EN Fundamentals / 中文基本面: Power-electronics exposure can benefit from grid/storage demand, but earnings sensitivity to competition must be checked.\nEN Technicals / 中文技术面: Better after controlled pullback or 5-day-line support, not after vertical open.\nEN Volume/Liquidity / 中文成交量/流动性: Needs rising volume and healthy turnover; avoid narrow-liquidity spikes.",
+        "risk": "EN: Invalidated by failed sector breadth or close below short-term support.\n中文：板块广度失败或收盘跌破短期支撑则失效。",
+        "convictionScore": 3,
+        "timeframe": "5-10 trading days",
+        "recentPerformance": "EN: Conditional swing candidate in energy-storage theme.\n中文：储能主题中的条件型波段候选。",
+        "setupStatus": "conditional"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "301018.SZ",
+        "chineseName": "申菱环境",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Watch only if below 50 RMB and data-center cooling names show sector-wide relative strength.\n中文：仅在低于50元且数据中心散热股出现板块相对强势时观察。",
+        "suggestedProfitTake": "EN: Take partials into 8%-12% spike because theme trades can reverse quickly.\n中文：主题票上涨8%-12%要分批止盈，因为反转很快。",
+        "type": "EN: data-center cooling / small-cap AI infrastructure\n中文：数据中心散热 / 小盘AI基础设施",
+        "catalyst": "EN: AI servers increase cooling/power-density demand.\n中文：AI服务器提升散热和功率密度需求。",
+        "why": "EN Fundamentals / 中文基本面: Cooling demand is structurally tied to AI data centers, but company-level order proof matters.\nEN Technicals / 中文技术面: Needs breakout with follow-through or pullback support; no opening chase.\nEN Volume/Liquidity / 中文成交量/流动性: Smaller-cap liquidity requires above-average turnover and manageable spreads.",
+        "risk": "EN: Invalidated if sector volume fades before close; T+1 makes late fade dangerous.\n中文：若收盘前板块成交量回落则失效；T+1下尾盘回落很危险。",
+        "convictionScore": 2,
+        "timeframe": "2-7 trading days",
+        "recentPerformance": "EN: Use as higher-risk AI-infrastructure watch, not core holding.\n中文：作为较高风险AI基础设施观察票，不是核心仓位。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "002837.SZ",
+        "chineseName": "英维克",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only if real-time price is below/near 50 RMB and it holds first-hour support with volume.\n中文：只有实时价格低于/接近50元，并且首小时放量守支撑时观察。",
+        "suggestedProfitTake": "EN: Take partials into 6%-10% move; do not hold if price loses VWAP after a gap.\n中文：上涨6%-10%分批止盈；若跳空后跌破VWAP不持有。",
+        "type": "EN: thermal management / data-center cooling\n中文：热管理 / 数据中心散热",
+        "catalyst": "EN: AI data-center cooling demand and domestic substitution theme.\n中文：AI数据中心散热需求和国产替代主题。",
+        "why": "EN Fundamentals / 中文基本面: Thermal management has a clear AI-server link, but valuation can already price in optimism.\nEN Technicals / 中文技术面: Entry is only useful after support confirmation because theme names often gap and fade.\nEN Volume/Liquidity / 中文成交量/流动性: Needs sustained turnover; if volume is front-loaded only at open, skip.",
+        "risk": "EN: Invalidated if AI-cooling peers fail or it cannot hold first-hour low.\n中文：若AI散热同类走弱或跌破首小时低点，则失效。",
+        "convictionScore": 2,
+        "timeframe": "2-7 trading days",
+        "recentPerformance": "EN: High-beta theme candidate; requires live-price confirmation.\n中文：高beta主题候选；必须实时价格确认。",
+        "setupStatus": "watch"
+      },
+      {
+        "ticker": "300490.SZ",
+        "chineseName": "华自科技",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Speculative only after breakout volume; position size should be smaller than 300854.SZ.\n中文：仅在放量突破后投机观察；仓位应小于300854.SZ。",
+        "suggestedProfitTake": "EN: Take quick profit into 8%-12% move, or exit if next-day continuation fails.\n中文：上涨8%-12%快速止盈，或次日延续失败退出。",
+        "type": "EN: power automation / energy-storage speculation\n中文：电力自动化 / 储能投机",
+        "catalyst": "EN: Power-system automation and storage themes can rotate quickly.\n中文：电力系统自动化和储能题材容易快速轮动。",
+        "why": "EN Fundamentals / 中文基本面: Theme exposure exists, but financial quality is less certain than larger leaders.\nEN Technicals / 中文技术面: Needs volume breakout; otherwise it is a low-quality chase.\nEN Volume/Liquidity / 中文成交量/流动性: Must have strong relative volume; smaller liquidity increases slippage and T+1 risk.",
+        "risk": "EN: Invalidated by failed breakout or weak close.\n中文：突破失败或收盘弱势则失效。",
+        "convictionScore": 2,
+        "timeframe": "2-5 trading days",
+        "recentPerformance": "EN: Highest-risk tactical watch only.\n中文：仅最高风险战术观察。",
+        "setupStatus": "early"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "510300.SH",
+        "chineseName": "沪深300ETF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Use only when index breadth is positive and individual-stock setups are unclear.\n中文：只有指数广度为正且个股不清晰时使用。",
+        "suggestedProfitTake": "EN: Take 2%-4% swing profit or use as defensive allocation.\n中文：2%-4%波段收益可止盈，或作为防守配置。",
+        "type": "EN: broad-market ETF\n中文：宽基ETF",
+        "catalyst": "EN: Market stabilization and lower single-stock risk.\n中文：市场稳定和降低个股风险。",
+        "why": "EN Fundamentals / 中文基本面: ETF fundamentals reflect broad CSI 300 earnings quality, not single-company risk.\nEN Technicals / 中文技术面: Best when index holds short moving averages and breadth improves.\nEN Volume/Liquidity / 中文成交量/流动性: High liquidity and lower slippage than single small caps.",
+        "risk": "EN: Lower upside; not ideal if the goal is high return from small capital.\n中文：弹性较低；若目标是小资金高收益，效率不高。",
+        "convictionScore": 3,
+        "timeframe": "swing/defensive",
+        "recentPerformance": "EN: Use as benchmark and fallback.\n中文：作为基准和备用方案。",
+        "setupStatus": "fallback"
+      },
+      {
+        "ticker": "512000.SH",
+        "chineseName": "券商ETF",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Buy only when full-market turnover expands and brokerage sector leads after first hour.\n中文：只有全市场成交额放大且券商板块首小时后领涨时观察。",
+        "suggestedProfitTake": "EN: Take 4%-7% swing profit because brokerage beta can reverse with turnover.\n中文：上涨4%-7%分批止盈，因为券商beta会随成交额变化反转。",
+        "type": "EN: brokerage sector ETF\n中文：券商行业ETF",
+        "catalyst": "EN: Higher market activity and risk appetite.\n中文：市场活跃度和风险偏好提升。",
+        "why": "EN Fundamentals / 中文基本面: Brokerage earnings benefit from turnover and capital-market activity.\nEN Technicals / 中文技术面: Needs sector leadership and index confirmation.\nEN Volume/Liquidity / 中文成交量/流动性: ETF liquidity is acceptable; signal quality depends on market-wide turnover.",
+        "risk": "EN: Invalidated if turnover fades or index breadth weakens.\n中文：若成交额回落或指数广度走弱，则失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Tactical beta tool, not long-term core.\n中文：战术beta工具，不是长期核心。",
+        "setupStatus": "conditional"
+      },
+      {
+        "ticker": "159995.SZ",
+        "chineseName": "芯片ETF",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Use only if semiconductor breadth improves and 688981.SH stops acting as drag.\n中文：只有半导体广度改善且688981.SH不再拖累时观察。",
+        "suggestedProfitTake": "EN: Take 5%-8% swing gains; chip ETFs are volatile.\n中文：上涨5%-8%分批止盈；芯片ETF波动较大。",
+        "type": "EN: semiconductor ETF\n中文：半导体ETF",
+        "catalyst": "EN: AI hardware and domestic substitution theme.\n中文：AI硬件和国产替代主题。",
+        "why": "EN Fundamentals / 中文基本面: Sector has policy and AI demand support, but valuation and cycle risk remain high.\nEN Technicals / 中文技术面: Requires sector breadth and volume confirmation; avoid if only one leader moves.\nEN Volume/Liquidity / 中文成交量/流动性: ETF liquidity is better than many chip small caps, but sector volatility remains high.",
+        "risk": "EN: Invalidated if chip leaders fail or market risk appetite fades.\n中文：若芯片龙头失败或市场风险偏好下降，则失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Higher-risk theme ETF.\n中文：较高风险主题ETF。",
+        "setupStatus": "watch"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: How To Use Today's A-share List\n中文：今天A股清单怎么用",
+        "items": [
+          "EN: Step 1: check whether the stock is below/near 50 RMB and whether the sector is active after 10:00.\n中文：第一步：确认股票是否低于/接近50元，并且10点后板块仍活跃。",
+          "EN: Step 2: require volume expansion and no failed gap; T+1 makes bad entries expensive.\n中文：第二步：要求成交量放大且没有高开回落；T+1会让错误入场代价更高。",
+          "EN: Step 3: if the single-stock setup is unclear, use ETF or skip.\n中文：第三步：如果个股结构不清晰，用ETF或直接跳过。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Checklist\n中文：基本面检查清单",
+        "items": [
+          "EN: Look for order visibility, cash-flow quality, receivables risk, margin trend, and whether the theme is supported by real capex.\n中文：看订单可见度、现金流质量、应收账款风险、毛利率趋势，以及题材是否有真实资本开支支撑。",
+          "EN: Avoid companies where the story is strong but balance-sheet stress or revenue recognition is unclear.\n中文：回避故事很强但资产负债表压力或收入确认不清晰的公司。"
+        ]
+      },
+      {
+        "title": "EN: Technical And Volume Checklist\n中文：技术面与成交量检查",
+        "items": [
+          "EN: Best setup: 5-day line support, rising turnover, and first pullback holding above VWAP.\n中文：最佳结构：5日线支撑、成交额放大、第一次回踩守住VWAP。",
+          "EN: Worst setup: opening gap, one-candle spike, then volume disappears.\n中文：最差结构：开盘跳空、一根脉冲K线、随后成交量消失。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Shanghai Stock Exchange market information",
+        "url": "https://english.sse.com.cn/markets/equities/overview/",
+        "note": "EN: Official exchange reference for market structure and listed equities.\n中文：上交所官方市场结构与上市股票参考。"
+      },
+      {
+        "name": "Shenzhen Stock Exchange market data",
+        "url": "https://www.szse.cn/English/siteMarketData/siteMarketDatas/index.html",
+        "note": "EN: Official SZSE market-data reference.\n中文：深交所官方市场数据参考。"
+      },
+      {
+        "name": "CNINFO company disclosure platform",
+        "url": "https://www.cninfo.com.cn/",
+        "note": "EN: Company filings and announcements should be checked before buying.\n中文：买入前应查看公司公告和财报披露。"
+      },
+      {
+        "name": "People's Bank of China",
+        "url": "http://www.pbc.gov.cn/en/",
+        "note": "EN: Monetary and liquidity policy reference.\n中文：货币与流动性政策参考。"
+      },
+      {
+        "name": "National Bureau of Statistics of China",
+        "url": "https://www.stats.gov.cn/english/",
+        "note": "EN: Macro data reference.\n中文：宏观数据参考。"
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-06-28 08:00 GMT+8",
