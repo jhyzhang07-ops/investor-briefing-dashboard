@@ -1,5 +1,727 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-07-08",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-08 12:45 GMT+8",
+    "title": "EN: U.S. Market Brief - 2026-07-08\n中文：美股市场简报 - 2026-07-08",
+    "tone": "EN: Tuesday, July 7 U.S. trading shifted from yesterday's AI-led strength into a real semiconductor and leveraged-tech unwind, while oil, yields, and defensive healthcare firmed. For the Wednesday, July 8 U.S. session later tonight Beijing time, the base case is choppy two-way trade until the Fed minutes, so entry timing and breadth matter more than story stocks.\n中文：北京时间今晚对应的美股周三（2026-07-08）交易，核心环境已经从昨日AI领涨切换为真正的半导体与杠杆科技回撤，同时油价、收益率和防御型医疗走强。基准情景是Fed纪要前的双向震荡，因此入场时机和市场宽度比“讲故事”更重要。",
+    "priorities": [
+      "EN: Start with market regime and liquidity: Tuesday's S&P 500 fell 0.4% to 7,503.85 and Nasdaq fell 1.2% to 25,818.69, but most S&P stocks still rose, so this is concentrated AI damage rather than a full liquidation. Wait for the first 30-60 minutes before treating any premarket move as real.\n中文：先看市场状态和流动性：周二标普500跌0.4%至7,503.85，纳指跌1.2%至25,818.69，但标普多数成分股仍上涨，说明更像AI集中杀估值，而不是全面抛售。任何盘前波动都要等开盘后30-60分钟再确认。",
+      "EN: Breadth and confirmation come before tickers. If QQQ and SMH cannot reclaim VWAP and IWM lags again, reduce beta first and do not average down high-beta names.\n中文：市场宽度和确认优先于个股。如果QQQ和SMH无法收复VWAP，且IWM再次落后，先降beta，不要对高beta个股越跌越买。",
+      "EN: Oil and yields are competing with AI for leadership after the U.S. revoked a waiver tied to Iranian oil sales and the 10-year Treasury yield climbed to 4.54%. XLE and defensive healthcare are cleaner than blind semiconductor chasing if those forces persist.\n中文：在美国撤销与伊朗石油销售相关的豁免、10年期美债收益率升至4.54%后，油价和利率正在和AI争夺主线。如果这两个力量持续，XLE和防御型医疗会比盲目追半导体更干净。",
+      "EN: Fed minutes are the main catalyst for tonight. Do not oversize options or SOXL before the release because IV crush, spread widening, and first-hour reversals can hurt even when the directional idea is roughly right.\n中文：今晚最重要的催化是Fed纪要。在结果出来前，不要把期权或SOXL仓位做太大，因为即便方向大致对，IV回落、价差扩大和首小时反转也会伤人。",
+      "EN: For small capital, only use small/mid-cap ideas with a real catalyst and acceptable liquidity. PENG, LINC, EZPW and IREN are actionable only with opening-range confirmation, relative volume, and a hard invalidation level.\n中文：对小资金来说，只做有真实催化且流动性可接受的小/中盘。PENG、LINC、EZPW、IREN都只能在开盘区间确认、相对成交量到位、且失效位明确时考虑。"
+    ],
+    "summary": [
+      "EN: Tuesday, July 7 U.S. indexes closed mixed-to-weaker: Dow -0.2% to 52,925.15, S&P 500 -0.4% to 7,503.85, Nasdaq -1.2% to 25,818.69, and Russell 2000 -0.9% to 2,982.49.\n中文：美股周二（7月7日）收盘偏弱：道指跌0.2%至52,925.15，标普500跌0.4%至7,503.85，纳指跌1.2%至25,818.69，罗素2000跌0.9%至2,982.49。",
+      "EN: The selloff was concentrated in semiconductors and AI-beta rather than the whole market. Nvidia still closed up 0.71%, but Micron fell 4.71%, Astera Labs fell 11.52%, IREN fell 9.33%, and SOXL dropped 15.09%.\n中文：下跌主要集中在半导体和AI高beta，而不是全市场一起崩。Nvidia仍上涨0.71%，但Micron跌4.71%，Astera Labs跌11.52%，IREN跌9.33%，SOXL更是下跌15.09%。",
+      "EN: Oil and rates mattered. WTI settled at $72.27, the 10-year Treasury yield rose to 4.54%, TLT fell 1.05%, and XLE gained 2.84%, so the session rewarded hedges and punished long-duration growth.\n中文：油价和利率成为关键变量。WTI收于$72.27，10年期美债收益率升至4.54%，TLT跌1.05%，XLE涨2.84%，说明市场在奖励对冲、惩罚高久期成长。",
+      "EN: Overnight after-hours action is cautious rather than decisive: QQQ was $707.08, down 0.33%; SMH was $575.88, down 0.96%; XLE was $54.95, up 0.57%. Treat that as an overnight read, not a substitute for the later U.S. premarket.\n中文：收盘后的隔夜读数偏谨慎，但还不算决定性：QQQ报$707.08、跌0.33%；SMH报$575.88、跌0.96%；XLE报$54.95、涨0.57%。这只能视为隔夜温度计，不能替代稍后真正的美股盘前确认。",
+      "EN: Safer liquid exposure sits in LLY, XLV and XLE. The speculative lane is still tradable, but only through trigger-based entries in PENG, LINC, EZPW or IREN rather than blind dip-buying.\n中文：更稳健的流动性选择在LLY、XLV和XLE。高波动路线仍可交易，但必须通过PENG、LINC、EZPW、IREN这类触发式入场，而不是盲目抄底。",
+      "EN: This briefing is scenario analysis and market-risk framing, not personalized financial advice. Respect T+0 mechanics, cash-account/PDT constraints, overnight gap risk, premarket unreliability, and IV crush risk before using options.\n中文：本简报是情景分析与市场风险框架，不是个性化投资建议。使用期权前必须尊重T+0机制、现金账户/PDT限制、隔夜跳空风险、盘前不可靠性和IV回落风险。"
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "EN: Tuesday close -0.4% to 7,503.85\n中文：周二收盘跌0.4%至7,503.85",
+        "note": "EN: Index damage was moderate, but the weakness came from the AI-heavy leadership layer rather than broad liquidation.\n中文：指数受损中等，但压力主要来自AI权重层，而非全市场普跌。"
+      },
+      "Nasdaq": {
+        "value": "EN: Tuesday close -1.2% to 25,818.69\n中文：周二收盘跌1.2%至25,818.69",
+        "note": "EN: Treat the Nasdaq as the main risk barometer for tonight because it absorbed the semiconductor and duration-sensitive selling.\n中文：今晚要把纳指作为主要风险温度计，因为半导体和高久期成长的卖压都集中在这里。"
+      },
+      "Dow": {
+        "value": "EN: Tuesday close -0.2% to 52,925.15\n中文：周二收盘跌0.2%至52,925.15",
+        "note": "EN: The Dow held up better than tech, which reinforces the rotation into old-economy and defensive exposure.\n中文：道指明显强于科技，进一步说明资金在向传统经济和防御方向轮动。"
+      },
+      "Russell 2000": {
+        "value": "EN: Tuesday close -0.9% to 2,982.49\n中文：周二收盘跌0.9%至2,982.49",
+        "note": "EN: For this user's style, IWM is the cleanest breadth check; if it cannot improve after the open, high-beta longs become lower quality.\n中文：对这位用户的风格来说，IWM是最干净的宽度确认指标；若开盘后仍无改善，高beta做多质量就会下降。"
+      },
+      "Breadth": {
+        "value": "EN: Most S&P 500 stocks rose even though the index fell\n中文：尽管标普下跌，但多数成分股实际在上涨",
+        "note": "EN: That means the tape was narrow and leadership-driven, so single-index weakness alone does not equal a full risk-off washout.\n中文：这意味着盘面是窄幅、由龙头拖累驱动的，因此单看指数下跌并不等于彻底风险关闭。"
+      },
+      "Treasury Yields": {
+        "value": "EN: U.S. 10-year yield rose 7 basis points to 4.54%\n中文：美国10年期收益率上升7个基点至4.54%",
+        "note": "EN: Higher yields are a direct headwind for semis, software duration, and leveraged tech; watch TLT and rate-sensitive growth after the Fed minutes.\n中文：更高的收益率会直接压制半导体、软件久期和杠杆科技；Fed纪要后重点看TLT和利率敏感成长。"
+      },
+      "Oil / Commodities": {
+        "value": "EN: WTI settled at $72.27, up $1.82 or 2.60%; gold fell 0.5%\n中文：WTI收于$72.27，上涨$1.82或2.60%；黄金下跌0.5%",
+        "note": "EN: Energy is acting as a geopolitical hedge, while gold's slip says this is not a clean fear trade across all havens.\n中文：能源正在充当地缘风险对冲，但黄金回落说明这并不是所有避险资产一起走强的纯恐慌交易。"
+      },
+      "FX / Dollar": {
+        "value": "EN: Dollar tone was firmer alongside higher Treasury yields in reviewed market coverage\n中文：在已审阅的市场报道中，美元基调随美债收益率上升而偏强",
+        "note": "EN: A firmer dollar would be another headwind for cyclicals, commodities-ex gold, and long-duration growth if it persists into the cash session.\n中文：如果美元强势延续到正股时段，将继续压制周期股、除黄金外的大宗商品以及高久期成长。"
+      },
+      "Volatility / Options": {
+        "value": "EN: VIX closed at 16.13, up 3.60%; SOXL closed at $10.63, down 15.09%\n中文：VIX收于16.13，上涨3.60%；SOXL收于$10.63，下跌15.09%",
+        "note": "EN: The lesson is not that vol exploded, but that leveraged beta decayed much faster than headline index damage. Options buyers still face IV crush if the market chops after the minutes.\n中文：关键不在于波动率是否爆表，而在于杠杆beta的损耗远快于指数headline的跌幅。若纪要后横盘，期权买方仍要面对IV回落。"
+      },
+      "Futures / Premarket": {
+        "value": "EN: Early overnight read after Tuesday's close: QQQ $707.08 -0.33%, SMH $575.88 -0.96%, XLE $54.95 +0.57%\n中文：周二收盘后的早期隔夜读数：QQQ报$707.08、跌0.33%，SMH报$575.88、跌0.96%，XLE报$54.95、涨0.57%",
+        "note": "EN: At 00:45 ET / 12:45 Beijing time, this is still overnight color rather than a fully formed U.S. premarket. Use later premarket and the regular-session open for confirmation.\n中文：在美东时间00:45 / 北京时间12:45这个时点，这仍只是隔夜颜色，不是完整的美股盘前。真正确认要看稍后的盘前和正股开盘。"
+      },
+      "Credit Indicators": {
+        "value": "EN: HYG closed at $79.76, down 0.14%; TLT closed at $84.55, down 1.05%\n中文：HYG收于$79.76，下跌0.14%；TLT收于$84.55，下跌1.05%",
+        "note": "EN: Credit is softer but not breaking. If HYG stays relatively stable while semis bounce, risk appetite can recover; if both HYG and QQQ weaken together, reduce exposure faster.\n中文：信用并非崩塌，只是转弱。若HYG相对稳定而半导体反弹，风险偏好仍可恢复；若HYG和QQQ一起走弱，就要更快降仓。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: QQQ and SMH reclaim VWAP after the open, Micron stops bleeding, and IWM improves enough to confirm broader risk appetite. In that path, the best longs are NVDA on confirmation, LLY on orderly pullbacks, and PENG/LINC only if volume stays strong.\n中文：偏强情景：QQQ和SMH开盘后收复VWAP，Micron止跌，IWM也改善并确认更广泛的风险偏好。这个路径下，最好的是确认后的NVDA、有序回踩的LLY，以及只有量能持续时才做的PENG/LINC。",
+      "EN: Base case: the market chops around the Fed minutes, semis stay noisy, and energy plus healthcare remain the steadier pockets. That favors smaller size, faster profit-taking, and less overnight exposure.\n中文：基准情景：市场围绕Fed纪要来回震荡，半导体持续噪音较大，能源和医疗维持更稳的相对强势。这种环境更适合轻仓、快止盈、少隔夜。",
+      "EN: Bear case: QQQ fails its first-hour VWAP reclaim, SMH makes a lower low, TLT stays heavy, and HYG also softens. Then the tactical bias shifts to QQQ/TLT/HYG risk controls and away from all dip-buying in AI beta.\n中文：偏弱情景：QQQ首小时无法收复VWAP，SMH再创新低，TLT继续承压，HYG也走软。此时战术重心应转向QQQ/TLT/HYG的风险控制，彻底远离AI高beta抄底。",
+      "EN: Rotation case: oil stays bid, Lilly/healthcare holds up, and semis consolidate rather than rebound cleanly. Then XLE and XLV are the cleaner vehicles while ALAB, SOXL and IREN remain watch-only.\n中文：轮动情景：油价继续强、Lilly/医疗维持韧性，而半导体只是整理并未干净反弹。此时XLE和XLV是更干净的工具，ALAB、SOXL、IREN继续只观察不追。",
+      "EN: Event case: if the Fed minutes push yields or the dollar higher, any upside in semis can fail quickly. Respect the first 30-60 minutes, opening-range breaks, and VWAP retests before adding swing risk.\n中文：事件情景：如果Fed纪要进一步推高收益率或美元，半导体的反弹很容易迅速失败。增加波段风险前，先尊重前30-60分钟、开盘区间突破和VWAP回踩确认。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "LLY",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "EN: Actionable only on a regular-session pullback hold above VWAP or after a tight first-hour range resolves upward; do not chase an extended open near new highs.\n中文：只有在正股交易时段回踩守住VWAP，或首小时窄幅整理后向上突破时才可观察；若高开接近新高，不要追。",
+        "reason": "EN: It is the cleanest liquid relative-strength name in the current rate-up, AI-down tape.\n中文：在当前“利率上行、AI回撤”的盘面里，它是最干净的高流动性相对强势标的。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "QQQ",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "EN: Triggered only if QQQ fails the first 30-60 minute VWAP reclaim and SMH stays weak; avoid forcing the short if breadth and IWM recover.\n中文：只有在QQQ前30-60分钟收复VWAP失败且SMH继续走弱时才触发；若市场宽度和IWM回暖，不要强行做空。",
+        "reason": "EN: It is the cleanest hedge when concentration risk in semis and mega-cap growth drives the tape.\n中文：当半导体和大盘成长股的集中风险主导盘面时，它是最干净的对冲工具。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "EN: Actionable only if crude holds gains into the cash session and XLE keeps a VWAP hold after the open.\n中文：只有原油在正股时段守住涨幅，且XLE开盘后守住VWAP时才可观察。",
+        "reason": "EN: It is the cleaner, lower-beta hedge against Iran/oil headlines and sticky yields.\n中文：它是对冲伊朗/油价headline与收益率黏性上行的更干净、低beta工具。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "PENG",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Watch only if the after-hours earnings move survives into the regular session, holds above the opening range, and prints strong relative volume; otherwise leave it alone.\n中文：只有在财报后的盘后涨幅延续到正股时段、守住开盘区间且相对成交量很强时才观察；否则不要碰。",
+        "reason": "EN: Real catalyst, real liquidity, but post-earnings gap behavior can fail fast.\n中文：催化真实、流动性也够，但财报后跳空走势很容易迅速失败。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Avoid unless SMH clearly stabilizes and the trade is strictly intraday; no blind overnight holding before the Fed minutes.\n中文：除非SMH明显企稳且交易严格限定为日内，否则回避；Fed纪要前绝不盲目隔夜。",
+        "reason": "EN: The 15.09% drop on Tuesday showed how fast leverage decay can outrun the underlying thesis.\n中文：周二15.09%的跌幅已经证明，杠杆损耗可以比底层逻辑变化得更快。",
+        "convictionScore": 1,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-07-08 14:00 ET",
+        "event": "EN: Federal Reserve minutes from the June 16-17, 2026 meeting\n中文：2026年6月16-17日FOMC会议纪要",
+        "watch": "EN: Watch 10-year yields, QQQ, TLT, HYG, and whether semiconductors can absorb a higher-rate interpretation.\n中文：重点看10年期收益率、QQQ、TLT、HYG，以及半导体能否承受更高利率解读。",
+        "relatedTickers": "QQQ, TLT, HYG, NVDA, MU"
+      },
+      {
+        "date": "2026-07-09",
+        "event": "EN: Levi Strauss earnings and U.S. initial jobless claims\n中文：Levi Strauss财报与美国初请失业金",
+        "watch": "EN: Consumer demand, margin control, and whether softening labor data changes rate expectations.\n中文：观察消费需求、利润率控制，以及劳动力数据变化是否影响利率预期。",
+        "relatedTickers": "LEVI, XLY, TLT"
+      },
+      {
+        "date": "2026-07-09 to 2026-07-10",
+        "event": "EN: PepsiCo on Thursday and Delta on Friday\n中文：周四PepsiCo、周五Delta财报",
+        "watch": "EN: Consumer staples pricing, travel demand, and whether higher oil prices squeeze airline expectations.\n中文：关注必选消费定价能力、出行需求，以及更高油价是否压缩航空预期。",
+        "relatedTickers": "PEP, DAL, XLE, XLP, JETS"
+      },
+      {
+        "date": "2026-07-14",
+        "event": "EN: U.S. Consumer Price Index for June 2026\n中文：美国2026年6月CPI",
+        "watch": "EN: CPI is the next major rates catalyst after the Fed minutes; it can reset the whole growth-versus-defensive trade.\n中文：CPI是Fed纪要之后下一个重大利率催化，可能重置成长与防御的相对表现。",
+        "relatedTickers": "QQQ, TLT, XLV, XLE"
+      },
+      {
+        "date": "2026-07-15",
+        "event": "EN: U.S. Producer Price Index for June 2026\n中文：美国2026年6月PPI",
+        "watch": "EN: Watch whether producer inflation confirms or offsets the CPI message for margins, yields, and cyclicals.\n中文：观察生产者通胀是否确认或抵消CPI的信号，从而影响利润率、收益率和周期股。",
+        "relatedTickers": "TLT, XLI, XLE, QQQ"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-07-08",
+        "ticker": "MU",
+        "status": "hit",
+        "result": "EN: Yesterday's wait-for-stabilization call was correct. Micron closed at $938.38, down 4.71%, so aggressive dip-buying would have been punished.\n中文：昨日“先等稳定再说”的判断是对的。Micron收于$938.38，下跌4.71%，激进抄底会被市场惩罚。",
+        "lesson": "EN: Strong fundamentals do not override a crowded, rate-sensitive chart. In semis, respect confirmation over narrative.\n中文：基本面再强，也压不过拥挤且对利率敏感的图形。做半导体时，确认优先于叙事。"
+      },
+      {
+        "date": "2026-07-08",
+        "ticker": "SOXL",
+        "status": "hit",
+        "result": "EN: The warning not to treat SOXL as a passive hold was correct. SOXL closed at $10.63, down 15.09% in one session.\n中文：此前“不要把SOXL当被动持仓”的提醒是对的。SOXL单日收于$10.63，下跌15.09%。",
+        "lesson": "EN: Leveraged ETFs magnify both direction and path risk; when semis are unstable, size must shrink before the thesis changes.\n中文：杠杆ETF会同时放大方向风险和路径风险；半导体一旦不稳定，仓位应该先缩小，再谈逻辑。"
+      },
+      {
+        "date": "2026-07-08",
+        "ticker": "CRM",
+        "status": "miss",
+        "result": "EN: The earlier CRM short idea remains a miss because the stock rallied materially after the bearish framing and never confirmed a durable downside break.\n中文：更早之前CRM的做空思路仍然属于失误，因为该股在偏空判断后明显反弹，且没有确认持续性下破。",
+        "lesson": "EN: A clean short needs both narrative and price confirmation. If the price refuses to break, the thesis is wrong.\n中文：干净的做空必须同时满足叙事和价格确认。若价格就是不破位，那逻辑就是错的。"
+      },
+      {
+        "date": "2026-07-08",
+        "ticker": "NVDA",
+        "status": "open",
+        "result": "EN: Nvidia closed green at $194.66, up 0.71%, even while semis sold off. That relative strength is constructive, but tonight still needs regular-session confirmation after the Fed minutes.\n中文：即使半导体整体走弱，Nvidia仍收于$194.66、上涨0.71%。这种相对强势是积极信号，但今晚仍需要Fed纪要后的正股时段确认。",
+        "lesson": "EN: Relative strength matters, but a single strong close is not enough when sector breadth is deteriorating.\n中文：相对强势很重要，但当板块宽度恶化时，单日强收盘还不足以直接下结论。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: AI Infrastructure / Semiconductors\n中文：AI基础设施 / 半导体",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Tuesday's semiconductor unwind, Fed-minute rate risk, and a still-crowded AI positioning backdrop.\n中文：周二半导体回撤、Fed纪要的利率风险，以及仍然拥挤的AI持仓背景。",
+        "watch": "EN: Watch SMH, MU and ALAB for whether regular-session volume stabilizes and VWAP can be reclaimed after the open.\n中文：重点看SMH、MU、ALAB能否在正股时段靠成交量稳住，并在开盘后收复VWAP。",
+        "risk": "EN: A fast rate reversal or strong post-minutes relief rally can squeeze shorts and punish late bearish entries.\n中文：若利率快速回落，或纪要后出现强力缓解反弹，做空会被逼空，追空也会受伤。"
+      },
+      {
+        "name": "EN: Energy / Geopolitical Hedge\n中文：能源 / 地缘对冲",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: Oil strength after the U.S. revoked a waiver related to Iranian oil sales and after shipping-risk headlines near Hormuz.\n中文：在美国撤销与伊朗石油销售相关的豁免，以及霍尔木兹附近航运风险headline后，油价走强。",
+        "watch": "EN: Watch XLE and crude for a hold above the overnight move; if oil fades hard, the hedge loses quality quickly.\n中文：观察XLE和原油是否能守住隔夜涨幅；若油价急转弱，这个对冲逻辑会迅速降级。",
+        "risk": "EN: Geopolitical hedges can reverse on one headline, so avoid treating them as guaranteed trend trades.\n中文：地缘对冲可能被一条headline快速反转，不要把它当成必然趋势。"
+      },
+      {
+        "name": "EN: Healthcare / GLP-1 / Defensive Growth\n中文：医疗 / GLP-1 / 防御成长",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: Eli Lilly's earnings strength, new highs, and Washington's Medicare obesity-drug pilot.\n中文：Eli Lilly财报强劲、股价创高，以及华盛顿推进Medicare减肥药试点。",
+        "watch": "EN: Prefer LLY or XLV on orderly pullbacks instead of chasing gap-ups near highs.\n中文：优先在LLY或XLV有序回踩时观察，而不是在接近新高的跳空后追涨。",
+        "risk": "EN: If rate-sensitive tech rebounds hard, healthcare relative strength can lag even if fundamentals stay intact.\n中文：若利率敏感科技出现强反弹，即使基本面没变，医疗的相对强势也可能暂时落后。"
+      },
+      {
+        "name": "EN: Small-Cap Earnings And Event Beta\n中文：小盘财报与事件Beta",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: PENG's after-hours earnings move, LINC's raised outlook, and EZPW's consumer-finance strength keep the lane active.\n中文：PENG财报后的盘后异动、LINC上调展望、EZPW的消费金融强势，让小盘事件线仍有可做性。",
+        "watch": "EN: Only use names that confirm above the opening range with relative volume; if the first push fails, step aside immediately.\n中文：只做那些放量突破开盘区间的个股；若第一次上冲失败，要立刻退开。",
+        "risk": "EN: These names can gap, spread out, and fail in the first 30 minutes, especially for small accounts or options users.\n中文：这类股票会跳空、价差变宽，并在前30分钟失败，尤其容易伤到小资金和期权使用者。"
+      },
+      {
+        "name": "EN: Consumer Finance / K-Shaped Consumer\n中文：消费金融 / K型消费",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: EZCORP's pawn-loan growth and resilient lower-income demand trends.\n中文：EZCORP抵押贷款增长与低收入消费需求韧性。",
+        "watch": "EN: Use EZPW only if it holds a pullback and the broader market is not in a disorderly risk-off move.\n中文：只有在EZPW回踩守住、且大盘没有失序风险关闭时才观察。",
+        "risk": "EN: If credit conditions tighten meaningfully, even defensive consumer-finance trades can lose momentum.\n中文：若信用条件明显收紧，即便是防御型消费金融也可能失去动能。"
+      },
+      {
+        "name": "EN: Long-Duration Growth / Rates Sensitivity\n中文：高久期成长 / 利率敏感",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: The 10-year yield at 4.54% and the Fed minutes keep rate-sensitive software and semis under pressure.\n中文：10年期收益率升至4.54%，再加上Fed纪要，使利率敏感的软件和半导体持续承压。",
+        "watch": "EN: Use TLT, QQQ and HYG as the tripwire set; if all three weaken together, duration pain is broadening.\n中文：把TLT、QQQ和HYG当成三重警报；若三者一起走弱，说明久期压力正在扩散。",
+        "risk": "EN: Any dovish interpretation of the minutes can spark a sharp countertrend rebound.\n中文：任何偏鸽的纪要解读，都可能引发快速逆势反弹。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if NVDA survives the first 30-60 minutes, reclaims or holds regular-session VWAP, and shows relative strength versus QQQ and SMH. Avoid chasing if it opens stretched near the prior high without volume confirmation.\n中文：只有在NVDA熬过前30-60分钟、收复或守住正股VWAP，并且相对QQQ和SMH保持强势时才可观察。若高开接近前高却没有量能确认，不要追。",
+        "suggestedProfitTake": "EN: Take partial profits into a 3%-5% push or into a retest of the prior high; if the stock already opens near that zone, do not force a late entry and trail the stop under VWAP or the first-hour low instead.\n中文：上涨3%-5%或回测前高时先分批止盈；如果开盘已经接近该区域，就不要硬追，改用VWAP或首小时低点下方做移动止损。",
+        "type": "EN: AI mega-cap / liquid quality leader\n中文：AI大盘核心 / 高流动性质量龙头",
+        "catalyst": "EN: Nvidia's quarter delivered record data-center demand, revenue of $81.6 billion, net income of $58.3 billion, and an $80 billion buyback while the stock still closed green on Tuesday.\n中文：Nvidia最近一个季度交出创纪录的数据中心需求，营收达$81.6 billion、净利润$58.3 billion，并宣布$80 billion回购，同时该股周二仍能逆势收红。",
+        "why": "EN Fundamentals / 中文基本面: Revenue grew 85% and the latest quarter still showed exceptional data-center scale, profitability, and capital-return support, though valuation remains sensitive to any slowdown in AI capex expectations.\nEN Technicals / 中文技术面: Tuesday's close at $194.66, up 0.71%, showed relative strength versus semis, but the stock still needs an opening-range hold, VWAP confirmation, and respect for the prior-high resistance zone.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 124.45 million versus a 157.47 million average, so the green close was not a full-volume washout reversal. Liquidity and options depth are excellent, but crowded positioning means failed breakouts can reverse quickly.",
+        "risk": "EN: Invalidated if NVDA loses the first-hour low or regular-session VWAP while QQQ and SMH remain weak.\n中文：若NVDA跌破首小时低点或正股VWAP，且QQQ和SMH继续疲弱，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $194.66, up 0.71% on Tuesday, and slipped 0.53% after hours to $193.62.\n中文：周二收于$194.66，上涨0.71%，盘后回落0.53%至$193.62。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "MU",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and only consider MU if it reclaims VWAP, stabilizes above the opening range, and semiconductor breadth improves. If it opens weak and cannot retake prior-day support, stay out.\n中文：先等前30-60分钟，只有当MU收复VWAP、稳住开盘区间上方且半导体宽度改善时才可观察。若低开后无法拿回前一日支撑，就不要参与。",
+        "suggestedProfitTake": "EN: Use fast partial profit-taking into a 4%-6% relief bounce because memory trades are crowded; if the stock already rebounds into resistance before you can enter cleanly, avoid chasing and wait for the next pullback hold.\n中文：若出现4%-6%的技术性反弹，要快速分批止盈，因为存储交易非常拥挤；若你还没进场，股价就先反弹到压力位，不要追，等下一次回踩守住再说。",
+        "type": "EN: AI memory / high-beta semiconductor\n中文：AI存储 / 高beta半导体",
+        "catalyst": "EN: Micron's latest quarter showed revenue of $41.46 billion and gross margin of 84.6%, but Tuesday's tape treated memory as a crowded exposure and the stock sold off sharply.\n中文：Micron最新季度营收达$41.46 billion、毛利率84.6%，但周二市场把存储当成拥挤交易来处理，股价明显下跌。",
+        "why": "EN Fundamentals / 中文基本面: The company still has one of the strongest AI-memory demand stories in the market, with very high growth and margin expansion, but that strength is already widely known and fully exposed to valuation sensitivity.\nEN Technicals / 中文技术面: MU closed at $938.38, down 4.71%, after trading as low as $891.66. That is a damaged short-term chart, so the setup is only valid on a clear VWAP reclaim and a higher low after the open.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 52.37 million versus a 51.47 million average, confirming that the selloff had real participation. Liquidity and options interest are strong, but crowding raises the risk of failed rebounds and IV crush.",
+        "risk": "EN: Invalidated if MU cannot reclaim VWAP or if SMH continues making lower lows.\n中文：若MU无法收复VWAP，或SMH继续创更低低点，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $938.38, down 4.71% on Tuesday after a high-beta semiconductor unwind.\n中文：周二收于$938.38，下跌4.71%，属于高beta半导体回撤的一部分。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "LLY",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Watch only for a regular-session pullback hold above VWAP or a tight opening-range breakout after the first 30 minutes. If LLY gaps straight into fresh highs, wait rather than chase.\n中文：只在正股交易时段回踩守住VWAP，或前30分钟后出现紧凑开盘区间突破时观察。若LLY直接高开冲新高，先等，不追。",
+        "suggestedProfitTake": "EN: Scale out into a 2%-4% continuation move or near a fresh momentum extension above the opening range; if the stock is already extended at entry, take profits faster and avoid turning it into an oversized swing.\n中文：若延续上涨2%-4%或突破开盘区间后继续加速，可分批止盈；若入场时已经很伸展，就要更快兑现，不要把它硬做成过大的波段。",
+        "type": "EN: large-cap healthcare / defensive growth\n中文：大盘医疗 / 防御成长",
+        "catalyst": "EN: Eli Lilly reported first-quarter sales of $19.8 billion, up 56%, with Mounjaro sales of $8.66 billion and Zepbound sales of $4.1 billion; the stock also got policy support from Medicare's obesity-drug pilot.\n中文：Eli Lilly一季度销售额$19.8 billion，同比增长56%，其中Mounjaro销售$8.66 billion、Zepbound销售$4.1 billion；此外，Medicare减肥药试点也提供了政策支持。",
+        "why": "EN Fundamentals / 中文基本面: This is one of the strongest large-cap growth-plus-defensive earnings stories in the market, backed by rapid obesity-drug demand and premium margins, though the stock still trades at a high 44.48 P/E.\nEN Technicals / 中文技术面: LLY closed at $1,247.87, up 2.96%, with a 52-week high of $1,249.45. The trend is strong, but the chart is extended, so entry quality is better on pullbacks than on new-high chasing.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 2.93 million versus a 3.11 million average, so the move was liquid but not blowoff-like. Options are tradable, but spreads and IV still widen when a defensive leader becomes crowded.",
+        "risk": "EN: Invalidated for a trade if LLY loses VWAP and the first-hour low after a gap-up attempt.\n中文：若LLY在高开尝试后跌破VWAP和首小时低点，交易逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $1,247.87, up 2.96%, and briefly printed a new 52-week high at $1,249.45.\n中文：收于$1,247.87，上涨2.96%，盘中短暂刷新52周新高$1,249.45。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "MTCH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if MTCH holds above the opening range and keeps volume above normal after the first 30 minutes; if it opens above Tuesday's high and immediately fades, wait for a pullback hold instead.\n中文：只有在MTCH守住开盘区间上方，且前30分钟后成交量仍高于常态时才可观察；若高开突破周二高点后立刻回落，就改等回踩守住。",
+        "suggestedProfitTake": "EN: Scale profits into a 4%-6% move or into a failed break near the 52-week high; if the breakout becomes too extended relative to the opening range, trim rather than adding.\n中文：上涨4%-6%或接近52周高点出现突破失败时分批止盈；若突破相对开盘区间已经过度伸展，就减仓而不是加仓。",
+        "type": "EN: internet / turnaround growth\n中文：互联网 / 修复型成长",
+        "catalyst": "EN: Match reported first-quarter revenue of $863.9 million, up 4%, with Hinge revenue up 28%, and Wall Street coverage highlighted improved user momentum and a cleaner turnaround setup.\n中文：Match一季度营收$863.9 million，同比增长4%，其中Hinge营收增长28%；华尔街报道也强调用户动能改善、修复逻辑更清晰。",
+        "why": "EN Fundamentals / 中文基本面: Tinder revenue still only grew 2%, but Hinge is growing much faster and supports a credible margin-and-engagement recovery story. Profit was $166.8 million and the stock trades around a 14.95 P/E, which is less demanding than many AI trades.\nEN Technicals / 中文技术面: MTCH closed at $39.18, up 4.56%, and sits just below a $39.79 52-week high. That makes it a valid in-progress breakout only if it holds the opening range rather than instantly rejecting the new-high area.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 4.80 million versus a 3.53 million average, confirming that Tuesday's move had real participation. Liquidity is adequate, but the tape can become whippy around new highs.",
+        "risk": "EN: Invalidated if MTCH fails the breakout and loses VWAP with volume fading back toward normal.\n中文：若MTCH突破失败并跌破VWAP，同时成交量回落至常态附近，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $39.18, up 4.56%, and is testing its 52-week high zone.\n中文：收于$39.18，上涨4.56%，正在测试52周高点区域。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "ALAB",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for a proper reset. Only consider ALAB if it builds a higher low, reclaims regular-session VWAP, and breaks the opening range with relative-volume confirmation; otherwise it is watch-only.\n中文：先等它完成像样的重置。只有当ALAB构筑更高低点、收复正股VWAP，并在相对成交量确认下突破开盘区间时才可观察；否则只看不做。",
+        "suggestedProfitTake": "EN: Use fast partials into a 6%-10% rebound because high-beta AI-connectivity names can snap back hard and then fail; if the stock already opens with a large gap and low-quality breadth, avoid the chase entirely.\n中文：若反弹6%-10%，就要快速分批兑现，因为高beta AI互连股常常急弹后再失败；如果它本身就是大幅高开而市场宽度又差，就彻底不要追。",
+        "type": "EN: AI connectivity / high-beta growth\n中文：AI互连 / 高beta成长",
+        "catalyst": "EN: Astera Labs still has a real AI capex story, but Tuesday's 11.52% drop showed how sensitive the name is to sector de-risking and valuation compression.\n中文：Astera Labs仍有真实的AI资本开支逻辑，但周二11.52%的跌幅说明该股对板块去风险和估值压缩极其敏感。",
+        "why": "EN Fundamentals / 中文基本面: The company sits in a real AI-cloud interconnect bottleneck theme, but the stock still carries a very high 258.16 P/E and no dividend support, so expectations remain demanding.\nEN Technicals / 中文技术面: ALAB closed at $382.89, down 11.52%, after trading between $366.66 and $417.46. That is not a clean chart; it needs a base, a VWAP reclaim, and a higher low before it becomes actionable again.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 7.52 million versus a 6.50 million average, with a 115.67 relative-volume reading. Liquidity is sufficient, but this is still a high-beta name that can trap late buyers quickly.",
+        "risk": "EN: Invalidated if ALAB fails to hold a higher low or if SMH continues trending lower.\n中文：若ALAB无法守住更高低点，或SMH继续下行，则逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $382.89, down 11.52%, on above-normal volume.\n中文：收于$382.89，下跌11.52%，且成交量高于常态。",
+        "setupStatus": "wait for pullback"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "IREN",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider IREN if it holds the first pullback, reclaims VWAP, and shows clear relative-volume confirmation above the opening range. If it gaps and fails in the first 30 minutes, do nothing.\n中文：只有在IREN守住第一次回踩、收复VWAP，并在相对成交量确认下突破开盘区间时才可观察。若跳空后前30分钟就失败，直接不做。",
+        "suggestedProfitTake": "EN: Scale out into a 6%-10% rebound or if the move stalls under the first major intraday resistance; if the stock already opens too far from support, avoid chasing and wait for a cleaner retest.\n中文：若反弹6%-10%，或在首个重要日内压力位下方停滞，就分批止盈；若开盘已经离支撑太远，就别追，等更干净的回踩确认。",
+        "type": "EN: smaller mid-cap AI infrastructure / bitcoin-linked high beta\n中文：中小型AI基础设施 / 比特币相关高beta",
+        "catalyst": "EN: IREN still has a real AI cloud-services angle, a major Microsoft contract, and large financing capacity, but Tuesday's tape treated it as high-beta risk first.\n中文：IREN仍有真实的AI云服务逻辑、与Microsoft的大合同和较强融资能力，但周二市场首先把它当成高beta风险资产来卖。",
+        "why": "EN Fundamentals / 中文基本面: The company reported revenue of $184.7 million in the December quarter, AI Cloud Services revenue of $17.3 million versus $2.7 million a year earlier, around $2.8 billion in cash, and a $9.7 billion contract plus $3.6 billion financing package. That is a real growth setup, but it remains far more speculative than profitable mega-cap AI.\nEN Technicals / 中文技术面: IREN closed at $39.82, down 9.33%, and is now below its 5-day and 1-month momentum highs. That means the setup is damaged until the stock reclaims VWAP and proves it can hold a higher low.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 42.36 million versus a 15.54 million average, confirming that Tuesday's selloff had broad participation. Liquidity is good enough, but a 22.35% short-interest backdrop makes both squeezes and failures violent.",
+        "risk": "EN: Invalidated if IREN loses the first-hour low or if bitcoin and AI-infrastructure sympathy both weaken together.\n中文：若IREN跌破首小时低点，或比特币与AI基础设施共振同时转弱，则逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $39.82, down 9.33%, with 5-day performance of -8.09%.\n中文：收于$39.82，下跌9.33%，5日表现为-8.09%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "PENG",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Trigger only if PENG's post-earnings after-hours move carries into the regular session, the stock holds above the opening range, and relative volume stays elevated. If the earnings gap fills early, switch to watch-only.\n中文：只有在PENG财报后的盘后涨幅延续到正股时段、股价守住开盘区间且相对成交量保持高位时才触发。若早盘就回补缺口，则改为只观察。",
+        "suggestedProfitTake": "EN: Take quick partial profits into a 5%-9% extension because post-earnings small/mid-cap gaps often retrace; if the stock opens too extended from VWAP, do not add on the second push.\n中文：若继续上冲5%-9%，就快速分批止盈，因为财报后的小中盘跳空常常会回吐；若开盘已经明显偏离VWAP，就不要在第二波追高。",
+        "type": "EN: small/mid-cap systems and memory infrastructure\n中文：中小盘系统与存储基础设施",
+        "catalyst": "EN: IBD flagged Penguin Solutions as gapping higher after hours on blowout fiscal third-quarter earnings and raised guidance.\n中文：IBD指出Penguin Solutions因强劲的三季度业绩和上调指引而在盘后跳涨。",
+        "why": "EN Fundamentals / 中文基本面: In the reviewed quarter before this latest report, sales were $343 million, down 6.3%, but adjusted EPS was $0.52 versus a $0.42 estimate and full-year sales growth guidance centered around roughly 12% with EPS guidance around $2.15. Fresh detailed Q3 filing metrics are not fully available in the reviewed source set yet, so treat the newest earnings catalyst as real but still being digested.\nEN Technicals / 中文技术面: PENG closed the regular session at $62.71, down 7.38%, but traded after hours at $65.00, up 3.65%. That creates a classic high-opportunity, high-failure post-earnings gap setup that needs regular-session confirmation.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 5.95 million versus a 2.39 million average, a 249.56 relative-volume reading. Liquidity is strong enough for trading, but post-earnings spreads and slippage can widen quickly.",
+        "risk": "EN: Invalidated if the after-hours gap fails quickly below VWAP or if volume dries up after the opening range.\n中文：若盘后缺口快速跌破VWAP，或开盘区间后量能明显衰减，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $62.71, down 7.38%, then traded after hours at $65.00, up 3.65%.\n中文：正股收于$62.71，下跌7.38%，随后盘后报$65.00，上涨3.65%。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "LINC",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only on an opening-range breakout above Tuesday's high with sustained volume, or on a clean pullback hold above VWAP after the first 30 minutes. Avoid chasing if it opens far above the 52-week-high zone.\n中文：只有在放量突破周二高点的开盘区间时，或前30分钟后回踩VWAP并守住时才可观察。若开盘远高于52周高点区域，不要追。",
+        "suggestedProfitTake": "EN: Scale profits into a 4%-7% continuation move or if the breakout stalls after the first range extension; if price is already overextended, tighten the stop rather than averaging up.\n中文：若延续上涨4%-7%，或首轮扩展后明显停滞，就分批止盈；若价格已经过度伸展，应收紧止损而不是继续加仓。",
+        "type": "EN: small-cap education / skilled-trades exposure\n中文：小盘教育 / 技工培训主题",
+        "catalyst": "EN: Lincoln Educational Services reported better-than-expected quarter, raised guidance, and continues to benefit from skilled-trades demand.\n中文：Lincoln Educational Services公布了优于预期的季度业绩并上调指引，持续受益于技工培训需求。",
+        "why": "EN Fundamentals / 中文基本面: First-quarter EPS was $0.14, up 133%, revenue grew 22.5% to about $117.5 million, student starts rose 19.5%, and management raised full-year student-start guidance to 10%-14%. The business is smaller and less diversified than large-cap education or staffing names, so execution still matters.\nEN Technicals / 中文技术面: LINC closed at $55.68, up 2.90%, and is pressing against a $55.75 52-week high. That is an in-progress breakout setup, but it becomes lower quality if the opening move extends too far without a retest.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 243,989 versus a 184,915 average, a 131.96 relative-volume reading. Liquidity is adequate but not huge, so small accounts should avoid market orders in the first minutes.",
+        "risk": "EN: Invalidated if LINC loses VWAP after a breakout attempt or if volume collapses back below average.\n中文：若LINC突破尝试后跌破VWAP，或成交量迅速回落到均值下方，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $55.68, up 2.90%, and sits just under its 52-week high.\n中文：收于$55.68，上涨2.90%，目前紧贴52周高点下方。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "EZPW",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Prefer a pullback hold above VWAP or support formed after the first 30-60 minutes; if EZPW opens weak with HYG and IWM also soft, wait rather than forcing the long.\n中文：更优先等待前30-60分钟后在VWAP或新形成支撑上方的回踩守住；若EZPW开盘偏弱，且HYG与IWM也同步转弱，就先等，不要强做多。",
+        "suggestedProfitTake": "EN: Take partial profits into a 3%-5% move or as the stock approaches its prior high; if the move is already extended from support, tighten stops instead of adding.\n中文：上涨3%-5%或接近前高时先分批止盈；若行情已经明显远离支撑，就收紧止损，不要继续加仓。",
+        "type": "EN: small-cap consumer finance / pawn lending\n中文：小盘消费金融 / 典当放贷",
+        "catalyst": "EN: EZCORP is benefiting from strong pawn-loan demand and the K-shaped consumer backdrop highlighted in recent reporting.\n中文：EZCORP受益于典当贷款需求走强，以及近期报道中强调的K型消费背景。",
+        "why": "EN Fundamentals / 中文基本面: Recent reporting cited pawn loans up 33% to $349 million, revenue up 46% to $447 million, and the stock trades around a 19.26 P/E. That is a more grounded balance-sheet and cash-generation story than many speculative tech small caps, though it remains tied to consumer-stress trends.\nEN Technicals / 中文技术面: The quote page shows a recent close of $35.10, down 0.90%, while 1-month performance is +9.98% and year-to-date performance is +81.62%. That says the trend is still constructive, but the entry is better on pullbacks than on immediate continuation.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 1.06 million versus an 866,783 average, a 122.04 relative-volume reading. Liquidity is respectable for a smaller name, but spreads can still widen if broad risk appetite fades.\n中文补充：流动性对中小盘来说算不错，但若整体风险偏好转弱，买卖价差仍可能扩大。",
+        "risk": "EN: Invalidated if EZPW loses the first-hour low while IWM and HYG both deteriorate.\n中文：若EZPW跌破首小时低点，同时IWM和HYG一起走弱，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "swing",
+        "recentPerformance": "EN: Recent quote-page performance shows 1 month +9.98% and YTD +81.62%, but the latest displayed close was $35.10, down 0.90%.\n中文：最近的报价页数据显示其1个月表现为+9.98%、年初至今为+81.62%，但最新显示收盘价为$35.10、下跌0.90%。",
+        "setupStatus": "wait for pullback"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "QQQ",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only use QQQ on the short side if it fails the first 30-60 minute VWAP reclaim and semiconductors remain weak; avoid entering after a big downside extension without a failed bounce first.\n中文：只有在QQQ前30-60分钟收复VWAP失败，且半导体继续疲弱时，才考虑偏空观察；若已经大幅下探且没有先出现失败反弹，不要追空。",
+        "suggestedProfitTake": "EN: Cover partials into a 1.5%-2.5% downside extension or if VIX stalls while breadth improves; if QQQ already moved beyond its expected intraday range, reduce rather than pressing the trade.\n中文：若继续下跌1.5%-2.5%，或VIX停滞但市场宽度改善时，先回补部分；若QQQ已经超出日内预期波幅，就要减仓，而不是继续加码。",
+        "type": "EN: Nasdaq-100 ETF hedge\n中文：纳指100对冲ETF",
+        "catalyst": "EN: Tuesday's AI and semiconductor unwind plus Fed-minute yield risk keep QQQ as the cleanest hedge vehicle.\n中文：周二AI和半导体回撤叠加Fed纪要的利率风险，使QQQ成为最干净的对冲工具。",
+        "why": "EN Fundamentals / 中文基本面: The ETF itself has no operating fundamentals; the underlying basket remains dominated by high-quality mega-cap earnings, but that concentration also creates duration and valuation sensitivity.\nEN Technicals / 中文技术面: QQQ closed at $709.41, down 1.85%, and traded after hours at $707.08, down 0.33%. That keeps the near-term trend fragile until VWAP is reclaimed and the opening range holds.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 42.48 million versus a 44.13 million average, with deep options liquidity. That makes QQQ useful for hedging, but spreads and IV can still widen around Fed events.",
+        "risk": "EN: Invalidated if QQQ reclaims VWAP and breadth broadens with IWM and SMH improving together.\n中文：若QQQ收复VWAP，且IWM与SMH同步改善、带动宽度回升，则偏空逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $709.41, down 1.85%, and was down another 0.33% after hours at $707.08.\n中文：收于$709.41，下跌1.85%，盘后再跌0.33%至$707.08。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for a first-hour stabilization, then only consider SMH if it reclaims VWAP and semis stop making lower lows. Do not buy purely because it is down a lot.\n中文：先等首小时企稳，只有当SMH收复VWAP且半导体不再创新低时才可观察。不要因为它跌得多就直接买。",
+        "suggestedProfitTake": "EN: Take partials into a 2.5%-4.5% relief rebound or near the first major resistance from Tuesday's breakdown; if it opens near that resistance already, avoid the late chase.\n中文：若出现2.5%-4.5%的技术性反弹，或接近周二下破后的首个重要压力位，就先分批止盈；若开盘就接近那个压力区，不要晚追。",
+        "type": "EN: semiconductor ETF\n中文：半导体ETF",
+        "catalyst": "EN: The ETF captures the whole AI chip and memory reset without single-name earnings risk.\n中文：该ETF可以整体表达AI芯片与存储重置，而不承担单一个股财报风险。",
+        "why": "EN Fundamentals / 中文基本面: The ETF itself has no corporate fundamentals; the underlying sector still has strong AI demand and capex support, but valuations remain crowded and rate-sensitive.\nEN Technicals / 中文技术面: SMH closed at $581.46, down 3.78%, and traded after hours at $575.88, down 0.96%. That is a broken short-term trend until the ETF reclaims VWAP and prints a higher low.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 11.91 million versus an 8.50 million average, a 140.18 relative-volume reading. Liquidity is strong, but heavy volume on the way down means sellers were real, not just absent buyers.",
+        "risk": "EN: Invalidated if SMH keeps making lower lows or if yields continue rising after the Fed minutes.\n中文：若SMH继续创更低低点，或Fed纪要后收益率继续上行，则做多逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $581.46, down 3.78%, and traded after hours at $575.88, down 0.96%.\n中文：收于$581.46，下跌3.78%，盘后报$575.88，再跌0.96%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only actionable if IWM holds the first-hour low and reclaims VWAP, because it is the breadth confirmation ETF rather than a blind dip-buy candidate.\n中文：只有在IWM守住首小时低点并收复VWAP时才有可操作性，因为它是宽度确认ETF，不是盲目抄底工具。",
+        "suggestedProfitTake": "EN: Take profits into a 1.5%-2.5% rebound or if the move outpaces improving breadth; if the broad tape is still narrow, keep position size smaller.\n中文：若反弹1.5%-2.5%，或涨幅明显跑赢市场宽度改善，就先止盈；若盘面仍然偏窄，仓位也要更小。",
+        "type": "EN: Russell 2000 ETF / breadth proxy\n中文：罗素2000 ETF / 市场宽度代理",
+        "catalyst": "EN: IWM matters because small-cap participation is the best check on whether risk appetite is broadening beyond mega-cap AI.\n中文：IWM重要，因为小盘是否参与，是风险偏好是否从AI龙头扩散出去的最好检查项。",
+        "why": "EN Fundamentals / 中文基本面: The ETF itself has no operating fundamentals; its usefulness comes from broad small-cap exposure that tends to improve only when financial conditions and breadth both cooperate.\nEN Technicals / 中文技术面: IWM closed at $295.70, down 0.90%, which is weaker than a healthy breadth-expansion setup would prefer. The long setup only becomes credible after a VWAP reclaim and opening-range hold.\nEN Volume/Liquidity / 中文成交量/流动性: IWM is highly liquid with deep options markets, which makes it a cleaner confirmation tool than most individual small caps. Liquidity is good, but broad risk-off tape can still create fast failures.",
+        "risk": "EN: Invalidated if IWM loses the first-hour low while QQQ and HYG also weaken.\n中文：若IWM跌破首小时低点，同时QQQ和HYG也转弱，则做多逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $295.70, down 0.90% as small-cap breadth remained soft.\n中文：收于$295.70，下跌0.90%，说明小盘宽度仍偏弱。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Actionable only if crude holds gains into the U.S. session and XLE keeps a regular-session VWAP hold after the first pullback. If oil headlines cool before the open, reduce urgency.\n中文：只有在原油涨幅延续到美股时段，且XLE第一次回踩后仍守住正股VWAP时才可观察。若开盘前油价headline降温，就降低操作优先级。",
+        "suggestedProfitTake": "EN: Scale out into a 2%-4% continuation move or on any fast de-escalation headline. If XLE already gaps far above the prior close, avoid chasing and wait for a controlled retest.\n中文：若继续上涨2%-4%，或出现快速降温headline，就分批止盈。若XLE本身已经大幅高开高于前收，就不要追，等有控制的回踩。",
+        "type": "EN: energy sector ETF\n中文：能源板块ETF",
+        "catalyst": "EN: Oil strength after Iran-related policy and shipping-risk headlines made energy the clearest hedge sector on Tuesday.\n中文：与伊朗相关的政策和航运风险headline推高油价，使能源成为周二最清晰的对冲板块。",
+        "why": "EN Fundamentals / 中文基本面: The ETF itself has no corporate fundamentals, but the underlying producers benefit from higher crude cash flows, buybacks, and dividend support when oil stays bid.\nEN Technicals / 中文技术面: XLE closed at $54.64, up 2.84%, and traded after hours at $54.95, up 0.57%. That is constructive, but a late-entry chase is lower quality than a VWAP hold after the open.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 46.98 million versus a 45.45 million average, confirming that the move had real sponsorship. Liquidity is excellent, though the sector remains headline-sensitive.",
+        "risk": "EN: Invalidated if crude reverses lower and XLE loses VWAP after the open.\n中文：若原油转跌且XLE开盘后跌破VWAP，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $54.64, up 2.84%, and was up another 0.57% after hours at $54.95.\n中文：收于$54.64，上涨2.84%，盘后再涨0.57%至$54.95。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "XLV",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Prefer an orderly pullback hold above VWAP or a tight opening-range breakout only after the first 30 minutes. Avoid chasing if it opens extended with LLY already stretched.\n中文：更适合等待有序回踩守住VWAP，或前30分钟后在紧凑开盘区间上破时观察。若开盘时LLY和XLV都已经过度伸展，不要追。",
+        "suggestedProfitTake": "EN: Take partial profits into a 1.5%-3% extension or if the defensive rotation becomes too crowded; if tech stabilizes and healthcare stops leading, tighten the stop.\n中文：若继续上涨1.5%-3%，或防御轮动变得过于拥挤，就分批止盈；若科技企稳而医疗不再领涨，则收紧止损。",
+        "type": "EN: healthcare ETF\n中文：医疗ETF",
+        "catalyst": "EN: LLY strength and defensive rotation made healthcare one of Tuesday's cleaner leadership groups.\n中文：LLY强势和防御轮动，让医疗成为周二更干净的领涨组之一。",
+        "why": "EN Fundamentals / 中文基本面: The ETF itself has no operating fundamentals; its underlying basket benefits from more stable earnings, pricing power, and lower sensitivity to the AI-valuation unwind than semiconductors.\nEN Technicals / 中文技术面: XLV closed at $151.08, up 1.53%, and printed a 52-week high. That confirms strength, but also means entry quality is better on pullbacks than on immediate gap-chasing.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 10.62 million versus an 8.83 million average, a 120.21 relative-volume reading. Liquidity is strong, but crowding can still create sharp midday reversals.",
+        "risk": "EN: Invalidated if XLV loses VWAP after a gap-up attempt and LLY also reverses.\n中文：若XLV在高开尝试后跌破VWAP，且LLY也同步反转，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $151.08, up 1.53%, and marked a fresh 52-week high.\n中文：收于$151.08，上涨1.53%，并刷新52周新高。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "TLT",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only use TLT on the short side if yields stay firm after the Fed minutes and TLT fails a first-hour VWAP reclaim. If yields reverse lower, step aside quickly.\n中文：只有在Fed纪要后收益率继续走强，且TLT首小时收复VWAP失败时，才考虑偏空观察；若收益率转而下行，就要快速退开。",
+        "suggestedProfitTake": "EN: Cover partials into a 1%-2% downside move or once yields stop rising; if TLT already gaps well below support, avoid pressing the short late.\n中文：若继续下跌1%-2%，或收益率不再上升，就先回补部分；若TLT已经大幅跳空跌破支撑，不要在后段继续猛压空头。",
+        "type": "EN: long-duration Treasury ETF\n中文：长久期美债ETF",
+        "catalyst": "EN: The 10-year yield rose to 4.54% and the Fed minutes could reinforce the higher-for-longer narrative.\n中文：10年期收益率升至4.54%，而Fed纪要可能强化“更高更久”的利率叙事。",
+        "why": "EN Fundamentals / 中文基本面: The ETF itself has no corporate fundamentals; the thesis depends on duration sensitivity to yields and policy expectations rather than earnings.\nEN Technicals / 中文技术面: TLT closed at $84.55, down 1.05%, and remains under pressure while yields rise. The short setup stays valid only while it fails to reclaim VWAP and the broader rate tape stays firm.\nEN Volume/Liquidity / 中文成交量/流动性: Volume was 38.58 million versus a 37.68 million average, so the move had real participation. Liquidity is deep, making TLT a practical macro hedge vehicle.",
+        "risk": "EN: Invalidated if yields roll over and TLT reclaims VWAP with momentum.\n中文：若收益率回落，且TLT带动能收复VWAP，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $84.55, down 1.05%, as Treasury yields moved higher.\n中文：收于$84.55，下跌1.05%，对应美债收益率走高。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "HYG",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: HYG is only a tactical short if it loses the first-hour low while QQQ and IWM are both weak. If credit stays stable, use it as a warning gauge rather than a primary trade.\n中文：只有在HYG跌破首小时低点，且QQQ和IWM同时偏弱时，HYG才算战术性空头工具。若信用保持稳定，更适合把它当预警器，而不是主交易。",
+        "suggestedProfitTake": "EN: Cover partials on a 0.8%-1.5% downside move or if equities stabilize while HYG stops deteriorating; do not overstay because HYG usually moves more slowly than tech-beta names.\n中文：若继续下跌0.8%-1.5%，或股市企稳而HYG不再恶化时，先回补部分；不要恋战，因为HYG通常比科技高beta走得慢。",
+        "type": "EN: high-yield credit ETF\n中文：高收益信用ETF",
+        "catalyst": "EN: HYG helps test whether Tuesday's weakness is staying contained in equity beta or spreading into credit risk appetite.\n中文：HYG可以帮助判断周二的弱势是仍局限在股票beta，还是开始扩散到信用风险偏好。",
+        "why": "EN Fundamentals / 中文基本面: The ETF itself has no operating fundamentals; its signal comes from underlying credit spreads and risk appetite across lower-quality balance sheets.\nEN Technicals / 中文技术面: HYG closed at $79.76, down 0.14%, which is softer but not broken. That means the short setup is conditional, not aggressive, unless the first-hour support fails.\nEN Volume/Liquidity / 中文成交量/流动性: HYG is a liquid ETF with broad institutional usage, so it is more useful as a market-internals check than as a momentum chase vehicle.",
+        "risk": "EN: Invalidated if HYG holds steady or recovers while equities stabilize.\n中文：若HYG保持稳定或回升，同时股市也止稳，则偏空逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $79.76, down 0.14%, showing softer credit but not a full breakdown.\n中文：收于$79.76，下跌0.14%，显示信用转弱但尚未彻底破坏。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Intraday only, and only if SMH reclaims VWAP, semis show broad participation, and the first 30-60 minutes hold together. If any of those conditions fail, do not touch it.\n中文：只能做日内，而且必须同时满足SMH收复VWAP、半导体广泛参与、前30-60分钟结构稳定这三个条件。只要其中一个不满足，就不要碰。",
+        "suggestedProfitTake": "EN: Take profits aggressively into 4%-8% bursts and avoid turning it into an overnight hold; if the expected move is already captured before noon ET, reduce rather than hoping for a second leg.\n中文：若出现4%-8%的脉冲式上涨，要积极止盈，不要硬拿成隔夜；如果美东中午前已经吃到预期波动，就该减仓，而不是赌第二腿。",
+        "type": "EN: 3x leveraged semiconductor ETF\n中文：3倍杠杆半导体ETF",
+        "catalyst": "EN: It is the fastest tactical expression of any semiconductor relief rally, but also the fastest decay vehicle when the sector is unstable.\n中文：它是表达半导体反弹最快的工具，但在板块不稳定时，也是损耗最快的工具。",
+        "why": "EN Fundamentals / 中文基本面: The ETF itself has no operating fundamentals; the thesis lives entirely in the underlying semiconductor basket and leverage mechanics.\nEN Technicals / 中文技术面: SOXL closed at $10.63, down 15.09%, which shows the prior trend was broken hard. The setup is valid only on broad semi confirmation, not on a blind 'it fell enough' idea.\nEN Volume/Liquidity / 中文成交量/流动性: SOXL is liquid, but leverage decay, gap risk, and fast spread changes make it unsuitable for casual holding or for large size in small accounts.",
+        "risk": "EN: Invalidated immediately if SMH loses VWAP or the first-hour low after entry.\n中文：若入场后SMH跌破VWAP或首小时低点，应立即视为失效。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Closed at $10.63, down 15.09% in one session.\n中文：单日收于$10.63，下跌15.09%。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
+        "items": [
+          "EN: Fed-minute days are dangerous for short-dated options because the first directional move can reverse while implied volatility also collapses. If using options at all, keep size smaller than stock exposure and avoid wide bid/ask contracts.\n中文：Fed纪要日对短期期权很危险，因为第一波方向很容易反转，同时隐含波动率也会回落。若一定要用期权，仓位应小于正股，并避开买卖价差过宽的合约。",
+          "EN: Leveraged ETFs such as SOXL/SOXS are not substitutes for defined-risk options. They still carry overnight gap risk, leverage decay, and slippage in fast tapes.\n中文：SOXL/SOXS这类杠杆ETF并不能替代“有限风险”的期权。它们同样有隔夜跳空风险、杠杆损耗和快节奏行情下的滑点风险。"
+        ]
+      },
+      {
+        "title": "EN: Entry Timing And Risk Controls\n中文：入场时机与风险控制",
+        "items": [
+          "EN: The first 30-60 minutes matter most tonight. Premarket and after-hours moves are useful clues, but thin liquidity often creates false breaks and fake relative strength.\n中文：今晚最重要的是前30-60分钟。盘前和盘后只能提供线索，薄流动性常常制造假突破和假相对强势。",
+          "EN: Every setup in this briefing is conditional: opening-range breakout, VWAP reclaim, pullback hold, or first-hour low/high invalidation. If price skips the clean trigger and opens directly at target, the correct action is often to do nothing.\n中文：本简报中的每个设置都是条件式的：开盘区间突破、VWAP收复、回踩守住，或首小时高低点失效。若价格直接跳到目标区，正确动作往往是“不做”。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Metrics Check\n中文：基本面指标检查",
+        "items": [
+          "EN: The cleanest fundamentals in today's list still belong to NVDA, MU, LLY and MTCH because recent reporting gives concrete revenue, EPS, margin, or cash-flow anchors. ALAB, IREN and PENG are real stories too, but their valuation sensitivity and execution risk are much higher.\n中文：今天列表里最干净的基本面仍属于NVDA、MU、LLY和MTCH，因为近期披露给出了明确的营收、EPS、利润率或现金流锚点。ALAB、IREN、PENG也有真实故事，但它们的估值敏感度和执行风险高得多。",
+          "EN: Where fresh metrics were unavailable in the reviewed source set, the briefing says so directly instead of inventing numbers. That is a signal to lower conviction, not to ignore the trade entirely.\n中文：对于在已审阅来源中拿不到最新指标的标的，简报会直接说明“暂无完整数据”，而不是编数字。这代表应降低确信度，而不是完全忽视交易。"
+        ]
+      },
+      {
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
+        "items": [
+          "EN: Tuesday's tape said the market still likes AI quality such as Nvidia, but it aggressively cut exposure in crowded memory, high-multiple connectivity, and levered semi beta.\n中文：周二盘面说明市场仍愿意给Nvidia这类高质量AI核心一定溢价，但会激烈砍掉拥挤的存储、高估值互连股和杠杆半导体beta。",
+          "EN: Outside AI, the cleanest relative-strength groups were energy and healthcare, while smaller event-driven names such as PENG, LINC and EZPW remained tradable only because they had real catalysts.\n中文：AI之外，相对强度最干净的是能源和医疗；而PENG、LINC、EZPW这类小盘事件股之所以还能做，只是因为它们有真实催化。"
+        ]
+      },
+      {
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
+        "items": [
+          "EN: Keep watching three sub-themes: AI compute leaders, memory-and-interconnect names, and power/data-center infrastructure. The underlying secular story is still alive, but tonight's question is whether rates and crowded positioning delay the next entry.\n中文：继续观察三个子主题：AI算力龙头、存储与互连、以及电力/数据中心基础设施。长期故事仍在，但今晚的问题是利率和拥挤持仓会不会推迟下一次好买点。",
+          "EN: For speculative technology, insist on real liquidity. High short interest can help squeezes, but only if the stock also trades enough shares and options to avoid pump-like behavior.\n中文：对于高波动科技股，必须坚持“真流动性”原则。高空头仓位能帮助逼空，但前提是股票和期权本身有足够成交量，而不是像拉盘票一样失真。"
+        ]
+      },
+      {
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
+        "items": [
+          "EN: The Treasury Department's move to revoke a waiver tied to Iranian oil sales is market-relevant because it supports crude, energy hedges, and inflation sensitivity while also affecting airlines and broad-risk appetite.\n中文：财政部撤销与伊朗石油销售相关的豁免具有明确市场影响，因为它支撑原油、能源对冲和通胀敏感度，同时也会影响航空与整体风险偏好。",
+          "EN: Washington's Medicare obesity-drug pilot is also market-relevant because it helps frame policy support for Lilly/Novo-related demand themes. Keep these policy headlines separate from pure chart chasing.\n中文：华盛顿推动的Medicare减肥药试点同样具有市场意义，因为它会影响Lilly/Novo相关需求主题的政策预期。要把这类政策headline与单纯追图形区分开。"
+        ]
+      },
+      {
+        "title": "EN: Credit Positioning And Market Internals\n中文：信用、仓位与市场内部结构",
+        "items": [
+          "EN: Tuesday was not a full-system stress event because HYG only fell 0.14% and most S&P members rose. It was a concentrated de-risk in semis and long-duration growth.\n中文：周二并不是全系统压力事件，因为HYG只跌0.14%，且标普多数成分股上涨。更准确地说，这是对半导体和高久期成长的集中去风险。",
+          "EN: Tonight, watch the QQQ-SMH-IWM-HYG quartet. If only QQQ and SMH are weak, the tape is still selective; if all four weaken together, reduce exposure across the board.\n中文：今晚重点盯住QQQ、SMH、IWM、HYG这四个指标。若只是QQQ和SMH弱，说明盘面仍是选择性承压；若四者一起弱，就要全面降风险。"
+        ]
+      },
+      {
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
+        "items": [
+          "EN: The immediate event is the Fed minutes on Wednesday, July 8 at 14:00 ET. After that, attention shifts to Levi Strauss, PepsiCo, Delta, and then next week's CPI and PPI.\n中文：眼前最重要的事件是周三（7月8日）美东14:00公布的Fed纪要。之后市场注意力会转向Levi Strauss、PepsiCo、Delta，以及下周的CPI和PPI。",
+          "EN: Macro matters because a higher-yield interpretation would hurt semis and long-duration growth far more than it hurts energy or healthcare. That is why entry timing matters more than simply picking the 'right' story.\n中文：宏观之所以重要，是因为若市场将纪要解读为更高收益率路径，半导体和高久期成长会比能源或医疗承受更大压力。这正是为什么入场时机比单纯选对故事更重要。"
+        ]
+      },
+      {
+        "title": "EN: Why It Matters\n中文：为什么重要",
+        "items": [
+          "EN: The user is trading the U.S. session later tonight from China time, so stale U.S. close narratives are not enough. The real edge comes from knowing which names still have valid catalysts and which ones now require a reset.\n中文：用户是在中国时间下交易今晚稍后的美股时段，因此仅靠“昨晚美股怎么收”的陈旧叙事是不够的。真正的优势来自于分清哪些标的催化仍然有效，哪些已经必须重置。",
+          "EN: In this tape, survival comes from not confusing good companies with good entries. Waiting for the opening range, VWAP, and real volume is not hesitation; it is edge preservation.\n中文：在这种盘面里，生存关键在于不要把“好公司”和“好买点”混为一谈。等待开盘区间、VWAP和真实成交量，不是犹豫，而是在保住优势。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: AP - Wall Street sinks while most stocks rise, with Nvidia and Microsoft weighing on the market / 中文：美联社 - 尽管多数股票上涨，但Nvidia与Microsoft拖累华尔街回落",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/stock-market-today-nvidia-trump-lilly-tesla-iran-5df4b90c5ef2f647723224f8c9d32a19"
+      },
+      {
+        "label": "EN: AP - Stocks slip, oil jumps, Treasury yields rise, gold falls / 中文：美联社 - 股市回落、油价跳升、美债收益率上行、黄金下跌",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/stocks-markets-oil-gold-inflation-trump-6d4a4ea3f2cac7f913faef00756fce73"
+      },
+      {
+        "label": "EN: MarketWatch - U.S. pulls plug on waiver tied to Iranian oil sales and Treasury yields hit 4.54% / 中文：MarketWatch - 美国撤销与伊朗石油销售相关豁免，10年期收益率触及4.54%",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/u-s-stocks-end-lower-led-by-tech-as-oil-surges-treasury-yields-hit-4-54-a76d4af9"
+      },
+      {
+        "label": "EN: Axios - U.S. revokes waiver tied to Iranian oil sales / 中文：Axios - 美国撤销与伊朗石油销售相关的豁免",
+        "confidence": "High-quality reporting",
+        "url": "https://www.axios.com/2026/07/07/iran-oil-waiver-trump"
+      },
+      {
+        "label": "EN: Federal Reserve - FOMC calendars and information / 中文：美联储 - FOMC日历与会议信息",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      {
+        "label": "EN: BLS - CPI release schedule / 中文：美国劳工统计局 - CPI发布时间表",
+        "confidence": "Calendar",
+        "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+      },
+      {
+        "label": "EN: BLS - PPI release schedule / 中文：美国劳工统计局 - PPI发布时间表",
+        "confidence": "Calendar",
+        "url": "https://www.bls.gov/schedule/news_release/ppi.htm"
+      },
+      {
+        "label": "EN: BEA - Economic release schedule / 中文：美国经济分析局 - 经济数据发布时间表",
+        "confidence": "Calendar",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      {
+        "label": "EN: WSJ - Nvidia earnings: revenue jumps 85% and buyback reaches $80 billion / 中文：华尔街日报 - Nvidia营收增长85%，回购规模达$80 billion",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/tech/ai/nvidia-earnings-report-may-2026-fb49864c"
+      },
+      {
+        "label": "EN: Investopedia - Micron earnings beat on strong AI memory demand / 中文：Investopedia - Micron受AI存储需求推动，财报超预期",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investopedia.com/micron-earnings-q3-fy2026-memory-stock-soars-ai-demand-12006096"
+      },
+      {
+        "label": "EN: WSJ - Eli Lilly posts 56% sales growth, helped by Mounjaro and Zepbound / 中文：华尔街日报 - Eli Lilly销售增长56%，受Mounjaro与Zepbound推动",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/health/pharma/eli-lilly-earnings-q1-2026-608a307f"
+      },
+      {
+        "label": "EN: WSJ - Match Group stock rises after improved user outlook / 中文：华尔街日报 - Match Group因用户前景改善而上涨",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/finance/stocks/match-group-stock-rises-on-sentiment-that-single-people-will-turn-back-to-tinder-6ad9955e"
+      },
+      {
+        "label": "EN: Barron's - Penguin Solutions outlines sales and EPS outlook / 中文：Barron's - Penguin Solutions披露销售与EPS展望",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/penguin-solutions-stock-price-ai-5f4107a2"
+      },
+      {
+        "label": "EN: Barron's - IREN gives back AI gains despite big cloud-services growth / 中文：Barron's - IREN虽有云服务增长，但仍回吐AI涨幅",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/iren-stock-ai-data-center-b2fc1e6b"
+      },
+      {
+        "label": "EN: Investor's Business Daily - Lincoln Educational Services beats and raises guidance / 中文：Investor's Business Daily - Lincoln Educational Services业绩超预期并上调指引",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investors.com/research/ibd-stock-analysis/lincoln-educational-stock-breaks-out-buy-point-profit-guidance/"
+      },
+      {
+        "label": "EN: WSJ - EZCorp and the K-shaped consumer economy / 中文：华尔街日报 - EZCorp与K型消费经济",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/business/retail/this-pawnshop-owner-benefits-from-americas-k-shaped-economy-c171adf9"
+      },
+      {
+        "label": "EN: MarketWatch quote page - NVDA / 中文：MarketWatch报价页 - NVDA",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/nvda"
+      },
+      {
+        "label": "EN: MarketWatch quote page - MU / 中文：MarketWatch报价页 - MU",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/mu"
+      },
+      {
+        "label": "EN: MarketWatch quote page - LLY / 中文：MarketWatch报价页 - LLY",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/lly"
+      },
+      {
+        "label": "EN: MarketWatch quote page - MTCH / 中文：MarketWatch报价页 - MTCH",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/mtch"
+      },
+      {
+        "label": "EN: MarketWatch quote page - ALAB / 中文：MarketWatch报价页 - ALAB",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/alab"
+      },
+      {
+        "label": "EN: MarketWatch quote page - IREN / 中文：MarketWatch报价页 - IREN",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/iren"
+      },
+      {
+        "label": "EN: MarketWatch quote page - PENG / 中文：MarketWatch报价页 - PENG",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/peng"
+      },
+      {
+        "label": "EN: MarketWatch quote page - LINC / 中文：MarketWatch报价页 - LINC",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/linc"
+      },
+      {
+        "label": "EN: MarketWatch quote page - EZPW / 中文：MarketWatch报价页 - EZPW",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/ezpw"
+      },
+      {
+        "label": "EN: MarketWatch quote page - QQQ / 中文：MarketWatch报价页 - QQQ",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/qqq"
+      },
+      {
+        "label": "EN: MarketWatch quote page - SMH / 中文：MarketWatch报价页 - SMH",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/smh"
+      },
+      {
+        "label": "EN: MarketWatch quote page - XLE / 中文：MarketWatch报价页 - XLE",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/xle"
+      },
+      {
+        "label": "EN: MarketWatch quote page - XLV / 中文：MarketWatch报价页 - XLV",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/xlv"
+      },
+      {
+        "label": "EN: MarketWatch quote page - TLT / 中文：MarketWatch报价页 - TLT",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/tlt"
+      },
+      {
+        "label": "EN: MarketWatch quote page - HYG / 中文：MarketWatch报价页 - HYG",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/hyg"
+      },
+      {
+        "label": "EN: MarketWatch quote page - SOXL / 中文：MarketWatch报价页 - SOXL",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/soxl"
+      }
+    ]
+  },
+  {
     "date": "2026-07-07",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-07-07 16:10 GMT+8",
