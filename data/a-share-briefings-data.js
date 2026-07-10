@@ -14,7 +14,7 @@ window.A_SHARE_BRIEFINGS = [
     ],
     "summary": [
       "中文：截至约10:39 GMT+8，上证指数约4053.39点、较前收+0.42%；深证成指约15454.15点、较前收+0.36%；创业板指约3987.36点、较前收-0.77%；沪深300约4882.71点、较前收+0.13%；科创50约2182.82点、较前收-0.14%。\nEN: As of about 10:39 GMT+8, the SSE Composite was around 4053.39, +0.42% versus the prior close; the Shenzhen Component about 15454.15, +0.36%; ChiNext about 3987.36, -0.77%; CSI 300 about 4882.71, +0.13%; and STAR 50 about 2182.82, -0.14%.",
-      "中文：宽度比指数表情更好。东财全市场快照显示上涨约4016只、下跌约1097只、平盘约78只，成交额约1.78万亿元；但成长指数没跟上，说明赚钱效应并不平均。\nEN: Breadth looks better than the index leadership mix. Eastmoney's full-market snapshot shows about 4016 advancers, 1097 decliners, and 78 unchanged with roughly 1.78万亿元 in turnover, but the growth indices have not followed, so the profit effect is not evenly distributed.",
+      "中文：宽度比指数表情更好。东财全市场快照显示上涨约4016只、下跌约1097只、平盘约78只，成交额约1.78万亿元；但成长指数没跟上，说明赚钱效应并不平均。\nEN: Breadth looks better than the index leadership mix. Eastmoney's full-market snapshot shows about 4016 advancers, 1097 decliners, and 78 unchanged with roughly RMB 1.78 trillion in turnover, but the growth indices have not followed, so the profit effect is not evenly distributed.",
       "中文：流动性没有新的紧缩信号。人民银行7月10日开展200亿元7天期逆回购、操作利率1.40%，更像稳定短端流动性，而不是给高波动主题开“无条件绿灯”。\nEN: Liquidity is not showing a new tightening signal. The PBOC conducted RMB 20 billion of 7-day reverse repos on July 10 at 1.40%, which looks more like short-end stabilization than a blanket green light for high-volatility themes.",
       "中文：外部映射偏正面但并不等于A股可直接追高。恒生指数约24371.010、恒生科技指数约4829.650，离岸美元兑人民币约6.7820且当日回落，说明外部风险偏好不差；但A股内部仍是‘宽度尚可、成长承接一般’。\nEN: The external read-through is constructive but does not automatically justify chasing in A-shares. The Hang Seng is around 24371.010 and Hang Seng Tech around 4829.650, while USD/CNH is about 6.7820 and softer on the day, which says the external risk tone is acceptable; inside A-shares, though, the structure is still breadth okay, growth follow-through mixed.",
       "中文：真正贴合你风格的执行顺序仍是：先用510300.SH这类底仓工具管理波动，再从002335.SZ、600312.SH、600323.SH里等“缩量企稳或回踩确认”；对588000.SH、301018.SZ这类强弹性样本继续写清楚不追高。\nEN: The execution order that best fits your style still starts with a base-position tool like 510300.SH to manage volatility, then waits for lower-volume stabilization or pullback confirmation in names like 002335.SZ, 600312.SH, and 600323.SH; highly elastic examples like 588000.SH and 301018.SZ should remain explicitly in the no-chase bucket."
@@ -41,7 +41,7 @@ window.A_SHARE_BRIEFINGS = [
         "note": "中文：它仍是高贝塔情绪温度计，不是今天最舒服的首选执行层。\nEN: It remains a high-beta sentiment thermometer rather than the cleanest first-choice execution layer today."
       },
       "成交额与宽度 / Turnover And Breadth": {
-        "value": "中文：全市场上涨约4016只、下跌约1097只、平盘约78只，成交额约1.78万亿元。\nEN: The full market shows about 4016 advancers, 1097 decliners, 78 unchanged, and roughly 1.78万亿元 in turnover.",
+        "value": "中文：全市场上涨约4016只、下跌约1097只、平盘约78只，成交额约1.78万亿元。\nEN: The full market shows about 4016 advancers, 1097 decliners, 78 unchanged, and roughly RMB 1.78 trillion in turnover.",
         "note": "中文：宽度改善是真实的，但成长弱于权重，说明今天更像“低位轮动”而不是“高贝塔全面点火”。\nEN: The breadth improvement is real, but growth is lagging heavier weights, which makes today look more like lower-position rotation than a full high-beta ignition."
       },
       "利率与流动性 / Rates And Liquidity": {
@@ -57,7 +57,7 @@ window.A_SHARE_BRIEFINGS = [
         "note": "中文：港股科技走强有助于维持情绪，但A股创业板和科创并未同步转强，所以映射只能做辅助，不可替代A股本地确认。\nEN: Stronger Hong Kong tech helps keep sentiment constructive, but A-share ChiNext and STAR have not matched that move, so the read-through is only supportive and cannot replace local confirmation."
       },
       "融资融券与ETF / Margin And ETF Flow": {
-        "value": "中文：本次可清晰核验的是ETF成交与趋势：510300.SH盘中约16.17亿元成交、512000.SH约6.50亿元、588000.SH约51.03亿元；完整融资融券净流在本次盘中抓取里不够干净。\nEN: What is cleanly verifiable in this run is ETF turnover and trend: 510300.SH shows about 16.17亿元 traded intraday, 512000.SH about 6.50亿元, and 588000.SH about 51.03亿元; a full margin-financing net-flow read was not clean enough intraday in this run.",
+        "value": "中文：本次可清晰核验的是ETF成交与趋势：510300.SH盘中约16.17亿元成交、512000.SH约6.50亿元、588000.SH约51.03亿元；完整融资融券净流在本次盘中抓取里不够干净。\nEN: What is cleanly verifiable in this run is ETF turnover and trend: 510300.SH shows about RMB 1.62 billion traded intraday, 512000.SH about RMB 650 million, and 588000.SH about RMB 5.10 billion; a full margin-financing net-flow read was not clean enough intraday in this run.",
         "note": "中文：510300更像稳态底仓，512000更像活跃度探针，588000更像高贝塔情绪；执行层级不能混在一起。\nEN: 510300 behaves more like stable base exposure, 512000 like an activity probe, and 588000 like high-beta sentiment; they should not sit in the same execution bucket."
       }
     },
@@ -464,7 +464,7 @@ window.A_SHARE_BRIEFINGS = [
       {
         "title": "中文：流动性信用与市场内部结构\nEN: Liquidity Credit And Internals",
         "items": [
-          "中文：截至盘中，东财全市场快照成交约1.78万亿元，上涨家数远多于下跌家数，说明市场内部并不坏。问题在于权重和中低位轮动更强，成长指数跟得不够整齐。\nEN: As of mid-session, Eastmoney’s full-market snapshot shows about 1.78万亿元 traded and far more advancers than decliners, so the internal market is not bad. The issue is that heavier weights and lower-position rotation are stronger than the growth indices, which are not following in an orderly way.",
+          "中文：截至盘中，东财全市场快照成交约1.78万亿元，上涨家数远多于下跌家数，说明市场内部并不坏。问题在于权重和中低位轮动更强，成长指数跟得不够整齐。\nEN: As of mid-session, Eastmoney’s full-market snapshot shows about RMB 1.78 trillion traded and far more advancers than decliners, so the internal market is not bad. The issue is that heavier weights and lower-position rotation are stronger than the growth indices, which are not following in an orderly way.",
           "中文：ETF层面，510300.SH的意义是吸收波动，512000.SH的意义是验证活跃度，588000.SH的意义是读取情绪。把三者混成一个执行层级，往往就是T+1犯错的开始。\nEN: At the ETF layer, 510300.SH absorbs volatility, 512000.SH validates activity, and 588000.SH reads sentiment. Blending those three into one execution layer is often how T+1 mistakes begin."
         ]
       },
