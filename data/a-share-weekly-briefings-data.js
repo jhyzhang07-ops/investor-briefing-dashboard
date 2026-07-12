@@ -1,5 +1,309 @@
 window.A_SHARE_WEEKLY_BRIEFINGS = [
   {
+    "date": "2026-07-12",
+    "weekId": "2026-W28",
+    "weekNumber": 28,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-12 08:00 GMT+8",
+    "title": "中文：A股周度市场简报 - 第28周\nEN: A-share Weekly Market Brief - Week 28",
+    "tone": "中文：这是‘宽基偏弱、科创和芯片相对强、但情绪已开始拥挤’的一周。对下周最实用的执行，不是把本周最强科技股继续当低风险起点，而是等低于50元、流动性好、能承受T+1隔夜风险的回踩确认。\nEN: This was a week of weaker broad indices but relative strength in STAR and chips, with sentiment already getting crowded. The practical playbook for next week is not to treat this week’s strongest tech names as fresh low-risk entries, but to wait for pullback confirmation in sub-RMB50, liquid names that can actually survive T+1 overnight risk.",
+    "priorities": [
+      "中文：下周先看2026-07-15 10:00国家统计局国民经济运行情况发布；若数据不弱、510300.SH与512000.SH同步稳住，本周偏窄的科技强势才有机会向更可执行的低价股扩散。\nEN: First watch the NBS national economic activity release at 10:00 on 2026-07-15; if the data do not disappoint and 510300.SH plus 512000.SH stabilize together, this week’s narrow tech strength has a better chance to broaden into more executable lower-priced names.",
+      "中文：继续把‘ETF先确认、个股后跟进’放在最前面。510300.SH、512000.SH和588000.SH的相对强弱，会决定下周是做回踩承接，还是只做观察。\nEN: Keep ‘ETF confirmation first, stock follow-through second’ at the top of the checklist. The relative behavior of 510300.SH, 512000.SH, and 588000.SH will decide whether next week favors pullback entries or observation only.",
+      "中文：本周最强的000938.SZ、688981.SH、000063.SZ都已经不适合无条件追高；A股T+1下，周一高开后最差的交易常常是把强趋势买成隔夜风险。\nEN: The strongest names this week, including 000938.SZ, 688981.SH, and 000063.SZ, are no longer automatic chase setups; under A-share T+1, the worst trade is often turning a strong trend into overnight risk after a Monday gap-up.",
+      "中文：用户偏好的低价稳一点、约10个交易日持有风格，下周更匹配中国交建、中国电建、瀚蓝环境、国电南瑞、科华数据这类回踩后可写清楚失效条件的票，而不是继续追高位科创冲刺。\nEN: The user’s preferred lower-priced, steadier, roughly 10-trading-day style fits names like China Communications Construction, Power Construction Corp., Hanlan Environment, NARI Technology, and Kehua Data after pullbacks, rather than continuing to chase elevated STAR sprints.",
+      "中文：本周日报里最值得保留的纪律，是等待中兰环保、科华数据和盛弘股份这类修复票给出均线与量能确认；最需要修正的是，要把‘方向仍强’和‘买点不舒服’分开写清楚。\nEN: The discipline worth keeping from this week’s daily briefs is waiting for moving-average and volume confirmation in repair names such as Zhonglan Environmental, Kehua Data, and Sinexcel; the main fix is to separate ‘direction still strong’ from ‘entry still uncomfortable.’"
+    ],
+    "summary": [
+      "中文：按2026-07-03至2026-07-10收盘计算，上证指数约跌1.17%，深证成指约跌3.53%，创业板指约跌4.41%，沪深300约跌1.27%，但科创50约涨4.52%。这说明本周不是普涨，而是宽基承压、科创和芯片逆势更强。\nEN: From the 2026-07-03 close to the 2026-07-10 close, the SSE Composite fell about 1.17%, the Shenzhen Component 3.53%, ChiNext 4.41%, and the CSI 300 1.27%, while the STAR 50 gained about 4.52%. This was not a broad rally; it was broad-index pressure with relative strength in STAR and chips.",
+      "中文：ETF层面，510300.SH周跌约0.96%，512000.SH周跌约3.62%，588000.SH周涨约5.09%，159995.SZ周涨约2.33%。风格分裂非常明显，说明周度赚钱效应主要集中在硬科技和算力链，而不是全面扩散。\nEN: At the ETF level, 510300.SH fell about 0.96% for the week, 512000.SH fell 3.62%, 588000.SH rose 5.09%, and 159995.SZ rose 2.33%. The style split was obvious, showing that the week’s money-making effect stayed concentrated in hard tech and compute-linked themes rather than broadening across the market.",
+      "中文：周五盘中全市场一度约4016只上涨、1097只下跌，说明宽度在周末有所修复；但周度指数仍偏弱，意味着‘周五回暖’暂时更像情绪修补，而不是低风险新升浪确认。\nEN: Intraday on Friday, the full market briefly showed about 4,016 advancers versus 1,097 decliners, showing some late-week breadth repair; but weekly index performance was still weak, so the Friday rebound looked more like sentiment repair than confirmation of a new low-risk upswing.",
+      "中文：本周日报最有效的部分，是没有把中兰环保、科华数据、盛弘股份这类仍在修复区的票过早升级成主仓，这帮助回避了T+1下最难处理的隔夜回撤。\nEN: The most effective part of the daily-brief framework this week was not upgrading repair-zone names like Zhonglan Environmental, Kehua Data, and Sinexcel into core positions too early, which helped avoid the hardest T+1 overnight pullbacks.",
+      "中文：本周日报需要修正的地方，是对科创和半导体高贝塔持续性的低估。588000.SH和688981.SH的方向比预期更强，但这并不自动等于适合你的买点；以后要把‘继续涨’和‘适合追’明确拆开。\nEN: The part that needs adjustment is underestimating the persistence of STAR and semiconductor high beta. 588000.SH and 688981.SH stayed stronger than expected on direction, but that does not automatically mean the entries suited your style; going forward, ‘still rising’ and ‘still chaseable’ need to be separated clearly.",
+      "中文：对下周最实用的结论，是把低于50元、流动性深、能用明确失效条件管理的票放在前面，把本周已经加速的高价科技只放在观察和回踩名单里。\nEN: The most practical conclusion for next week is to put sub-RMB50, highly liquid names with clear invalidation rules first, while keeping this week’s already-accelerated higher-priced tech names only on the observation and pullback list."
+    ],
+    "marketPulse": {
+      "主要指数": {
+        "value": "上证指数 3996.16（周跌约1.17%） / 深证成指 15046.67（周跌约3.53%） / 创业板指 3842.73（周跌约4.41%） / 沪深300 4780.79（周跌约1.27%） / 科创50 2064.98（周涨约4.52%）",
+        "note": "中文：周度强弱排序是科创50显著强于宽基与创业板。若下周仍只有科创和芯片走强，而沪深300、券商和低价权重不跟，这轮行情仍应按偏窄结构处理。\nEN: The weekly strength order showed the STAR 50 clearly outperforming the broad market and ChiNext. If next week still brings strength only in STAR and chips while the CSI 300, brokers, and lower-priced heavyweights fail to follow, this move should still be treated as a narrow structure."
+      },
+      "成交/宽度": {
+        "value": "510300.SH 周跌约0.96% / 512000.SH 周跌约3.62% / 588000.SH 周涨约5.09% / 159995.SZ 周涨约2.33%；周五盘中全市场约4016涨、1097跌，宽度较周中改善",
+        "note": "中文：周末宽度修复是真实的，但券商和宽基没有同步转强，说明风险偏好仍主要停留在科技局部，而不是全市场顺风。\nEN: The late-week breadth repair was real, but brokers and broad indices did not strengthen together, meaning risk appetite still stayed mainly in pockets of tech rather than turning into a whole-market tailwind."
+      },
+      "流动性": {
+        "value": "中国人民银行2026-07-10开展200亿元7天期逆回购，操作利率1.40%；2026-07-15 10:00国家统计局将发布国民经济运行情况",
+        "note": "中文：流动性口径没有给出新的紧缩惊吓，但也不足以支持无条件追高。下周更合理的做法，是把宏观数据、人民币和ETF确认一起看。\nEN: The liquidity readout did not deliver a new tightening shock, but it still does not justify indiscriminate chasing. A cleaner next-week read is to assess macro data, the yuan, and ETF confirmation together."
+      }
+    },
+    "weekReview": [
+      "中文：本周最大的事实，是宽基偏弱与科创偏强同时存在。上证和沪深300都收跌，但科创50逆势上涨，说明赚钱效应集中在更拥挤的科技主线。\nEN: The biggest fact this week was the coexistence of weaker broad indices and stronger STAR. Both the SSE and CSI 300 closed down for the week while the STAR 50 rose, meaning the money-making effect stayed concentrated in a more crowded tech main line.",
+      "中文：芯片和算力链的强度比预期更持久。688981.SH周涨约16.19%，000938.SZ周涨约26.85%，000063.SZ周涨约11.41%，都说明资金愿意继续向国产算力、ICT设备和科创平台集中。\nEN: Chips and the compute chain held up longer than expected. 688981.SH gained about 16.19%, 000938.SZ about 26.85%, and 000063.SZ about 11.41% for the week, all showing continued capital concentration in domestic compute, ICT equipment, and the STAR platform.",
+      "中文：但周五也开始出现典型的高位分歧。588000.SH周五高开后收跌约5.11%，159995.SZ收跌约6.52%，688981.SH从周内高点回落，这些都提醒下周不能把强趋势直接等同于舒服买点。\nEN: But Friday also started to show classic high-level disagreement. 588000.SH opened high and then closed down about 5.11% on Friday, 159995.SZ fell about 6.52%, and 688981.SH backed off from its weekly high, all reminding us that a strong trend does not automatically equal a comfortable entry next week.",
+      "中文：本周日报里坚持等待修复确认，这一点是正确的。中兰环保、科华数据、盛弘股份没有被过早拔高成主执行标的，避免了把低价或基本面故事误判成已完成修复。\nEN: The daily-brief insistence on waiting for repair confirmation was correct. Zhonglan Environmental, Kehua Data, and Sinexcel were not promoted too early into primary execution names, which avoided mistaking low nominal price or a decent fundamental story for a completed technical repair.",
+      "中文：本周给下周最重要的提示是：方向可以继续偏多，但买点必须更严格。没有回踩、缩量、ETF共振和次日流动性保障时，再好的故事也可能在T+1下变成被动隔夜仓。\nEN: The main carryover lesson for next week is that directional bias can stay constructive, but entries must become stricter. Without pullbacks, cooling volume, ETF resonance, and next-day liquidity, even a good story can become a forced overnight T+1 position."
+    ],
+    "nextWeekFocus": [
+      "中文：2026-07-15 10:00国家统计局国民经济运行情况是下周最关键的系统性催化。若工业、消费和投资读数不弱，低价央企与稳一点的ICT设备更容易获得接力。\nEN: The NBS national economic activity release at 10:00 on 2026-07-15 is next week’s most important systemic catalyst. If industrial, consumption, and investment readings hold up, lower-priced SOEs and steadier ICT equipment have a better chance of receiving follow-through buying.",
+      "中文：继续跟踪中国人民银行公开市场操作和人民币表现。若短端流动性维持平稳、人民币不明显走弱，回踩型交易的胜率会高于情绪化追高。\nEN: Keep tracking PBOC open-market operations and yuan behavior. If short-end liquidity stays stable and the yuan does not materially weaken, pullback-style trades should keep better odds than emotional chasing.",
+      "中文：观察510300.SH和512000.SH能否止跌，而588000.SH和159995.SZ能否在回吐后守住关键区。若只剩科创继续孤军冲高，说明结构仍窄，不适合重仓追价。\nEN: Watch whether 510300.SH and 512000.SH can stop falling, and whether 588000.SH plus 159995.SZ can hold key levels after their giveback. If only STAR keeps squeezing on its own, the structure remains narrow and does not favor aggressive chasing.",
+      "中文：中报预告和公司公告窗口会逐步打开，个股隔夜跳空风险会上升。对任何单票，都要先假设公告后的次日流动性不如盘中看上去那么舒服。\nEN: The interim-guidance and company-announcement window will keep opening, raising overnight gap risk in single names. For any stock, start with the assumption that post-announcement next-day liquidity may be worse than it appears intraday.",
+      "中文：执行层面只优先看中国交建、中国电建、瀚蓝环境、国电南瑞、科华数据这类低于50元且能写清失效条件的票；中兴通讯和本周大涨科技股只适合回踩后二次确认。\nEN: On execution, prioritize only names such as China Communications Construction, Power Construction Corp., Hanlan Environment, NARI Technology, and Kehua Data that are below RMB 50 and come with clear invalidation rules; ZTE and this week’s big tech gainers fit only secondary confirmation after pullbacks."
+    ],
+    "sectors": [
+      {
+        "name": "芯片与科创 / Chips And STAR",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "中文：588000.SH周涨约5.09%，688981.SH周涨约16.19%，说明资金继续集中在国产算力、半导体和科创平台。\nEN: 588000.SH rose about 5.09% and 688981.SH about 16.19% for the week, showing continued capital concentration in domestic compute, semiconductors, and the STAR platform.",
+        "watch": "中文：只看回踩后的承接，不看周一高开第一脚；最好由588000.SH和159995.SZ先稳住，再看单一龙头。\nEN: Only respect absorption after a pullback, not the first Monday gap-up leg; ideally let 588000.SH and 159995.SZ stabilize first before looking at any single leader.",
+        "risk": "中文：周五已经出现高位分歧，若ETF继续回吐而个股单独冲高，T+1下追价容错率会很低。\nEN: Friday already showed high-level disagreement; if ETFs keep giving back while individual stocks continue to spike alone, chase tolerance under T+1 will be very low."
+      },
+      {
+        "name": "ICT主设备与算力配套 / ICT Equipment And Compute Infrastructure",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：000063.SZ周涨约11.41%，科华数据有7月7日股权激励登记公告，说明算力链资金仍愿意寻找更可执行的设备与配套。\nEN: 000063.SZ rose about 11.41% for the week, and Kehua Data has the July 7 incentive-registration filing, showing that compute-chain money still wants more executable equipment and support plays.",
+        "watch": "中文：中兴通讯只看38.8-39.8元附近回踩承接，科华数据只看36.5-37.2元重新站回后的确认。\nEN: In ZTE, only watch pullback absorption around RMB 38.8-39.8; in Kehua Data, only watch confirmation after a reclaim of roughly RMB 36.5-37.2.",
+        "risk": "中文：若人民币转弱、创业板再失速或成交缩量，这条线会从‘相对稳的科技’退化成普通情绪科技。\nEN: If the yuan weakens, ChiNext stalls again, or turnover contracts, this line can degrade from ‘steadier tech’ into ordinary sentiment-driven tech."
+      },
+      {
+        "name": "工程央企 / Engineering SOEs",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：中国交建本周约+0.17%、中国电建约-0.32%，在弱市里相对抗跌，说明低价央企仍有承接轮动资金的能力。\nEN: China Communications Construction was about +0.17% and Power Construction Corp. about -0.32% for the week, both relatively resilient in a weak tape, showing that lower-priced SOEs can still absorb rotation capital.",
+        "watch": "中文：优先等不高开的回踩，再观察5.78-5.88元的中国交建和4.55-4.62元的中国电建是否缩量稳住。\nEN: First wait for non-gap-up pullbacks, then watch whether China Communications Construction around RMB 5.78-5.88 and Power Construction Corp. around RMB 4.55-4.62 can stabilize on lighter volume.",
+        "risk": "中文：若宏观数据转弱、宽基继续走低，这里也可能只是抗跌而不是能给出像样的上行斜率。\nEN: If macro data weaken and broad indices keep falling, this group may be only defensive relative strength rather than a meaningful upside trend."
+      },
+      {
+        "name": "电网设备 / Grid Equipment",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "中文：国资委披露国家电网“十五五”建设新型电力系统投资安排，给电网设备链提供中期公开支撑。\nEN: SASAC disclosed State Grid investment plans for building a new power system during the 15th Five-Year period, giving medium-term public support to the grid-equipment chain.",
+        "watch": "中文：只在国电南瑞、平高电气先止跌并出现均线修复时观察；更适合作为低波动补涨仓，而不是周一追最热。\nEN: Watch only if NARI Technology and Pinggao Electric first stop falling and start repairing their moving averages; this works better as a lower-volatility catch-up sleeve than as a Monday chase.",
+        "risk": "中文：若市场继续只奖励科创和高弹性，它们可能仍会跑输并拖慢仓位效率。\nEN: If the market keeps rewarding only STAR and higher beta, these names can still lag and reduce position efficiency."
+      },
+      {
+        "name": "券商 / Brokers",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：券商仍是判断风险偏好能否扩散的关键温度计，即使512000.SH本周约跌3.62%，它的止跌与否仍决定很多低价股能否更舒服地接力。\nEN: Brokers remain the key thermometer for whether risk appetite can broaden. Even though 512000.SH fell about 3.62% this week, whether it can stop falling still determines whether many lower-priced names can hand off more comfortably.",
+        "watch": "中文：只有512000.SH重新站回0.54附近、同时510300.SH不再走弱，才说明市场愿意从科创主线外扩。\nEN: Only if 512000.SH reclaims roughly 0.54 while 510300.SH stops weakening does it suggest the market is willing to broaden beyond the STAR-led theme.",
+        "risk": "中文：若券商继续弱而科创继续单兵冲高，下周最该做的不是补仓，而是承认结构仍窄。\nEN: If brokers stay weak while STAR keeps squeezing higher alone, the right move next week is not to add size but to admit the structure remains narrow."
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "601800.SH",
+        "chineseName": "中国交建",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：更偏向5.78-5.88元回踩缩量后的观察，不接受周一高开直接追。\nEN: Prefer watching a lighter-volume pullback into roughly RMB 5.78-5.88 rather than chasing a Monday gap-up.",
+        "suggestedProfitTake": "中文：第一目标看6.20-6.45元；若量价继续温和配合，可分批上移止盈。\nEN: First target is roughly RMB 6.20-6.45; if price and volume keep cooperating calmly, trail profits upward in stages.",
+        "type": "中文：10日波段 / 低于10元 / 工程央企\nEN: 10-day swing / below RMB 10 / engineering SOE",
+        "catalyst": "中文：本周约+0.17%，在弱市里仍保持相对韧性，适合作为低价、流动性足够的稳态进攻工具。\nEN: Up about 0.17% for the week and still relatively resilient in a weak market, it fits as a lower-priced, sufficiently liquid steadier offensive tool.",
+        "why": "中文：它更接近‘低价、能持有、失效条件清楚’的执行风格，不需要依赖情绪加速。\nEN: It is closer to the desired execution style of lower price, holdability, and clear invalidation without depending on sentiment acceleration.",
+        "risk": "中文：若基建与宽基共振不足，它可能只剩抗跌属性，向上弹性会有限。\nEN: If infrastructure and the broad market do not resonate together, it may offer only relative defense with limited upside elasticity.",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约+0.17%，收盘5.94元，站在MA5与MA10上方，结构比多数低价股更整齐。\nEN: About +0.17% for the week, closing at RMB 5.94 and sitting above both MA5 and MA10, leaving a tidier structure than most lower-priced names.",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "601669.SH",
+        "chineseName": "中国电建",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：更理想的是4.55-4.62元区间回踩后稳住，再考虑是否参与。\nEN: The cleaner setup is a pullback that stabilizes in roughly the RMB 4.55-4.62 zone before considering participation.",
+        "suggestedProfitTake": "中文：第一目标看4.82-5.00元；若放量无力，则先按区间处理。\nEN: First target is around RMB 4.82-5.00; if volume expansion lacks follow-through, treat it as a range trade first.",
+        "type": "中文：10日波段 / 低于10元 / 工程央企\nEN: 10-day swing / below RMB 10 / engineering SOE",
+        "catalyst": "中文：本周约-0.32%，但在宽基偏弱时仍相对稳定，说明低价央企方向没有完全失去承接。\nEN: Down about 0.32% for the week but still comparatively stable while broad indices weakened, showing that lower-priced SOEs have not fully lost sponsorship.",
+        "why": "中文：价格低、流动性深、风格稳，适合在科技太热时做替代进攻或平衡仓位。\nEN: Its lower price, deep liquidity, and steadier style suit it as alternative offense or balance exposure when tech gets too hot.",
+        "risk": "中文：如果宏观数据不及预期，它也可能被重新归类为低弹性避险工具，而不是进攻仓。\nEN: If macro data disappoint, it may be reclassified as low-beta defense rather than a true offensive holding.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约-0.32%，收盘4.66元，MA5与MA10几乎走平，说明它更像等待方向选择。\nEN: About -0.32% for the week, closing at RMB 4.66 with MA5 and MA10 nearly flat, meaning it is still waiting for directional choice.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "600323.SH",
+        "chineseName": "瀚蓝环境",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：只在27.2-27.8元区间缩量止跌后观察；若继续跌破27元，就先不做补涨假设。\nEN: Watch only after lighter-volume stabilization around RMB 27.2-27.8; if it keeps losing RMB 27, do not assume a catch-up rally.",
+        "suggestedProfitTake": "中文：第一目标看29.3-30.2元；若量能仍弱，则以短线减仓为主。\nEN: First target is roughly RMB 29.3-30.2; if volume stays weak, favor short-term reduction rather than stubborn holding.",
+        "type": "中文：10日波段 / 低于50元 / 公用事业事件驱动\nEN: 10-day swing / below RMB 50 / utility event-driven",
+        "catalyst": "中文：粤丰环保相关收购评估文件让它继续保留‘稳健事件驱动’属性，且估值和波动都比高位科技更容易管理。\nEN: The Canvest-related acquisition valuation documents keep it in the steadier event-driven bucket, with valuation and volatility easier to manage than elevated tech names.",
+        "why": "中文：它不一定最快，但更符合‘回踩确认后持有约10日’的风格。\nEN: It may not be the fastest name, but it fits the style of buying after pullback confirmation and holding for roughly 10 days.",
+        "risk": "中文：若市场继续只奖励高贝塔科技，它可能继续跑输并消耗耐心。\nEN: If the market keeps rewarding only higher-beta tech, it may continue to lag and consume patience.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约-1.45%，收盘27.90元，仍低于MA5且接近MA10，属于等待修复而不是趋势发散。\nEN: About -1.45% for the week, closing at RMB 27.90, still below MA5 and near MA10, which keeps it in repair mode rather than trend expansion.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "600406.SH",
+        "chineseName": "国电南瑞",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：只在21.6-22.0元区间稳住、且宽基不再继续走弱时观察。\nEN: Watch only if it stabilizes around RMB 21.6-22.0 while broad indices stop weakening.",
+        "suggestedProfitTake": "中文：若出现补涨，先看22.9-23.8元；若量价配合一般，就按低波动补涨处理。\nEN: If a catch-up move appears, first watch RMB 22.9-23.8; if price-volume cooperation stays average, treat it as a lower-volatility catch-up trade.",
+        "type": "中文：10日波段 / 低于50元 / 电网设备\nEN: 10-day swing / below RMB 50 / grid equipment",
+        "catalyst": "中文：国家电网新型电力系统投资安排提供中期支撑，它更像下周若风险偏好扩散后的稳健补涨标的。\nEN: State Grid’s new-power-system investment plan provides medium-term support, making it more of a steadier catch-up candidate if risk appetite broadens next week.",
+        "why": "中文：这更接近类似中兰环保那种‘价格不高、节奏更稳’的持仓风格，只是流动性和基本面更扎实。\nEN: This is closer to the ‘not expensive, steadier rhythm’ holding style referenced by Zhonglan Environmental, only with stronger liquidity and fundamentals.",
+        "risk": "中文：如果下周资金继续只追科创和芯片，它可能仍然跑输。\nEN: If next week’s money keeps chasing only STAR and chips, it may still underperform.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约-3.71%，收盘22.04元，仍低于MA5和MA10，更适合等确认而不是猜底。\nEN: About -3.71% for the week, closing at RMB 22.04 and still below MA5 and MA10, so it fits waiting for confirmation rather than bottom guessing.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "002335.SZ",
+        "chineseName": "科华数据",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：只在36.5-37.2元重新站回并稳住后观察；如果继续在36元下方反复，就先不参与。\nEN: Watch only after it reclaims and holds roughly RMB 36.5-37.2; if it keeps chopping below RMB 36, stay out first.",
+        "suggestedProfitTake": "中文：第一目标看39.0-40.5元；若站回后量能跟不上，就先做区间止盈。\nEN: First target is around RMB 39.0-40.5; if volume does not confirm after the reclaim, take range-style profits first.",
+        "type": "中文：10日波段 / 低于50元 / 算力配套\nEN: 10-day swing / below RMB 50 / compute infrastructure support",
+        "catalyst": "中文：7月7日完成限制性股票激励登记，给算力配套逻辑增加了可验证催化，但技术面仍未完全修复。\nEN: The July 7 completion of restricted-stock grant registration adds a verifiable catalyst to the compute-support thesis, but the technical repair is still incomplete.",
+        "why": "中文：它同时满足低于50元、题材有逻辑、又能写清确认条件，比纯情绪小票更适合做计划内观察。\nEN: It combines a sub-RMB50 price, a real theme, and clearly writable confirmation rules, making it more suitable for planned observation than pure sentiment small caps.",
+        "risk": "中文：若重新跌回36元下方且板块不共振，这里更像弱修复，不像可持有波段。\nEN: If it falls back below RMB 36 without sector resonance, this looks more like a weak repair than a holdable swing.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约-4.87%，收盘36.10元，仍略低于MA5和明显低于MA10，说明买点必须等确认。\nEN: About -4.87% for the week, closing at RMB 36.10 and still slightly below MA5 and clearly below MA10, meaning the entry must wait for confirmation.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "000063.SZ",
+        "chineseName": "中兴通讯",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：更合理的是38.8-39.8元回踩承接，不接受周一高开后第一脚追价。\nEN: The cleaner setup is pullback absorption around RMB 38.8-39.8; do not chase the first Monday gap-up leg.",
+        "suggestedProfitTake": "中文：第一目标看43.0-45.0元；若再出现放量急拉，则优先分批兑现而不是贪最后一段。\nEN: First target is roughly RMB 43.0-45.0; if another volume-driven surge appears, prioritize scaling out rather than squeezing the last stretch.",
+        "type": "中文：10日波段 / 低于50元 / ICT主设备\nEN: 10-day swing / below RMB 50 / core ICT equipment",
+        "catalyst": "中文：本周约+11.41%，且7月9日至10日成交明显放大，说明ICT设备方向正在承接部分算力与科技扩散资金。\nEN: Up about 11.41% for the week with clear turnover expansion on July 9-10, showing that ICT equipment is absorbing part of the compute and tech-broadening flow.",
+        "why": "中文：它比高价光模块更贴近你的流动性和价格偏好，但现在位置已经不低，所以只能回踩后看。\nEN: It is closer to your liquidity and price preference than higher-priced optical-module leaders, but the location is no longer cheap, so it belongs only on pullback watch now.",
+        "risk": "中文：若周一再大幅高开而板块ETF不跟，T+1下很容易从趋势股变成被动隔夜仓。\nEN: If it gaps sharply again on Monday while sector ETFs do not confirm, it can easily shift from trend stock to forced overnight position under T+1.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约+11.41%，收盘40.53元，站在MA5和MA10上方，但短线已经不再便宜。\nEN: About +11.41% for the week, closing at RMB 40.53 above both MA5 and MA10, but no longer cheap in the short term.",
+        "setupStatus": "wait for pullback"
+      }
+    ],
+    "riskControls": [
+      "中文：若510300.SH继续跌破4.80附近、512000.SH仍压在0.54下方，而588000.SH又重新跌回2.20附近下方，本周‘科技相对强’的脚本就要降级成‘高位拥挤后的回吐’。\nEN: If 510300.SH keeps breaking toward the 4.80 area, 512000.SH remains capped below 0.54, and 588000.SH slips back under roughly 2.20, this week’s ‘tech relatively strong’ script should be downgraded to ‘post-crowding giveback.’",
+      "中文：对000938.SZ、688981.SH、000063.SZ这类本周大涨股，周一若再高开，默认先等30至60分钟板块和ETF确认；没有共振就不追。\nEN: For this week’s big gainers such as 000938.SZ, 688981.SH, and 000063.SZ, if Monday gaps higher again, default to waiting 30 to 60 minutes for sector and ETF confirmation; without resonance, do not chase.",
+      "中文：若2026-07-15宏观数据偏弱、人民币明显走弱或公开市场操作转紧，优先降低高贝塔科技暴露，再决定是否保留低价稳态仓。\nEN: If the 2026-07-15 macro data disappoint, the yuan weakens materially, or open-market operations tighten, reduce high-beta tech exposure first and then decide whether to keep steadier lower-priced holdings.",
+      "中文：如果中国交建、中国电建、瀚蓝环境、国电南瑞、科华数据这些更符合风格的票都不给回踩确认，下周最好的交易往往就是少交易。\nEN: If style-fitting names like China Communications Construction, Power Construction Corp., Hanlan Environment, NARI Technology, and Kehua Data do not offer pullback confirmation, the best trade next week is often to trade less."
+    ],
+    "sections": [
+      {
+        "title": "中文：本周大涨股票与原因\nEN: Major Surges And Reasons",
+        "items": [
+          "000938.SZ 紫光股份：中文：本周约+26.85%，是周内最强的低于50元高流动性科技之一；主要驱动来自国产算力、ICT平台和AI基础设施资金集中，周五单日约+7.65%，成交约为近10日均量1.55倍。逻辑可信，但四天连续加速后已明显拥挤；状态：wait for pullback / avoid chase。\nEN: 000938.SZ Unisplendour gained about 26.85% for the week, making it one of the strongest sub-RMB50 liquid tech names; the main driver was concentrated capital into domestic compute, ICT platforms, and AI infrastructure, with Friday alone up about 7.65% on roughly 1.55x its 10-day average volume. The thesis is credible, but the four-day acceleration is already crowded; status: wait for pullback / avoid chase.",
+          "688981.SH 中芯国际：中文：本周约+16.19%，体现了半导体与科创平台共振；7月9日单日拉升明显，周五虽从高位回落但成交仍高。逻辑在国产替代和芯片景气，问题不在方向而在位置；状态：extended / wait for pullback。\nEN: 688981.SH SMIC rose about 16.19% for the week, reflecting resonance between semiconductors and the STAR platform; the major squeeze came on July 9, and Friday still held high turnover despite the retreat. The logic sits in domestic substitution and chip momentum; the issue is not direction but location; status: extended / wait for pullback.",
+          "000063.SZ 中兴通讯：中文：本周约+11.41%，属于本周少数既强、又仍在50元以下的大流动性ICT设备票；7月9日至10日量能明显放大，说明资金开始从纯芯片向更可执行设备扩散。若周一高开再追，T+1下仍不舒服；状态：still tradable on pullback。\nEN: 000063.SZ ZTE gained about 11.41% for the week and was one of the few strong yet still sub-RMB50 large-liquidity ICT equipment names; turnover expanded sharply on July 9-10, showing some flow broadening from pure chips into more executable equipment. Chasing another Monday gap would still be awkward under T+1; status: still tradable on pullback.",
+          "002281.SZ 光迅科技：中文：本周约+7.42%，延续了高速光连接和AI网络设备强势，周五虽回落约2.11%，但量能仍高于近10日均量约1.27倍。它证明资金仍在科技主线内部轮动，不过价格已远超用户偏好；状态：watch only / avoid chase。\nEN: 002281.SZ Accelink rose about 7.42% for the week, extending the strength in high-speed optical connectivity and AI networking; although Friday pulled back about 2.11%, turnover still ran around 1.27x its 10-day average. It confirms continued rotation inside the tech main line, but the price is far above the user’s preference; status: watch only / avoid chase.",
+          "588000.SH 科创50ETF：中文：本周约+5.09%，是最干净的科创整体风险偏好表达之一；但周五高开后收跌约5.11%，说明周内情绪已经开始出现高位分歧。对下周更好的做法，是先等它缩量稳住，再决定是否恢复科技仓位；状态：watch for pullback。\nEN: 588000.SH STAR 50 ETF gained about 5.09% for the week and was one of the cleanest expressions of overall STAR risk appetite; but Friday opened high and closed down about 5.11%, showing that weekly emotion had already started to split at higher levels. A better next-week approach is to wait for calmer stabilization before restoring tech exposure; status: watch for pullback."
+        ]
+      },
+      {
+        "title": "中文：本周表现复盘\nEN: Weekly Performance Scorecard",
+        "items": [
+          "中文：做对的部分，是没有把中兰环保、科华数据、盛弘股份这些仍在修复区的票过早升级成主仓。这条纪律在T+1下很重要，因为它避免了把‘看起来便宜’误判成‘已经能持有’。\nEN: The part that worked was not promoting Zhonglan Environmental, Kehua Data, or Sinexcel into core positions too early while they were still in repair mode. That discipline matters under T+1 because it avoids mistaking ‘looks cheap’ for ‘already holdable.’",
+          "中文：做对的第二点，是继续把510300.SH、512000.SH和宽度放在风格判断前面。本周宽基偏弱、券商偏弱，而科创偏强，这个过滤器没有失效。\nEN: The second thing that worked was continuing to put 510300.SH, 512000.SH, and breadth ahead of stock picking in regime judgment. This week had weaker broad indices, weaker brokers, and stronger STAR, so that filter did not fail.",
+          "中文：需要修正的地方，是对科创和半导体方向持续性的低估。588000.SH和688981.SH比预期更强，说明以后要把‘方向延续’单独记录，即使结论仍是‘不适合追高’。\nEN: The part that needs adjustment is underestimating the persistence of STAR and semiconductors. 588000.SH and 688981.SH were stronger than expected, so in future the ‘direction still extending’ fact should be logged explicitly even if the execution conclusion remains ‘do not chase.’",
+          "中文：对下周最实用的升级，是把‘方向、位置、T+1执行舒适度’拆成三层，而不是用一个结论概括所有事情。\nEN: The most useful upgrade for next week is to split the analysis into direction, location, and T+1 execution comfort instead of compressing everything into one conclusion."
+        ]
+      },
+      {
+        "title": "中文：下周即将发生的催化\nEN: Upcoming Catalyst Watch",
+        "items": [
+          "2026-07-15：中文：国家统计局将在10:00发布国民经济运行情况，这是下周最重要的宏观检验点。若数据不弱，低价央企与稳一点的设备股更容易接棒；若数据偏弱，则高贝塔科技更容易先被兑现。\nEN: On 2026-07-15, the NBS will release national economic activity data at 10:00, the key macro test next week. If the data hold up, lower-priced SOEs and steadier equipment names are more likely to take the handoff; if they disappoint, higher-beta tech is more exposed to profit-taking.",
+          "2026-07-14 至 2026-07-17：中文：继续跟踪中国人民银行公开市场操作和人民币表现。若短端资金继续稳、人民币不弱，回踩型交易会比情绪追高更容易执行。\nEN: From 2026-07-14 to 2026-07-17, keep tracking PBOC open-market operations and yuan behavior. If front-end funding stays stable and the yuan does not weaken, pullback-style trades should remain easier to execute than emotional chasing.",
+          "2026-07-14 至 2026-07-17：中文：观察510300.SH、512000.SH是否止跌，以及588000.SH、159995.SZ是否在回吐后稳住。它们共同决定本周科技强势是扩散、整理，还是开始退潮。\nEN: From 2026-07-14 to 2026-07-17, watch whether 510300.SH and 512000.SH stop falling, and whether 588000.SH and 159995.SZ stabilize after their giveback. Together they decide whether this week’s tech strength broadens, consolidates, or starts fading.",
+          "2026-07-14 至 2026-07-17：中文：中报预告和公司公告会增加隔夜跳空风险，尤其是本周大涨的科技股。若没有低开回踩和成交确认，默认先看不先追。\nEN: From 2026-07-14 to 2026-07-17, interim guidance and company announcements will increase overnight gap risk, especially in this week’s big tech winners. Without a lower open, pullback, and turnover confirmation, default to watching first rather than chasing."
+        ]
+      },
+      {
+        "title": "中文：风险控制与失效条件\nEN: Risk Controls And Invalidation",
+        "items": [
+          "中文：若510300.SH、512000.SH继续弱，而588000.SH和159995.SZ也开始同步失守，本周‘科技相对强’的主结论就失效，仓位应回到更轻、更分散。\nEN: If 510300.SH and 512000.SH stay weak while 588000.SH and 159995.SZ also start breaking together, the main conclusion of ‘tech relatively strong’ fails and exposure should move back to lighter, more diversified sizing.",
+          "中文：若000938.SZ、688981.SH、000063.SZ周一再高开，但30至60分钟内板块多数成分股和ETF不跟，就按冲高兑现处理，不把高开当成加仓许可。\nEN: If 000938.SZ, 688981.SH, or 000063.SZ gap up again on Monday but the majority of sector components and ETFs fail to follow within 30 to 60 minutes, treat it as sell-into-strength behavior rather than permission to add.",
+          "中文：若中国交建、中国电建、瀚蓝环境、国电南瑞、科华数据这些更符合风格的票都不给回踩承接，下周就不必强行提高交易频率。\nEN: If style-fitting names like China Communications Construction, Power Construction Corp., Hanlan Environment, NARI Technology, and Kehua Data do not offer constructive pullback absorption, there is no need to force higher trading frequency next week.",
+          "中文：若宏观数据偏弱、人民币走弱或公开市场口径转紧，高位科技与高换手票要先降温，留出应对隔夜跳空的现金缓冲。\nEN: If macro data disappoint, the yuan weakens, or the open-market tone tightens, elevated tech and high-turnover names should be cooled first, leaving a cash buffer for overnight gap risk."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "中文：腾讯行情快照：本周主要指数、ETF与港股科技温度计。\nEN: Tencent quote snapshot for the week’s main indices, ETFs, and Hong Kong tech read-through.",
+        "confidence": "Market data",
+        "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006,sh000300,sh000688,sh510300,sh512000,sh588000,sz159995,hkHSI,hkHSTECH"
+      },
+      {
+        "label": "中文：腾讯历史K线：上证指数周度走势核验。\nEN: Tencent historical kline for verifying the SSE Composite weekly move.",
+        "confidence": "Market data",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,,,40,qfq"
+      },
+      {
+        "label": "中文：腾讯历史K线：深证成指周度走势核验。\nEN: Tencent historical kline for verifying the Shenzhen Component weekly move.",
+        "confidence": "Market data",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001,day,,,40,qfq"
+      },
+      {
+        "label": "中文：腾讯历史K线：创业板指周度走势核验。\nEN: Tencent historical kline for verifying the ChiNext weekly move.",
+        "confidence": "Market data",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,40,qfq"
+      },
+      {
+        "label": "中文：腾讯历史K线：沪深300与科创50周度走势核验。\nEN: Tencent historical kline for verifying weekly moves in the CSI 300 and STAR 50.",
+        "confidence": "Market data",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,,,40,qfq"
+      },
+      {
+        "label": "中文：腾讯行情与K线：重点观察股与本周大涨股，包括000938.SZ、688981.SH、000063.SZ、002281.SZ、601800.SH、601669.SH、600323.SH、600406.SH、002335.SZ。\nEN: Tencent quotes and klines for key watchlist and surge names including 000938.SZ, 688981.SH, 000063.SZ, 002281.SZ, 601800.SH, 601669.SH, 600323.SH, 600406.SH, and 002335.SZ.",
+        "confidence": "Market data",
+        "url": "https://qt.gtimg.cn/q=sz000938,sh688981,sz000063,sz002281,sh601800,sh601669,sh600323,sh600406,sz002335"
+      },
+      {
+        "label": "中文：东方财富：7月10日A股全市场上涨下跌家数与成交额快照。\nEN: Eastmoney full-market breadth and turnover snapshot for July 10.",
+        "confidence": "Market data",
+        "url": "https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23&fields=f12,f14,f2,f3,f5,f6"
+      },
+      {
+        "label": "中文：中国人民银行：公开市场业务交易公告 [2026] 第132号。\nEN: PBOC open-market operations announcement [2026] No. 132.",
+        "confidence": "Primary",
+        "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026071008532457148/index.html"
+      },
+      {
+        "label": "中文：国家统计局：2026年主要统计信息发布日程。\nEN: NBS 2026 major statistical release calendar.",
+        "confidence": "Primary",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html"
+      },
+      {
+        "label": "中文：国资委：国家电网“十五五”建设新型电力系统投资安排。\nEN: SASAC on State Grid investment plans for the new power system during the 15th Five-Year period.",
+        "confidence": "Primary",
+        "url": "https://www.sasac.gov.cn/n2588025/n2588124/c35325777/content.html"
+      },
+      {
+        "label": "中文：巨潮资讯：科华数据关于2026年限制性股票激励计划首次授予登记完成的公告。\nEN: CNINFO filing on Kehua Data’s completion of first grant registration for the 2026 restricted-stock incentive plan.",
+        "confidence": "Primary",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-07-07/1225412071.PDF"
+      },
+      {
+        "label": "中文：上交所：瀚蓝环境披露粤丰环保相关收购评估文件。\nEN: SSE disclosure of Hanlan Environment’s Canvest-related acquisition valuation documents.",
+        "confidence": "Primary",
+        "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-03/600323_20260603_588J.pdf"
+      },
+      {
+        "label": "中文：巨潮资讯：中兰环保关于收到中标通知书的公告。\nEN: CNINFO filing on Zhonglan Environmental receiving a bid-winning notice.",
+        "confidence": "Primary",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225391330.PDF"
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "weekId": "2026-W26",
     "weekNumber": 26,
