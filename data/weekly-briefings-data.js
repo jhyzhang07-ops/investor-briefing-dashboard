@@ -1,5 +1,337 @@
 window.WEEKLY_MARKET_BRIEFINGS = [
   {
+    "date": "2026-07-12",
+    "weekId": "2026-W28",
+    "weekNumber": 28,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-12 08:00 GMT+8",
+    "title": "EN: U.S. Weekly Market Brief - Week 28\n中文：美股周度市场简报 - 第28周",
+    "tone": "EN: AI leadership repaired part of the damage this week, but the real edge was still execution discipline: respect rates, respect the first 30 to 60 minutes, and do not confuse a one-day chip surge with a clean swing trend.\n中文：本周AI主线修复了一部分伤害，但真正的优势仍来自执行纪律：尊重利率、尊重开盘后30到60分钟，不要把单日芯片大涨误判成干净的波段趋势。",
+    "priorities": [
+      "EN: Tuesday, July 14 U.S. time, June CPI is the first regime check. If core inflation surprises hot, treat QQQ, SMH, MU, and SOXL as tape-risk first and opportunity second.\n中文：美股时间7月14日周二，6月CPI是第一道风格切换检查点。若核心通胀偏热，先把QQQ、SMH、MU和SOXL当成盘口风险，再谈机会。",
+      "EN: Wednesday, July 15 brings June PPI, and Thursday, July 16 brings June retail sales. Watch whether yields confirm or reject the post-Thursday rebound in growth.\n中文：7月15日周三有6月PPI，7月16日周四有6月零售销售。要看收益率是否确认，还是否定周四以来的成长股反弹。",
+      "EN: Big-bank earnings start next week. XLF and individual banks matter because a good tape in financials can confirm healthier breadth than a pure AI-only rally.\n中文：下周大银行财报正式开始。XLF和个别银行很重要，因为金融股若表现良好，说明市场宽度比单纯AI独舞更健康。",
+      "EN: TSMC is the key semiconductor catalyst. TSM was down about 3.9% on the week into earnings, so the trade is not about prediction; it is about whether the post-report move can hold regular-session VWAP.\n中文：TSMC是下周半导体最关键催化。TSM在财报前一周约跌3.9%，因此交易重点不是预判，而是财报后走势能否在正股时段守住VWAP。",
+      "EN: Separate balanced exposure from high-beta exposure. XLF, SPY, and TSM are cleaner than SKHY, SNDK, and especially SOXL when CPI or earnings can gap the tape.\n中文：必须把中等风险敞口和高贝塔敞口分开。面对CPI或财报可能造成的跳空，XLF、SPY和TSM都比SKHY、SNDK，尤其是SOXL，更干净。"
+    ],
+    "summary": [
+      "EN: Verified Friday, July 10 U.S. closes show SPY at 754.95, QQQ at 725.51, and IWM at 295.99. AP's weekly recap shows the S&P 500 up 1.2%, the Nasdaq up 1.7%, and the Russell 2000 down 0.6%, so leadership improved but breadth was not uniformly strong.\n中文：经核实，7月10日周五美股收盘，SPY报754.95，QQQ报725.51，IWM报295.99。美联社周度回顾显示，标普500周涨1.2%、纳指周涨1.7%、罗素2000周跌0.6%，说明领涨方向改善了，但市场宽度并非全面强势。",
+      "EN: The week's path mattered more than the headline finish. Monday rewarded AI leaders, Tuesday hit semiconductors and high-beta hard as yields and oil rose, Thursday repaired the tape, and Friday confirmed only part of that rebound.\n中文：本周真正重要的是路径，而不只是周五收盘结果。周一奖励AI龙头，周二在收益率和油价走高时重击半导体与高beta，周四修复盘面，周五则只确认了部分反弹。",
+      "EN: The cleanest surge examples were SK Hynix and WD-40. SKHY closed its Nasdaq debut up about 12.8%, and WDFC finished Friday up 10.7% and the week up about 7.5% after blowout earnings and a higher outlook.\n中文：本周最干净的大涨案例是SK海力士和WD-40。SKHY在纳斯达克首日收涨约12.8%，而WDFC在超预期财报和上调展望后，周五收涨10.7%，全周约涨7.5%。",
+      "EN: Some chip surges were real information but not clean fresh entries. MU jumped on its U.S. manufacturing push Thursday, yet still finished Friday down 1.2% and the week down about 0.6%; DELL gained about 5.6% for the week but gave back 3.4% Friday after Thursday's rebound.\n中文：有些芯片股大涨是真实信息，但并不是干净的新进场点。MU因美国制造投资计划在周四大涨，但周五仍跌1.2%，全周约跌0.6%；DELL全周约涨5.6%，但在周四反弹后，周五又回吐了3.4%。",
+      "EN: The weekly scorecard must keep the CRM short labeled as wrong. The daily reviews already had to mark it a miss on July 7 and July 8, and the right lesson is to stop recycling invalidated bearish narratives.\n中文：周度复盘必须继续把CRM空头标记为错误。7月7日和7月8日的日度复盘已经不得不把它记为失误，正确的教训是停止重复已经被否定的空头叙事。",
+      "EN: Next week is practical, not ideological: CPI, PPI, retail sales, big-bank earnings, and TSMC earnings will decide whether this becomes a broader breakout or another fast AI-only squeeze.\n中文：下周要务是务实，而不是先入为主：CPI、PPI、零售销售、大银行财报和TSMC财报，将决定这波上涨能否扩散成更广泛突破，还是又一次只属于AI的快速挤空。"
+    ],
+    "marketPulse": {
+      "SPY/QQQ/IWM": {
+        "value": "SPY 754.95 / QQQ 725.51 / IWM 295.99 at the July 10, 2026 U.S. close",
+        "note": "EN: Large-cap growth won the week, but not in a straight line. The cleaner read is that SPY and QQQ ended the week stronger while IWM lagged, so broad participation still needs confirmation from banks, cyclicals, and post-CPI breadth.\n中文：本周是大盘成长占优，但并非一路直线。更干净的解读是SPY和QQQ周末更强，而IWM落后，因此市场广泛参与仍需要银行、周期股以及CPI后的宽度来确认。"
+      },
+      "Rates": {
+        "value": "Fed 3.50%-3.75%; U.S. 10Y yield 4.562% and 2Y yield 4.216% on July 10",
+        "note": "EN: Rates never became easy enough to ignore. The 10-year still finished the week above mid-4.5%, so every aggressive long next week must prove it can survive higher-for-longer pressure rather than assume a rate tailwind.\n中文：利率环境并没有轻松到可以忽略。10年期收益率周末仍在4.5%中段上方，因此下周每一个激进多头都必须证明自己能承受“高利率更久”，而不是默认有利率顺风。"
+      },
+      "Volatility / Options": {
+        "value": "VIX 15.03 at the July 10 close, down 5.1% on the day and about 6.9% on the week",
+        "note": "EN: Index volatility cooled, but single-stock path risk stayed high. MU, DELL, SKHY, and SOXL all showed that low index fear does not protect late entries from gap risk, IV crush, or first-hour failure.\n中文：指数波动率降温了，但个股路径风险仍然很高。MU、DELL、SKHY和SOXL都说明，指数层面的低恐慌并不能保护晚进场资金免受跳空、IV回落或首小时失败的伤害。"
+      }
+    },
+    "weekReview": [
+      "EN: Monday's AI-led rally was real, but Tuesday immediately reminded traders that crowded semis can still break hard when yields and oil rise together. The most useful rule was to wait for regular-session confirmation instead of trusting overnight strength.\n中文：周一由AI带动的上涨是真实的，但周二立刻提醒交易者：当收益率和油价一起走高时，拥挤的半导体仍会迅速转弱。本周最有用的规则，仍是等待正股时段确认，而不是相信隔夜强势。",
+      "EN: Thursday's rebound improved the tape, but not every leader stayed clean into Friday. MU was up sharply Thursday on its manufacturing announcement and still closed Friday at 979.30, down 1.2% for the day and about 0.6% for the week, which is a classic 'headline right, fresh chase wrong' pattern.\n中文：周四反弹确实改善了盘面，但并不是每个龙头都能把强势干净地带到周五。MU因制造业投资公告在周四大涨，但周五仍收于979.30，当日跌1.2%，周线约跌0.6%，这就是典型的“headline没错，但追新仓是错的”形态。",
+      "EN: DELL gave the same lesson in a milder form. The stock still gained about 5.6% on the week, but Friday's 3.4% drop after Thursday's rebound says the setup is no longer an easy open-and-hold trade; it now needs a pullback hold or a fresh base.\n中文：DELL给出的教训类似，只是程度稍轻。该股周线仍约涨5.6%，但周五在周四反弹后又跌3.4%，说明它已经不是轻松的“开盘就拿住”交易，而需要等回踩承接或重新搭平台。",
+      "EN: The CRM short remains a miss and thesis invalidated. The prior bearish framing had already been marked wrong in the July 7 and July 8 daily reviews, and this weekly briefing should keep that label instead of rationalizing the call with stale narrative.\n中文：CRM空头仍然属于失误，而且逻辑已失效。7月7日与7月8日的日度复盘已经把此前偏空框架标记为错误，这份周报必须继续保留这一标签，而不是再用过时叙事去替它圆场。",
+      "EN: The daily briefings were strongest when they separated tradability from storytelling. Warnings about MU stabilization, SOXL path risk, and the danger of chasing premarket gaps aged well; the main miss was being too conservative on Thursday's intraday SOXL rebound after semis regained traction.\n中文：本周日更最有效的地方，是把“可交易性”和“故事”分开。对MU等待稳定、SOXL路径风险以及避免追盘前大缺口的提醒都经受住了检验；主要失误是在周四半导体修复后，对SOXL日内反弹的态度过于保守。"
+    ],
+    "nextWeekFocus": [
+      "EN: Tuesday, July 14 U.S. time, CPI plus the first wave of big-bank earnings should decide whether leadership broadens beyond AI. If XLF and the S&P 500 react better than QQQ on a benign print, that is healthier than another narrow semiconductor squeeze.\n中文：美股时间7月14日周二，CPI加上第一批大银行财报，将决定领涨是否能从AI向外扩散。若数据温和时XLF和标普500的反应优于QQQ，这会比又一次狭窄的半导体挤空更健康。",
+      "EN: Wednesday, July 15 U.S. time, PPI matters because it can either validate CPI relief or reverse it. Watch whether the 10-year yield stays below or re-pressures the 4.56% zone.\n中文：美股时间7月15日周三，PPI很重要，因为它可能确认CPI后的缓和，也可能把这种缓和推翻。要看10年期收益率能否维持在4.56%一带下方，还是重新上压。",
+      "EN: Thursday, July 16 U.S. time, retail sales and TSMC earnings are the semiconductor and consumer cross-check. A strong TSMC report that cannot hold regular-session VWAP is still a warning, not a green light.\n中文：美股时间7月16日周四，零售销售与TSMC财报会同时检验半导体和消费。即便TSMC财报很强，只要守不住正股时段VWAP，也仍然是警告，而不是放行信号。",
+      "EN: Watch post-gap behavior in SKHY, MU, SNDK, and DELL rather than the opening print itself. The best continuation setups next week should survive a pullback, not just attract a hot first candle.\n中文：下周要观察SKHY、MU、SNDK和DELL的缺口后行为，而不是只盯第一笔开盘价。真正好的延续设置，应该能挺过一次回踩，而不是只靠第一根热情K线。",
+      "EN: Keep an eye on oil and Middle East headlines because they still feed directly into yields, airlines, and broader risk appetite. If crude re-accelerates, the market can rotate away from growth very quickly.\n中文：仍要盯住油价和中东headline，因为它们会直接传导到收益率、航空股和整体风险偏好。若原油重新加速上行，市场可能很快从成长股撤退。"
+    ],
+    "sectors": [
+      {
+        "name": "EN: Large Banks / Financials\n中文：大型银行 / 金融",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Q2 bank earnings begin next week, and financials can confirm whether breadth is broadening beyond AI.\n中文：下周二季度银行财报开场，金融板块能验证市场宽度是否正在从AI向外扩散。",
+        "watch": "EN: Watch XLF and the first 30 to 60 minutes after JPMorgan, Goldman Sachs, Citigroup, and peers report. The better signal is a gap that holds, not a headline beat by itself.\n中文：重点看XLF以及摩根大通、高盛、花旗等公布财报后开盘30到60分钟的表现。更好的信号是缺口能守住，而不是只有headline超预期。",
+        "risk": "EN: Hot CPI/PPI or a higher 10-year yield can cap the move quickly, and poor credit commentary would damage the breadth thesis.\n中文：若CPI/PPI偏热或10年期收益率继续上冲，行情会很快受限；若信用评论转弱，也会破坏市场宽度改善的逻辑。"
+      },
+      {
+        "name": "EN: AI Semis / Memory\n中文：AI半导体 / 存储",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: TSMC earnings, Micron's U.S. investment push, and SK Hynix's U.S. debut keep AI-memory demand in focus.\n中文：TSMC财报、Micron美国投资推进，以及SK海力士美股首秀，都让AI存储需求继续处于聚光灯下。",
+        "watch": "EN: Watch TSM, MU, SNDK, DELL, and SMH for whether they can hold VWAP after any CPI or earnings gap.\n中文：重点看TSM、MU、SNDK、DELL和SMH，在CPI或财报造成缺口后能否守住VWAP。",
+        "risk": "EN: Several names are already extended or path-dependent. A hot inflation print or failed post-earnings hold can turn leadership into a fast trap.\n中文：多个名字已经偏伸展，或者高度依赖路径。只要通胀偏热，或财报后承接失败，领涨就可能迅速变成陷阱。"
+      },
+      {
+        "name": "EN: Energy Hedge\n中文：能源对冲",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Middle East and Strait of Hormuz headlines still matter for crude, inflation expectations, and airline pressure.\n中文：中东和霍尔木兹海峡headline仍会影响原油、通胀预期以及航空板块压力。",
+        "watch": "EN: Watch XLE only if crude re-accelerates instead of just bouncing intraday. If oil stays tame, the hedge loses urgency quickly.\n中文：只有在原油重新加速，而不是只是日内反弹时，才关注XLE。若油价维持温和，对冲价值会很快下降。",
+        "risk": "EN: Diplomacy or softer commodity data can deflate the hedge fast and rotate money back into growth.\n中文：一旦外交缓和，或商品数据转弱，这条对冲线会很快失去支撑，资金也可能回流成长股。"
+      },
+      {
+        "name": "EN: Large-Cap Software\n中文：大型软件",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "EN: Software still reacts violently to rate shifts and crowding, and CRM remains a reminder that old bearish theses cannot be recycled.\n中文：软件板块仍对利率变化和拥挤程度高度敏感，而CRM继续提醒我们，旧的空头逻辑不能机械复用。",
+        "watch": "EN: Watch IGV, CRM, and peers only on failed regular-session bounces below VWAP. If yields cool and software breadth improves, step aside.\n中文：只有在IGV、CRM及同类股于正股时段反弹失败、跌回VWAP下方时才观察偏空。若收益率回落且软件宽度改善，就应回避。",
+        "risk": "EN: This is a tactical setup only. A cooler CPI or better software breadth can squeeze late shorts very hard.\n中文：这只能是战术性设置。若CPI降温，或软件板块广度改善，晚到的空头会被强烈挤压。"
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Consider only if post-earnings price action holds the opening range and VWAP after the first 30 to 60 minutes. No pre-earnings guessing.\n中文：只有在财报后开盘30到60分钟，价格仍能守住开盘区间和VWAP时才考虑。不要在财报前猜方向。",
+        "suggestedProfitTake": "EN: Trim into a 2% to 4% follow-through burst and trail the rest only if breadth stays broad.\n中文：若出现2%到4%的延续性冲高，可先减仓；只有在市场宽度保持健康时，才保留剩余仓位做跟踪。",
+        "type": "EN: balanced financial ETF\n中文：中等风险金融ETF",
+        "catalyst": "EN: Big-bank earnings and curve sensitivity make XLF the cleaner breadth check next week.\n中文：大银行财报和收益率曲线敏感性，让XLF成为下周更干净的市场宽度检查器。",
+        "why": "EN: It is a more controlled way to express the earnings-season breadth thesis than forcing a crowded AI name.\n中文：与其勉强去做拥挤AI个股，XLF是表达财报季宽度逻辑更可控的方式。",
+        "risk": "EN: Invalidated if bank gaps fail fast or if CPI pushes yields high enough to pressure financials and growth together.\n中文：若银行股缺口很快失败，或CPI把收益率推高到同时压制金融和成长板块，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: XLF closed at 55.71 on July 10 and entered earnings week near the top of its 52-week range, with financials participating in Thursday's broad rebound.\n中文：XLF在7月10日收于55.71，并在接近52周区间高位附近进入财报周；同时，金融股也参与了周四的广泛反弹。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Prefer post-earnings only. Actionable if TSM holds above VWAP after the report or re-breaks the opening range on real volume.\n中文：优先只做财报后。只有在财报后守住VWAP，或在真实成交量下再次突破开盘区间时才有操作价值。",
+        "suggestedProfitTake": "EN: Take partial profits into the first strong extension after earnings; do not assume a good report guarantees a clean second day.\n中文：财报后第一次强势拉伸就先落袋一部分；不要假设好财报一定带来干净的第二天延续。",
+        "type": "EN: balanced semiconductor leader\n中文：中等风险半导体龙头",
+        "catalyst": "EN: TSMC earnings are the week's most important semiconductor catalyst.\n中文：TSMC财报是全周最重要的半导体催化。",
+        "why": "EN: TSM is a cleaner liquid read-through for AI and foundry demand than chasing a levered ETF.\n中文：与追杠杆ETF相比，TSM是观察AI与晶圆代工需求更干净、流动性更好的标的。",
+        "risk": "EN: Invalidated if earnings are fine but the stock cannot hold regular-session VWAP or if yields jump on the same day.\n中文：若财报本身不差，但股价守不住正股时段VWAP，或同日收益率大幅走高，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: TSM closed at 434.11 on July 10, down 0.65% Friday and about 3.9% over five days, so it goes into earnings as a setup that still needs proof.\n中文：TSM在7月10日收于434.11，周五跌0.65%，五日约跌3.9%，因此它是带着“仍需证明自己”的形态进入财报周。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "MU",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only after a pullback holds above VWAP or after a tight post-news base forms. If the move stays gapy and emotional, pass.\n中文：只有在回踩VWAP上方守住，或消息后形成紧凑平台时才考虑。若走势仍然充满跳空和情绪，就直接放过。",
+        "suggestedProfitTake": "EN: Scale out quickly into 4% to 6% bursts because the stock proved this week that one good catalyst day can still reverse fast.\n中文：若出现4%到6%的快速冲高，应迅速分批兑现，因为本周已经证明：即便催化很好，股价也可能很快反转。",
+        "type": "EN: high-beta AI memory leader\n中文：高贝塔AI存储龙头",
+        "catalyst": "EN: Micron's U.S. manufacturing push and persistent AI-memory demand keep MU central to the tape.\n中文：Micron的美国制造业推进，以及持续的AI存储需求，让MU继续处于市场中心。",
+        "why": "EN: The story is real, but this week also proved that correct fundamentals do not excuse poor entries.\n中文：这个故事是真实的，但本周也证明了：基本面看对，并不能替差的入场价格开脱。",
+        "risk": "EN: Invalidated if MU loses VWAP after the first bounce, if SKHY steals memory leadership, or if CPI pushes yields sharply higher.\n中文：若MU第一次反弹后又失守VWAP，或SKHY抢走存储板块龙头地位，或CPI把收益率显著推高，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: MU closed at 979.30 on July 10, down 1.24% Friday and about 0.55% over five days after Thursday's big manufacturing-driven surge.\n中文：MU在7月10日收于979.30，周五跌1.24%，五日约跌0.55%；这发生在周四因制造业投资消息大涨之后。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "DELL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Actionable only if DELL repairs Friday's giveback, reclaims VWAP, and then holds the first pullback. Otherwise wait for a fresh base.\n中文：只有在DELL修复周五回吐、重新收复VWAP且第一次回踩守住时才有操作价值；否则等它重新搭平台。",
+        "suggestedProfitTake": "EN: Take partial profits into a move back toward the Thursday high; do not expect a straight line after Friday's fade.\n中文：若股价回到周四高点附近，可先兑现一部分；在周五回吐之后，不要期待它再走直线。",
+        "type": "EN: high-beta AI hardware leader\n中文：高贝塔AI硬件龙头",
+        "catalyst": "EN: Dell remains a direct read-through on AI server demand and broader hardware sentiment.\n中文：Dell仍然是AI服务器需求和更广义硬件情绪的直接读数。",
+        "why": "EN: The stock still acts like a leadership name, but this week showed it has moved from easy momentum into more selective entry mode.\n中文：这只股票仍然具有龙头气质，但本周也说明，它已经从“容易做的动量”切换到了“更挑剔入场”的阶段。",
+        "risk": "EN: Invalidated if Friday's weakness expands into a failed bounce under VWAP or if semiconductors lose momentum again.\n中文：若周五的弱势延续成VWAP下方反弹失败，或半导体再次失去动能，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: DELL closed at 434.97 on July 10, down 3.39% Friday but still up about 5.63% over five days.\n中文：DELL在7月10日收于434.97，周五跌3.39%，但五日仍约涨5.63%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SNDK",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Prefer a pullback toward VWAP or a tight base after the recent run. Do not chase a vertical open.\n中文：更适合等回踩VWAP，或近期上涨后出现紧凑平台。不要去追一字拉升式开盘。",
+        "suggestedProfitTake": "EN: Pay yourself quickly on 3% to 5% continuation because memory names are now moving in bursts, not smooth trends.\n中文：若有3%到5%的延续行情，应尽快分批落袋，因为存储股现在更像脉冲式波动，而不是平滑趋势。",
+        "type": "EN: speculative memory stock\n中文：投机型存储个股",
+        "catalyst": "EN: Memory-group strength, SK Hynix attention, and upcoming chip earnings keep SNDK in play.\n中文：存储板块走强、SK海力士带来的关注，以及即将到来的芯片财报，都让SNDK保持活跃。",
+        "why": "EN: It had cleaner five-day upside than MU, but that also means the easy move is less available now.\n中文：它的五日表现比MU更干净，但这也意味着最好赚的那一段现在已经没那么容易了。",
+        "risk": "EN: Invalidated if memory strength fades, if SKHY drains attention and liquidity, or if SNDK cannot hold the first regular-session pullback.\n中文：若存储板块强势退潮、SKHY分流注意力和流动性，或SNDK连第一次正股时段回踩都守不住，则逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SNDK closed at 1,915.92 on July 10, up 3.10% Friday and about 9.83% over five days.\n中文：SNDK在7月10日收于1,915.92，周五涨3.10%，五日约涨9.83%。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "SKHY",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Do not chase day-one momentum. Only consider after several U.S. sessions if spreads tighten and the stock can hold a normal pullback.\n中文：不要追首日动量。只有在经历数个美股交易日、价差收窄且正常回踩能守住后，才考虑参与。",
+        "suggestedProfitTake": "EN: If trading it at all, pay yourself fast because new ADR price discovery can reverse violently.\n中文：如果一定要做，也要快进快出，因为新ADR的价格发现阶段可能剧烈反转。",
+        "type": "EN: speculative new ADR\n中文：投机型新上市ADR",
+        "catalyst": "EN: AI-memory demand and the biggest foreign IPO ever in the U.S. gave SKHY an immediate sponsorship bid.\n中文：AI存储需求，以及美国史上最大外资IPO，给了SKHY首日非常强的资金支持。",
+        "why": "EN: It is a real leader, but the combination of fresh listing, wide intraday range, and price discovery makes it unsuitable for casual size.\n中文：它确实是个真实龙头，但新上市、日内区间大和价格发现并存，使其并不适合随意上仓位。",
+        "risk": "EN: Invalidated if the ADR cannot hold above its debut-zone support or if liquidity becomes too erratic after the IPO excitement fades.\n中文：若ADR守不住首秀区间支撑，或IPO热度消退后流动性变得过于紊乱，则逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SKHY priced at 149, opened at 170, and closed its July 10 Nasdaq debut at 168.01, up about 12.8%.\n中文：SKHY发行价149，开于170，并在7月10日纳斯达克首日收于168.01，约涨12.8%。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Intraday only, and only if SMH breadth is broad and the first pullback holds after CPI or earnings. Otherwise it stays watch-only.\n中文：只适合日内，而且只在SMH宽度足够广、并且CPI或财报后第一次回踩能守住时才考虑；否则默认只观察。",
+        "suggestedProfitTake": "EN: Take profits aggressively into fast bursts. Do not carry it casually overnight into CPI, PPI, or TSMC earnings.\n中文：出现快速脉冲上涨就要积极止盈；不要随意隔夜带到CPI、PPI或TSMC财报。",
+        "type": "EN: leveraged speculative ETF\n中文：杠杆投机ETF",
+        "catalyst": "EN: SOXL remains the fastest way to express a real semiconductor squeeze, but also the fastest way to magnify bad execution.\n中文：SOXL仍是表达半导体挤空最快的工具，但也是放大差执行最快的工具。",
+        "why": "EN: It fits the user's risk tolerance, but this week again proved it should be treated as a tactical vehicle, not a default swing position.\n中文：它符合用户的高风险容忍度，但本周再次证明，它只能作为战术工具，而不是默认波段持仓。",
+        "risk": "EN: Invalidated if semis lose VWAP, if the first 30-minute low breaks, or if spreads widen around macro data.\n中文：若半导体失守VWAP、前30分钟低点被跌破，或宏观数据前后价差明显放大，则逻辑失效。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SOXL closed at 192.26 on July 10; the product also showed a 15.09% one-day drop on July 7, which is exactly why it is not a passive hold vehicle.\n中文：SOXL在7月10日收于192.26；而它在7月7日还曾单日下跌15.09%，这正说明它不是被动持有工具。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "riskControls": [
+      "EN: On CPI, PPI, bank-earnings, and TSMC days, default to wait-first mode. The first 30 to 60 minutes are more useful than the first print.\n中文：在CPI、PPI、银行财报和TSMC财报日，默认先等。开盘后30到60分钟，通常比第一笔成交更有参考价值。",
+      "EN: Any fresh gap above roughly 4% in SKHY, MU, SNDK, DELL, or similar AI names should begin as watch-only unless regular-session support proves real.\n中文：若SKHY、MU、SNDK、DELL或类似AI个股再次出现约4%以上的新缺口，除非正股时段支撑被证明真实，否则默认先只观察。",
+      "EN: Treat SOXL and short-dated options as tactical tools only. Leverage decay, spread risk, and IV crush are normal outcomes here, not unusual accidents.\n中文：要把SOXL和短周期期权只当战术工具。杠杆损耗、价差风险和IV回落，在这里不是少见事故，而是常见结局。",
+      "EN: If the 10-year yield pushes back above this week's 4.56% area and QQQ or SMH loses VWAP, cut beta first and ask questions second.\n中文：如果10年期收益率重新上破本周4.56%一带，同时QQQ或SMH失守VWAP，先降beta，再思考原因。",
+      "EN: Do not revive stale theses. CRM is the standing example: once the tape invalidates the short idea, any future short must be a brand-new failed-bounce setup, not an emotional retry.\n中文：不要复活过时逻辑。CRM就是固定案例：一旦盘口否定了空头思路，未来任何重新做空都必须是全新的反弹失败结构，而不是情绪化重试。"
+    ],
+    "sections": [
+      {
+        "title": "EN: Major Surges And Reasons\n中文：本周大涨股票与原因",
+        "items": [
+          "SKHY: EN: about +12.8% on Friday's first U.S. regular session, after pricing at 149 and closing at 168.01. The reason was credible AI-memory demand plus the largest foreign IPO ever in the U.S. Tradability: real leader, but day-one ADR price discovery means extended and better watched for a pullback than chased.\n中文：SKHY：周五首个美股正规交易时段约涨12.8%，发行价149，收于168.01。原因是可信的AI存储需求叙事，加上美国史上最大外资IPO。可交易性：它是真龙头，但首日ADR处于价格发现阶段，更适合等回踩，不适合追高。",
+          "WDFC: EN: +10.7% Friday and about +7.5% for the week after blowout earnings and a raised outlook. This was a regular-session earnings move with strong volume, not just a thin premarket headline. Tradability: cleaner than most AI surges, but now already extended after the report.\n中文：WDFC：在超预期财报和上调展望后，周五涨10.7%，全周约涨7.5%。这是一个正规交易时段里、伴随强成交量的财报驱动，而不是薄弱盘前headline。可交易性：它比多数AI大涨更干净，但财报后已经偏伸展。",
+          "SNDK: EN: +3.1% Friday and about +9.8% over five days as the memory group recovered and investors looked toward upcoming chip earnings. The move had better regular-session follow-through than MU this week, but it is no longer early. Tradability: extended; wait for pullback or a tight base.\n中文：SNDK：在存储板块修复、市场展望即将到来的芯片财报时，周五涨3.1%，五日约涨9.8%。本周它的正规交易时段跟随性比MU更干净，但已经不算早期。可交易性：偏伸展；等回踩或紧凑平台。",
+          "DELL: EN: roughly +5.6% for the week, helped by AI-hardware leadership and a Thursday rebound, but Friday fell 3.4%. That means part of the move was real, but regular-session follow-through weakened quickly. Tradability: in progress, not clean chase; better on a pullback hold.\n中文：DELL：全周约涨5.6%，受AI硬件龙头地位和周四反弹带动，但周五又跌3.4%。这说明上涨的一部分是真实的，但正规交易时段的跟随很快转弱。可交易性：仍在进行中，但并不适合干净追涨；更适合等回踩承接。",
+          "MU: EN: surged Thursday on its U.S. manufacturing and supply-chain push, but by Friday it closed down 1.2% on the day and down about 0.6% on the week. This is the correct lesson for small accounts: a strong catalyst can still be a poor fresh chase. Tradability: watch for pullback or base only.\n中文：MU：周四因美国制造与供应链投资计划而大涨，但到周五却收跌1.2%，全周约跌0.6%。对小资金来说，这才是正确教训：催化再强，也可能是很差的新追涨点。可交易性：只适合等回踩或搭平台。"
+        ]
+      },
+      {
+        "title": "EN: Performance Scorecard\n中文：表现复盘",
+        "items": [
+          "HIT: EN: The repeated rule to wait for the first 30 to 60 minutes aged well. This week again rewarded regular-session confirmation over premarket excitement.\n中文：命中：反复强调“等开盘后30到60分钟”的规则经受住了检验。本周再次证明，正规交易时段确认比盘前兴奋更有价值。",
+          "HIT: EN: The July 8 warning not to force MU stabilization was right. MU closed down 4.71% that session, so aggressive dip-buying would have been the wrong execution.\n中文：命中：7月8日不要强行抄MU稳定点的提醒是对的。MU当日收跌4.71%，激进抄底会是错误执行。",
+          "HIT: EN: The warning not to treat SOXL like a passive hold was right. A 15.09% one-day drop on July 7 is enough by itself to justify strict risk sizing.\n中文：命中：不要把SOXL当作被动持仓工具的提醒是对的。它在7月7日单日暴跌15.09%，光这一点就足以证明必须严格控制仓位。",
+          "MISS / THESIS INVALIDATED: EN: The CRM short stayed wrong. The weekly scorecard should keep it marked miss and thesis invalidated, not 'early' or 'almost right.'\n中文：失误 / 逻辑失效：CRM空头继续是错的。周度记分卡必须继续把它记为失误和逻辑失效，而不是“太早”或“差一点对”。",
+          "PARTIAL / TOO CONSERVATIVE: EN: Thursday's strict SOXL avoidance was too conservative for that day's tape because semiconductors regained momentum. The fix is not to become reckless; it is to distinguish a tactical intraday long from a swing hold.\n中文：部分失误 / 过于保守：对周四那一天来说，严格回避SOXL偏保守，因为半导体确实重新获得动能。修正方式不是变得鲁莽，而是把“战术性日内多头”和“波段持有”严格区分。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Setup\n中文：期权与波动率设置",
+        "items": [
+          "EN: VIX ended the week at 15.03, but that did not mean low single-stock risk. Use defined-risk structures more often than oversized naked calls or puts into CPI and earnings.\n中文：VIX周末收于15.03，但这不代表个股风险很低。面对CPI和财报，优先用有限风险结构，而不是放大仓位去裸买认购或认沽。",
+          "EN: MU and DELL proved that a correct story can still give poor entries. Options buyers should avoid paying peak IV into a move that already happened.\n中文：MU和DELL都证明，故事看对不代表进场质量就好。期权买方要避免在行情已经走出后，还去支付峰值IV。",
+          "EN: For SOXL, stock is usually cleaner than options-on-ETF, and both are worse than patience if breadth is not broad. Treat leveraged semis as conditional tools, not default expressions.\n中文：对SOXL而言，正股通常比ETF期权更干净；而如果板块宽度不够，两者都不如耐心等待。要把杠杆半导体工具视作有条件使用的工具，而不是默认表达方式。",
+          "EN: For XLF or post-earnings financials, premium decay is usually more manageable than in hot AI names. That does not remove gap risk, but it does make defined-risk call spreads more practical.\n中文：对XLF或财报后的金融股来说，权利金衰减通常比热门AI个股更可控。这并不能消除跳空风险，但会让有限风险的认购价差更实用。"
+        ]
+      },
+      {
+        "title": "EN: Upcoming Catalyst Watch\n中文：下周催化观察",
+        "items": [
+          "EN: Tuesday, July 14 U.S. time: June CPI and the start of big-bank earnings. Watch yields first, then breadth, then whether AI still leads or hands off to financials.\n中文：美股时间7月14日周二：6月CPI和大银行财报开场。先看收益率，再看市场宽度，最后看AI是否继续领跑，还是交棒给金融股。",
+          "EN: Wednesday, July 15 U.S. time: June PPI. This is the second inflation check and can either validate or reverse Tuesday's first move.\n中文：美股时间7月15日周三：6月PPI。这是第二道通胀检查，可能确认，也可能推翻周二的第一波方向。",
+          "EN: Thursday, July 16 U.S. time: June retail sales plus TSMC earnings. This is the cleanest same-day test for the consumer and semiconductor legs of the market.\n中文：美股时间7月16日周四：6月零售销售加上TSMC财报。这是同一天里检验消费和半导体两条主线最干净的组合。",
+          "EN: Ongoing: oil and Middle East headlines. If crude re-accelerates, airlines and long-duration growth can both feel it quickly.\n中文：持续项：油价和中东headline。若原油重新加速，航空股和高久期成长股都会很快感受到压力。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: AP Friday market recap / 中文：美联社周五市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/45e2da56e466900ff8def70ab931387d"
+      },
+      {
+        "label": "EN: AP Friday index levels / 中文：美联社周五指数数据",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/d3c5b8171e25e98da62831181de9a666"
+      },
+      {
+        "label": "EN: AP SK Hynix debut / 中文：美联社SK海力士上市报道",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/73f13a85ae00e30bad0540281bbe44f3"
+      },
+      {
+        "label": "EN: AP Thursday rebound recap / 中文：美联社周四反弹回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/ebb040b1377034108cfd55adfa94ecd1"
+      },
+      {
+        "label": "EN: AP Tuesday oil and market stress recap / 中文：美联社周二油价与市场压力回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/671d9c94b302f7db533f46baa18387d3"
+      },
+      {
+        "label": "EN: BLS July 2026 release schedule / 中文：BLS 2026年7月发布日历",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/schedule/2026/07_sched.htm"
+      },
+      {
+        "label": "EN: Census monthly retail trade page / 中文：美国人口普查局月度零售页",
+        "confidence": "Primary",
+        "url": "https://www.census.gov/retail/index.html"
+      },
+      {
+        "label": "EN: MarketWatch SPY quote / 中文：MarketWatch SPY报价",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/spy"
+      },
+      {
+        "label": "EN: MarketWatch QQQ quote / 中文：MarketWatch QQQ报价",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/qqq"
+      },
+      {
+        "label": "EN: MarketWatch IWM quote / 中文：MarketWatch IWM报价",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/fund/iwm"
+      },
+      {
+        "label": "EN: MarketWatch U.S. 10Y yield / 中文：MarketWatch美国10年期国债收益率",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/bond/tmubmusd10y"
+      },
+      {
+        "label": "EN: MarketWatch VIX quote / 中文：MarketWatch VIX报价",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/index/vix"
+      },
+      {
+        "label": "EN: MarketWatch Micron quote / 中文：MarketWatch Micron报价",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/mu"
+      },
+      {
+        "label": "EN: MarketWatch Dell quote / 中文：MarketWatch Dell报价",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/dell"
+      },
+      {
+        "label": "EN: MarketWatch Sandisk quote / 中文：MarketWatch Sandisk报价",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/sndk"
+      },
+      {
+        "label": "EN: MarketWatch WD-40 quote / 中文：MarketWatch WD-40报价",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/investing/stock/wdfc"
+      },
+      {
+        "label": "EN: IBD week-ahead catalyst overview / 中文：IBD下周催化总览",
+        "confidence": "High-quality secondary",
+        "url": "https://www.investors.com/research/investing-action-plan/stock-market-big-banks-ge-tsmc-asml-sp-500-nasdaq/"
+      },
+      {
+        "label": "EN: IBD financial and semiconductor earnings preview / 中文：IBD金融与半导体财报前瞻",
+        "confidence": "High-quality secondary",
+        "url": "https://www.investors.com/research/earnings-preview/tsmc-asml-kick-off-semiconductor-earnings-goldman-sachs-jpmorgan-in-financial-parade/"
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "weekId": "2026-W26",
     "weekNumber": 26,
