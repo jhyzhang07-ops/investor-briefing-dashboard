@@ -1,5 +1,667 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-07-15",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-15 09:15 GMT+8",
+    "title": "EN: U.S. Market Brief - 2026-07-15\n中文：美股市场简报 - 2026-07-15",
+    "tone": "EN: Tuesday, July 14, 2026 U.S. trading improved after a softer June CPI print eased yields and helped semiconductors and big banks recover, but the tape is still not a blind-risk-on environment. For the Wednesday, July 15 U.S. session later tonight Beijing time, the real question is whether the cooler inflation signal can survive Morgan Stanley, ASML, June PPI, the Fed Beige Book, and still-high oil without turning into another first-hour fade.\n中文：2026年7月14日（周二）美股因6月CPI偏软而改善，收益率回落带动半导体和大型银行修复，但这仍不是一个可以盲目加风险的环境。对应北京时间今晚的2026年7月15日（周三）美股交易，真正的问题是：偏软的通胀信号能否在Morgan Stanley、ASML、6月PPI、美联储褐皮书以及仍然偏高的油价冲击下站稳，而不是再次演变成首小时冲高回落。",
+    "priorities": [
+      "EN: Start with market regime, breadth, and entry timing before any single ticker. Tuesday's S&P 500 rose 0.4% and Nasdaq rose 0.9%, but much of the quality came from softer CPI, bank earnings, and selective AI rather than a clean all-clear. Wait for the first 30-60 minutes before deciding whether tonight is real continuation or another fade.\n中文：先看市场状态、宽度和入场时机，再看任何单一个股。周二标普500上涨0.4%、纳指上涨0.9%，但这轮修复的质量主要来自偏软CPI、银行财报和选择性AI反弹，而不是市场已经完全解除警报。先等开盘后30-60分钟，再判断今晚是真正延续还是再次冲高回落。",
+      "EN: Respect confirmation over headlines. Morgan Stanley, ASML, PPI, and the Beige Book can all change the tape after Tuesday's close, so premarket and overnight strength alone are not enough. Use opening-range breakout, VWAP reclaim, pullback hold, and relative-volume confirmation only.\n中文：尊重确认，而不是headline。Morgan Stanley、ASML、PPI和褐皮书都可能在周二收盘后重新改写盘面，所以盘前和隔夜走强本身并不够。只接受开盘区间突破、VWAP收复、回踩守住和相对成交量确认。",
+      "EN: Banks are stronger than software right now. JPMorgan and Goldman delivered real fundamental upside, while IBM's preliminary miss showed that legacy enterprise spending can still break badly when AI capex reallocates budgets. Keep that split in mind instead of treating all large caps the same.\n中文：当前银行强于软件。JPMorgan和Goldman给出了真实的基本面上修，而IBM的预警说明，当AI资本开支重新分配预算时，传统企业软件/基础设施仍可能明显失守。不要把所有大盘股当成同一种风险。",
+      "EN: Semiconductors improved, but most charts still need regular-session proof. TSMC's June revenue was excellent and ASML is the next key read-through, yet many chip names are still reacting around resistance and event risk. If a move is already beyond the expected range before the open, avoid chasing.\n中文：半导体有所改善，但多数图形仍需要正股时段证明。TSMC的6月营收很强，ASML又是下一道关键验证，但很多芯片股仍在阻力区和事件风险附近反应。如果开盘前走势已经超出预期波动区间，就不要追。",
+      "EN: Small capital should stay in liquid, catalyst-backed names only. AAOI, CLSK, WULF, and IREN can offer usable volatility, but only with hard invalidation, spread awareness, and smaller sizing than safer ETFs or large-cap stocks. No blind first-minute buys, no averaging into failed gaps, and no oversized short-dated options.\n中文：小资金只应停留在流动性足够、且有真实催化的标的里。AAOI、CLSK、WULF、IREN可以提供可用波动，但前提是失效位明确、注意价差、仓位小于更稳健的ETF或大盘股。不要盲目抢首分钟，不要对失败跳空一路摊平，也不要把短期期权做成过大仓位。"
+    ],
+    "summary": [
+      "EN: Tuesday, July 14 U.S. indexes closed higher: S&P 500 +0.4% to 7,543.59, Nasdaq +0.9% to 26,107.01, Dow +0.02% to 52,508.27, and Russell 2000 +0.4% to 2,964.76.\n中文：美股周二（7月14日）收盘走高：标普500上涨0.4%至7,543.59，纳指上涨0.9%至26,107.01，道指上涨0.02%至52,508.27，罗素2000上涨0.4%至2,964.76。",
+      "EN: The macro help was real. The June CPI report showed headline CPI down 0.4% month over month and up 3.5% year over year, while core CPI was up 2.6% year over year, which pushed the 2-year Treasury yield toward 4.18% and the 10-year toward 4.56% intraday after the release.\n中文：宏观利好是真实存在的。6月CPI显示总CPI环比下降0.4%、同比上升3.5%，核心CPI同比上升2.6%，这推动2年期美债收益率在数据后下探至约4.18%，10年期下探至约4.56%。",
+      "EN: Big-bank earnings gave the market genuine cyclical support. JPMorgan's net income rose 41.2% to $21.16 billion and Goldman Sachs posted record quarterly revenue and profit, while Citi's stock still fell on expense concerns. That split matters for tonight: good numbers are not enough if investors dislike spending or guidance.\n中文：大型银行财报为市场提供了真实的周期支撑。JPMorgan净利润同比增长41.2%至$21.16 billion，Goldman Sachs则交出了创纪录的季度营收和利润，但Citigroup股价仍因费用担忧而下跌。这个分化对今晚很重要：数据好不等于股价一定涨，投资者也会惩罚费用和指引。",
+      "EN: IBM was the major warning sign. Its stock plunged 25.2% after a surprise preliminary earnings miss, with adjusted EPS of $2.93 versus a $3.01 consensus and revenue of $17.2 billion versus a $17.86 billion estimate, showing that enterprise-software and infrastructure spending can still lose badly against AI hardware priorities.\n中文：IBM是最重要的警示信号。它因意外发布的初步业绩不及预期而暴跌25.2%，调整后EPS为$2.93、低于市场预期的$3.01，营收$17.2 billion、低于预期的$17.86 billion，说明在AI硬件优先级面前，企业软件和基础设施支出仍可能明显失速。",
+      "EN: Oil remains a live macro risk even after easing from the day's highs. WTI settled up 1.5% at $79.34 and Brent rose 1.7% to $84.73 after President Trump backed away from a proposed 20% Strait of Hormuz toll but kept the broader blockade pressure on Iranian trade.\n中文：即使从日内高点回落，油价仍是活跃的宏观风险。由于特朗普撤回了拟议中的20%霍尔木兹海峡通行费、但仍维持对伊朗贸易的更广泛封锁压力，WTI收涨1.5%至$79.34，布伦特收涨1.7%至$84.73。",
+      "EN: This briefing is market scenario analysis, not personalized financial advice. Respect U.S. T+0 mechanics, extended-hours unreliability, first-hour failures, IV crush after earnings, leverage decay in products like SOXL, bid/ask spread risk, cash-account and PDT restrictions, and overnight gap risk.\n中文：本简报是市场情景分析，不是个性化投资建议。请尊重美股T+0机制、盘前盘后不可靠性、首小时失败、财报后IV回落、SOXL等产品的杠杆衰减、买卖价差风险、现金账户与PDT限制，以及隔夜跳空风险。"
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "EN: Tuesday close +0.4% to 7,543.59\n中文：周二收盘上涨0.4%至7,543.59",
+        "note": "EN: The index bounced on cooler CPI and stronger bank earnings, but tonight still needs follow-through from broader participation instead of just banks plus selective AI.\n中文：指数因偏软CPI和更强的银行财报而反弹，但今晚仍需要更广泛的参与来跟进，而不是只靠银行加少数AI标的。"
+      },
+      "Nasdaq": {
+        "value": "EN: Tuesday close +0.9% to 26,107.01\n中文：周二收盘上涨0.9%至26,107.01",
+        "note": "EN: The rebound helped repair some chip damage, but overnight coverage still described AI stocks as fighting near key resistance rather than running in a clean breakout.\n中文：这次反弹修复了部分芯片板块的伤害，但隔夜报道仍把AI股描述为在关键阻力附近反复争夺，而不是干净的突破走势。"
+      },
+      "Dow": {
+        "value": "EN: Tuesday close +0.02% to 52,508.27\n中文：周二收盘上涨0.02%至52,508.27",
+        "note": "EN: IBM's collapse held back the Dow even as banks surged, which is a useful reminder that index performance can hide sharp internal dispersion.\n中文：尽管银行大涨，IBM的暴跌仍拖住了道指，这提醒我们：指数表面表现可能掩盖内部剧烈分化。"
+      },
+      "Russell 2000": {
+        "value": "EN: Tuesday close +0.4% to 2,964.76\n中文：周二收盘上涨0.4%至2,964.76",
+        "note": "EN: Small caps participated, but the move was not explosive. IWM still needs to hold VWAP and broaden with credit to prove that risk appetite is improving beyond large-cap earnings winners.\n中文：小盘股参与了反弹，但力度并不爆炸。IWM仍需要守住VWAP并配合信用端扩散，才能证明风险偏好不只是大盘财报赢家的局部行情。"
+      },
+      "Breadth": {
+        "value": "EN: Reviewed coverage showed semiconductors, big banks, cybersecurity, crypto-linked names, and selective AI optics outperforming, while IBM and legacy software/infrastructure lagged; exact advance-decline counts were unavailable in reviewed sources\n中文：已审阅报道显示，半导体、大型银行、网络安全、加密相关标的以及部分AI光模块跑赢，而IBM和传统软件/基础设施落后；已审阅来源未提供精确涨跌家数",
+        "note": "EN: This is better than a narrow mega-cap bounce, but it is still theme-led breadth. If tonight's leadership shrinks back to only one or two groups, reduce beta rather than forcing trades.\n中文：这比单纯的大盘权重反弹要更健康一些，但仍然是主题驱动型宽度。如果今晚主线又收缩回只剩1-2个板块，就该先降beta，而不是强行出手。"
+      },
+      "Treasury Yields": {
+        "value": "EN: After CPI, reviewed market coverage showed the 2-year Treasury yield around 4.18% and the 10-year around 4.56% intraday\n中文：CPI公布后，已审阅市场报道显示2年期美债收益率盘中约为4.18%，10年期约为4.56%",
+        "note": "EN: Lower yields helped growth and semis, but not enough to remove macro risk entirely. If yields re-accelerate after PPI or Fed commentary, chip and leveraged-long setups degrade quickly.\n中文：收益率回落帮助了成长股和半导体，但还不足以完全移除宏观风险。如果PPI或美联储表态后收益率重新上冲，芯片和杠杆多头的质量会迅速下降。"
+      },
+      "Oil / Commodities": {
+        "value": "EN: WTI settled +1.5% at $79.34 and Brent +1.7% at $84.73 after trimming earlier spikes\n中文：WTI收涨1.5%至$79.34，布伦特收涨1.7%至$84.73，均较日内高点有所回落",
+        "note": "EN: Oil is still the cleanest macro stress signal. If crude starts climbing back toward Tuesday's highs during U.S. hours, airlines, long-duration growth, and high-beta semis all become harder to own.\n中文：油价仍是最干净的宏观压力信号。如果美股时段原油重新逼近周二高点，航空、高久期成长和高beta半导体都会更难持有。"
+      },
+      "FX / Dollar": {
+        "value": "EN: Reviewed coverage showed the dollar easing after the cooler CPI report; exact DXY level was unavailable in reviewed sources\n中文：已审阅报道显示美元在偏软CPI后回落；已审阅来源未提供精确DXY水平",
+        "note": "EN: A softer dollar helps the risk-on case at the margin, but it is secondary to yields, oil, and breadth. Use it as confirmation, not as the primary signal.\n中文：美元回落在边际上有利于风险偏好，但其重要性仍低于收益率、油价和宽度。把它当成确认信号，而不是主信号。"
+      },
+      "Volatility / Options": {
+        "value": "EN: Exact VIX close was unavailable in reviewed sources, but options pricing implied roughly a 5% week-end move for TSMC and about a 7% week-end move for ASML\n中文：已审阅来源未提供精确VIX收盘位，但期权定价暗示TSMC到周末约有5%的预期波动，ASML约有7%的预期波动",
+        "note": "EN: Index calm can still hide violent single-name swings. If using options, keep size smaller than stock exposure and assume IV crush can damage even a roughly correct directional call.\n中文：指数层面的平静，仍可能掩盖个股层面的剧烈波动。如果一定要做期权，仓位应小于正股，并默认IV回落会伤害即便方向大致正确的判断。"
+      },
+      "Futures / Premarket": {
+        "value": "EN: Reviewed overnight coverage showed Dow, S&P 500, and Nasdaq futures modestly higher after Tuesday's cash-session rebound\n中文：已审阅隔夜报道显示，在周二现金盘反弹后，道指、标普500和纳指期货夜盘均小幅走高",
+        "note": "EN: That is constructive, not decisive. Overnight strength only matters if it survives the first regular-session test after Morgan Stanley, ASML, and PPI.\n中文：这属于建设性，而不是决定性信号。只有在Morgan Stanley、ASML和PPI之后，隔夜强势还能通过正股开盘后的第一轮测试，它才有意义。"
+      },
+      "Credit Indicators": {
+        "value": "EN: Reviewed coverage said combined Q2 profit for JPMorgan, Goldman Sachs, Bank of America, Citi, and Wells Fargo rose about 39% year over year; exact HYG move was unavailable in reviewed sources\n中文：已审阅报道显示，JPMorgan、Goldman Sachs、Bank of America、Citi和Wells Fargo合计Q2利润同比增长约39%；已审阅来源未提供精确HYG变动",
+        "note": "EN: Credit still looks constructive at the bank-earnings level, but high beta should only expand if XLF leadership is joined by IWM and a stable HYG-style credit read-through.\n中文：从银行财报层面看，信用端仍偏建设性，但只有当XLF的强势能获得IWM和类似HYG信用读数的稳定配合时，才适合扩大高beta。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: PPI stays benign, Morgan Stanley confirms the investment-banking and wealth-management upswing, ASML supports AI-capex demand, and QQQ plus SMH both hold above VWAP after the first 30-60 minutes. In that path, XLF, JPM, AMAT, and selective semis remain tradable on pullback holds rather than straight-line chases.\n中文：偏强情景：PPI继续温和，Morgan Stanley确认投行业务和财富管理上行，ASML继续支撑AI资本开支需求，同时QQQ和SMH在前30-60分钟后都守在VWAP上方。这个路径下，XLF、JPM、AMAT和部分半导体仍可通过回踩守住来交易，而不是直线追高。",
+      "EN: Base case: the market rotates instead of trends. Banks digest Tuesday's gains, semis chop around resistance, and small caps need extra relative-volume proof. That favors liquid trigger-based trades in XLF, QQQ, IWM, and one or two stock names rather than a long list of speculative bets.\n中文：基准情景：市场更多是轮动而不是单边。银行消化周二涨幅，半导体在阻力区震荡，小盘则需要更多相对放量证明。这更适合在XLF、QQQ、IWM以及1-2只个股上做触发式交易，而不是铺一长串投机票。",
+      "EN: Bear case: oil re-accelerates, PPI surprises hot, or ASML/Warsh commentary revives rate fear. Then QQQ and SMH failed-VWAP setups become cleaner hedges than trying to force fresh semiconductor longs, and leveraged products like SOXL should be avoided.\n中文：偏弱情景：油价重新上冲、PPI偏热，或ASML/Warsh相关表态重新点燃利率担忧。此时，QQQ和SMH的VWAP失守型对冲会比强做新的半导体多头更干净，而SOXL这类杠杆产品应回避。",
+      "EN: Event case: Morgan Stanley beats, but ASML or IBM-style software weakness creates internal rotation instead of broad upside. In that path, keep stock selection tight, favor banks and semicap equipment over weak enterprise software, and shorten holding periods.\n中文：事件情景：Morgan Stanley虽然超预期，但ASML或类似IBM的软件弱势引发内部轮动，而不是全面上涨。这个路径下，应收紧选股范围，优先银行和半导体设备，回避疲弱的企业软件，并缩短持仓周期。",
+      "EN: Speculative case: AAOI, CLSK, WULF, or IREN can work if market breadth improves and volume expands in the regular session. If the move is only a thin premarket spike or a first-five-minute burst, treat it as noise and do nothing.\n中文：投机场景：如果市场宽度改善、正股时段成交量扩散，AAOI、CLSK、WULF或IREN可以工作；但如果走势只是薄量盘前冲高或开盘前五分钟脉冲，就把它当噪音，不要做。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "JPM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Actionable only if the stock avoids a post-earnings gap failure, then holds the first pullback above VWAP or reclaims VWAP after the first 30-60 minutes with XLF confirming. If it opens already well beyond Tuesday's range, do not chase.\n中文：只有在财报后没有出现跳空失败，并且在前30-60分钟后于XLF配合下守住第一次回踩、或重新收复VWAP时才可观察。如果开盘时已经明显超出周二波动区间，就不要追。",
+        "reason": "EN: JPM combines real earnings upside, strong liquidity, and a cleaner macro read-through on consumers, credit, and market activity than most single-name trades tonight.\n中文：JPM同时具备真实的业绩上修、强流动性，以及对消费者、信用和市场活跃度更干净的映射，这使它比今晚多数单一个股交易都更有代表性。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "IBM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "EN: Short only if IBM fails a first 30-60 minute rebound, cannot reclaim VWAP, and stalls below the opening range. Avoid pressing a short into an already exhausted straight-down flush.\n中文：只有在IBM前30-60分钟反弹失败、无法收复VWAP、并在开盘区间下方受阻时才考虑空头。不要对已经走成直线下杀、明显衰竭的走势继续硬压。",
+        "reason": "EN: IBM now represents the clearest large-cap evidence that legacy enterprise spending can lose share when AI hardware and data-center budgets dominate.\n中文：IBM现在是最清晰的大盘股证据之一，说明当AI硬件和数据中心预算占优时，传统企业IT支出会失去份额。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Actionable only if the ETF holds above VWAP or breaks the opening range after Morgan Stanley's report, with JPM and GS not immediately reversing. If bank leadership narrows to one name, downgrade the setup quality.\n中文：只有在Morgan Stanley财报后，ETF能守住VWAP或突破开盘区间，且JPM与GS没有立刻反转时才可观察。如果银行主线收缩成单一个股独舞，就下调这个设置的质量。",
+        "reason": "EN: XLF spreads event risk across the strongest confirmed sector on Tuesday and remains a cleaner tool than chasing a lower-liquidity regional or fintech name.\n中文：XLF把事件风险分散到周二最强、且已经被确认的板块里，仍然比去追流动性更差的地区性银行或金融科技个股更干净。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "AAOI",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Only use it if the stock digests Tuesday's spike, holds the first pullback, and then breaks the opening range with relative volume. If it gaps hard again and cannot hold VWAP, do nothing.\n中文：只有在股价消化周二的大涨、守住第一次回踩、并在相对放量下突破开盘区间时才观察。如果再次大幅高开却守不住VWAP，就什么都不做。",
+        "reason": "EN: AAOI has a real AI-optics manufacturing catalyst and real liquidity, but the chart is fast, sentiment-heavy, and vulnerable to violent gap-and-fade behavior.\n中文：AAOI具备真实的AI光模块制造扩产催化和真实流动性，但图形节奏很快、情绪很重，且很容易出现暴力高开后回落。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Avoid unless SMH first proves a clean regular-session hold above VWAP and the plan is strictly intraday. If semis are choppy around resistance or reacting to ASML headlines, SOXL is the wrong tool.\n中文：除非SMH先在正股时段干净地守在VWAP之上，且计划严格限定为日内，否则应回避。如果半导体在阻力区震荡、或被ASML headline牵着走，SOXL就是错误工具。",
+        "reason": "EN: Leverage decay, path dependency, and earnings-driven semiconductor swings make SOXL useful only after confirmation, never as a pre-confirmation prediction vehicle.\n中文：杠杆衰减、路径依赖和财报驱动的半导体波动，决定了SOXL只能在确认之后使用，绝不能拿来做确认前的预判工具。",
+        "convictionScore": 1,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-07-15 08:30 ET",
+        "event": "EN: U.S. June PPI release\n中文：美国6月PPI公布",
+        "watch": "EN: Watch whether softer CPI is confirmed or challenged by producer prices, and focus on the market's yield reaction instead of the first knee-jerk headline move.\n中文：重点看PPI是确认还是挑战偏软CPI，并把注意力放在收益率反应上，而不是headline出来后的第一下抽动。",
+        "relatedTickers": "SPY, QQQ, TLT, IWM"
+      },
+      {
+        "date": "2026-07-15 premarket ET",
+        "event": "EN: Morgan Stanley, Johnson & Johnson, and Bank of New York Mellon earnings\n中文：Morgan Stanley、Johnson & Johnson、Bank of New York Mellon 财报",
+        "watch": "EN: For Morgan Stanley, watch investment banking, trading, wealth-management margins, and asset inflows. For the group, watch whether strong numbers broaden beyond Tuesday's early bank winners.\n中文：对Morgan Stanley，重点看投行业务、交易、财富管理利润率和资产净流入。对整个组别，则看强业绩能否把周二的银行强势进一步扩散。",
+        "relatedTickers": "MS, BK, XLF"
+      },
+      {
+        "date": "2026-07-15 Europe morning / U.S. premarket",
+        "event": "EN: ASML earnings\n中文：ASML财报",
+        "watch": "EN: Watch bookings, revenue, management tone on AI demand, and any read-through for semiconductor equipment and TSMC's Thursday report.\n中文：重点看订单、营收、管理层对AI需求的表态，以及对半导体设备链和周四TSMC财报的映射。",
+        "relatedTickers": "ASML, AMAT, KLAC, LRCX, TSM, SMH"
+      },
+      {
+        "date": "2026-07-15 14:00 ET",
+        "event": "EN: Federal Reserve Beige Book\n中文：美联储褐皮书",
+        "watch": "EN: Focus on labor, pricing, and regional demand language. If the Beige Book sounds firmer than CPI implied, rate-sensitive growth can lose momentum late in the session.\n中文：重点关注就业、定价和地区需求措辞。如果褐皮书比CPI暗示的更偏强，高利率敏感成长股可能在后半段失去动能。",
+        "relatedTickers": "QQQ, TLT, XLF"
+      },
+      {
+        "date": "2026-07-16",
+        "event": "EN: TSMC earnings plus U.S. retail sales and jobless claims\n中文：TSMC财报，以及美国零售销售与初请失业金",
+        "watch": "EN: TSMC is the next hard proof point for AI hardware demand quality, while retail sales and claims test whether the consumer is still absorbing higher energy and policy uncertainty.\n中文：TSMC是下一道检验AI硬件需求质量的硬指标，而零售销售和初请则检验消费者能否继续消化更高的能源成本和政策不确定性。",
+        "relatedTickers": "TSM, SMH, XRT, SPY"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-07-15",
+        "ticker": "JPM",
+        "status": "hit",
+        "result": "EN: The prior best-long framing worked. JPM rose 2.8% to a record high after posting a 41.2% increase in net income and stronger revenue, which validated the idea that bank strength was more than a headline trade.\n中文：此前把JPM列为最佳多头框架是有效的。JPM在净利润同比增长41.2%、营收走强后上涨2.8%并创出新高，这验证了银行强势并不只是headline交易。",
+        "lesson": "EN: When fundamentals, liquidity, and macro read-through all align, the highest-quality trade is often the boring liquid leader rather than the flashiest beta name.\n中文：当基本面、流动性和宏观映射同时对齐时，质量最高的交易往往是“看起来没那么炫”的流动性龙头，而不是最花哨的高beta。"
+      },
+      {
+        "date": "2026-07-15",
+        "ticker": "QQQ",
+        "status": "miss",
+        "result": "EN: The prior QQQ short/hedge framework was wrong for Tuesday's session because cooler CPI pushed yields lower and the Nasdaq closed up 0.9%. The short thesis was invalidated once macro data flipped the tape and the index reclaimed risk appetite.\n中文：此前把QQQ作为周二主要空头/对冲框架，对该交易日来说是错误的，因为偏软CPI压低了收益率，纳指最终收涨0.9%。当宏观数据把盘面翻多、指数重新获得风险偏好时，这个空头逻辑就已经失效。",
+        "lesson": "EN: A macro hedge can be conceptually sound and still be a bad same-day trade when the catalyst surprises in the opposite direction. Timing and invalidation must override narrative.\n中文：宏观对冲在逻辑上可能没问题，但只要催化朝相反方向意外发展，它仍可能是一次糟糕的当日交易。时点和失效规则必须高于叙事。"
+      },
+      {
+        "date": "2026-07-15",
+        "ticker": "XLF",
+        "status": "hit",
+        "result": "EN: The prior best-ETF focus held up well. Strong earnings from JPMorgan, Goldman, Bank of America and peers kept financials in leadership even while other large-cap groups remained mixed.\n中文：此前把XLF作为最佳ETF的思路表现良好。JPMorgan、Goldman、Bank of America等强势财报，让金融板块在其他大盘组别仍显分化时继续保持主线地位。",
+        "lesson": "EN: When several major constituents report on the same day, the sector ETF can be cleaner than betting on a single earnings gap that may reverse.\n中文：当多个核心成分股同日公布财报时，板块ETF往往比去赌单一个股的跳空更干净，因为单一个股更容易反转。"
+      },
+      {
+        "date": "2026-07-15",
+        "ticker": "SKHY",
+        "status": "hit",
+        "result": "EN: The prior day-two/day-three-only discipline worked. Reviewed coverage showed SK Hynix's ADR surged about 20% on Tuesday after the stock first stabilized, which matched the rule to wait for price discovery to calm before engaging.\n中文：此前“只做第2/3天、并等稳定后再看”的纪律是有效的。已审阅报道显示，SK海力士ADR在周二先稳住后又大涨约20%，这与“先等价格发现冷静下来再参与”的规则一致。",
+        "lesson": "EN: New listings and fresh ADRs can offer real opportunity, but only if traders treat them as unstable price-discovery events instead of immediate chase setups.\n中文：新上市或新ADR确实可能带来机会，但前提是把它们当成不稳定的价格发现事件，而不是立刻追高的设置。"
+      },
+      {
+        "date": "2026-07-15",
+        "ticker": "SOXL",
+        "status": "miss",
+        "result": "EN: The prior blanket avoid stance on SOXL was too conservative for Tuesday's session. Cooler CPI and a semiconductor rebound improved the tape enough that a confirmation-based intraday long would have been more accurate than a full stay-away call, even though exact SOXL closing data were unavailable in reviewed sources.\n中文：此前对SOXL采取“全面回避”的立场，对周二来说偏保守了。偏软CPI和半导体反弹让盘面改善到足以支持“确认后做日内多头”，这比完全不碰更准确，尽管已审阅来源未提供SOXL精确收盘数据。",
+        "lesson": "EN: Leveraged ETFs still require caution, but when the macro trigger clearly flips and the underlying sector confirms, the right message is 'wait for confirmation' rather than 'never touch it.'\n中文：杠杆ETF当然仍要谨慎，但当宏观触发已经明确翻多、且底层板块完成确认时，正确表述应该是“等确认后再看”，而不是“一律不碰”。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: Big Banks / Capital Markets\n中文：大型银行 / 资本市场",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Tuesday's Q2 reports from JPMorgan, Goldman Sachs, Bank of America, Citi, and Wells Fargo showed powerful profit growth and strong trading/investment-banking activity.\n中文：周二JPMorgan、Goldman Sachs、Bank of America、Citi和Wells Fargo的Q2财报显示出强劲利润增长，以及强势的交易/投行业务活动。",
+        "watch": "EN: Watch XLF, JPM, GS, and later Morgan Stanley for opening-range structure, VWAP behavior, and whether leadership broadens beyond the first earnings batch.\n中文：重点看XLF、JPM、GS以及稍后的Morgan Stanley的开盘区间结构、VWAP表现，以及主线是否能扩散到第一批财报之后。",
+        "risk": "EN: Good results can still fail if expense guidance, capital spending, or wealth-management margins disappoint.\n中文：即便数据漂亮，只要费用指引、资本开支或财富管理利润率不及预期，板块仍可能失败。"
+      },
+      {
+        "name": "EN: Semiconductors / AI Hardware\n中文：半导体 / AI硬件",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Softer CPI, TSMC's record June revenue, and tonight's ASML plus tomorrow's TSMC earnings keep the AI hardware chain in focus.\n中文：偏软CPI、TSMC创纪录的6月营收，以及今晚的ASML和明天的TSMC财报，让AI硬件链继续处于行情中心。",
+        "watch": "EN: Watch SMH, TSM, AMAT, and the response to ASML for VWAP reclaim, opening-range follow-through, and resistance behavior.\n中文：重点看SMH、TSM、AMAT以及市场对ASML的反应，观察VWAP收复、开盘区间跟进和阻力位表现。",
+        "risk": "EN: A good macro day does not erase event risk. One cautious guide from ASML or TSMC can still reverse the group quickly.\n中文：宏观偏好并不能抹掉事件风险。ASML或TSMC只要有一个偏谨慎的指引，就可能很快让整个组别反转。"
+      },
+      {
+        "name": "EN: AI Optics / Networking\n中文：AI光模块 / 网络互联",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: AAOI's Texas manufacturing expansion and the broader AI-networking supercycle keep optics active for aggressive traders.\n中文：AAOI在德州扩产，以及更广泛的AI网络互联超级周期，让光模块方向对激进交易者仍然活跃。",
+        "watch": "EN: Prefer AAOI or peers only on pullback holds, fresh opening-range breaks, and relative-volume confirmation.\n中文：AAOI及其同类更适合只在回踩守住、重新突破开盘区间、且相对放量确认时观察。",
+        "risk": "EN: These names can gap and fade violently because the story is real but the positioning is crowded.\n中文：这类股票容易出现暴力高开后回落，因为逻辑是真实的，但仓位也非常拥挤。"
+      },
+      {
+        "name": "EN: AI Power / Data-Center Landlords\n中文：AI电力 / 数据中心载体",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: WULF's Anthropic lease and IREN's Nvidia-linked infrastructure expansion keep the AI-power buildout theme hot.\n中文：WULF与Anthropic的租约，以及IREN与Nvidia相关的基础设施扩张，让AI电力建设主题继续火热。",
+        "watch": "EN: Use WULF and IREN only if the first regular-session test holds and if the move is supported by real volume rather than thin sympathy.\n中文：WULF和IREN都只在正股时段第一轮测试守住、且走势由真实成交量而非薄量跟风推动时才更值得看。",
+        "risk": "EN: Financing, dilution, execution delays, and overnight sentiment risk are materially higher here than in large-cap tech.\n中文：这里的融资、稀释、执行延迟和隔夜情绪风险，都明显高于大型科技股。"
+      },
+      {
+        "name": "EN: Crypto-Linked HPC / Digital Infrastructure\n中文：加密相关HPC / 数字基础设施",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: CleanSpark's new multi-billion-dollar lease and Bitcoin's rebound after CPI both support the trade when liquidity is present.\n中文：CleanSpark的新数十亿美元租约，以及比特币在CPI后反弹，都在流动性存在时支持这条交易线。",
+        "watch": "EN: Watch CLSK and peer reactions relative to Bitcoin, but demand a first-hour hold and avoid any setup that loses the 200-day or fails below VWAP.\n中文：观察CLSK及其同类相对于比特币的反应，但必须要求首小时承接，并回避任何失守200日线或跌破VWAP的设置。",
+        "risk": "EN: The crypto overlay adds an extra volatility layer, and these stocks can decouple from their own corporate catalyst within minutes.\n中文：加密属性会额外叠加一层波动，这些股票可能在几分钟内就与自身公司催化脱钩。"
+      },
+      {
+        "name": "EN: Enterprise Software / Legacy IT\n中文：企业软件 / 传统IT",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: IBM's preliminary miss highlighted budget pressure and poor execution inside legacy enterprise infrastructure and software spending.\n中文：IBM的初步业绩不及预期，凸显了传统企业基础设施与软件支出中的预算压力和执行问题。",
+        "watch": "EN: Watch IBM and software peers for failed rebounds below VWAP rather than straight-down chasing.\n中文：观察IBM及软件同类在VWAP下方的反弹失败，而不是对直线下跌一路追空。",
+        "risk": "EN: One badly broken stock does not automatically mean the whole group must follow, so keep the setup tactical and confirmation-based.\n中文：一只严重破位的个股，并不自动等于整个板块都会跟跌，所以这条线必须以战术性、确认式的方式处理。"
+      },
+      {
+        "name": "EN: Energy / Oil Hedge\n中文：能源 / 油价对冲",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Oil remained bid despite backing off the highs after the Strait of Hormuz toll proposal was withdrawn.\n中文：即使特朗普撤回了霍尔木兹海峡通行费提议，油价在从高点回落后仍然保持偏强。",
+        "watch": "EN: Watch XLE and crude futures for whether Tuesday's retreat from the highs turns into consolidation or a new leg up.\n中文：重点看XLE和原油期货，判断周二从高点回落后是转入整理，还是开启新一轮上行。",
+        "risk": "EN: Any de-escalation headline or faster-than-expected demand cooling can remove the hedge premium quickly.\n中文：任何局势降温headline，或需求降温快于预期，都可能迅速抹去对冲溢价。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "JPM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes. Only consider it if post-earnings price action holds the first pullback above VWAP or reclaims VWAP with XLF confirming. If the stock opens already far above Tuesday's range, avoid chase.\n中文：先等前30-60分钟。只有在财报后股价守住第一次回踩并站在VWAP上方，或在XLF配合下重新收复VWAP时才可观察。如果开盘已经远高于周二波动区间，就不要追。",
+        "suggestedProfitTake": "EN: Trim into an extension beyond the opening range or prior high if breadth does not keep broadening. If the stock trends cleanly above VWAP with sector support, keep only a smaller runner.\n中文：如果股价在市场宽度没有继续扩散的情况下超出开盘区间或前高延伸区，就分批止盈。若股价在板块支持下沿VWAP干净上行，只保留更小的跟随仓。",
+        "type": "large-cap bank",
+        "catalyst": "EN: Blowout Q2 earnings, higher net-interest-income outlook, and direct read-through on consumer and market activity.\n中文：超预期Q2财报、净利息收入预期上修，以及对消费者和市场活跃度的直接映射。",
+        "why": "EN Fundamentals / 中文基本面: JPMorgan reported net income up 41.2% to $21.16 billion, EPS of $7.70, and revenue up 27.7% to $57.35 billion, while also raising its 2026 net-interest-income outlook to $105.5 billion; exact current forward P/E was unavailable in reviewed sources. EN Technicals / 中文技术面: The stock jumped 2.8% to a record high Tuesday, so the chart is strong but extended and should only be bought on a regular-session pullback hold, VWAP reclaim, or opening-range continuation rather than a blind gap chase. EN Volume/Liquidity / 中文成交量/流动性: JPM is one of the deepest and most liquid U.S. financial stocks with active options, making it practical for small capital, but post-earnings first-minute spreads can still be noisy before institutions commit.",
+        "risk": "EN: A good quarter can still fade if the market decides the move is fully priced or if follow-up commentary on credit, expenses, or geopolitics turns more cautious.\n中文：即使季度数据很好，只要市场判断涨幅已被计价，或后续对信用、费用、地缘风险的评论转谨慎，股价仍可能回落。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: JPM rose 2.8% on Tuesday to a record high after a major earnings beat.\n中文：JPM在周二因大幅超预期财报上涨2.8%，并创出历史新高。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "GS",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only after the first 30-60 minutes if the stock holds above VWAP or consolidates Tuesday's earnings surge without giving back the opening range. If it opens stretched again, stand aside.\n中文：只有在前30-60分钟后，股价仍能守在VWAP上方，或在不回吐开盘区间的前提下消化周二财报大涨时才可观察。如果再度高开过度伸展，就先退开。",
+        "suggestedProfitTake": "EN: Trim into fresh record-extension if volume cools or if the move outruns broad bank participation. If XLF and Morgan Stanley confirm the group, keep a smaller runner only.\n中文：如果成交量降温，或涨势明显跑在整个银行组前面，就在新的纪录高位延伸区分批止盈。若XLF和Morgan Stanley继续确认板块，可保留更小的跟随仓。",
+        "type": "investment bank",
+        "catalyst": "EN: Record Q2 profit, surging trading revenue, and strong equity/debt underwriting linked to the revived IPO and AI financing cycle.\n中文：创纪录的Q2利润、飙升的交易收入，以及与IPO复苏和AI融资周期相关的强劲股债承销。",
+        "why": "EN Fundamentals / 中文基本面: Goldman Sachs posted record quarterly profit of $6.63 billion, EPS of $20.98, and revenue of $20.34 billion, with equities trading around $7.42 billion and investment-banking fees about $3.4 billion; exact current forward P/E was unavailable in reviewed sources. EN Technicals / 中文技术面: The stock surged to record highs Tuesday, which confirms leadership but also leaves the chart extended, so the better setup is a first pullback hold or a tight opening-range continuation rather than a straight-up chase. EN Volume/Liquidity / 中文成交量/流动性: GS has strong institutional liquidity and liquid options, but because it already moved sharply on earnings, traders should demand continued volume support instead of assuming momentum will persist automatically.",
+        "risk": "EN: This is a high-expectations chart now. Any sign that Tuesday's quarter marks a peak rather than a base can trigger sharp profit-taking.\n中文：这张图已经是高预期状态。只要市场开始怀疑周二这份季报更像“阶段顶峰”而不是“新起点”，就可能出现明显获利回吐。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: GS surged to a record high on Tuesday after reporting a 78% profit jump and record revenue.\n中文：GS在周二公布利润大增78%、营收创纪录后，股价冲上历史新高。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and only consider it if the ADR reclaims or holds above VWAP after ASML and before/into TSMC's own earnings setup. If the stock gaps toward the top of the expected 5% weekly range before the open, avoid chase.\n中文：先等前30-60分钟，只有在ASML之后、且临近TSMC自身财报时，ADR能够收复或守住VWAP，才可观察。如果开盘前已经冲向本周预期5%波动区间上沿，就不要追。",
+        "suggestedProfitTake": "EN: Take partial profits into any move that stretches toward the upper end of the implied earnings range or if semis stall at resistance without broader ETF support.\n中文：如果股价接近财报隐含波动区间上沿，或半导体在缺乏ETF配合下于阻力位停滞，就分批止盈。",
+        "type": "mega-cap semiconductor",
+        "catalyst": "EN: Record June revenue, Thursday earnings, and read-through for the entire AI hardware chain.\n中文：创纪录的6月营收、周四财报，以及对整个AI硬件链的映射。",
+        "why": "EN Fundamentals / 中文基本面: TSMC reported June revenue of NT$442.68 billion, up 67.9% year over year, and Q2 revenue of about NT$1.27 trillion, with analysts expecting about $39.94 billion in sales and roughly $3.76 to $3.80 EPS; exact current forward P/E was unavailable in reviewed sources. EN Technicals / 中文技术面: Despite the strong revenue, reviewed coverage showed the ADR had recently pulled back and options now imply about a 5% week-end move, so the setup is event-heavy and should be treated as a confirmation trade around VWAP and opening-range behavior instead of an anticipatory chase. EN Volume/Liquidity / 中文成交量/流动性: TSM is highly liquid in U.S. hours and usually offers reliable volume confirmation, but around earnings the move can be driven more by sector ETF flows and headline reactions than by orderly chart structure.",
+        "risk": "EN: The earnings catalyst is high quality, but event risk is high and a strong print can still sell off if guidance or gross-margin tone disappoints.\n中文：财报催化本身质量很高，但事件风险同样很高；即便数据强，也可能因为指引或毛利率口径不佳而利好兑现。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: TSMC's June revenue report materially strengthened the fundamental thesis, but the U.S. ADR still sits in a pre-earnings, event-heavy setup.\n中文：TSMC的6月营收报告明显强化了基本面逻辑，但其美股ADR仍处在财报前、高事件风险的设置中。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if the stock holds the first pullback above VWAP or clears Tuesday's high with relative volume after ASML. If the reaction is weak and volume stays below average, keep it watch-only.\n中文：只有在ASML之后，股价守住第一次回踩并站在VWAP上方，或带相对放量突破周二高点时才可观察。如果反应偏弱且量能继续低于均值，就只看不做。",
+        "suggestedProfitTake": "EN: Trim into resistance if the stock extends without a matching improvement in SMH or the wider equipment group. If the whole semicap basket confirms, keep a smaller runner.\n中文：如果股价在SMH或更广泛设备组没有同步改善的情况下单独延伸到阻力位，就分批止盈。若整个半导体设备篮子都在确认，可保留更小的跟随仓。",
+        "type": "semiconductor equipment",
+        "catalyst": "EN: Meta's in-house chip plans, continued AI wafer-fab-equipment demand, and ASML earnings as the next read-through.\n中文：Meta自研芯片计划、持续的AI晶圆设备需求，以及ASML财报作为下一道映射。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed sector coverage said hyperscaler AI capex is still supporting wafer-fabrication-equipment demand and Citi sees the WFE market reaching about $250 billion by 2028, though today's reviewed sources did not provide fresh Applied Materials revenue, margin, or forward-P/E figures. EN Technicals / 中文技术面: AMAT rose 3.53% Tuesday to $595.70 but remained 19.46% below its 52-week high of $739.67, which means the rebound is constructive without being fully repaired; specific moving-average readings were unavailable in reviewed sources. EN Volume/Liquidity / 中文成交量/流动性: Tuesday volume was about 6.2 million shares, below its 50-day average of 10.1 million, so the move needs better regular-session participation before it deserves a higher-conviction breakout label.",
+        "risk": "EN: If ASML disappoints on bookings or AI tone, the whole semicap stack can reverse even if AMAT looked constructive the day before.\n中文：如果ASML在订单或AI口径上不及预期，即便AMAT前一天看起来不错，整个设备链也可能一起反转。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AMAT gained 3.53% on Tuesday but still remained well below its late-June high.\n中文：AMAT周二上涨3.53%，但仍明显低于6月底高点。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "IBM",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: For a short, wait for the first 30-60 minutes and only consider it if the stock fails a rebound below VWAP or stalls under the opening range after an oversold bounce. Avoid pressing the short if price immediately reclaims VWAP on heavy volume.\n中文：若做空，先等前30-60分钟，只有在股价反弹到VWAP下方失败，或在超跌反弹后受阻于开盘区间下方时才考虑。如果股价在放量下立刻重回VWAP之上，就不要继续压空。",
+        "suggestedProfitTake": "EN: Cover partials into a flush extension if the stock becomes too stretched below the opening range, and fully reduce if it builds a higher low above VWAP.\n中文：如果股价在开盘区间下方继续过度下挫，就在恐慌延伸处先回补一部分；若它在VWAP上方构筑更高低点，则应进一步回补。",
+        "type": "legacy enterprise software / infrastructure",
+        "catalyst": "EN: Preliminary Q2 miss, weak software and infrastructure trends, and a market narrative that budgets are shifting toward AI hardware.\n中文：初步Q2不及预期、软件和基础设施趋势偏弱，以及市场关于预算向AI硬件迁移的叙事。",
+        "why": "EN Fundamentals / 中文基本面: IBM's preliminary report showed adjusted EPS of $2.93 versus a $3.01 consensus, revenue of $17.2 billion versus $17.86 billion expected, software growth of 5% versus 10.2% expected, and infrastructure revenue down 7%; exact current forward P/E was unavailable in reviewed sources. EN Technicals / 中文技术面: The stock plunged 25.2% Tuesday in its worst day ever, which confirms severe technical damage but also means the chart is oversold and better suited to failed-bounce shorts than to fresh straight-down chasing. EN Volume/Liquidity / 中文成交量/流动性: IBM is liquid with active options, but shock-event days widen intraday spreads and can create violent bear-market bounces, so waiting for regular-session confirmation matters.",
+        "risk": "EN: After such a large one-day drop, short squeezes and mean-reversion bounces become a real execution risk.\n中文：在单日如此大跌之后，空头挤压和均值回归反弹会成为真实的执行风险。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: IBM fell 25.2% on Tuesday, its worst day ever, after a surprise preliminary earnings miss.\n中文：IBM周二因意外发布初步业绩不及预期而暴跌25.2%，创下历史最差单日表现。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "AAOI",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and only consider it if Tuesday's spike is digested, the first pullback holds, and price reclaims or holds above VWAP with relative volume. If it gaps vertically again, avoid chase.\n中文：先等前30-60分钟，只有在周二大涨被消化、第一次回踩守住、且股价在相对放量下收复或守住VWAP时才可观察。如果再次垂直高开，就不要追。",
+        "suggestedProfitTake": "EN: Take profits quickly into a fresh momentum burst or if price reaches beyond the expected intraday range without support from peers. If the move fails to expand on volume, reduce fast.\n中文：如果出现新一轮动量脉冲，或在没有同类配合的情况下超出预期日内区间，就快速止盈。若走势没有量能扩张，应迅速减仓。",
+        "type": "smaller mid-cap AI optics",
+        "catalyst": "EN: New Texas manufacturing capacity and continued enthusiasm for AI optical networking.\n中文：新的德州制造产能，以及市场对AI光模块/网络互联的持续热情。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed coverage said AAOI is targeting $1 billion of 2026 revenue versus prior analyst expectations near $835 million, with demand for 800G transceivers expected to ramp, though fresh EPS, margin, and free-cash-flow figures were unavailable in today's reviewed sources. EN Technicals / 中文技术面: AAOI spiked about 11% Tuesday after announcing construction on two Pearland, Texas properties adding nearly 400,000 square feet of capacity, so the chart is real but extended and should be treated as a pullback-hold or opening-range-break name only. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is acceptable for an aggressive trade and the stock often trades on strong theme volume, but bid/ask spreads and reversal risk are still materially higher than in large-cap semis.",
+        "risk": "EN: The story is credible, but the stock is sentiment-heavy and can gap-and-fade quickly if the optics group stops broadening.\n中文：逻辑是可信的，但这只股票情绪属性很强；一旦光模块板块不再扩散，很容易高开回落。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AAOI jumped about 11% Tuesday on its manufacturing-expansion announcement.\n中文：AAOI周二因扩产公告上涨约11%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "CLSK",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider it if the stock holds its first-hour support and reclaims VWAP after the early shakeout. Avoid buying a gap or spike that is still below the 200-day line.\n中文：只有在股价守住首小时支撑、并在早盘震荡后重新收复VWAP时才考虑。若股价仍压在200日线下方，就不要去买跳空或脉冲拉升。",
+        "suggestedProfitTake": "EN: Scale out into a sharp extension or if Bitcoin and peer sympathy fade. If the stock loses VWAP after a failed breakout, reduce quickly.\n中文：如果出现快速延伸，或比特币与同类共振降温，就分批止盈。若突破失败后再失守VWAP，应迅速减仓。",
+        "type": "small-cap crypto / HPC infrastructure",
+        "catalyst": "EN: A new 20-year infrastructure lease worth $6.6 billion initially and up to $11.6 billion with extensions.\n中文：一份新的20年基础设施租约，初始价值$6.6 billion，若延长可达$11.6 billion。",
+        "why": "EN Fundamentals / 中文基本面: CleanSpark's new lease gives it a real diversification path from bitcoin mining into HPC/digital infrastructure, but reviewed coverage also said the company is still expected to post a fiscal third-quarter loss of 35 cents per share with revenue down 21% to $156.1 million, which keeps the setup speculative. EN Technicals / 中文技术面: Tuesday's action was volatile: the stock cut a roughly 22% morning gain to about 5% and slipped back below its 200-day moving average after testing the 50-day line, so only a regular-session reclaim or first-hour hold improves the chart. EN Volume/Liquidity / 中文成交量/流动性: Heavy volume confirmed real interest, but this remains a fast high-beta tape with wide intraday swings, so relative volume must stay elevated to trust any continuation.",
+        "risk": "EN: The corporate catalyst is real, but crypto correlation and a still-weak near-term earnings profile make this prone to failed breakouts.\n中文：公司催化是真实的，但加密相关性和近端业绩仍偏弱，会让它更容易出现突破失败。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: CLSK saw a roughly 22% morning surge on Tuesday before trimming the gain to around 5% in heavy volume.\n中文：CLSK周二盘中一度上涨约22%，随后在放量中回落到约5%的涨幅。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "WULF",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for a first 30-60 minute base and only consider it if the stock reclaims VWAP or clears the opening range with solid volume. If spreads stay wide or the move is only premarket, stay out.\n中文：先等前30-60分钟形成底部，只有在股价收复VWAP或带量突破开盘区间时才观察。如果价差持续过宽，或只是盘前异动，就先不做。",
+        "suggestedProfitTake": "EN: Trim into any quick extension toward prior deal-reaction highs, especially if the move is not confirmed by IREN/CLSK or the broader AI-power group.\n中文：如果股价快速逼近此前deal反应高点，而IREN/CLSK或更广泛AI电力组并未同步确认，就分批止盈。",
+        "type": "small-cap AI data-center power",
+        "catalyst": "EN: The company's 20-year Anthropic lease worth about $19 billion over its initial term.\n中文：公司与Anthropic签订的20年租约，初始期限价值约$19 billion。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed coverage said WULF's Anthropic lease could generate about $19 billion over the initial term and give the company a long-duration AI-infrastructure revenue stream, while it also plans to sell its majority stake in a separate Texas data-center JV; fresh EPS, free-cash-flow, and net-debt metrics were unavailable in today's reviewed sources. EN Technicals / 中文技术面: The stock rose about 4.9% on the deal announcement last week and bounced off a seven-day losing streak, but it also pulled back from an intraday high near $25.15, so the chart still needs a regular-session VWAP reclaim or pullback hold to improve. EN Volume/Liquidity / 中文成交量/流动性: WULF is tradable but still thinner than large-cap tech and its options liquidity is more limited, so bid/ask spread risk and false breaks are materially higher.",
+        "risk": "EN: Financing, execution timing, and headline sensitivity remain high, and the stock can behave more like a concept trade than a cash-flow trade.\n中文：融资、执行时点和headline敏感度仍然很高，这只股票很多时候更像概念交易，而不是现金流交易。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: WULF rose about 4.9% after announcing the Anthropic lease, but the stock also pulled back from an intraday high, showing that price discovery is still unstable.\n中文：WULF在宣布Anthropic租约后上涨约4.9%，但也从盘中高点回落，说明价格发现过程仍不稳定。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "IREN",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider it after the first 30-60 minutes if price reclaims VWAP, holds the first pullback, and shows relative volume alongside broader AI-infrastructure strength. Avoid if the move is only a sympathy pop.\n中文：只有在前30-60分钟后，股价收复VWAP、守住第一次回踩，并在更广泛AI基建共振下出现相对放量时才考虑。如果只是跟风脉冲，就回避。",
+        "suggestedProfitTake": "EN: Take partials into a sharp extension or if volume fades near prior catalyst highs. If the stock rolls back below VWAP after a failed break, reduce quickly.\n中文：如果出现急拉延伸，或在接近此前催化高点时量能衰减，就先分批止盈。若突破失败后重新跌回VWAP下方，应迅速减仓。",
+        "type": "small-cap AI infrastructure / neocloud",
+        "catalyst": "EN: Nvidia-linked AI infrastructure expansion and a five-gigawatt buildout story.\n中文：与Nvidia相关的AI基础设施扩张，以及五吉瓦建设故事。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed coverage said IREN is partnering with Nvidia on up to 5 gigawatts of AI infrastructure, added 490 megawatts through an acquisition, and saw Nvidia secure rights to buy 30 million shares at $70 each, but the same report also showed revenue of $144.8 million versus $220.2 million expected and a net loss of $247.8 million, so the setup remains speculative. EN Technicals / 中文技术面: The stock previously surged on the Nvidia announcement, but exact July 14 price action was unavailable in today's reviewed sources; that makes first-hour structure, VWAP behavior, and pullback-hold discipline more important than stale narrative. EN Volume/Liquidity / 中文成交量/流动性: IREN is liquid enough for active trading, but it still carries wider spread and financing-overhang risk than safer large caps, so relative volume and peer confirmation matter.",
+        "risk": "EN: This is still a financing-sensitive, story-driven chart, and any capital-raising or execution doubt can overwhelm the catalyst quickly.\n中文：这仍是一张对融资高度敏感、且受叙事驱动的图形，只要出现任何融资或执行疑虑，催化很快就会被盖过去。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: IREN's Nvidia-linked catalyst remains intact, but exact July 14 price action was unavailable in reviewed sources and should be confirmed live before trading.\n中文：IREN与Nvidia相关的催化仍然成立，但已审阅来源未提供其7月14日精确走势，若要交易应先在实时盘口中确认。",
+        "setupStatus": "early"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and only consider it if the ETF holds above VWAP or breaks the opening range with JPM, GS, and later MS confirming.\n中文：先等前30-60分钟，只有在ETF守在VWAP上方，或在JPM、GS以及稍后的MS配合下突破开盘区间时才可观察。",
+        "suggestedProfitTake": "EN: Trim into an extension if leadership narrows or if the ETF outruns participation from the broader financial group.\n中文：如果主线收缩，或ETF明显跑赢整个金融组的参与度，就在延伸区分批止盈。",
+        "type": "financial sector ETF",
+        "catalyst": "EN: Strong large-bank earnings and Morgan Stanley reporting next.\n中文：大型银行强势财报，以及Morgan Stanley接力公布业绩。",
+        "why": "EN Fundamentals / 中文基本面: Big-bank Q2 profit in reviewed coverage rose about 39% year over year, driven by trading, underwriting, and still-firm consumer activity, which supports the sector more broadly than a single name. EN Technicals / 中文技术面: Tuesday's leadership was clear, but the ETF is stronger after a big earnings day and should still be bought only on a regular-session hold above VWAP or a clean opening-range continuation; exact moving-average readings were unavailable in reviewed sources. EN Volume/Liquidity / 中文成交量/流动性: XLF is highly liquid and easier for small capital to manage than a thinner bank or fintech stock, with tight spreads and reliable ETF volume around macro and earnings events.",
+        "risk": "EN: If Morgan Stanley or later bank commentary disappoints, sector enthusiasm can cool quickly even after a good first batch of reports.\n中文：如果Morgan Stanley或后续银行评论令人失望，即使第一批财报不错，板块热度也可能很快降温。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Financials led Tuesday's tape as major bank earnings came in strong.\n中文：随着大型银行财报强势出炉，金融板块领涨了周二盘面。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if QQQ holds above VWAP after the first 30-60 minutes and can push through Tuesday's risk-on range with semis broadening. If it cannot hold VWAP, it becomes watch-only or a hedge vehicle.\n中文：只有在前30-60分钟后，QQQ守在VWAP上方，并在半导体扩散的情况下突破周二风险偏好区间时才可观察。如果守不住VWAP，就只适合作为观察对象或对冲工具。",
+        "suggestedProfitTake": "EN: Trim into resistance or if the move extends without breadth confirmation from IWM and SMH. If momentum stays orderly above VWAP, keep only a smaller runner.\n中文：如果在IWM和SMH没有确认宽度的情况下拉到阻力位或明显延伸，就分批止盈。若动能能沿VWAP有序运行，只保留更小的跟随仓。",
+        "type": "Nasdaq 100 ETF",
+        "catalyst": "EN: Softer CPI, lower yields, and a broad AI/semiconductor read-through from ASML and TSMC.\n中文：偏软CPI、较低收益率，以及ASML和TSMC带来的广义AI/半导体映射。",
+        "why": "EN Fundamentals / 中文基本面: QQQ remains the cleanest liquid expression of AI, long-duration growth, and capex optimism, but it is also the part of the market most sensitive to any re-acceleration in yields or disappointment in AI-spending guidance; exact valuation metrics were unavailable in reviewed sources. EN Technicals / 中文技术面: Tuesday's 0.9% Nasdaq rebound repaired some damage, but reviewed overnight coverage still described AI stocks as testing key resistance rather than breaking free, so VWAP and opening-range confirmation still matter more than story conviction. EN Volume/Liquidity / 中文成交量/流动性: QQQ is among the most liquid ETFs in the world, making it practical for small capital and for disciplined risk management, but that same crowding creates frequent false breaks in the first minutes after macro data and earnings.",
+        "risk": "EN: QQQ can lose quality fast if oil re-accelerates, PPI surprises hot, or ASML weakens semiconductor sentiment.\n中文：如果油价重新上冲、PPI偏热，或ASML打击半导体情绪，QQQ的质量会很快下降。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: QQQ's underlying Nasdaq 100 benchmark rose 0.9% Tuesday on softer CPI and tech rebound.\n中文：QQQ所对应的纳指100在周二因偏软CPI和科技反弹上涨0.9%。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only consider it if the ETF reclaims or holds above VWAP after the first 30-60 minutes and ASML-related news does not reverse the move. Avoid chasing a gap into resistance.\n中文：只有在前30-60分钟后，ETF重新收复或守住VWAP，且ASML相关消息没有把走势打回去时才可观察。不要对着阻力位去追跳空。",
+        "suggestedProfitTake": "EN: Trim into a move that outruns the broader semiconductor group or if the ETF stalls near prior resistance without improving breadth.\n中文：如果ETF涨势明显跑赢整个半导体组，或在宽度没有改善的情况下于前方阻力区停滞，就分批止盈。",
+        "type": "semiconductor ETF",
+        "catalyst": "EN: TSMC revenue, ASML earnings, and a softer-rate backdrop.\n中文：TSMC营收、ASML财报，以及利率回落背景。",
+        "why": "EN Fundamentals / 中文基本面: SMH captures the AI chip and equipment chain that still has real demand support from hyperscaler capex, but tonight's fundamentals are highly event-driven by ASML and TSMC rather than by one static valuation metric; exact ETF valuation data were unavailable in reviewed sources. EN Technicals / 中文技术面: The semiconductor group bounced Tuesday after Monday's damage, but overnight coverage still described many AI names as wrestling with resistance, so the setup remains early and must prove itself through VWAP, opening-range structure, and relative strength. EN Volume/Liquidity / 中文成交量/流动性: SMH is liquid and cleaner than trading a single chip name into event risk, but sector ETFs can still swing hard when one or two heavyweights dominate the tape.",
+        "risk": "EN: One cautious comment from ASML or a weak TSMC setup can turn a decent chart into a failed bounce quickly.\n中文：ASML只要一句偏谨慎的评论，或TSMC的设置转弱，就足以让一张本来不错的图形迅速变成失败反弹。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The semiconductor complex rebounded Tuesday, but many names remained near resistance rather than in clean breakouts.\n中文：半导体板块在周二有所反弹，但很多个股仍停留在阻力附近，而不是干净突破。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if the ETF holds VWAP after the first 30-60 minutes and confirms that breadth is improving beyond banks and semis. If it lags badly, do not force small-cap longs.\n中文：只有在前30-60分钟后，ETF守住VWAP，并确认市场宽度正从银行和半导体扩散到更广范围时才可观察。如果它明显落后，就不要强做小盘多头。",
+        "suggestedProfitTake": "EN: Trim if the move stalls while QQQ keeps leading, because that would suggest narrow risk-on rather than healthy breadth.\n中文：如果IWM停滞而QQQ继续独强，就分批止盈，因为这更像窄幅风险偏好，而不是健康宽度。",
+        "type": "Russell 2000 ETF",
+        "catalyst": "EN: Softer CPI and a modest return of risk appetite.\n中文：偏软CPI，以及风险偏好的有限回归。",
+        "why": "EN Fundamentals / 中文基本面: Small caps benefit most when rate pressure eases and cyclical risk appetite broadens, but this segment is also more sensitive to financing conditions and credit confirmation; exact valuation and spread metrics were unavailable in reviewed sources. EN Technicals / 中文技术面: Tuesday's Russell 2000 gain of 0.4% was constructive but not explosive, so IWM is still more of a breadth-confirmation trade than a proven momentum leader. EN Volume/Liquidity / 中文成交量/流动性: IWM is liquid enough for disciplined execution, but many of its underlying components are less liquid, which is why false starts can happen if the macro tape does not keep improving.",
+        "risk": "EN: If breadth narrows back to only large-cap tech and banks, IWM will likely underperform and drag smaller speculative setups down with it.\n中文：如果市场宽度重新收缩回只剩大盘科技和银行，IWM大概率会落后，并拖累更小的投机标的。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The Russell 2000 rose 0.4% Tuesday, showing participation but not aggressive small-cap leadership.\n中文：罗素2000周二上涨0.4%，说明有参与，但还谈不上激进的小盘主线。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only consider it on a first pullback hold or a clean opening-range breakout if crude stays firm during U.S. hours. If oil keeps fading from the highs, downgrade the setup.\n中文：只有在原油于美股时段保持坚挺时，才考虑第一轮回踩守住或干净的开盘区间突破。如果油价持续从高位回落，就降低这套设置的级别。",
+        "suggestedProfitTake": "EN: Take profits if crude loses momentum or if the ETF extends without confirmation from oil futures.\n中文：如果原油失去动能，或ETF在没有油价期货确认的情况下单独延伸，就分批止盈。",
+        "type": "energy sector ETF",
+        "catalyst": "EN: Ongoing Middle East supply-risk premium despite Trump's rollback of the Hormuz toll proposal.\n中文：尽管特朗普撤回霍尔木兹通行费提议，中东供应风险溢价仍然存在。",
+        "why": "EN Fundamentals / 中文基本面: Oil settled higher Tuesday with WTI at $79.34 and Brent at $84.73, which still supports near-term producer cash flow and sector earnings sensitivity, though today's reviewed sources did not provide fresh XLE valuation or free-cash-flow metrics. EN Technicals / 中文技术面: The setup remains usable as a hedge or rotation tool, but because oil backed off the highs after the toll reversal, the cleaner entry is a pullback hold or opening-range continuation rather than a blind overnight chase. EN Volume/Liquidity / 中文成交量/流动性: XLE is highly liquid and cleaner than trading a single producer into geopolitical headlines, but the underlying sector can still reverse quickly when policy headlines shift.",
+        "risk": "EN: A de-escalation headline can remove the oil premium quickly and leave late energy longs trapped.\n中文：任何局势降温headline都可能迅速抹去油价溢价，让后知后觉的能源多头被套。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Oil settled higher Tuesday even after retreating from intraday highs, keeping energy relevant as a hedge.\n中文：原油在周二即便从盘中高点回落，最终仍收高，令能源继续保有对冲价值。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "HYG",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Use it as a confirmation chart first. Only consider it if equities improve and HYG holds above VWAP instead of fading while banks lead.\n中文：先把它当确认图表。只有在股市改善、且HYG能守在VWAP上方而不是在银行领涨时自己回落，才可观察。",
+        "suggestedProfitTake": "EN: Trim if HYG loses VWAP or if equities are rallying but credit refuses to confirm, because that usually weakens the quality of the broader move.\n中文：如果HYG失守VWAP，或股票上涨而信用端始终不确认，就应分批减仓，因为这通常会削弱整体行情质量。",
+        "type": "high-yield bond ETF",
+        "catalyst": "EN: Softer CPI and strong bank earnings improved the near-term credit backdrop.\n中文：偏软CPI和强势银行财报改善了短期信用背景。",
+        "why": "EN Fundamentals / 中文基本面: High-yield credit is the cleaner read-through on whether the market sees softer inflation and strong bank earnings as durable enough to support risk, though exact HYG yield and spread levels were unavailable in today's reviewed sources. EN Technicals / 中文技术面: HYG should be treated as a support/confirmation chart, not as the main momentum trade; a stable hold above VWAP while equities repair would be constructive, while a fade would warn that the move lacks credit backing. EN Volume/Liquidity / 中文成交量/流动性: HYG is liquid and efficient for confirmation work, but it does not move as explosively as equity beta instruments, so its main value is information quality rather than raw upside.",
+        "risk": "EN: If oil and yields turn back up or if later bank commentary weakens, credit confirmation can disappear quickly.\n中文：如果油价和收益率重新上行，或后续银行评论转弱，信用确认会很快消失。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Exact Tuesday HYG price action was unavailable in reviewed sources, so use live tape confirmation rather than assumption.\n中文：已审阅来源未提供HYG周二精确走势，因此应依赖实时确认，而不是主观假设。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Intraday only, and only if SMH confirms by holding above VWAP after the first 30-60 minutes. If semis are choppy, extended, or reacting to ASML headlines without breadth, avoid the product entirely.\n中文：只适合日内，而且前提是SMH在前30-60分钟后确认守在VWAP上方。如果半导体震荡、过度伸展，或只是被ASML headline拉动却没有宽度，就完全回避。",
+        "suggestedProfitTake": "EN: Take profits quickly into any fast extension because leverage decay and reversal risk are high. If the underlying sector stalls, exit rather than hoping for a second squeeze.\n中文：只要出现快速延伸，就尽快止盈，因为杠杆衰减和反转风险都很高。如果底层板块停滞，就应离场，而不是赌第二波挤压。",
+        "type": "leveraged semiconductor ETF",
+        "catalyst": "EN: Softer CPI and semiconductor rebound, offset by very high event risk around ASML and TSMC.\n中文：偏软CPI和半导体反弹，但又被ASML和TSMC周边极高的事件风险所抵消。",
+        "why": "EN Fundamentals / 中文基本面: SOXL is not a company fundamental story; its 'fundamental' driver is whether the semiconductor sector's AI-demand narrative stays intact through ASML and TSMC without yields or oil re-tightening the macro backdrop. EN Technicals / 中文技术面: Leveraged exposure only deserves use if SMH confirms with a clean VWAP hold and opening-range continuation; otherwise path dependency and resistance noise can overwhelm a correct semiconductor thesis. EN Volume/Liquidity / 中文成交量/流动性: Share liquidity is strong, but the real liquidity question is the stability of the underlying semiconductor basket; when the group chops around event headlines, the ETF's leverage magnifies bad execution.\n",
+        "risk": "EN: This is the highest path-dependency tool in the list. A correct medium-term idea can still lose money quickly if the intraday path is wrong.\n中文：这是清单里路径依赖最强的工具。即便中期方向判断正确，只要日内路径错了，仍可能很快亏钱。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Semiconductors rebounded Tuesday, but exact SOXL closing data were unavailable in reviewed sources; treat it as a tool, not as a thesis.\n中文：半导体在周二有所反弹，但已审阅来源未提供SOXL精确收盘数据；应把它当作工具，而不是逻辑本身。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
+        "items": [
+          "EN: Options markets were implying roughly a 5% move for TSMC and about a 7% move for ASML by week-end, which tells you single-name event risk is still much hotter than index-level calm. That is useful information, not an invitation to buy expensive premium blindly.\n中文：期权市场暗示TSMC到周末约有5%的预期波动，ASML约有7%，这说明个股事件风险仍明显高于指数层面的平静。这是有用信息，但绝不是让你盲目去买高溢价期权的理由。",
+          "EN: If using options at all, keep size smaller than stock exposure, avoid paying peak IV right before earnings or macro data, and remember that IV crush plus wide bid/ask spreads can still hurt even when your directional idea is roughly correct.\n中文：如果一定要用期权，仓位应小于正股，不要在财报或宏观数据前去买峰值IV，并记住：即便方向大体判断正确，IV回落叠加过宽的买卖价差，仍可能伤人。"
+        ]
+      },
+      {
+        "title": "EN: Entry Timing And Risk Controls\n中文：入场时机与风险控制",
+        "items": [
+          "EN: Every setup in this briefing is conditional. Wait for the first 30-60 minutes, then demand an opening-range breakout, VWAP reclaim, pullback hold, or relative-volume confirmation before treating any move as real. Thin premarket and after-hours prints are not confirmation.\n中文：本简报里的每个设置都是条件式的。先等前30-60分钟，再要求出现开盘区间突破、VWAP收复、回踩守住或相对放量确认，才把走势当真。薄量盘前和盘后波动不算确认。",
+          "EN: If a stock or ETF opens directly at or beyond the expected range, the disciplined action is often to do nothing. Avoid chase entries, avoid averaging into failed gaps, and use the first-hour low or high as a practical invalidation reference.\n中文：如果一只股票或ETF开盘就直接到了甚至超过预期波动区间，最有纪律的动作往往就是“不做”。不要追高，也不要对失败跳空一路摊平，并把首小时高低点当作务实的失效参考。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Metrics Check\n中文：基本面指标检查",
+        "items": [
+          "EN: The cleanest macro numbers tonight are June CPI at -0.4% month over month and 3.5% year over year, with core CPI at 2.6% year over year. That supported the bond and growth rebound, but one soft CPI print does not guarantee the all-clear if PPI or Fed commentary re-tightens the narrative.\n中文：今晚最干净的宏观数字是6月总CPI环比-0.4%、同比+3.5%，核心CPI同比+2.6%。这些数据支持了债券和成长股反弹，但单月偏软CPI并不保证万事大吉；如果PPI或美联储口径重新收紧叙事，市场仍会再度转向。",
+          "EN: On the company side, JPMorgan delivered net income up 41.2% with raised NII guidance, Goldman posted record profit and revenue, TSMC delivered record June revenue, and IBM missed on EPS and revenue with weak software and infrastructure trends. That mix is why tonight should be stock-selective, not blindly index-bullish.\n中文：公司层面，JPMorgan交出了净利润+41.2%并上调净利息收入指引，Goldman给出创纪录利润和营收，TSMC交出创纪录6月营收，而IBM则在EPS和营收上双双不及预期、软件与基础设施趋势偏弱。这种组合意味着今晚应更重视精选，而不是盲目看多指数。"
+        ]
+      },
+      {
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
+        "items": [
+          "EN: Banks were the highest-quality leadership group on Tuesday, with JPMorgan and Goldman strongest, while Citi's drop on expense concerns reminded traders that good earnings are not enough if guidance or reinvestment plans bother the market.\n中文：银行是周二质量最高的领涨板块，其中JPMorgan和Goldman最强，而Citigroup因费用担忧下跌，也提醒交易者：只要指引或再投资计划让市场不舒服，财报再好也未必有用。",
+          "EN: IBM was the session's clearest negative tell, while semiconductors, cybersecurity, and selective AI optics improved. That internal split matters because it argues for tactical rotation and trigger-based entries instead of broad, complacent risk-taking.\n中文：IBM是本场最清晰的负面信号，而半导体、网络安全和部分AI光模块则有所改善。这种内部割裂很重要，因为它说明更应该做战术轮动和触发式入场，而不是笼统、放松警惕地加风险。"
+        ]
+      },
+      {
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
+        "items": [
+          "EN: TSMC's record June sales and ASML's upcoming report keep AI hardware demand under the microscope. The key issue is not whether AI spending exists; it is whether the market is willing to keep rewarding it at current prices after a huge first-half move.\n中文：TSMC创纪录的6月销售和即将公布的ASML财报，让AI硬件需求再次处于显微镜下。关键问题不是AI支出是否存在，而是经历了上半年大涨后，市场是否还愿意在当前价格继续奖励这条主线。",
+          "EN: AI infrastructure is also migrating into power, land, and networking. AAOI, WULF, CLSK, and IREN all show that the market is no longer trading only chips; it is trading the entire stack from optical links to megawatt access.\n中文：AI基础设施也正在向电力、土地和网络层迁移。AAOI、WULF、CLSK和IREN都说明，市场已不再只交易芯片，而是在交易从光互连到兆瓦级电力接入的整条堆栈。"
+        ]
+      },
+      {
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
+        "items": [
+          "EN: President Trump backed away from the proposed 20% Strait of Hormuz toll, which helped oil come off its highs, but the broader blockade pressure on Iranian trade remains a live market input. That means policy risk eased, but did not disappear.\n中文：特朗普撤回了拟议中的20%霍尔木兹海峡通行费，这帮助油价从高位回落，但针对伊朗贸易的更广泛封锁压力仍是活跃市场变量。这意味着政策风险有所缓和，但并未消失。",
+          "EN: Warsh's inflation emphasis and the coming Beige Book matter because Washington and Fed language can quickly re-price yields even after a good CPI day. Use primary or high-quality sourced policy reporting; do not trade unsourced political chatter.\n中文：Warsh对通胀的强调，以及即将到来的褐皮书之所以重要，是因为华盛顿和美联储的措辞即便在CPI利好之后，也可能迅速重新定价收益率。应只使用一手或高质量政策来源，不要根据无源政治传言交易。"
+        ]
+      },
+      {
+        "title": "EN: Credit Positioning And Market Internals\n中文：信用定位与市场内部结构",
+        "items": [
+          "EN: Strong bank earnings improved the credit read-through, but exact HYG price confirmation was unavailable in reviewed sources. In practice, the safer read is to watch whether XLF strength is joined by IWM and stable credit ETFs during the cash session.\n中文：强势银行财报改善了信用映射，但已审阅来源未提供精确HYG价格确认。实战上更安全的做法，是看现金盘中XLF的强势能否获得IWM和稳定信用ETF的配合。",
+          "EN: If leadership stays trapped in banks, semis, and a few hot AI names, the market is tradable but not healthy enough for oversized risk. Better breadth is the permission signal for adding speculative exposure.\n中文：如果主线始终只困在银行、半导体和少数火热AI标的里，市场仍然可交易，但还不足以支持过大风险暴露。更好的宽度才是增加投机仓位的许可信号。"
+        ]
+      },
+      {
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
+        "items": [
+          "EN: Tonight's U.S. session has a dense stack: June PPI, Morgan Stanley, Johnson & Johnson, Bank of New York Mellon, ASML, and the Fed Beige Book. That is enough to flip leadership more than once intraday.\n中文：今晚美股时段的日程相当密集：6月PPI、Morgan Stanley、Johnson & Johnson、Bank of New York Mellon、ASML，以及美联储褐皮书。这已经足以让主线在日内翻转不止一次。",
+          "EN: Thursday then brings TSMC earnings, retail sales, and jobless claims. Do not assume one clean session tonight settles the week, especially for semiconductors and rate-sensitive growth.\n中文：周四还将迎来TSMC财报、零售销售和初请失业金。不要假设今晚只要走出一个干净交易日，就能决定整周方向，尤其是对半导体和利率敏感成长股而言。"
+        ]
+      },
+      {
+        "title": "EN: Why It Matters\n中文：这为什么重要",
+        "items": [
+          "EN: The market has real support from softer inflation and strong bank earnings, but it also has real fragility from high oil, event-heavy semiconductors, and visible losers like IBM. That combination rewards discipline more than bold prediction.\n中文：市场确实得到了偏软通胀和强势银行财报的支撑，但也同时存在高油价、事件密集的半导体，以及IBM这类明确输家的脆弱性。这种组合奖励的是纪律，而不是大胆预判。",
+          "EN: For a small-capital trader in China watching tonight's U.S. session, the edge is not in guessing the first move. The edge is in waiting for confirmation, keeping positions liquid, and refusing to confuse a good story with a good entry.\n中文：对于一位在中国、今晚关注美股的小资金交易者来说，优势并不在于猜对第一下，而在于等待确认、保持标的流动性，并拒绝把“好故事”误当成“好买点”。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: U.S. Bureau of Labor Statistics - Consumer Price Index Summary, June 2026 / 中文：美国劳工统计局 - 2026年6月消费者价格指数摘要",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+      },
+      {
+        "label": "EN: AP - How major U.S. stock indexes fared Tuesday 7/14/2026 / 中文：美联社 - 2026年7月14日周二美国主要股指表现",
+        "confidence": "Market data",
+        "url": "https://apnews.com/article/eda3fd144dc773fc32cc6c69898d53b0"
+      },
+      {
+        "label": "EN: AP - U.S. stocks rise after data shows slowing inflation, even as IBM plunges / 中文：美联社 - 通胀放缓推动美股上涨，但IBM暴跌",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/6807d21c72974fbac48356f83eeebbce"
+      },
+      {
+        "label": "EN: MarketWatch - Treasury yields drop after CPI inflation data came in softer than expected / 中文：MarketWatch - CPI低于预期后，美债收益率回落",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-us-iran-tension-bank-earnings-cpi-june/card/treasury-yields-drop-after-cpi-inflation-data-came-in-softer-than-expected-oSat0z1vc11OQRhUcAwR"
+      },
+      {
+        "label": "EN: MarketWatch - Trump backs away from his plan to charge a 20% toll in the Strait of Hormuz / 中文：MarketWatch - 特朗普撤回霍尔木兹海峡20%通行费计划",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-us-iran-tension-bank-earnings-cpi-june/card/trump-backs-away-from-his-plan-to-charge-a-20-toll-in-the-strait-of-hormuz-oil-prices-erase-earlier-increases--yTg4tKvrUtFx9VF0bCfd"
+      },
+      {
+        "label": "EN: WSJ - Oil settles off highs as Trump drops 20% Hormuz fee plan / 中文：华尔街日报 - 特朗普放弃20%霍尔木兹通行费计划后，油价脱离高点收盘",
+        "confidence": "Market data",
+        "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-escalating-mideast-conflict-53395748"
+      },
+      {
+        "label": "EN: MarketWatch - JPMorgan beats profit expectations by the most in five years / 中文：MarketWatch - JPMorgan利润超预期幅度创五年之最",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/jpmorgan-beats-profit-expectations-by-the-most-in-five-years-as-equity-markets-revenue-surges-9a0d8805"
+      },
+      {
+        "label": "EN: WSJ - Goldman Sachs's profit surges 78% to quarterly record / 中文：华尔街日报 - Goldman Sachs利润飙升78%，创季度纪录",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-07-14-2026/card/goldman-sachs-s-profit-surges-78-to-quarterly-record-vN5eGc8bYuwPpEan5vHK"
+      },
+      {
+        "label": "EN: WSJ - Citi stock drops on expense concerns / 中文：华尔街日报 - Citigroup因费用担忧下跌",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-07-14-2026/card/citi-stock-drops-on-expense-concerns-eqXZQ9IayOU5ug3WuwKu"
+      },
+      {
+        "label": "EN: MarketWatch - Bank of America's stock reverses premarket decline after blockbuster earnings / 中文：MarketWatch - Bank of America强劲财报后扭转盘前跌势",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/bank-of-america-stock-falls-despite-earnings-beat-3d4db2b4"
+      },
+      {
+        "label": "EN: MarketWatch - IBM's stock just had its worst day ever after the surprise release of an earnings miss / 中文：MarketWatch - IBM意外提前披露业绩不及预期后创历史最差单日",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/ibms-stock-dives-toward-worst-day-in-nearly-40-years-after-the-surprise-release-of-an-earnings-miss-8519741e"
+      },
+      {
+        "label": "EN: IBD - Dow Jones futures: Goldman, CrowdStrike jump, but AI stocks need to do this / 中文：IBD - 道指期货：Goldman、CrowdStrike上涨，但AI股还需要完成这些确认",
+        "confidence": "Calendar",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-goldman-crowdstrike-ai-stocks-asml-morgan-stanley/"
+      },
+      {
+        "label": "EN: MarketWatch - TSMC just reported a record month for revenue ahead of critical earnings report / 中文：MarketWatch - TSMC在关键财报前公布创纪录月度营收",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/tsmc-just-reported-a-record-month-for-revenue-ahead-of-critical-earnings-report-on-thursday-508195fd"
+      },
+      {
+        "label": "EN: Investopedia - How much TSMC stock is expected to move after earnings / 中文：Investopedia - TSMC财报后预期波动幅度",
+        "confidence": "Market data",
+        "url": "https://www.investopedia.com/here-is-how-much-tsmc-stock-is-expected-to-move-after-earnings-q2-fy2026-12015327"
+      },
+      {
+        "label": "EN: Investopedia - How much traders expect ASML stock to move after earnings / 中文：Investopedia - 交易员预期ASML财报后的波动幅度",
+        "confidence": "Market data",
+        "url": "https://www.investopedia.com/how-much-traders-expect-asml-stock-to-move-after-earnings-12014953"
+      },
+      {
+        "label": "EN: Barron's - Morgan Stanley earnings will spotlight growing assets and investment-banking pipeline / 中文：Barron's - Morgan Stanley财报将聚焦资产增长与投行业务管线",
+        "confidence": "Calendar",
+        "url": "https://www.barrons.com/articles/morgan-stanley-earnings-investment-banking-stock-1dedfde3"
+      },
+      {
+        "label": "EN: IBD - CleanSpark lands first HPC lease worth nearly $7 billion / 中文：IBD - CleanSpark拿下首份接近70亿美元的HPC租约",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investors.com/news/cleanspark-stock-hpc-ai-tenant-deal-6-6-billion-bitcoin-price-cpi-report-crypto-stocks/"
+      },
+      {
+        "label": "EN: MarketWatch - TeraWulf's stock surges after a $19 billion deal with Anthropic / 中文：MarketWatch - TeraWulf因与Anthropic达成190亿美元协议而大涨",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/terawulfs-stock-surges-after-a-19-billion-deal-with-anthropic-6899d3bc"
+      },
+      {
+        "label": "EN: MarketWatch - IREN's stock soars as a major Nvidia investment overshadows revenue shortfall / 中文：MarketWatch - IREN在Nvidia重大投资推动下大涨，掩盖营收不及预期",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/irens-stock-soars-as-a-major-nvidia-investment-overshadows-revenue-shortfall-c286cdb8"
+      },
+      {
+        "label": "EN: MarketWatch - How Applied Optoelectronics became the latest viral AI stock / 中文：MarketWatch - Applied Optoelectronics如何成为最新AI热门股",
+        "confidence": "Context",
+        "url": "https://www.marketwatch.com/story/how-applied-optoelectronics-became-the-latest-viral-ai-stock-f644d345"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-07-14 09:06 GMT+8",
