@@ -1,5 +1,732 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-07-16",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-16 11:13 GMT+8",
+    "title": "EN: U.S. Market Brief - 2026-07-16\n中文：美股市场简报 - 2026-07-16",
+    "tone": "EN: Wednesday, July 15, 2026 U.S. trading looked constructive on the index surface after a softer June PPI print, but the internals were more selective than the headline suggests. Financials, asset managers, and several megacap software names carried the tape while many semiconductor names still fell even after ASML raised guidance. For the Thursday, July 16 U.S. session later tonight Beijing time, the important question is whether TSMC, U.S. retail sales, jobless claims, and Netflix can broaden risk appetite, or whether Wednesday was only an index-level bounce with weak chip breadth underneath.\n中文：2026年7月15日（周三）美股在6月PPI偏软后，从指数表面看偏建设性，但市场内部结构比headline显示得更挑剔。金融、资管以及部分大型软件权重股支撑了指数，而许多半导体个股即便在ASML上调指引后仍然下跌。对应北京时间今晚的2026年7月16日（周四）美股交易，关键问题是：TSMC、美国零售销售、初请失业金以及Netflix能否把风险偏好真正扩散开，还是说周三只是“指数层面的反弹”，而芯片宽度依旧偏弱。",
+    "priorities": [
+      "EN: Start with market regime, breadth, and entry timing before any single ticker. The S&P 500 and Nasdaq both rose on Wednesday, but 28 of 30 Philadelphia Semiconductor Index members still fell in reviewed coverage. If the broad tape is up while the chip core is down again, treat that as a caution signal, not a clean all-clear.\n中文：先看市场状态、宽度和入场时机，再看任何单一个股。周三标普500和纳指都上涨，但已审阅报道显示费城半导体指数30只成分股里有28只下跌。如果大盘指数上涨、而芯片核心却再次走弱，这应被视为警惕信号，而不是全面放行。",
+      "EN: Respect regular-session confirmation over premarket excitement. TSMC, retail sales, and jobless claims can all reshape yields and semiconductor sentiment before the open, but thin premarket moves are not enough. Wait for the first 30-60 minutes, then require VWAP reclaim, opening-range breakout, pullback hold, or relative-volume confirmation.\n中文：尊重正股时段确认，而不是盘前兴奋。TSMC、零售销售和初请都可能在开盘前重新塑造收益率与半导体情绪，但薄量盘前走势本身远远不够。先等前30-60分钟，再要求VWAP收复、开盘区间突破、回踩守住或相对放量确认。",
+      "EN: Financials remain the cleanest liquid leadership group until proven otherwise. Morgan Stanley, Bank of New York Mellon, and BlackRock all beat, and XLF-style exposure still has a better fundamental floor than chasing second- or third-tier semis after a split tape.\n中文：在被证伪之前，金融板块仍是最干净、流动性最好的主线。Morgan Stanley、Bank of New York Mellon和BlackRock都超预期，类似XLF的敞口相比在分裂盘面中去追二三线半导体，基本面底部更扎实。",
+      "EN: Semiconductors need a higher bar tonight. ASML raised its 2026 sales outlook to EUR43 billion-EUR45 billion, but U.S. chip stocks still struggled, so tonight's TSMC reaction matters more than the guidance headline alone. If chip ETFs cannot hold VWAP after the first hour, avoid leverage and avoid chase.\n中文：半导体今晚需要更高标准。ASML把2026年销售指引上调到430亿-450亿欧元，但美股芯片股依旧承压，所以今晚TSMC的价格反应，比单纯的上调指引headline更重要。如果芯片ETF在首小时后都守不住VWAP，就回避杠杆、也不要追高。",
+      "EN: Small capital should stay in liquid names with real catalysts only. AEHR, AAOI, WULF, IREN, and CLSK can offer usable volatility, but only with smaller size, clear invalidation, and awareness of spread risk, IV crush, leverage decay, cash-account restrictions, and overnight gaps.\n中文：小资金只应停留在“有真实催化且流动性足够”的名字里。AEHR、AAOI、WULF、IREN和CLSK可以提供可用波动，但前提是仓位更小、失效位清晰，并充分注意价差风险、IV回落、杠杆衰减、现金账户限制以及隔夜跳空。"
+    ],
+    "summary": [
+      "EN: Wednesday, July 15 U.S. indexes closed higher: S&P 500 +0.4% to 7,572.40, Nasdaq +0.6% to 26,269.23, Dow +0.3% to 52,658.64, and Russell 2000 +0.4% to 2,976.26.\n中文：美股周三（7月15日）收盘走高：标普500上涨0.4%至7,572.40，纳指上涨0.6%至26,269.23，道指上涨0.3%至52,658.64，罗素2000上涨0.4%至2,976.26。",
+      "EN: The macro help was real. June producer prices fell 0.3% month over month, while annual wholesale inflation eased to 5.5%, helping Treasury yields soften after the release.\n中文：宏观利好是真实存在的。6月生产者价格指数环比下降0.3%，年化批发通胀回落至5.5%，推动数据公布后美债收益率回落。",
+      "EN: Financial leadership broadened further. Morgan Stanley's quarterly profit jumped 58%, BlackRock's assets under management reached a record $15.3 trillion, and both stocks were part of the session's higher-quality leadership.\n中文：金融主线进一步扩散。Morgan Stanley季度利润大增58%，BlackRock管理资产达到创纪录的15.3万亿美元，两者都属于本场质量更高的领涨力量。",
+      "EN: Semiconductor breadth stayed weak even with good news. ASML beat and lifted guidance, yet reviewed coverage said 28 of 30 SOX members fell and ETFs such as SMH still underperformed. That split is tonight's most important tactical warning.\n中文：即便有好消息，半导体宽度仍然偏弱。ASML业绩超预期并上调指引，但已审阅报道显示SOX成分股30只里有28只下跌，SMH等ETF仍然跑输。这种分裂是今晚最重要的战术警告。",
+      "EN: Event-driven single names were violent. PayPal surged 15.9% on a reported $53 billion bid from Stripe and Advent, IBM fell another 2.7% after its prior collapse, and United Airlines slipped after warning that fuel headwinds added roughly $6 billion in costs year over year.\n中文：事件驱动个股波动剧烈。PayPal因Stripe与Advent据称提出530亿美元收购要约而大涨15.9%，IBM在此前暴跌后又跌2.7%，United Airlines则因警告燃油逆风同比增加约60亿美元成本而走弱。",
+      "EN: This briefing is market scenario analysis, not personalized financial advice. Respect U.S. T+0 mechanics, first-hour failure risk, extended-hours unreliability, bid/ask spreads, IV crush after earnings, leverage decay in products like SOXL, PDT or cash-account constraints, and overnight gap risk.\n中文：本简报是市场情景分析，不是个性化投资建议。请尊重美股T+0机制、首小时失败风险、盘前盘后不可靠性、买卖价差、财报后IV回落、SOXL这类产品的杠杆衰减、PDT或现金账户限制，以及隔夜跳空风险。"
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "EN: Wednesday close +0.4% to 7,572.40\n中文：周三收盘上涨0.4%至7,572.40",
+        "note": "EN: The index held near records, but part of the move came from financials plus megacap support rather than universally healthy risk appetite. Tonight matters because a second day of weak chip breadth would make the surface strength less trustworthy.\n中文：指数维持在纪录高位附近，但上涨的一部分来自金融和大型权重股支撑，而不是全面健康的风险偏好。今晚很关键，因为如果芯片宽度再弱一天，指数表面强势的可信度就会下降。"
+      },
+      "Nasdaq": {
+        "value": "EN: Wednesday close +0.6% to 26,269.23\n中文：周三收盘上涨0.6%至26,269.23",
+        "note": "EN: The Nasdaq rose, yet reviewed coverage said Apple, Alphabet, Amazon, and Microsoft masked substantial weakness in semiconductors. Treat QQQ as tradable only if the regular session proves the upside is broader than a few giants.\n中文：纳指虽然上涨，但已审阅报道显示，Apple、Alphabet、Amazon和Microsoft掩盖了半导体内部的明显弱势。只有当正股时段证明上涨不止来自少数巨头时，QQQ的多头才更值得做。"
+      },
+      "Dow": {
+        "value": "EN: Wednesday close +0.3% to 52,658.64\n中文：周三收盘上涨0.3%至52,658.64",
+        "note": "EN: Financials and industrial-style defensiveness helped the Dow, while IBM remained a drag. That makes the Dow a cleaner reflection of whether tonight's macro data support a more defensive or cyclical rotation.\n中文：金融和偏工业/防御属性帮助了道指，而IBM仍在拖累指数。这让道指更适合用来判断：今晚宏观数据支持的是更防御的轮动，还是更偏周期的扩散。"
+      },
+      "Russell 2000": {
+        "value": "EN: Wednesday close +0.4% to 2,976.26\n中文：周三收盘上涨0.4%至2,976.26",
+        "note": "EN: Small caps improved, but not enough to declare a broad speculative reset. IWM still needs to hold above VWAP and attract relative volume before aggressive beta is justified.\n中文：小盘股有所改善，但还不足以宣布投机情绪全面重启。IWM仍需要守在VWAP之上并吸引相对放量，才足以支持更激进的beta扩张。"
+      },
+      "Breadth": {
+        "value": "EN: Reviewed coverage said 28 of 30 Philadelphia Semiconductor Index members fell even as the major indexes rose; exact NYSE and Nasdaq advance-decline counts were unavailable in reviewed sources\n中文：已审阅报道显示，在主要指数上涨的同时，费城半导体指数30只成分股里有28只下跌；已审阅来源未提供NYSE和Nasdaq精确涨跌家数",
+        "note": "EN: This is theme-led breadth, not broad-based health. If tonight's tape stays dependent on banks, BlackRock-style asset managers, and a handful of megacaps, keep expectations and sizing conservative.\n中文：这属于主题驱动型宽度，而不是全面健康的市场结构。如果今晚行情仍然只依赖银行、BlackRock这类资管股和少数权重科技股，就应该压低预期并控制仓位。"
+      },
+      "Treasury Yields": {
+        "value": "EN: Reviewed market coverage showed the 2-year Treasury yield near 4.16% and the 10-year near 4.55% after the PPI release\n中文：已审阅市场报道显示，PPI公布后2年期美债收益率约在4.16%，10年期约在4.55%",
+        "note": "EN: Softer yields helped duration and financials at the margin, but tonight's retail-sales and claims data can still reprice rates quickly. If yields re-accelerate, QQQ and semiconductor longs lose quality first.\n中文：收益率回落在边际上帮助了久期和金融，但今晚的零售销售与初请仍可能迅速重定价利率。如果收益率重新上冲，QQQ和半导体多头会最先失去质量。"
+      },
+      "Oil / Commodities": {
+        "value": "EN: Reviewed coverage showed Brent near $84.95 and WTI near $79.60, both around one-month highs\n中文：已审阅报道显示，布伦特约在$84.95、WTI约在$79.60，均接近一个月高位",
+        "note": "EN: Oil did not break the market on Wednesday, but it is still a live inflation and airline margin risk. If crude extends again during U.S. hours, UAL-style travel names and long-duration growth both become harder to own.\n中文：油价在周三没有直接压垮市场，但它仍是活跃的通胀与航空利润率风险。如果美股时段原油再次上冲，UAL这类出行股和高久期成长股都会更难持有。"
+      },
+      "FX / Dollar": {
+        "value": "EN: Reviewed coverage described the WSJ Dollar Index as roughly unchanged on Wednesday; exact DXY level was unavailable in reviewed sources\n中文：已审阅报道显示，华尔街日报美元指数周三大致持平；已审阅来源未提供精确DXY数值",
+        "note": "EN: A stable dollar is less of a headwind than Monday's surge, but it is still secondary to yields, oil, and breadth. Use dollar stability as a confirmation input, not as the primary reason to chase risk.\n中文：美元稳定比周一的急涨压力更小，但它的重要性仍低于收益率、油价和宽度。把美元稳定当成确认项，而不是追风险的主要理由。"
+      },
+      "Volatility / Options": {
+        "value": "EN: Reviewed coverage showed the VIX near 16.3 while options markets were pricing about a 5.1% post-earnings move for TSMC\n中文：已审阅报道显示VIX约在16.3附近，而期权市场对TSMC财报后的预期波动约为5.1%",
+        "note": "EN: Index volatility is still much calmer than single-name event volatility. If using options, keep size smaller than stock exposure and assume IV crush can damage even a mostly correct directional idea.\n中文：指数层面的波动仍明显小于个股事件波动。如果一定要用期权，仓位应小于正股，并默认IV回落会伤害即便方向大致正确的判断。"
+      },
+      "Futures / Premarket": {
+        "value": "EN: Reviewed overnight coverage showed Dow, S&P 500, and Nasdaq futures modestly higher early Thursday, July 16\n中文：已审阅隔夜报道显示，7月16日周四早间，道指、标普500和纳指期货均小幅走高",
+        "note": "EN: That is constructive, not decisive. Overnight green only matters if the first regular-session test survives TSMC, retail-sales, and jobless-claims reaction.\n中文：这属于建设性，而不是决定性。只有在TSMC、零售销售和初请失业金之后，隔夜的上涨还能通过正股开盘后的第一轮测试，它才真正有意义。"
+      },
+      "Credit Indicators": {
+        "value": "EN: Financial leadership stayed constructive through Morgan Stanley, Bank of New York Mellon, and BlackRock earnings, but exact HYG and LQD closing moves were unavailable in reviewed sources\n中文：Morgan Stanley、Bank of New York Mellon与BlackRock财报后的金融主线仍偏建设性，但已审阅来源未提供HYG与LQD的精确收盘变动",
+        "note": "EN: Credit does not look broken, but it also is not giving a broad speculative green light on its own. Use XLF plus IWM plus stable credit ETF behavior as the better confirmation stack.\n中文：信用端看起来并没有坏掉，但它也还没有单独给出“可以全面放大投机”的绿灯。更好的确认组合是：XLF、IWM以及信用ETF的稳定表现同时出现。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: TSMC delivers a clean demand message, retail sales are solid without re-igniting yields, and QQQ plus SMH both reclaim and hold VWAP after the first 30-60 minutes. In that path, XLF, MS, BLK, and selective semis such as TSM or ASML become tradable on pullback holds instead of straight-line chases.\n中文：偏强情景：TSMC给出干净的需求信息，零售销售稳健但不重新点燃收益率，同时QQQ和SMH在前30-60分钟后都收复并守住VWAP。这个路径下，XLF、MS、BLK，以及TSM或ASML这类精选半导体，都可以通过回踩守住来参与，而不是直线追高。",
+      "EN: Base case: indexes grind higher while internals stay mixed. Banks and asset managers absorb capital, semiconductors remain selective, and small caps need extra relative-volume proof. That favors liquid trades in XLF, SPY, QQQ, and one or two single names rather than a long list of speculative bets.\n中文：基准情景：指数缓慢走高，但内部结构仍然分化。银行和资管吸收资金，半导体继续选择性表现，小盘需要额外的相对放量证明。这更适合在XLF、SPY、QQQ以及1-2只个股上做高流动性交易，而不是铺一长串投机票。",
+      "EN: Bear case: retail sales or TSMC reaction pushes yields back up, semiconductors fail VWAP again, and the market reverts to defensive rotation. Then SMH or QQQ failed-bounce shorts are cleaner than trying to force fresh AI-hardware longs, and SOXL should be avoided.\n中文：偏弱情景：零售销售或TSMC反应把收益率重新推高，半导体再次失守VWAP，市场重新回到防御轮动。此时，做SMH或QQQ的反弹失败空头，会比强做新的AI硬件多头更干净，而SOXL应回避。",
+      "EN: Event case: Netflix or PayPal-style headline trades create eye-catching gaps that exceed expected ranges before the open. If a stock is already beyond the likely intraday range, the disciplined action is usually to wait, trim, or avoid chase rather than invent a late entry.\n中文：事件情景：Netflix或PayPal这类headline交易在开盘前就打出超过预期波动区间的跳空。如果一只股票在开盘前已经走到大概率的日内目标外，最有纪律的动作通常是等待、分批或回避追高，而不是硬找一个滞后入场点。",
+      "EN: Speculative case: AEHR, AAOI, WULF, IREN, and CLSK can work if regular-session volume expands and the first pullback holds. If the move is only a thin premarket spike or a first-five-minute burst, treat it as noise and do nothing.\n中文：投机场景：如果正股时段成交量扩散，且第一次回踩能够守住，AEHR、AAOI、WULF、IREN和CLSK可以工作；但如果走势只是薄量盘前冲高或开盘前五分钟脉冲，就把它当噪音，不要做。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "MS",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Actionable only if Morgan Stanley holds the first pullback above VWAP or reclaims VWAP after the first 30-60 minutes with XLF confirming. If it gaps up but cannot hold the opening range, stand aside.\n中文：只有在Morgan Stanley守住第一次回踩并站在VWAP上方，或在前30-60分钟后于XLF配合下重新收复VWAP时才可观察。如果高开后守不住开盘区间，就先退开。",
+        "reason": "EN: Morgan Stanley combines a real earnings beat, strong wealth-management flows, and deep liquidity, which makes it a better small-capital vehicle than a lower-liquidity beta chase.\n中文：Morgan Stanley同时具备真实的业绩超预期、强劲的财富管理流入和深流动性，这使它比流动性更差的高beta追涨更适合小资金。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "IBM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "EN: Short only if IBM fails a first 30-60 minute rebound, cannot reclaim VWAP, and stalls below the opening range. Avoid pressing a short into an already exhausted straight-down flush.\n中文：只有在IBM前30-60分钟反弹失败、无法收复VWAP、并在开盘区间下方受阻时才考虑空头。不要对已经直线下杀、明显衰竭的走势继续硬压。",
+        "reason": "EN: IBM remains the clearest liquid example of legacy enterprise IT demand disappointment, and Wednesday showed the stock still lacked institutional support even after the first crash.\n中文：IBM仍是最清晰、且流动性充足的“传统企业IT需求失望”样本，周三也说明它在第一次暴跌之后仍缺乏机构承接。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Actionable only if XLF holds above VWAP or breaks the opening range with participation from MS, BK, BLK, and the large banks. If financial leadership narrows back to one or two names, downgrade the setup quality.\n中文：只有在MS、BK、BLK和大型银行共同参与下，XLF能守在VWAP上方或突破开盘区间时才更值得观察。如果金融主线重新收缩成1-2只个股独舞，就应下调这个设置的质量。",
+        "reason": "EN: XLF spreads event risk across the strongest verified sector group and remains a cleaner tool than guessing which one earnings gap will hold best.\n中文：XLF把事件风险分散到已经被验证的最强板块组里，仍然比去猜哪一只财报跳空最能守住更干净。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "AEHR",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Only use it if the stock digests the earnings gap, holds the first pullback, and then breaks the opening range again with relative volume. If it opens already far beyond Wednesday's extension and loses VWAP, do nothing.\n中文：只有在股价消化财报跳空、守住第一次回踩、并再次在相对放量下突破开盘区间时才观察。如果开盘时已经明显超出周三的延伸区、且随后失守VWAP，就什么都不做。",
+        "reason": "EN: AEHR has a real earnings and bookings catalyst, but a 44% surge means the setup is momentum-rich, crowd-heavy, and highly vulnerable to fast reversals.\n中文：AEHR具备真实的财报与订单催化，但44%的暴涨意味着这个设置同时也充满动量、拥挤度和快速反转风险。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Avoid unless SMH first proves a clean regular-session hold above VWAP and TSMC clearly improves semiconductor breadth. If chip ETFs are still split or reacting violently to headlines, SOXL is the wrong tool.\n中文：除非SMH先在正股时段干净地守在VWAP之上，且TSMC明确改善半导体宽度，否则应回避。如果芯片ETF仍然分裂，或被headline剧烈带动，SOXL就是错误工具。",
+        "reason": "EN: Leveraged decay, path dependency, and weak semiconductor breadth make SOXL useful only after confirmation, never as a prediction vehicle.\n中文：杠杆衰减、路径依赖以及偏弱的半导体宽度，决定了SOXL只能在确认之后使用，绝不能当成预判工具。",
+        "convictionScore": 1,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-07-16 Taiwan morning / U.S. premarket",
+        "event": "EN: TSMC earnings and management commentary\n中文：TSMC财报与管理层说明",
+        "watch": "EN: Watch revenue quality, AI demand commentary, capex tone, and whether the stock's reaction broadens to SMH and other U.S.-listed semiconductor names.\n中文：重点看营收质量、AI需求表态、资本开支口径，以及股价反应能否扩散到SMH和其他美股半导体标的。",
+        "relatedTickers": "TSM, ASML, AMAT, KLAC, LRCX, SMH"
+      },
+      {
+        "date": "2026-07-16 08:30 ET",
+        "event": "EN: U.S. June retail sales and weekly jobless claims\n中文：美国6月零售销售与周度初请失业金",
+        "watch": "EN: Focus on whether the consumer is still absorbing higher energy costs without reigniting yields. The real signal is the bond-market and QQQ/IWM response after the first 30-60 minutes.\n中文：重点看消费者是否仍能吸收更高的能源成本而不重新点燃收益率。真正的信号是债券市场、以及QQQ/IWM在前30-60分钟后的反应。",
+        "relatedTickers": "SPY, QQQ, IWM, TLT, XRT"
+      },
+      {
+        "date": "2026-07-16 premarket ET",
+        "event": "EN: GE Aerospace, UnitedHealth, Abbott, and Travelers earnings\n中文：GE Aerospace、UnitedHealth、Abbott、Travelers 财报",
+        "watch": "EN: Watch whether industrial, healthcare, and insurance leadership can broaden the market beyond financials and megacap tech.\n中文：重点看工业、医疗和保险板块能否把市场主线从金融与大型科技进一步扩散开来。",
+        "relatedTickers": "GE, UNH, ABT, TRV, DIA"
+      },
+      {
+        "date": "2026-07-16 after close ET",
+        "event": "EN: Netflix earnings\n中文：Netflix财报",
+        "watch": "EN: Focus on subscriber momentum, ad-tier commentary, margins, and whether the reaction changes sentiment across communication-services and consumer-internet names.\n中文：重点看订阅用户动能、广告层级表态、利润率，以及反应是否会改变通信服务与消费互联网情绪。",
+        "relatedTickers": "NFLX, META, GOOGL, XLC"
+      },
+      {
+        "date": "2026-07-17",
+        "event": "EN: U.S. industrial production and University of Michigan consumer sentiment\n中文：美国工业产出与密歇根大学消费者信心",
+        "watch": "EN: Even if Thursday trades cleanly, Friday's macro can still reset the rates-and-growth debate. Avoid treating one good session as a final verdict.\n中文：即便周四交易看起来干净，周五的宏观数据仍可能重置利率与成长争论。不要把一个好交易日当成最终结论。",
+        "relatedTickers": "SPY, QQQ, IWM, TLT"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-07-16",
+        "ticker": "XLF",
+        "status": "hit",
+        "result": "EN: The prior best-ETF framing held up. Morgan Stanley, Bank of New York Mellon, and BlackRock all strengthened the financials-and-capital-markets lane, which remained cleaner than the split semiconductor tape.\n中文：此前把XLF作为最佳ETF的框架是有效的。Morgan Stanley、Bank of New York Mellon和BlackRock都强化了金融与资本市场这条主线，而这条线也明显比“内部割裂的半导体行情”更干净。",
+        "lesson": "EN: When earnings leadership broadens across several liquid financial names, the sector ETF can be better than trying to guess the single strongest post-report chart.\n中文：当财报主线扩散到多只流动性充足的金融股时，板块ETF往往比去猜哪一只财报后图形最强更合适。"
+      },
+      {
+        "date": "2026-07-16",
+        "ticker": "IBM",
+        "status": "hit",
+        "result": "EN: The prior best-short framework remained correct. IBM fell another 2.7% on Wednesday to about $211.20 after the prior day's historic collapse, confirming that the stock still lacked institutional support.\n中文：此前把IBM作为最佳空头框架仍然正确。IBM在前一日历史级暴跌后，周三又下跌2.7%至约$211.20，确认该股仍缺乏机构承接。",
+        "lesson": "EN: The first huge down day does not automatically mean the trade is over; what matters is whether the rebound can reclaim VWAP and restore sponsorship. IBM did not.\n中文：第一天的大跌并不自动意味着交易结束；真正重要的是反弹能否收复VWAP并恢复资金支持。IBM没有做到。"
+      },
+      {
+        "date": "2026-07-16",
+        "ticker": "SOXL",
+        "status": "hit",
+        "result": "EN: The prior avoid-wait stance on SOXL was right for Wednesday's session. Even with ASML's guidance raise, semiconductor breadth stayed weak and SMH still lagged, so leverage would have added noise rather than edge.\n中文：此前对SOXL采取“回避/等待”的立场，对周三来说是正确的。即便ASML上调指引，半导体宽度依然偏弱，SMH仍然跑输，因此杠杆只会增加噪音，而不是优势。",
+        "lesson": "EN: Leveraged semiconductor products should follow confirmed breadth, not try to front-run it. If the chip group is internally weak, leverage is usually the wrong expression.\n中文：杠杆半导体产品应该跟随“已经确认的宽度”，而不是抢跑去预判。如果芯片组内部偏弱，杠杆通常就是错误表达。"
+      },
+      {
+        "date": "2026-07-16",
+        "ticker": "JPM",
+        "status": "open",
+        "result": "EN: The prior best-long idea on JPM was not invalidated, but the broader financials trade turned out to be cleaner than leaning too hard on one bank name the next day. The single-name edge shifted toward Morgan Stanley and BlackRock while the sector still worked.\n中文：此前把JPM作为最佳多头的思路并未被证伪，但第二天更干净的机会其实是“整个金融板块”，而不是把重心继续押在单一银行股上。单名优势转向了Morgan Stanley和BlackRock，而板块本身仍然有效。",
+        "lesson": "EN: A correct sector call can still be expressed better through rotation into the next earnings winners instead of mechanically staying with yesterday's leader.\n中文：即便板块判断是对的，执行层面也可能更适合轮动到“下一批财报赢家”，而不是机械地继续抱住昨天的领涨股。"
+      },
+      {
+        "date": "2026-07-16",
+        "ticker": "SMH",
+        "status": "hit",
+        "result": "EN: The prior wait-for-regular-session-confirmation discipline on semiconductors was correct. ASML's strong numbers did not translate into healthy group behavior, and reviewed coverage showed the semiconductor ETF still lagged badly beneath the index headline.\n中文：此前对半导体坚持“等正股时段确认”的纪律是正确的。ASML的强业绩并没有转化成健康的板块行为，已审阅报道显示半导体ETF在指数headline之下仍明显跑输。",
+        "lesson": "EN: Good fundamentals can strengthen the medium-term thesis while still failing the same-day trading test. Price action and breadth must confirm before capital is committed.\n中文：优秀的基本面可以强化中期逻辑，但仍可能通不过同日交易测试。真正下资金之前，必须先让价格行为和宽度给出确认。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: Financials / Capital Markets\n中文：金融 / 资本市场",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Morgan Stanley, Bank of New York Mellon, and BlackRock all beat and reinforced the post-CPI financial leadership lane.\n中文：Morgan Stanley、Bank of New York Mellon和BlackRock都超预期，强化了CPI之后的金融主线。",
+        "watch": "EN: Watch XLF, MS, BK, BLK, and the large banks for opening-range structure, VWAP behavior, and whether leadership remains broad instead of narrowing to one or two names.\n中文：重点看XLF、MS、BK、BLK以及大型银行的开盘区间结构、VWAP表现，以及主线是否保持扩散，而不是收缩成1-2只个股独舞。",
+        "risk": "EN: Good results can still fade if yields re-accelerate or if investors rotate back into defensives after retail-sales data.\n中文：只要收益率重新上冲，或在零售销售数据后资金重新回到防御板块，漂亮的财报也仍可能冲高回落。"
+      },
+      {
+        "name": "EN: Semiconductors / AI Hardware\n中文：半导体 / AI硬件",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: ASML beat and raised guidance, while TSMC is the next hard proof point for AI-hardware demand quality.\n中文：ASML业绩超预期并上调指引，而TSMC则是下一道检验AI硬件需求质量的硬指标。",
+        "watch": "EN: Watch SMH, TSM, and the post-earnings reaction for VWAP reclaim, opening-range follow-through, and whether U.S. chip breadth improves materially.\n中文：重点看SMH、TSM以及财报后的市场反应，观察VWAP收复、开盘区间跟进，以及美股芯片宽度是否明显改善。",
+        "risk": "EN: Strong guidance alone did not save the group on Wednesday, which means any long setup needs a higher confirmation bar than usual.\n中文：单靠上调指引并没有在周三救起整个板块，这意味着任何多头设置都需要比平时更高的确认门槛。"
+      },
+      {
+        "name": "EN: Megacap Internet / Software\n中文：大型互联网 / 软件权重",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Apple, Alphabet, Amazon, and Microsoft masked chip weakness on Wednesday and remain the liquid quality lane if rates stay contained.\n中文：Apple、Alphabet、Amazon和Microsoft在周三掩盖了芯片弱势，如果利率继续受控，它们仍是高流动性的质量主线。",
+        "watch": "EN: Watch QQQ and mega-cap behavior relative to SMH. If software and internet stay strong while chips fail again, keep exposure liquid and avoid speculative spillover trades.\n中文：重点看QQQ以及权重科技相对SMH的表现。如果软件和互联网继续强、而芯片再次失败，就把敞口留在流动性最好的资产里，并回避投机性外溢交易。",
+        "risk": "EN: Narrow megacap leadership can support indexes while hiding deteriorating internals underneath.\n中文：狭窄的大型权重股领涨，确实能支撑指数，但也可能掩盖下方不断恶化的市场内部结构。"
+      },
+      {
+        "name": "EN: Energy / Oil Hedge\n中文：能源 / 油价对冲",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Crude stayed around one-month highs as Middle East policy and shipping risk remained unresolved.\n中文：由于中东政策与航运风险尚未解决，原油仍维持在一个月高位附近。",
+        "watch": "EN: Watch XLE and crude futures for whether oil consolidates or makes another leg higher during U.S. hours.\n中文：重点看XLE和原油期货，判断油价在美股时段是转入整理，还是再上一个台阶。",
+        "risk": "EN: Any de-escalation headline can quickly unwind the hedge premium and reverse energy leadership.\n中文：任何局势缓和headline都可能迅速抹去对冲溢价，并让能源主线反转。"
+      },
+      {
+        "name": "EN: Airlines / Travel Sensitivity\n中文：航空 / 出行敏感板块",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: United Airlines warned that fuel costs added roughly $6 billion of headwind year over year, keeping margin sensitivity in focus.\n中文：United Airlines警告称燃油成本同比增加了约60亿美元逆风，使利润率敏感性重新成为焦点。",
+        "watch": "EN: Watch UAL and peer reactions only if oil stays firm and the stock fails to reclaim VWAP after the first 30-60 minutes.\n中文：只有在油价继续偏强、且UAL在前30-60分钟后仍无法收复VWAP时，才更值得观察其及同业反应。",
+        "risk": "EN: A quick pullback in crude can trigger sharp relief rallies in a heavily shorted travel tape.\n中文：如果原油快速回落，出行板块里较高的空头拥挤度可能引发明显的缓解性反弹。"
+      },
+      {
+        "name": "EN: Fintech / Event-Driven Payments\n中文：金融科技 / 事件驱动支付",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: PayPal's reported $53 billion bid from Stripe and Advent reopened M&A optionality in a beaten-down payments name.\n中文：Stripe与Advent据称对PayPal提出530亿美元收购要约，重新点燃了这只弱势支付股的并购期权价值。",
+        "watch": "EN: Use PYPL only on regular-session consolidation, not on a pure gap chase. Watch whether the stock can hold above VWAP after the first hour.\n中文：PYPL只适合在正股时段整理后观察，而不是纯粹追高跳空。重点看首小时后能否守在VWAP上方。",
+        "risk": "EN: Event-driven M&A headlines can fade violently if no formal deal follows or if the market discounts regulatory obstacles.\n中文：如果没有正式交易跟进，或市场开始计入监管障碍，这类并购headline交易很容易剧烈回吐。"
+      },
+      {
+        "name": "EN: AI Power / Digital Infrastructure\n中文：AI电力 / 数字基础设施",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: WULF, IREN, and CLSK still carry real AI-data-center or HPC-linked narratives, which keeps speculative capital interested when rates are stable.\n中文：WULF、IREN和CLSK仍然承载着真实的AI数据中心或HPC相关逻辑，这使它们在利率稳定时继续吸引投机资金。",
+        "watch": "EN: Require real regular-session volume and a first-pullback hold before using any of these names.\n中文：参与这些名字之前，必须看到真实的正股成交量，以及第一次回踩能够守住。",
+        "risk": "EN: Financing, dilution, and overnight gap risk remain materially higher here than in liquid large caps.\n中文：这里的融资、稀释和隔夜跳空风险，都明显高于高流动性大盘股。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "MS",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes. Only consider it if the stock holds the first pullback above VWAP or reclaims VWAP with XLF confirming. If it opens already far above the post-earnings range and stalls, avoid chase.\n中文：先等前30-60分钟。只有在股价守住第一次回踩并站在VWAP上方，或在XLF配合下重新收复VWAP时才可观察。如果开盘已经明显高于财报后的合理波动区间且开始停滞，就不要追。",
+        "suggestedProfitTake": "EN: Trim into an extension beyond the opening range or prior post-earnings high if breadth is not broadening. If the stock trends cleanly above VWAP with sector support, keep only a smaller runner.\n中文：如果市场宽度没有继续扩散，而股价却已经延伸到开盘区间外或财报后前高之外，就分批止盈。若股价在板块支持下沿VWAP干净上行，只保留更小的跟随仓。",
+        "type": "large-cap bank",
+        "catalyst": "EN: Q2 earnings beat with stronger investment-banking and wealth-management trends.\n中文：Q2财报超预期，投行业务和财富管理趋势更强。",
+        "why": "EN Fundamentals / 中文基本面: Morgan Stanley reported quarterly profit up 58% to about $5.65 billion, EPS of $3.46, revenue of $21.35 billion, and $148 billion of wealth-management net new assets with total client assets reaching $10 trillion, which is a real quality improvement rather than a headline-only beat. EN Technicals / 中文技术面: The post-earnings setup is constructive but still needs a regular-session hold above VWAP or an opening-range breakout; if the first-hour gap fails, the clean breakout thesis weakens quickly. EN Volume/Liquidity / 中文成交量/流动性: MS is a highly liquid U.S. financial stock with tight regular-session spreads and active options, which makes it usable for small capital compared with thinner event names, though post-earnings opening prints can still be noisy.",
+        "risk": "EN: Rising yields after retail-sales data or weaker-than-expected follow-through from other financials can turn a good earnings gap into a fade.\n中文：如果零售销售后收益率重新上冲，或其他金融股跟进弱于预期，即便是漂亮的财报跳空也可能演变成回落。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Morgan Stanley beat on Wednesday and stayed within the verified financial leadership group rather than acting like an isolated one-day spike.\n中文：Morgan Stanley周三财报超预期，并继续处于已验证的金融主线之中，而不是孤立的一日脉冲。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "BLK",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for a regular-session pullback hold or a fresh opening-range break after the first 30-60 minutes. If the stock opens already stretched from Wednesday's earnings gap, wait instead of paying the extension.\n中文：等待正股时段回踩守住，或在前30-60分钟后重新突破开盘区间时再观察。如果开盘已经延续了周三财报跳空的过大伸展，就先等，不要去买这段溢价。",
+        "suggestedProfitTake": "EN: Take partial profits if the stock extends meaningfully beyond the opening range without broader market participation. If it consolidates and re-accelerates with financials still leading, keep a smaller remainder only.\n中文：如果在市场宽度没有明显扩散的情况下，股价却大幅超出开盘区间，就分批落袋。若股价整理后再次启动、且金融仍然领涨，只保留更小的余仓。",
+        "type": "asset manager",
+        "catalyst": "EN: Record assets under management and strong quarterly earnings.\n中文：管理资产创纪录，季度盈利强劲。",
+        "why": "EN Fundamentals / 中文基本面: BlackRock reported adjusted EPS of $13.91 on revenue of about $7.08 billion, with assets under management hitting a record $15.3 trillion and long-term net inflows of roughly $120 billion, which is a meaningful scale and flows story. EN Technicals / 中文技术面: The stock jumped about 6.6% on Wednesday, so the chart is strong but extended; it is more attractive on a pullback hold, VWAP reclaim, or controlled opening-range continuation than on a blind gap chase. EN Volume/Liquidity / 中文成交量/流动性: BLK has solid regular-session liquidity and institutional participation, but because it can gap hard after earnings, the first minutes can still show wider execution noise than a broad ETF.",
+        "risk": "EN: A stock can still fade after a record AUM print if investors decide the flows are priced in or if the market rotates away from financials.\n中文：即便AUM创纪录，如果投资者判断这些流入已被计价，或市场从金融板块轮出，股价仍然可能回落。",
+        "convictionScore": 4,
+        "timeframe": "swing",
+        "recentPerformance": "EN: BlackRock rose about 6.6% on Wednesday after earnings and became one of the clearest large-cap winners in the session.\n中文：BlackRock在周三财报后上涨约6.6%，成为当日最清晰的大盘赢家之一。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for the U.S. regular session. Only consider it if the ADR holds above VWAP after the first 30-60 minutes or re-breaks the opening range with SMH improving. If semis remain weak under the surface, watch only.\n中文：先等美股正股时段。只有在ADR于前30-60分钟后守在VWAP之上，或在SMH改善时重新突破开盘区间，才可观察。如果半导体内部依旧偏弱，就只看不做。",
+        "suggestedProfitTake": "EN: Trim into a move that pushes beyond the expected post-earnings range without broader semiconductor confirmation. If the group broadens and the stock rides VWAP cleanly, keep a smaller runner.\n中文：如果股价在半导体并未广泛确认的情况下冲到超出财报后预期波动区间，就分批止盈。若板块宽度扩散、且股价沿VWAP干净运行，只保留更小的跟随仓。",
+        "type": "semiconductor equipment leader",
+        "catalyst": "EN: Q2 beat and raised full-year 2026 sales outlook to EUR43 billion-EUR45 billion.\n中文：Q2超预期，并把2026全年销售指引上调至430亿-450亿欧元。",
+        "why": "EN Fundamentals / 中文基本面: ASML reported Q2 sales of roughly EUR9.33 billion, net profit of about EUR2.92 billion, and raised 2026 sales guidance to EUR43 billion-EUR45 billion with gross-margin guidance around 54%-56%, which confirms that core AI-capex demand is still real. EN Technicals / 中文技术面: The fundamental headline was strong, but U.S. semiconductor breadth still lagged badly on Wednesday, so any long setup must be confirmed by VWAP hold and broader group strength rather than the earnings headline alone. EN Volume/Liquidity / 中文成交量/流动性: ASML's ADR is liquid and institutionally followed, but the move is still tied to global semiconductor ETF flows; if SMH volume confirms weakness instead of strength, the ADR can lose momentum quickly.",
+        "risk": "EN: Good guidance alone was not enough to rescue the whole chip complex on Wednesday, so the stock can still underperform if TSMC or U.S. semiconductor breadth disappoints.\n中文：仅靠上调指引在周三仍不足以拯救整个芯片板块，因此如果TSMC或美股半导体宽度令人失望，该股仍可能跑输。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: ASML's own results were strong, but the broader semiconductor response remained split, which matters more than the headline beat by itself.\n中文：ASML自身业绩很强，但更广泛的半导体反应仍然分裂，这一点比单纯的超预期headline更重要。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Triggered only after earnings if the stock reclaims VWAP, holds the first pullback, or breaks the opening range with SMH also improving. If the reaction is mixed or the stock gaps too far beyond the expected range, wait.\n中文：只有在财报后股价收复VWAP、守住第一次回踩，或在SMH同步改善时突破开盘区间，才算触发。若反应喜忧参半，或跳空已经远超预期波动区间，就先等。",
+        "suggestedProfitTake": "EN: Take partial profits into a clean post-earnings extension if the move reaches or exceeds the options-implied range. If the stock consolidates above VWAP with broader chip confirmation, keep only a smaller runner.\n中文：如果财报后走势已经达到或超过期权隐含波动区间，就分批止盈。若股价在更广泛芯片确认下于VWAP上方整理，只保留更小的跟随仓。",
+        "type": "semiconductor foundry",
+        "catalyst": "EN: Earnings and guidance after record June revenue.\n中文：在创纪录6月营收之后公布财报与指引。",
+        "why": "EN Fundamentals / 中文基本面: TSMC reported June revenue of about NT$442.68 billion, up roughly 67.9% year over year, taking Q2 revenue to around NT$1.27 trillion, and reviewed coverage expected profit growth near 57%; exact current forward P/E was unavailable in reviewed sources. EN Technicals / 中文技术面: The setup is catalyst-rich but unresolved until the earnings reaction prints; the clean long is a regular-session VWAP reclaim, pullback hold, or opening-range breakout, not a blind premarket guess. EN Volume/Liquidity / 中文成交量/流动性: TSM is one of the most liquid ADRs in the semiconductor space with active options, but earnings-day spreads, IV crush, and global chip-ETF flows can still distort first-minute price action.",
+        "risk": "EN: Even strong numbers can fail if capex tone softens, if guidance disappoints, or if the stock opens already beyond the realistic intraday range.\n中文：即便数据很好，只要资本开支口径转弱、指引不及预期，或开盘时已经远超现实日内波动区间，走势仍可能失败。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: TSMC entered Thursday as the market's next major AI-demand check after a week in which chip sentiment stayed fragile despite strong upstream data.\n中文：在上游数据强劲、但芯片情绪仍然脆弱的一周里，TSMC进入周四时已成为市场下一道主要的AI需求验证关口。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "IBM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Short only if the stock fails a first 30-60 minute rebound, cannot reclaim VWAP, and stalls below the opening range. If it is already deeply flushed and starts holding above VWAP, step aside.\n中文：只有在股价前30-60分钟反弹失败、无法收复VWAP、并在开盘区间下方受阻时才考虑空头。如果股价已经深度下杀后开始站上VWAP，就先退开。",
+        "suggestedProfitTake": "EN: Cover part of the position into fresh lows or if the stock becomes stretched well below the opening range without new market confirmation. If the breakdown keeps riding VWAP lower, keep only a smaller remainder.\n中文：如果股价创出新低，或在没有新增市场确认的情况下已经明显跌离开盘区间，就分批回补。若跌势持续沿VWAP下压，只保留更小的剩余仓位。",
+        "type": "legacy enterprise IT",
+        "catalyst": "EN: Preliminary earnings miss, weak software and infrastructure trends, and still-poor follow-through after the initial crash.\n中文：初步业绩不及预期、软件与基础设施趋势偏弱，以及首次暴跌后仍缺乏承接。",
+        "why": "EN Fundamentals / 中文基本面: IBM pre-released adjusted EPS of about $2.93 versus a $3.01 consensus and revenue of about $17.2 billion versus a $17.86 billion estimate, which is a real miss rather than a narrative wobble. EN Technicals / 中文技术面: After the historic initial drop, the stock still fell another roughly 2.7% on Wednesday to about $211.20, which means the chart remains damaged and only a true VWAP reclaim would weaken the short thesis. EN Volume/Liquidity / 中文成交量/流动性: IBM is highly liquid with deep institutional participation, but post-gap reversals can be sharp, so waiting for failed-bounce confirmation matters more than front-running the open.",
+        "risk": "EN: Oversold bounces can be violent, especially if the broader market stays green and institutions start buying mean reversion.\n中文：超跌反弹可能非常猛烈，尤其是在大盘仍偏绿、且机构开始做均值回归时。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: IBM fell another 2.7% on Wednesday after Tuesday's 25% collapse, which kept the damaged-chart thesis intact.\n中文：IBM在周二暴跌25%之后，周三又下跌2.7%，说明“图形受损”的逻辑依然成立。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "PYPL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and only consider it if the stock digests the M&A gap, holds above VWAP, or sets a new opening-range breakout after consolidation. If it opens already stretched and immediately fades, avoid chase.\n中文：先等前30-60分钟，只有在股价消化并购跳空、守在VWAP上方，或整理后重新突破开盘区间时才可观察。如果开盘已经过度伸展、且立刻转弱，就不要追。",
+        "suggestedProfitTake": "EN: Take partial profits if the stock runs beyond the gap-day expected range without new deal confirmation. If it consolidates above VWAP and deal chatter remains active, keep only a smaller event-driven remainder.\n中文：如果在没有新增交易确认的情况下，股价已经明显跑到跳空日的预期区间之外，就分批止盈。若股价在VWAP上方整理，且交易传闻继续活跃，只保留更小的事件驱动余仓。",
+        "type": "event-driven fintech",
+        "catalyst": "EN: Reported $53 billion takeover bid from Stripe and Advent at $60.50 per share.\n中文：Stripe与Advent据称以每股$60.50、总额530亿美元提出收购要约。",
+        "why": "EN Fundamentals / 中文基本面: The reported bid values PayPal at roughly $60.50 a share versus a much lower pre-rumor trading base, while reviewed coverage also noted Wall Street's average price target was around $47.14 and that sentiment on the standalone business had been mixed, which is why this is an event trade rather than a pure operating-fundamentals trade. EN Technicals / 中文技术面: The stock surged about 15.9% on Wednesday, so the chart is powerful but extended and should only be engaged after consolidation, VWAP hold, or a fresh opening-range breakout. EN Volume/Liquidity / 中文成交量/流动性: PYPL is a highly liquid large-cap fintech with active options and usable spreads for small capital, but rumor-driven price action can gap violently and then retrace just as fast.",
+        "risk": "EN: If no formal deal materializes or the market decides the offer faces execution or regulatory obstacles, the gap can unwind quickly.\n中文：如果没有正式交易落地，或市场判断该要约存在执行/监管障碍，这个跳空可能很快回吐。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: PayPal jumped about 15.9% on Wednesday on the reported buyout approach, making it liquid and interesting but also clearly extended.\n中文：PayPal因据称收到收购要约，在周三上涨约15.9%，这让它既有流动性、也有看点，但同时显然已经偏伸展。",
+        "setupStatus": "extended"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "AEHR",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for a post-gap digestion. Only consider it if the stock holds the first pullback and then breaks the opening range again with relative volume. If it loses VWAP after a hot open, do nothing.\n中文：先等跳空后的消化。只有在股价守住第一次回踩、并在相对放量下再次突破开盘区间时才可观察。如果高开后失守VWAP，就什么都不做。",
+        "suggestedProfitTake": "EN: Trim aggressively if the stock extends far beyond the opening range or if momentum stalls after the first breakout. If it keeps riding VWAP with strong volume, keep only a small runner.\n中文：如果股价大幅超出开盘区间，或第一次突破后动能开始停滞，就积极分批止盈。若股价在强成交量下沿VWAP继续运行，只保留很小的跟随仓。",
+        "type": "semiconductor test equipment",
+        "catalyst": "EN: Earnings beat, record bookings, and stronger FY2027 outlook.\n中文：财报超预期、订单创纪录，以及FY2027指引更强。",
+        "why": "EN Fundamentals / 中文基本面: Aehr Test Systems reported quarterly revenue of about $18.8 million, adjusted EPS of $0.11, bookings of roughly $60.7 million, backlog of about $80.6 million, and guided FY2027 revenue to $130 million-$150 million with adjusted net income of $22 million-$29 million, which is a real growth reset. EN Technicals / 中文技术面: The stock surged about 44% on Wednesday, so the trend is powerful but clearly extended; it should be treated as a pullback-hold or re-break setup only, never a blind chase. EN Volume/Liquidity / 中文成交量/流动性: AEHR had the kind of event-driven volume that makes it tradable, but it remains a smaller-cap name with wider spreads and faster reversals than large-cap semis.",
+        "risk": "EN: A 44% earnings surge can fail quickly if traders decide the move already fully priced the guidance upgrade.\n中文：44%的财报暴涨一旦被市场判断为“利好已充分计价”，回落也会非常快。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AEHR jumped roughly 44% on Wednesday after earnings and became one of the clearest small-cap momentum names of the session.\n中文：AEHR在周三财报后上涨约44%，成为当日最清晰的小盘动量股之一。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "AAOI",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider it after the first 30-60 minutes if the stock holds VWAP, survives the first pullback, and then shows a fresh opening-range breakout with volume. If it gaps and fades, avoid chase.\n中文：只有在前30-60分钟后，股价守住VWAP、扛住第一次回踩，并带量重新突破开盘区间时才观察。如果跳空后立刻回落，就不要追。",
+        "suggestedProfitTake": "EN: Trim into strength once the move stretches beyond the opening range or if volume fades while price is extended. If momentum stays clean, keep only a small runner.\n中文：当股价明显超出开盘区间，或价格已伸展而成交量开始衰减时，就分批止盈。若动量继续干净，只保留很小的跟随仓。",
+        "type": "AI optics",
+        "catalyst": "EN: Ongoing AI-optics demand story plus previously announced Texas manufacturing expansion context.\n中文：持续存在的AI光模块需求逻辑，以及此前公布的德州制造扩产背景。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed context sources tied AAOI's relevance to real AI-optics demand and manufacturing expansion, while exact fresh revenue, EPS, and balance-sheet updates were unavailable in the reviewed sources used for this briefing, so this remains a catalyst-backed but less fully refreshed fundamentals setup than a bank or megacap. EN Technicals / 中文技术面: AAOI remains a fast, sentiment-heavy chart that usually requires a VWAP hold, pullback support, or opening-range breakout instead of any premarket chase; if it cannot hold those levels, the setup quality falls quickly. EN Volume/Liquidity / 中文成交量/流动性: AAOI has real trading liquidity for an aggressive small-cap name, but spreads and reversals are still meaningfully worse than liquid large caps or broad ETFs.",
+        "risk": "EN: Even with a real AI story, AAOI can gap and fade violently because positioning is crowded and the chart is fast.\n中文：即便AI逻辑真实，AAOI仍可能因为持仓拥挤和图形节奏过快而出现暴力高开后回落。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reviewed sources kept AAOI on active AI-optics watchlists, but exact July 15 closing performance was unavailable in the reviewed materials used here.\n中文：已审阅来源仍把AAOI列在活跃的AI光模块观察名单中，但本次使用的审阅材料未提供其7月15日的精确收盘表现。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "WULF",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only use it if the stock holds the first pullback, stays above VWAP, and then breaks the opening range with real regular-session volume. If the move is only sympathy-driven and thin, stand aside.\n中文：只有在股价守住第一次回踩、维持在VWAP上方，并带着真实正股成交量突破开盘区间时才使用。如果走势只是跟风、且成交量偏薄，就先退开。",
+        "suggestedProfitTake": "EN: Trim into any sharp extension that outpaces volume confirmation. If the stock continues to trend above VWAP with stable breadth, keep only a small remainder.\n中文：如果股价的延伸速度快于成交量确认，就分批止盈。若在市场宽度稳定时股价继续沿VWAP上行，只保留很小的余仓。",
+        "type": "AI power / data-center infrastructure",
+        "catalyst": "EN: Anthropic-linked lease agreement and AI-power buildout theme.\n中文：与Anthropic相关的租约协议，以及AI电力建设主题。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed coverage framed WULF around a roughly $19 billion deal tied to Anthropic, which gives the company a real AI-infrastructure narrative, while exact fresh quarterly revenue, EPS, and leverage metrics were unavailable in the reviewed sources used here. EN Technicals / 中文技术面: The stock is event-driven and best treated as a hold-the-pullback or opening-range-break setup; if it loses VWAP quickly, the risk of a failed gap rises materially. EN Volume/Liquidity / 中文成交量/流动性: WULF has tradable event volume when the AI-power theme is active, but spreads and overnight gap risk remain much higher than in liquid ETFs or large caps.",
+        "risk": "EN: Financing, dilution, and execution risks are high, and overnight sentiment can overwhelm the underlying story.\n中文：融资、稀释和执行风险都很高，隔夜情绪也可能盖过底层逻辑本身。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reviewed sources kept WULF relevant as an AI-power speculation name, but exact July 15 closing data were unavailable in the reviewed materials used for this briefing.\n中文：已审阅来源仍把WULF视为AI电力投机主线之一，但本次使用的审阅材料未提供其7月15日精确收盘数据。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "IREN",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and use it only if the stock reclaims or holds VWAP, then confirms with a fresh opening-range break and expanding volume. Avoid any thin premarket spike.\n中文：先等前30-60分钟，只有在股价收复或守住VWAP、并以新的开盘区间突破和放量确认时才使用。回避任何薄量盘前脉冲。",
+        "suggestedProfitTake": "EN: Trim if the move extends beyond the opening range without broad market support or if volume fades. Keep only a smaller runner if the trend remains orderly above VWAP.\n中文：如果在缺乏更广泛市场支持的情况下，股价已经明显超出开盘区间，或成交量开始衰减，就分批止盈。若股价在VWAP上方有序运行，只保留更小的跟随仓。",
+        "type": "AI infrastructure / digital power",
+        "catalyst": "EN: Nvidia-linked investment and AI-infrastructure positioning.\n中文：与Nvidia相关的投资，以及AI基础设施定位。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed coverage said IREN's stock previously surged because a major Nvidia investment overshadowed a revenue shortfall, which makes the catalyst real but also confirms that the fundamentals story is still partly sentiment-dependent; exact fresh valuation and leverage metrics were unavailable in reviewed sources. EN Technicals / 中文技术面: The stock is powerful only if it can hold VWAP and confirm with regular-session volume; if it fades after the open, the chart quickly shifts from momentum to trap. EN Volume/Liquidity / 中文成交量/流动性: IREN can trade with strong liquidity when the AI-power theme is active, but it still carries wider spreads and faster intraday reversals than safer liquid ETFs.",
+        "risk": "EN: This is still a high-beta infrastructure trade where financing and sentiment can overwhelm the underlying operating trend.\n中文：这仍是一笔高beta基础设施交易，融资与情绪完全可能压过底层经营趋势。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reviewed sources still linked IREN to active AI-infrastructure speculation, while exact July 15 closing performance was unavailable in the reviewed materials used here.\n中文：已审阅来源仍把IREN与活跃的AI基础设施投机联系在一起，但本次使用的审阅材料未提供其7月15日精确收盘表现。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "CLSK",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider it if Bitcoin is stable, the stock holds the first pullback, and then breaks the opening range with volume. If crypto rolls over or the stock loses VWAP, do nothing.\n中文：只有在比特币稳定、股价守住第一次回踩、并带量突破开盘区间时才可观察。如果加密资产转弱，或股价失守VWAP，就什么都不做。",
+        "suggestedProfitTake": "EN: Take partial profits into a strong extension, especially if the move starts outrunning Bitcoin or the broader risk tape. Keep only a small runner if relative strength remains clean.\n中文：如果股价强力延伸，尤其是开始明显跑赢比特币或整体风险盘面时，就分批止盈。若相对强势仍然干净，只保留很小的跟随仓。",
+        "type": "crypto-linked HPC / power",
+        "catalyst": "EN: First HPC lease reportedly worth nearly $7 billion plus crypto-linked beta.\n中文：据称首份HPC租约接近70亿美元，叠加加密相关beta。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed coverage tied CleanSpark to a first HPC lease worth nearly $7 billion, which is a real strategic catalyst, though exact fresh revenue, EPS, and balance-sheet metrics were unavailable in the reviewed sources used for this briefing. EN Technicals / 中文技术面: CLSK is only attractive if it can hold VWAP and keep pace with Bitcoin plus the broader risk tape; otherwise, the setup quickly turns into a false-break risk. EN Volume/Liquidity / 中文成交量/流动性: CLSK trades with meaningful liquidity when crypto and AI-power themes are active, but it still carries wider spreads, higher gap risk, and sharper reversals than safer liquid market ETFs.",
+        "risk": "EN: The crypto overlay adds another volatility layer, so the stock can decouple from its own company catalyst within minutes.\n中文：加密属性会额外叠加一层波动，因此该股可能在几分钟内就与自身公司催化脱钩。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reviewed sources kept CLSK relevant through its HPC lease catalyst, but exact July 15 closing performance was unavailable in the reviewed materials used here.\n中文：已审阅来源通过其HPC租约催化继续保持了CLSK的关注度，但本次使用的审阅材料未提供其7月15日的精确收盘表现。",
+        "setupStatus": "early"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SPY",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and only consider it if the ETF holds VWAP or confirms an opening-range breakout with breadth not deteriorating. If the index is green but internals keep weakening, wait.\n中文：先等前30-60分钟，只有在ETF守住VWAP，或在宽度没有恶化时确认突破开盘区间，才可观察。如果指数上涨、但内部结构继续走弱，就先等。",
+        "suggestedProfitTake": "EN: Trim into an extension beyond the opening range if breadth stalls or yields reverse higher. If the trend remains orderly above VWAP, keep only a smaller runner.\n中文：如果宽度停滞或收益率重新上升，而股价却已经延伸到开盘区间之外，就分批止盈。若趋势仍在VWAP上方有序运行，只保留更小的跟随仓。",
+        "type": "broad-market ETF",
+        "catalyst": "EN: Softer PPI, lower yields, and tonight's retail-sales plus claims data.\n中文：偏软PPI、回落收益率，以及今晚的零售销售和初请数据。",
+        "why": "EN Fundamentals / 中文基本面: SPY reflects the broad market's response to softer inflation and still-resilient financial earnings, though exact current aggregate forward P/E for the ETF was unavailable in reviewed sources. EN Technicals / 中文技术面: The index closed at a record-like level, but the clean trade still requires VWAP hold and breadth confirmation because Wednesday's strength was not internally uniform. EN Volume/Liquidity / 中文成交量/流动性: SPY is one of the deepest and most liquid instruments in the market with tight spreads and active options, making it the safest execution vehicle in this briefing for small capital.",
+        "risk": "EN: Index strength can hide sector weakness, and a rates reversal can quickly flatten broad-market momentum.\n中文：指数强势可能掩盖板块弱势，而收益率反转也会迅速压平大盘动量。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SPY's benchmark index rose 0.4% on Wednesday, but the internals remained less healthy than the surface move suggested.\n中文：SPY对应的基准指数周三上涨0.4%，但内部结构并没有表面涨幅看起来那么健康。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if QQQ holds or reclaims VWAP after the first 30-60 minutes and semiconductor weakness does not deepen. If megacaps are green but SMH keeps failing, treat QQQ as lower quality.\n中文：只有在QQQ前30-60分钟后守住或收复VWAP，且半导体弱势没有进一步加剧时才更值得观察。如果权重科技在涨、但SMH仍不断失败，就把QQQ视为质量较低的多头。",
+        "suggestedProfitTake": "EN: Trim into strength if the ETF extends while breadth remains narrow. If semis finally confirm and QQQ rides VWAP cleanly, keep only a smaller runner.\n中文：如果ETF上涨延伸、但宽度依旧狭窄，就分批止盈。若半导体最终完成确认、且QQQ沿VWAP干净运行，只保留更小的跟随仓。",
+        "type": "growth ETF",
+        "catalyst": "EN: Lower yields, TSMC earnings, and megacap software/internet resilience.\n中文：回落收益率、TSMC财报，以及大型软件/互联网权重的韧性。",
+        "why": "EN Fundamentals / 中文基本面: QQQ captures the market's highest-duration growth and AI concentration, which benefits when yields soften but becomes vulnerable if retail-sales or TSMC reaction re-ignites rate fear; exact aggregate forward P/E was unavailable in reviewed sources. EN Technicals / 中文技术面: Wednesday's 0.6% gain looked constructive, but the setup is only high quality if chip breadth stops deteriorating and the ETF holds above VWAP in the regular session. EN Volume/Liquidity / 中文成交量/流动性: QQQ is extremely liquid with tight spreads and deep options liquidity, but its headline calm can still hide violent internal stock-level divergence.",
+        "risk": "EN: If yields move back up or chips remain weak, QQQ can underperform quickly despite headline support from a few giant names.\n中文：如果收益率重新上行，或芯片持续走弱，即便有少数巨头支撑headline，QQQ也可能很快跑输。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The Nasdaq rose 0.6% on Wednesday, but much of that strength came from a small group of megacaps rather than healthy semiconductor participation.\n中文：纳指周三上涨0.6%，但其中相当一部分强势来自少数大型权重股，而不是健康的半导体参与。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only consider it if the ETF holds above VWAP after the first 30-60 minutes and small-cap breadth improves with relative volume. If it lags SPY and QQQ again, stay selective.\n中文：只有在ETF前30-60分钟后守在VWAP上方、且小盘宽度配合相对放量改善时才可观察。如果它再次明显落后于SPY和QQQ，就继续保持精选。",
+        "suggestedProfitTake": "EN: Trim if the ETF extends without breadth support or if yields reverse higher. Keep only a smaller remainder if the trend stays orderly.\n中文：如果ETF上涨延伸但没有宽度支持，或收益率重新上升，就分批止盈。若趋势仍然有序，只保留更小的余仓。",
+        "type": "small-cap ETF",
+        "catalyst": "EN: Lower yields and potential risk-appetite broadening.\n中文：收益率回落，以及风险偏好可能向小盘扩散。",
+        "why": "EN Fundamentals / 中文基本面: IWM is the cleaner macro expression for whether softer inflation can truly broaden beyond banks and megacaps into smaller domestic cyclicals; exact aggregate valuation metrics were unavailable in reviewed sources. EN Technicals / 中文技术面: Wednesday's 0.4% gain was constructive but not decisive, so the ETF still needs a regular-session VWAP hold and better breadth before it becomes a high-quality long. EN Volume/Liquidity / 中文成交量/流动性: IWM is highly liquid and practical for small capital, but its message matters more as a breadth signal than as a standalone momentum chase.",
+        "risk": "EN: If the market narrows back to megacaps and financials, IWM can stall even while the major indexes remain green.\n中文：如果市场重新收缩回权重科技和金融，哪怕主要指数仍是绿色，IWM也可能停滞不前。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: IWM's benchmark index rose 0.4% on Wednesday, showing some improvement but not a full speculative reset.\n中文：IWM对应指数周三上涨0.4%，显示出一定改善，但还远不是投机情绪全面重启。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Actionable only if XLF holds above VWAP or breaks the opening range with continued participation from banks and asset managers. If leadership narrows sharply, wait instead of forcing it.\n中文：只有在XLF守在VWAP上方，或在银行与资管继续参与下突破开盘区间时，才更值得观察。如果主线明显收缩，就先等，不要强做。",
+        "suggestedProfitTake": "EN: Trim into an extension if the ETF outruns breadth or if yields reverse higher. If it continues to grind cleanly with leadership broadening, keep only a smaller runner.\n中文：如果ETF涨幅已经明显跑在宽度前面，或收益率重新上升，就分批止盈。若它继续在主线扩散下平稳上行，只保留更小的跟随仓。",
+        "type": "financial ETF",
+        "catalyst": "EN: Broad financial and asset-manager earnings leadership.\n中文：金融与资管的广泛财报主线。",
+        "why": "EN Fundamentals / 中文基本面: XLF sits on the strongest verified earnings cluster in the market right now, with big banks, Morgan Stanley, BNY Mellon, and BlackRock all reinforcing the group's fundamentals and capital-markets activity. EN Technicals / 中文技术面: The setup is stronger than most chip-related charts, but it still needs a regular-session VWAP hold or opening-range continuation to stay actionable rather than becoming a one-day extension. EN Volume/Liquidity / 中文成交量/流动性: XLF is very liquid with tight spreads and high institutional use, which makes it one of the cleanest practical vehicles in this briefing.",
+        "risk": "EN: If yields jump back up or the market rotates away from financials after macro data, XLF can lose leadership faster than the prior day's tape implies.\n中文：如果收益率重新上冲，或宏观数据后市场从金融板块轮出，XLF失去主线的速度会比前一日盘面看起来更快。",
+        "convictionScore": 5,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Financial earnings leadership stayed constructive through Wednesday and continued to offer a cleaner tape than semiconductors.\n中文：金融财报主线在周三仍偏建设性，并继续提供比半导体更干净的盘面。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SMH",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Short only if the ETF fails a first 30-60 minute VWAP reclaim after TSMC or macro data and semiconductor breadth remains weak. If breadth improves materially, step aside.\n中文：只有在TSMC或宏观数据之后，ETF前30-60分钟收复VWAP失败、且半导体宽度仍弱时才考虑空头。如果宽度明显改善，就先退开。",
+        "suggestedProfitTake": "EN: Cover part of the position into a clean break below the opening range or if the ETF becomes stretched away from VWAP without fresh downside confirmation. Keep only a smaller remainder if the trend stays orderly lower.\n中文：如果ETF干净跌破开盘区间，或在没有新增下行确认的情况下已经明显跌离VWAP，就分批回补。若跌势继续有序延续，只保留更小的剩余仓位。",
+        "type": "semiconductor ETF",
+        "catalyst": "EN: Weak chip breadth despite ASML strength and TSMC event risk.\n中文：在ASML强势的同时，芯片宽度仍然偏弱，且TSMC事件风险在前。",
+        "why": "EN Fundamentals / 中文基本面: SMH now represents the market's unresolved debate over whether AI-capex strength is enough to offset valuation sensitivity and demand concentration risk after a huge run. EN Technicals / 中文技术面: Wednesday showed clear underperformance beneath the index headline, so the better technical read is a failed VWAP reclaim or opening-range rejection, not a blind prediction before confirmation. EN Volume/Liquidity / 中文成交量/流动性: SMH is liquid and practical, but because it concentrates the chip complex, its volume can amplify group-level weakness very quickly once breadth cracks.",
+        "risk": "EN: One strong TSMC reaction can quickly squeeze a short if breadth improves fast, so this setup must stay trigger-based.\n中文：如果TSMC反应强劲、且宽度快速改善，空头会很快被挤压，所以这个设置必须严格依赖触发条件。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reviewed coverage showed SMH still lagged on Wednesday even after ASML raised guidance, which keeps the ETF tactically vulnerable.\n中文：已审阅报道显示，即便ASML上调指引，SMH周三仍然跑输，这让该ETF在战术上继续偏脆弱。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only consider it if crude stays firm and the ETF holds above VWAP after the first 30-60 minutes. If oil fades sharply, wait instead of forcing the hedge.\n中文：只有在原油继续偏强、且ETF在前30-60分钟后守住VWAP时才可观察。如果油价明显回落，就先等，不要强做对冲。",
+        "suggestedProfitTake": "EN: Trim if oil extends too far too fast or if the ETF pushes beyond the opening range without fresh geopolitical support. Keep only a smaller runner if crude trends persistently.\n中文：如果油价涨得过快过猛，或ETF在没有新增地缘支持的情况下已经明显超出开盘区间，就分批止盈。若原油趋势持续，只保留更小的跟随仓。",
+        "type": "energy ETF",
+        "catalyst": "EN: Oil near one-month highs on unresolved Middle East risk.\n中文：中东风险未解，油价维持在一个月高位附近。",
+        "why": "EN Fundamentals / 中文基本面: XLE is the cleaner liquid hedge for persistent crude strength and inflation sensitivity when geopolitical supply risk remains unresolved. EN Technicals / 中文技术面: The ETF remains constructive as long as crude holds near recent highs and XLE respects VWAP; if oil starts reversing, the hedge thesis weakens quickly. EN Volume/Liquidity / 中文成交量/流动性: XLE is liquid with tight spreads and is easier for small capital to execute than single-name energy bets or thinner commodity-linked equities.",
+        "risk": "EN: A sudden de-escalation or demand scare can reverse oil-linked gains quickly.\n中文：局势突然缓和，或需求担忧突然抬头，都可能迅速逆转油价相关涨幅。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reviewed coverage kept crude near one-month highs into Thursday, which preserved XLE's hedge relevance.\n中文：已审阅报道显示原油在进入周四时仍接近一个月高位，这保留了XLE的对冲意义。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "TLT",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Actionable only if Treasury yields stay contained after retail-sales and claims data and the ETF reclaims or holds VWAP. If yields bounce sharply, wait.\n中文：只有在零售销售与初请之后，美债收益率仍然受控，且ETF收复或守住VWAP时才更值得观察。如果收益率明显反弹，就先等。",
+        "suggestedProfitTake": "EN: Trim if the ETF reaches a clean post-data extension or if yields stop falling. Keep only a smaller remainder if bonds trend steadily higher through the session.\n中文：如果ETF在数据后已经干净延伸，或收益率不再继续回落，就分批止盈。若债券在整个交易时段持续稳步走高，只保留更小的剩余仓位。",
+        "type": "long-duration Treasury ETF",
+        "catalyst": "EN: Softer PPI and rates sensitivity into retail-sales and jobless-claims data.\n中文：偏软PPI，以及零售销售和初请前的利率敏感性。",
+        "why": "EN Fundamentals / 中文基本面: TLT is the cleanest liquid expression of the softer-inflation and lower-yields theme when macro data cool without breaking growth. EN Technicals / 中文技术面: The setup improved after PPI, but it still needs a regular-session VWAP hold because one hot retail-sales surprise can reverse the move quickly. EN Volume/Liquidity / 中文成交量/流动性: TLT is highly liquid and practical for small capital, with tighter execution than most single-name rate-sensitive equities.",
+        "risk": "EN: If the market decides growth is re-accelerating or inflation is sticky, bond ETFs can reverse faster than traders expect.\n中文：如果市场转而认为增长重新加速，或通胀仍然黏性很强，债券ETF的反转速度可能比交易者预期更快。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Softer PPI helped long-duration Treasuries into Thursday, but the next macro prints can still reverse that support.\n中文：偏软PPI在进入周四前支撑了长久期美债，但接下来的宏观数据仍可能逆转这股支持。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Avoid unless SMH first proves a clean regular-session hold above VWAP, TSMC improves breadth, and the trade plan is strictly intraday. If semiconductors are still split, this is not the instrument to force.\n中文：除非SMH先在正股时段干净地守在VWAP之上，且TSMC改善了半导体宽度，同时交易计划严格限定为日内，否则应回避。如果半导体仍然分裂，这就不是应该强做的工具。",
+        "suggestedProfitTake": "EN: If you are already in a confirmation-based intraday trade, trim aggressively once the ETF outruns the opening range or the underlying breadth starts to fade. Do not hold a stretched leveraged move overnight.\n中文：如果你已经在一笔“基于确认”的日内交易里，一旦ETF明显跑出开盘区间，或底层宽度开始衰减，就应积极分批止盈。不要把已经伸展的杠杆走势隔夜持有。",
+        "type": "leveraged semiconductor ETF",
+        "catalyst": "EN: Any TSMC-led breadth improvement would matter, but Wednesday proved the group has not earned leverage yet.\n中文：任何由TSMC带来的宽度改善都很重要，但周三已经证明，这个板块还没有赢得使用杠杆的资格。",
+        "why": "EN Fundamentals / 中文基本面: SOXL has no standalone fundamentals and is only an amplified expression of the semiconductor group's unresolved AI-demand-versus-valuation debate. EN Technicals / 中文技术面: The technical quality remains poor until SMH and the underlying chip breadth can hold above VWAP in the regular session; otherwise, the ETF's path dependency becomes the dominant feature. EN Volume/Liquidity / 中文成交量/流动性: SOXL is liquid, but leverage decay and fast intraday swings make it materially riskier than SMH or TSM for small capital.",
+        "risk": "EN: Leverage decay, wide intraday swings, and overnight gap risk can quickly punish even a roughly correct semiconductor view.\n中文：杠杆衰减、巨大的日内波动和隔夜跳空风险，可能会很快惩罚一个“方向大致没错”的半导体判断。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Wednesday's split chip tape kept SOXL in the 'wait or avoid' bucket rather than turning it into a high-quality opportunity.\n中文：周三芯片行情的分裂状态，让SOXL继续停留在“等待或回避”而不是“高质量机会”的框架里。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
+        "items": [
+          "EN: Reviewed coverage put the VIX near 16.3 while TSMC options were pricing about a 5.1% post-earnings move. That means index calm still coexists with meaningful single-name event risk.\n中文：已审阅报道显示VIX约在16.3，而TSMC期权定价的财报后预期波动约为5.1%。这意味着“指数平静”和“个股事件风险明显偏高”仍在同时存在。",
+          "EN: If using options at all, keep size smaller than stock exposure, avoid paying peak IV right before earnings, and remember that IV crush plus wider spreads can damage even a mostly correct thesis.\n中文：如果一定要用期权，仓位应小于正股，不要在财报前去买峰值IV，并记住：IV回落叠加更宽的价差，即便逻辑大致正确也会受伤。"
+        ]
+      },
+      {
+        "title": "EN: Entry Timing And Risk Controls\n中文：入场时机与风险控制",
+        "items": [
+          "EN: Every setup in this briefing is conditional. Wait for the first 30-60 minutes, then demand VWAP reclaim, opening-range breakout, pullback hold, or relative-volume confirmation before treating any move as real.\n中文：本简报里的每个设置都是条件式的。先等前30-60分钟，再要求VWAP收复、开盘区间突破、回踩守住或相对放量确认，才把走势当真。",
+          "EN: If a stock or ETF opens already beyond the likely intraday range, the disciplined action is often to do nothing. Avoid chase entries, avoid averaging into failed gaps, and use the first-hour high or low as a practical invalidation reference.\n中文：如果一只股票或ETF开盘就已经超出大概率的日内波动区间，最有纪律的动作往往就是“不做”。不要追高，也不要对失败跳空一路摊平，并把首小时高低点当成务实的失效参考。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Metrics Check\n中文：基本面指标检查",
+        "items": [
+          "EN: The cleanest macro numbers from Wednesday were June PPI down 0.3% month over month and annual wholesale inflation easing to 5.5%. That helped yields, but tonight's retail-sales and claims data can still re-open the rates debate.\n中文：周三最干净的宏观数字是6月PPI环比-0.3%、年化批发通胀回落至5.5%。这帮助了收益率，但今晚的零售销售和初请仍可能重新打开利率争论。",
+          "EN: On the company side, Morgan Stanley profit rose 58%, BlackRock's AUM hit $15.3 trillion, ASML lifted 2026 sales guidance to EUR43 billion-EUR45 billion, and IBM plus United showed that weak enterprise demand or fuel-cost pressure can still hurt badly. That mix argues for stock selection rather than broad complacency.\n中文：公司层面，Morgan Stanley利润增长58%，BlackRock管理资产达到15.3万亿美元，ASML把2026销售指引上调到430亿-450亿欧元，而IBM和United则说明，企业需求疲软或燃油成本压力仍会造成明显伤害。这种组合支持“精选个股”，而不是对大盘盲目放松警惕。"
+        ]
+      },
+      {
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
+        "items": [
+          "EN: Financials and asset managers were the highest-quality leadership group on Wednesday. That matters because liquid, earnings-backed leadership is usually more durable than a scattered speculative bounce.\n中文：金融和资管是周三质量最高的领涨板块。这很重要，因为有财报支撑的高流动性主线，通常比零散的投机反弹更耐久。",
+          "EN: Semiconductor breadth was the main warning sign. ASML was good, but the U.S. chip group still behaved poorly, which tells you that a strong headline and a strong trade are not always the same thing.\n中文：半导体宽度是最主要的警报信号。ASML本身很好，但美股芯片组的表现依旧较差，这说明“好headline”和“好交易”并不总是一回事。"
+        ]
+      },
+      {
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
+        "items": [
+          "EN: TSMC is tonight's key quality check for AI hardware demand. The issue is not whether AI spending exists; it is whether investors still want to reward it at these prices and at this point in the cycle.\n中文：TSMC是今晚检验AI硬件需求质量的关键关口。问题不是AI支出是否存在，而是投资者在当前价格和周期位置上，是否还愿意继续奖励这条主线。",
+          "EN: Innovation leadership is no longer only about chips. AEHR, AAOI, WULF, IREN, and CLSK show that traders are also targeting testing, optics, power, and infrastructure when they believe AI capex is still broadening.\n中文：创新主线已经不再只局限于芯片。AEHR、AAOI、WULF、IREN和CLSK说明，当交易者相信AI资本开支仍在扩散时，他们也会去交易测试、光模块、电力和基础设施。"
+        ]
+      },
+      {
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
+        "items": [
+          "EN: Oil remains tied to Trump-administration Middle East policy and shipping-risk headlines. The market no longer treats those headlines as background noise, so energy and airline sensitivity should stay on the dashboard.\n中文：油价仍然和特朗普政府的中东政策及航运风险headline紧密相关。市场已不再把这些headline当作背景噪音，因此能源和航空敏感性必须继续留在看板上。",
+          "EN: Warsh's inflation-heavy tone and the Fed's Beige Book context matter because policy language can quickly reprice yields even after a softer inflation print. Trade sourced policy reality, not unsourced political chatter.\n中文：Warsh更强调通胀的口径，以及美联储褐皮书背景之所以重要，是因为政策措辞即便在通胀偏软之后，也可能迅速重定价收益率。应交易“有来源的政策现实”，而不是无源政治噪音。"
+        ]
+      },
+      {
+        "title": "EN: Credit Positioning And Market Internals\n中文：信用定位与市场内部结构",
+        "items": [
+          "EN: Strong financial earnings suggest credit is not cracking, but exact HYG and LQD confirmation was unavailable in reviewed sources. In practice, watch whether XLF strength is joined by IWM and steady credit ETFs during the cash session.\n中文：强势金融财报说明信用端并未出现明显裂缝，但已审阅来源未提供HYG和LQD的精确确认。实战上，应观察现金盘中XLF的强势能否获得IWM和信用ETF稳定表现的配合。",
+          "EN: If leadership stays trapped in banks, BlackRock-style asset managers, and a handful of megacaps, the market remains tradable but not healthy enough for oversized speculative risk. Better breadth is the permission signal.\n中文：如果主线始终只困在银行、BlackRock这类资管股和少数大型权重科技股里，市场仍然可交易，但还不足以支持过大投机风险。更好的宽度才是许可信号。"
+        ]
+      },
+      {
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
+        "items": [
+          "EN: Tonight's stack is dense: TSMC, U.S. retail sales, jobless claims, major premarket earnings, and Netflix after the close. That is enough to flip sector leadership more than once.\n中文：今晚的事件堆叠很密集：TSMC、美国零售销售、初请失业金、多家盘前财报，以及盘后的Netflix。这已经足以让板块主线在日内翻转不止一次。",
+          "EN: Friday still brings industrial production and Michigan sentiment. Do not assume one clean Thursday session settles the whole week for rates, semis, or consumer-sensitive names.\n中文：周五还会公布工业产出和密歇根大学消费者信心。不要假设只要周四走出一个干净交易日，就能为利率、半导体或消费敏感股定下整周方向。"
+        ]
+      },
+      {
+        "title": "EN: Why It Matters\n中文：这为什么重要",
+        "items": [
+          "EN: Wednesday proved that a market can look strong on the surface while still hiding important weakness underneath. That difference is where disciplined traders protect capital and careless traders get trapped.\n中文：周三证明了一件事：市场表面可以看起来很强，但内部仍然可能藏着重要弱点。正是这种差异，决定了有纪律的交易者能保护资金，而大意的交易者会被困住。",
+          "EN: For a China-based small-capital trader watching tonight's U.S. session, the edge is not in guessing the first move. The edge is in waiting for confirmation, choosing liquid vehicles, and refusing to confuse a good story with a good entry.\n中文：对于一位在中国、今晚关注美股的小资金交易者来说，优势不在于猜对第一下，而在于等待确认、选择流动性好的工具，并拒绝把“好故事”误当成“好买点”。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: U.S. Bureau of Labor Statistics - Consumer Price Index Summary, June 2026 / 中文：美国劳工统计局 - 2026年6月消费者价格指数摘要",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+      },
+      {
+        "label": "EN: U.S. Bureau of Labor Statistics - Producer Price Index News Release, June 2026 / 中文：美国劳工统计局 - 2026年6月生产者价格指数新闻稿",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      },
+      {
+        "label": "EN: Federal Reserve - Beige Book publications page / 中文：美联储 - 褐皮书发布页面",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/monetarypolicy/publications/beige-book-default.htm"
+      },
+      {
+        "label": "EN: AP - How major U.S. stock indexes fared Wednesday 7/15/2026 / 中文：美联社 - 2026年7月15日周三美国主要股指表现",
+        "confidence": "Market data",
+        "url": "https://apnews.com/article/a4f50a9a19d14802cb94b51db7bafba1"
+      },
+      {
+        "label": "EN: AP - U.S. stocks drift higher after a better-than-expected inflation report / 中文：美联社 - 通胀报告好于预期后美股小幅走高",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/033764304e871cea56bd0fc501aee294"
+      },
+      {
+        "label": "EN: Barron's live coverage - Treasury yields decline on lower-than-expected wholesale inflation / 中文：Barron's实时报道 - 批发通胀低于预期后美债收益率回落",
+        "confidence": "Market data",
+        "url": "https://www.barrons.com/livecoverage/stock-market-news-today-071526/card/treasury-yields-decline-on-lower-than-expected-u-s-wholesale-inflation-QljKoAnP53GZFKnluBJn"
+      },
+      {
+        "label": "EN: AP - Iran uses airstrikes and media assault to press U.S. and Arab neighbors over blockade / 中文：美联社 - 伊朗通过空袭与舆论施压美国和阿拉伯邻国以应对封锁",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/b7c592f269d822407dd6b5641602bf25"
+      },
+      {
+        "label": "EN: WSJ live coverage - Oil prices continue to climb / 中文：华尔街日报实时报道 - 油价继续走高",
+        "confidence": "Market data",
+        "url": "https://www.wsj.com/finance/live/stock-market-today-dow-sp-500-nasdaq-07-15-2026-2a3dd235/card/oil-prices-continue-to-climb-26699283"
+      },
+      {
+        "label": "EN: Barron's - Morgan Stanley stock rises after earnings top estimates / 中文：Barron's - Morgan Stanley财报超预期后股价走高",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/morgan-stanley-earnings-stock-price-1dedfde3"
+      },
+      {
+        "label": "EN: MarketWatch - BlackRock profits jump as assets under management hit a record $15 trillion / 中文：MarketWatch - BlackRock利润增长，管理资产创15万亿美元纪录",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/blackrock-profits-jump-as-assets-under-management-hit-a-record-15-trillion-8e6fd54b"
+      },
+      {
+        "label": "EN: WSJ - Chip-machine supplier ASML raises guidance again on unrelenting AI demand / 中文：华尔街日报 - AI需求不减，芯片设备商ASML再次上调指引",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/business/earnings/chip-machine-supplier-asml-raises-guidance-again-on-unrelenting-ai-demand-5cae18c9"
+      },
+      {
+        "label": "EN: Barron's - Chip stocks aren't joining ASML's rally / 中文：Barron's - 芯片股并未跟随ASML一起上涨",
+        "confidence": "Market data",
+        "url": "https://www.barrons.com/livecoverage/stock-market-news-today-071526/card/chip-stocks-arent-joining-asml-s-rally-and-thats-a-worry-V3WD4zwkSYITbeT5SXlH"
+      },
+      {
+        "label": "EN: Barron's - Apple, Meta, and Microsoft are masking a chip-stock plunge / 中文：Barron's - Apple、Meta和Microsoft掩盖了芯片股的下跌",
+        "confidence": "Market data",
+        "url": "https://www.barrons.com/livecoverage/stock-market-news-today-071526/card/apple-meta-and-microsoft-are-masking-a-chip-stock-plunge-y3C4iBQ0Y63gQtJZq7ef"
+      },
+      {
+        "label": "EN: Barron's - TSMC stock is key to the tech rally after earnings / 中文：Barron's - TSMC财报后股价将成为科技反弹关键",
+        "confidence": "Calendar",
+        "url": "https://www.barrons.com/articles/tsmc-earnings-stock-price-b6a080b5"
+      },
+      {
+        "label": "EN: Investopedia - How much TSMC stock is expected to move after earnings / 中文：Investopedia - TSMC财报后预期波动幅度",
+        "confidence": "Market data",
+        "url": "https://www.investopedia.com/here-is-how-much-tsmc-stock-is-expected-to-move-after-earnings-q2-fy2026-12015327"
+      },
+      {
+        "label": "EN: Barron's - IBM stock slips again after historic plunge / 中文：Barron's - IBM在历史级暴跌后再度走弱",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/ibm-stock-price-today-006bdaad"
+      },
+      {
+        "label": "EN: MarketWatch - PayPal surges on reported $53 billion bid from Stripe and Advent / 中文：MarketWatch - PayPal因据称收到Stripe与Advent的530亿美元报价而大涨",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/a-53-billion-lifeline-stripe-and-advent-reportedly-team-up-to-bid-for-battered-paypal-3bc6fcc2"
+      },
+      {
+        "label": "EN: MarketWatch - United Airlines gets hit by a $6 billion added fuel-cost headwind / 中文：MarketWatch - United Airlines遭遇60亿美元新增燃油成本逆风",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/united-airlines-gets-hit-by-a-6-billion-added-fuel-cost-headwind-dacb07b6"
+      },
+      {
+        "label": "EN: Barron's - Aehr Test Systems stock surges after earnings / 中文：Barron's - Aehr Test Systems财报后股价飙升",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/aehr-test-systems-earnings-stock-price-27770a4a"
+      },
+      {
+        "label": "EN: IBD - CleanSpark lands first HPC lease worth nearly $7 billion / 中文：IBD - CleanSpark拿下首份接近70亿美元的HPC租约",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investors.com/news/cleanspark-stock-hpc-ai-tenant-deal-6-6-billion-bitcoin-price-cpi-report-crypto-stocks/"
+      },
+      {
+        "label": "EN: MarketWatch - TeraWulf's stock surges after a $19 billion deal with Anthropic / 中文：MarketWatch - TeraWulf因与Anthropic达成190亿美元协议而大涨",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/terawulfs-stock-surges-after-a-19-billion-deal-with-anthropic-6899d3bc"
+      },
+      {
+        "label": "EN: MarketWatch - IREN's stock soars as a major Nvidia investment overshadows revenue shortfall / 中文：MarketWatch - IREN在Nvidia重大投资推动下大涨，掩盖营收不及预期",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/irens-stock-soars-as-a-major-nvidia-investment-overshadows-revenue-shortfall-c286cdb8"
+      },
+      {
+        "label": "EN: MarketWatch - How Applied Optoelectronics became the latest viral AI stock / 中文：MarketWatch - Applied Optoelectronics如何成为最新AI热门股",
+        "confidence": "Context",
+        "url": "https://www.marketwatch.com/story/how-applied-optoelectronics-became-the-latest-viral-ai-stock-f644d345"
+      },
+      {
+        "label": "EN: AP - Kevin Warsh says the Fed has no tolerance for inflation / 中文：美联社 - Kevin Warsh表示美联储对通胀零容忍",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/4a1da547d64ae3d54fba29161b213601"
+      }
+    ]
+  },
+  {
     "date": "2026-07-15",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-07-15 09:15 GMT+8",
