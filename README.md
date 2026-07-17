@@ -5,6 +5,7 @@ Open `index.html` in a browser to choose between the U.S. stock briefing archive
 The U.S. daily automation writes each briefing into `data/briefings-data.js`. The A股 daily automation writes each briefing into `data/a-share-briefings-data.js`. Each dashboard keeps all dates in one place, marks archived days on the calendar, and lets you search prior briefings by ticker, topic, or source.
 
 The standing process rules for briefing generation and post-close review live in `data/briefing-review-algorithm.md`. Future daily briefings should read that file before writing actionable setups, especially for live-price verification, stale-level rejection, 24-hour U.S. tape-path review, and 1-day / 3-day / 1-week review discipline.
+For A-shares, that standing process now also requires a dedicated next-trading-day / next-`1-5`-trading-day `Pre-Catalyst Watchlist` that is not just a copy of the day's main recommendation list.
 
 U.S.-specific post-close lessons live in `data/us-briefing-feedback.md`. A-share-specific post-close lessons live in `data/a-share-briefing-feedback.md`.
 
