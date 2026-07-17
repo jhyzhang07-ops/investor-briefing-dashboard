@@ -1155,6 +1155,191 @@ button:focus-visible {
   color: var(--ink);
 }
 
+.pre-catalyst-layout {
+  display: grid;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.pre-catalyst-summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px 16px;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 18px;
+  background:
+    linear-gradient(135deg, rgba(20, 108, 92, 0.08), rgba(255, 255, 255, 0) 58%),
+    var(--card-bg);
+}
+
+.pre-catalyst-summary p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pre-catalyst-summary strong {
+  align-self: center;
+  font-size: 34px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.pre-catalyst-summary span {
+  grid-column: 2;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.pre-catalyst-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.pre-catalyst-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  background: var(--card-bg);
+  box-shadow: 0 10px 28px rgba(23, 32, 27, 0.06);
+}
+
+.pre-catalyst-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pre-catalyst-title {
+  display: grid;
+  gap: 6px;
+}
+
+.pre-catalyst-ticker {
+  font-size: 30px;
+  font-weight: 950;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+}
+
+.pre-catalyst-ticker a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.pre-catalyst-ticker a:hover,
+.pre-catalyst-ticker a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+.pre-catalyst-title p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.pre-catalyst-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.watch-stage-pill {
+  display: inline-flex;
+  min-height: 26px;
+  align-items: center;
+  border-radius: 999px;
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.watch-stage-pill.early {
+  border: 1px solid #86bd91;
+  background: #e8f6e9;
+  color: #276433;
+}
+
+.watch-stage-pill.progress {
+  border: 1px solid #e0bd62;
+  background: #fff5d8;
+  color: #7a5513;
+}
+
+.watch-stage-pill.extended {
+  border: 1px solid #d59a91;
+  background: #fae9e6;
+  color: #9a2f23;
+}
+
+.pre-catalyst-facts,
+.pre-catalyst-panels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.pre-catalyst-fact,
+.pre-catalyst-panel {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: #ffffff;
+}
+
+.pre-catalyst-panel.caution {
+  background: linear-gradient(180deg, #fff9ea, #ffffff);
+}
+
+.pre-catalyst-fact span,
+.pre-catalyst-panel span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pre-catalyst-fact strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.pre-catalyst-fact small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.pre-catalyst-panel p {
+  margin: 9px 0 0;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.pre-catalyst-panel p strong {
+  color: var(--ink);
+}
+
 .calculator-view {
   display: grid;
   gap: 18px;
@@ -1369,6 +1554,12 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .pre-catalyst-grid,
+  .pre-catalyst-facts,
+  .pre-catalyst-panels {
+    grid-template-columns: 1fr;
+  }
+
   .topbar {
     position: static;
   }
@@ -1458,6 +1649,20 @@ button:focus-visible {
   .calculator-results,
   .trade-levels {
     grid-template-columns: 1fr;
+  }
+
+  .pre-catalyst-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .pre-catalyst-summary strong,
+  .pre-catalyst-summary span {
+    grid-column: auto;
+    text-align: left;
+  }
+
+  .pre-catalyst-meta {
+    justify-content: flex-start;
   }
 
   .ticker {
