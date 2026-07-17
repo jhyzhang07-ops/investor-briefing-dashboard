@@ -643,7 +643,7 @@
       ${renderSection(t("etfsSection"), renderWatchCards(brief.etfs, currentMarket.noEtfsMessage), "brief-etfs")}
       ${renderSection(currentMarket.sectionTitles.catalysts, renderCatalystCalendar(brief.catalystCalendar), "brief-catalysts")}
       ${renderSection(currentMarket.sectionTitles.performance, renderPerformanceTracker(brief.performanceTracker), "brief-performance")}
-      ${(brief.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
+      ${(brief.sections || []).map((section) => renderBriefingSection(section)).join("")}
       ${renderSection(t("sourcesSection"), renderSources(brief.sources), "brief-sources")}
     `;
 
@@ -695,7 +695,7 @@
       ${renderSection("Sectors And Themes", renderSectors(weekly.sectors))}
       ${renderSection("Watchlist For Next Week", renderWatchCards(weekly.watchlist || weekly.stocks, "No weekly watchlist archived."))}
       ${renderSection("Risk Controls", renderList(weekly.riskControls, "section-list"))}
-      ${(weekly.sections || []).map((section) => renderSection(section.title, renderList(section.items, "section-list"))).join("")}
+      ${(weekly.sections || []).map((section) => renderBriefingSection(section)).join("")}
       ${renderSection(t("sourcesSection"), renderSources(weekly.sources))}
     `;
   }
@@ -787,6 +787,156 @@
     const safeItems = Array.isArray(items) ? items : [];
     if (!safeItems.length) return `<p class="empty-note">${escapeHtml(t("noItems"))}</p>`;
     return `<ul class="${className}">${safeItems.map((item) => `<li>${escapeHtml(String(item))}</li>`).join("")}</ul>`;
+  }
+
+  function renderBriefingSection(section) {
+    if (!section || typeof section !== "object") return "";
+    if (isPreCatalystWatchlistTitle(section.title)) {
+      return renderSection(section.title, renderPreCatalystWatchlist(section.items), "brief-pre-catalyst");
+    }
+    return renderSection(section.title, renderList(section.items, "section-list"));
+  }
+
+  function isPreCatalystWatchlistTitle(title) {
+    return typeof title === "string" && title.includes("Pre-Catalyst Watchlist");
+  }
+
+  function renderPreCatalystWatchlist(items) {
+    const parsedItems = (Array.isArray(items) ? items : [])
+      .map(parsePreCatalystWatchItem)
+      .filter(Boolean);
+
+    if (!parsedItems.length) {
+      return renderList(items, "section-list");
+    }
+
+    return `
+      <div class="pre-catalyst-layout">
+        <div class="pre-catalyst-summary">
+          <p>EN: Focus on real 1-5 trading-day catalysts, then demand regular-session confirmation before acting. 中文：先聚焦未来1-5个交易日内存在真实催化的标的，再要求正股时段确认后才行动。</p>
+          <strong>${escapeHtml(String(parsedItems.length))}</strong>
+          <span>EN: names on watch / 中文：重点观察标的</span>
+        </div>
+        <div class="pre-catalyst-grid">
+          ${parsedItems.map((item) => renderPreCatalystCard(item)).join("")}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderPreCatalystCard(item) {
+    const bias = normalizePreCatalystBias(item.biasEn, item.biasZh);
+    const risk = normalizeRiskLevel(item.riskEn);
+    const stage = normalizePreCatalystStage(item.stageEn, item.stageZh);
+
+    return `
+      <article class="pre-catalyst-card">
+        <div class="pre-catalyst-head">
+          <div class="pre-catalyst-title">
+            <div class="pre-catalyst-ticker">${renderTickerLinks(item.ticker)}</div>
+            <p>EN: ${escapeHtml(item.catalystTypeEn || "Catalyst pending")} 中文：${escapeHtml(item.catalystTypeZh || "催化待确认")}</p>
+          </div>
+          <div class="pre-catalyst-meta">
+            <span class="direction-pill ${bias.className}">${escapeHtml(bias.label)}</span>
+            <span class="risk-pill ${risk.className}">${escapeHtml(risk.label)}</span>
+            <span class="watch-stage-pill ${stage.className}">${escapeHtml(stage.label)}</span>
+          </div>
+        </div>
+
+        <div class="pre-catalyst-facts">
+          <div class="pre-catalyst-fact">
+            <span>CATALYST TIMING</span>
+            <strong>EN: ${escapeHtml(item.catalystDateEn || "Not specified")}</strong>
+            <small>中文：${escapeHtml(item.catalystDateZh || "未说明")}</small>
+          </div>
+          <div class="pre-catalyst-fact">
+            <span>SETUP STATE</span>
+            <strong>EN: ${escapeHtml(item.stageEn || "Watch")}</strong>
+            <small>中文：${escapeHtml(item.stageZh || "观察")}</small>
+          </div>
+        </div>
+
+        <div class="pre-catalyst-panels">
+          <div class="pre-catalyst-panel">
+            <span>POTENTIAL MOVE</span>
+            <p><strong>EN:</strong> ${escapeHtml(item.moveReasonEn || "No reason archived.")}</p>
+            <p><strong>中文：</strong> ${escapeHtml(item.moveReasonZh || "暂无归档原因。")}</p>
+          </div>
+          <div class="pre-catalyst-panel caution">
+            <span>NO-CHASE RULE</span>
+            <p><strong>EN:</strong> ${escapeHtml(item.noChaseEn || "Wait for confirmation.")}</p>
+            <p><strong>中文：</strong> ${escapeHtml(item.noChaseZh || "等待确认。")}</p>
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
+  function parsePreCatalystWatchItem(item) {
+    if (typeof item !== "string" || !item.trim()) return null;
+    const [enLine, zhLine = ""] = item.split(/\n(?=中文：)/);
+    const enFields = parsePreCatalystLine(enLine.replace(/^EN:\s*/, ""));
+    const zhFields = parsePreCatalystLine(zhLine.replace(/^中文：\s*/, ""));
+    if (!enFields.ticker) return null;
+
+    return {
+      ticker: enFields.ticker,
+      catalystDateEn: enFields["Catalyst date/time"] || "",
+      catalystDateZh: zhFields["催化日期/时间"] || "",
+      catalystTypeEn: enFields["Catalyst type"] || "",
+      catalystTypeZh: zhFields["催化类型"] || "",
+      moveReasonEn: enFields["Why it could move"] || "",
+      moveReasonZh: zhFields["可能波动原因"] || "",
+      biasEn: enFields["Expected direction bias"] || "",
+      biasZh: zhFields["方向偏向"] || "",
+      riskEn: enFields.RiskLevel || "",
+      riskZh: zhFields["风险等级"] || "",
+      stageEn: enFields.Stage || "",
+      stageZh: zhFields["阶段"] || "",
+      noChaseEn: enFields["No-chase rule"] || "",
+      noChaseZh: zhFields["不追高规则"] || ""
+    };
+  }
+
+  function parsePreCatalystLine(line) {
+    const parts = String(line || "")
+      .split("|")
+      .map((part) => part.trim())
+      .filter(Boolean);
+
+    if (!parts.length) return {};
+
+    const [ticker, ...fields] = parts;
+    const parsed = { ticker };
+    fields.forEach((field) => {
+      const match = field.match(/^([^:：]+)[:：]\s*(.*)$/);
+      if (match) {
+        parsed[match[1].trim()] = match[2].trim();
+      }
+    });
+    return parsed;
+  }
+
+  function normalizePreCatalystBias(biasEn, biasZh) {
+    const value = String(biasEn || "").toLowerCase();
+    if (value.includes("short")) {
+      return { className: "short", label: `EN: ${biasEn || "Short"} / 中文：${biasZh || "偏空"}` };
+    }
+    if (value.includes("long")) {
+      return { className: "long", label: `EN: ${biasEn || "Long"} / 中文：${biasZh || "偏多"}` };
+    }
+    return { className: "neutral", label: `EN: ${biasEn || "Watch"} / 中文：${biasZh || "观察"}` };
+  }
+
+  function normalizePreCatalystStage(stageEn, stageZh) {
+    const value = String(stageEn || "").toLowerCase();
+    if (value.includes("extended")) {
+      return { className: "extended", label: `EN: ${stageEn || "Extended"} / 中文：${stageZh || "延伸过度"}` };
+    }
+    if (value.includes("progress")) {
+      return { className: "progress", label: `EN: ${stageEn || "In progress"} / 中文：${stageZh || "进行中"}` };
+    }
+    return { className: "early", label: `EN: ${stageEn || "Early"} / 中文：${stageZh || "提前阶段"}` };
   }
 
   function renderActionBoard(brief) {
