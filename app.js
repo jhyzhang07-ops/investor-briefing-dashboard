@@ -716,6 +716,7 @@
       ["brief-overview", labels.overview, true],
       ["brief-action-board", labels.actionBoard, true],
       ["brief-compare", labels.compare, true],
+      ["brief-pre-catalyst", labels.preCatalyst, hasPreCatalystWatchlist(brief.sections)],
       ["brief-forecast", labels.forecast, true],
       ["brief-sectors", labels.sectors, hasItems(brief.sectors)],
       ["brief-stocks", labels.stocks, hasItems(brief.stocks)],
@@ -798,7 +799,12 @@
   }
 
   function isPreCatalystWatchlistTitle(title) {
-    return typeof title === "string" && title.includes("Pre-Catalyst Watchlist");
+    return typeof title === "string"
+      && (title.includes("Pre-Catalyst Watchlist") || title.includes("提前催化预警"));
+  }
+
+  function hasPreCatalystWatchlist(sections) {
+    return Array.isArray(sections) && sections.some((section) => isPreCatalystWatchlistTitle(section && section.title));
   }
 
   function renderPreCatalystWatchlist(items) {
@@ -874,7 +880,12 @@
 
   function parsePreCatalystWatchItem(item) {
     if (typeof item !== "string" || !item.trim()) return null;
-    const [enLine, zhLine = ""] = item.split(/\n(?=中文：)/);
+    const lines = item
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean);
+    const enLine = lines.find((line) => /^EN:\s*/.test(line)) || "";
+    const zhLine = lines.find((line) => /^中文：\s*/.test(line)) || "";
     const enFields = parsePreCatalystLine(enLine.replace(/^EN:\s*/, ""));
     const zhFields = parsePreCatalystLine(zhLine.replace(/^中文：\s*/, ""));
     if (!enFields.ticker) return null;
