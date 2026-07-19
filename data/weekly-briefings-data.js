@@ -1,5 +1,335 @@
 window.WEEKLY_MARKET_BRIEFINGS = [
   {
+    "date": "2026-07-19",
+    "weekId": "2026-W29",
+    "weekNumber": 29,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-19 08:00 GMT+8",
+    "title": "EN: U.S. Weekly Market Brief - Week 29\n中文：美股周度市场简报 - 第29周",
+    "tone": "EN: Weekly tone: stay defensive on crowded AI beta, stay constructive on verified healthcare and financial earnings leadership, and let the first 30 to 60 minutes confirm any trade before size.\n中文：周度基调：对拥挤的AI高beta保持防守，对已经被财报验证的医疗与金融领涨保持建设性，并在任何交易放大仓位前先等待开盘后30到60分钟确认。",
+    "priorities": [
+      "EN: The cleanest macro shock from last week is over; next week is more about earnings quality than CPI drama. Focus on whether leadership can broaden without semiconductors.\n中文：上周最直接的宏观冲击已经过去；下周更像“财报质量周”，而不是“CPI戏剧周”。重点看在没有半导体带队的情况下，领涨能否继续扩散。",
+      "EN: Wednesday, July 22 U.S. time, Tesla and Texas Instruments after the close are the most practical tape tests. Tesla is a sentiment event; TI is the cleaner semiconductor read-through.\n中文：美股时间7月22日周三盘后，Tesla和Texas Instruments是最实用的盘口测试。Tesla更像情绪事件，TI则是更干净的半导体读数。",
+      "EN: Thursday, July 23 U.S. time, weekly jobless claims matter because yields and oil already reintroduced inflation pressure into the tape. If claims stay benign and yields rise again, long-duration growth can stay fragile.\n中文：美股时间7月23日周四，周度初请失业金很重要，因为收益率和油价已经把通胀压力重新带回盘面。若初请仍稳、而收益率再次上行，高久期成长股就会继续脆弱。",
+      "EN: Friday, July 24 U.S. time, June new home sales are a useful cross-check on rates sensitivity. Do not ignore housing when the 10-year is back near the mid-4.5% area.\n中文：美股时间7月24日周五，6月新屋销售是观察利率敏感度的有用交叉验证。当10年期收益率回到4.5%中段附近时，不能忽视地产数据。",
+      "EN: Separate balanced trades from speculative trades. XLF and UNH are cleaner than AAOI and SOXL; if you touch red-risk names, size smaller and assume gap risk, spread risk, IV crush, and first-30-minute failure are normal, not exceptional.\n中文：必须把中等风险交易和投机交易分开。XLF和UNH都比AAOI和SOXL更干净；如果要碰红色高风险标的，就必须更轻仓，并把跳空风险、价差风险、IV回落以及前30分钟失败当成常态，而不是意外。"
+    ],
+    "summary": [
+      "EN: Verified Friday, July 17 U.S. closes show SPY at 743.28, QQQ at 695.33, and IWM at 294.10. Their one-week changes were about -1.56%, -4.16%, and -0.64%, so the real damage sat in growth and semiconductors rather than in the whole market equally.\n中文：经核实，7月17日周五美股收盘，SPY报743.28，QQQ报695.33，IWM报294.10；一周变动约为-1.56%、-4.16%和-0.64%。这说明真正受伤的是成长与半导体，而不是整个市场平均受挫。",
+      "EN: AP's weekly recap shows the S&P 500 down 1.6%, the Dow down 0.9%, the Nasdaq down 2.9%, and the Russell 2000 down 0.5% for the week ending July 17. Broad market damage was manageable; AI leadership damage was not.\n中文：美联社周度回顾显示，截至7月17日这一周，标普500下跌1.6%，道指下跌0.9%，纳指下跌2.9%，罗素2000下跌0.5%。大盘层面的伤害尚可控，但AI主线的伤害并不可忽视。",
+      "EN: The week's path mattered. Monday was oil plus AI pain, Tuesday got a CPI and bank-earnings relief bounce, Wednesday still could not repair semiconductors cleanly, Thursday rewarded healthcare earnings while punishing chip-capex anxiety, and Friday finished the week with a deeper AI unwind.\n中文：本周更重要的是路径。周一是油价上冲叠加AI受压；周二靠CPI和银行财报得到喘息反弹；周三仍没能把半导体修好；周四奖励医疗财报、惩罚芯片资本开支焦虑；周五则以更深的AI退潮结束全周。",
+      "EN: Healthcare and financial earnings were the cleaner long lanes than AI hardware. Abbott jumped about 10.7% on Thursday and held the gain Friday; UnitedHealth beat and raised; XLF still ended the week up about 1.0%.\n中文：医疗和金融财报比AI硬件更像干净的多头主线。Abbott周四大涨约10.7%，周五仍能稳住；UnitedHealth业绩超预期并上调指引；XLF全周仍约上涨1.0%。",
+      "EN: The weekly scorecard has to stay honest: avoiding SOXL chase was right, waiting for regular-session confirmation in semis was right, but the workflow was too semiconductor-heavy and missed part of the healthcare leadership. The old CRM short remains a miss and thesis invalidated.\n中文：周度记分卡必须保持诚实：回避追涨SOXL是对的，要求半导体等正股确认也是对的，但整个流程对半导体关注过重，因此漏掉了一部分医疗主线。旧的CRM空头仍然属于失误，而且逻辑已失效。",
+      "EN: For next week, opportunity is no longer about celebrating last quarter's AI winners. It is about identifying whether the next usable trade is early, merely in progress, already extended, or only worth stalking for a pullback.\n中文：对下周来说，机会不再是庆祝上个季度的AI赢家，而是识别下一个可做交易究竟还处于早期、进行中、已经过度延伸，还是只值得等待回踩。"
+    ],
+    "marketPulse": {
+      "SPY/QQQ/IWM": {
+        "value": "SPY 743.28 / QQQ 695.33 / IWM 294.10 at the July 17, 2026 U.S. close",
+        "note": "EN: Large-cap growth clearly lagged small caps and financials this week. The important read is not that everything broke, but that the market punished crowded AI exposure much harder than balanced exposure.\n中文：本周大盘成长明显跑输小盘与金融。关键解读不是“所有东西都坏了”，而是市场对拥挤AI敞口的惩罚，明显重于对均衡敞口的惩罚。"
+      },
+      "Rates": {
+        "value": "U.S. Treasury data showed the 2Y at 4.16% and the 10Y at 4.57% on July 16; AP reported yields eased on July 17",
+        "note": "EN: Rates are not low enough to forgive weak execution. If yields re-press higher next week while oil stays firm, long-duration growth can remain under pressure even without a fresh inflation report.\n中文：利率并没有低到可以原谅差执行。如果下周收益率重新上冲、而油价又维持强势，即便没有新的通胀报告，高久期成长股也仍可能承压。"
+      },
+      "Volatility / Options": {
+        "value": "VIX 18.77 at the July 17 close; SOXX 521.81 at the July 17 close; SOXL 142.68 at the July 16 close in reviewed market-data pages",
+        "note": "EN: Index volatility is still below crisis territory, but single-stock and single-sector path risk rose sharply. That is the dangerous mix for late options buyers, leveraged ETF holders, and anyone chasing premarket gaps.\n中文：指数波动率仍未进入危机区，但个股与单一板块的路径风险明显抬升。这正是最容易伤到晚进场期权买方、杠杆ETF持有者以及盘前追涨者的组合。"
+      }
+    },
+    "weekReview": [
+      "EN: Monday's selloff established the week's problem correctly: oil shock and higher yields hit crowded AI names first, not because the macro tape fully collapsed, but because positioning was already rich.\n中文：周一的下跌正确地定义了本周问题：油价冲击和收益率上行先打到拥挤的AI标的，并不是因为宏观彻底崩坏，而是因为持仓本身已经很满。",
+      "EN: Tuesday's CPI and bank-earnings bounce helped indexes, but the move was narrower than it looked. Financials responded constructively, while semiconductors only got temporary relief.\n中文：周二的CPI和银行财报反弹确实帮助了指数，但走势比表面看起来更窄。金融股反应偏建设性，而半导体只得到短暂喘息。",
+      "EN: Wednesday and Thursday made the core lesson obvious. TSMC delivered a record quarter and raised growth expectations, but the market still sold semiconductors. When good news cannot lift the group, chasing the story is lower quality than waiting for proof.\n中文：周三和周四把核心教训讲得很清楚。TSMC交出创纪录季度并上调增长预期，但市场仍然卖出半导体。当好消息都抬不动板块时，追故事的质量就低于等待证据。",
+      "EN: Healthcare was the missed lane. Abbott's Thursday regular-session surge and UnitedHealth's beat-and-raise setup were cleaner than most AI-beta attempts, so the daily workflow should admit it leaned too hard on semiconductors.\n中文：医疗是本周漏掉的主线。Abbott周四正规交易时段的大涨，以及UnitedHealth“超预期并上调”的结构，都比多数AI高beta尝试更干净，因此日更流程必须承认自己对半导体倾斜过度。",
+      "EN: The CRM short remains a miss and thesis invalidated. The stock had already rallied materially after the prior bearish framing, and nothing in this week repaired that call. The correct lesson is to stop recycling invalidated shorts just because the narrative once sounded attractive.\n中文：CRM空头仍然属于失误，而且逻辑已失效。该股在此前偏空判断后已经明显反弹，而本周没有任何东西能修复那次判断。正确教训是：不要因为旧叙事曾经听起来顺耳，就反复回收已经失效的空头观点。"
+    ],
+    "nextWeekFocus": [
+      "EN: Tesla on Wednesday, July 22 after the close is the highest-volatility catalyst. Treat it as an event stock, not as a clean pre-earnings prediction vehicle.\n中文：美股时间7月22日周三盘后的Tesla，是下周波动率最高的催化。要把它当成事件股，而不是干净的财报前预判工具。",
+      "EN: Texas Instruments on Wednesday, July 22 after the close is the more useful semiconductor check. If even TXN cannot stabilize post-earnings, the whole chip group likely remains lower quality than healthcare or financials.\n中文：美股时间7月22日周三盘后的Texas Instruments，是更有参考价值的半导体检查点。如果连TXN都无法在财报后稳住，那么整个芯片板块大概率仍低于医疗或金融的交易质量。",
+      "EN: Thursday, July 23 U.S. time, watch weekly jobless claims together with yields and oil. The market now cares more about whether rates pressure returns than about replaying last week's CPI relief.\n中文：美股时间7月23日周四，要把周度初请失业金和收益率、油价一起看。市场现在更在意利率压力会不会回来，而不是重播上周的CPI缓和。",
+      "EN: Friday, July 24 U.S. time, June new home sales are worth more than usual because housing is a clean read on whether 4.5%-area long yields are biting. If housing softens while semis stay weak, rotation can keep favoring defensive growth and financials.\n中文：美股时间7月24日周五，6月新屋销售比平时更值得看，因为它能更干净地反映4.5%附近的长端利率是否开始产生约束。如果地产转弱、而半导体仍弱，轮动就可能继续偏向防御成长和金融股。",
+      "EN: Wednesday's EIA weekly petroleum release still matters because the market is using crude as both an inflation input and a geopolitical barometer. If oil re-accelerates, do not assume beaten-down AI names automatically become bargains.\n中文：周三EIA每周石油报告仍然重要，因为市场把原油同时当作通胀输入和地缘政治温度计。如果油价重新加速上行，不要假设那些已经跌了的AI名字就自动变成便宜货。"
+    ],
+    "sectors": [
+      {
+        "name": "EN: Healthcare / Managed Care / Medtech\n中文：医疗保健 / 医保管理 / 医疗器械",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Abbott and UnitedHealth both delivered beat-and-raise earnings, and healthcare showed the cleanest regular-session sponsorship late this week.\n中文：Abbott和UnitedHealth都交出“超预期并上调指引”的财报，而医疗保健在本周后段展现了最干净的正规交易时段资金支持。",
+        "watch": "EN: Watch XLV, UNH, and quality medtech only on pullback holds above VWAP or after tight consolidations. Friday strength alone is not a fresh chase signal.\n中文：重点看XLV、UNH以及优质医疗器械股，但只在VWAP上方回踩守住，或在紧凑整理后再观察。周五的强势本身并不是新的追涨信号。",
+        "risk": "EN: The sector already had a sharp earnings response, so a flat or slightly red consolidation would be normal. The risk is confusing a healthy digestion with a broken trend.\n中文：该板块已经对财报做出强烈反应，因此横盘或小幅回落整理都属正常。风险在于把健康消化误判成趋势破坏。"
+      },
+      {
+        "name": "EN: Financials / Banks / Brokers\n中文：金融 / 银行 / 券商",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Strong bank earnings already helped this week, and XLF still finished the week higher while tech cracked.\n中文：强劲的银行财报已经在本周提供帮助，而且在科技走弱时，XLF仍以周线收高结束本周。",
+        "watch": "EN: Watch XLF and liquid brokers for opening-range holds and for whether strength broadens beyond one or two money-center banks.\n中文：重点看XLF和高流动性券商，观察它们是否守住开盘区间，以及强势是否能从少数大行扩散出去。",
+        "risk": "EN: If yields jump too far too fast, the tape can shift from 'banks benefit from activity' to 'rates are becoming a macro problem.'\n中文：如果收益率上升得又快又猛，盘面可能从“银行受益于交易活跃”切换到“利率重新变成宏观问题”。"
+      },
+      {
+        "name": "EN: Semiconductors / AI Hardware\n中文：半导体 / AI硬件",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "EN: TSMC's strong quarter still failed to lift the group, and Reuters reported the Philadelphia Semiconductor Index logged its steepest weekly drop in over a year.\n中文：TSMC的强财报仍没能抬起整个板块，而路透报道称费城半导体指数录得一年多来最陡周跌幅。",
+        "watch": "EN: Watch SOXX, SMH, and large chip names only for failed-bounce setups or for a genuine breadth repair after TXN.\n中文：重点看SOXX、SMH以及大型芯片股，但只观察反弹失败结构，或等待TXN之后出现真正的板块宽度修复。",
+        "risk": "EN: This group can still squeeze violently on cooler yields or a better-than-feared earnings print. Tactical shorts need discipline, not ideology.\n中文：如果收益率降温，或财报好于最坏预期，这个板块仍可能剧烈逼空。战术空头需要纪律，而不是信仰。"
+      },
+      {
+        "name": "EN: Energy Hedge\n中文：能源对冲",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Oil stayed central because Middle East risk kept feeding inflation and rate anxiety back into equities.\n中文：能源仍居核心，因为中东风险不断把通胀与利率焦虑重新传导回股市。",
+        "watch": "EN: Watch XLE or integrated oils only if crude re-accelerates again after the EIA data. If oil stalls, the hedge becomes less urgent.\n中文：只有在EIA数据后原油再次加速上行时，才观察XLE或综合石油股；如果油价停滞，对冲的紧迫性就会下降。",
+        "risk": "EN: Any geopolitical de-escalation can unwind the hedge quickly and rotate money back toward cyclicals or broad market beta.\n中文：只要地缘政治降温，这条对冲线就可能快速回吐，并把资金重新推向周期股或广义市场beta。"
+      },
+      {
+        "name": "EN: Speculative AI Infrastructure / Optics\n中文：投机型AI基础设施 / 光模块",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: AAOI and similar names still attract momentum money whenever traders want second-order AI beta.\n中文：每当交易者想找二阶AI高beta时，AAOI及类似个股仍会吸引动量资金。",
+        "watch": "EN: Require VWAP reclaim, first-pullback support, and better regular-session liquidity than the premarket headline suggests.\n中文：必须要求VWAP收复、第一次回踩有支撑，并且正股时段流动性要比盘前headline看起来更扎实。",
+        "risk": "EN: This week's AAOI tape proved that one strong day can reverse immediately. These are tactical vehicles, not story-first swing holds.\n中文：本周AAOI的走势已经证明，一天的强势完全可能立刻反转。这类标的是战术工具，不是“故事优先”的波段持有品。"
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "XLF",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Consider only if XLF holds the first pullback above VWAP or re-breaks the opening range with broad bank participation. No blind gap chase.\n中文：只有在XLF第一次回踩守住VWAP上方，或在广泛银行股参与下再次突破开盘区间时才考虑。不要盲目追缺口。",
+        "suggestedProfitTake": "EN: Trim into a 2% to 3% follow-through burst and trail the rest only if banks, brokers, and regionals all confirm.\n中文：若出现2%到3%的延续冲高，可先减仓；只有在大行、券商和区域银行都同步确认时，才保留余仓跟踪。",
+        "type": "EN: balanced financial ETF\n中文：中等风险金融ETF",
+        "catalyst": "EN: Strong bank earnings already improved the tape, and XLF still closed the week higher at 56.26 versus 55.71 the prior Friday.\n中文：强银行财报已经改善了盘面，而且XLF本周收于56.26，高于前一周五的55.71。",
+        "why": "EN: This is a cleaner breadth expression than forcing another crowded AI trade.\n中文：与其强行做又一个拥挤AI交易，XLF是更干净的市场宽度表达。",
+        "risk": "EN: Invalidated if yields spike again and financials cannot hold opening-range support.\n中文：若收益率再次急冲、且金融股守不住开盘区间支撑，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: XLF closed July 17 at 56.26, up about 1.0% from 55.71 on July 10.\n中文：XLF在7月17日收于56.26，较7月10日的55.71约上涨1.0%。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "UNH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Prefer a pullback hold above VWAP or a tight two-day pause after the beat-and-raise move. Do not buy a stretched first print.\n中文：更适合等回踩VWAP上方守住，或等财报上冲后出现两天内的紧凑整理。不要买已经拉伸的第一笔价格。",
+        "suggestedProfitTake": "EN: Take partial profits into fresh highs and leave only a smaller runner if XLV stays constructive.\n中文：若股价再创新高，可先兑现一部分；只有在XLV继续建设性运行时，才保留较小余仓。",
+        "type": "EN: balanced defensive-growth large cap\n中文：中等风险防御成长大盘股",
+        "catalyst": "EN: UnitedHealth beat Q2 estimates and raised its 2026 outlook, while healthcare became the week's cleanest leadership group.\n中文：UnitedHealth二季度业绩超预期并上调2026年展望，同时医疗保健成为本周最干净的领涨板块。",
+        "why": "EN: It offers real earnings confirmation, deep liquidity, and less path risk than a fresh semiconductor rebound guess.\n中文：它同时具备真实财报确认、深度流动性，以及低于“猜半导体反弹”的路径风险。",
+        "risk": "EN: Invalidated if healthcare leadership fades quickly and UNH loses the post-earnings support zone.\n中文：若医疗主线快速退潮，且UNH跌破财报后支撑区，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: UNH closed July 17 at 426.05 and was up about 0.37% on the week, but the important move was Thursday's earnings-driven re-rating.\n中文：UNH在7月17日收于426.05，全周约涨0.37%；但更重要的是周四财报驱动的重新定价。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Event-driven only. Prefer post-earnings if TSLA holds VWAP after the first 30 to 60 minutes or repairs the opening range with real volume.\n中文：只适合作为事件驱动。更适合等财报后，如果TSLA在前30到60分钟后能守住VWAP，或在真实放量下修复开盘区间再观察。",
+        "suggestedProfitTake": "EN: If the report works, pay yourself fast into the first strong extension. Do not assume a clean second day.\n中文：如果财报后走势成立，应在第一波强势延伸中快速兑现利润；不要预设第二天一定会很干净。",
+        "type": "EN: high-beta megacap event stock\n中文：高贝塔超大盘事件股",
+        "catalyst": "EN: Tesla reports Q2 2026 financial results after the close on Wednesday, July 22.\n中文：Tesla将在美股时间7月22日周三盘后公布2026年二季度财报。",
+        "why": "EN: It can set sentiment for high-beta consumer tech and speculative growth in one print.\n中文：它一份财报就可能影响高beta消费科技与投机成长的整体情绪。",
+        "risk": "EN: Invalidated if the stock gaps and fails the first regular-session bounce, or if margins/capex commentary scares the tape.\n中文：若股价跳空后连第一次正股反弹都失败，或利润率/资本开支表述吓坏盘面，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: TSLA closed July 17 at 380.90 and was down about 6.6% on the week into earnings.\n中文：TSLA在7月17日收于380.90，财报前一周约下跌6.6%。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SOXX",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Short only on failed regular-session bounces below VWAP or after a weak TXN read-through confirms the group is still broken.\n中文：只有在正股时段反弹失败、受阻于VWAP下方，或TXN读数偏弱并确认板块仍然破坏时，才考虑偏空。",
+        "suggestedProfitTake": "EN: Cover partial into sharp downside bursts and avoid staying greedy if yields stop rising or breadth improves.\n中文：若出现快速下杀，应分批回补；如果收益率停止上升或市场宽度改善，不要贪心。",
+        "type": "EN: liquid semiconductor ETF\n中文：高流动性半导体ETF",
+        "catalyst": "EN: SOXX reflects the post-TSMC damage and will react directly to TXN next week.\n中文：SOXX已经反映了TSMC之后的板块伤害，并且下周会直接对TXN作出反应。",
+        "why": "EN: It is a cleaner bearish expression than forcing single-name semiconductor shorts.\n中文：相较于强行做空单一芯片股，它是更干净的偏空表达。",
+        "risk": "EN: Invalidated if TXN surprises positively and the ETF can reclaim VWAP with real breadth.\n中文：若TXN明显超预期，且ETF能在真实板块宽度配合下收复VWAP，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SOXX closed July 17 at 521.81 versus 581.34 on July 10, down about 10.2% in one week.\n中文：SOXX在7月17日收于521.81，较7月10日的581.34约下跌10.2%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "AAOI",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only after a pullback base, VWAP reclaim, or first-pullback hold. This is not a first-candle chase setup.\n中文：只有在回踩成底、收复VWAP，或第一次回踩守住之后才考虑。这不是追第一根热K线的设置。",
+        "suggestedProfitTake": "EN: Scale out aggressively into 4% to 6% bursts because this week's tape proved follow-through can fail immediately.\n中文：若出现4%到6%的快速冲高，应积极分批落袋，因为本周走势已经证明其延续性可能立刻失败。",
+        "type": "EN: speculative AI-optics stock\n中文：投机型AI光模块个股",
+        "catalyst": "EN: AAOI remains a second-order AI infrastructure and optics momentum name.\n中文：AAOI仍然是二阶AI基础设施与光模块动量标的。",
+        "why": "EN: It can move fast when risk appetite returns, but only if the move survives the regular session.\n中文：当风险偏好回归时，它确实可能快速启动，但前提是走势能经受住正股时段考验。",
+        "risk": "EN: Invalidated if it cannot hold the first regular-session pullback or if liquidity turns thin after a premarket spike.\n中文：若它连第一次正股回踩都守不住，或盘前冲高后流动性转薄，则逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AAOI closed July 17 at 102.41 versus 119.92 on July 10, down about 14.6% on the week, even though it surged 12.1% in Tuesday's regular session before failing follow-through.\n中文：AAOI在7月17日收于102.41，较7月10日的119.92约下跌14.6%；尽管它在周二正规交易时段一度大涨12.1%，但后续承接失败。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Intraday only, and only if SOXX or SMH first reclaims VWAP with broad semiconductor participation. Otherwise do nothing.\n中文：只适合日内，而且只在SOXX或SMH先收复VWAP、并有广泛半导体参与时才考虑；否则就什么都不做。",
+        "suggestedProfitTake": "EN: Pay yourself quickly on any sharp burst and avoid casual overnight holds into earnings or rate-sensitive sessions.\n中文：任何快速脉冲都应尽快兑现利润，不要轻率隔夜带到财报或对利率敏感的交易日。",
+        "type": "EN: leveraged speculative ETF\n中文：杠杆投机ETF",
+        "catalyst": "EN: SOXL is still the fastest upside vehicle if semiconductors really repair, but the group has not earned that trust yet.\n中文：如果半导体真的修复，SOXL仍是最快的上行工具，但目前板块还没有赢回这种信任。",
+        "why": "EN: It fits the user's risk tolerance only as a tactical expression after confirmation, never as a prediction tool.\n中文：它只有在确认之后，作为战术表达才符合用户的风险偏好；绝不能拿来做预测工具。",
+        "risk": "EN: Invalidated if semiconductors fail VWAP again, if spreads widen, or if the first 30-minute low breaks.\n中文：若半导体再次失守VWAP、价差放大，或前30分钟低点被跌破，则逻辑失效。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Reviewed market-data pages showed SOXL at 142.68 on July 16 after a 13.8% one-day drop, which is exactly why it remains a confirmation-only instrument.\n中文：已审阅市场数据页显示，SOXL在7月16日收于142.68，且单日暴跌13.8%；这正是它仍然只能作为“确认后工具”的原因。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "riskControls": [
+      "EN: Default to wait-first mode around Tesla, TXN, and any large earnings gap. The first 30 to 60 minutes usually carry more truth than the first print.\n中文：围绕Tesla、TXN以及任何大缺口财报股，默认先等。开盘后30到60分钟，通常比第一笔成交更接近真相。",
+      "EN: For any red-risk name, treat premarket strength as information, not execution. If the move disappears once the cash session opens, that is a warning, not a surprise.\n中文：对于任何红色高风险标的，把盘前强势当作信息，而不是执行理由。如果正股开盘后涨幅消失，那是警告，不是意外。",
+      "EN: Respect U.S. T+0 mechanics, account restrictions, and settlement limits. Do not let a good idea become a bad trade because capital got trapped in the wrong vehicle.\n中文：尊重美股T+0机制、账户限制和结算规则。不要让一个好想法，因为用了错误工具而变成坏交易。",
+      "EN: With options, assume IV crush is likely around earnings even when direction is roughly right. Defined-risk spreads usually age better than oversized naked premium.\n中文：做期权时，要默认财报前后即使方向大致看对，也很可能遭遇IV回落。有限风险价差通常比过大的裸权利金仓位更耐打。",
+      "EN: Leveraged ETFs such as SOXL are path-dependent and decay-sensitive. If breadth is weak or the first 30-minute structure fails, cut size or step aside immediately.\n中文：SOXL这类杠杆ETF高度依赖路径，而且对时间损耗敏感。如果市场宽度偏弱，或前30分钟结构失败，应立刻减仓或离场。"
+    ],
+    "sections": [
+      {
+        "title": "EN: Major Surges And Reasons\n中文：本周大涨股票与原因",
+        "items": [
+          "PYPL: EN: about +17.2% on Wednesday's regular session after Reuters reported that Stripe and Advent had offered $60.50 per share in a takeover approach. The move was regular-session, headline-driven, and immediately event-risk heavy. Tradability: already event-distorted; do not chase, only watch for deal-risk pullbacks or official confirmation.\n中文：PYPL：周三正规交易时段约涨17.2%，原因是路透报道称Stripe与Advent提出每股60.50美元的收购方案。这个上涨发生在正规交易时段，但本质上是headline驱动、事件风险极高。可交易性：已经被事件扭曲；不要追，只适合等官方确认或事件回撤后的观察。",
+          "ABT: EN: about +10.7% on Thursday's regular session and another +1.8% Friday after an earnings beat and higher 2026 outlook. This was a high-quality earnings move, not a thin premarket mirage. Tradability: real leadership, but already extended short term; better on pullback than on chase.\n中文：ABT：周四正规交易时段约涨10.7%，周五再涨约1.8%，原因是财报超预期并上调2026年展望。这是高质量财报上涨，不是薄量盘前幻象。可交易性：是真主线，但短线已偏延伸；更适合等回踩，不适合追高。",
+          "GS: EN: about +9% on Tuesday after strong earnings and powerful trading/investment-banking revenue. The move had credible fundamental support and helped confirm the financials lane. Tradability: cleaner than most AI names, but now less early; XLF may be the better expression for smaller accounts.\n中文：GS：周二约涨9%，原因是财报强劲、交易与投行业务收入有力。这个上涨有可信的基本面支撑，也帮助确认金融主线。可交易性：比多数AI名字更干净，但已经没那么早；对小账户来说，XLF可能是更好的表达方式。",
+          "AAOI: EN: +12.1% in Tuesday's regular session, but then -13.0% Wednesday and -8.1% Thursday before a small Friday rebound. The reason was speculative AI-optics momentum, but the follow-through failed. Tradability: useful only for disciplined intraday or pullback-base setups; not a valid swing chase.\n中文：AAOI：周二正规交易时段上涨12.1%，但随后周三跌13.0%、周四再跌8.1%，周五才小幅反弹。原因是投机型AI光模块动量，但后续承接失败。可交易性：只适合有纪律的日内或回踩筑底设置；不是有效的波段追涨对象。"
+        ]
+      },
+      {
+        "title": "EN: Performance Scorecard\n中文：表现复盘",
+        "items": [
+          "HIT: EN: The repeated rule to wait for regular-session confirmation instead of trusting premarket excitement worked again, especially in semiconductors and speculative AI names.\n中文：命中：反复强调“等正规交易时段确认，而不是相信盘前兴奋”的规则再次奏效，尤其适用于半导体和投机型AI个股。",
+          "HIT: EN: The avoid-chase stance on SOXL stayed correct. Reviewed market-data pages showed a 13.8% one-day drop on July 16, which confirms that leverage remained the wrong tool before breadth repaired.\n中文：命中：对SOXL采取“不要追”的立场仍然正确。已审阅数据页显示它在7月16日单日暴跌13.8%，这说明在板块宽度修复前，杠杆依旧是错误工具。",
+          "MISS: EN: The process was too semiconductor-heavy and underweighted healthcare earnings. Abbott and UnitedHealth were cleaner than many AI-beta attempts, and that should have been elevated earlier.\n中文：失误：整个流程对半导体关注过重，对医疗财报权重不足。Abbott和UnitedHealth都比许多AI高beta尝试更干净，这一点本应更早被提升。",
+          "MISS / THESIS INVALIDATED: EN: The old CRM short remains wrong. The stock rallied materially after the call, and this weekly scorecard must keep it labeled miss / thesis invalidated instead of rationalizing it.\n中文：失误 / 逻辑失效：旧的CRM空头仍然是错的。该股在判断后明显反弹，这份周度记分卡必须继续把它标记为“失误 / 逻辑失效”，而不是替它找理由。",
+          "OPEN / IMPROVING: EN: The financial-breadth thesis remains open but constructive. XLF still ended the week about 1.0% higher even while QQQ and SOXX broke lower.\n中文：进行中 / 改善中：金融宽度逻辑仍未结束，而且偏建设性。即便QQQ和SOXX走弱，XLF本周仍约上涨1.0%。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Setup\n中文：期权与波动率设置",
+        "items": [
+          "EN: VIX closed at 18.77 on Friday, which is elevated but not crisis-level. That is exactly the kind of environment where single-stock option pricing can still hurt late buyers even if the index itself looks calm enough.\n中文：VIX周五收于18.77，属于抬升但未到危机级别。这正是那种“指数看起来还算平静，但个股期权仍能重伤晚买者”的环境。",
+          "EN: Tesla is the main IV event next week. If you use options there, size must be smaller than stock size, and you should expect fast premium decay after the print.\n中文：下周最主要的IV事件是Tesla。如果要用期权，仓位必须小于正股仓位，并默认财报后权利金会快速衰减。",
+          "EN: Semiconductor options are dangerous here because the group is already damaged and can still squeeze. A failed-bounce short in SOXX or QQQ is cleaner than trying to guess a perfect bottom with calls.\n中文：当前半导体期权很危险，因为板块已经受伤，但仍可能剧烈逼空。与其用认购去猜完美底部，不如在SOXX或QQQ出现反弹失败时做更干净的偏空表达。",
+          "EN: For small accounts, stock or liquid ETFs are often cleaner than short-dated options in names like AAOI and SOXL, where IV crush, spreads, and slippage can matter more than the original thesis.\n中文：对小账户来说，在AAOI和SOXL这类名字里，正股或高流动性ETF通常比短期期权更干净，因为IV回落、价差和滑点往往比最初逻辑本身更致命。"
+        ]
+      },
+      {
+        "title": "EN: Upcoming Catalyst Watch\n中文：下周催化观察",
+        "items": [
+          "EN: Wednesday, July 22 U.S. time: Tesla Q2 2026 financial results after the close. Watch margins, capex, AI or autonomy commentary, and whether the first post-report regular session can hold VWAP.\n中文：美股时间7月22日周三：Tesla二季度财报盘后公布。重点看利润率、资本开支、AI或自动驾驶表述，以及财报后首个正股时段能否守住VWAP。",
+          "EN: Wednesday, July 22 U.S. time: Texas Instruments Q2 2026 earnings call after the close. This is the cleaner semiconductor read-through than many crowded AI names.\n中文：美股时间7月22日周三：Texas Instruments二季度财报电话会盘后举行。相较于许多拥挤AI权重股，这是更干净的半导体读数。",
+          "EN: Wednesday, July 22 U.S. time: EIA weekly petroleum data. Oil now matters both as inflation input and as geopolitical stress gauge.\n中文：美股时间7月22日周三：EIA每周石油数据。油价现在既是通胀输入，也是地缘政治压力温度计。",
+          "EN: Thursday, July 23 U.S. time: weekly jobless claims. If claims stay low while oil stays firm, the market can keep worrying that yields have room to stay higher.\n中文：美股时间7月23日周四：周度初请失业金。若初请维持低位、而油价仍强，市场就会继续担心收益率还有维持高位的空间。",
+          "EN: Friday, July 24 U.S. time: June new home sales at 10:00 ET. Housing is a practical stress test for a market trying to absorb 4.5%-area long rates.\n中文：美股时间7月24日周五：6月新屋销售于美东10:00公布。对于一个试图消化4.5%附近长端利率的市场来说，住房数据是很实用的压力测试。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: AP Monday July 13 market recap / 中文：美联社7月13日周一市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/84784dd049267a58ac547d8a1c7fcd02"
+      },
+      {
+        "label": "EN: AP Tuesday July 14 market recap / 中文：美联社7月14日周二市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/eda3fd144dc773fc32cc6c69898d53b0"
+      },
+      {
+        "label": "EN: AP Wednesday July 15 market recap / 中文：美联社7月15日周三市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/a4f50a9a19d14802cb94b51db7bafba1"
+      },
+      {
+        "label": "EN: AP Friday July 17 market recap / 中文：美联社7月17日周五市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/5e44034ea86fa8d9c73184f3559e74a2"
+      },
+      {
+        "label": "EN: Reuters on Wall Street Wednesday and PayPal surge / 中文：路透关于周三美股与PayPal大涨",
+        "confidence": "High-quality secondary",
+        "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-edge-up-with-earnings-in-focus-paypal-jumps-4792723"
+      },
+      {
+        "label": "EN: UnitedHealth Q2 2026 results / 中文：UnitedHealth 2026年二季度业绩",
+        "confidence": "Primary",
+        "url": "https://www.unitedhealthgroup.com/newsroom/2026/2026-07-16-uhg-reports-2026-second-quarter-results.html"
+      },
+      {
+        "label": "EN: Reuters on UnitedHealth surge / 中文：路透关于UnitedHealth上涨",
+        "confidence": "High-quality secondary",
+        "url": "https://www.investing.com/news/stock-market-news/unitedhealth-raises-2026-forecast-as-it-controls-medical-costs-4795148"
+      },
+      {
+        "label": "EN: Abbott Q2 2026 results / 中文：Abbott 2026年二季度业绩",
+        "confidence": "Primary",
+        "url": "https://abbottinvestor.com/earnings-and-events/event-details/2026/Abbott-Reports-Second-Quarter-2026-Results/default.aspx"
+      },
+      {
+        "label": "EN: MarketWatch healthcare sector recap / 中文：MarketWatch医疗板块回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-softer-than-expected-inflation-data-retail-sales-june/card/healthcare-sector-is-having-a-moment-driven-by-strong-earnings-reports-dCsrFMk7QDAU0cCa3Yri"
+      },
+      {
+        "label": "EN: TSMC 2Q26 quarterly results / 中文：TSMC 2026年二季度业绩",
+        "confidence": "Primary",
+        "url": "https://investor.tsmc.com/japanese/quarterly-results/2026/q2"
+      },
+      {
+        "label": "EN: Reuters on TSMC earnings and share dip / 中文：路透关于TSMC财报后股价回落",
+        "confidence": "High-quality secondary",
+        "url": "https://www.investing.com/news/earnings/tsmc-q2-profit-soars-to-record-high-on-ai-demand-raised-guidance-shares-dip-4794650"
+      },
+      {
+        "label": "EN: Tesla IR Q2 2026 results date / 中文：Tesla IR 2026年二季度财报日期",
+        "confidence": "Primary",
+        "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments"
+      },
+      {
+        "label": "EN: Texas Instruments Q2 2026 earnings call date / 中文：Texas Instruments 2026年二季度财报日期",
+        "confidence": "Primary",
+        "url": "https://investor.ti.com/news-releases/news-release-details/texas-instruments-webcast-q2-2026-earnings-conference-call"
+      },
+      {
+        "label": "EN: U.S. Census economic indicator schedule / 中文：美国人口普查局经济指标日程",
+        "confidence": "Primary",
+        "url": "https://www.census.gov/economic-indicators/calendar-listview.html"
+      },
+      {
+        "label": "EN: EIA weekly petroleum release schedule / 中文：EIA每周石油发布时间表",
+        "confidence": "Primary",
+        "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+      },
+      {
+        "label": "EN: ChartExchange SPY quote / 中文：ChartExchange SPY报价",
+        "confidence": "Market data",
+        "url": "https://chartexchange.com/symbol/nyse-spy/"
+      },
+      {
+        "label": "EN: ChartExchange QQQ historical / 中文：ChartExchange QQQ历史数据",
+        "confidence": "Market data",
+        "url": "https://chartexchange.com/symbol/nasdaq-qqq/historical/"
+      },
+      {
+        "label": "EN: ChartExchange IWM quote / 中文：ChartExchange IWM报价",
+        "confidence": "Market data",
+        "url": "https://chartexchange.com/symbol/nyse-iwm/"
+      },
+      {
+        "label": "EN: ChartExchange VIX historical / 中文：ChartExchange VIX历史数据",
+        "confidence": "Market data",
+        "url": "https://chartexchange.com/symbol/index-vix/historical/"
+      }
+    ]
+  },
+  {
     "date": "2026-07-12",
     "weekId": "2026-W28",
     "weekNumber": 28,
