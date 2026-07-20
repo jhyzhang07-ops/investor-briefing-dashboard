@@ -146,6 +146,22 @@ def validate_a_share_latest(entry: dict[str, Any], errors: list[str]) -> None:
         require(isinstance(value, str) and value.strip(), f"A-share latest entry missing text field: {key}", errors)
         require(has_bilingual_markers(value), f"A-share latest entry {key} must be bilingual 中文/EN", errors)
 
+    sections = entry.get("sections")
+    has_pre_catalyst = False
+    if isinstance(sections, list):
+        for section in sections:
+            if not isinstance(section, dict):
+                continue
+            title = section.get("title", "")
+            if isinstance(title, str) and ("Pre-Catalyst Watchlist" in title or "提前催化预警" in title):
+                has_pre_catalyst = is_non_empty_list(section.get("items"))
+                break
+    require(
+        has_pre_catalyst,
+        "A-share latest entry missing non-empty 提前催化预警 / Pre-Catalyst Watchlist section",
+        errors,
+    )
+
     for item in iter_watch_items(entry):
         ticker = item.get("ticker", "unknown ticker")
         require(is_non_empty_text(item.get("chineseName")), f"A-share latest entry {ticker} missing chineseName", errors)
