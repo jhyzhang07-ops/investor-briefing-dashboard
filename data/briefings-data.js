@@ -1,5 +1,782 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-07-23",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-23T09:38:34+0800",
+    "title": "EN: U.S. Market Brief - 2026-07-23\n中文：美股市场简报 - 2026-07-23",
+    "tone": "EN: Tonight's U.S. session is an execution-heavy earnings tape, not a broad risk-on invitation. Alphabet and Tesla already forced the market to choose between real AI/cloud cash generation and expensive, capex-heavy growth stories. Respect the first 30-60 minutes, watch breadth and credit before size, and treat options as volatility instruments first. This briefing is market scenario analysis and education, not personalized financial advice.\n中文：今晚的美股时段更像“执行密集型财报盘”，而不是全面风险偏好回归。Alphabet和Tesla已经迫使市场在“真正的AI/云现金流”与“高投入、高估值增长故事”之间做选择。先尊重开盘后30-60分钟，先看市场宽度与信用，再决定仓位，并把期权首先当作波动率工具。本简报是市场情景分析与投资教育，不构成个性化投资建议。",
+    "priorities": [
+      "EN: Start with market regime, breadth, and entry timing before tickers. A good story is not actionable unless SPY/QQQ/IWM hold regular-session structure after the first 30-60 minutes.\n中文：先看市场状态、宽度与入场时机，再看个股。故事再好，如果SPY/QQQ/IWM在正股开盘后30-60分钟无法守住结构，也不算可执行。",
+      "EN: Separate triggered catalysts from fresh setups. GOOGL, TSLA, GEV, and SMCI already moved on earnings or preannouncements; the edge now is confirmation, not discovery.\n中文：把“已触发催化”与“新鲜设置”分开。GOOGL、TSLA、GEV和SMCI已经因财报或预披露产生波动；现在的优势在于确认，而不是发现。",
+      "EN: Use options and volatility intelligently. If the opening move already consumes the implied move, late premium usually offers poor reward/risk, especially in TSLA, SMCI, and weekly semis.\n中文：要更聪明地使用期权与波动率。如果开盘波动已经消耗掉大部分隐含波动，后手买权利金通常性价比很差，尤其是TSLA、SMCI和半导体周度期权。",
+      "EN: For small capital, prefer liquid ETFs and cleaner core names first, then high-beta names only when volume, VWAP, opening-range, and peer confirmation all line up.\n中文：对小资金而言，先优先流动性高的ETF和更干净的核心标的；只有当成交量、VWAP、开盘区间和同主题个股一起确认时，才考虑高beta标的。",
+      "EN: Keep risk controls explicit: premarket gaps fail often, the first pullback matters more than the first spike, and PDT/cash-account rules plus overnight gap risk must shape position size.\n中文：风险控制必须明确：盘前跳空经常失败，第一次回踩比第一波冲高更重要，而PDT/现金账户规则与隔夜跳空风险都必须反映到仓位大小中。"
+    ],
+    "summary": [
+      "EN: Wednesday, July 22, 2026 produced the kind of tape that rewards selectivity: Alphabet beat with stronger cloud growth, Tesla disappointed on profit and cash generation, GE Vernova sold off despite a raised outlook, and Super Micro exploded after a margin-and-orders preannouncement.\n中文：2026年7月22日周三的盘面属于“精选者受益”：Alphabet凭更强的云业务增长交出超预期，Tesla在利润与现金流上令市场失望，GE Vernova即便上调展望仍被抛售，Super Micro则因利润率与订单预披露而暴涨。",
+      "EN: That leaves tonight's best liquid long as a disciplined GOOGL/QQQ-style continuation only if regular-session buyers defend the post-earnings gap, while TSLA remains the cleaner short bias only on failed-bounce confirmation rather than late panic chasing.\n中文：因此，今晚最干净的流动性多头仍是“有纪律的GOOGL/QQQ式延续”，前提是正股买盘能守住财报后的跳空；而TSLA则只有在反弹失败确认时才是更干净的空头偏向，而不是情绪化晚追空。",
+      "EN: Semiconductors and AI infrastructure are still tradeable, but the message has changed: strong backlog and capex themes are not enough by themselves if the chart is already extended or if margins remain suspect.\n中文：半导体与AI基础设施依然可交易，但逻辑已经变化：单靠积压订单和资本开支主题并不够，如果图形已经过度延伸，或利润率仍然可疑，就不能直接执行。",
+      "EN: Small-cap and speculative names still belong in the briefing, but mostly as secondary setups or pre-catalyst alerts. WULF, IREN, AAOI, AEHR, AMC, and CRML all require stricter no-chase rules than mainstream large caps.\n中文：小盘和投机标的仍应保留在简报中，但主要作为二波设置或提前催化预警。WULF、IREN、AAOI、AEHR、AMC和CRML都需要比主流大盘股更严格的不追高规则。",
+      "EN: The practical edge for Thursday, July 23, 2026 is not predicting every earnings print; it is knowing which names are actionable now, which names only become tradable after a first-hour repair, and which names are simply missed-move / avoid-chase.\n中文：2026年7月23日周四真正的实战优势，不在于猜中每一份财报，而在于知道哪些名字现在可执行、哪些必须等首小时修复后才可交易，以及哪些已经属于“错过行情 / 避免追高”。"
+    ],
+    "marketPulse": {
+      "S&P 500": {
+        "value": "EN: The broad tape finished Wednesday, July 22, 2026 mixed to slightly softer as investors waited for the Alphabet and Tesla earnings window.\n中文：大盘在2026年7月22日周三收盘时偏向“震荡略弱”，市场在等待Alphabet与Tesla的财报窗口。",
+        "note": "EN: Treat SPY as the first execution filter tonight: if SPY cannot hold VWAP and the opening range, single-name longs become lower quality quickly.\n中文：今晚先把SPY当作第一道执行过滤器：如果SPY守不住VWAP和开盘区间，个股多头的质量会很快下降。"
+      },
+      "Nasdaq": {
+        "value": "EN: QQQ/Nasdaq is still the main earnings-volatility engine because Alphabet, Tesla, semis, and AI infrastructure remain the marginal drivers of sentiment.\n中文：QQQ/纳指仍是今晚财报波动的核心引擎，因为Alphabet、Tesla、半导体和AI基础设施仍是边际情绪驱动器。",
+        "note": "EN: If QQQ holds the post-open gap and breadth improves, GOOGL and SMH continuation setups become cleaner; if QQQ fades early, downgrade most growth longs to watch-only.\n中文：如果QQQ能守住开盘后的缺口且宽度改善，GOOGL和SMH的延续设置会更干净；如果QQQ早盘回落，大多数成长多头都应降级为只观察。"
+      },
+      "Dow": {
+        "value": "EN: The Dow remains more cyclical and earnings-sensitive, with IBM damage, industrial tariff headlines, and GE Vernova's selloff keeping the tone less forgiving.\n中文：道指仍偏向周期与财报敏感，IBM的图形受损、工业类关税headline，以及GE Vernova的下跌，都让这条线更缺乏容错率。",
+        "note": "EN: Strong Dow participation would help XLI and cleaner industrial follow-through, but it would not automatically rescue weak growth charts.\n中文：如果道指出现更强参与度，会有利于XLI和更干净的工业延续，但并不会自动拯救已经走坏的成长图形。"
+      },
+      "Russell 2000": {
+        "value": "EN: IWM still needs proof. A few speculative winners do not equal a true small-cap regime change.\n中文：IWM仍需要证明自己。少数投机股的上涨，并不等于真正的小盘风格切换。",
+        "note": "EN: Press high-beta names only if IWM stabilizes after the open; otherwise treat WULF, IREN, AAOI, AEHR, and CRML as tactical trades rather than conviction swings.\n中文：只有在IWM开盘后企稳时才可加压高beta标的；否则应把WULF、IREN、AAOI、AEHR和CRML当作战术单，而不是高信念波段。"
+      },
+      "Breadth": {
+        "value": "EN: Breadth is still the simplest anti-FOMO tool. Wednesday's tape showed that index resilience can coexist with selective punishment under the surface.\n中文：市场宽度仍是最简单的反FOMO工具。周三的盘面说明：指数看似稳定，内部仍可能选择性惩罚个股。",
+        "note": "EN: Watch whether semis, telecom, industrials, and energy all participate together; narrow AI-only leadership is not enough for aggressive sizing.\n中文：观察半导体、电信、工业和能源是否能一起参与；仅靠狭窄的AI单线领涨，不足以支持激进仓位。"
+      },
+      "Treasury Yields": {
+        "value": "EN: Treasury yields remain elevated enough to matter, with the 10-year yield staying around the mid-4% area in recent official Treasury and WSJ coverage.\n中文：美债收益率仍处在足够重要的高位，近期美国财政部与WSJ的官方/高质量报道都显示10年期收益率维持在4%中段附近。",
+        "note": "EN: Higher yields reduce tolerance for long-duration growth and can cap post-earnings upside if capex rises faster than free cash flow.\n中文：更高的收益率会降低市场对长久期成长股的容忍度；如果资本开支增速快于自由现金流，就会压制财报后的上行空间。"
+      },
+      "Oil / Commodities": {
+        "value": "EN: Oil remains headline-sensitive because Red Sea shipping risks and Trump administration trade actions still keep inflation and industrial-input uncertainty alive.\n中文：油价仍高度受headline驱动，因为红海航运风险与特朗普政府的贸易动作仍让通胀和工业投入成本的不确定性保持活跃。",
+        "note": "EN: Strong crude can support XLE and commodity-linked names, but a new spike can also pressure margins in autos, transports, and rate-sensitive growth.\n中文：原油走强能支持XLE和资源相关标的，但新的上冲也会压制汽车、运输以及利率敏感型成长股的利润率预期。"
+      },
+      "FX / Dollar": {
+        "value": "EN: The dollar remains a background filter for multinationals and commodities rather than the primary trade trigger tonight.\n中文：美元今晚更多是跨国公司与大宗商品的背景过滤器，而不是第一交易触发器。",
+        "note": "EN: A firmer dollar raises the hurdle for multinational earnings translation and can mute follow-through in commodity and EM-sensitive equities.\n中文：美元偏强会抬高跨国公司收入换算门槛，也可能削弱资源股与新兴市场敏感股的跟随力度。"
+      },
+      "Volatility / Options": {
+        "value": "EN: Cboe VIX data still indicate elevated but not panic-level index volatility, while single-name event vol is much more important in GOOGL, TSLA, INTC, and SMCI.\n中文：Cboe的VIX数据仍显示“高于常态但未到恐慌”的指数波动，而在GOOGL、TSLA、INTC和SMCI上，更重要的是个股事件波动。",
+        "note": "EN: If the first regular-session move already consumes the expected range, late option premium usually becomes a lower-quality bet than stock or ETF execution.\n中文：如果正股开盘后的第一段行情已经消耗了预期波动区间，后手买期权通常比直接做股票或ETF更低质量。"
+      },
+      "Futures / Premarket": {
+        "value": "EN: The key premarket split is clear: Alphabet strength, Tesla weakness, SMCI euphoria, GE Vernova damage, and telecom stability.\n中文：盘前的核心分化很清楚：Alphabet偏强、Tesla偏弱、SMCI狂热、GE Vernova受损，而电信相对稳定。",
+        "note": "EN: Premarket shows information, not permission. Thin gaps must still survive the cash-session open before they become actionable.\n中文：盘前提供的是信息，不是执行许可。薄量缺口仍必须经受住正股开盘考验，才算可执行。"
+      },
+      "Credit Indicators": {
+        "value": "EN: No fresh verified credit-spread blowout appeared in the reviewed pre-open sources, so use HYG/LQD behavior as a live confirmation tool rather than a narrative input.\n中文：在当前盘前已核实的资料中，没有看到新的信用利差失控信号，因此更适合把HYG/LQD当作实时确认工具，而不是叙事输入。",
+        "note": "EN: If HYG lags and IWM weakens, keep size smaller even if one AI or earnings name looks exciting.\n中文：如果HYG走弱、IWM也偏弱，即使某只AI或财报股看起来很诱人，也要缩小仓位。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: QQQ and SPY hold VWAP after the open, Alphabet's gap is defended, semis broaden, and credit stays orderly. In that case, GOOGL, QQQ, SMH, and selected telecom/AI follow-through trades become workable.\n中文：偏强情景：QQQ和SPY开盘后守住VWAP，Alphabet缺口被承接，半导体扩散，信用保持稳定。那样的话，GOOGL、QQQ、SMH以及部分电信/AI延续交易会更可做。",
+      "EN: Base case: the market stays selective, rewarding cash-flow quality and punishing weak margin/capex combinations. That favors smaller size, cleaner ETFs, and first-pullback entries instead of headline chasing.\n中文：基准情景：市场继续选择性交易，奖励现金流质量，惩罚利润率偏弱与高资本开支的组合。对应策略是缩小仓位、优先更干净的ETF，并等待第一次回踩，而不是追headline。",
+      "EN: Bear case: QQQ fails the open, breadth stays narrow, TSLA weakness drags growth lower, and yields or oil rise again. Then cash, failed-bounce shorts, and downside hedges become cleaner than dip buying.\n中文：偏弱情景：QQQ开盘失败、市场宽度维持狭窄、TSLA弱势把成长板块往下带，同时收益率或油价再次走高。那时现金、反弹失败空头和下行对冲，会比抄底更干净。",
+      "EN: High-beta case: SMCI, WULF, IREN, AAOI, and AEHR can still offer sharp upside bursts, but only if they build a second setup with regular-session volume. Without that, most are just missed-move / avoid-chase names.\n中文：高beta情景：SMCI、WULF、IREN、AAOI和AEHR仍可能给出快速向上脉冲，但前提是它们在正股时段构建出第二次设置并伴随放量。否则，大多只应归类为“错过行情 / 避免追高”。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "GOOGL",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Actionable only if Thursday, July 23, 2026 regular-session buyers defend the post-earnings gap after the first 30-60 minutes, with VWAP hold or an opening-range breakout. Position/quantity: roughly 3-6% stock exposure; options premium generally 0.5-1.0% of account only if the move has not already exhausted the implied range.\n中文：只有在2026年7月23日周四正股时段开盘后30-60分钟，买盘能守住财报缺口，并出现VWAP守住或开盘区间突破时，才算可执行。仓位/数量：正股约3-6%账户敞口；若用期权，通常权利金控制在账户0.5-1.0%，且行情不能已经耗尽隐含波动。",
+        "reason": "EN: Alphabet delivered the cleanest quality-vs-growth message in the tape, but discovery is over; the edge is gap defense and breadth confirmation.\n中文：Alphabet给出了当前盘面里最干净的“质量胜过空故事”信号，但发现阶段已经结束；优势在于缺口承接和宽度确认。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "TSLA",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "EN: Short/watch only if TSLA fails below VWAP after the first 30-60 minutes, or if an opening bounce stalls while QQQ also weakens. Position/quantity: roughly 1-3% stock exposure or <=0.5% option premium; avoid naked weekly premium if IV is still inflated.\n中文：只有在TSLA开盘后30-60分钟仍无法站上VWAP，或开盘反弹受阻且QQQ同步转弱时，才偏空观察。仓位/数量：正股约1-3%账户敞口，或期权权利金<=0.5%；若IV仍偏高，避免裸买周度权利金。",
+        "reason": "EN: Tesla remains the cleaner negative event reaction because profit and cash-generation quality disappointed, but late chasing after a big gap is still lower quality than waiting for a failed bounce.\n中文：Tesla仍是更干净的负面事件反应，因为利润与现金生成质量令人失望，但在大幅跳空后晚追空，仍不如等反弹失败更高质量。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Best liquid expression if QQQ holds VWAP and breadth improves after the open. Position/quantity: roughly 5-10% ETF exposure for confirmed setups; do not substitute TQQQ until the plain ETF proves itself first.\n中文：如果QQQ在开盘后守住VWAP且市场宽度改善，它是最干净的流动性表达。仓位/数量：确认后ETF敞口约5-10%；在普通ETF先证明自己前，不要直接用TQQQ替代。",
+        "reason": "EN: QQQ captures Alphabet leadership and reduces single-name gap risk, while still giving exposure to semis and large-cap internet.\n中文：QQQ既能捕捉Alphabet的领涨，也能降低单一个股的跳空风险，同时保留半导体与大型互联网的敞口。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "earlyCatalystLong": {
+        "ticker": "T",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "EN: Prefer a post-open pullback hold or opening-range breakout only after AT&T's earnings reaction confirms and the stock does not immediately fade a gap. Position/quantity: roughly 5-8% stock exposure for a small account; options premium, if used, usually 0.5-0.75% of account.\n中文：更适合等待AT&T财报反应确认后，再观察开盘回踩守住或开盘区间突破；如果一开盘就回吐缺口，则先不做。仓位/数量：小账户正股约5-8%敞口；若用期权，通常权利金约账户0.5-0.75%。",
+        "reason": "EN: Cleaner cash-flow and buyback narratives can outperform in a selective tape, especially when high-beta growth gets punished.\n中文：在分化市场里，更干净的现金流与回购叙事往往更能跑赢，尤其是在高beta成长股受罚时。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "SMCI",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Only a secondary setup counts. Wait for Thursday, July 23, 2026 regular-session digestion, then a VWAP reclaim, first pullback hold, or new opening-range breakout with AI hardware peers confirming. Position/quantity: roughly 1-3% stock exposure or <=0.5% option premium.\n中文：只认二次设置。先等2026年7月23日周四正股时段完成消化，再观察VWAP收复、第一次回踩守住，或在AI硬件同类个股确认下突破新的开盘区间。仓位/数量：正股约1-3%账户敞口，或期权权利金<=0.5%。",
+        "reason": "EN: The preannouncement was powerful enough to matter, but a nearly vertical move after hours is exactly where small accounts get trapped if they confuse catalyst quality with entry quality.\n中文：这次预披露的力度足以值得重视，但盘后近乎垂直的上涨，正是小账户最容易把“催化质量”误当成“入场质量”的陷阱。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "AMC",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Missed move / avoid chase unless AMC fully digests and later rebuilds above VWAP with strong regular-session volume. Position/quantity: if it ever resets cleanly, keep it near 1-2% stock exposure or <=0.5% speculative option premium.\n中文：属于“错过行情 / 避免追高”，除非AMC先完成充分消化，之后再以强正股成交量重建于VWAP之上。仓位/数量：即便未来重新形成干净设置，也应把正股控制在约1-2%账户敞口，或把投机期权权利金控制在<=0.5%。",
+        "reason": "EN: The earnings surprise was real, but the first move already happened and meme-style round trips can be vicious.\n中文：业绩惊喜本身是真实的，但第一波主升已经发生，meme风格的往返回撤会非常凶狠。",
+        "convictionScore": 1,
+        "timeframe": "trade"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-07-23 08:30 ET",
+        "event": "EN: Weekly jobless claims / 中文：每周初请失业金",
+        "watch": "EN: The latest official release before today showed 208,000 claims for the week ended July 11. A hotter or softer print can change rate and breadth tone quickly.\n中文：今天之前最新的官方数据是截至7月11日当周初请20.8万人。若今晚数据明显偏热或偏冷，可能迅速改变利率与市场宽度情绪。",
+        "relatedTickers": "SPY, QQQ, IWM, TLT"
+      },
+      {
+        "date": "2026-07-23 09:45 ET",
+        "event": "EN: S&P Global Flash U.S. PMI / 中文：标普全球美国7月闪电PMI",
+        "watch": "EN: Flash PMI matters because S&P Global flagged war, oil, and hiring as key pressure points this week. Watch whether growth resilience or price pressure dominates the headline.\n中文：闪电PMI很重要，因为标普全球本周明确提示战争、油价与招聘是关键压力点。重点看“增长韧性”还是“价格压力”主导headline。",
+        "relatedTickers": "SPY, QQQ, XLI, XLE"
+      },
+      {
+        "date": "2026-07-23 before U.S. open",
+        "event": "EN: AT&T and other premarket earnings / 中文：AT&T等盘前财报",
+        "watch": "EN: AT&T is the cleaner small-account candidate because cash-flow and buyback quality can matter more than raw beta in a selective tape.\n中文：AT&T是更适合小资金观察的候选，因为在分化盘中，现金流与回购质量往往比纯beta更重要。",
+        "relatedTickers": "T, CMCSA, FCX, HON, RTX, TMUS, NEM"
+      },
+      {
+        "date": "2026-07-23 after U.S. close",
+        "event": "EN: Intel and late-cycle earnings / 中文：Intel与收盘后财报",
+        "watch": "EN: Intel is the key late-day semiconductor sentiment pivot. The setup is better as pre-catalyst preparation than as a blind first-print trade.\n中文：Intel是今晚尾段最关键的半导体情绪枢纽。它更适合作为提前催化准备，而不是盲目抢第一笔财报反应。",
+        "relatedTickers": "INTC, SMH, QQQ, AAOI"
+      },
+      {
+        "date": "2026-07-23 regular session",
+        "event": "EN: Alphabet/Tesla regular-session gap test / 中文：Alphabet/Tesla正股时段跳空检验",
+        "watch": "EN: The real answer comes from whether GOOGL holds and TSLA fails or repairs during the first hour, not from after-hours prints alone.\n中文：真正的答案来自GOOGL能否守住、TSLA能否失败或修复于首小时，而不是只看盘后报价。",
+        "relatedTickers": "GOOGL, TSLA, QQQ, XLC"
+      },
+      {
+        "date": "2026-07-23 regular session",
+        "event": "EN: Options pin and dealer-positioning check / 中文：期权钉仓与做市商定位观察",
+        "watch": "EN: Watch whether index ETFs and event names stall near round-number strikes as the day develops. Pin risk rises when realized range shrinks after a big open.\n中文：观察指数ETF和事件股是否在整数执行价附近停滞。若大幅开盘后实际波动收缩，钉仓风险会升高。",
+        "relatedTickers": "SPY, QQQ, IWM, GOOGL, TSLA, INTC"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-07-23",
+        "ticker": "GEV",
+        "status": "hit",
+        "result": "EN: Yesterday's Pre-Catalyst Watchlist correctly flagged GE Vernova as a high-quality event name, and the stock then fell 8.7% on Wednesday, July 22, 2026 despite a raised outlook. That was a real move, but not a clean pre-earnings chase long.\n中文：昨天的提前催化名单正确把GE Vernova列为高质量事件股，而它在2026年7月22日周三即便上调展望仍下跌8.7%。这是一次真实大行情，但并不是干净的盘前追多机会。",
+        "lesson": "EN: A good company can still be a bad immediate entry if the setup is extended and the market punishes margin or expectation slippage.\n中文：一家好公司也可能不是好入场点；如果设置已经延伸，且市场在惩罚利润率或预期差，立刻追入仍会出错。"
+      },
+      {
+        "date": "2026-07-23",
+        "ticker": "GOOGL",
+        "status": "hit/open",
+        "result": "EN: Yesterday's Pre-Catalyst Watchlist correctly highlighted Alphabet before earnings. After Wednesday, July 22, 2026 results, the shares rose about 3.3% after hours as cloud growth and revenue beat mattered more than capex fear.\n中文：昨天的提前催化名单在财报前正确标出了Alphabet。2026年7月22日周三财报后，股价盘后约上涨3.3%，因为云业务增长和营收超预期暂时压过了资本开支担忧。",
+        "lesson": "EN: Keep liquid mega-cap earnings on the pre-catalyst list even when they look obvious; the key upgrade is to separate discovery from the regular-session entry window.\n中文：即便看起来“太 obvious”，流动性高的大型财报股也必须保留在提前催化名单里；关键升级在于把“发现”与“正股入场窗口”严格分开。"
+      },
+      {
+        "date": "2026-07-23",
+        "ticker": "TSLA",
+        "status": "hit/open",
+        "result": "EN: Yesterday's list correctly treated Tesla as a risk-heavy short/watch candidate. After Wednesday, July 22, 2026 earnings, TSLA fell about 5.5% after hours as profit and cash-generation quality disappointed.\n中文：昨天的名单把Tesla正确归类为高风险的偏空/观察对象。2026年7月22日周三财报后，TSLA盘后约下跌5.5%，因为利润与现金生成质量令人失望。",
+        "lesson": "EN: A correct event bias still needs execution discipline. When a gap is already large, the better edge is failed-bounce confirmation, not emotional late chasing.\n中文：事件方向判断正确仍然需要执行纪律。当缺口已经很大时，更好的优势是等待反弹失败确认，而不是情绪化地晚追。"
+      },
+      {
+        "date": "2026-07-23",
+        "ticker": "SMCI",
+        "status": "miss",
+        "result": "EN: Super Micro's powerful after-hours surge on Wednesday, July 22, 2026 was not on yesterday's Pre-Catalyst Watchlist. The company preannounced margin recovery and said orders exceeded $60 billion, which created a real miss in the screen.\n中文：Super Micro在2026年7月22日周三盘后的强势上冲，并不在昨天的提前催化名单里。公司预披露利润率改善，并表示订单超过600亿美元，这意味着筛选系统出现了真实漏检。",
+        "lesson": "EN: Add official preannouncements, supplier order updates, and AI hardware margin revisions to the next-48-hour screen so event-driven server names are not missed again.\n中文：在未来48小时筛选里加入官方预披露、供应商订单更新以及AI硬件利润率修正，这样才不会再次漏掉服务器链条的事件驱动标的。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: Large-cap internet and cloud / 中文：大型互联网与云",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Alphabet earnings and cloud/AI monetization.\n中文：Alphabet财报与云/AI变现。",
+        "watch": "EN: GOOGL and QQQ only if the post-open gap is defended with breadth support.\n中文：只有在开盘后缺口被承接且市场宽度配合时，才看GOOGL和QQQ。",
+        "risk": "EN: Capex sticker shock, regulatory pressure, and failed-gap reversals.\n中文：资本开支冲击、监管压力与缺口失败反转。"
+      },
+      {
+        "name": "EN: Semiconductors / 中文：半导体",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: TXN read-through, Intel tonight, and AI hardware sympathy.\n中文：TXN映射、今晚Intel，以及AI硬件映射。",
+        "watch": "EN: SMH breadth and whether TXN/INTC improve the tone beyond one-stock noise.\n中文：观察SMH宽度，以及TXN/INTC是否能把情绪带出“一股独秀”。",
+        "risk": "EN: Margins and demand can still disappoint even when the theme sounds right.\n中文：即便主题听起来正确，利润率和需求仍可能令人失望。"
+      },
+      {
+        "name": "EN: AI infrastructure and power / 中文：AI基础设施与电力",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: SMCI orders, GEV backlog, grid spending, and data-center power demand.\n中文：SMCI订单、GEV积压订单、电网支出与数据中心电力需求。",
+        "watch": "EN: Prefer secondary entries after digestion; the story stays strong, but many charts are no longer cheap.\n中文：更偏好消化后的二次入场；故事仍强，但很多图形已不便宜。",
+        "risk": "EN: Capex fatigue, financing sensitivity, and expectation resets.\n中文：资本开支疲劳、融资敏感性与预期重置。"
+      },
+      {
+        "name": "EN: Telecom and defensive cash flow / 中文：电信与防守型现金流",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: AT&T earnings, buyback, and cash-flow quality.\n中文：AT&T财报、回购与现金流质量。",
+        "watch": "EN: T and peers can lead if the tape rewards durability over raw beta.\n中文：如果市场更奖励耐久性而不是纯beta，T及同类可能领跑。",
+        "risk": "EN: Gap-and-fade action or falling breadth can still cap upside.\n中文：缺口后回吐或市场宽度转弱仍会限制上行。"
+      },
+      {
+        "name": "EN: EVs and autos / 中文：电动车与汽车",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "EN: Tesla margins, capex, tariff policy, and oil sensitivity.\n中文：Tesla利润率、资本开支、关税政策与油价敏感度。",
+        "watch": "EN: TSLA only becomes cleaner on failed-bounce confirmation; do not confuse a big gap with a complete move.\n中文：TSLA只有在反弹失败确认时才更干净；不要把大缺口误当成已经走完整的行情。",
+        "risk": "EN: Violent squeezes remain possible when expectations get too low.\n中文：当市场预期过低时，剧烈逼空仍然可能出现。"
+      },
+      {
+        "name": "EN: Energy, metals, and tariff-sensitive cyclicals / 中文：能源、金属与关税敏感周期股",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Oil headlines, aluminum tariff action, and industrial-input pricing.\n中文：油价headline、铝关税动作与工业投入品定价。",
+        "watch": "EN: XLE, FCX, and related cyclicals work best only if macro breadth cooperates.\n中文：XLE、FCX及相关周期股，只有在宏观宽度配合时才更好做。",
+        "risk": "EN: Trade headlines can help domestic producers but hurt downstream margin expectations.\n中文：贸易headline可能利好上游生产商，却伤害下游利润率预期。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "GOOGL",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for Thursday, July 23, 2026 regular-session confirmation. Only consider GOOGL if it holds or reclaims VWAP after the first 30-60 minutes, then either accepts above the opening range or holds the first pullback. Avoid chase if the opening move already exceeds the expected range. EN Position/quantity guide: roughly 3-6% stock exposure for a small account; options premium generally 0.5-1.0% of account only if spreads stay reasonable and the gap has not already fully expanded.\n中文：先等2026年7月23日周四正股时段确认。只有在GOOGL开盘后30-60分钟守住或收复VWAP，随后站稳开盘区间上方，或第一次回踩能守住时，才考虑它。如果开盘波动已经超过预期区间，就不要追。中文仓位/数量参考：小账户正股约3-6%敞口；若用期权，通常权利金约账户0.5-1.0%，且必须确认价差合理、缺口未完全扩张。",
+        "suggestedProfitTake": "EN: Trim into obvious resistance, into a realized move that already matches or exceeds the implied move, or if volume quality fades after the first hour. If the stock is already far beyond the expected gap band before you enter, pass rather than convert the setup into FOMO.\n中文：若股价接近明显阻力、实际波动已达到或超过隐含波动，或首小时后成交量质量开始衰减，就分批止盈。如果在你入场前，股价已经明显超出预期缺口带，就直接放弃，不要把设置变成FOMO。",
+        "type": "EN: large-cap internet and cloud platform\n中文：大型互联网与云平台",
+        "catalyst": "EN: Q2 2026 earnings after the U.S. close on Wednesday, July 22, 2026.\n中文：2026年7月22日周三美股收盘后公布Q2 2026财报。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed AP and WSJ coverage said Alphabet reported Q2 revenue of about $119.8 billion, up roughly 24%, with Google Cloud revenue around $24.8 billion, up roughly 82%. The same coverage said 2026 capex guidance moved to about $195-$205 billion, so the cash-flow quality is strong but capex sensitivity is real. EN Technicals / 中文技术面: The event has already triggered, so the chart now needs a regular-session VWAP hold, opening-range acceptance, and ideally support above the first-hour low. If the post-earnings gap fades below VWAP, the quality story is not enough by itself. EN News/Catalyst / 中文消息面: The verified catalyst is the earnings beat plus stronger cloud growth; the main debate is whether investors reward AI monetization more than they punish heavier capex. EN Volume/Liquidity / 中文成交量/流动性: Shares and options are extremely liquid, which helps small accounts, but that same liquidity means the event is efficiently priced and late option premium is vulnerable to IV compression.",
+        "risk": "EN: Capex sticker shock, antitrust/regulatory overhang, and failed-gap reversal risk.\n中文：资本开支冲击、反垄断/监管阴影，以及缺口失败反转风险。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: After Wednesday, July 22, 2026 earnings, GOOGL rose about 3.3% after hours, so the story is now triggered rather than early.\n中文：在2026年7月22日周三财报后，GOOGL盘后约上涨3.3%，因此它现在已属于“触发后”而非“早期发现”。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Do not short the first panic print. TSLA is actionable only if the first 30-60 minutes fail below VWAP, or if an opening bounce stalls below the opening range while QQQ also weakens. EN Position/quantity guide: roughly 1-3% stock exposure or <=0.5% option premium; avoid oversized weekly premium and avoid chasing if the stock already opened near the lower end of its expected range.\n中文：不要空第一笔恐慌价。只有当TSLA在开盘后30-60分钟仍压在VWAP下方失败，或开盘反弹受阻于开盘区间下方、同时QQQ也转弱时，它才算可执行。中文仓位/数量参考：正股约1-3%账户敞口，或期权权利金<=0.5%；避免过度使用周度权利金，也不要在股价已经接近预期波动下沿时继续追空。",
+        "suggestedProfitTake": "EN: Cover part into fresh intraday lows, a 1-1.5 ATR style downside extension, or once realized downside has already delivered most of the implied move. If TSLA undercuts and then reclaims VWAP, respect the invalidation instead of arguing with the tape.\n中文：若股价打出新的日内低点、走出约1-1.5倍ATR式下行延伸，或实际跌幅已兑现大部分隐含波动，就分批回补。如果TSLA先下破后又收复VWAP，就要尊重失效，不要和盘面对赌。",
+        "type": "EN: mega-cap EV and robotaxi event stock\n中文：大型电动车与robotaxi事件股",
+        "catalyst": "EN: Q2 2026 earnings after the U.S. close on Wednesday, July 22, 2026.\n中文：2026年7月22日周三美股收盘后公布Q2 2026财报。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed AP coverage said Tesla reported about $28.24 billion of Q2 revenue and adjusted EPS near $0.33, while profit and cash-generation quality disappointed and capex ran high. The exact free-cash-flow figure was not fully verified in the reviewed pre-open bundle, but the message was clearly weaker than Alphabet's quality profile. EN Technicals / 中文技术面: The gap-down reaction is already in motion, so the honest setup is failed-bounce confirmation below VWAP or opening-range resistance. If the stock forms a first-hour base and reclaims VWAP, the bearish setup weakens materially. EN News/Catalyst / 中文消息面: The market is reacting to weaker profit quality, higher capital intensity, and the ongoing debate over margins, pricing, robotaxi expectations, and execution. EN Volume/Liquidity / 中文成交量/流动性: TSLA is one of the most liquid names in the market, but weekly options are especially vulnerable to IV crush and emotional overtrading after a big gap.",
+        "risk": "EN: Violent squeeze risk, headline sensitivity, and IV crush can punish even a directionally correct late entry.\n中文：剧烈逼空风险、headline敏感度以及IV回落，都会惩罚即便方向看对的晚入场空头。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: After Wednesday, July 22, 2026 earnings, TSLA fell about 5.5% after hours, which makes the setup triggered but not automatically chaseable.\n中文：在2026年7月22日周三财报后，TSLA盘后约下跌5.5%，因此它属于“已触发”，但绝不等于可以无脑追空。",
+        "setupStatus": "avoid chase"
+      },
+      {
+        "ticker": "TXN",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Treat TXN as a semi read-through trade, not a headline-only buy. Wait for the first 30-60 minutes; act only if TXN holds VWAP or the first pullback while SMH also confirms. EN Position/quantity guide: roughly 3-5% stock exposure; options premium generally 0.5-0.75% of account if spreads are clean.\n中文：把TXN当作半导体映射交易，而不是headline式买入。先等开盘后30-60分钟；只有在TXN守住VWAP或第一次回踩，同时SMH也确认时，才考虑行动。中文仓位/数量参考：正股约3-5%账户敞口；若价差干净，期权权利金通常约账户0.5-0.75%。",
+        "suggestedProfitTake": "EN: Trim if the move stalls near obvious resistance, if analog/industrial commentary fails to broaden into semis, or if the stock is already beyond its normal opening-range expansion before you enter.\n中文：如果走势在明显阻力附近停滞、模拟/工业需求评论未能扩散到整个半导体板块，或你入场前股价已明显超出正常开盘区间扩张，就分批止盈或直接放弃。",
+        "type": "EN: analog semiconductor quality name\n中文：模拟半导体质量股",
+        "catalyst": "EN: Q2 2026 earnings and industrial/auto demand read-through.\n中文：Q2 2026财报与工业/汽车需求映射。",
+        "why": "EN Fundamentals / 中文基本面: Texas Instruments remains a balance-sheet-strong analog and industrial semiconductor name, but the exact Q2 revenue, EPS, and free-cash-flow details were not fully verified in the reviewed pre-open source bundle and should be checked in the release before aggressive sizing. The reason it still matters is that TXN often resets market opinion on industrial and auto chip demand. EN Technicals / 中文技术面: The stock needs to prove itself above VWAP or on a clean first pullback; without sector ETF confirmation, it is just one stock reacting to one report. EN News/Catalyst / 中文消息面: The catalyst is the earnings and guidance read-through into analog, industrial, and auto demand, with Intel's later report adding a second semiconductor checkpoint tonight. EN Volume/Liquidity / 中文成交量/流动性: TXN is liquid enough for disciplined execution, but the cleaner signal is whether SMH and peer breadth confirm rather than whether TXN alone prints a strong first candle.",
+        "risk": "EN: Cyclical demand disappointment and false-positive semi sympathy risk.\n中文：周期需求失望，以及“只有一股强、全板块不跟”的假映射风险。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: TXN remains more useful as a read-through than as a blind chase long into Thursday, July 23, 2026.\n中文：进入2026年7月23日周四，TXN更适合作为映射信号，而不是盲目追涨多头。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "IBM",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Short only on failed-bounce conditions: a first 30-60 minute rebound that cannot reclaim VWAP, or an opening-range stall after early buying dries up. EN Position/quantity guide: roughly 2-4% stock exposure; if using options, keep premium around 0.5% of account because post-gap mean reversion can be violent.\n中文：只有在“反弹失败”条件下才考虑空头：前30-60分钟反弹无法收复VWAP，或开盘区间反弹受阻、早盘买盘迅速衰减。中文仓位/数量参考：正股约2-4%账户敞口；若用期权，权利金约账户0.5%，因为跳空后的均值回归反弹可能很猛烈。",
+        "suggestedProfitTake": "EN: Cover into fresh lows or if the stock becomes stretched far below the opening range without broader confirmation. If IBM reclaims VWAP and holds, reduce or exit rather than insisting on the damaged-chart narrative.\n中文：若股价打出新低，或在没有更广泛板块确认的情况下已显著跌离开盘区间，就分批回补。如果IBM重新收复并守住VWAP，就应减仓或离场，而不是死守“图形受损”的叙事。",
+        "type": "EN: legacy enterprise IT and software infrastructure\n中文：传统企业IT与软件基础设施",
+        "catalyst": "EN: Weak earnings reaction and damaged chart from Wednesday, July 22, 2026.\n中文：2026年7月22日周三的偏弱财报反应与受损图形。",
+        "why": "EN Fundamentals / 中文基本面: Prior verified reporting in the archive showed IBM pre-released adjusted EPS around $2.93 versus a roughly $3.01 consensus and revenue near $17.2 billion versus an estimate closer to $17.86 billion, which is a real miss rather than a cosmetic wobble. EN Technicals / 中文技术面: The chart remains damaged until it can reclaim VWAP and hold a regular-session bounce. A weak first-hour rebound is more actionable than guessing downside at the first print. EN News/Catalyst / 中文消息面: The core issue is soft software and infrastructure momentum relative to expectations, which leaves IBM vulnerable in a tape that is rewarding clearer AI and cloud winners. EN Volume/Liquidity / 中文成交量/流动性: IBM is liquid and institutionally followed, but gap-down reversals can be sharp, so waiting for failed-bounce confirmation matters more than being first.",
+        "risk": "EN: Oversold bounce risk and mean-reversion buying by institutions.\n中文：超跌反弹风险，以及机构均值回归买盘风险。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: IBM's chart remained damaged into Thursday, July 23, 2026 after Wednesday's post-results selling.\n中文：在周三财报后抛售之后，进入2026年7月23日周四时，IBM的图形仍然受损。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for damage control first. GEV is only actionable after a full regular-session stabilization, a VWAP reclaim, or a first pullback that proves institutions are defending the post-earnings selloff. EN Position/quantity guide: roughly 3-5% stock exposure; do not increase size until the stock stops bleeding relative to the sector.\n中文：先等止跌修复。只有在GEV完成完整正股时段企稳、收复VWAP，或第一次回踩能证明机构在承接财报后的下跌时，才算可执行。中文仓位/数量参考：正股约3-5%账户敞口；在股价相对板块止跌前，不要扩大仓位。",
+        "suggestedProfitTake": "EN: Trim into a recovery toward obvious resistance or if a relief bounce loses volume quality quickly. If the chart never repairs and remains below VWAP, keep it as a watchlist quality name rather than forcing a trade.\n中文：若反弹接近明显阻力，或修复上涨的成交量质量很快变差，就分批止盈。如果图形始终修不好、持续压在VWAP下方，就把它保留为高质量观察股，而不要硬做交易。",
+        "type": "EN: power and electrification leader\n中文：电力与电气化龙头",
+        "catalyst": "EN: Q2 2026 earnings before the U.S. open on Wednesday, July 22, 2026.\n中文：2026年7月22日周三美股开盘前公布Q2 2026财报。",
+        "why": "EN Fundamentals / 中文基本面: Prior verified SEC filing data in the archive showed GE Vernova's Q1 2026 revenue near $9.3 billion, orders near $18.3 billion, adjusted EBITDA around $0.9 billion, and higher backlog with raised guidance. Fresh reporting reviewed for this run indicated the market still sold the stock even though full-year outlook was raised, which means expectation and margin quality mattered more than the top-line story. EN Technicals / 中文技术面: A stock that just fell 8.7% on earnings is not an immediate chase long; it first needs a repair day, a VWAP reclaim, or a stable base above the first-hour low. EN News/Catalyst / 中文消息面: The catalyst is still real: grid, turbines, power backlog, and AI-related electricity demand. The issue is that a strong story was not enough to protect the stock from a harsh post-report reset. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is strong, but that does not cancel event risk. Let regular-session volume prove whether the selloff is being absorbed or distributed.",
+        "risk": "EN: Margin disappointment, expectation reset, and failed-repair risk.\n中文：利润率失望、预期重置，以及修复失败风险。",
+        "convictionScore": 3,
+        "timeframe": "swing",
+        "recentPerformance": "EN: GEV fell 8.7% on Wednesday, July 22, 2026 despite raising its outlook, so the stock moved from early discovery to damage-repair mode.\n中文：GEV在2026年7月22日周三即便上调展望仍下跌8.7%，因此它已从“早期发现”切换到“损伤修复模式”。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Do not chase the after-hours vertical candle. Wait for a regular-session digestion day, then a VWAP reclaim, first-pullback hold, or opening-range breakout only if AI hardware peers also confirm. EN Position/quantity guide: roughly 1-3% stock exposure or <=0.5% option premium because spread, squeeze, and overnight risks stay high.\n中文：不要追盘后垂直大阳。先等正股时段完成消化，再观察VWAP收复、第一次回踩守住，或在AI硬件同类个股共振下突破开盘区间。中文仓位/数量参考：正股约1-3%账户敞口，或期权权利金<=0.5%，因为价差、逼空和隔夜风险都仍然很高。",
+        "suggestedProfitTake": "EN: If a secondary entry ever appears, trim quickly into 10-15% extensions or when the move outruns the sector. If the stock opens already well beyond its expected band, mark it as missed move / avoid chase.\n中文：如果后续真的出现二次入场点，遇到10-15%的快速延伸、或涨幅明显跑赢板块时，要迅速分批止盈。如果它开盘时已经远超预期波动带，就把它归类为“错过行情 / 避免追高”。",
+        "type": "EN: AI server and infrastructure high-beta leader\n中文：AI服务器与基础设施高beta龙头",
+        "catalyst": "EN: Preliminary Q4 fiscal 2026 update after the U.S. close on Wednesday, July 22, 2026.\n中文：2026年7月22日周三美股收盘后发布2026财年Q4初步更新。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed official company coverage said Super Micro kept revenue near the lower end of its roughly $11.0-$12.5 billion range, but raised expected gross margin to about 15%-17% from a prior roughly 8.2%-8.4% view and said orders exceeded $60 billion. That is a real catalyst, but it does not erase financing and credibility sensitivity. EN Technicals / 中文技术面: The chart is already extended from the after-hours surge. The only honest setup is a second-wave base, VWAP reclaim, or first-pullback hold after regular-session digestion. EN News/Catalyst / 中文消息面: The verified catalyst is the margin recovery and huge order commentary, which materially changed sentiment around AI server economics. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is high on event days, but volatility, slippage, and reversal risk are also much higher than the headline tape suggests.",
+        "risk": "EN: Financing sensitivity, credibility risk, and failed second-day continuation.\n中文：融资敏感性、可信度风险，以及次日延续失败风险。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SMCI surged about 19.8% after hours on Wednesday, July 22, 2026, which makes it a high-quality catalyst but an extended chart.\n中文：SMCI在2026年7月22日周三盘后约上涨19.8%，这说明催化质量高，但图形已经延伸。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "T",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Wait for the earnings reaction to settle. Only consider T if it holds VWAP after the open or breaks the opening range with stable breadth; avoid buying a gap that immediately fades. EN Position/quantity guide: roughly 5-8% stock exposure for a core liquid name; options premium, if used, usually 0.5-0.75% of account.\n中文：先等财报反应稳定下来。只有在T开盘后守住VWAP，或在市场宽度稳定下突破开盘区间时，才考虑它；若缺口一开盘就回吐，则不要买。中文仓位/数量参考：作为核心流动性标的，正股约5-8%账户敞口；若用期权，权利金通常约账户0.5-0.75%。",
+        "suggestedProfitTake": "EN: Trim into an orderly breakout extension or if the stock outruns the telecom group without support. If the gap is already fully stretched before confirmation, scale down or pass.\n中文：如果走势有序突破并延伸，或涨幅已经明显跑赢整个电信板块，就分批止盈。如果在确认前缺口已经完全拉伸，则缩小仓位或直接放弃。",
+        "type": "EN: telecom cash-flow and buyback story\n中文：电信现金流与回购故事股",
+        "catalyst": "EN: Q2 2026 earnings and capital return update on Thursday, July 23, 2026.\n中文：2026年7月23日周四的Q2 2026财报与资本回报更新。",
+        "why": "EN Fundamentals / 中文基本面: Reviewed reporting indicated AT&T paired another quarter of wireless/fiber execution with improved free-cash-flow confidence and a buyback authorization. Exact subscriber and free-cash-flow figures should be checked in the release before larger sizing, but the market's initial reaction favored durability and capital return. EN Technicals / 中文技术面: The cleaner setup is an opening-range breakout or VWAP hold after the market absorbs the initial gap. EN News/Catalyst / 中文消息面: The catalyst is the earnings report plus capital return update, which matters more in a selective tape where investors are rewarding cash-flow quality over expensive stories. EN Volume/Liquidity / 中文成交量/流动性: T is highly liquid, small-account friendly, and less spread-punishing than many high-beta names, which makes it a more practical execution candidate tonight.",
+        "risk": "EN: Gap fade risk and lower-beta underperformance if the market suddenly reverts to pure momentum chasing.\n中文：缺口回吐风险，以及若市场突然回到纯动量追逐时的低beta跑输风险。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AT&T moved into the cleaner defensive-cash-flow bucket ahead of Thursday, July 23, 2026.\n中文：在进入2026年7月23日周四时，AT&T已进入更干净的防守型现金流篮子。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Pre-catalyst only before Thursday, July 23, 2026 after the close. A short bias works only if Intel fails below VWAP or the opening range while semis stay weak; otherwise keep it watch-only into earnings. EN Position/quantity guide: roughly 2-4% stock exposure or around 0.5% option premium if used.\n中文：在2026年7月23日周四收盘后财报前，只做提前催化观察。只有当Intel在VWAP或开盘区间下方失败、且半导体整体仍偏弱时，偏空逻辑才成立；否则财报前保持只观察。中文仓位/数量参考：正股约2-4%账户敞口；若用期权，权利金约0.5%账户。",
+        "suggestedProfitTake": "EN: Trim if downside extends too far before the close or if semis suddenly broaden higher and the failed-bounce thesis weakens. Do not carry oversized exposure into earnings.\n中文：如果收盘前跌势已经过度延伸，或半导体突然整体转强、反弹失败逻辑减弱，就分批止盈。不要带过大的仓位去赌财报。",
+        "type": "EN: large-cap semiconductor turnaround and foundry story\n中文：大型半导体转型与代工故事股",
+        "catalyst": "EN: Q2 2026 earnings after the U.S. close on Thursday, July 23, 2026.\n中文：2026年7月23日周四美股收盘后公布Q2 2026财报。",
+        "why": "EN Fundamentals / 中文基本面: Prior verified official results showed Intel's Q1 2026 revenue near $12.7 billion, non-GAAP EPS around $0.18, and Q2 guidance that left the market focused on foundry losses and capital discipline. Because the company is still in turnaround mode, even small changes in guide language can matter more than the headline number. EN Technicals / 中文技术面: Intel is not the cleanest leadership chart in semis, so the honest setup is failed bounce, watch-only, or a very small pre-catalyst position instead of aggressive anticipation. EN News/Catalyst / 中文消息面: Tonight's earnings are the catalyst, and the market wants to hear about foundry losses, AI positioning, and cost control. EN Volume/Liquidity / 中文成交量/流动性: INTC is highly liquid, which helps execution, but ETF and sector flows can dominate the tape around semiconductor earnings nights.",
+        "risk": "EN: Low expectations can create a squeeze if the report is merely less bad than feared.\n中文：如果报告只是“没那么糟”，低预期反而可能触发逼空。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Intel remains an important pre-catalyst watch name rather than a proven leadership long into Thursday, July 23, 2026.\n中文：进入2026年7月23日周四时，Intel仍是重要的提前催化观察股，而不是已被证明的领涨多头。",
+        "setupStatus": "early"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "WULF",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider WULF if it builds a real regular-session base, reclaims VWAP, and gets confirmation from the broader power/compute theme. Do not buy a thin premarket pop alone. EN Position/quantity guide: roughly 1-3% stock exposure or <=0.5% option premium.\n中文：只有在WULF建立真实正股底座、收复VWAP，并得到更广泛电力/算力主题确认时，才考虑它。不要只因为盘前薄量拉升就买。中文仓位/数量参考：正股约1-3%账户敞口，或期权权利金<=0.5%。",
+        "suggestedProfitTake": "EN: Trim into 10-15% event extensions or when the leader names lose VWAP. If it gaps sharply without confirmation, mark it as avoid chase.\n中文：若出现10-15%的事件延伸，或龙头股失去VWAP，就分批止盈。如果它在没有确认的情况下大幅跳空，就归类为避免追高。",
+        "type": "EN: high-beta power and compute infrastructure\n中文：高beta电力与算力基础设施",
+        "catalyst": "EN: Anthropic lease and data-campus monetization story.\n中文：Anthropic租约与数据园区变现故事。",
+        "why": "EN Fundamentals / 中文基本面: Verified company coverage said TeraWulf announced an Anthropic lease at Justified Data Campus and sold a majority interest in the Abernathy joint venture to Fluidstack, which improves catalyst quality. Fresh revenue, EPS, and free-cash-flow figures were not fully verified in today's reviewed bundle, so treat this as catalyst-backed but still speculative. EN Technicals / 中文技术面: The chart needs a second-wave base, VWAP reclaim, and ideally a first-pullback hold; vertical sympathy candles are not enough. EN News/Catalyst / 中文消息面: The real catalyst is signed infrastructure demand, not just bitcoin beta, which makes WULF more credible than a pure pump-like story. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is tradable but still meaningfully worse than large caps and ETFs; spreads can widen fast, so smaller size is mandatory.",
+        "risk": "EN: Financing sensitivity, theme correlation failure, and violent reversals.\n中文：融资敏感性、主题相关性失效，以及剧烈反转。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: WULF remains a watchable but still secondary AI-power trade into Thursday, July 23, 2026.\n中文：进入2026年7月23日周四时，WULF仍是可观察但次级的AI电力交易。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "IREN",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only a secondary setup counts now. Wait for digestion, then a VWAP reclaim or opening-range breakout with real volume and peer confirmation. EN Position/quantity guide: roughly 1-3% stock exposure or <=0.5% option premium.\n中文：现在只认二次设置。先等消化，再等VWAP收复或开盘区间突破，同时必须有真实放量和同类个股确认。中文仓位/数量参考：正股约1-3%账户敞口，或期权权利金<=0.5%。",
+        "suggestedProfitTake": "EN: Take profits quickly into event extensions and do not let a winner turn into a thesis hold unless a new base forms. If the stock is already vertical before you enter, skip it.\n中文：在事件延伸中快速止盈，不要在没有新底座的情况下把盈利单变成“信仰单”。如果入场前股价已经垂直拉升，就直接跳过。",
+        "type": "EN: AI cloud and bitcoin-mining high-beta\n中文：AI云与比特币矿业高beta",
+        "catalyst": "EN: $3.65 billion investment-grade GPU financing and AI cloud expansion.\n中文：36.5亿美元投资级GPU融资与AI云扩张。",
+        "why": "EN Fundamentals / 中文基本面: Verified company coverage said IREN closed $3.65 billion of investment-grade GPU financing, which materially improves funding credibility for the AI/GPU buildout. Fresh revenue, EPS, and margin figures were unavailable in today's reviewed bundle, so this remains a financing-backed catalyst story rather than a fully verified earnings-quality long. EN Technicals / 中文技术面: Because prior moves were sharp, the setup now requires digestion, VWAP reclaim, and a clean regular-session trigger. EN News/Catalyst / 中文消息面: The catalyst is the financing and compute expansion narrative, which is stronger than simple crypto sympathy when confirmed by price and volume. EN Volume/Liquidity / 中文成交量/流动性: Liquidity can be strong on news, but spreads, volatility, and overnight gap risk are high, especially when the whole theme moves together.",
+        "risk": "EN: Financing, bitcoin correlation, dilution concerns, and failed second-wave continuation.\n中文：融资、比特币相关性、稀释担忧，以及二波延续失败。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: IREN is no longer an early-discovery setup; it now needs a cleaner secondary entry window.\n中文：IREN已不再是早期发现型设置；现在需要更干净的二次入场窗口。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "AAOI",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider AAOI if optical-network peers strengthen, the stock holds a first-hour base, and volume confirms in the regular session. Avoid isolated premarket spikes. EN Position/quantity guide: roughly 1-3% stock exposure or <=0.5% option premium.\n中文：只有在光通信同类走强、个股守住首小时底座、并在正股时段放量确认时，才考虑AAOI。避免孤立的盘前尖刺。中文仓位/数量参考：正股约1-3%账户敞口，或期权权利金<=0.5%。",
+        "suggestedProfitTake": "EN: Take profit into fast squeezes or if volume fades before the stock can build a higher base. If the move is already extended at the open, pass.\n中文：若出现快速挤压上涨，或在形成更高底座前成交量已开始衰减，就分批止盈。如果开盘时走势已经过度延伸，就放弃。",
+        "type": "EN: optical networking high-beta\n中文：光通信高beta",
+        "catalyst": "EN: AI networking and hyperscaler capex sympathy.\n中文：AI网络与超大规模云资本开支映射。",
+        "why": "EN Fundamentals / 中文基本面: Prior verified SEC filing coverage in the archive supports AAOI as a real operating business, but fresh revenue, EPS, and free-cash-flow figures were not fully re-verified in today's reviewed bundle. That lowers conviction versus cleaner large-cap names. EN Technicals / 中文技术面: The stock needs a proper breakout/retest or first-hour base; gap-only action is not enough. EN News/Catalyst / 中文消息面: The current catalyst is sympathy from AI networking and capex-heavy infrastructure winners rather than a fresh company-specific verified release, which makes this more speculative. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is tradable but materially worse than GOOGL, QQQ, or SMH, and options spreads can be punishing for a small account.",
+        "risk": "EN: Weak fundamental re-verification, squeeze reversals, and wide spreads.\n中文：基本面再验证不足、挤压反转与价差过宽。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AAOI stays in the speculative watch bucket rather than the primary action bucket.\n中文：AAOI仍处于“投机观察篮子”，而不是“主执行篮子”。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "AEHR",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Watch only if post-earnings continuation survives into a first regular-session pullback and then reclaims VWAP with real volume. EN Position/quantity guide: roughly 1-2% stock exposure or <=0.5% speculative option premium.\n中文：只有当财报后延续能撑过第一次正股回踩，并以真实放量重新收复VWAP时，才考虑观察。中文仓位/数量参考：正股约1-2%账户敞口，或投机期权权利金<=0.5%。",
+        "suggestedProfitTake": "EN: Trim quickly into sharp second-day extensions or near prior resistance. If the stock is already stretched before regular-session confirmation, classify it as avoid chase.\n中文：若出现第二天急速延伸，或接近前高阻力，就快速分批止盈。如果在正股确认前股价已经拉得过高，就归类为避免追高。",
+        "type": "EN: semiconductor test equipment small-cap\n中文：半导体测试设备小盘股",
+        "catalyst": "EN: Fiscal 2026 Q4 results with record bookings and a roughly $100 million effective backlog.\n中文：2026财年Q4业绩，包含创纪录订单与约1亿美元有效积压订单。",
+        "why": "EN Fundamentals / 中文基本面: Verified company coverage highlighted record quarterly bookings and about $100 million of effective backlog, which is a real catalyst. Fresh detailed revenue, EPS, margin, and cash-flow figures were not fully re-verified in today's reviewed bundle, so size must stay small. EN Technicals / 中文技术面: AEHR needs post-squeeze consolidation and a support hold; a vertical second candle is not a disciplined entry. EN News/Catalyst / 中文消息面: The catalyst is the improved order visibility and niche semiconductor test demand, not a rumor. EN Volume/Liquidity / 中文成交量/流动性: Smaller float and weaker liquidity mean slippage and overnight gaps are meaningful even when the story is real.",
+        "risk": "EN: Customer concentration, failed continuation, and small-float volatility.\n中文：客户集中、延续失败与小流通盘波动。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AEHR remains more useful as a disciplined post-earnings watch than as an immediate chase long.\n中文：AEHR更适合作为有纪律的财报后观察对象，而不是立刻追涨多头。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "CRML",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider CRML if it forms a clean regular-session base and then breaks the opening range with real volume. If spreads widen or liquidity thins, do nothing. EN Position/quantity guide: roughly 1-2% stock exposure or <=0.5% speculative option premium.\n中文：只有在CRML于正股时段形成干净底座、随后真实放量突破开盘区间时，才考虑它。如果价差变宽或流动性变薄，就什么都不做。中文仓位/数量参考：正股约1-2%账户敞口，或投机期权权利金<=0.5%。",
+        "suggestedProfitTake": "EN: Take profits quickly into any strategic-review spike and do not assume continuation. If the first move already happened premarket, mark it as avoid chase.\n中文：若因战略评估headline出现快速冲高，就快速止盈，不要假设一定能延续。如果第一波行情已经在盘前发生，就直接归类为避免追高。",
+        "type": "EN: rare earth and strategic-process small-cap\n中文：稀土与战略流程小盘股",
+        "catalyst": "EN: Strategic process focused on Tanbreez and value-unlock alternatives.\n中文：围绕Tanbreez项目的战略流程与价值释放方案。",
+        "why": "EN Fundamentals / 中文基本面: Verified company coverage said Critical Metals retained advisers to evaluate asset sales, partnerships, or other strategic alternatives while focusing capital on Tanbreez. Fresh revenue, EPS, and free-cash-flow figures were unavailable in today's reviewed bundle, which keeps conviction low. EN Technicals / 中文技术面: Because the chart depends heavily on news conversion, only a real regular-session base and breakout count; random illiquid spikes do not. EN News/Catalyst / 中文消息面: The catalyst is an official strategic-process announcement, not social-media rumor, but the market may still treat it as highly speculative until real monetization appears. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is materially worse than mainstream names, and spread risk is high enough to invalidate the setup for many small accounts.",
+        "risk": "EN: Thin trading, deal uncertainty, and financing risk.\n中文：交易偏薄、交易结果不确定，以及融资风险。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: CRML remains early and speculative rather than proven.\n中文：CRML仍处在早期且投机，而不是已被证明的状态。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "AMC",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Missed move / avoid chase unless AMC fully digests for at least one regular session, then later reclaims VWAP or breaks a fresh opening range with sustained volume. EN Position/quantity guide: roughly 1-2% stock exposure or <=0.5% speculative option premium if it ever resets cleanly.\n中文：属于“错过行情 / 避免追高”，除非AMC至少先完整消化一个正股时段，之后再以持续放量收复VWAP或突破新的开盘区间。中文仓位/数量参考：即便未来重新形成干净设置，正股也应控制在约1-2%账户敞口，或把投机期权权利金控制在<=0.5%。",
+        "suggestedProfitTake": "EN: If a fresh post-digestion setup ever appears, trim quickly into momentum because meme squeezes can round-trip violently. If there is no true digestion, do nothing.\n中文：如果后续整理后真的出现新设置，也应在动量脉冲中快速分批止盈，因为meme挤压很容易剧烈回吐。如果没有真正消化过程，就什么都不做。",
+        "type": "EN: meme-sensitive theater recovery stock\n中文：meme敏感型影院复苏股",
+        "catalyst": "EN: Record Q2 revenue and stronger-than-expected earnings on Monday, July 20, 2026.\n中文：2026年7月20日周一公布创纪录Q2营收与强于预期的业绩。",
+        "why": "EN Fundamentals / 中文基本面: Prior verified Reuters and Barron's coverage said AMC reported record Q2 revenue of about $1.60 billion and adjusted EPS of about $0.14 versus expectations for a loss. That is a real surprise, but fundamentals alone do not override extension risk after a one-day squeeze. EN Technicals / 中文技术面: After Monday's 26.8% surge, the chart is extended; the only honest long is after full-session digestion and a fresh base. EN News/Catalyst / 中文消息面: The catalyst was the earnings beat and stronger box-office attendance, which makes the move real but already late. EN Volume/Liquidity / 中文成交量/流动性: AMC trades heavily and has active options, but meme-style behavior widens real execution risk far beyond what the raw volume suggests.",
+        "risk": "EN: FOMO punishment, squeeze reversals, and overnight gap risk.\n中文：FOMO惩罚、挤压反转与隔夜跳空风险。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AMC's Monday, July 20, 2026 surge already moved it into missed-move / avoid-chase territory.\n中文：AMC在2026年7月20日周一的暴涨，已经把它推入“错过行情 / 避免追高”区间。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SPY",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and only act if SPY holds VWAP or accepts above the opening range with improving breadth. EN Position/quantity guide: roughly 5-10% ETF exposure for a small account.\n中文：先等开盘后30-60分钟，只有在SPY守住VWAP，或在市场宽度改善下站稳开盘区间上方时，才行动。中文仓位/数量参考：小账户ETF敞口约5-10%。",
+        "suggestedProfitTake": "EN: Trim into a clean extension if breadth starts fading or if the move already exceeds the expected intraday range. If the first move fails, step back rather than averaging down blindly.\n中文：如果走势已经干净延伸，但市场宽度开始衰减，或涨幅已超出日内预期区间，就分批止盈。如果第一波就失败，不要盲目摊平。",
+        "type": "EN: broad-market ETF\n中文：大盘ETF",
+        "catalyst": "EN: Thursday, July 23, 2026 macro data and the regular-session test of big-tech earnings gaps.\n中文：2026年7月23日周四宏观数据，以及大型科技财报缺口的正股检验。",
+        "why": "EN Fundamentals / 中文基本面: SPY is not a fundamentals story stock, but it is the cleanest way to express or reject the market's reaction to earnings, rates, and macro without single-name risk. EN Technicals / 中文技术面: VWAP, opening-range acceptance, and breadth are the key levels; no first-print chasing. EN News/Catalyst / 中文消息面: Today's catalysts are jobless claims, flash PMI, and the market's verdict on Alphabet and Tesla. EN Volume/Liquidity / 中文成交量/流动性: SPY is extremely liquid and practical for a small account, which makes it cleaner than forcing lower-liquidity event names.",
+        "risk": "EN: Macro headline whipsaw and failed-gap reversals.\n中文：宏观headline来回抽打，以及缺口失败反转。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SPY remains the primary regime filter rather than a story stock.\n中文：SPY仍是首要市场状态过滤器，而不是故事股。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Buy only if QQQ holds VWAP after the open or reclaims it with breadth improving across semis and large-cap internet. EN Position/quantity guide: roughly 5-10% ETF exposure.\n中文：只有在QQQ开盘后守住VWAP，或在半导体和大型互联网一起改善宽度时重新收复VWAP，才考虑多头。中文仓位/数量参考：ETF敞口约5-10%。",
+        "suggestedProfitTake": "EN: Trim into a clean trend extension or if realized movement already consumes the expected move early in the session. If the gap fades under VWAP, reduce rather than argue.\n中文：若走势有序延伸，或在早盘就已经消耗掉大部分预期波动，就分批止盈。如果缺口跌回VWAP下方，就减仓，不要和市场争论。",
+        "type": "EN: Nasdaq-100 ETF\n中文：纳指100 ETF",
+        "catalyst": "EN: Alphabet/Tesla earnings and semiconductor follow-through.\n中文：Alphabet/Tesla财报与半导体延续。",
+        "why": "EN Fundamentals / 中文基本面: QQQ aggregates the market's current reward function: quality AI/cloud cash generation versus expensive, margin-sensitive growth. EN Technicals / 中文技术面: Opening-range structure and VWAP matter more than any single after-hours print. EN News/Catalyst / 中文消息面: The catalyst is the market's verdict on Alphabet, Tesla, and late-week semiconductor earnings. EN Volume/Liquidity / 中文成交量/流动性: QQQ is highly liquid and usually cleaner than forcing single-name risk in the first hour.",
+        "risk": "EN: Narrow leadership, failed-gap risk, and rate sensitivity.\n中文：领涨过窄、缺口失败风险，以及利率敏感性。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: QQQ remains tonight's central earnings tape expression.\n中文：QQQ仍是今晚最核心的财报盘表达工具。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only consider IWM if the Russell stabilizes after the open, breadth improves, and HYG/LQD do not signal fresh stress. EN Position/quantity guide: roughly 4-8% ETF exposure.\n中文：只有在罗素指数开盘后企稳、市场宽度改善、且HYG/LQD没有发出新的压力信号时，才考虑IWM。中文仓位/数量参考：ETF敞口约4-8%。",
+        "suggestedProfitTake": "EN: Trim quickly if the first move stalls or if speculative names are strong while IWM itself lags. If breadth does not confirm, keep it watch-only.\n中文：如果第一波就停滞，或投机股很强但IWM本身跟不上，就快速止盈。如果市场宽度不确认，就维持只观察。",
+        "type": "EN: small-cap ETF\n中文：小盘ETF",
+        "catalyst": "EN: Breadth, credit, and reaction to macro data.\n中文：市场宽度、信用与宏观数据反应。",
+        "why": "EN Fundamentals / 中文基本面: IWM is the cleanest way to test whether risk appetite is broadening beyond large-cap tech; it is not about one income statement but about the market's willingness to support smaller balance sheets. EN Technicals / 中文技术面: Needs an early base, VWAP hold, and preferably participation beyond a handful of speculative spikes. EN News/Catalyst / 中文消息面: The catalysts are macro data, credit tone, and whether earnings winners broaden beyond megacaps. EN Volume/Liquidity / 中文成交量/流动性: IWM is very liquid, but it is still a poor long if credit and breadth disagree with the tape.",
+        "risk": "EN: False risk-on signals and weak internal breadth.\n中文：假风险偏好信号与内部宽度偏弱。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: IWM still needs proof before it can validate more aggressive small-cap positioning.\n中文：IWM仍需要证明自己，才能验证更激进的小盘仓位。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for semis to confirm with a first-hour hold, VWAP reclaim, or opening-range breakout. EN Position/quantity guide: roughly 4-8% ETF exposure.\n中文：先等半导体用首小时守住、收复VWAP或突破开盘区间来确认。中文仓位/数量参考：ETF敞口约4-8%。",
+        "suggestedProfitTake": "EN: Trim if the move stalls while TXN/INTC and peers fail to broaden participation. If SMH is already beyond its expected range before you enter, do not chase.\n中文：如果走势停滞，且TXN/INTC及同类未能扩散参与度，就分批止盈。如果SMH在你入场前已经超出预期波动区间，就不要追高。",
+        "type": "EN: semiconductor ETF\n中文：半导体ETF",
+        "catalyst": "EN: TXN read-through, Intel tonight, and AI hardware spillover.\n中文：TXN映射、今晚Intel，以及AI硬件外溢。",
+        "why": "EN Fundamentals / 中文基本面: SMH is the most efficient way to express the market's view on semiconductor demand, margins, and AI hardware positioning without being forced to pick the single winner. EN Technicals / 中文技术面: The ETF still needs first-hour confirmation and preferably support above VWAP. EN News/Catalyst / 中文消息面: TXN, Intel, and SMCI together give the sector multiple catalysts across analog, turnaround, and AI-server segments. EN Volume/Liquidity / 中文成交量/流动性: SMH is liquid, but group confirmation matters more than any single-name spike.",
+        "risk": "EN: Narrow participation and post-earnings whipsaw.\n中文：参与度狭窄与财报后抽打。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SMH remains a cleaner semiconductor expression than forcing lower-liquidity single names.\n中文：SMH仍是比硬做低流动性个股更干净的半导体表达方式。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "XLC",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Consider XLC only if Alphabet's strength broadens into the communication-services basket and the ETF holds VWAP after the open. EN Position/quantity guide: roughly 4-8% ETF exposure.\n中文：只有在Alphabet的强势能扩散到通信服务篮子，且ETF开盘后守住VWAP时，才考虑XLC。中文仓位/数量参考：ETF敞口约4-8%。",
+        "suggestedProfitTake": "EN: Trim if the ETF cannot hold Alphabet-driven momentum or if the move becomes overextended before confirming in the regular session.\n中文：如果ETF无法维持Alphabet带来的动量，或在正股确认前已经过度延伸，就分批止盈。",
+        "type": "EN: communication services ETF\n中文：通信服务ETF",
+        "catalyst": "EN: Alphabet earnings and large-cap internet follow-through.\n中文：Alphabet财报与大型互联网延续。",
+        "why": "EN Fundamentals / 中文基本面: XLC benefits when the market rewards digital-ad, platform, and communication-services quality without forcing one-stock concentration. EN Technicals / 中文技术面: Needs the same post-open discipline as GOOGL: VWAP hold, gap defense, and breadth support. EN News/Catalyst / 中文消息面: Alphabet is the primary verified catalyst, and the question is whether the strength broadens or stays isolated. EN Volume/Liquidity / 中文成交量/流动性: XLC is liquid enough for small-account execution and cleaner than chasing a single earnings name that already gapped.",
+        "risk": "EN: Isolated leadership and failed-gap rotation risk.\n中文：孤立式领涨与缺口失败轮动风险。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: XLC is a cleaner way to express Alphabet strength if the group follows.\n中文：如果板块跟随，XLC是表达Alphabet强势的更干净方式。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Only act if XLE holds VWAP after the open or breaks the opening range while crude remains firm. EN Position/quantity guide: roughly 4-8% ETF exposure.\n中文：只有在XLE开盘后守住VWAP，或在原油维持强势的同时突破开盘区间时，才考虑行动。中文仓位/数量参考：ETF敞口约4-8%。",
+        "suggestedProfitTake": "EN: Trim if XLE outruns crude, if oil headlines reverse, or if the move is already stretched before your entry.\n中文：如果XLE涨幅明显快于原油、油价headline反转，或你入场前走势已过度拉伸，就分批止盈。",
+        "type": "EN: energy ETF\n中文：能源ETF",
+        "catalyst": "EN: Oil headline risk, tariff-sensitive input prices, and geopolitical shipping stress.\n中文：油价headline风险、关税敏感投入品价格，以及地缘航运压力。",
+        "why": "EN Fundamentals / 中文基本面: XLE reflects commodity pricing and energy cash-flow sensitivity more than one company narrative, which can be useful when inflation and geopolitical shocks stay active. EN Technicals / 中文技术面: The valid trade still needs a regular-session VWAP hold or clean opening-range breakout. EN News/Catalyst / 中文消息面: Current catalysts include shipping-security headlines, Trump administration trade actions affecting industrial inputs, and the broader inflation channel. EN Volume/Liquidity / 中文成交量/流动性: XLE is highly liquid and cleaner than guessing which single oil or services name will react best to macro headlines.",
+        "risk": "EN: Sudden diplomacy headlines and oil reversals.\n中文：突发外交headline与油价反转。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: XLE stays relevant as long as oil and tariff headlines remain live.\n中文：只要油价与关税headline仍活跃，XLE就仍有观察价值。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Avoid unless SMH first confirms with a durable VWAP hold and broad chip participation for at least the first hour. EN Position/quantity guide: if used at all, keep it near 1-2% tactical exposure because leverage decay and path dependency are real.\n中文：除非SMH先确认，并在至少首小时内实现稳固VWAP守住和广泛芯片参与，否则回避。中文仓位/数量参考：即便使用，也应控制在约1-2%的战术敞口，因为杠杆损耗和路径依赖都是真实存在的。",
+        "suggestedProfitTake": "EN: Take profits quickly into any sharp extension and avoid default overnight holding. If semis hesitate, get out rather than waiting for leverage to work against you.\n中文：若出现快速拉升，要迅速止盈，并避免默认隔夜持有。如果半导体开始犹豫，就离场，不要等杠杆反过来伤害你。",
+        "type": "EN: leveraged semiconductor ETF\n中文：杠杆半导体ETF",
+        "catalyst": "EN: Semiconductor earnings and AI hardware momentum.\n中文：半导体财报与AI硬件动量。",
+        "why": "EN Fundamentals / 中文基本面: SOXL is not a fundamentals vehicle; it is a leveraged expression of the semiconductor trade, which means path dependency can overwhelm a basically correct sector view. EN Technicals / 中文技术面: Needs a clean SMH confirmation first; never treat the leverage itself as a signal. EN News/Catalyst / 中文消息面: The catalyst is the sector's earnings tape, but that does not make every move suitable for leverage. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is good, but leverage decay and volatility expansion make it one of the most unforgiving instruments on the dashboard.",
+        "risk": "EN: Leverage decay, path dependency, and overnight gap risk.\n中文：杠杆损耗、路径依赖与隔夜跳空风险。",
+        "convictionScore": 1,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SOXL remains an execution instrument, not a default idea.\n中文：SOXL仍然只是执行工具，而不是默认交易想法。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: Catalyst Timing And Setup Stage\n中文：催化时点与设置阶段",
+        "items": [
+          "EN: GOOGL and TSLA are no longer early-discovery names. Their catalysts already triggered after the U.S. close on Wednesday, July 22, 2026, so tonight's real edge is whether regular-session buyers or sellers confirm the after-hours move. GOOGL is in progress; TSLA is avoid chase until failed-bounce confirmation appears.\n中文：GOOGL和TSLA都不再是“早期发现”标的。它们的催化已在2026年7月22日周三美股收盘后触发，因此今晚真正的优势在于正股时段买卖盘是否确认盘后走势。GOOGL属于in progress；TSLA在出现反弹失败确认前属于avoid chase。",
+          "EN: GEV and SMCI both proved the same process lesson from opposite directions: a high-quality catalyst does not automatically create a high-quality entry. GEV is now wait for pullback / repair; SMCI is extended and only valid on a second-wave setup.\n中文：GEV和SMCI从相反方向验证了同一个流程教训：高质量催化并不自动等于高质量入场。GEV现在属于wait for pullback / repair；SMCI则已extended，只在二波设置中才有效。",
+          "EN: T and INTC sit in different timing buckets. T is an actionable same-day earnings reaction candidate if the open behaves well; INTC is a pre-catalyst setup into tonight's report and should not be confused with a post-catalyst trigger.\n中文：T和INTC处在不同的时点分类中。T如果开盘表现良好，就属于当日财报反应型候选；INTC则是等待今晚财报的提前催化设置，不能和事后触发型机会混为一谈。"
+        ]
+      },
+      {
+        "title": "EN: Pre-Catalyst Watchlist\n中文：提前催化预警",
+        "items": [
+          "EN: INTC | Catalyst date/time: 2026-07-23 after U.S. close | Catalyst type: earnings | Why it could move: foundry losses, AI positioning, and capital discipline can swing semi sentiment late in the day | Expected direction bias: short/watch | RiskLevel: yellow | Stage: early | No-chase rule: do not front-run a random morning downtick; wait for failed-bounce confirmation or keep it watch-only into earnings.\n中文：INTC | 催化日期/时间：2026-07-23 美股收盘后 | 催化类型：财报 | 可能波动原因：代工亏损、AI定位与资本纪律会在尾盘摆动半导体情绪 | 方向偏向：short/watch | 风险等级：yellow | 阶段：early | 不追高规则：不要提前抢一根随机早盘下跌；要么等反弹失败确认，要么在财报前只观察。",
+          "EN: T | Catalyst date/time: 2026-07-23 before U.S. open | Catalyst type: earnings / buyback / cash-flow update | Why it could move: a selective tape may reward cash-flow durability more than speculative beta | Expected direction bias: long/watch | RiskLevel: green | Stage: early | No-chase rule: if the gap immediately fades below VWAP, do not force the long.\n中文：T | 催化日期/时间：2026-07-23 美股开盘前 | 催化类型：财报 / 回购 / 现金流更新 | 可能波动原因：在分化盘中，市场可能更奖励现金流耐久性，而不是投机beta | 方向偏向：long/watch | 风险等级：green | 阶段：early | 不追高规则：如果缺口一开盘就跌回VWAP下方，就不要硬做多。",
+          "EN: HON | Catalyst date/time: 2026-07-23 before U.S. open | Catalyst type: earnings | Why it could move: industrial demand, margin quality, and aerospace exposure can reset the industrial tape | Expected direction bias: watch | RiskLevel: yellow | Stage: early | No-chase rule: wait for XLI and the opening range; do not react to the first headline alone.\n中文：HON | 催化日期/时间：2026-07-23 美股开盘前 | 催化类型：财报 | 可能波动原因：工业需求、利润率质量与航空航天敞口会重置工业板块情绪 | 方向偏向：watch | 风险等级：yellow | 阶段：early | 不追高规则：先等XLI和开盘区间，不要只凭第一条headline行动。",
+          "EN: RTX | Catalyst date/time: 2026-07-23 before U.S. open | Catalyst type: earnings | Why it could move: defense, aerospace, and supply-chain commentary can matter in a tariff-and-geopolitics tape | Expected direction bias: long/watch | RiskLevel: yellow | Stage: early | No-chase rule: if the stock gaps without XLI/peer confirmation, wait.\n中文：RTX | 催化日期/时间：2026-07-23 美股开盘前 | 催化类型：财报 | 可能波动原因：在关税与地缘盘中，国防、航空与供应链评论都很重要 | 方向偏向：long/watch | 风险等级：yellow | 阶段：early | 不追高规则：如果个股跳空但XLI/同类不确认，就等待。",
+          "EN: FCX | Catalyst date/time: 2026-07-23 before U.S. open | Catalyst type: earnings / copper read-through | Why it could move: copper demand and cost commentary can update the industrial and electrification trade | Expected direction bias: watch/long | RiskLevel: yellow | Stage: early | No-chase rule: do not buy a gap unless metals and cyclicals confirm after the open.\n中文：FCX | 催化日期/时间：2026-07-23 美股开盘前 | 催化类型：财报 / 铜价映射 | 可能波动原因：铜需求与成本评论会更新工业与电气化交易逻辑 | 方向偏向：watch/long | 风险等级：yellow | 阶段：early | 不追高规则：除非金属与周期股在开盘后一起确认，否则不要追跳空。",
+          "EN: CMCSA | Catalyst date/time: 2026-07-23 before U.S. open | Catalyst type: earnings | Why it could move: broadband, media, and defensive cash-flow mix can matter if investors rotate away from pure growth | Expected direction bias: watch | RiskLevel: yellow | Stage: early | No-chase rule: treat the first hour as the filter because headline reactions can reverse quickly.\n中文：CMCSA | 催化日期/时间：2026-07-23 美股开盘前 | 催化类型：财报 | 可能波动原因：如果资金从纯成长切换出来，宽带、媒体与防守型现金流组合会变得更重要 | 方向偏向：watch | 风险等级：yellow | 阶段：early | 不追高规则：把首小时当作过滤器，因为headline反应经常快速反转。",
+          "EN: TMUS | Catalyst date/time: 2026-07-23 before U.S. open | Catalyst type: earnings | Why it could move: subscriber quality and pricing power can reset the telecom pecking order | Expected direction bias: watch/long | RiskLevel: yellow | Stage: early | No-chase rule: compare it with T; if it gaps too far without follow-through, do not chase.\n中文：TMUS | 催化日期/时间：2026-07-23 美股开盘前 | 催化类型：财报 | 可能波动原因：用户质量与定价能力会重置电信板块强弱排序 | 方向偏向：watch/long | 风险等级：yellow | 阶段：early | 不追高规则：要和T对比看；若它跳得太高却没有跟随，就不要追。",
+          "EN: NEM | Catalyst date/time: 2026-07-23 before U.S. open | Catalyst type: earnings / gold sensitivity | Why it could move: gold, rates, and geopolitical hedging demand still matter in a volatile macro tape | Expected direction bias: watch | RiskLevel: yellow | Stage: early | No-chase rule: if gold and miners diverge, stay cautious.\n中文：NEM | 催化日期/时间：2026-07-23 美股开盘前 | 催化类型：财报 / 黄金敏感度 | 可能波动原因：在波动宏观盘中，黄金、利率与地缘避险需求仍然重要 | 方向偏向：watch | 风险等级：yellow | 阶段：early | 不追高规则：如果黄金和金矿股出现背离，就保持谨慎。",
+          "EN: DLR | Catalyst date/time: 2026-07-23 time not fully verified | Catalyst type: earnings / data-center read-through | Why it could move: data-center demand and hyperscaler capex can spill into the broader AI infrastructure complex | Expected direction bias: watch/long | RiskLevel: yellow | Stage: early | No-chase rule: let the regular session prove the move; do not front-run a thin print.\n中文：DLR | 催化日期/时间：2026-07-23 时间未完全核实 | 催化类型：财报 / 数据中心映射 | 可能波动原因：数据中心需求与超大规模云资本开支会外溢到更广泛的AI基础设施链条 | 方向偏向：watch/long | 风险等级：yellow | 阶段：early | 不追高规则：让正股时段来证明行情，不要抢薄量报价。",
+          "EN: SMCI | Catalyst date/time: 2026-07-22 after U.S. close | Catalyst type: preliminary update | Why it could move: margin recovery and more than $60 billion of orders changed the AI hardware narrative fast | Expected direction bias: watch | RiskLevel: red | Stage: extended | No-chase rule: missed move / avoid chase unless a fresh secondary setup forms during the regular session.\n中文：SMCI | 催化日期/时间：2026-07-22 美股收盘后 | 催化类型：预披露更新 | 可能波动原因：利润率修复与超过600亿美元订单快速改变了AI硬件叙事 | 方向偏向：watch | 风险等级：red | 阶段：extended | 不追高规则：属于“错过行情 / 避免追高”，除非正股时段形成新的二次设置。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
+        "items": [
+          "EN: Cboe VIX data still describe an elevated-but-not-panicked index-volatility regime. That means SPY/QQQ/IWM options can still be useful as volatility maps, but single-name event vol in GOOGL, TSLA, INTC, and SMCI matters more than the broad VIX level tonight.\n中文：Cboe的VIX数据仍描述的是“高于常态但未到恐慌”的指数波动环境。这意味着SPY/QQQ/IWM期权仍可作为波动率地图使用，但今晚真正更重要的是GOOGL、TSLA、INTC和SMCI的个股事件波动，而不是广义VIX点位本身。",
+          "EN: Practical rule: compare the actual opening move with the implied move. If the opening drive already consumes most of the expected range, late option premium often has poor reward/risk even when the direction feels obvious. This is especially true in TSLA weeklys and post-gap semis.\n中文：实战规则：把实际开盘波动和隐含波动做比较。如果开盘第一段已经消耗掉大部分预期区间，那么即便方向“看起来很明显”，后手买权利金往往也没有好性价比。TSLA周度期权和跳空后的半导体尤其如此。",
+          "EN: Pin and gamma behavior matter more after a large overnight gap. If SPY, QQQ, or event names compress around round-number strikes later in the day, do not confuse a dealer-positioning stall with a new directional edge. Smaller accounts should usually keep premium near 0.5-1.0% of account, and <=0.5% for red-risk speculative weeklies.\n中文：在隔夜大缺口之后，钉仓与gamma行为更重要。如果SPY、QQQ或事件股在日内后段围绕整数执行价压缩，不要把做市商定位带来的停滞误判成新的方向优势。小账户通常应把权利金控制在账户0.5-1.0%左右，而红色风险的投机周度期权更应控制在<=0.5%。"
+        ]
+      },
+      {
+        "title": "EN: Entry Timing And Risk Controls\n中文：入场时机与风险控制",
+        "items": [
+          "EN: Premarket and after-hours prints are information, not confirmation. Thin extended-hours moves in SMCI, TSLA, GOOGL, WULF, and AAOI are not enough by themselves; wait for the cash-session tape to show VWAP behavior, opening-range structure, and relative volume.\n中文：盘前和盘后报价提供的是信息，而不是确认。SMCI、TSLA、GOOGL、WULF和AAOI这些名字在延长时段的薄量波动本身并不够；要等正股时段通过VWAP表现、开盘区间结构和相对成交量来确认。",
+          "EN: The first pullback matters more than the first spike. For longs, a clean first-pullback hold or VWAP reclaim is usually safer than chasing a vertical candle; for shorts, a failed bounce is usually safer than shorting the first hole.\n中文：第一次回踩比第一波冲高更重要。对多头而言，第一次回踩守住或收复VWAP，通常比追一根垂直大阳更安全；对空头而言，等反弹失败通常比空第一根下挫更安全。",
+          "EN: Respect small-account mechanics. PDT limits, cash-account settlement rules, wide option bid/ask spreads, leverage decay in products like SOXL, and overnight gap risk all argue for smaller sizing than the story alone might tempt you to use.\n中文：要尊重小账户机制。PDT限制、现金账户交割规则、期权宽买卖价差、SOXL这类产品的杠杆损耗，以及隔夜跳空风险，都说明仓位应该比故事本身诱导你的更小。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Metrics Check\n中文：基本面指标检查",
+        "items": [
+          "EN: Today's tape rewarded verified revenue and cloud acceleration at Alphabet, but it still forced investors to think about capex because the company's 2026 capex guide rose to roughly $195-$205 billion. Quality helps, but valuation sensitivity remains real.\n中文：今天的盘面奖励了Alphabet经验证的营收与云业务加速，但市场仍被迫思考资本开支，因为公司2026年资本开支指引升至约1950-2050亿美元。质量有用，但估值敏感度仍真实存在。",
+          "EN: Tesla reminded the market that revenue growth alone is not enough when profit and cash-generation quality weaken. GEV also proved that even backlog and raised guidance can still be punished if margin quality or expectations fall short.\n中文：Tesla提醒市场：当利润与现金生成质量走弱时，只有营收增长是不够的。GEV也证明，即便有积压订单和上调指引，如果利润率质量或市场预期不及要求，股价仍会被惩罚。",
+          "EN: On the positive side, Super Micro's preannouncement mattered because it was not just a story stock move; margin expectations improved sharply and orders topped $60 billion. On the defensive side, AT&T matters because cash-flow confidence and buyback capacity can outperform when the market turns selective.\n中文：积极的一面是，Super Micro的预披露之所以重要，不只是故事股上涨；而是利润率预期明显改善，且订单超过600亿美元。防守的一面是，AT&T之所以重要，是因为当市场转向精选时，现金流信心与回购能力往往能跑赢。"
+        ]
+      },
+      {
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
+        "items": [
+          "EN: Alphabet delivered the cleanest post-earnings quality message. Tesla delivered the clearest negative event reaction. GE Vernova delivered the best reminder that a good company is not automatically a good immediate trade.\n中文：Alphabet给出了最干净的财报后“质量”信号；Tesla给出了最清晰的负面事件反应；GE Vernova则最好地提醒了大家：好公司并不自动等于短线好交易。",
+          "EN: Semiconductors stay important, but the sector now needs proof across TXN, SMH, and tonight's Intel print rather than blind optimism. AI infrastructure remains alive through SMCI, GEV, WULF, and IREN, but execution quality is now the make-or-break factor.\n中文：半导体依然重要，但现在这个板块需要TXN、SMH和今晚Intel财报的共同证明，而不是盲目乐观。AI基础设施仍通过SMCI、GEV、WULF和IREN保持活跃，但现在决定成败的是执行质量。",
+          "EN: Telecom and defensive cash-flow names deserve more respect than usual in this environment. When the market is selective, a lower-beta but cleaner cash-return story can be more usable for a small account than a fashionable but already-extended AI mover.\n中文：在当前环境下，电信和防守型现金流标的比平时更值得尊重。当市场进入精选状态时，对小账户而言，一个低beta但资本回报更清晰的故事，往往比一个流行但已经延伸的AI热门股更可用。"
+        ]
+      },
+      {
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
+        "items": [
+          "EN: The key technology message is that AI spending is still real, but the market is discriminating harder between spend that monetizes and spend that only inflates capex. Alphabet was rewarded for real cloud acceleration; Tesla was not given the same forgiveness for weaker profit quality.\n中文：当前科技主线的核心信息是：AI支出仍然真实存在，但市场正在更严格地区分“能变现的投入”和“只会抬高资本开支的投入”。Alphabet因真实的云业务加速而受奖赏；Tesla则没有因利润质量偏弱而获得同样的原谅。",
+          "EN: SMCI's margin reset and order commentary revived the AI hardware complex, but not every sympathy trade is equally good. Use SMH, server peers, and optical names as a confirmation ladder rather than assuming every AI-adjacent ticker should rip together.\n中文：SMCI的利润率重置和订单评论重新点燃了AI硬件链条，但并不是每一笔映射交易都同样优秀。更好的做法是把SMH、服务器同类和光通信名字当作“确认阶梯”，而不是假设所有AI相关标的都会一起暴涨。",
+          "EN: Power and data-center infrastructure still matter because AI demand is an electricity story as much as a software story. That keeps GEV, WULF, and similar names on watch, but mostly for secondary entries instead of first-wave chases.\n中文：电力和数据中心基础设施仍然重要，因为AI需求既是软件故事，也是用电故事。因此GEV、WULF及类似名字仍值得观察，但主要偏向二次入场，而不是第一波追高。"
+        ]
+      },
+      {
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
+        "items": [
+          "EN: The Trump administration's July 20, 2026 White House actions on additional tariffs on Canada and new aluminum import adjustments keep trade and input-cost policy alive for autos, industrials, metals, and inflation-sensitive sectors. That does not create an instant trade every night, but it does raise headline sensitivity for FCX, XLI, autos, and downstream manufacturers.\n中文：特朗普政府在2026年7月20日通过白宫发布的“对加拿大额外加征关税”和“调整铝进口措施”，让贸易与投入成本政策继续影响汽车、工业、金属以及通胀敏感板块。这不会每晚都自动生成交易，但会提升FCX、XLI、汽车股和下游制造商的headline敏感度。",
+          "EN: The White House's July 21, 2026 trade deal announcement with Jordan is more constructive for supply-chain diplomacy than for immediate tape direction, but it reinforces that trade architecture remains an active policy tool rather than a stale background theme.\n中文：白宫在2026年7月21日宣布与约旦达成贸易协议，这对供应链外交的意义大于对当晚盘面的直接影响，但它再次说明：贸易架构仍是活跃政策工具，而不是过时背景噪音。",
+          "EN: The cleaner market takeaway is practical: treat tariffs, trade deals, and industrial-policy headlines as inputs to sector risk and margin assumptions, not as stand-alone reasons to ignore price, volume, and regular-session confirmation.\n中文：更干净的市场结论是实用性的：把关税、贸易协议和产业政策headline视为板块风险与利润率假设的输入，而不是脱离价格、成交量和正股确认后单独行动的理由。"
+        ]
+      },
+      {
+        "title": "EN: Credit Positioning And Market Internals\n中文：信用定位与市场内部结构",
+        "items": [
+          "EN: No fresh verified credit-spread shock was visible in the reviewed pre-open sources, which means the market is still better described as selective rather than fully defensive. But that is not a green light to ignore HYG/LQD if the open turns messy.\n中文：在当前盘前已审阅的资料中，没有看到新的、经过验证的信用利差冲击，这意味着市场更像“选择性交易”，而不是全面防守。但这并不是让你在开盘变乱时忽略HYG/LQD的许可。",
+          "EN: Internal confirmation matters more than a few flashy tickers. If SPY/QQQ hold while IWM and breadth lag, then high-beta longs should stay smaller and quicker. If breadth broadens and IWM participates, then second-wave setups improve.\n中文：内部确认比少数炫目的个股更重要。如果SPY/QQQ守住，但IWM和市场宽度落后，那么高beta多头就应做得更小、更快。如果宽度扩散且IWM参与，二波设置的质量才会提升。",
+          "EN: This is why the briefing keeps returning to the same discipline: breadth, VWAP, opening range, relative volume, and credit filters first; stories second.\n中文：这也是为什么本简报反复回到同一纪律：先看市场宽度、VWAP、开盘区间、相对成交量和信用过滤器；故事排在后面。"
+        ]
+      },
+      {
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
+        "items": [
+          "EN: Thursday, July 23, 2026 brings a dense but practical calendar: weekly jobless claims at 08:30 ET, S&P Global Flash U.S. PMI at 09:45 ET, a large batch of premarket earnings, and Intel after the close.\n中文：2026年7月23日周四的日历既密集又实用：08:30 ET有每周初请失业金，09:45 ET有标普全球美国闪电PMI，还有一批盘前财报，以及收盘后的Intel财报。",
+          "EN: The latest official jobless-claims release before today's session showed 208,000 initial claims for the week ended July 11, which keeps labor-market deterioration from being the dominant macro narrative for now. Tonight's update still matters because a hotter print could hit yields, breadth, and small-cap appetite quickly.\n中文：在今天这场交易前，最近一次官方初请失业金数据显示截至7月11日当周初请为20.8万人，这说明劳动力市场恶化暂时还不是主导性宏观叙事。但今晚的新数据仍然重要，因为若明显偏热，收益率、市场宽度和小盘风险偏好都可能迅速受压。",
+          "EN: S&P Global's pre-release commentary flagged war, oil, supply chains, and hiring as the key pressure points for July flash PMI data. That makes the PMI read especially relevant for XLI, XLE, cyclicals, and rate-sensitive growth.\n中文：标普全球在正式发布前的评论里，把战争、油价、供应链和招聘列为7月闪电PMI的关键压力点。因此，这次PMI对XLI、XLE、周期股和利率敏感成长股都格外重要。"
+        ]
+      },
+      {
+        "title": "EN: Why It Matters\n中文：为什么重要",
+        "items": [
+          "EN: The market is not paying equally for every growth story anymore. It is paying for verified revenue, cash-flow quality, and regular-session confirmation, while punishing capex-heavy or margin-fragile setups that arrive without discipline.\n中文：市场已经不再对每一个成长故事一视同仁。它正在为“经验证的营收、现金流质量和正股确认”付费，同时惩罚那些“高资本开支、利润率脆弱、且没有执行纪律”的设置。",
+          "EN: That is good news for a small account if the process is strict enough. You do not need to predict everything; you need to know which names are early, which are triggered but extended, and which only become real after a first-hour repair.\n中文：如果流程足够严格，这对小账户其实是好消息。你不需要预测一切；你需要知道哪些名字还在early，哪些已经触发但过度延伸，哪些必须等首小时修复后才变成真正机会。",
+          "EN: Source context / 中文来源背景： This briefing used primary company releases, SEC and Treasury data, White House and USTR policy documents, Cboe volatility pages, and high-quality reporting from Reuters, AP, WSJ, and S&P Global to avoid headline-only ideas.\n中文：本简报使用了公司一手公告、SEC与美国财政部数据、白宫与USTR政策文件、Cboe波动率页面，以及Reuters、AP、WSJ和S&P Global等高质量报道，尽量避免只靠headline构建交易想法。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: Reuters markets coverage / 中文：Reuters市场报道",
+        "confidence": "High-quality reporting",
+        "url": "https://www.reuters.com/markets/"
+      },
+      {
+        "label": "EN: Wall Street Journal live market coverage for Wednesday, July 22, 2026 / 中文：华尔街日报 - 2026年7月22日周三市场直播报道",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026"
+      },
+      {
+        "label": "EN: U.S. Department of the Treasury - Daily Treasury Par Yield Curve Rates / 中文：美国财政部 - 每日国债收益率曲线",
+        "confidence": "Primary",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+      },
+      {
+        "label": "EN: Cboe VIX data / 中文：Cboe VIX数据",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/tradable_products/vix/"
+      },
+      {
+        "label": "EN: Cboe delayed quotes - SPY options / 中文：Cboe延迟报价 - SPY期权",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/delayed_quotes/spy/quote_table"
+      },
+      {
+        "label": "EN: Cboe delayed quotes - QQQ options / 中文：Cboe延迟报价 - QQQ期权",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/delayed_quotes/qqq/quote_table"
+      },
+      {
+        "label": "EN: Cboe delayed quotes - IWM options / 中文：Cboe延迟报价 - IWM期权",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/delayed_quotes/iwm/quote_table"
+      },
+      {
+        "label": "EN: Tesla investor relations - Q2 2026 production and deliveries / 中文：Tesla投资者关系 - 2026年Q2产量与交付",
+        "confidence": "Primary",
+        "url": "https://ir.tesla.com/press-release/tesla-q2-2026-vehicle-production-deliveries-company-webcast"
+      },
+      {
+        "label": "EN: Intel - First-quarter 2026 financial results and Q2 outlook / 中文：Intel - 2026年第一季度业绩与Q2展望",
+        "confidence": "Primary",
+        "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-reports-first-quarter-2026-financial-results.html"
+      },
+      {
+        "label": "EN: Texas Instruments investor relations - Q1 2026 earnings release / 中文：Texas Instruments投资者关系 - 2026年Q1业绩发布",
+        "confidence": "Primary",
+        "url": "https://investor.ti.com/q1-2026-earnings-release"
+      },
+      {
+        "label": "EN: GE Vernova SEC filing - Q1 2026 results / 中文：GE Vernova SEC文件 - 2026年Q1业绩",
+        "confidence": "Primary",
+        "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000063/gevpressrelease1q26.htm"
+      },
+      {
+        "label": "EN: TeraWulf official release - Anthropic lease and Abernathy sale / 中文：TeraWulf官方公告 - Anthropic租约与Abernathy出售",
+        "confidence": "Primary",
+        "url": "https://investors.terawulf.com/news-events/press-releases/detail/142/terawulf-announces-anthropic-lease-at-justified-data-campus-and-sale-of-majority-interest-in-abernathy-joint-venture-to-fluidstack"
+      },
+      {
+        "label": "EN: IREN official release - $3.65 billion GPU financing / 中文：IREN官方公告 - 36.5亿美元GPU融资",
+        "confidence": "Primary",
+        "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-closes-365bn-investment-grade-gpu-financing"
+      },
+      {
+        "label": "EN: Aehr Test Systems - fiscal 2026 Q4 results / 中文：Aehr Test Systems - 2026财年Q4业绩",
+        "confidence": "Primary",
+        "url": "https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/"
+      },
+      {
+        "label": "EN: Critical Metals - strategic process focused on Tanbreez / 中文：Critical Metals - 聚焦Tanbreez的战略流程",
+        "confidence": "Primary",
+        "url": "https://www.criticalmetalscorp.com/critical-metals-corp-announces-strategic-process-to-unlock-inherent-value-of-non-core-assets/"
+      },
+      {
+        "label": "EN: White House - Additional tariffs on Canada, July 20, 2026 / 中文：白宫 - 2026年7月20日对加拿大额外加征关税",
+        "confidence": "Primary",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-imposes-additional-tariffs-on-canada/?query-11-page=3"
+      },
+      {
+        "label": "EN: White House - Further action on aluminum imports, July 20, 2026 / 中文：白宫 - 2026年7月20日进一步调整铝进口措施",
+        "confidence": "Primary",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-takes-further-action-to-adjust-imports-of-aluminum-into-the-united-states/?query-11-page=141"
+      },
+      {
+        "label": "EN: White House - Trade deal with Jordan, July 21, 2026 / 中文：白宫 - 2026年7月21日与约旦的贸易协议",
+        "confidence": "Primary",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-announces-trade-deal-with-jordan/?query-11-page=113"
+      },
+      {
+        "label": "EN: USTR - Section 301 action on Brazil, July 15, 2026 / 中文：USTR - 2026年7月15日针对巴西的301措施",
+        "confidence": "Primary",
+        "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-section-301-action-brazils-unreasonable-acts-policies-and-practices"
+      },
+      {
+        "label": "EN: U.S. Department of Labor ETA releases page / 中文：美国劳工部ETA发布页",
+        "confidence": "Primary",
+        "url": "https://www.dol.gov/newsroom/releases/eta?date=2026&page=0"
+      },
+      {
+        "label": "EN: S&P Global - July 2026 flash PMI preview commentary / 中文：标普全球 - 2026年7月闪电PMI前瞻评论",
+        "confidence": "Calendar",
+        "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/flash-pmi-surveys-to-help-assess-ongoing-war-impact"
+      },
+      {
+        "label": "EN: S&P Global PMI release calendar / 中文：标普全球PMI发布时间表",
+        "confidence": "Calendar",
+        "url": "https://www.pmi.spglobal.com/public/release/pressreleases?language=pl"
+      }
+    ]
+  },
+  {
     "date": "2026-07-22",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-07-22T09:43:12+0800",
