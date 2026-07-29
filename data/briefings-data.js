@@ -1,5 +1,458 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-07-29",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-07-29 09:20 GMT+8",
+    "title": "EN: U.S. Market Brief - 2026-07-29\n中文：美股市场简报 - 2026-07-29",
+    "tone": "EN: Today is a high-event-risk session: FOMC decision during U.S. hours, Boeing/UPS before the open, Microsoft and Meta after the close, then Apple and Amazon tomorrow. The edge is not chasing the loudest gap; it is identifying early catalysts, waiting for regular-session confirmation, and keeping high-beta size small.\n中文：今天是高事件风险交易日：美股时段有FOMC决议，Boeing/UPS盘前财报，Microsoft和Meta盘后财报，明天还有Apple和Amazon。真正优势不是追最响亮的跳空，而是提前识别催化、等待正股时段确认，并把高beta仓位控制小。",
+    "priorities": [
+      "EN: FOMC first, tickers second. If yields and the dollar rise after the decision, reduce QQQ/SOXL/high-beta exposure even if one single name looks strong.\n中文：先看FOMC，再看个股。若决议后收益率和美元上行，即使单一个股强，也要降低QQQ/SOXL/高beta敞口。",
+      "EN: Microsoft and Meta are the main after-close volatility engines. Treat pre-earnings moves as positioning, not confirmation.\n中文：Microsoft和Meta是盘后主要波动引擎。财报前走势只能算资金布局，不算确认。",
+      "EN: BA and UPS are morning read-throughs for industrials, logistics, demand and margin pressure; do not chase their first print before the first 30-60 minutes.\n中文：BA和UPS盘前财报会映射工业、物流、需求和利润率压力；不要在前30-60分钟确认前追第一根波动。",
+      "EN: Pre-catalyst work matters more today than after-the-fact explanations. Watch tomorrow's AAPL/AMZN and next 1-5 day small/mid-cap catalysts before they move.\n中文：今天提前催化比事后解释更重要。要在AAPL/AMZN明天财报、以及未来1-5天中小盘催化真正启动前观察。",
+      "EN: For small capital, use 1-3% exposure for red-risk high beta and 0.5% or less premium for weekly speculative options.\n中文：对小资金，红色高风险高beta正股敞口控制在1-3%，周度投机期权权利金通常控制在0.5%以内。"
+    ],
+    "summary": [
+      "EN: The July 28 briefing caught the correct catalyst window for BA, UPS, MSFT, META, AAPL and AMZN, but today's automation failed to publish the July 29 entry on time; this manual rebuild restores the dashboard.\n中文：7月28日简报已经把BA、UPS、MSFT、META、AAPL、AMZN的催化窗口列出，但今天自动化未能准时发布7月29日条目；这份手动重建用于恢复网站。",
+      "EN: The market is entering a decision cluster where macro, rates, mega-cap AI capex, advertising demand, cloud growth and industrial cash flow all collide in 24-36 hours.\n中文：市场进入事件集群：宏观、利率、大型科技AI资本开支、广告需求、云增长和工业现金流会在24-36小时内集中碰撞。",
+      "EN: PYPL/AEHR-style missed surges are now treated as a process problem: the daily brief must include a pre-catalyst watchlist, not just post-surge explanations.\n中文：PYPL/AEHR这类错过的大涨现在被视为流程问题：每日简报必须加入提前催化预警，而不是只在上涨后解释。",
+      "EN: Tonight's cleaner long lane is liquid and confirmation-based: MSFT/META only after post-report structure, QQQ only after FOMC digestion, and AAPL/AMZN mostly as pre-catalyst watch.\n中文：今晚更干净的多头路径是高流动性且需要确认：MSFT/META等财报后结构，QQQ等FOMC消化，AAPL/AMZN主要作为提前催化观察。",
+      "EN: The highest-risk lane is small/mid-cap event momentum such as AEHR, WULF, IREN, HIMS and SOFI; most should be watched for secondary entries, not chased after the first gap.\n中文：最高风险路径是AEHR、WULF、IREN、HIMS、SOFI这类中小盘事件动量；多数适合等二次入场，而不是追第一波缺口。",
+      "EN: If FOMC creates a fast two-way move, avoid short-dated options until direction, IV and spreads settle.\n中文：如果FOMC造成快速双向波动，等方向、IV和价差稳定后再考虑短期期权。"
+    ],
+    "marketPulse": {
+      "S&P 500 / SPY": {
+        "value": "EN: Use SPY first-hour VWAP and opening range as the regime filter.\n中文：用SPY首小时VWAP和开盘区间作为市场状态过滤器。",
+        "note": "EN: A green open that fails after FOMC is lower quality than a flat open that holds breadth.\n中文：FOMC后冲高回落的绿色开盘，质量低于平开但市场宽度稳定的盘面。"
+      },
+      "Nasdaq / QQQ": {
+        "value": "EN: QQQ is dominated by MSFT/META positioning today and AAPL/AMZN tomorrow.\n中文：QQQ今天主要受MSFT/META布局影响，明天继续受AAPL/AMZN影响。",
+        "note": "EN: If QQQ cannot hold VWAP into FOMC, single-name tech longs should be smaller.\n中文：若QQQ在FOMC前守不住VWAP，科技个股多头仓位应更小。"
+      },
+      "Russell 2000 / IWM": {
+        "value": "EN: IWM is the small-cap risk appetite test.\n中文：IWM是小盘风险偏好测试器。",
+        "note": "EN: High-beta trades need IWM or at least sector peer confirmation.\n中文：高beta交易需要IWM或至少同板块确认。"
+      },
+      "Rates / Dollar": {
+        "value": "EN: FOMC can reset yields and the dollar after 14:00 ET.\n中文：FOMC可能在美东14:00后重置收益率和美元。",
+        "note": "EN: Rising yields raise the bar for AI/growth breakouts.\n中文：收益率上行会提高AI/成长股突破门槛。"
+      },
+      "Volatility / Options": {
+        "value": "EN: Event IV is concentrated in MSFT, META, AAPL, AMZN and index weeklies.\n中文：事件隐含波动集中在MSFT、META、AAPL、AMZN和指数周度期权。",
+        "note": "EN: Direction can be right but still lose to IV crush after earnings.\n中文：方向判断正确也可能输给财报后的IV crush。"
+      },
+      "Credit / Liquidity": {
+        "value": "EN: Watch HYG/LQD and market breadth for confirmation.\n中文：用HYG/LQD和市场宽度确认。",
+        "note": "EN: If credit lags and IWM fades, reduce speculative exposure first.\n中文：若信用走弱且IWM回落，先减少投机敞口。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: FOMC is digested without a yield spike, QQQ holds VWAP, MSFT/META positioning stays orderly, and breadth expands beyond mega-cap tech.\n中文：偏强情景：FOMC后没有收益率急升，QQQ守住VWAP，MSFT/META布局有序，市场宽度扩散到大型科技以外。",
+      "EN: Base case: index remains choppy until FOMC, then single-name earnings create separate winners and losers; use confirmation, not prediction-only entries.\n中文：基准情景：指数在FOMC前震荡，随后个股财报制造分化；用确认交易，不靠纯预测入场。",
+      "EN: Bear case: yields rise, QQQ loses first-hour low, and MSFT/META implied moves pressure the tape; then cash, hedges, or small size beat dip-buying.\n中文：偏弱情景：收益率上行，QQQ跌破首小时低点，MSFT/META隐含波动压制盘面；这时现金、对冲或小仓优于抄底。",
+      "EN: High-beta case: AEHR/PYPL-style names can still move, but after a first surge they should be marked extended unless a new secondary setup forms.\n中文：高beta情景：AEHR/PYPL式标的仍会波动，但第一波大涨后应标为伸展，除非形成新的二次设置。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "MSFT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Watch only after earnings or if pre-earnings price holds VWAP with QQQ confirmation; 3-6% stock exposure max before event.\n中文：只在财报后结构确认，或财报前价格守住VWAP且QQQ确认时观察；事件前正股敞口最高约3-6%。",
+        "reason": "EN: Azure/AI capex is the cleanest mega-cap read-through, but earnings gap risk is large.\n中文：Azure/AI资本开支是最清晰的大型科技映射，但财报跳空风险大。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "UPS",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "setup": "EN: Only on post-earnings failed bounce below VWAP; do not short the first down-tick.\n中文：只在财报后反弹失败且低于VWAP时偏空观察；不要空第一根下跌。",
+        "reason": "EN: Logistics demand and margin pressure can reveal weak business breadth.\n中文：物流需求和利润率压力可反映商业活动宽度是否走弱。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Use only after FOMC digestion and VWAP hold; 5-10% ETF exposure if confirmed.\n中文：只在FOMC消化且守住VWAP后使用；确认后ETF敞口约5-10%。",
+        "reason": "EN: Cleaner than forcing one mega-cap earnings bet.\n中文：比强行押单一大型科技财报更干净。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "earlyCatalystLong": {
+        "ticker": "AMZN",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Pre-catalyst watch for tomorrow; no chase before earnings unless QQQ/XLY and VWAP confirm.\n中文：作为明天财报提前催化观察；财报前若QQQ/XLY和VWAP不确认，不追。",
+        "reason": "EN: AWS, retail margins and AI capex can move the whole consumer/cloud tape.\n中文：AWS、零售利润率和AI资本开支会影响消费/云板块。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "AEHR",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Missed first surge; only secondary entry after digestion, VWAP reclaim and volume confirmation. 1-3% stock exposure max.\n中文：第一波已经错过；只看消化后的二次入场、VWAP收复和成交量确认。正股敞口最高约1-3%。",
+        "reason": "EN: Strong event momentum, but post-surge chase risk is extreme.\n中文：事件动量强，但大涨后追高风险极高。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "PYPL",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Deal-rumor move already happened; wait for confirmation, pullback, or official update.\n中文：并购传闻第一波已经发生；等待确认、回踩或官方更新。",
+        "reason": "EN: Upside is now more deal-arbitrage than clean momentum.\n中文：现在上行更多是并购套利，而不是干净动量。",
+        "convictionScore": 2,
+        "timeframe": "watch"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-07-29 before U.S. open",
+        "event": "EN: Boeing and UPS earnings\n中文：Boeing与UPS财报",
+        "watch": "EN: Industrial cash flow, logistics demand, margins.\n中文：工业现金流、物流需求、利润率。",
+        "relatedTickers": "BA, UPS, XLI, IYT"
+      },
+      {
+        "date": "2026-07-29 14:00 ET",
+        "event": "EN: FOMC decision\n中文：FOMC利率决议",
+        "watch": "EN: Yields, dollar, QQQ, IWM, TLT.\n中文：收益率、美元、QQQ、IWM、TLT。",
+        "relatedTickers": "SPY, QQQ, IWM, TLT"
+      },
+      {
+        "date": "2026-07-29 after U.S. close",
+        "event": "EN: Microsoft and Meta earnings\n中文：Microsoft与Meta财报",
+        "watch": "EN: Azure, AI capex, ads, margins, guidance.\n中文：Azure、AI资本开支、广告、利润率、指引。",
+        "relatedTickers": "MSFT, META, QQQ"
+      },
+      {
+        "date": "2026-07-30 after U.S. close",
+        "event": "EN: Apple and Amazon earnings\n中文：Apple与Amazon财报",
+        "watch": "EN: iPhone/services/China; AWS/retail margin/AI capex.\n中文：iPhone、服务、中国；AWS、零售利润率、AI资本开支。",
+        "relatedTickers": "AAPL, AMZN, QQQ, XLY"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-07-29",
+        "ticker": "PYPL",
+        "status": "miss",
+        "result": "EN: The earlier process did not surface PYPL early enough before the reported deal-rumor surge.\n中文：此前流程没有在PYPL传闻并购大涨前足够早提示。",
+        "lesson": "EN: M&A rumor and strategic-review screens must be part of pre-catalyst watch, not post-move commentary.\n中文：并购传闻和战略评估筛选必须进入提前催化预警，而不是涨后解释。"
+      },
+      {
+        "date": "2026-07-29",
+        "ticker": "AEHR",
+        "status": "miss",
+        "result": "EN: AEHR should have been listed before the earnings/guidance move as a red-risk event candidate.\n中文：AEHR应在财报/指引催化前作为红色高风险事件候选列出。",
+        "lesson": "EN: Small-cap earnings calendars need a dedicated high-move scan.\n中文：中小盘财报日历需要专门的大波动筛选。"
+      },
+      {
+        "date": "2026-07-29",
+        "ticker": "BA/UPS/MSFT/META",
+        "status": "open",
+        "result": "EN: July 28 briefing identified today's catalyst window; execution still depends on regular-session confirmation.\n中文：7月28日简报已识别今天催化窗口；执行仍取决于正股时段确认。",
+        "lesson": "EN: Early catalyst discovery is useful only when paired with no-chase rules.\n中文：提前发现催化只有配合不追高规则才有用。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: Mega-cap AI / Cloud\n中文：大型AI / 云",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: MSFT/META tonight, AAPL/AMZN tomorrow.\n中文：MSFT/META今晚，AAPL/AMZN明天。",
+        "watch": "EN: Azure, ads, capex, margins, QQQ breadth.\n中文：Azure、广告、资本开支、利润率、QQQ宽度。",
+        "risk": "EN: Earnings gaps and IV crush.\n中文：财报跳空和IV crush。"
+      },
+      {
+        "name": "EN: Industrials / Logistics\n中文：工业 / 物流",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: BA/UPS earnings before open.\n中文：BA/UPS盘前财报。",
+        "watch": "EN: Delivery, cash flow, volume, pricing.\n中文：交付、现金流、货运量、定价。",
+        "risk": "EN: Bad news may already be priced if guidance is stable.\n中文：若指引稳定，坏消息可能已计入。"
+      },
+      {
+        "name": "EN: Fintech / Deal rumors\n中文：金融科技 / 并购传闻",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: PYPL rumor shows event risk can reprice fast.\n中文：PYPL传闻显示事件风险可快速重定价。",
+        "watch": "EN: Official confirmation and spreads to reported bid.\n中文：官方确认和报价差。",
+        "risk": "EN: Rumor denial can erase gains.\n中文：传闻否认可抹去涨幅。"
+      },
+      {
+        "name": "EN: Semiconductor high beta\n中文：半导体高beta",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: AEHR-style earnings/guidance momentum.\n中文：AEHR式财报/指引动量。",
+        "watch": "EN: SMH confirmation and secondary bases.\n中文：SMH确认和二次平台。",
+        "risk": "EN: First gap often fades.\n中文：第一波缺口经常回落。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "MSFT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 3-6% stock exposure only if VWAP/QQQ confirm before earnings, or wait for post-report opening-range hold.\n中文：只有财报前VWAP/QQQ确认，或财报后守住开盘区间，才考虑3-6%正股敞口。",
+        "suggestedProfitTake": "EN: Scale into 4%-7% post-earnings push or trail below first-hour low.\n中文：财报后上涨4%-7%分批止盈，或用首小时低点移动止盈。",
+        "type": "EN: mega-cap AI/cloud\n中文：大型AI/云",
+        "catalyst": "EN: Earnings after U.S. close.\n中文：美股收盘后财报。",
+        "why": "EN Fundamentals / 中文基本面: Azure growth, AI monetization, margin durability and capex discipline are the key metrics; exact new numbers are event-pending. EN Technicals / 中文技术面: Needs VWAP/QQQ confirmation; earnings gap can invalidate any pre-event chart. EN News/Catalyst / 中文消息面: Tonight's earnings are a direct cloud/AI market catalyst. EN Volume/Liquidity / 中文成交量/流动性: Excellent stock and options liquidity, but event IV can crush after the print.",
+        "risk": "EN: Disappointing Azure or capex commentary can gap it lower.\n中文：Azure或资本开支评论不佳可能导致跳空下跌。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Pre-earnings positioning; not confirmation.\n中文：财报前布局，不是确认。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "META",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 3-6% exposure only after earnings structure or pre-event VWAP hold with QQQ support.\n中文：只在财报后结构确认，或财报前VWAP守住且QQQ支持时考虑3-6%敞口。",
+        "suggestedProfitTake": "EN: Take partials into 5%-8% earnings reaction; protect if ad/capex commentary disappoints.\n中文：财报反应上涨5%-8%先止盈；若广告/资本开支评论不佳则保护。",
+        "type": "EN: ads/AI mega-cap\n中文：广告/AI大型股",
+        "catalyst": "EN: Earnings after U.S. close.\n中文：美股收盘后财报。",
+        "why": "EN Fundamentals / 中文基本面: Ad growth, AI spend, operating margin and Reality Labs losses remain the core metrics; new figures are event-pending. EN Technicals / 中文技术面: Event gap dominates; only regular-session confirmation matters. EN News/Catalyst / 中文消息面: Earnings can reset ad-tech and AI capex sentiment. EN Volume/Liquidity / 中文成交量/流动性: Very liquid, but options IV and spreads can be expensive into earnings.",
+        "risk": "EN: High capex without ad upside can pressure valuation.\n中文：若资本开支高但广告增长不足，会压制估值。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Awaiting event.\n中文：等待事件。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "BA",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 3-5% stock exposure only after earnings reaction holds VWAP/opening range.\n中文：只有财报反应守住VWAP/开盘区间后，才考虑3-5%正股敞口。",
+        "suggestedProfitTake": "EN: Take 4%-7% into recovery burst or if cash-flow commentary is weak.\n中文：修复上涨4%-7%止盈，或现金流评论偏弱则撤。",
+        "type": "EN: aerospace/industrial\n中文：航空航天/工业",
+        "catalyst": "EN: Earnings before U.S. open.\n中文：美股开盘前财报。",
+        "why": "EN Fundamentals / 中文基本面: Delivery pace, free cash flow, defense margin and balance-sheet repair are key; new numbers are event-pending. EN Technicals / 中文技术面: Wait for post-print range, not first spike. EN News/Catalyst / 中文消息面: Earnings can reset industrial sentiment. EN Volume/Liquidity / 中文成交量/流动性: Liquid large cap, options active, but first reaction can be noisy.",
+        "risk": "EN: Delivery/cash-flow disappointment.\n中文：交付/现金流不及预期。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Catalyst window today.\n中文：今天处于催化窗口。",
+        "setupStatus": "in progress"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "AEHR",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: 1-3% only after secondary base; no open chase after prior surge.\n中文：只在二次平台形成后用1-3%；第一波大涨后不追开盘。",
+        "suggestedProfitTake": "EN: Take quick 8%-12% if secondary setup triggers; otherwise skip.\n中文：若二次设置触发，上涨8%-12%快速止盈；否则跳过。",
+        "type": "EN: semiconductor equipment event momentum\n中文：半导体设备事件动量",
+        "catalyst": "EN: Earnings/guidance surge; now secondary-entry watch.\n中文：财报/指引大涨后，现在只看二次入场。",
+        "why": "EN Fundamentals / 中文基本面: Guidance/order quality improved, but smaller company earnings are volatile. EN Technicals / 中文技术面: Post-surge chart is extended; needs digestion. EN News/Catalyst / 中文消息面: Catalyst already triggered, so chase risk is high. EN Volume/Liquidity / 中文成交量/流动性: Liquidity can expand on event days, but spreads and fades are dangerous.",
+        "risk": "EN: Gap fade after first hour.\n中文：首小时后缺口回落。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Already surged; missed first move.\n中文：已大涨；第一波已错过。",
+        "setupStatus": "avoid chase"
+      },
+      {
+        "ticker": "WULF",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: 1-3% only on VWAP reclaim with IREN/CLSK confirmation.\n中文：只有VWAP收复且IREN/CLSK确认时用1-3%。",
+        "suggestedProfitTake": "EN: Take 8%-12% bursts; do not hold failed breakouts overnight.\n中文：上涨8%-12%止盈；突破失败不隔夜。",
+        "type": "EN: AI data-center / bitcoin beta\n中文：AI数据中心 / 比特币beta",
+        "catalyst": "EN: AI infrastructure and financing/contract read-through.\n中文：AI基础设施和融资/合同映射。",
+        "why": "EN Fundamentals / 中文基本面: Data-center narrative is improving but profitability and balance sheet need verification. EN Technicals / 中文技术面: Needs VWAP and peer confirmation. EN News/Catalyst / 中文消息面: Sympathy to AI power/data-center updates. EN Volume/Liquidity / 中文成交量/流动性: Tradable but high beta; require relative volume.",
+        "risk": "EN: Crypto/AI power sympathy fades.\n中文：加密/AI电力共振消失。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: High-beta watch.\n中文：高beta观察。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "HIMS",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 2-4% only on pullback hold or breakout with volume.\n中文：只在回踩守住或放量突破时用2-4%。",
+        "suggestedProfitTake": "EN: Take 6%-10% into event run-up.\n中文：事件前上涨6%-10%分批止盈。",
+        "type": "EN: consumer healthcare growth\n中文：消费医疗成长",
+        "catalyst": "EN: Growth/earnings window and consumer-health momentum.\n中文：增长/财报窗口与消费医疗动量。",
+        "why": "EN Fundamentals / 中文基本面: Revenue growth is the attraction, while valuation and regulatory perception are key risks. EN Technicals / 中文技术面: Needs orderly pullback or high-volume breakout. EN News/Catalyst / 中文消息面: Near-term earnings/growth update can move the stock. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is acceptable, but momentum fades can be sharp.",
+        "risk": "EN: Regulatory/headline reversal.\n中文：监管/headline反转。",
+        "convictionScore": 3,
+        "timeframe": "swing",
+        "recentPerformance": "EN: Watch before event, not after gap.\n中文：事件前观察，不等跳空后才看。",
+        "setupStatus": "early"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 5-10% only after FOMC digestion and VWAP hold.\n中文：只在FOMC消化且守住VWAP后用5-10%。",
+        "suggestedProfitTake": "EN: Take 2%-4% or trail below first-hour/FOMC reaction low.\n中文：上涨2%-4%止盈，或用首小时/FOMC反应低点移动止盈。",
+        "type": "EN: Nasdaq 100 ETF\n中文：纳指100 ETF",
+        "catalyst": "EN: Mega-cap earnings and FOMC.\n中文：大型科技财报与FOMC。",
+        "why": "EN Fundamentals / 中文基本面: ETF fundamentals reflect mega-cap earnings quality and AI/cloud growth. EN Technicals / 中文技术面: Must hold VWAP after FOMC. EN News/Catalyst / 中文消息面: MSFT/META/AAPL/AMZN dominate near-term move. EN Volume/Liquidity / 中文成交量/流动性: Excellent liquidity and options depth.",
+        "risk": "EN: Mega-cap earnings disappointment.\n中文：大型科技财报不及预期。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Event-driven.\n中文：事件驱动。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: 1-3% intraday only if SMH confirms; no blind overnight.\n中文：只有SMH确认时用1-3%做日内；不盲目隔夜。",
+        "suggestedProfitTake": "EN: Take 5%-10% bursts quickly.\n中文：5%-10%脉冲快速止盈。",
+        "type": "EN: leveraged semiconductor ETF\n中文：杠杆半导体ETF",
+        "catalyst": "EN: Semi rebound or AI earnings read-through.\n中文：半导体反弹或AI财报映射。",
+        "why": "EN Fundamentals / 中文基本面: ETF has no single-company fundamentals; underlying semis depend on AI capex. EN Technicals / 中文技术面: Needs SMH trend confirmation. EN News/Catalyst / 中文消息面: MSFT/META capex commentary can move semis. EN Volume/Liquidity / 中文成交量/流动性: Liquid but leveraged path decay is severe.",
+        "risk": "EN: Leverage decay and gap reversal.\n中文：杠杆损耗和跳空反转。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: High beta, not core.\n中文：高beta，不是核心。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "TLT",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: 5-8% hedge only if FOMC pushes yields lower.\n中文：只有FOMC推动收益率下行时，用5-8%作为对冲观察。",
+        "suggestedProfitTake": "EN: Take 2%-4% or if yields rebound.\n中文：上涨2%-4%或收益率反弹时止盈。",
+        "type": "EN: long-duration Treasury ETF\n中文：长久期美债ETF",
+        "catalyst": "EN: FOMC.\n中文：FOMC。",
+        "why": "EN Fundamentals / 中文基本面: Duration benefits from lower yields, not company earnings. EN Technicals / 中文技术面: Needs yield breakdown confirmation. EN News/Catalyst / 中文消息面: Fed language can reset rates. EN Volume/Liquidity / 中文成交量/流动性: Very liquid ETF/options.",
+        "risk": "EN: Hawkish Fed or yield spike.\n中文：美联储偏鹰或收益率急升。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Macro hedge.\n中文：宏观对冲。",
+        "setupStatus": "early"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: Catalyst Timing And Setup Stage\n中文：催化时点与设置阶段",
+        "items": [
+          "EN: Early: AMZN, AAPL, HIMS, SOFI. In progress: BA, UPS, MSFT, META. Extended/avoid chase: PYPL, AEHR unless secondary setup forms.\n中文：early：AMZN、AAPL、HIMS、SOFI。in progress：BA、UPS、MSFT、META。extended/avoid chase：PYPL、AEHR，除非形成二次设置。"
+        ]
+      },
+      {
+        "title": "EN: Pre-Catalyst Watchlist\n中文：提前催化预警",
+        "items": [
+          "EN: MSFT | 2026-07-29 after close | earnings | long/watch | yellow | early | no chase before post-report confirmation.\n中文：MSFT | 2026-07-29盘后 | 财报 | long/watch | yellow | early | 财报后确认前不追。",
+          "EN: META | 2026-07-29 after close | earnings | long/watch | yellow | early | wait for ad/capex read-through.\n中文：META | 2026-07-29盘后 | 财报 | long/watch | yellow | early | 等广告/资本开支映射。",
+          "EN: AAPL | 2026-07-30 after close | earnings | watch | yellow | early/extended | do not chase near highs.\n中文：AAPL | 2026-07-30盘后 | 财报 | watch | yellow | early/extended | 接近高位不追。",
+          "EN: AMZN | 2026-07-30 after close | earnings | long/watch | yellow | early | use AWS/XLY/QQQ confirmation.\n中文：AMZN | 2026-07-30盘后 | 财报 | long/watch | yellow | early | 用AWS/XLY/QQQ确认。",
+          "EN: BA | 2026-07-29 before open | earnings | long/watch | yellow | in progress | first 30-60 minutes decide.\n中文：BA | 2026-07-29盘前 | 财报 | long/watch | yellow | in progress | 前30-60分钟决定。",
+          "EN: UPS | 2026-07-29 before open | earnings | short/watch | yellow | in progress | wait for failed bounce.\n中文：UPS | 2026-07-29盘前 | 财报 | short/watch | yellow | in progress | 等反弹失败。",
+          "EN: HIMS | next 1-5 sessions | growth/earnings window | long/watch | yellow | early | no gap chase.\n中文：HIMS | 未来1-5个交易日 | 增长/财报窗口 | long/watch | yellow | early | 不追跳空。",
+          "EN: SOFI | next 1-5 sessions | fintech earnings/credit update | long/watch | red | early | needs fintech breadth.\n中文：SOFI | 未来1-5个交易日 | 金融科技财报/信贷更新 | long/watch | red | early | 需要金融科技板块宽度。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
+        "items": [
+          "EN: Earnings week IV can punish correct direction; avoid paying late premium after the expected move is already consumed.\n中文：财报周IV会惩罚正确方向；若预期波动已被消耗，不要后手买贵权利金。",
+          "EN: For red-risk weeklies, premium should usually be 0.5% of account or less.\n中文：红色风险周度期权，权利金通常控制在账户0.5%以内。"
+        ]
+      },
+      {
+        "title": "EN: Entry Timing And Risk Controls\n中文：入场时机与风险控制",
+        "items": [
+          "EN: Wait 30-60 minutes after open and again after FOMC; do not treat premarket moves as confirmation.\n中文：开盘后等30-60分钟，FOMC后再重新等确认；不要把盘前走势当确认。",
+          "EN: Invalidation: VWAP loss, first-hour low break, sector ETF failure, or credit/IWM weakness.\n中文：失效条件：跌破VWAP、跌破首小时低点、板块ETF失败、信用/IWM走弱。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Metrics Check\n中文：基本面指标检查",
+        "items": [
+          "EN: For MSFT/META/AMZN, focus on cloud/ad growth, margins, capex and guidance. For BA/UPS, focus on cash flow, deliveries, volume and pricing.\n中文：MSFT/META/AMZN看云/广告增长、利润率、资本开支和指引。BA/UPS看现金流、交付、货运量和定价。"
+        ]
+      },
+      {
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
+        "items": [
+          "EN: PYPL and AEHR are process lessons: they should have been early-warning candidates before the surge; now they are not clean chase entries.\n中文：PYPL和AEHR是流程教训：它们应该在大涨前进入提前预警；现在不是干净追涨点。"
+        ]
+      },
+      {
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
+        "items": [
+          "EN: Watch AI capex commentary from MSFT/META/AMZN for semis, power, cooling and data-center names.\n中文：关注MSFT/META/AMZN对AI资本开支的评论，映射半导体、电力、散热和数据中心标的。"
+        ]
+      },
+      {
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
+        "items": [
+          "EN: Tariff, export-control, defense and antitrust headlines can move tech, industrials and fintech quickly.\n中文：关税、出口管制、防务和反垄断headline会快速影响科技、工业和金融科技。"
+        ]
+      },
+      {
+        "title": "EN: Credit Positioning And Market Internals\n中文：信用、仓位与市场内部结构",
+        "items": [
+          "EN: If HYG/IWM lag after FOMC, do not add speculative beta even if QQQ is flat.\n中文：若FOMC后HYG/IWM落后，即使QQQ平盘也不要加投机beta。"
+        ]
+      },
+      {
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
+        "items": [
+          "EN: Today: BA/UPS before open, FOMC 14:00 ET, MSFT/META after close. Tomorrow: AAPL/AMZN after close.\n中文：今天：BA/UPS盘前，FOMC美东14:00，MSFT/META盘后。明天：AAPL/AMZN盘后。"
+        ]
+      },
+      {
+        "title": "EN: Why It Matters\n中文：为什么重要",
+        "items": [
+          "EN: This is exactly the type of day where the briefing must help before the move, not explain after it.\n中文：今天正是简报必须在行情前帮助你，而不是行情后解释的日子。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve FOMC calendars",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      {
+        "label": "Microsoft Investor Relations",
+        "confidence": "Primary",
+        "url": "https://www.microsoft.com/en-us/Investor"
+      },
+      {
+        "label": "Meta Investor Relations",
+        "confidence": "Primary",
+        "url": "https://investor.atmeta.com/"
+      },
+      {
+        "label": "Boeing Investor Relations",
+        "confidence": "Primary",
+        "url": "https://investors.boeing.com/"
+      },
+      {
+        "label": "UPS Investor Relations",
+        "confidence": "Primary",
+        "url": "https://investors.ups.com/"
+      },
+      {
+        "label": "Apple Investor Relations",
+        "confidence": "Primary",
+        "url": "https://www.apple.com/investor/"
+      },
+      {
+        "label": "Amazon Investor Relations",
+        "confidence": "Primary",
+        "url": "https://ir.aboutamazon.com/"
+      },
+      {
+        "label": "Cboe volatility indexes",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/tradable_products/vix/"
+      }
+    ]
+  },
+  {
     "date": "2026-07-28",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-07-28T13:49:44+0800",
