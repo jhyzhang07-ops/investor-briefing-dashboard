@@ -1,4 +1,746 @@
 window.A_SHARE_BRIEFINGS = [
+{
+  "date": "2026-07-30",
+  "timezone": "Asia/Shanghai GMT+8",
+  "generatedAt": "2026-07-30 10:08 GMT+8",
+  "title": "中文：A股投资者简报 - 2026-07-30\nEN: A-Share Investor Brief - 2026-07-30",
+  "tone": "中文：这是基于截至2026年7月30日10:08 GMT+8可直接检索的公开信息整理的盘前/盘中框架。当前最可核实的机会仍集中在电网设备、智能计量、公用事业与分红/回购催化，说明今天先看市场节奏、流动性、宽基与银行确认，再决定是否把仓位扩展到低于50元的中小盘。高贝塔科技与芯片ETF在最近可检索数据里仍显著脆弱，A股T+1下不应把脉冲当成可隔夜持有的理由。\nEN: This pre-session/intraday framework is based on publicly retrievable information available through 10:08 GMT+8 on July 30, 2026. The most verifiable opportunity set is still concentrated in grid equipment, smart metering, utilities, and dividend/buyback catalysts, which means today should start with market rhythm, liquidity, broad-beta and bank confirmation before expanding into sub-RMB-50 small and mid caps. In the latest retrievable data, higher-beta tech and the chip ETF still look fragile, so under A-share T+1 rules a pulse should not be mistaken for something safe to carry overnight.",
+  "priorities": [
+    "中文：先确认市场环境，再谈个股。优先看510300.SH、512800.SH、成交额与涨跌家数是否同步改善；若宽基和银行不稳，个股仓位不应主动扩张。\nEN: Confirm the regime before discussing single names. First watch whether 510300.SH, 512800.SH, turnover, and breadth improve together; if broad beta and banks are not stable, single-stock exposure should not be expanded proactively.",
+    "中文：低于50元、基本面可核、成交额足够、近1到5个交易日有订单/回购/分红/业绩催化的电网与计量样本，仍比拥挤半导体更贴合你的10天左右波段风格。\nEN: Sub-RMB-50 grid and metering names with checkable fundamentals, sufficient liquidity, and 1-to-5-session order, buyback, dividend, or earnings catalysts still fit your roughly 10-day swing style better than crowded semiconductors.",
+    "中文：任何已经急涨、放量过猛或高开超过3%-5%的票，一律先写明不追高，等待回踩缩量、二次放量确认或尾盘承接。\nEN: Any name that has already surged, expanded volume too aggressively, or gaps more than 3%-5% should begin with a no-chase rule and wait for a lighter-volume pullback, second volume confirmation, or late-session support.",
+    "中文：红色风险项目只允许1%-3%试错，且必须写清触发条件、失效条件、为什么不能追、什么会证明判断错误。\nEN: Red-risk items should only allow 1%-3% test size and must state the trigger, invalidation, why not to chase, and what would prove the thesis wrong.",
+    "中文：提前催化预警今天继续保留，但用途是帮助识别下一轮资金去向，而不是把每个事件驱动都抬成主仓。\nEN: The pre-catalyst watchlist remains mandatory today, but its job is to identify where the next rotation may go rather than upgrade every event-driven name into a core position."
+  ],
+  "summary": [
+    "中文：最近可直接检索到的广义市场信号显示，7月27日A股出现成交额约2.09万亿元、逾5200只个股上涨的修复，但7月28日盘中又出现明显回吐压力，说明趋势并未稳定到可以忽略隔夜风险。\nEN: The latest directly retrievable broad-tape signals show a repair on July 27 with roughly RMB 2.09 trillion in turnover and more than 5,200 advancers, but July 28 saw clear intraday giveback pressure, which says the trend is not yet stable enough to ignore overnight risk.",
+    "中文：个股层面，国电南瑞、平高电气、正泰电器、安科瑞、林洋能源、炬华科技这组更符合“低于50元、逻辑可验证、可做10天左右波段”的要求；中国西电、特锐德、睿能科技、中恒电气等则更偏事件驱动或高弹性，只适合条件单观察。\nEN: At the single-name level, NARI, Pinggao Electric, Chint Electric, Acrel, Linyang Energy, and Sunrise Technology fit the requirement for sub-RMB-50, verifiable, roughly 10-day swing candidates better; China XD Electric, TGOOD, Raynen Technology, and Zhongheng Electric are more event-driven or higher-beta and belong in conditional-watch territory only.",
+    "中文：电网/配电/公用事业仍是最适合放在主执行层的方向，因为订单、回购、分红、夏季保供和政策支持都能从公开信息核对。\nEN: Grid, distribution, and utilities remain the most suitable lanes for the main execution layer because orders, buybacks, dividends, summer supply-security themes, and policy support can all be cross-checked from public information.",
+    "中文：芯片和科创成长今天只保留作风险温度计。若159995.SZ和科创50风格不能先止跌，高位科技不应取代低波动主仓。\nEN: Chips and STAR-style growth are kept only as risk thermometers today. If 159995.SZ and STAR-style beta cannot stabilize first, higher-level tech should not replace lower-volatility core exposure.",
+    "中文：今天的目标不是找“最强板”，而是确认修复能否转化成可持续承接，然后只在成交量、板块同伴和失效条件都讲得通时，去做适合T+1隔夜持有的票。\nEN: Today’s goal is not to find the hottest board, but to confirm whether repair can turn into durable support and then act only when volume, peer confirmation, and invalidation rules all make sense for T+1 overnight holding."
+  ],
+  "marketPulse": {
+    "上证指数 / SSE Composite": {
+      "value": "中文：本次运行直接检索到的最近完整强修复收盘参考为2026年7月27日3858.25点、上涨1.86%；而2026年7月28日盘中一度回落至约3807.24点附近，说明3800-3820仍是关键承接带。\nEN: The latest directly retrieved full repair close in this run was 3858.25 on July 27, 2026, up 1.86%; July 28 then saw an intraday pullback toward roughly 3807.24, which keeps 3800-3820 as the key support zone.",
+      "note": "中文：若指数再度跌回3800下方，今天多数进攻型假设都应降级。\nEN: If the index slips back below 3800 again, most offensive assumptions today should be downgraded."
+    },
+    "深证成指 / Shenzhen Component": {
+      "value": "中文：2026年7月27日最近可核对强修复收盘为14148.73点、上涨2.29%；2026年7月28日盘中回到13581.48点附近，成长风格仍未彻底企稳。\nEN: The latest checkable strong-repair close was 14148.73 on July 27, 2026, up 2.29%; July 28 then pulled back toward roughly 13581.48 intraday, showing growth style has not fully stabilized.",
+      "note": "中文：若深成指不能重新站稳修复区，低价稳健票优先级要继续高于高弹性科技。\nEN: If the Shenzhen Component cannot reclaim its repair zone, lower-priced steadier names should keep priority over higher-beta tech."
+    },
+    "创业板指 / ChiNext": {
+      "value": "中文：2026年7月27日最近可核对收盘为3590.79点、上涨2.63%；2026年7月28日盘中低见约3365.00点，说明高弹性风格回撤仍大。\nEN: The latest checkable close was 3590.79 on July 27, 2026, up 2.63%; July 28 then hit an intraday low near 3365.00, showing that higher-elasticity style still carries large drawdown risk.",
+      "note": "中文：创业板若没有量价共振，不应用它来支持追高。\nEN: If ChiNext does not regain price-volume confirmation, it should not be used to justify chasing."
+    },
+    "沪深300 / CSI 300": {
+      "value": "中文：510300.SH最近可直接检索价格参考为2026年7月28日4.63、单日-2.65%，说明宽基仍在确认阶段。\nEN: The latest directly retrieved reference for 510300.SH was 4.63 on July 28, 2026, down 2.65% for the day, which says broad beta is still in confirmation mode.",
+      "note": "中文：只有4.60-4.63重新稳住，个股层面的扩大持仓才更合理。\nEN: Only if the 4.60-4.63 zone re-stabilizes does broader expansion in single-stock exposure become more reasonable."
+    },
+    "科创50 / STAR 50": {
+      "value": "中文：最近可核对的588000.SH价格参考为1.91附近，仍明显弱于防守与电网样本。\nEN: The latest checkable price reference for 588000.SH was around 1.91, still clearly weaker than defensive and grid-equipment samples.",
+      "note": "中文：它更适合作为拥挤科技风险温度计，而不是主执行ETF。\nEN: It is better used as a crowded-tech risk thermometer than as a main execution ETF."
+    },
+    "成交额与宽度 / Turnover And Breadth": {
+      "value": "中文：2026年7月27日两市成交额约2.09万亿元、逾5200只个股上涨；但2026年7月28日盘中杀跌说明宽度并不牢固。\nEN: Turnover was about RMB 2.09 trillion with more than 5,200 advancers on July 27, 2026; but the July 28 intraday selloff shows breadth is not yet durable.",
+      "note": "中文：今天不是要求极端放量，而是要求跌停家数收敛、回落时缩量、主线同伴能跟。\nEN: Today does not require extreme volume, but it does require fewer limit-downs, lighter volume on pullbacks, and peer confirmation in the main lanes."
+    },
+    "利率与流动性 / Rates And Liquidity": {
+      "value": "中文：人民银行公开栏最近可直接检索到的环境仍指向7天逆回购利率1.40%的稳流动性框架；2026年7月30日09:20后的新公告本次未直接检索到。\nEN: The latest directly retrievable PBOC open-market backdrop still points to a stable-liquidity framework with a 1.40% 7-day reverse-repo rate; a fresh post-09:20 July 30 notice was not directly retrieved in this run.",
+      "note": "中文：流动性背景偏中性偏稳，但不能替代个股量价确认。\nEN: The liquidity backdrop is neutral-to-stable, but it cannot replace price-volume confirmation in single names."
+    },
+    "人民币与离岸人民币 / Yuan And Offshore CNH": {
+      "value": "中文：本次运行没有直接检索到2026年7月30日最新官方中间价与离岸人民币精确点位，因此汇率只作为次级风险变量处理。\nEN: This run did not directly retrieve the latest official July 30, 2026 midpoint or an exact offshore CNH quote, so FX is treated as a secondary risk variable.",
+      "note": "中文：若盘中出现离岸人民币明显走弱，先看是否拖累科技和外资敏感板块。\nEN: If offshore yuan weakens noticeably intraday, first watch whether it drags tech and foreign-flow-sensitive sectors."
+    },
+    "大宗商品与港股/ADR映射 / Commodities And Hong Kong/ADR Read-through": {
+      "value": "中文：国家能源局近期继续强调迎峰度夏电力保供与电力供需总体平衡偏紧，这对电网、公用事业和配电自动化链条更有利；外盘科技情绪则更容易压制芯片与科创风格。\nEN: The National Energy Administration continues to emphasize summer peak-demand power security and a tight overall power balance, which is more supportive for grid, utility, and distribution-automation chains; offshore tech sentiment is more likely to pressure chip and STAR-style beta.",
+      "note": "中文：今天更像内生电力链主线，而不是简单跟随隔夜海外科技。\nEN: Today looks more like an internally driven power-chain tape than a simple follow-on to overnight offshore tech."
+    },
+    "融资融券与ETF资金流 / Margin And ETF Flow": {
+      "value": "中文：最近可检索样本里，159995.SZ在2026年7月28日跌约7.98%，而银行/宽基更偏防守，说明资金仍先避开拥挤半导体。\nEN: In the latest retrievable sample, 159995.SZ fell about 7.98% on July 28, 2026 while banks and broad beta behaved more defensively, showing that money is still avoiding crowded semiconductors first.",
+      "note": "中文：ETF层面继续先看防守与宽基是否企稳，再考虑把仓位下沉到高弹性票。\nEN: At the ETF layer, continue to confirm defense and broad beta first before pushing exposure down into more elastic names."
+    }
+  },
+  "forecast": [
+    "中文：偏强情景：若510300.SH重新站稳4.60-4.63、512800.SH与电力公用事业ETF同步稳住，国电南瑞、平高电气、正泰电器、安科瑞这组更适合逐步增加10天左右波段仓位。\nEN: Bull case: if 510300.SH reclaims the 4.60-4.63 zone and 512800.SH stabilizes together with the power-utility ETF, the NARI-Pinggao-Chint-Acrel group becomes the better place to scale into roughly 10-day swing exposure.",
+    "中文：基准情景：市场继续震荡轮动，电网/计量/公用事业优于芯片与高位科技，执行上以回踩缩量或放量二次确认的小中仓为主。\nEN: Base case: the market keeps chopping and rotating, with grid, metering, and utilities outperforming chips and crowded tech; execution should stay with small-to-medium size after lighter-volume pullbacks or second volume confirmations.",
+    "中文：偏弱情景：若指数回落、159995.SZ与科创风格继续失守，而银行和宽基也不能止跌，那么今天应把多数单股计划降到观察层。\nEN: Bear case: if indices retreat, 159995.SZ and STAR-style beta keep failing, and banks plus broad beta cannot stabilize, most single-stock plans should be cut back to watch-only status today.",
+    "中文：风格情景：若中报、回购、分红和中标消息继续集中在电网与设备链，市场可交易范围会继续偏窄，提前催化名单与主名单重叠度就会高于理想水平。\nEN: Style-fit case: if interim reports, buybacks, dividends, and bid announcements stay concentrated in the grid and equipment chain, the tradable universe will remain narrow and the overlap between the pre-catalyst list and the main list will stay higher than ideal."
+  ],
+  "actionBoard": {
+    "bestLong": {
+      "ticker": "600406.SH",
+      "chineseName": "国电南瑞",
+      "direction": "long",
+      "riskLevel": "green",
+      "setup": "中文：仅在23.40-23.70回踩缩量、或24.10上方放量再确认时观察；首笔8%-10%，余量留给次日确认，不满足条件则跳过。\nEN: Watch only on a lighter-volume pullback into 23.40-23.70, or after a volume-backed reconfirmation above 24.10. Start with 8%-10% and leave the rest for next-day confirmation; skip if conditions are not met.",
+      "reason": "中文：回购提议、稳健盈利和高流动性让它仍是今天最适合作为主仓桥梁的电网样本。\nEN: The buyback proposal, steadier earnings, and strong liquidity still make it the best grid sample to bridge into core exposure today.",
+      "convictionScore": 4,
+      "timeframe": "swing"
+    },
+    "bestEtf": {
+      "ticker": "512800.SH",
+      "chineseName": "华宝中证银行ETF",
+      "direction": "long",
+      "riskLevel": "green",
+      "setup": "中文：仅在0.87-0.89区域止跌、或跟随宽基重回强于市场时观察；ETF仓位8%-12%，不要在单根脉冲上一次打满。\nEN: Watch only if the 0.87-0.89 zone stabilizes or if it reclaims relative strength alongside broad beta. Keep ETF exposure at 8%-12% and do not fill the whole position on one pulse.",
+      "reason": "中文：银行ETF仍是判断是否允许把防守仓下沉到个股的第一温度计。\nEN: The bank ETF remains the first thermometer for deciding whether defense can be rotated down into single stocks.",
+      "convictionScore": 4,
+      "timeframe": "trade"
+    },
+    "earlyCatalystWatch": {
+      "ticker": "601222.SH",
+      "chineseName": "林洋能源",
+      "direction": "long",
+      "riskLevel": "yellow",
+      "setup": "中文：若5.45-5.55回踩缩量企稳、或5.70上方放量并得到计量/电表同伴确认后再考虑；普通黄风险仓位4%-6%。\nEN: Consider it only if 5.45-5.55 holds on a lighter-volume pullback, or above 5.70 on volume with metering peers confirming; keep ordinary yellow-risk size at 4%-6%.",
+      "reason": "中文：回购进展与国网中标预期让它具备近1到5个交易日提前催化特征，但业绩斜率仍需二次验证。\nEN: Buyback progress and expected State Grid bid conversion give it a 1-to-5-session pre-catalyst profile, but the earnings slope still needs second confirmation.",
+      "convictionScore": 3,
+      "timeframe": "swing"
+    },
+    "highestRiskOpportunity": {
+      "ticker": "300490.SZ",
+      "chineseName": "华自科技",
+      "direction": "long",
+      "riskLevel": "red",
+      "setup": "中文：仅在15.80-16.10回踩缩量、或16.70上方放量突破且电力自动化同伴跟随时用1%-3%试错；次日若无延续立即降仓。\nEN: Use only 1%-3% test size on a lighter-volume pullback into 15.80-16.10 or a volume breakout above 16.70 with power-automation peers confirming; cut back quickly if there is no next-day follow-through.",
+      "reason": "中文：一季报明显改善给了反弹基础，但历史亏损与波动都很高，必须把它当成高风险弹性票。\nEN: The first-quarter improvement gives it a rebound base, but the loss history and volatility are high, so it must be treated as a high-risk elasticity trade.",
+      "convictionScore": 2,
+      "timeframe": "trade"
+    },
+    "avoidChase": {
+      "ticker": "159995.SZ",
+      "chineseName": "华夏国证半导体芯片ETF",
+      "direction": "short",
+      "riskLevel": "red",
+      "setup": "中文：A股普通账户不做直接做空，这里表示回避/降敞口；只有1.42-1.45重新站稳、且科创与芯片同伴同步修复时才重新观察，否则继续不追高。\nEN: Standard A-share accounts do not short directly; this means avoid or reduce exposure. Only revisit if 1.42-1.45 is reclaimed with STAR and chip peers repairing together; otherwise keep the no-chase rule.",
+      "reason": "中文：最近可检索样本单日下跌接近8%，说明拥挤筹码仍在出清，不能把反抽当成低风险主仓。\nEN: In the latest retrievable sample it fell nearly 8% in one day, showing crowded positioning is still unwinding and a bounce should not be treated as low-risk core exposure.",
+      "convictionScore": 4,
+      "timeframe": "trade"
+    }
+  },
+  "catalystCalendar": [
+    {
+      "date": "2026-07-30",
+      "event": "中文：人民银行09:20后公开市场操作更新窗口\nEN: Post-09:20 PBOC open-market-operations update window",
+      "watch": "中文：看流动性公告能否与宽基、银行、电网承接共振；若只有公告没有承接，不升级风险偏好。\nEN: Watch whether any liquidity notice resonates with support in broad beta, banks, and grid names; if there is only an announcement without support, do not upgrade risk appetite.",
+      "relatedTickers": "510300.SH, 512800.SH, 600406.SH, 600312.SH"
+    },
+    {
+      "date": "2026-07-31 09:30",
+      "event": "中文：国家统计局7月PMI月度报告发布时间\nEN: NBS July PMI monthly release time",
+      "watch": "中文：若制造业PMI继续站上荣枯线，电网、配电、公用事业和部分设备链更容易获得情绪支持。\nEN: If manufacturing PMI stays above the expansion threshold, grid, distribution, utilities, and selected equipment chains are more likely to receive sentiment support.",
+      "relatedTickers": "510300.SH, 561700.SH, 600406.SH, 601877.SH"
+    },
+    {
+      "date": "2026-07-30 to 2026-08-05",
+      "event": "中文：中报预告与半年度报告密集窗口\nEN: Dense interim-preannouncement and half-year-report window",
+      "watch": "中文：优先盯有盈利、订单、分红或回购锚的票；仅有概念没有报表支撑的，继续降级。\nEN: Prioritize names with earnings, order, dividend, or buyback anchors; keep demoting trades that have themes but no filing support.",
+      "relatedTickers": "300001.SZ, 002121.SZ, 300854.SZ, 603933.SH"
+    },
+    {
+      "date": "2026-07-30 to 2026-08-05",
+      "event": "中文：国家电网中标、配网投资与迎峰度夏保供发酵\nEN: State Grid bid digestion, distribution-grid investment, and summer power-security follow-through",
+      "watch": "中文：若订单链继续发酵，平高电气、中国西电、林洋能源、特锐德等更容易走出二次确认。\nEN: If the order chain keeps developing, Pinggao Electric, China XD Electric, Linyang Energy, and TGOOD are more likely to produce second confirmations.",
+      "relatedTickers": "600312.SH, 601179.SH, 601222.SH, 300001.SZ"
+    },
+    {
+      "date": "2026-07-30 to 2026-08-05",
+      "event": "中文：分红、回购与增持催化跟踪\nEN: Dividend, buyback, and insider-buying catalyst follow-up",
+      "watch": "中文：分红/回购/增持更适合作为T+1环境下的防守确认，不等于无条件追价。\nEN: Dividends, buybacks, and insider buying are better used as defensive confirmation under T+1, not as excuses for unconditional chasing.",
+      "relatedTickers": "600406.SH, 601877.SH, 300286.SZ, 601222.SH"
+    }
+  ],
+  "performanceTracker": [
+    {
+      "date": "2026-07-28",
+      "ticker": "159995.SZ",
+      "chineseName": "华夏国证半导体芯片ETF",
+      "status": "hit",
+      "result": "中文：上一版对拥挤芯片方向的回避判断被验证，最近可检索样本显示其2026年7月28日单日约下跌7.98%，说明“先看宽基和银行、后看科技”的顺序是对的。\nEN: The prior avoid-crowded-chip call was validated: the latest retrievable sample shows a roughly 7.98% one-day drop on July 28, 2026, confirming that broad beta and banks had to be checked before tech.",
+      "lesson": "中文：当芯片ETF都还在急跌时，不要把单一科技股反抽当成低风险波段入口。\nEN: When the chip ETF is still dropping sharply, do not treat a bounce in one tech stock as a low-risk swing entry."
+    },
+    {
+      "date": "2026-07-29",
+      "ticker": "600406.SH",
+      "chineseName": "国电南瑞",
+      "status": "open",
+      "result": "中文：最近可检索价格显示其2026年7月29日收23.93、单日涨1.57%，相对高贝塔方向更稳，说明电网核心仍适合作为主仓桥梁，但还未到可以满仓追击的阶段。\nEN: The latest retrievable price shows it closed at 23.93 on July 29, 2026, up 1.57% and steadier than higher-beta areas, which keeps grid-core exposure useful as a bridge but not yet something to chase with a full position.",
+      "lesson": "中文：正确方向不等于正确买点；稳健票也要等回踩和量价结构。\nEN: A correct direction does not automatically mean a correct entry; steadier names still need pullback and price-volume structure."
+    },
+    {
+      "date": "2026-07-28",
+      "ticker": "300854.SZ",
+      "chineseName": "中兰环保",
+      "status": "miss",
+      "result": "中文：之前把中兰环保当成风格参考是对的，但若把它放得太靠前就容易高估流动性稳定性；它仍更适合小仓事件观察，而不是主执行层。\nEN: Using Zhonglan Environmental as a style reference was fine, but ranking it too high would overestimate liquidity stability; it still fits small-size event watching more than the main execution layer.",
+      "lesson": "中文：今后对环保小票继续降低仓位上限，只有报表、量能和板块共振同时出现才升级。\nEN: Going forward, keep position caps lower for environmental small caps and upgrade them only when filings, volume, and sector resonance appear together."
+    }
+  ],
+  "sectors": [
+    {
+      "name": "中文：电网设备 / EN: Grid Equipment",
+      "direction": "long",
+      "riskLevel": "green",
+      "catalyst": "中文：国网中标、迎峰度夏、电网投资、回购与分红。\nEN: State Grid bids, summer peak-demand support, grid investment, buybacks, and dividends.",
+      "watch": "中文：国电南瑞、平高电气、中国西电、正泰电器。\nEN: NARI, Pinggao Electric, China XD Electric, and Chint Electric.",
+      "risk": "中文：若宽基与银行不确认，电网板块也可能从强势修复转回震荡。\nEN: If broad beta and banks do not confirm, the grid lane can slip from strong repair back into chop."
+    },
+    {
+      "name": "中文：智能计量与配电自动化 / EN: Smart Metering And Distribution Automation",
+      "direction": "long",
+      "riskLevel": "yellow",
+      "catalyst": "中文：管理层增持、订单兑现、电力数字化与用电侧改造。\nEN: Insider buying, order conversion, power digitalization, and demand-side upgrades.",
+      "watch": "中文：安科瑞、炬华科技、林洋能源、科陆电子。\nEN: Acrel, Sunrise Technology, Linyang Energy, and CLOU Electronics.",
+      "risk": "中文：板块若没有二次放量确认，突破很容易回到箱体。\nEN: Without second-wave volume confirmation, breakouts in the group can quickly fall back into range."
+    },
+    {
+      "name": "中文：公用事业与热电 / EN: Utilities And Thermal Power",
+      "direction": "long",
+      "riskLevel": "green",
+      "catalyst": "中文：夏季电力保供、现金流与低估值。\nEN: Summer power-security themes, cash flow, and lower valuations.",
+      "watch": "中文：富春环保、电力公用事业ETF、长江电力作为情绪参照。\nEN: Fuchun Environmental, the power-utility ETF, and Yangtze Power as sentiment references.",
+      "risk": "中文：若煤价/电价消息扰动或市场转向纯题材，公用事业会跑输高弹性。\nEN: If coal or tariff headlines swing or the market rotates into pure themes, utilities can lag higher-beta trades."
+    },
+    {
+      "name": "中文：环保治理与资源化 / EN: Environmental Remediation And Recycling",
+      "direction": "long",
+      "riskLevel": "yellow",
+      "catalyst": "中文：半年度报告、项目交付、政策跟踪。\nEN: Half-year reports, project delivery, and policy follow-up.",
+      "watch": "中文：中兰环保、富春环保。\nEN: Zhonglan Environmental and Fuchun Environmental.",
+      "risk": "中文：小票流动性和项目回款节奏决定了它们只能小仓观察。\nEN: Small-cap liquidity and project cash-collection pace mean they should only be watched with small size."
+    },
+    {
+      "name": "中文：半导体与科创成长 / EN: Semiconductors And STAR Growth",
+      "direction": "short",
+      "riskLevel": "red",
+      "catalyst": "中文：外盘科技映射、拥挤度出清与业绩兑现。\nEN: Offshore-tech mapping, crowded-position unwinds, and earnings delivery.",
+      "watch": "中文：159995.SZ、588000.SH只做风险温度计。\nEN: Use 159995.SZ and 588000.SH only as risk thermometers.",
+      "risk": "中文：任何无量反抽都可能在T+1下变成隔夜陷阱。\nEN: Any low-volume bounce can become an overnight trap under T+1."
+    },
+    {
+      "name": "中文：并购重组与事件驱动小票 / EN: M&A And Event-Driven Small Caps",
+      "direction": "long",
+      "riskLevel": "red",
+      "catalyst": "中文：发行股份购买资产、员工持股、异常波动公告后的二次博弈。\nEN: Share-issuance M&A plans, employee stock plans, and second-round trading after unusual-volatility notices.",
+      "watch": "中文：睿能科技、中恒电气、九洲集团。\nEN: Raynen Technology, Zhongheng Electric, and Jiuzhou Group.",
+      "risk": "中文：这类票最容易高开低走，必须等回踩和同伴确认。\nEN: These are the most likely to open strong and fade, so they require pullbacks and peer confirmation."
+    }
+  ],
+  "stocks": [
+    {
+      "ticker": "600406.SH",
+      "chineseName": "国电南瑞",
+      "direction": "long",
+      "riskLevel": "green",
+      "suggestedBuyPrice": "中文：仅在23.40-23.70回踩缩量、或24.10上方放量再确认时观察；首笔8%-10%，剩余仓位留给次日确认，不满足条件则跳过。\nEN: Watch only on a lighter-volume pullback into 23.40-23.70, or after a volume-backed reconfirmation above 24.10. Start with 8%-10% and leave the rest for next-day confirmation; skip if conditions are not met.",
+      "suggestedProfitTake": "中文：若24.90-25.60区间出现放量滞涨或板块同步转弱，再分批处理；若跌回23.20下方则视为结构失效。\nEN: Scale out only if the 24.90-25.60 zone shows volume-heavy stalling or sector-wide weakness; treat a drop back below 23.20 as structure failure.",
+      "type": "中文：电网核心 / EN: Grid core",
+      "catalyst": "中文：回购提议、电网投资、迎峰度夏保供。\nEN: Buyback proposal, grid investment, and summer peak-demand security.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约7.21亿元，高于2025年同期约6.80亿元；TTM市盈率约23.10倍、市净率约3.35倍，盈利与资产质量都比大多数高弹性题材更清楚。中文技术面 / EN Technicals: 2026年7月29日收23.93，短线支撑先看23.4-23.7，压力看24.1-24.3；本次检索未直接拿到精确5/10/20/50/200日均线，因此以最近区间和回踩结构替代。中文消息面 / EN News/Catalyst: 2026年7月20日披露董事长提议回购公司部分股份，叠加电网投资与夏季保供逻辑，属于可核验催化。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月29日成交约58.98万手、成交额约14.07亿元、换手率0.74%，流动性充足，适合做主执行层，但仍需看电网同伴确认。",
+      "risk": "中文：若宽基、银行与电网同伴同步走弱，或23.20下方失守，则不应把它当成防守转进攻的桥梁。\nEN: If broad beta, banks, and grid peers weaken together, or if 23.20 breaks, it should no longer be treated as the bridge from defense to offense.",
+      "convictionScore": 4,
+      "timeframe": "swing",
+      "recentPerformance": "中文：2026年7月29日收23.93、单日+1.57%，明显稳于高贝塔科技。\nEN: It closed at 23.93 on July 29, 2026, up 1.57% and clearly steadier than high-beta tech.",
+      "setupStatus": "in progress"
+    },
+    {
+      "ticker": "600312.SH",
+      "chineseName": "平高电气",
+      "direction": "long",
+      "riskLevel": "yellow",
+      "suggestedBuyPrice": "中文：仅在19.20-19.50回踩缩量企稳、或20.00上方再次放量并得到中国西电/国电南瑞同步确认时观察；普通黄风险仓位4%-8%。\nEN: Watch only if 19.20-19.50 stabilizes on a lighter-volume pullback, or if it re-breaks above 20.00 on volume with China XD and NARI confirming; keep ordinary yellow-risk size at 4%-8%.",
+      "suggestedProfitTake": "中文：若20.90-21.40区间出现冲高放量但同伴不跟，分批收缩；若跌回18.90下方则先退出观察。\nEN: Scale back if the 20.90-21.40 zone rallies on heavy volume without peer follow-through; step aside if it falls back below 18.90.",
+      "type": "中文：电网设备 / EN: Grid equipment",
+      "catalyst": "中文：中标公告、配网投资、保供预期。\nEN: Bid announcement, distribution-grid investment, and power-security expectations.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约4.15亿元，高于2025年同期约3.58亿元；市盈率约22.79倍、市净率约2.20倍，盈利修复是实打实的。中文技术面 / EN Technicals: 2026年7月29日收19.76、单日+4.49%，短线已接近20元整数位压力；精确均线本次未直接检索到，因此更强调等回踩而不是追涨。中文消息面 / EN News/Catalyst: 2026年7月22日披露中标公告，电网招标链条仍在发酵。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月29日成交约37.21万手、成交额约7.29亿元、换手率2.74%，流动性够用，但放量过后更要防T+1次日冲高回落。",
+      "risk": "中文：它是强势样本，但强势不等于低风险；若20元附近量价背离或同伴掉队，先回到等回踩。\nEN: It is a strong sample, but strength is not the same as low risk; if price-volume diverges near 20 or peers fade, revert to waiting for a pullback.",
+      "convictionScore": 3,
+      "timeframe": "swing",
+      "recentPerformance": "中文：2026年7月29日放量上涨至19.76，属于强修复但也更接近短线拥挤。\nEN: It rallied on volume to 19.76 on July 29, 2026, which is a strong repair but also closer to short-term crowding.",
+      "setupStatus": "wait for pullback"
+    },
+    {
+      "ticker": "601222.SH",
+      "chineseName": "林洋能源",
+      "direction": "long",
+      "riskLevel": "yellow",
+      "suggestedBuyPrice": "中文：若5.45-5.55回踩缩量企稳、或5.70上方放量并得到电表/配电同伴确认后再考虑；仓位4%-6%，不满足条件则跳过。\nEN: Consider it only if 5.45-5.55 holds on a lighter-volume pullback, or if 5.70 is reclaimed on volume with meter/distribution peers confirming; keep size at 4%-6% and skip otherwise.",
+      "suggestedProfitTake": "中文：若5.95-6.20区间出现冲高乏力或订单催化未落地，分批收缩；若5.35下方失守则取消计划。\nEN: Trim in the 5.95-6.20 zone if momentum stalls or order catalysts do not convert; cancel the setup below 5.35.",
+      "type": "中文：智能电表与能源服务 / EN: Smart meters and energy services",
+      "catalyst": "中文：回购进展、国网订单预期、能源数字化。\nEN: Buyback progress, State Grid order expectations, and energy digitalization.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约0.60亿元，低于2025年同期约1.24亿元，说明业绩斜率仍需验证；但市净率约0.75倍、资产端估值较低。中文技术面 / EN Technicals: 最近可检索价格为2026年7月23日5.64，仍处于低价股常见箱体区；精确均线未直接检索到，更适合等回踩或突破二选一。中文消息面 / EN News/Catalyst: 2026年7月2日回购进展公告、7月下旬预期中标信息让它具备提前催化属性。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月23日成交约27.93万手、成交额约1.56亿元、换手率1.37%，流动性可做但没有主线龙头那么强。",
+      "risk": "中文：若订单只停留在预期、而基本面下滑继续扩散，它会从价值低位票重新变成弱势低价票。\nEN: If orders remain only expectations while the earnings slowdown keeps spreading, it can revert from a value low-price name into a weak low-price name.",
+      "convictionScore": 3,
+      "timeframe": "swing",
+      "recentPerformance": "中文：最近可检索价格在5元中段，仍属提前催化观察而非已经走完的趋势股。\nEN: The latest retrievable price is still in the mid-RMB-5 area, keeping it in pre-catalyst watch rather than fully extended trend status.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "601877.SH",
+      "chineseName": "正泰电器",
+      "direction": "long",
+      "riskLevel": "green",
+      "suggestedBuyPrice": "中文：仅在24.20-24.60回踩缩量企稳、或25.00上方再次放量且宽基不弱时观察；首笔8%-10%，不在高开脉冲上追。\nEN: Watch only if 24.20-24.60 stabilizes on a lighter-volume pullback, or above 25.00 on renewed volume while broad beta stays firm; start with 8%-10% and do not chase an opening pulse.",
+      "suggestedProfitTake": "中文：若26.00-26.60区间出现放量但同伴不跟、或分红催化兑现后回落，则分批落袋；若23.90失守则先放弃。\nEN: Take partials if the 26.00-26.60 zone shows heavy volume without peer follow-through or if it fades after dividend expectations are priced in; abandon the setup below 23.90.",
+      "type": "中文：电气设备与分红防守 / EN: Electrical equipment and dividend defense",
+      "catalyst": "中文：控股股东中期分红提议、夏季保供、低估值。\nEN: Controlling-shareholder interim-dividend proposal, summer power support, and lower valuation.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约12.67亿元，高于2025年同期约11.63亿元；市盈率约11.41倍、市净率约0.96倍，估值与现金回报属性优于很多题材股。中文技术面 / EN Technicals: 最近可检索价格为2026年7月24日24.45，经过回撤后更接近等回踩结构；精确5/10/20/50/200日均线本次未直接拿到。中文消息面 / EN News/Catalyst: 2026年7月20日披露收到控股股东2026年度中期分红提议，是对防守型仓位有实际意义的催化。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月24日成交约22.72万手、成交额约5.64亿元、换手率1.06%，流动性稳定，适合做防守转进攻的缓冲。",
+      "risk": "中文：若市场突然切回纯题材炒作，分红低估值样本可能相对跑慢；但这通常意味着它更适合保留而不是追价。\nEN: If the market rotates back into pure theme speculation, low-valuation dividend names may lag; but that usually argues for holding discipline rather than chasing.",
+      "convictionScore": 4,
+      "timeframe": "swing",
+      "recentPerformance": "中文：最近可检索价格在24元中段，属于回撤后的再确认候选，而不是刚爆发的热点票。\nEN: The latest retrievable price is in the mid-RMB-24 area, making it a post-pullback reconfirmation candidate rather than a fresh-hot name.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "300286.SZ",
+      "chineseName": "安科瑞",
+      "direction": "long",
+      "riskLevel": "yellow",
+      "suggestedBuyPrice": "中文：仅在19.80-20.10回踩缩量企稳、或20.50上方放量再确认后观察；普通黄风险仓位4%-6%，高开不追。\nEN: Watch only if 19.80-20.10 stabilizes on a lighter-volume pullback, or after a volume-backed reconfirmation above 20.50. Keep ordinary yellow-risk size at 4%-6% and do not chase a gap-up.",
+      "suggestedProfitTake": "中文：若21.80-22.40区间放量但同伴不跟，分批兑现；若19.50下方失守则取消波段计划。\nEN: Scale out if the 21.80-22.40 zone rallies on heavy volume without peer support; cancel the swing plan below 19.50.",
+      "type": "中文：智能计量 / EN: Smart metering",
+      "catalyst": "中文：管理层增持、电力数字化、配电监测需求。\nEN: Management buying, power digitalization, and distribution-monitoring demand.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约0.50亿元，与2025年同期约0.52亿元接近；市盈率约25.08倍、市净率约2.21倍，盈利质量尚可但不是高速增长。中文技术面 / EN Technicals: 2026年7月23日收20.33、单日+5.01%，短线更适合等待19.8-20.1回踩而不是追涨；精确均线本次未直接检索到。中文消息面 / EN News/Catalyst: 2026年7月22日披露管理层增持及后续增持计划，属于真实可验证催化。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月23日成交约9.37万手、成交额约1.87亿元、换手率4.51%，量能足够但浮筹也会更敏感，必须等板块确认。",
+      "risk": "中文：如果20.5上方无法带量站稳、或计量同伴不跟，它会很快回到箱体。\nEN: If it cannot hold above 20.5 on volume or if metering peers do not confirm, it can quickly fall back into range.",
+      "convictionScore": 3,
+      "timeframe": "swing",
+      "recentPerformance": "中文：最近可检索价格显示其有突破意图，但仍处在需要二次确认的阶段。\nEN: The latest retrievable price shows breakout intent, but it is still at a stage that needs second confirmation.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "300360.SZ",
+      "chineseName": "炬华科技",
+      "direction": "long",
+      "riskLevel": "yellow",
+      "suggestedBuyPrice": "中文：若11.55-11.75回踩缩量企稳、或12.00上方放量并得到计量同伴确认后再考虑；仓位4%-6%，流动性不够强时宁可跳过。\nEN: Consider it only if 11.55-11.75 holds on a lighter-volume pullback, or if 12.00 is reclaimed on volume with metering peers confirming; keep size at 4%-6% and skip it if liquidity is not convincing.",
+      "suggestedProfitTake": "中文：若12.60-13.00区间放量冲高但量价背离，分批处理；若11.40下方失守则撤退。\nEN: Scale out if the 12.60-13.00 zone spikes on volume with price-volume divergence; step away below 11.40.",
+      "type": "中文：智能电表 / EN: Smart meters",
+      "catalyst": "中文：分红实施后的低位修复、计量链轮动。\nEN: Post-dividend low-base repair and metering-chain rotation.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约0.95亿元，低于2025年同期约1.75亿元，但2025全年净利润仍约5.67亿元；市盈率约12.53倍、市净率约1.43倍，估值不贵。中文技术面 / EN Technicals: 最近可检索价格为2026年7月28日11.87，仍在低位区间内，没有出现必须追的失控走势；精确均线本次未直接检索到。中文消息面 / EN News/Catalyst: 2026年5月27日年报权益分派实施，后续可关注中报窗口与计量链轮动。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月28日成交约2.35万手、成交额约2778万元、换手率0.47%，流动性明显弱于国电南瑞和平高电气，因此仓位必须更小。",
+      "risk": "中文：低流动性意味着看对方向也可能买不到理想价格；若量能不放大，就只保留观察。\nEN: Lower liquidity means even a correct directional call may not get a clean fill; if volume does not expand, keep it watch-only.",
+      "convictionScore": 2,
+      "timeframe": "swing",
+      "recentPerformance": "中文：最近可检索价格在11.87附近，偏低位整理而非强趋势。\nEN: The latest retrievable price is around 11.87, which looks more like low-base consolidation than a strong trend.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "300001.SZ",
+      "chineseName": "特锐德",
+      "direction": "long",
+      "riskLevel": "red",
+      "suggestedBuyPrice": "中文：仅在34.80-35.40回踩缩量企稳、或36.80上方放量并得到充电/电力设备同伴确认后再考虑；红色高风险只用1%-3%试错，高开脉冲一律不追。\nEN: Consider it only if 34.80-35.40 stabilizes on a lighter-volume pullback, or above 36.80 on volume with charging and power-equipment peers confirming; use only 1%-3% red-risk test size and never chase an opening pulse.",
+      "suggestedProfitTake": "中文：若38.20-39.50区间出现冲高放量但次日无延续，尽快分批落袋；若34.30下方失守则视为失败。\nEN: If the 38.20-39.50 zone spikes on volume but fails to continue the next day, take profit quickly in pieces; treat a break below 34.30 as failure.",
+      "type": "中文：充电与电力设备弹性 / EN: Charging and power-equipment beta",
+      "catalyst": "中文：业绩预告窗口、预中标国网项目。\nEN: Earnings-preannouncement window and a pre-awarded State Grid project.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约0.72亿元，高于2025年同期约0.65亿元；2025全年净利润约12.43亿元，但市盈率约30.25倍、市净率约3.94倍，估值和波动都高于防守样本。中文技术面 / EN Technicals: 最近可检索价格为2026年7月24日35.84，单日下跌约5.46%，说明高弹性票仍在剧烈换手；精确均线本次未直接检索到，所以更强调等回踩。中文消息面 / EN News/Catalyst: 2026年7月20日披露公司及子公司预中标国网项目，且6月末已有业绩预告窗口。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月24日成交约23.33万手、成交额约8.45亿元、换手率2.26%，流动性够大，但次日冲高回落风险同样大。",
+      "risk": "中文：它适合作为提前催化观察，不适合作为首选主仓；若36.8上方假突破、或充电同伴不确认，就证明今天不该追。\nEN: It fits pre-catalyst watching more than first-choice core exposure; if a move above 36.8 becomes a false breakout or charging peers fail to confirm, that proves it should not be chased today.",
+      "convictionScore": 2,
+      "timeframe": "trade",
+      "recentPerformance": "中文：最近可检索价格回到35元中段，说明题材弹性仍大但稳定性不够。\nEN: The latest retrievable price pulled back into the mid-RMB-35 area, showing that thematic elasticity remains high but stability is insufficient.",
+      "setupStatus": "wait for pullback"
+    }
+  ],
+  "smallCaps": [
+    {
+      "ticker": "300854.SZ",
+      "chineseName": "中兰环保",
+      "direction": "long",
+      "riskLevel": "red",
+      "suggestedBuyPrice": "中文：仅在13.60-14.00回踩缩量企稳、或14.40上方放量并得到环保同伴确认后再观察；高风险只用1%-3%，不满足条件则跳过。\nEN: Watch only if 13.60-14.00 stabilizes on a lighter-volume pullback, or above 14.40 on volume with environmental peers confirming; use only 1%-3% high-risk size and skip otherwise.",
+      "suggestedProfitTake": "中文：若15.20-15.80区间冲高放量但板块不跟，快速分批处理；若13.20下方失守则取消计划。\nEN: If it spikes into 15.20-15.80 on volume without sector follow-through, take profit quickly in pieces; cancel the plan below 13.20.",
+      "type": "中文：环保中小盘 / EN: Environmental small cap",
+      "catalyst": "中文：半年度报告、环保项目与修复性交易。\nEN: Half-year report, environmental projects, and repair trading.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约0.24亿元，高于2025年同期约0.10亿元，说明经营有所修复；但历史盈利波动仍大，长期稳定性仍不足。中文技术面 / EN Technicals: 最近可检索到的除权后近端价格参考在14元附近，更适合作为回踩企稳观察；精确均线未直接拿到。中文消息面 / EN News/Catalyst: 2026年7月28日已进入半年度报告披露窗口，属于事件驱动而非稳健主仓逻辑。中文成交量/流动性 / EN Volume/Liquidity: 历史可检索样本换手率一度超过8%，说明弹性足但流动性稳定性一般，必须缩小仓位。",
+      "risk": "中文：环保小票最容易在T+1下出现高开低走；如果环保同伴不共振，宁可放弃。\nEN: Environmental small caps are especially prone to gap-and-fade under T+1; if environmental peers do not resonate, it is better to skip it.",
+      "convictionScore": 2,
+      "timeframe": "trade",
+      "recentPerformance": "中文：它仍是风格参考样本，不是今天的无条件主推荐。\nEN: It remains a style-reference sample, not an unconditional main recommendation today.",
+      "setupStatus": "wait for pullback"
+    },
+    {
+      "ticker": "300490.SZ",
+      "chineseName": "华自科技",
+      "direction": "long",
+      "riskLevel": "red",
+      "suggestedBuyPrice": "中文：仅在15.80-16.10回踩缩量企稳、或16.70上方放量突破且电力自动化同伴确认时用1%-3%试错。\nEN: Use only 1%-3% test size if 15.80-16.10 stabilizes on a lighter-volume pullback or if 16.70 breaks on volume with power-automation peers confirming.",
+      "suggestedProfitTake": "中文：若17.60-18.20区间出现快速拉升而次日无法延续，立刻分批收缩；若15.50下方失守则离场。\nEN: If it surges into 17.60-18.20 and cannot continue the next day, scale out immediately in pieces; exit below 15.50.",
+      "type": "中文：电力自动化弹性 / EN: Power-automation beta",
+      "catalyst": "中文：储能/自动化修复与一季报改善。\nEN: Storage/automation repair and first-quarter improvement.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约0.83亿元，而2025年同期为亏损约0.72亿元，边际改善明显；但2025全年仍亏损约2.54亿元，基本面并不稳定。中文技术面 / EN Technicals: 最近可检索价格为16.35，属于底部反弹阶段，不具备追高条件；精确均线未直接检索到。中文消息面 / EN News/Catalyst: 最近可直接检索公告更多是担保进展，缺乏像回购或分红那样更稳的催化，因此只能按高弹性事件票处理。中文成交量/流动性 / EN Volume/Liquidity: 可检索样本成交约10.55万手、成交额约1.72亿元、换手率2.68%，流动性尚可但波动大。",
+      "risk": "中文：如果只有单票异动、没有板块共振，就很容易把利润吐回去；这是典型不追高样本。\nEN: If the move is isolated and not backed by the sector, profits can be given back quickly; this is a textbook no-chase sample.",
+      "convictionScore": 2,
+      "timeframe": "trade",
+      "recentPerformance": "中文：基本面边际改善，但股价结构仍属于高风险反弹观察段。\nEN: Fundamentals improved at the margin, but the price structure still belongs to a high-risk rebound-watch phase.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "002121.SZ",
+      "chineseName": "科陆电子",
+      "direction": "short",
+      "riskLevel": "red",
+      "suggestedBuyPrice": "中文：A股普通账户这里代表回避/降敞口；仅当4.85上方重新放量站稳、且计量同伴同步修复时，才把“回避”降级为观察。\nEN: For standard A-share accounts this means avoid or reduce exposure; only if it reclaims above 4.85 on volume with metering peers repairing together should the avoid call be downgraded into watch-only.",
+      "suggestedProfitTake": "中文：若只是弱反抽到4.75-4.90而没有基本面改善，不把它当成新的做多机会；若本就没有持仓，则继续跳过。\nEN: If it only bounces weakly into 4.75-4.90 without a fundamental improvement, do not treat it as a fresh long opportunity; if you do not already hold it, continue to skip it.",
+      "type": "中文：计量弱势样本 / EN: Weak metering sample",
+      "catalyst": "中文：半年度业绩预告与亏损修复预期。\nEN: Half-year earnings preview and loss-repair expectations.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约亏损0.40亿元、每股收益约-0.16元，市净率高达约19.80倍，净资产薄，财务约束明显。中文技术面 / EN Technicals: 最近可检索价格为2026年7月22日4.63，仍处低位弱势区；精确均线未直接检索到，但没有形成值得主动追击的结构。中文消息面 / EN News/Catalyst: 2026年7月15日披露半年度业绩预告，说明市场会围绕亏损修复交易，但这更像情绪博弈而不是稳健波段。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月22日成交约28.07万手、成交额约1.31亿元、换手率1.99%，有流动性但弱势票弹性并不等于胜率。",
+      "risk": "中文：这是典型的“看起来便宜但并不稳”的票；除非财务与价格结构一起改善，否则继续作为回避样本。\nEN: This is a classic name that looks cheap but is not stable; unless both the financial picture and price structure improve together, keep it on the avoid list.",
+      "convictionScore": 1,
+      "timeframe": "trade",
+      "recentPerformance": "中文：最近可检索价格仍在4元中段弱势徘徊。\nEN: The latest retrievable price is still drifting weakly in the mid-RMB-4 area.",
+      "setupStatus": "wait for pullback"
+    },
+    {
+      "ticker": "002364.SZ",
+      "chineseName": "中恒电气",
+      "direction": "long",
+      "riskLevel": "red",
+      "suggestedBuyPrice": "中文：仅在33.80-35.00回踩两天以上并缩量企稳、或37.00上方放量再突破且电力设备同伴跟随时试1%-3%；单日急涨不追。\nEN: Test only 1%-3% if it spends at least two sessions stabilizing in the 33.80-35.00 zone on lighter volume, or if it re-breaks above 37.00 on volume with power-equipment peers following; do not chase a one-day spike.",
+      "suggestedProfitTake": "中文：若39.00-40.50出现急拉但量价背离，分批锁定；若33.20下方失守则证明草案刺激未转化为趋势。\nEN: Lock partial gains if 39.00-40.50 is reached on a sharp move with price-volume divergence; a break below 33.20 proves the plan stimulus did not convert into trend.",
+      "type": "中文：事件驱动电力设备 / EN: Event-driven power equipment",
+      "catalyst": "中文：员工持股计划草案。\nEN: Draft employee stock ownership plan.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约0.25亿元，高于2025年同期约0.20亿元，但市盈率约154.89倍、市净率约8.02倍，估值已经非常热。中文技术面 / EN Technicals: 2026年7月28日收36.01、单日跌约9.98%，说明筹码极不稳定；精确均线未直接检索到，因此一定要等冷却。中文消息面 / EN News/Catalyst: 2026年7月28日披露第三期员工持股计划草案，短线有事件驱动，但不是基本面拐点的充分证据。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月28日成交约50.56万手、成交额约18.53亿元、换手率9.06%，量非常大，也意味着T+1次日波动风险极高。",
+      "risk": "中文：这是高波动红色项目；若不能先缩量、就说明浮筹没有洗干净，不适合你的稳健目标。\nEN: This is a high-volatility red-risk item; if it cannot first cool down on lighter volume, floating supply has not been cleared and it does not fit your steadier objective.",
+      "convictionScore": 1,
+      "timeframe": "trade",
+      "recentPerformance": "中文：2026年7月28日出现接近跌停的大幅回撤，说明情绪过热后正在重估。\nEN: It suffered a near-limit-down drawdown on July 28, 2026, showing that overheated sentiment is being repriced.",
+      "setupStatus": "wait for pullback"
+    },
+    {
+      "ticker": "002479.SZ",
+      "chineseName": "富春环保",
+      "direction": "long",
+      "riskLevel": "green",
+      "suggestedBuyPrice": "中文：仅在5.00-5.10回踩缩量企稳、或5.25上方放量并得到公用事业同伴确认后观察；仓位4%-6%，更适合作为稳健小票。\nEN: Watch only if 5.00-5.10 holds on a lighter-volume pullback, or if 5.25 is reclaimed on volume with utility peers confirming; keep size at 4%-6% and treat it as a steadier small-cap candidate.",
+      "suggestedProfitTake": "中文：若5.45-5.70区间放量冲高但公用事业同伴不共振，分批处理；若4.90失守则先撤。\nEN: Scale out if the 5.45-5.70 zone spikes on volume without utility-peer resonance; step back first below 4.90.",
+      "type": "中文：热电与环保公用事业 / EN: Thermal-power and environmental utility",
+      "catalyst": "中文：半年度业绩窗口、夏季保供、公用事业防守。\nEN: Half-year earnings window, summer supply security, and utility defense.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约1.03亿元，高于2025年同期约0.96亿元；市盈率约21.04倍、市净率约0.98倍，估值不贵，现金回报属性相对更稳。中文技术面 / EN Technicals: 最近可检索价格为2026年7月24日5.13，仍在低价防守区；精确均线未直接检索到，但更符合回踩观察。中文消息面 / EN News/Catalyst: 近期投资者关系与半年度窗口提供持续跟踪点，配合国家能源局的迎峰度夏背景。中文成交量/流动性 / EN Volume/Liquidity: 2026年7月24日成交约22.79万手、成交额约1.19亿元、换手率2.64%，流动性对小票来说尚可。",
+      "risk": "中文：若市场彻底切回纯题材，它可能跑不过高弹性；但在T+1环境下这反而是它的防守价值。\nEN: If the market fully rotates back into pure themes, it may lag higher-beta trades; under T+1 that lag is also part of its defensive value.",
+      "convictionScore": 3,
+      "timeframe": "swing",
+      "recentPerformance": "中文：最近可检索价格处在5元出头，属于低估值公用事业观察段。\nEN: The latest retrievable price sits just above RMB 5, keeping it in a lower-valuation utility watch phase.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "603933.SH",
+      "chineseName": "睿能科技",
+      "direction": "long",
+      "riskLevel": "red",
+      "suggestedBuyPrice": "中文：仅在23.40-23.80回踩缩量企稳、或25.00上方二次放量确认且重组预期继续发酵时用1%-3%试错；已经急涨就不追。\nEN: Use only 1%-3% test size if 23.40-23.80 holds on a lighter-volume pullback, or if 25.00 is reconfirmed on volume while the restructuring story continues to develop; do not chase after a sharp surge.",
+      "suggestedProfitTake": "中文：若26.50-27.50区间快速冲高但量价背离，迅速分批收缩；若22.90下方失守则失效。\nEN: If it quickly surges into 26.50-27.50 with price-volume divergence, trim rapidly in pieces; a break below 22.90 invalidates the trade.",
+      "type": "中文：并购重组小票 / EN: M&A small cap",
+      "catalyst": "中文：发行股份购买资产筹划、业绩预增。\nEN: Planned share-issuance acquisition and earnings pre-growth.",
+      "why": "中文基本面 / EN Fundamentals: 2026年一季报净利润约0.35亿元，高于2025年同期约0.13亿元；但市盈率约91.02倍、市净率约3.73倍，估值已经不便宜。中文技术面 / EN Technicals: 最近可检索价格为2026年7月13日24.71并出现10%涨停，说明它更像事件驱动票；精确均线未直接检索到。中文消息面 / EN News/Catalyst: 2026年7月7日披露筹划发行股份及支付现金购买资产并募集配套资金，叠加7月中旬业绩预增，是明确的近催化。中文成交量/流动性 / EN Volume/Liquidity: 当日成交约14.27万手、成交额约3.50亿元、换手率6.88%，量能不差，但越是这样越不能追涨。",
+      "risk": "中文：如果重组/业绩预增被资金一次性交易完，次日回撤会很快；这类票不适合大仓。\nEN: If restructuring and earnings-pre-growth are priced in all at once, next-day drawdowns can come fast; this type of stock does not suit large size.",
+      "convictionScore": 2,
+      "timeframe": "trade",
+      "recentPerformance": "中文：最近可检索价格曾单日涨停，说明它更偏事件驱动而不是稳态上行。\nEN: The latest retrievable price showed a one-day limit-up, which makes it more event-driven than steadily trending.",
+      "setupStatus": "extended"
+    }
+  ],
+  "etfs": [
+    {
+      "ticker": "510300.SH",
+      "chineseName": "沪深300ETF",
+      "direction": "long",
+      "riskLevel": "green",
+      "suggestedBuyPrice": "中文：仅在4.56-4.60止跌、或4.68上方重新放量站稳时观察；ETF仓位8%-12%，不要在首根拉升K上一次打满。\nEN: Watch only if the 4.56-4.60 zone stops falling, or if it reclaims above 4.68 on renewed volume; keep ETF size at 8%-12% and do not fill the whole position on the first rally candle.",
+      "suggestedProfitTake": "中文：若4.80-4.90区间反弹放量但个股宽度不跟，分批收缩；若4.52下方失守则先回到观望。\nEN: Scale back if the 4.80-4.90 zone rebounds on volume without breadth follow-through; step back into watch mode below 4.52.",
+      "type": "中文：宽基ETF / EN: Broad-market ETF",
+      "catalyst": "中文：政策预期、流动性、市场宽度修复。\nEN: Policy expectations, liquidity, and breadth repair.",
+      "why": "中文基本面 / EN Fundamentals: 作为沪深300宽基工具，它承载银行、保险、电网、制造龙头等较稳权重，直接估值倍数本次未单独检索到，但其基本面质量整体优于高弹性主题ETF。中文技术面 / EN Technicals: 最近可检索价格为2026年7月28日4.63、单日约-2.65%，说明仍在确认区；精确均线未直接拿到，因此以4.56-4.63区间作为风控。中文消息面 / EN News/Catalyst: 宽基更受政策、流动性、PMI与整体风险偏好驱动。中文成交量/流动性 / EN Volume/Liquidity: 宽基ETF天然流动性最好，适合用来代替被动追逐单一题材股。",
+      "risk": "中文：如果它都不能止跌，说明今天大多数个股机会都不应被放大。\nEN: If even this cannot stabilize, most single-stock opportunities today should not be amplified.",
+      "convictionScore": 4,
+      "timeframe": "trade",
+      "recentPerformance": "中文：最近可检索样本为4.63、单日回撤，仍属市场确认工具。\nEN: The latest retrievable sample is 4.63 with a daily pullback, keeping it as a market-confirmation tool.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "512800.SH",
+      "chineseName": "华宝中证银行ETF",
+      "direction": "long",
+      "riskLevel": "green",
+      "suggestedBuyPrice": "中文：仅在0.87-0.89区域止跌、或宽基共振下重新走强时观察；ETF仓位8%-12%，不在单根反抽中满仓。\nEN: Watch only if the 0.87-0.89 zone stabilizes or if it turns stronger again alongside broad beta; keep ETF size at 8%-12% and do not fully size on one bounce.",
+      "suggestedProfitTake": "中文：若0.92-0.95区间出现冲高但宽基/个股不跟，分批缩减；若0.85下方失守则防守判断失效。\nEN: Scale back if the 0.92-0.95 zone spikes without broad-beta or single-stock follow-through; a break below 0.85 invalidates the defensive read.",
+      "type": "中文：防守ETF / EN: Defensive ETF",
+      "catalyst": "中文：稳流动性、红利属性、风险偏好过滤。\nEN: Stable liquidity, dividend attributes, and risk-appetite filtering.",
+      "why": "中文基本面 / EN Fundamentals: 银行ETF对应的是低估值、高分红和更稳盈利的大金融权重，具体ETF综合估值本次未单独检索到，但基本面稳定性高于高贝塔主题。中文技术面 / EN Technicals: 最近可检索参考在0.87-0.89附近，技术上更适合作为先确认风险偏好的工具；精确均线未直接拿到。中文消息面 / EN News/Catalyst: 它更受流动性与政策语气驱动，而不是单一公司事件。中文成交量/流动性 / EN Volume/Liquidity: 银行ETF流动性较高，适合作为今天先看再决定是否下沉到个股的前置工具。",
+      "risk": "中文：如果银行ETF自身都弱，说明今天防守层也不稳，个股风险只会更高。\nEN: If the bank ETF itself is weak, defense is not stable either and single-stock risk only rises further.",
+      "convictionScore": 4,
+      "timeframe": "trade",
+      "recentPerformance": "中文：它仍是今天最重要的风险过滤器之一。\nEN: It remains one of today’s most important risk filters.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "561700.SH",
+      "chineseName": "博时中证全指电力公用事业ETF",
+      "direction": "long",
+      "riskLevel": "green",
+      "suggestedBuyPrice": "中文：仅在1.12-1.14回踩缩量企稳、或1.17上方重新放量时观察；ETF仓位8%-10%，适合作为防守到进攻之间的缓冲。\nEN: Watch only if 1.12-1.14 stabilizes on a lighter-volume pullback, or if it reclaims above 1.17 on renewed volume; keep ETF size at 8%-10% as a buffer between defense and offense.",
+      "suggestedProfitTake": "中文：若1.20-1.24区间反弹放量但板块龙头不跟，分批处理；若1.10失守则回到观望。\nEN: Scale out if the 1.20-1.24 zone rebounds on volume without leadership follow-through; return to watch mode below 1.10.",
+      "type": "中文：公用事业ETF / EN: Utility ETF",
+      "catalyst": "中文：迎峰度夏、保供、公用事业低波动。\nEN: Summer peak demand, power-security policy, and lower-volatility utilities.",
+      "why": "中文基本面 / EN Fundamentals: 公用事业ETF代表更稳定现金流和防守型盈利结构，估值直接倍数本次未单独检索到，但行业属性明显优于高贝塔主题。中文技术面 / EN Technicals: 最近可检索价格参考约1.148，属于低波动修复区，更适合作为确认工具；精确均线未直接拿到。中文消息面 / EN News/Catalyst: 国家能源局迎峰度夏与保供表述提供了明确宏观背景。中文成交量/流动性 / EN Volume/Liquidity: 行业ETF流动性通常足够，但不如510300.SH，需要配合板块龙头确认。",
+      "risk": "中文：若市场转入纯题材躁动，它可能相对跑慢；但对你的策略，这通常不是坏事。\nEN: If the market turns into pure theme froth, it may relatively lag; for your style that is usually not a bad thing.",
+      "convictionScore": 3,
+      "timeframe": "trade",
+      "recentPerformance": "中文：最近可检索价格仍处稳态区，更偏工具属性。\nEN: The latest retrievable price remains in a steadier zone, keeping it more of a tool than a chase candidate.",
+      "setupStatus": "early"
+    },
+    {
+      "ticker": "159995.SZ",
+      "chineseName": "华夏国证半导体芯片ETF",
+      "direction": "short",
+      "riskLevel": "red",
+      "suggestedBuyPrice": "中文：这里代表回避/降敞口；只有1.42-1.45重新站稳、并得到科创与芯片同伴同步修复后，才重新从“回避”降级到“观察”。\nEN: This means avoid or reduce exposure; only if 1.42-1.45 is reclaimed with STAR and chip peers repairing together should it be downgraded from avoid to watch.",
+      "suggestedProfitTake": "中文：若只是弱反抽到1.40附近而量能不跟，不把它当成新多头机会；若已有仓位，更适合利用反弹降低风险。\nEN: If it only bounces weakly toward 1.40 without volume support, do not treat it as a new long setup; if already held, rebounds are better used to reduce risk.",
+      "type": "中文：高贝塔科技ETF / EN: High-beta tech ETF",
+      "catalyst": "中文：业绩兑现、外盘科技映射、拥挤去化。\nEN: Earnings delivery, offshore-tech mapping, and crowded-position unwinds.",
+      "why": "中文基本面 / EN Fundamentals: 芯片ETF代表的是高研发、高周期、估值更敏感的一篮子半导体权重，基本面分化大，不能被当成今天的低风险主仓。中文技术面 / EN Technicals: 最近可检索价格为2026年7月28日1.383、单日约-7.98%，技术上仍在出清区；精确均线未直接拿到。中文消息面 / EN News/Catalyst: 当前更偏外部科技情绪和业绩兑现压力，而不是A股内部稳健催化。中文成交量/流动性 / EN Volume/Liquidity: ETF本身流动性足，但高流动性不等于高胜率，最近的单日大跌就说明抛压仍重。",
+      "risk": "中文：高风险红色工具，必须写明不追高；若没有1.42-1.45重回并站稳，任何反抽都可能只是出逃窗口。\nEN: This is a red-risk tool and the no-chase rule is mandatory; without a stable reclaim of 1.42-1.45, any bounce can be just an exit window.",
+      "convictionScore": 4,
+      "timeframe": "trade",
+      "recentPerformance": "中文：最近可检索样本2026年7月28日单日跌约7.98%，风险尚未出清。\nEN: The latest retrievable sample fell about 7.98% in one day on July 28, 2026, showing risk has not cleared.",
+      "setupStatus": "wait for pullback"
+    }
+  ],
+  "sections": [
+    {
+      "title": "中文：提前催化预警\nEN: Pre-Catalyst Watchlist",
+      "items": [
+        "中文：601179.SH | 中国西电 | 催化日期/时间：2026-07-30 至 2026-08-05 | 催化类型：中标公告消化与电网订单跟踪 | 可能波动原因：2026年7月23日产品中标公告后，若电网链继续获资金承接，它可能在主线内部率先二次确认。 | 方向偏向：long/watch | 风险等级：yellow | 阶段：in progress | 不追高规则：只在13.10-13.35回踩缩量、或13.80上方放量并得到平高/南瑞确认后再观察。\nEN: 601179.SH | China XD Electric | Catalyst date/time: July 30 to August 5, 2026 | Catalyst type: post-bid digestion and grid-order follow-up | Why it could move: after the July 23 product-bid notice, continued support in the grid chain could push it into a second confirmation ahead of peers. | Expected direction bias: long/watch | RiskLevel: yellow | Stage: in progress | No-chase rule: only revisit after a lighter-volume pullback into 13.10-13.35, or on a volume-backed move above 13.80 with Pinggao and NARI confirming.",
+        "中文：301046.SZ | 能辉科技 | 催化日期/时间：2026-07-30 至 2026-08-05 | 催化类型：项目进展与新能源服务订单跟踪 | 可能波动原因：若新能源/配网EPC情绪回暖，小体量订单与低流通盘容易在事件前被资金提前埋伏。 | 方向偏向：watch | 风险等级：red | 阶段：early | 不追高规则：只在27.00-27.50回踩缩量、或29.00上方二次确认时小仓观察，不做涨停后追价。\nEN: 301046.SZ | Nenghui Technology | Catalyst date/time: July 30 to August 5, 2026 | Catalyst type: project follow-up and new-energy service orders | Why it could move: if new-energy and distribution-grid EPC sentiment improves, a smaller float and order headlines can attract early positioning ahead of the event. | Expected direction bias: watch | RiskLevel: red | Stage: early | No-chase rule: only watch on a lighter-volume pullback into 27.00-27.50, or on a second confirmation above 29.00 with small size; do not chase after a limit-up style move.",
+        "中文：300040.SZ | 九洲集团 | 催化日期/时间：2026-07-30 至 2026-08-05 | 催化类型：异常波动公告后资金二次博弈 | 可能波动原因：它成交活跃、股价低、容易受电力设备情绪带动，但公告已经提示异常波动，说明更适合预警而不是主仓。 | 方向偏向：watch | 风险等级：red | 阶段：extended | 不追高规则：若没有至少两天缩量冷却，不把任何反抽当成稳健机会。\nEN: 300040.SZ | Jiuzhou Group | Catalyst date/time: July 30 to August 5, 2026 | Catalyst type: second-round trading after an unusual-volatility notice | Why it could move: it is active, low-priced, and easily pulled by power-equipment sentiment, but the volatility notice itself says it belongs in warning mode rather than core exposure. | Expected direction bias: watch | RiskLevel: red | Stage: extended | No-chase rule: unless it cools down on lighter volume for at least two sessions, do not treat any bounce as a steadier opportunity.",
+        "中文：601877.SH | 正泰电器 | 催化日期/时间：2026-07-30 至 2026-08-05 | 催化类型：中期分红提议持续发酵 | 可能波动原因：分红提议让低估值电气设备继续具备防守+资金回流的双重吸引力。 | 方向偏向：long/watch | 风险等级：green | 阶段：early | 不追高规则：只在24.20-24.60承接企稳或25.00上方放量二次确认后再看。\nEN: 601877.SH | Chint Electric | Catalyst date/time: July 30 to August 5, 2026 | Catalyst type: follow-through from the interim-dividend proposal | Why it could move: the dividend proposal keeps lower-valuation electrical equipment attractive for both defense and capital re-entry. | Expected direction bias: long/watch | RiskLevel: green | Stage: early | No-chase rule: only revisit if 24.20-24.60 support holds or on a second volume-backed confirmation above 25.00.",
+        "中文：300001.SZ | 特锐德 | 催化日期/时间：2026-07-30 至 2026-08-05 | 催化类型：国网预中标与业绩窗口 | 可能波动原因：如果电力设备和充电链情绪共振，它容易在事件前后放大弹性。 | 方向偏向：watch | 风险等级：red | 阶段：in progress | 不追高规则：只在34.80-35.40回踩缩量或36.80上方二次确认时再考虑，不做高开脉冲。\nEN: 300001.SZ | TGOOD | Catalyst date/time: July 30 to August 5, 2026 | Catalyst type: State Grid pre-award and earnings window | Why it could move: if power equipment and charging names resonate, it can amplify quickly around the event window. | Expected direction bias: watch | RiskLevel: red | Stage: in progress | No-chase rule: only consider it on a lighter-volume pullback into 34.80-35.40 or on a second confirmation above 36.80; do not trade a gap-up pulse.",
+        "中文：300854.SZ | 中兰环保 | 催化日期/时间：2026-07-30 至 2026-08-05 | 催化类型：半年度报告与环保项目跟踪 | 可能波动原因：如果环保方向因为中报与政策跟踪获得资金回流，低价环保样本可能提前被交易。 | 方向偏向：watch | 风险等级：yellow | 阶段：early | 不追高规则：只在13.60-14.00低位缩量企稳后再观察，不把单票高开当成主线确认。\nEN: 300854.SZ | Zhonglan Environmental | Catalyst date/time: July 30 to August 5, 2026 | Catalyst type: half-year report and environmental-project follow-up | Why it could move: if environmental names receive capital return through interim filings and policy tracking, lower-priced environmental samples can be traded early. | Expected direction bias: watch | RiskLevel: yellow | Stage: early | No-chase rule: only revisit after low-level stabilization on lighter volume into 13.60-14.00; do not treat an isolated gap-up as confirmation of a main trend."
+      ]
+    },
+    {
+      "title": "中文：入场时机与风险控制\nEN: Entry Timing And Risk Controls",
+      "items": [
+        "中文：今天所有主名单默认都要先满足“回踩缩量企稳”或“放量二次确认”；早盘第一根冲高K本身不是买点。\nEN: Every main-list item today defaults to requiring either lighter-volume pullback stabilization or a second volume confirmation; the first opening surge candle is not a buy point by itself.",
+        "中文：T+1意味着即使盘中一度盈利，只要次日不能卖在理想价格，错误买点就会被放大，因此首笔仓位必须克制。\nEN: T+1 means that even if there is intraday profit, a bad entry can be magnified when the next day cannot be exited at the ideal price, so first fills must stay disciplined.",
+        "中文：红色项目没有板块同伴确认就不做；黄色项目没有宽基和银行确认就不加仓；绿色项目也不能因为“看起来稳”就忽略止损。\nEN: Red-risk items are not taken without peer confirmation; yellow-risk items are not added without broad-beta and bank confirmation; even green-risk items do not get a free pass on stop discipline just because they look steadier."
+      ]
+    },
+    {
+      "title": "中文：基本面指标检查\nEN: Fundamental Metrics Check",
+      "items": [
+        "中文：今天最扎实的基本面层仍是国电南瑞、正泰电器、平高电气、富春环保这组，因为利润、净资产、估值或分红/回购都能在公开信息里核对。\nEN: The most solid fundamental layer today remains NARI, Chint Electric, Pinggao Electric, and Fuchun Environmental because profits, net assets, valuations, or dividend/buyback anchors are all visible in public information.",
+        "中文：安科瑞、林洋能源、炬华科技属于“基本面可核但盈利斜率不如最稳组”的第二层，需要技术面更漂亮才值得做。\nEN: Acrel, Linyang Energy, and Sunrise Technology belong to a second layer where fundamentals are checkable but the earnings slope is less steady than the strongest group, so they need cleaner technicals to qualify.",
+        "中文：科陆电子、中恒电气、华自科技、睿能科技这类事件驱动票不能只看故事，必须同时看到财务约束、估值热度和成交量风险。\nEN: Event-driven names like CLOU Electronics, Zhongheng Electric, Huazi Technology, and Raynen Technology cannot be judged by the story alone; their financial constraints, valuation heat, and volume risk all need to be viewed together."
+      ]
+    },
+    {
+      "title": "中文：公司与板块重点\nEN: Company And Sector Highlights",
+      "items": [
+        "中文：电网板块里，国电南瑞偏主仓桥梁，平高电气偏订单强修复，正泰电器偏低估值分红防守，中国西电偏事件驱动轮动。\nEN: Within grid names, NARI fits the bridge-to-core role, Pinggao Electric fits order-driven strong repair, Chint Electric fits lower-valuation dividend defense, and China XD Electric fits event-driven rotation.",
+        "中文：计量与配电链里，安科瑞和林洋能源更适合提前催化观察，炬华科技更适合低位防守观察，科陆电子只保留作弱势样本。\nEN: In the metering and distribution chain, Acrel and Linyang fit pre-catalyst watching better, Sunrise Technology fits low-base defensive watching, and CLOU Electronics stays only as a weak-sample reference.",
+        "中文：公用事业与环保层里，富春环保适合做稳健小票，中兰环保只适合作为风格参考和小仓事件观察。\nEN: In utilities and environmental names, Fuchun Environmental suits the steadier small-cap role, while Zhonglan Environmental is only a style reference and small-size event watch."
+      ]
+    },
+    {
+      "title": "中文：政策宏观与监管\nEN: Policy Macro And Regulation",
+      "items": [
+        "中文：人民银行流动性背景偏稳，但2026年7月30日09:20后的最新公开市场公告本次未直接检索到，因此不把旧流动性信息包装成新的追价理由。\nEN: The PBOC liquidity backdrop looks stable, but a fresh post-09:20 July 30 notice was not directly retrieved in this run, so old liquidity information should not be repackaged as a new reason to chase.",
+        "中文：国家统计局发布日程显示7月31日9:30将发布PMI月度报告，这会直接影响市场对制造、电力设备与内需修复的判断。\nEN: The NBS release schedule shows the PMI monthly report due at 09:30 on July 31, which directly affects the market’s reading of manufacturing, power equipment, and domestic-demand repair.",
+        "中文：国家能源局围绕迎峰度夏与保供的表述继续支持电力、公用事业与配网方向，这比纯题材消息更接近今天可执行的框架。\nEN: The NEA’s continuing focus on summer peak-demand power security supports power, utilities, and distribution-grid directions, which is closer to today’s actionable framework than purely thematic headlines."
+      ]
+    },
+    {
+      "title": "中文：科技与创新观察\nEN: Technology And Innovation Watch",
+      "items": [
+        "中文：AI、半导体、光模块、数据中心、电源链仍在看业绩兑现与拥挤筹码出清，今天暂时不是A股主执行层。\nEN: AI, semiconductors, optical modules, data centers, and power-supply chains are still waiting for earnings delivery and crowded-position clearing, so they are not the main A-share execution layer today.",
+        "中文：若这些科技方向真要重新升级，先看159995.SZ与科创50风格止跌，再看个股；不要倒过来先追个股。\nEN: If these tech directions are to be upgraded again, first watch 159995.SZ and STAR-style beta stabilize, then single stocks; do not reverse that order by chasing stocks first.",
+        "中文：创新观察今天最重要的作用是帮助判断市场是否允许从防守切向进攻，而不是寻找最刺激的弹性票。\nEN: The most important job of the innovation watch today is to judge whether the market allows a rotation from defense toward offense, not to find the most exciting elastic ticker."
+      ]
+    },
+    {
+      "title": "中文：流动性信用与市场内部结构\nEN: Liquidity Credit And Internals",
+      "items": [
+        "中文：最近可检索的2.09万亿元成交额与5200多只上涨个股说明市场曾尝试修复，但随后的回吐说明内部结构并不牢固。\nEN: The latest retrievable RMB 2.09 trillion turnover and more than 5,200 advancers show the market tried to repair, but the subsequent giveback says the internal structure is not yet durable.",
+        "中文：今天真正健康的内部结构，是银行、宽基、电网、公用事业一起承接，而不是只剩个别高贝塔股冲动拉升。\nEN: The truly healthy internal structure today would be support in banks, broad beta, grid names, and utilities together rather than impulsive spikes in a few higher-beta stocks.",
+        "中文：信用和融资层面，本次直接检索没有拿到新的边际放松信号，因此仓位管理仍要比故事优先。\nEN: On the credit and financing side, this run did not retrieve a new marginal easing signal, so position management still deserves priority over stories."
+      ]
+    },
+    {
+      "title": "中文：风险控制与失效条件\nEN: Risk Controls And Invalidation",
+      "items": [
+        "中文：若510300.SH继续失守、159995.SZ反抽失败、而银行ETF也无力止跌，今天多数做多假设都应降为观察。\nEN: If 510300.SH continues to fail, 159995.SZ bounces and fails, and the bank ETF cannot stabilize, most long assumptions today should be downgraded into watch mode.",
+        "中文：若强势股只有单票放量、没有板块同伴确认，就应把它定义为“不追高样本”，而不是把没买解释成错失。\nEN: If only one strong stock expands volume without sector-peer confirmation, define it as a no-chase sample rather than a missed opportunity.",
+        "中文：今天最容易犯的错误不是买得太少，而是把有限修复误判为全面趋势反转。\nEN: The easiest mistake today is not buying too little, but mistaking a limited repair for a full trend reversal."
+      ]
+    },
+    {
+      "title": "中文：全球映射与地缘风险\nEN: Global Read-through And Geopolitics",
+      "items": [
+        "中文：今天A股更像内部电力链和防守资产主导，而不是完全由隔夜海外科技决定。\nEN: Today looks more dominated by the internal power chain and defensive assets than by overnight offshore tech alone.",
+        "中文：如果港股/ADR科技继续走弱，最先受伤的仍会是芯片、科创和高位AI，而非分红型电气设备。\nEN: If Hong Kong or ADR tech weakens further, chips, STAR names, and higher-level AI are still likely to be hit first rather than dividend-oriented electrical equipment.",
+        "中文：地缘和贸易 headline 仍有扰动可能，但对今天更重要的是国内仓位结构、量能和是否出现新的订单/业绩催化。\nEN: Geopolitical and trade headlines can still disturb sentiment, but what matters more today is domestic positioning structure, volume, and whether fresh order or earnings catalysts appear."
+      ]
+    },
+    {
+      "title": "中文：财报与宏观日历\nEN: Earnings And Macro Calendar",
+      "items": [
+        "中文：2026年7月30日至8月5日是中报预告与半年度报告密集窗口，主名单与提前催化名单都要优先看报表和公告，而不是二手传闻。\nEN: July 30 to August 5, 2026 is a dense window for interim preannouncements and half-year reports, so both the main list and the pre-catalyst list should prioritize filings and announcements over secondary rumor.",
+        "中文：2026年7月31日9:30的PMI月报是近两天最重要的宏观节点之一。\nEN: The 09:30 PMI monthly report on July 31, 2026 is one of the most important macro nodes over the next two sessions.",
+        "中文：如果没有更强的新宏观刺激，市场会继续通过业绩、分红、回购、中标和员工持股去筛选股票，而不是无差别普涨。\nEN: Without a stronger new macro stimulus, the market is likely to keep selecting names through earnings, dividends, buybacks, bids, and employee plans rather than through indiscriminate gains."
+      ]
+    },
+    {
+      "title": "中文：为什么重要\nEN: Why It Matters",
+      "items": [
+        "中文：你的目标是更稳的日拱一卒式收益，而不是一天最强板，因此今天更适合从宽基/银行/电网开始，而不是直接扑向高弹性科技。\nEN: Your objective is steadier day-by-day compounding rather than the strongest one-day board, so today is better approached through broad beta, banks, and grid names rather than by jumping straight into higher-beta tech.",
+        "中文：把买点建立在可核验的基本面、催化和量价结构之上，能让T+1环境下的隔夜风险更可控，也更符合10天左右持有的框架。\nEN: Building entries on verifiable fundamentals, catalysts, and price-volume structure makes overnight T+1 risk more controllable and fits a roughly 10-day holding framework better.",
+        "中文：今天真正重要的不是“有没有股票涨停”，而是修复是否能持续，是否值得把仓位从防守层慢慢下沉到更高弹性的标的。\nEN: What really matters today is not whether a stock hits limit-up, but whether the repair can persist and whether exposure deserves to be gradually moved down from defense into more elastic names."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "中文：中国证券报：2026年7月27日A股修复，成交额约2.09万亿元、超5200只个股上涨。\nEN: China Securities Journal report on the July 27, 2026 A-share repair with roughly RMB 2.09 trillion turnover and more than 5,200 advancers.",
+      "confidence": "High-quality reporting",
+      "url": "https://www.cs.com.cn/xwzx/hg/202607/t20260728_6513044.html"
+    },
+    {
+      "label": "中文：每日经济新闻：2026年7月28日盘中A股跳水与创业板指回撤参考。\nEN: National Business Daily intraday reference for the July 28, 2026 A-share selloff and ChiNext drawdown.",
+      "confidence": "High-quality reporting",
+      "url": "https://www.nbd.com.cn/articles/2026-07-28/5486874.html"
+    },
+    {
+      "label": "中文：国家能源局：2026年迎峰度夏全国电力供需总体情况判断。\nEN: National Energy Administration assessment of the national summer peak-demand power balance in 2026.",
+      "confidence": "Primary",
+      "url": "https://www.nea.gov.cn/20250427/c4d1e02765b54df28971abdd46543b45/c.html"
+    },
+    {
+      "label": "中文：国家能源局：2026年7月在上海调研电力保供与行业运行。\nEN: National Energy Administration July 2026 Shanghai research on power security and sector operations.",
+      "confidence": "Primary",
+      "url": "https://www.nea.gov.cn/20250720/cf95c63b176d4d9ba5745eb9550f700c/c.html"
+    },
+    {
+      "label": "中文：中国人民银行官网公开市场操作/首页检索结果，用于确认近期稳流动性环境；本次未直接检索到2026年7月30日09:20后的新公告。\nEN: PBOC website open-market/homepage retrieval used to confirm the recent stable-liquidity backdrop; this run did not directly retrieve a fresh post-09:20 July 30, 2026 notice.",
+      "confidence": "Primary",
+      "url": "https://www.pbc.gov.cn/?key=%3Awww.creditchina.gov.cn"
+    },
+    {
+      "label": "中文：国家统计局2026年主要统计信息发布日程表。\nEN: NBS 2026 major statistical release calendar.",
+      "confidence": "Calendar",
+      "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html"
+    },
+    {
+      "label": "中文：国家统计局发布预告页，用于确认2026年7月31日PMI发布时间。\nEN: NBS release-preview page used to confirm the July 31, 2026 PMI release timing.",
+      "confidence": "Calendar",
+      "url": "https://www.stats.gov.cn/fbyg/"
+    },
+    {
+      "label": "中文：国家统计局2026年6月PMI官方稿。\nEN: Official NBS/CFLP release for June 2026 PMI.",
+      "confidence": "Primary",
+      "url": "https://www.stats.gov.cn/english/PressRelease/202607/t20260701_1964047.html"
+    },
+    {
+      "label": "中文：国电南瑞行情与财务指标页。\nEN: NARI quote and financial-metrics page.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_600406.html"
+    },
+    {
+      "label": "中文：国电南瑞关于董事长提议回购公司部分股份的提示性公告。\nEN: NARI notice on the chairman’s proposal to repurchase shares.",
+      "confidence": "Primary",
+      "url": "https://quote.cfi.cn/quote_600406.html"
+    },
+    {
+      "label": "中文：平高电气行情与中标公告页。\nEN: Pinggao Electric quote page and bid-announcement reference.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_600312.html"
+    },
+    {
+      "label": "中文：林洋能源行情页与回购进展公告线索。\nEN: Linyang Energy quote page with buyback-progress reference.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_601222.html"
+    },
+    {
+      "label": "中文：正泰电器行情页与中期分红提议公告。\nEN: Chint Electric quote page and interim-dividend-proposal notice.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_601877.html"
+    },
+    {
+      "label": "中文：安科瑞行情页与管理层增持公告。\nEN: Acrel quote page and management-buying notice.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_300286.html"
+    },
+    {
+      "label": "中文：炬华科技行情页与年度权益分派实施公告。\nEN: Sunrise Technology quote page and annual dividend-implementation notice.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_300360.html"
+    },
+    {
+      "label": "中文：特锐德行情页与国网项目预中标公告。\nEN: TGOOD quote page and pre-award notice for State Grid projects.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_300001.html"
+    },
+    {
+      "label": "中文：中国西电行情页与2026年7月23日产品中标公告。\nEN: China XD Electric quote page and the July 23, 2026 product-bid notice.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_601179.html"
+    },
+    {
+      "label": "中文：科陆电子行情页与2026年半年度业绩预告。\nEN: CLOU Electronics quote page and 2026 half-year earnings preview.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_002121.html"
+    },
+    {
+      "label": "中文：中恒电气行情页与第三期员工持股计划草案。\nEN: Zhongheng Electric quote page and draft third employee stock ownership plan.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_002364.html"
+    },
+    {
+      "label": "中文：富春环保行情页与半年度窗口参考。\nEN: Fuchun Environmental quote page and half-year-window reference.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_002479.html"
+    },
+    {
+      "label": "中文：华自科技行情页与一季报改善情况。\nEN: Huazi Technology quote page and first-quarter-improvement reference.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_300490.html"
+    },
+    {
+      "label": "中文：中兰环保行情页与半年度报告窗口参考。\nEN: Zhonglan Environmental quote page and half-year-report-window reference.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_300854.html"
+    },
+    {
+      "label": "中文：睿能科技行情页与发行股份购买资产筹划公告。\nEN: Raynen Technology quote page and planned share-issuance acquisition notice.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_603933.html"
+    },
+    {
+      "label": "中文：九洲集团行情页与异常波动公告。\nEN: Jiuzhou Group quote page and unusual-volatility notice.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_300040.html"
+    },
+    {
+      "label": "中文：510300.SH历史/报价检索结果，用于确认宽基ETF价格区间。\nEN: 510300.SH quote retrieval used to confirm the broad-market ETF price zone.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_sh510300.html"
+    },
+    {
+      "label": "中文：512800.SH报价检索结果，用于确认银行ETF风险过滤区间。\nEN: 512800.SH quote retrieval used to confirm the bank-ETF risk-filter zone.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_sh512800.html"
+    },
+    {
+      "label": "中文：561700.SH报价检索结果，用于确认电力公用事业ETF价格区间。\nEN: 561700.SH quote retrieval used to confirm the power-utility ETF price zone.",
+      "confidence": "Market data",
+      "url": "https://quote.cfi.cn/quote_sh561700.html"
+    },
+    {
+      "label": "中文：159995.SZ历史数据检索结果，用于确认芯片ETF单日大幅回撤。\nEN: 159995.SZ historical-data retrieval used to confirm the chip ETF’s sharp one-day drawdown.",
+      "confidence": "Market data",
+      "url": "https://cn.investing.com/etfs/chinaamc-nasdaq-100-etf-historical-data"
+    }
+  ]
+},
   {
     "date": "2026-07-29",
     "timezone": "Asia/Shanghai GMT+8",
