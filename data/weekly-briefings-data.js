@@ -1,5 +1,345 @@
 window.WEEKLY_MARKET_BRIEFINGS = [
   {
+    "date": "2026-08-02",
+    "weekId": "2026-W31",
+    "weekNumber": 31,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-08-02 08:00 GMT+8",
+    "title": "EN: U.S. Weekly Market Brief - Week 31\n中文：美股周度市场简报 - 第31周",
+    "tone": "EN: Weekly tone: stay selective, respect rates and post-earnings gaps, and separate still-early next-week catalysts from this week's already-extended hyperscaler winners.\n中文：周度基调：继续精选交易，尊重利率与财报后缺口，并把“下周仍处于早期的催化”与“本周已明显拉伸的超大盘赢家”严格分开。",
+    "priorities": [
+      "EN: Monday, August 3, 2026 U.S. time, the ISM Manufacturing PMI is the first check on whether this week's rebound can survive beyond hyperscaler earnings.\n中文：美股时间2026年8月3日周一，ISM制造业PMI是判断本周反弹能否走出“只靠超大盘财报”阶段的第一道检查点。",
+      "EN: Tuesday, August 4, 2026 U.S. time, June JOLTS and AMD after the close matter together. If labor stays firm and AMD confirms AI demand, semis can keep repairing; if not, this week's squeeze can stall.\n中文：美股时间2026年8月4日周二，6月JOLTS与盘后AMD财报需要一起看。若劳动力仍稳、且AMD确认AI需求，半导体修复可延续；否则本周的挤空式反弹就可能停顿。",
+      "EN: Wednesday, August 5, 2026 U.S. time, the densest catalyst cluster is Uber before the open, Disney before the open, ISM Services at 10:00 ET, and AppLovin plus TeraWulf after the close.\n中文：美股时间2026年8月5日周三，是下周最密集的催化日：盘前有Uber和Disney，10:00 ET有ISM服务业，盘后还有AppLovin与TeraWulf。",
+      "EN: Thursday, August 6 and Friday, August 7, 2026 U.S. time, watch BLS productivity data, MARA after the close, and then July payrolls. Do not assume a green close this Friday removes next week's macro risk.\n中文：美股时间2026年8月6日和8月7日，要观察BLS生产率数据、盘后MARA财报，以及随后公布的7月非农。不要因为本周五收涨，就假设下周宏观风险已经消失。",
+      "EN: Keep safer vehicles and speculative vehicles separate. QQQ, AMZN, and UBER are cleaner than APP, WULF, and any leveraged ETF. If you touch red-risk names, use smaller size and expect gap risk, spread risk, and first-30-minute failure as normal conditions.\n中文：必须把相对稳健工具和投机工具分开。QQQ、AMZN和UBER都比APP、WULF以及任何杠杆ETF更干净。如果要碰红色高风险标的，就必须更轻仓，并把跳空、价差和前30分钟失败当成常态。"
+    ],
+    "summary": [
+      "EN: Verified AP weekly data for the week ending Friday, July 31, 2026 showed the Nasdaq up 1.6%, the S&P 500 up 1.0%, the Dow up 1.0%, and the Russell 2000 nearly flat. The weekly finish was green, but the path was unstable and highly earnings-dependent.\n中文：经核实，美联社对截至2026年7月31日周五这一周的统计显示：纳指上涨1.6%，标普500上涨1.0%，道指上涨1.0%，罗素2000基本持平。周线结果是上涨，但过程并不平稳，而且高度依赖财报。",
+      "EN: Monday and Tuesday were already warning that AI leadership was fragile. Reuters and AP both showed the Dow and broad non-AI groups holding up better than the Nasdaq while chips kept bleeding.\n中文：周一和周二已经在提示，AI主线并不稳固。路透与美联社都显示，道指和非AI的广泛板块表现优于纳指，而芯片股继续失血。",
+      "EN: Wednesday was the week's real damage day. The Fed held rates at 3.50% to 3.75%, but three dissents for a hike, higher oil, and collapsing chip sentiment pushed the Dow down 1,153 points and sent the 30-year Treasury yield above 5.2%.\n中文：周三才是本周真正的杀伤日。Fed把利率维持在3.50%到3.75%，但有三位委员主张加息；再叠加油价走高和芯片情绪崩塌，道指下跌1,153点，30年期美债收益率也升破5.2%。",
+      "EN: Thursday and Friday repaired the tape, but not evenly. Microsoft's FY26 Q4 release and Amazon's Q2 release revived confidence in AI monetization, while Meta, Apple, and Coinbase reminded traders that 'good story' and 'good tape' are not the same thing.\n中文：周四和周五确实修复了盘面，但并不平均。Microsoft的FY26 Q4和Amazon的Q2重新点燃了市场对AI变现的信心，而Meta、Apple和Coinbase则提醒交易者：“好故事”并不等于“好股价表现”。",
+      "EN: What worked in the daily briefings was the shift toward pre-catalyst planning and confirmation rules around MSFT, META, AAPL, AMZN, XOM/CVX, and next-week names such as AMD, UBER, APP, WULF, and MARA.\n中文：本周日更里真正有效的地方，是把重点转向提前催化预警，以及围绕MSFT、META、AAPL、AMZN、XOM/CVX和下周的AMD、UBER、APP、WULF、MARA执行“先确认、后行动”的规则。",
+      "EN: The main miss was still expectation discipline. Apple's reported beat did not translate into a bullish tape, so any constructive bias there was wrong. The old CRM short also remains a miss and thesis invalidated, and this weekly scorecard keeps it labeled that way.\n中文：主要失误仍然是预期纪律。Apple虽然业绩超预期，但并没有转化成看多盘口，因此任何偏乐观倾向都算错。同时，旧的CRM空头依然是失误且逻辑失效，这份周报会继续这样标记它。",
+      "EN: For next week, the practical edge is not celebrating Microsoft and Amazon after the move. It is distinguishing what is still early, what is only in progress, and what has already become a pullback-only or avoid-chase setup.\n中文：对下周来说，真正的优势不是在涨完之后继续庆祝Microsoft和Amazon，而是分清哪些机会仍在早期、哪些只是进行中、以及哪些已经只能等回踩甚至直接回避追高。"
+    ],
+    "marketPulse": {
+      "SPY/QQQ/IWM": {
+        "value": "Proxy close for the July 31, 2026 U.S. session: S&P 500 7,489.72 / Nasdaq Composite 25,373.85 / Russell 2000 2,931.34",
+        "note": "EN: The week ended green at the index level, but the path was far less clean than the close suggests. Big-cap AI earnings repaired sentiment late, while small caps and broad breadth lagged that repair.\n中文：从指数收盘看，本周是上涨的，但路径远没有收盘结果看起来那么干净。大型AI财报在周后段修复了情绪，而小盘与广义市场宽度的修复则明显滞后。"
+      },
+      "Rates": {
+        "value": "Fed funds target held at 3.50%-3.75% on July 29; the 10Y Treasury was around 4.71% by July 31 and the 30Y finished the week above 5.20%",
+        "note": "EN: Rates are still the cleanest macro threat to late growth longs. If yields rise again with oil, even strong AI names can stop rewarding bad entries.\n中文：利率仍然是晚追成长股最直接的宏观威胁。如果收益率再度配合油价上行，即使是强势AI龙头，也不会奖励差进场。"
+      },
+      "Volatility / Options": {
+        "value": "VIX closed at 16.8 on July 31; single-name event IV stayed elevated around MSFT, META, AAPL, AMZN, COIN, and next week's AMD/APP/WULF/MARA setup",
+        "note": "EN: Index fear cooled by Friday, but single-name event risk did not. That is exactly the environment where traders can be roughly right on direction and still lose on timing, IV crush, or spreads.\n中文：到周五为止，指数层面的恐慌有所降温，但个股事件风险并没有消失。这正是那种“方向大致看对，也可能输给时点、IV回落或价差”的环境。"
+      }
+    },
+    "weekReview": [
+      "EN: Monday, July 27 and Tuesday, July 28, 2026 U.S. time, already showed the market rotating away from crowded AI beta. The Dow outperformed while semiconductors kept bleeding, which meant the market was asking for proof instead of rewarding old AI positioning automatically.\n中文：美股时间2026年7月27日周一和7月28日周二，市场已经开始从拥挤的AI高beta中轮动出来。道指跑赢、而半导体继续流血，这说明市场开始要求“拿出证据”，而不是自动奖励旧AI持仓。",
+      "EN: Wednesday, July 29 was the week's stress test. The Fed held rates steady, but three dissents for a hike, a 7.3% jump in Brent, and another AI-leg lower validated the daily caution on QQQ, SOXL, and high-beta names.\n中文：7月29日周三是全周的压力测试。Fed按兵不动，但三张支持加息的反对票、布伦特原油上涨7.3%，以及AI再下一腿，证明了对QQQ、SOXL和高beta名字保持谨慎是正确的。",
+      "EN: Thursday, July 30 flipped the tape because Microsoft's report showed real monetization rather than just spending. Microsoft rose 15.5%, Micron and Lam each jumped more than 18%, and AMD rose about 13% in regular trading. This was real information, but it also made several names immediately less early.\n中文：7月30日周四的逆转，来自Microsoft证明了“AI不仅在花钱，也在变现”。Microsoft上涨15.5%，Micron和Lam都上涨超过18%，AMD正规交易时段约涨13%。这当然是真信息，但也让不少名字立刻失去了“仍在早期”的属性。",
+      "EN: Friday, July 31 separated usable gaps from dangerous storytelling. Amazon surged 15.3% after a strong AWS-led quarter, while Apple fell 7.4% despite a beat and Coinbase sold off after a weak quarter. The lesson is that the post-report tape matters more than whether the press release sounds impressive.\n中文：7月31日周五，把“可用缺口”和“危险故事”彻底分开。Amazon因AWS驱动的强季度而上涨15.3%，Apple虽然业绩超预期却下跌7.4%，Coinbase则因季度疲弱而回落。教训是：财报后的股价行为，比新闻稿听起来多漂亮更重要。",
+      "EN: The old CRM short remains a miss and thesis invalidated. Verified market data showed CRM rising 3.79% on Wednesday, July 29 even while the S&P 500 fell 1.52%, and nothing in this week's tape repaired the original bearish call. That short idea was wrong; do not rationalize it.\n中文：旧的CRM空头仍然属于失误，而且逻辑已失效。经核实的市场数据显示，CRM在7月29日周三上涨3.79%，而当天标普500却下跌1.52%；本周没有任何价格行为能修复原始空头判断。这个空头思路是错的，不要再替它找理由。"
+    ],
+    "nextWeekFocus": [
+      "EN: Monday, August 3, 2026 U.S. time, July ISM Manufacturing at 10:00 ET is the first breadth check after the hyperscaler-driven rebound. If manufacturing and cyclicals do not help, this can stay a narrow AI bounce.\n中文：美股时间2026年8月3日周一，10:00 ET公布的7月ISM制造业，是超大盘财报驱动反弹后的第一道宽度检查。如果制造业和周期股不接力，这轮上涨仍可能只是狭窄的AI反弹。",
+      "EN: Tuesday, August 4, 2026 U.S. time, June JOLTS at 10:00 ET and AMD after the close form the key semi-plus-macro combination. This is the most practical test for whether Thursday's chip rebound was the start of something or just a squeeze.\n中文：美股时间2026年8月4日周二，10:00 ET的6月JOLTS和盘后AMD财报，构成下周最关键的“半导体+宏观”组合。这是判断周四芯片反弹到底是新起点，还是只是一轮挤空的最实用测试。",
+      "EN: Wednesday, August 5, 2026 U.S. time, Uber and Disney before the open plus ISM Services at 10:00 ET give cleaner read-throughs than chasing already-gapped megacaps.\n中文：美股时间2026年8月5日周三，盘前的Uber与Disney，再加上10:00 ET的ISM服务业，比去追已经大幅跳空的超大盘股，更能提供干净的映射。",
+      "EN: Wednesday after the close, AppLovin and TeraWulf are the main high-beta event names. Treat them as setup stocks, not prediction toys. If they gap too far, the right answer can be to do nothing.\n中文：周三盘后，AppLovin和TeraWulf是最主要的高beta事件股。要把它们当作“设置型标的”，而不是预测玩具。若跳空过度，最正确的答案可能就是什么都不做。",
+      "EN: Thursday, August 6, 2026 U.S. time, BLS productivity and unit-labor-cost data at 8:30 ET plus MARA after the close matter because rates, wages, crypto beta, and AI-power themes can all cross-wire there.\n中文：美股时间2026年8月6日周四，8:30 ET公布的BLS生产率与单位劳动力成本，再加上盘后MARA财报，很重要，因为利率、工资、加密beta与AI电力主题都可能在这里交叉影响。",
+      "EN: Friday, August 7, 2026 U.S. time, the July Employment Situation is the week-ending macro anchor. If payrolls and wages surprise hot, late long-duration growth entries can fail quickly even after a constructive earnings week.\n中文：美股时间2026年8月7日周五，7月就业报告是整周最后的宏观锚点。若非农与工资偏热，即便经历了一周偏建设性的财报，高久期成长股的晚进多头也可能很快失败。"
+    ],
+    "sectors": [
+      {
+        "name": "EN: Mega-cap Cloud / AI Platforms\n中文：大型云计算 / AI平台",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Microsoft and Amazon just re-validated AI monetization with strong cloud growth and better tape quality than the broader AI complex.\n中文：Microsoft和Amazon刚刚用强劲的云业务增长重新验证了AI变现逻辑，而且它们的盘口质量也优于更广泛的AI板块。",
+        "watch": "EN: Watch AMZN, MSFT, and QQQ only on pullback holds, VWAP support, or orderly consolidations. This is no longer an easy first-entry chase lane.\n中文：重点观察AMZN、MSFT和QQQ，但只在回踩守住、VWAP支撑，或有序整理时再看。这已经不是适合轻松追第一脚的主线。",
+        "risk": "EN: Higher yields, narrow breadth, and post-earnings crowding can turn a strong story into a weak next entry.\n中文：更高的收益率、狭窄的市场宽度，以及财报后拥挤仓位，都可能把强故事变成差买点。"
+      },
+      {
+        "name": "EN: Semiconductors / AI Infrastructure\n中文：半导体 / AI基础设施",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Thursday's Microsoft-led rebound repaired chips, and AMD's August 4 earnings are the next major sector check.\n中文：周四由Microsoft带动的修复让芯片股喘了一口气，而8月4日AMD财报则是下一个主要板块检查点。",
+        "watch": "EN: Prefer AMD, QQQ, or broad semi confirmation over forcing thin second-order sympathy names. The clean read is whether the group can hold gains after earnings, not whether it can gap once.\n中文：更偏好AMD、QQQ或广义半导体确认，而不是强做薄量二阶跟风股。真正干净的读法，是看财报后能否守住涨幅，而不是能不能先跳一次空。",
+        "risk": "EN: The group just bounced violently from a weak base. If AMD disappoints or yields rise again, this can revert from repair to failed-bounce very quickly.\n中文：板块刚从弱底座中暴力反弹。如果AMD不及预期，或收益率再次上行，这里可能很快从修复变回反弹失败。"
+      },
+      {
+        "name": "EN: Consumer / Platform / Travel\n中文：消费 / 平台 / 出行",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Uber and Disney bring cleaner dated earnings catalysts next week than already-repriced hyperscalers.\n中文：相较于已经被重新定价的超大盘股，Uber和Disney下周带来的，是更干净且有明确日期的财报催化。",
+        "watch": "EN: Watch UBER and DIS only if they survive the first 30-60 minutes after earnings and the broader tape is not rolling over on rates.\n中文：只有在财报后前30到60分钟经受住考验、且大盘没有因利率问题翻弱时，才观察UBER和DIS。",
+        "risk": "EN: A soft consumer or hot payroll/wage print can quickly reduce tolerance for travel and discretionary longs.\n中文：若消费走弱，或非农/工资偏热，市场对出行和可选消费多头的容忍度会迅速下降。"
+      },
+      {
+        "name": "EN: Speculative Digital Infrastructure / Adtech / Crypto-Power\n中文：投机型数字基础设施 / 广告技术 / 加密电力",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: AppLovin, TeraWulf, and MARA all carry real dated catalysts next week, but they live in the highest slippage and gap-risk bucket.\n中文：AppLovin、TeraWulf和MARA下周都有真实且有日期的催化，但它们同时也处在滑点和跳空风险最高的一档。",
+        "watch": "EN: Only secondary entries count here: base, pullback hold, VWAP reclaim, or opening-range breakout with peer confirmation.\n中文：这里只有二次入场才算数：平台整理、回踩守住、VWAP收复，或在同类确认下突破开盘区间。",
+        "risk": "EN: These names can gap, reverse, widen spreads, and punish weekly options buyers even when the theme is broadly right.\n中文：即便主题大方向没错，这些股票也会跳空、反转、拉大价差，并重伤买周度期权的人。"
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if QQQ holds VWAP after the first 30-60 minutes and tech breadth extends beyond AMZN/MSFT. No leverage before confirmation.\n中文：只有在开盘后30到60分钟，QQQ守住VWAP，且科技宽度扩散到AMZN/MSFT之外时，才考虑。确认前不要加杠杆。",
+        "suggestedProfitTake": "EN: Trim into a clean extension and reduce faster if yields rise while QQQ loses the first-hour low.\n中文：若出现干净延续，可分批止盈；如果收益率上行且QQQ跌破首小时低点，就更快减仓。",
+        "type": "EN: balanced large-cap growth ETF\n中文：相对稳健的大盘成长ETF",
+        "catalyst": "EN: ISM, JOLTS, AMD, UBER/DIS, APP/WULF, and payrolls all pass through the Nasdaq tape next week.\n中文：下周ISM、JOLTS、AMD、UBER/DIS、APP/WULF以及非农，都会映射到纳指盘口。",
+        "why": "EN: QQQ is cleaner than forcing single-name hero trades after a hyperscaler earnings week.\n中文：在经历超大盘财报周之后，QQQ比去强押单一英雄股更干净。",
+        "risk": "EN: Invalidated if breadth narrows again and rates re-accelerate.\n中文：若宽度再次收窄、且利率重新升温，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The Nasdaq finished the week up 1.6%, but leadership was concentrated in Microsoft and Amazon rather than broadly smooth.\n中文：纳指本周上涨1.6%，但领涨主要集中在Microsoft和Amazon，而不是广泛顺滑扩散。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Prefer only a pullback hold into the Friday earnings gap, a VWAP reclaim after an orderly dip, or a tight two-day pause. No blind Monday chase.\n中文：更适合等周五财报缺口的回踩守住、回调后有序收复VWAP，或两天内的紧凑整理。不要在周一盲目追涨。",
+        "suggestedProfitTake": "EN: Scale out into fresh highs and trail the rest only if QQQ breadth confirms and rates stay contained.\n中文：若再创新高，可分批减仓；只有在QQQ宽度确认且利率稳定时，才保留余仓跟踪。",
+        "type": "EN: balanced megacap cloud / consumer platform\n中文：相对稳健的超大盘云 / 消费平台股",
+        "catalyst": "EN: Q2 net sales reached $200.6 billion and AWS grew 37% to $42.2 billion, producing the week's cleanest late-stage upside gap.\n中文：Q2净销售达到$200.6 billion，AWS同比增长37%至$42.2 billion，形成了本周后段最干净的上行缺口。",
+        "why": "EN: It is a verified winner, but the next trade is about gap management, not about discovering the story for the first time.\n中文：它已经是被验证的赢家，但下一笔交易的核心是“缺口后管理”，而不是第一次发现故事。",
+        "risk": "EN: Invalidated if the Friday gap cannot hold or if the market rotates back into capex anxiety.\n中文：若周五缺口守不住，或市场重新回到资本开支焦虑，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Amazon surged 15.3% on Friday, July 31 after the Thursday-after-hours Q2 release.\n中文：Amazon在7月31日周五上涨15.3%，对应的是7月30日周四盘后公布的Q2业绩。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Early only ahead of the August 4 report. Better entries are a calm base, first pullback hold, or post-earnings VWAP hold instead of pre-report excitement.\n中文：在8月4日财报前，它只算early。更好的进场，是平稳底部、第一次回踩守住，或财报后守住VWAP，而不是提前兴奋。",
+        "suggestedProfitTake": "EN: If earnings work, take partials into the first expansion leg and trail only if semis keep broad participation.\n中文：若财报奏效，可在第一段扩张中分批止盈；只有在半导体继续广泛参与时，才保留余仓跟踪。",
+        "type": "EN: balanced-to-high-beta AI semiconductor\n中文：中等偏高beta的AI半导体股",
+        "catalyst": "EN: AMD reports fiscal second quarter 2026 results after the market close on Tuesday, August 4, 2026.\n中文：AMD将于美股时间2026年8月4日周二盘后公布2026财年第二季度业绩。",
+        "why": "EN: Thursday's 13% regular-session surge shows the market still wants a semi recovery, but the next proof now belongs to AMD's actual report.\n中文：周四约13%的正规交易时段大涨，说明市场仍想交易半导体修复，但下一步真正的证据要看AMD自己的财报。",
+        "risk": "EN: Invalidated if earnings do not confirm demand or if yields rise and semis fail to hold the first post-report bounce.\n中文：若财报未能确认需求，或收益率上行且半导体守不住财报后第一波反弹，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AMD rose about 13% on Thursday, July 30 as semiconductors rebounded with Microsoft-led AI confidence.\n中文：AMD在7月30日周四约上涨13%，受益于Microsoft带动的AI信心修复和半导体反弹。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "UBER",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Prefer pre-earnings calm or post-earnings first-pullback support after the first 30-60 minutes. No emotional breakout chase.\n中文：更偏好财报前的平稳整理，或财报后前30到60分钟确认后的第一次回踩支撑。不要情绪化追突破。",
+        "suggestedProfitTake": "EN: Take partials into a post-report extension and protect quickly if the stock loses VWAP or the opening range.\n中文：财报后若出现延续上涨，可分批止盈；若失守VWAP或开盘区间，就要快速保护利润。",
+        "type": "EN: balanced platform / travel growth\n中文：相对稳健的平台 / 出行成长股",
+        "catalyst": "EN: Uber holds its second quarter 2026 results call on Wednesday, August 5, 2026 at 8:00 a.m. ET.\n中文：Uber将于美股时间2026年8月5日周三08:00 ET召开2026年第二季度业绩电话会。",
+        "why": "EN: This is a dated, cleaner next-week catalyst than forcing another trade in already-gapped hyperscalers.\n中文：相较于继续强做已经大幅跳空的超大盘股，这是下周更干净、日期更明确的催化。",
+        "risk": "EN: Invalidated if travel and consumer commentary disappoint or if hot macro data hit long-duration growth and discretionary names together.\n中文：若出行与消费评论不及预期，或偏热宏观数据同时打击成长和可选消费，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Still in the pre-catalyst phase rather than already extended.\n中文：目前仍处于催化前阶段，而不是已经明显拉伸。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "APP",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only if it stays controlled into August 5, or after a post-report VWAP reclaim / first-pullback hold. Do not chase a vertical pre-earnings move.\n中文：只有在8月5日前走势受控，或财报后收复VWAP / 第一次回踩守住时才考虑。不要追垂直式财报前拉升。",
+        "suggestedProfitTake": "EN: Scale faster than usual into a squeeze because this is a crowded high-beta name.\n中文：若出现挤涨，应比平时更快分批止盈，因为这是一只拥挤的高beta股票。",
+        "type": "EN: speculative adtech / AI software\n中文：投机型广告技术 / AI软件股",
+        "catalyst": "EN: AppLovin reports second quarter 2026 results after the U.S. market close on Wednesday, August 5, 2026.\n中文：AppLovin将于美股时间2026年8月5日周三盘后公布2026年第二季度业绩。",
+        "why": "EN: The business is strong enough to matter, but the stock is volatile enough that entry quality matters more than narrative quality.\n中文：业务质量足以让它值得关注，但股价波动大到“进场质量”比“叙事质量”更重要。",
+        "risk": "EN: Invalidated if the stock gaps too far before the report or if the first post-report move is all spread and no real follow-through.\n中文：若财报前先跳得太高，或财报后第一波只剩价差和情绪、没有真实跟随，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Still pre-catalyst; the better trade is likely secondary, not first-candle.\n中文：仍处于催化前阶段；更好的交易大概率是二次入场，而不是第一根K线。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "WULF",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only after digestion, then VWAP reclaim, opening-range breakout, or a clean pullback hold with peer confirmation. This is not a first-spike stock.\n中文：只有在先完成消化后，再观察VWAP收复、开盘区间突破，或干净回踩守住并配合同类确认时才考虑。这不是适合追第一波脉冲的股票。",
+        "suggestedProfitTake": "EN: Pay yourself early into fast momentum bursts and keep the remainder tight because reversals can be violent.\n中文：若出现快速动量脉冲，应尽早兑现利润，并把剩余仓位收得更紧，因为反转可能很剧烈。",
+        "type": "EN: speculative AI-power / digital infrastructure\n中文：投机型AI电力 / 数字基础设施股",
+        "catalyst": "EN: TeraWulf hosts its second quarter 2026 earnings call on Wednesday, August 5, 2026 at 8:00 a.m. ET, following the July 6 Anthropic lease announcement.\n中文：TeraWulf将于美股时间2026年8月5日周三08:00 ET召开2026年第二季度业绩电话会，前序催化还包括7月6日的Anthropic租约公告。",
+        "why": "EN: The catalyst is real, but this is still a red-risk vehicle where a good thesis and a bad fill can coexist.\n中文：催化是真实的，但这仍是红色高风险工具，完全可能出现“逻辑没错、成交很差”的情况。",
+        "risk": "EN: Invalidated if the stock cannot hold a secondary setup, or if spreads and liquidity worsen after the headline.\n中文：若股价连二次结构都守不住，或headline之后价差和流动性变差，则逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Catalyst is active, but the stock still needs a cleaner secondary entry than a simple headline spike.\n中文：催化已经激活，但它仍需要比单纯headline脉冲更干净的二次入场。",
+        "setupStatus": "wait for pullback"
+      }
+    ],
+    "riskControls": [
+      "EN: Respect U.S. T+0 mechanics, account restrictions, and settlement limits. Do not let a good thesis become a bad trade because capital is trapped in the wrong vehicle.\n中文：尊重美股T+0机制、账户限制和结算规则。不要让一个好逻辑，因为用了错误工具而变成坏交易。",
+      "EN: For any post-earnings gap larger than roughly 4% to 5%, default to wait-first mode. The first 30 to 60 minutes often reveal whether the move is real sponsorship or just overnight enthusiasm.\n中文：对于任何大于约4%到5%的财报后缺口，默认先等。开盘后30到60分钟通常才会揭示，这到底是真正资金接力，还是隔夜情绪。",
+      "EN: For red-risk names such as APP and WULF, size smaller and assume spreads, slippage, and fast reversals are normal. If the first setup is low quality, passing is a valid decision.\n中文：对APP、WULF这类红色高风险标的，要更轻仓，并默认价差、滑点和快速反转都是常态。如果第一笔设置质量不高，放弃本身就是正确决策。",
+      "EN: With options, assume IV crush is likely around AMD, APP, WULF, and MARA even if direction is roughly right. Defined-risk spreads usually age better than oversized naked premium.\n中文：做AMD、APP、WULF和MARA相关期权时，要默认即使方向大致看对，也会遭遇IV crush。有限风险价差通常比过大的裸权利金更耐打。",
+      "EN: If yields and oil rise together while QQQ loses the first-hour low, cut beta first. Do not argue with the tape using SOXL, weekly calls, or hope-based averaging.\n中文：如果收益率和油价一起上行，同时QQQ跌破首小时低点，就应先降低beta。不要用SOXL、周度认购或摊平幻想去和盘口争辩。"
+    ],
+    "sections": [
+      {
+        "title": "EN: Major Surges And Reasons\n中文：本周大涨股票与原因",
+        "items": [
+          "MSFT: EN: about +15.5% on Thursday's regular session after the July 29 FY26 Q4 release. Revenue was $90.0 billion, Microsoft Cloud revenue was $59.3 billion, and Azure plus other cloud services revenue rose 43%. This was an after-hours catalyst followed by powerful regular-session follow-through. Tradability: already extended; better on first orderly pullback than on fresh chase.\n中文：MSFT：周四正规交易时段约涨15.5%，催化来自7月29日盘后发布的FY26 Q4业绩。营收为$90.0 billion，Microsoft Cloud营收为$59.3 billion，Azure及其他云服务增长43%。这是典型的“盘后催化 + 正股强跟随”。可交易性：已经偏延伸；更适合等第一次有序回踩，而不是重新追高。",
+          "AMZN: EN: about +15.3% on Friday's regular session after Thursday after-hours Q2 results. Net sales reached $200.6 billion and AWS sales rose 37% to $42.2 billion. This was an after-hours gap that held into the next cash session. Tradability: still in progress only if the Friday gap keeps holding; otherwise wait for pullback.\n中文：AMZN：周五正规交易时段约涨15.3%，对应的是周四盘后Q2业绩。净销售达到$200.6 billion，AWS营收增长37%至$42.2 billion。这是一个盘后跳空并在次日正股时段守住的走势。可交易性：只有在周五缺口继续守住时，才算仍在进行中；否则应等回踩。",
+          "MU: EN: more than +18% on Thursday's regular session as Microsoft's report repaired confidence that AI spend is translating into real demand. This was mostly regular-session relief and sector follow-through, not a new company-specific earnings catalyst that day. Tradability: useful only on pullback or consolidation; late chase is low quality.\n中文：MU：周四正规交易时段上涨超过18%，主要因为Microsoft的财报修复了市场对“AI支出正在转化为真实需求”的信心。这更多是正规交易时段的板块修复和跟随，而不是Micron当天新的公司级催化。可交易性：只适合等回踩或整理；晚追质量很低。",
+          "LRCX / AMD: EN: Lam Research rose more than 18% and AMD about 13% on Thursday's regular session as semis rebounded sharply. The reason was sector-level relief after Microsoft, not proof that every AI-semi problem has been solved. Tradability: AMD is still an early next-week catalyst because of August 4 earnings; the group as a whole is not a blind chase.\n中文：LRCX / AMD：Lam Research周四正规交易时段上涨超过18%，AMD约涨13%，因为半导体板块出现急速反弹。原因是Microsoft之后的板块性缓解，而不是说明所有AI半导体问题都已解决。可交易性：AMD因8月4日财报仍算下周的early催化；但整个板块并不适合盲目追高。"
+        ]
+      },
+      {
+        "title": "EN: Performance Scorecard\n中文：表现复盘",
+        "items": [
+          "HIT: EN: The shift toward pre-catalyst planning worked. The daily briefings had the MSFT/META/AAPL/AMZN cluster, the XOM/CVX energy setup, and next-week names such as AMD, UBER, APP, WULF, and MARA on the radar before the moves.\n中文：命中：转向“提前催化预警”的做法是有效的。日更在波动发生前，就已经把MSFT/META/AAPL/AMZN、XOM/CVX，以及下周的AMD、UBER、APP、WULF、MARA纳入雷达。",
+          "HIT: EN: The no-chase rule around Wednesday's Fed session and high-beta names was right. The worst tape damage of the week happened exactly when yields, oil, and AI stress collided.\n中文：命中：围绕周三Fed时段以及高beta名字执行“不要追”的规则是对的。全周最差的盘口伤害，正是出现在收益率、油价和AI压力同时碰撞的时候。",
+          "MISS: EN: Any constructive Apple bias was wrong. Apple printed a beat, but the stock still fell 7.4% on Friday because the actual tape cared more about the outlook, supply constraints, and one-time tariff refund benefit than about the headline beat.\n中文：失误：任何偏乐观的Apple倾向都是错的。Apple虽然业绩超预期，但周五股价仍下跌7.4%，因为真实盘口更在意的是前瞻、供应约束，以及一次性关税退款，而不是headline上的超预期。",
+          "HIT: EN: Microsoft and Amazon were correctly treated as cleaner long lanes than random small-cap momentum. The market rewarded verified monetization and strong cloud data much more than it rewarded generic AI excitement.\n中文：命中：把Microsoft和Amazon视为比随机小盘动量更干净的多头路径，是正确的。市场更愿意奖励被验证的变现能力和强劲云数据，而不是泛泛的AI兴奋。",
+          "MISS / THESIS INVALIDATED: EN: The old CRM short remains wrong. Verified market data showed CRM up 3.79% on Wednesday, July 29 while the S&P 500 fell 1.52%, and there is still no evidence that the original bearish call aged well. The lesson is to stop recycling invalidated short narratives.\n中文：失误 / 逻辑失效：旧的CRM空头仍然是错的。经核实的市场数据显示，CRM在7月29日周三上涨3.79%，而标普500却下跌1.52%；到现在仍没有证据说明最初的空头判断“只是太早”。教训是停止重复已经失效的空头叙事。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Setup\n中文：期权与波动率设置",
+        "items": [
+          "EN: VIX closed at 16.8 on Friday, July 31, but that calm index print hides violent single-name event risk. Microsoft, Amazon, Apple, Meta, and Coinbase all showed that index-level calm does not make earnings entries easy.\n中文：VIX在7月31日周五收于16.8，但这个看似平静的指数水平，掩盖不了个股事件风险的剧烈程度。Microsoft、Amazon、Apple、Meta和Coinbase都说明，指数平静并不代表财报进场会简单。",
+          "EN: For AMD, APP, WULF, and MARA next week, stock or defined-risk spreads are usually cleaner than late weekly-call buying. Direction can be roughly right while premium still decays too fast.\n中文：对下周的AMD、APP、WULF和MARA而言，正股或有限风险价差，通常比晚买周度认购更干净。方向大致看对，也可能因为权利金衰减过快而输钱。",
+          "EN: Amazon and Microsoft showed the right post-earnings workflow this week: do not treat the first after-hours print as the trade, and do not assume a strong report guarantees a second clean day.\n中文：Amazon和Microsoft本周演示了正确的财报后流程：不要把盘后第一笔成交当成交易本身，也不要假设强财报就一定会给出第二个干净交易日。",
+          "EN: Leveraged ETFs such as SOXL remain confirmation-only tools. They can work when breadth is broad and the semi tape is stable, but they are still the fastest way to magnify a wrong entry.\n中文：SOXL这类杠杆ETF仍然只能作为“确认后工具”。在宽度足够广、半导体盘口稳定时它们当然能工作，但它们也仍是放大错误进场最快的工具。"
+        ]
+      },
+      {
+        "title": "EN: Upcoming Catalyst Watch\n中文：下周催化观察",
+        "items": [
+          "EN: Monday, August 3, 2026, 10:00 ET: July ISM Manufacturing PMI. Watch whether manufacturing breadth supports or contradicts the late-week tech rebound.\n中文：2026年8月3日周一10:00 ET：7月ISM制造业PMI。重点看制造业宽度是支持，还是反驳周后段的科技反弹。",
+          "EN: Tuesday, August 4, 2026, 10:00 ET: June JOLTS; after the close: AMD fiscal second quarter 2026 results. This is the key semi-plus-labor combination.\n中文：2026年8月4日周二10:00 ET：6月JOLTS；盘后：AMD 2026财年第二季度业绩。这是最关键的“半导体 + 劳动力”组合。",
+          "EN: Wednesday, August 5, 2026, before the open: Uber and Disney; 10:00 ET: ISM Services PMI; after the close: AppLovin. This is the busiest clean catalyst day for both safer and speculative names.\n中文：2026年8月5日周三，盘前：Uber和Disney；10:00 ET：ISM服务业PMI；盘后：AppLovin。这是下周对稳健与投机名字都最忙、也最干净的一天。",
+          "EN: Wednesday, August 5, 2026, 8:00 ET: TeraWulf earnings call. Treat any move as red-risk and wait for regular-session structure.\n中文：2026年8月5日周三08:00 ET：TeraWulf业绩电话会。任何相关波动都应按红色高风险处理，并等待正股时段结构确认。",
+          "EN: Thursday, August 6, 2026, 8:30 ET: BLS Productivity and Costs; after the close: MARA second quarter 2026 results.\n中文：2026年8月6日周四08:30 ET：BLS生产率与成本；盘后：MARA 2026年第二季度业绩。",
+          "EN: Friday, August 7, 2026, 8:30 ET: July Employment Situation. This is the final macro event that can either validate or break next week's growth setup.\n中文：2026年8月7日周五08:30 ET：7月就业报告。这是下周最后一个可能验证或破坏成长股设置的宏观事件。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: Reuters Monday July 27 market recap / 中文：路透7月27日周一市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://www.investing.com/news/economy-news/wall-st-futures-rise-as-us-iran-pause-hostilities-4813225"
+      },
+      {
+        "label": "EN: AP Tuesday July 28 market recap / 中文：美联社7月28日周二市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/a880057323bd065c325ad19b23de0cf3"
+      },
+      {
+        "label": "EN: AP Wednesday July 29 market recap / 中文：美联社7月29日周三市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/b8bfaf782877957bbaa7196b70a4d725"
+      },
+      {
+        "label": "EN: AP Thursday July 30 market recap / 中文：美联社7月30日周四市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/99b5702d93a2b5c6e513fb952ccdcc92"
+      },
+      {
+        "label": "EN: AP Friday July 31 market recap / 中文：美联社7月31日周五市场回顾",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/e31b3a442bcb957a53f1823ef21e73e8"
+      },
+      {
+        "label": "EN: AP Friday July 31 index summary / 中文：美联社7月31日指数总结",
+        "confidence": "High-quality secondary",
+        "url": "https://apnews.com/article/37d8d182f02f0fcdcf9f7db67e6dfadd"
+      },
+      {
+        "label": "EN: Federal Reserve July 29 FOMC statement / 中文：美联储7月29日FOMC声明",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+      },
+      {
+        "label": "EN: BEA Personal Income and Outlays June 2026 / 中文：美国经济分析局2026年6月个人收入与支出",
+        "confidence": "Primary",
+        "url": "https://bea.gov/news/2026/personal-income-and-outlays-june-2026"
+      },
+      {
+        "label": "EN: Microsoft FY26 Q4 earnings release / 中文：Microsoft 2026财年第四季度业绩公告",
+        "confidence": "Primary",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+      },
+      {
+        "label": "EN: Meta second quarter 2026 results / 中文：Meta 2026年第二季度业绩",
+        "confidence": "Primary",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
+      },
+      {
+        "label": "EN: Amazon second quarter 2026 results / 中文：Amazon 2026年第二季度业绩",
+        "confidence": "Primary",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
+      },
+      {
+        "label": "EN: Apple fiscal third quarter 2026 results / 中文：Apple 2026财年第三季度业绩",
+        "confidence": "Primary",
+        "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
+      },
+      {
+        "label": "EN: BLS JOLTS next release schedule / 中文：美国劳工统计局JOLTS下次发布时间",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/jolts.nr0.htm?country=2"
+      },
+      {
+        "label": "EN: BLS Employment Situation next release schedule / 中文：美国劳工统计局就业报告下次发布时间",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/news.release/empsit.htm?hl=en-GB"
+      },
+      {
+        "label": "EN: ISM PMI release calendar / 中文：ISM PMI发布时间表",
+        "confidence": "Primary",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+      },
+      {
+        "label": "EN: AMD second quarter 2026 earnings date / 中文：AMD 2026年第二季度财报日期",
+        "confidence": "Primary",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1289/amd-to-report-fiscal-second-quarter-2026-financial-results"
+      },
+      {
+        "label": "EN: Uber second quarter 2026 results call date / 中文：Uber 2026年第二季度业绩电话会日期",
+        "confidence": "Primary",
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Date-of-Second-Quarter-2026-Results-Conference-Call/default.aspx"
+      },
+      {
+        "label": "EN: Disney fiscal third quarter 2026 webcast notice / 中文：Disney 2026财年第三季度业绩电话会通知",
+        "confidence": "Primary",
+        "url": "https://investors.thewaltdisneycompany.com/news/news-details/2026/The-Walt-Disney-Company-Executives-to-Discuss-Fiscal-Third-Quarter-2026-Financial-Results-via-Webcast/default.aspx"
+      },
+      {
+        "label": "EN: AppLovin second quarter 2026 results date / 中文：AppLovin 2026年第二季度财报日期",
+        "confidence": "Primary",
+        "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-to-Announce-Second-Quarter-2026-Results/default.aspx"
+      },
+      {
+        "label": "EN: TeraWulf second quarter 2026 earnings date / 中文：TeraWulf 2026年第二季度财报日期",
+        "confidence": "Primary",
+        "url": "https://investors.terawulf.com/news-events/press-releases/detail/143/terawulf-schedules-conference-call-for-second-quarter-2026-financial-results"
+      },
+      {
+        "label": "EN: MARA second quarter 2026 earnings date / 中文：MARA 2026年第二季度财报日期",
+        "confidence": "Primary",
+        "url": "https://ir.mara.com/news-events/press-releases/detail/1425/mara-schedules-conference-call-forsecond-quarter-2026-financial-results"
+      },
+      {
+        "label": "EN: MarketWatch CRM price-action check on July 29 / 中文：MarketWatch对CRM在7月29日价格行为的核实",
+        "confidence": "High-quality secondary",
+        "url": "https://www.marketwatch.com/data-news/salesforce-inc-stock-outperforms-competitors-on-strong-trading-day-a2584d33-de9953494610"
+      }
+    ]
+  },
+  {
     "date": "2026-07-19",
     "weekId": "2026-W29",
     "weekNumber": 29,
