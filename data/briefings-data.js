@@ -1,5 +1,448 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-08-04",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-08-04 15:45 GMT+8",
+    "title": "EN: U.S. Market Brief - 2026-08-04\n中文：美股市场简报 - 2026-08-04",
+    "tone": "EN: Today's briefing is a manual catch-up because the 8:00 automation did not generate the U.S. entry. The market comes in after a strong Monday rally driven by lower oil and easing Iran-risk headlines, while Palantir has already jumped after earnings. That means the key process today is not to chase yesterday's winners, but to use AMD, CAT, MCD, PFE, MRK, SBUX, ANET and selected high-beta names as pre-catalyst watches with strict regular-session confirmation.\n中文：今天这份是手动补发，因为8:00美股自动化没有生成。市场背景是周一在油价回落、伊朗风险降温后大幅反弹，同时Palantir已经在财报后大涨。因此今天核心流程不是追昨天赢家，而是把AMD、CAT、MCD、PFE、MRK、SBUX、ANET以及部分高beta名字作为提前催化观察，并严格等待正股时段确认。",
+    "priorities": [
+      "EN: Do not chase PLTR's first post-earnings gap. Its results were excellent, but a 10%-14% after-hours move converts the setup from early to extended unless it builds a secondary base.\n中文：不要追PLTR财报后第一波跳空。业绩很强，但盘后约10%-14%的上涨已经把设置从early变成extended，除非它形成二次平台。",
+      "EN: AMD is the cleaner pre-catalyst focus because its earnings are still ahead today after the close; use SMH/QQQ confirmation and do not buy a vertical pre-event spike.\n中文：AMD是更干净的提前催化焦点，因为它今天盘后财报仍在前方；用SMH/QQQ确认，不买财报前垂直拉升。",
+      "EN: Monday's rally was broad but catalyst-driven by oil/geopolitics; if oil rebounds or yields rise, high-beta longs should be reduced first.\n中文：周一反弹虽然强，但催化来自油价/地缘风险；若油价反弹或收益率上行，先降低高beta多头。",
+      "EN: Earnings risk is spread across industrials, pharma, consumer and AI infrastructure today. CAT, MCD, PFE, MRK, SBUX, ANET and LCID matter for sector breadth beyond mega-cap AI.\n中文：今天财报风险横跨工业、医药、消费和AI基础设施。CAT、MCD、PFE、MRK、SBUX、ANET和LCID决定大型AI以外的板块宽度。",
+      "EN: For small capital, red-risk names stay 1%-3% stock exposure and speculative weekly options generally stay at or below 0.5% of account.\n中文：对小资金，红色风险正股敞口维持1%-3%，投机周度期权权利金通常不超过账户0.5%。"
+    ],
+    "summary": [
+      "EN: Monday's U.S. session rallied sharply: IBD reported the Dow rose 1.3%, the S&P 500 gained 1.5%, and the Nasdaq climbed 2.1%, helped by lower oil and easing Iran-war headlines.\n中文：周一美股大幅反弹：IBD报道称道指涨1.3%、标普500涨1.5%、纳指涨2.1%，受油价回落和伊朗战争风险降温带动。",
+      "EN: Palantir delivered the biggest already-triggered catalyst. Multiple reports said Q2 revenue nearly doubled to about $1.94 billion, U.S. commercial revenue surged around 149%, adjusted EPS beat expectations, and full-year revenue guidance was lifted to roughly $8.15-$8.16 billion.\n中文：Palantir是最大的已触发催化。多家报道显示，其Q2营收接近翻倍至约19.4亿美元，美国商业收入约增长149%，调整后EPS超预期，并把全年营收指引上调至约81.5亿-81.6亿美元。",
+      "EN: That makes PLTR a hit as an early-catalyst idea, but not automatically a fresh buy after the jump. The practical label today is extended / wait for secondary setup.\n中文：这意味着PLTR作为提前催化方向是命中，但大涨后并不自动等于新的买点。今天实用标签是extended / wait for secondary setup。",
+      "EN: AMD is today's most important still-ahead AI/semiconductor earnings event; calendar sources show AMD reports after the close with the Street watching AI GPU and EPYC data-center demand.\n中文：AMD是今天最重要、仍未落地的AI/半导体财报事件；财报日历显示AMD盘后公布，市场关注AI GPU和EPYC数据中心需求。",
+      "EN: The broader pre-catalyst list matters because the next move may not be in the same names that already moved. Watch CAT for industrial cycle, MCD/SBUX for consumer, PFE/MRK for pharma, ANET for AI networking, and LCID for high-risk EV beta.\n中文：更广的提前催化名单很重要，因为下一波不一定还在已经上涨的名字里。观察CAT的工业周期，MCD/SBUX的消费，PFE/MRK的医药，ANET的AI网络，以及LCID的高风险EV beta。"
+    ],
+    "marketPulse": {
+      "S&P 500 / SPY": {
+        "value": "EN: Monday rally reported at about +1.5% for the S&P 500.\n中文：周一标普500据报约涨1.5%。",
+        "note": "EN: Watch whether SPY holds its first regular-session pullback; after a strong rally, a green premarket is not enough.\n中文：观察SPY能否守住正股时段第一次回踩；大涨后，盘前绿色本身不够。"
+      },
+      "Nasdaq / QQQ": {
+        "value": "EN: Monday Nasdaq reportedly rose about +2.1%.\n中文：周一纳指据报约涨2.1%。",
+        "note": "EN: QQQ needs AMD/SMH confirmation; PLTR alone cannot validate the whole growth tape.\n中文：QQQ需要AMD/SMH确认；PLTR单独强不能验证整个成长盘。"
+      },
+      "Dow / Industrials": {
+        "value": "EN: Monday Dow reportedly gained about +1.3%.\n中文：周一道指据报约涨1.3%。",
+        "note": "EN: CAT earnings make industrial breadth important today.\n中文：CAT财报让今天工业股宽度很重要。"
+      },
+      "Russell 2000 / IWM": {
+        "value": "EN: Use IWM as the high-beta permission check.\n中文：用IWM作为高beta许可检查。",
+        "note": "EN: If IWM lags after the open, LCID/IONQ/FSLY-style trades stay small or watch-only.\n中文：若IWM开盘后落后，LCID/IONQ/FSLY类交易保持小仓或只观察。"
+      },
+      "Oil / Geopolitics": {
+        "value": "EN: Monday rally was helped by lower oil after Trump/Iran de-escalation headlines and OPEC+ supply news.\n中文：周一反弹受特朗普/伊朗降温headline及OPEC+供给消息推动油价回落而受益。",
+        "note": "EN: If crude rebounds, airlines/consumer and growth relief can fade.\n中文：若原油反弹，航空/消费和成长股的缓解逻辑会降温。"
+      },
+      "Rates / Dollar": {
+        "value": "EN: The 10-year yield was still reported around the high-4% zone in recent market coverage.\n中文：近期市场报道仍显示10年期收益率在4%高位区间附近。",
+        "note": "EN: High yields keep valuation sensitivity alive for PLTR/AMD/ANET and other growth names.\n中文：高收益率会继续放大PLTR/AMD/ANET等成长股的估值敏感度。"
+      },
+      "Volatility / Options": {
+        "value": "EN: Earnings IV is the main single-name risk today.\n中文：财报IV是今天最主要的单名风险。",
+        "note": "EN: AMD, PLTR, ANET, LCID and weekly index options can lose money even if direction is right because IV crush and spreads matter.\n中文：AMD、PLTR、ANET、LCID和指数周度期权即使方向对，也可能因IV crush和价差亏钱。"
+      },
+      "Credit / Liquidity": {
+        "value": "EN: Watch HYG/LQD and IWM to confirm whether Monday's rally broadens.\n中文：观察HYG/LQD和IWM，确认周一反弹能否扩散。",
+        "note": "EN: If credit lags, avoid adding red-risk high beta after a strong index rally.\n中文：若信用落后，不要在指数大涨后加红色高风险beta。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: QQQ and SMH hold VWAP, AMD trades constructively into earnings without a vertical blow-off, and breadth expands through CAT/ANET/consumer names.\n中文：偏强情景：QQQ和SMH守住VWAP，AMD在财报前走势有序而非垂直冲顶，且宽度扩散到CAT/ANET/消费股。",
+      "EN: Base case: PLTR is a great earnings story but extended, AMD remains the main pre-catalyst setup, and ETFs offer better risk control than chasing single-name gaps.\n中文：基准情景：PLTR财报故事很好但已经伸展，AMD仍是主要提前催化设置，ETF比追单名跳空更能控风险。",
+      "EN: Bear case: oil or yields rebound, Monday's rally fails to broaden, PLTR fades after the open, and AMD/SMH lose VWAP; reduce beta and avoid SOXL.\n中文：偏弱情景：油价或收益率反弹，周一反弹无法扩散，PLTR开盘后回落，AMD/SMH跌破VWAP；降低beta并回避SOXL。",
+      "EN: High-beta case: LCID, IONQ, FSLY and similar event names can move sharply, but only regular-session relative volume and opening-range confirmation justify small test positions.\n中文：高beta情景：LCID、IONQ、FSLY等事件票可能大幅波动，但只有正股时段相对成交量和开盘区间确认，才值得小仓试错。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "AMD",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Early-catalyst long/watch into after-close earnings; only 3%-5% stock exposure if SMH/QQQ and VWAP confirm, or wait for post-earnings range.\n中文：盘后财报前的提前催化long/watch；只有SMH/QQQ和VWAP确认时才用3%-5%正股敞口，或等财报后区间。",
+        "reason": "EN: Still-ahead AI/data-center catalyst, cleaner than chasing already-triggered PLTR.\n中文：仍未落地的AI/数据中心催化，比追已经触发的PLTR更干净。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "PLTR",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "EN: Not a fundamental short; tactical fade/avoid-chase only if it loses VWAP after the first 30-60 minutes.\n中文：不是基本面做空；仅在开盘后30-60分钟跌破VWAP时作为战术回落/避免追高观察。",
+        "reason": "EN: Great report, but the first move already happened and valuation/expectation risk is high.\n中文：财报很强，但第一波已经发生，估值/预期风险高。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: 5%-10% ETF exposure only if first-hour VWAP holds and AMD/SMH do not fade.\n中文：只有首小时VWAP守住且AMD/SMH不回落时，才考虑5%-10% ETF敞口。",
+        "reason": "EN: Cleaner way to express AI/mega-cap strength without one-stock earnings gap risk.\n中文：比押单一财报跳空更干净地表达AI/大型科技强势。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "earlyCatalystLong": {
+        "ticker": "ANET",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Watch around earnings window only if AI networking peers confirm; 3%-5% stock exposure max before report.\n中文：只在AI网络同类确认时围绕财报窗口观察；财报前正股敞口最高3%-5%。",
+        "reason": "EN: AI networking is a strong read-through from cloud capex.\n中文：AI网络是云资本开支的重要映射。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "LCID",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Event momentum only; 1%-2% max if post-report volume confirms, otherwise watch-only.\n中文：仅事件动量；若财报后成交量确认，最多1%-2%，否则只观察。",
+        "reason": "EN: EV beta can move fast, but fundamentals and dilution risk are severe.\n中文：EV beta弹性大，但基本面和稀释风险严重。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "PLTR",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Wait for secondary base, pullback hold, or new post-earnings range; no open chase after a double-digit after-hours move.\n中文：等待二次平台、回踩承接或财报后新区间；两位数盘后上涨后不追开盘。",
+        "reason": "EN: The catalyst worked, but entry quality has deteriorated.\n中文：催化命中，但入场质量下降。",
+        "convictionScore": 3,
+        "timeframe": "watch"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-08-04 after U.S. close",
+        "event": "EN: AMD earnings\n中文：AMD财报",
+        "watch": "EN: AI GPU, EPYC data center demand, margin and guidance.\n中文：AI GPU、EPYC数据中心需求、利润率和指引。",
+        "relatedTickers": "AMD, SMH, SOXL, NVDA"
+      },
+      {
+        "date": "2026-08-04 before/regular session",
+        "event": "EN: CAT, MCD, PFE, MRK, SBUX and LCID earnings window\n中文：CAT、MCD、PFE、MRK、SBUX、LCID财报窗口",
+        "watch": "EN: Industrial demand, consumer pricing, pharma pipelines and EV cash burn.\n中文：工业需求、消费定价、医药管线和EV现金消耗。",
+        "relatedTickers": "CAT, MCD, PFE, MRK, SBUX, LCID"
+      },
+      {
+        "date": "2026-08-04 to 2026-08-07",
+        "event": "EN: Jobs-week macro data\n中文：就业周宏观数据",
+        "watch": "EN: JOLTS and Friday employment report for yield/dollar reset.\n中文：JOLTS和周五就业报告对收益率/美元的重置。",
+        "relatedTickers": "SPY, QQQ, IWM, TLT"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-08-04",
+        "ticker": "PLTR",
+        "status": "hit",
+        "result": "EN: The pre-catalyst framing was correct: Palantir reported a major beat/raise and shares jumped after hours.\n中文：提前催化框架是正确的：Palantir财报大幅超预期并上调指引，盘后股价大涨。",
+        "lesson": "EN: Mark correct early discovery as hit first, then separately label current entry as extended / avoid chase.\n中文：先把正确提前发现标为hit，再单独把当前入场标为extended / avoid chase。"
+      },
+      {
+        "date": "2026-08-04",
+        "ticker": "AMZN/MSFT",
+        "status": "hit",
+        "result": "EN: Prior leadership call remains valid after Monday's rally, but late chasing after strong moves remains lower quality.\n中文：此前龙头判断在周一反弹后仍有效，但强势后晚追质量下降。",
+        "lesson": "EN: Separate correct thesis from current entry quality.\n中文：区分正确 thesis 和当前入场质量。"
+      },
+      {
+        "date": "2026-08-04",
+        "ticker": "automation",
+        "status": "miss",
+        "result": "EN: The 8:00 automation did not create the U.S. August 4 briefing; this manual catch-up replaces the missing run.\n中文：8:00自动化没有创建8月4日美股简报；本次手动补发替代缺失运行。",
+        "lesson": "EN: Morning latest-date checks are still needed until the scheduler is proven stable.\n中文：在调度器稳定前，早上仍需要检查最新日期。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: AI Software / Sovereign AI\n中文：AI软件 / 主权AI",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: PLTR's 93% revenue growth and guidance raise.\n中文：PLTR 93%营收增长和上调指引。",
+        "watch": "EN: Whether PLTR holds VWAP after the open without exhausting buyers.\n中文：PLTR开盘后能否守住VWAP且不耗尽买盘。",
+        "risk": "EN: Valuation and crowded after-hours chase.\n中文：估值和盘后追涨拥挤。"
+      },
+      {
+        "name": "EN: AI Semiconductors\n中文：AI半导体",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: AMD earnings after close and AI GPU demand.\n中文：AMD盘后财报和AI GPU需求。",
+        "watch": "EN: AMD, NVDA, SMH and SOXL first-hour behavior.\n中文：AMD、NVDA、SMH、SOXL首小时表现。",
+        "risk": "EN: Good report but bad stock if expectations are too high.\n中文：若预期太高，可能出现好财报坏股价。"
+      },
+      {
+        "name": "EN: Industrials / Machinery\n中文：工业 / 机械",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: CAT earnings and capex cycle read-through.\n中文：CAT财报和资本开支周期映射。",
+        "watch": "EN: CAT reaction plus XLI breadth.\n中文：CAT反应和XLI宽度。",
+        "risk": "EN: Data-center construction and global demand softness.\n中文：数据中心建设和全球需求走弱。"
+      },
+      {
+        "name": "EN: Consumer / Restaurants\n中文：消费 / 餐饮",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: MCD and SBUX earnings.\n中文：MCD和SBUX财报。",
+        "watch": "EN: Same-store sales, China commentary and pricing power.\n中文：同店销售、中国评论和定价能力。",
+        "risk": "EN: Consumer slowdown or margin pressure.\n中文：消费放缓或利润率压力。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "AMD",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 3%-5% stock exposure only if AMD holds VWAP with SMH/QQQ confirmation before earnings, or wait for post-earnings opening-range hold.\n中文：只有AMD在财报前守住VWAP且SMH/QQQ确认，才用3%-5%正股敞口；或等待财报后开盘区间守住。",
+        "suggestedProfitTake": "EN: Scale into 5%-8% post-earnings push or trail under post-report first-hour low.\n中文：财报后上涨5%-8%分批止盈，或用财报后首小时低点移动止盈。",
+        "type": "EN: AI semiconductor / data-center CPU-GPU\n中文：AI半导体 / 数据中心CPU-GPU",
+        "catalyst": "EN: Earnings after August 4 close.\n中文：8月4日盘后财报。",
+        "why": "EN Fundamentals / 中文基本面: Calendar sources show Street focus on strong year-over-year growth, MI350 GPU and EPYC CPU demand; exact new results are pending. EN Technicals / 中文技术面: Best setup is VWAP hold or post-earnings range confirmation, not vertical pre-event chase. EN News/Catalyst / 中文消息面: AMD is today's main still-ahead AI chip catalyst. EN Volume/Liquidity / 中文成交量/流动性: Very liquid with deep options, but earnings IV crush and gap risk are high.",
+        "risk": "EN: AI guidance or margin disappointment can trigger a gap down.\n中文：AI指引或利润率不及预期可能导致跳空下跌。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Pre-event setup after broader Monday rally.\n中文：周一大盘反弹后的财报前设置。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: No chase on open; wait for secondary base, VWAP reclaim after pullback, or post-earnings range. If trading, keep stock exposure 1%-3%.\n中文：开盘不追；等待二次平台、回踩后VWAP收复、或财报后新区间。若交易，正股敞口1%-3%。",
+        "suggestedProfitTake": "EN: If a secondary setup triggers, take partials quickly into 6%-10%; failed VWAP reclaim invalidates.\n中文：若二次设置触发，上涨6%-10%快速分批止盈；VWAP收复失败则失效。",
+        "type": "EN: AI software / government-commercial platform\n中文：AI软件 / 政府-商业平台",
+        "catalyst": "EN: Q2 beat, revenue nearly doubled, guidance raised.\n中文：Q2超预期、营收接近翻倍、指引上调。",
+        "why": "EN Fundamentals / 中文基本面: Reported Q2 revenue was about $1.94B with very strong U.S. commercial and government growth, plus raised 2026 guidance. EN Technicals / 中文技术面: After a double-digit after-hours move, the chart is extended and needs digestion. EN News/Catalyst / 中文消息面: Earnings catalyst has already triggered. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is excellent, but post-gap buyer exhaustion and options IV crush are major risks.",
+        "risk": "EN: Great report can still fade if valuation and expectations are too stretched.\n中文：即使财报很好，估值和预期过高仍可能回落。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Jumped roughly 10%-14% after hours on earnings.\n中文：财报后盘后大约涨10%-14%。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "CAT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 3%-5% only if earnings reaction holds opening range and XLI confirms; avoid first spike.\n中文：只有财报反应守住开盘区间且XLI确认时，才用3%-5%；避免追第一波尖刺。",
+        "suggestedProfitTake": "EN: Take 4%-7% or if guidance shows demand/cost pressure.\n中文：上涨4%-7%止盈，或若指引显示需求/成本压力则撤。",
+        "type": "EN: industrial machinery / capex cycle\n中文：工业机械 / 资本开支周期",
+        "catalyst": "EN: August 4 earnings before open.\n中文：8月4日盘前财报。",
+        "why": "EN Fundamentals / 中文基本面: Earnings calendar estimates focus on EPS and revenue durability; investors will watch machinery demand, margins and data-center construction exposure. EN Technicals / 中文技术面: Needs post-print VWAP/opening-range hold. EN News/Catalyst / 中文消息面: CAT is today's key industrial read-through. EN Volume/Liquidity / 中文成交量/流动性: Liquid large cap, but earnings gaps can reverse fast.",
+        "risk": "EN: Industrial demand slowdown or margin pressure.\n中文：工业需求放缓或利润率压力。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Event day.\n中文：事件日。",
+        "setupStatus": "in progress"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "LCID",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: 1%-2% max only after earnings if volume confirms and the stock holds first pullback; otherwise watch-only.\n中文：财报后只有成交量确认且第一次回踩守住时，最多1%-2%；否则只观察。",
+        "suggestedProfitTake": "EN: Take 8%-12% event spike quickly; do not hold if cash-burn narrative worsens.\n中文：事件脉冲上涨8%-12%快速止盈；若现金消耗叙事恶化则不持有。",
+        "type": "EN: EV high-beta event trade\n中文：EV高beta事件交易",
+        "catalyst": "EN: August 4 earnings window.\n中文：8月4日财报窗口。",
+        "why": "EN Fundamentals / 中文基本面: EV revenue and delivery scale are still challenged, with cash burn/dilution risk central. EN Technicals / 中文技术面: Only a post-report opening-range hold is usable. EN News/Catalyst / 中文消息面: Earnings can create a squeeze or breakdown. EN Volume/Liquidity / 中文成交量/流动性: Tradable volume, but high volatility and spread risk make sizing critical.",
+        "risk": "EN: Dilution, cash burn and failed squeeze.\n中文：稀释、现金消耗和 squeeze 失败。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Red-risk catalyst candidate.\n中文：红色风险催化候选。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "IONQ",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: 1%-3% only if risk appetite and quantum peers confirm; wait for VWAP reclaim or opening-range breakout.\n中文：只有风险偏好和量子同类确认时用1%-3%；等待VWAP收复或开盘区间突破。",
+        "suggestedProfitTake": "EN: Take 8%-12% momentum bursts, no failed-breakout overnight hold.\n中文：8%-12%动量脉冲止盈，突破失败不隔夜。",
+        "type": "EN: quantum high-beta\n中文：量子高beta",
+        "catalyst": "EN: Week-of earnings/speculative tech momentum.\n中文：本周财报/投机科技动量。",
+        "why": "EN Fundamentals / 中文基本面: Quantum revenue visibility remains early-stage and speculative. EN Technicals / 中文技术面: Needs IWM/QQQ and peer confirmation. EN News/Catalyst / 中文消息面: Earnings week and AI/quantum sympathy can move it. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is tradable but volatility and gap risk are high.",
+        "risk": "EN: Speculative growth unwind.\n中文：投机成长退潮。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: High-beta watch.\n中文：高beta观察。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "FSLY",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: 1%-3% only if software breadth improves and it holds VWAP after first pullback.\n中文：只有软件宽度改善且第一次回踩后守住VWAP时用1%-3%。",
+        "suggestedProfitTake": "EN: Take 8%-12% or if volume fades.\n中文：上涨8%-12%或成交量衰退时止盈。",
+        "type": "EN: software/internet infrastructure high-beta\n中文：软件/互联网基础设施高beta",
+        "catalyst": "EN: Week-of software earnings sympathy and high-beta recovery.\n中文：本周软件财报共振和高beta修复。",
+        "why": "EN Fundamentals / 中文基本面: Growth quality and profitability are less certain than mega-cap software. EN Technicals / 中文技术面: Needs relative strength versus software peers. EN News/Catalyst / 中文消息面: Software earnings sympathy can create tactical movement. EN Volume/Liquidity / 中文成交量/流动性: Smaller liquidity means relative volume and spread discipline are required.",
+        "risk": "EN: Failed squeeze and weak software breadth.\n中文：squeeze失败和软件宽度走弱。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Pre-catalyst/speculative watch.\n中文：提前催化/投机观察。",
+        "setupStatus": "early"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 5%-10% only if first-hour VWAP holds and AMD/SMH do not fade.\n中文：只有首小时VWAP守住且AMD/SMH不回落时，用5%-10%。",
+        "suggestedProfitTake": "EN: Take 2%-4% or trail under first-hour low.\n中文：上涨2%-4%止盈，或用首小时低点移动止盈。",
+        "type": "EN: Nasdaq 100 ETF\n中文：纳指100 ETF",
+        "catalyst": "EN: AI/mega-cap earnings breadth.\n中文：AI/大型科技财报宽度。",
+        "why": "EN Fundamentals / 中文基本面: ETF reflects mega-cap earnings quality and AI/cloud growth. EN Technicals / 中文技术面: Needs VWAP hold after Monday rally. EN News/Catalyst / 中文消息面: AMD and PLTR read-through matter today. EN Volume/Liquidity / 中文成交量/流动性: Excellent liquidity and options depth.",
+        "risk": "EN: Earnings fade or yield rebound.\n中文：财报回落或收益率反弹。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Benefited from Monday rally.\n中文：受益周一反弹。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: 4%-8% only if AMD/NVDA confirm and sector holds VWAP.\n中文：只有AMD/NVDA确认且板块守住VWAP时，用4%-8%。",
+        "suggestedProfitTake": "EN: Take 3%-5% or if AMD reaction fails.\n中文：上涨3%-5%止盈，或AMD反应失败时撤。",
+        "type": "EN: semiconductor ETF\n中文：半导体ETF",
+        "catalyst": "EN: AMD earnings and AI chip demand.\n中文：AMD财报和AI芯片需求。",
+        "why": "EN Fundamentals / 中文基本面: Basket captures AI compute and memory demand. EN Technicals / 中文技术面: Needs post-rally confirmation rather than gap chase. EN News/Catalyst / 中文消息面: AMD is today's key sector catalyst. EN Volume/Liquidity / 中文成交量/流动性: Liquid ETF, but semiconductor crowding remains high.",
+        "risk": "EN: AMD good-news/bad-stock reaction.\n中文：AMD好消息坏股价反应。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AI chip watch.\n中文：AI芯片观察。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: 1%-3% intraday only after SMH confirms; no blind overnight before/after AMD.\n中文：只有SMH确认后用1%-3%做日内；AMD前后都不盲目隔夜。",
+        "suggestedProfitTake": "EN: Take 5%-10% bursts quickly.\n中文：5%-10%脉冲快速止盈。",
+        "type": "EN: leveraged semiconductor ETF\n中文：杠杆半导体ETF",
+        "catalyst": "EN: AMD/AI chip momentum.\n中文：AMD/AI芯片动量。",
+        "why": "EN Fundamentals / 中文基本面: No single-company fundamentals; depends on semiconductor basket. EN Technicals / 中文技术面: Only valid when SMH trend confirms. EN News/Catalyst / 中文消息面: AMD earnings can swing the sector. EN Volume/Liquidity / 中文成交量/流动性: Liquid, but leverage decay and path risk are severe.",
+        "risk": "EN: Leverage decay, gap reversal and earnings whipsaw.\n中文：杠杆损耗、跳空反转和财报双向波动。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: High-beta only.\n中文：仅高beta工具。",
+        "setupStatus": "early"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: Catalyst Timing And Setup Stage\n中文：催化时点与设置阶段",
+        "items": [
+          "EN: Early: AMD, ANET, LCID, CAT, MCD, PFE, MRK. In progress: QQQ, SMH. Extended/avoid chase: PLTR after the earnings jump.\n中文：early：AMD、ANET、LCID、CAT、MCD、PFE、MRK。in progress：QQQ、SMH。extended/avoid chase：财报后大涨的PLTR。"
+        ]
+      },
+      {
+        "title": "EN: Pre-Catalyst Watchlist\n中文：提前催化预警",
+        "items": [
+          "EN: AMD | Aug 4 after close | earnings | AI GPU/data-center catalyst | long/watch | yellow | early | no vertical pre-event chase.\n中文：AMD | 8月4日盘后 | 财报 | AI GPU/数据中心催化 | long/watch | yellow | early | 不追财报前垂直拉升。",
+          "EN: CAT | Aug 4 before/open window | earnings | industrial demand/capex read-through | long/watch | yellow | in progress | wait for first-hour hold.\n中文：CAT | 8月4日盘前/开盘窗口 | 财报 | 工业需求/资本开支映射 | long/watch | yellow | in progress | 等首小时守住。",
+          "EN: MCD | Aug 4 earnings window | consumer pricing and traffic | watch/long | green | early | no chase if margins disappoint.\n中文：MCD | 8月4日财报窗口 | 消费定价和客流 | watch/long | green | early | 若利润率不佳不追。",
+          "EN: PFE/MRK | Aug 4 earnings window | pharma pipeline and guidance | watch | green/yellow | early | use post-report structure.\n中文：PFE/MRK | 8月4日财报窗口 | 医药管线和指引 | watch | green/yellow | early | 用财报后结构。",
+          "EN: ANET | Aug 4 earnings window | AI networking/cloud capex | long/watch | yellow | early | require peer confirmation.\n中文：ANET | 8月4日财报窗口 | AI网络/云资本开支 | long/watch | yellow | early | 需要同类确认。",
+          "EN: LCID | Aug 4 earnings window | EV delivery/cash burn | speculative watch | red | early | 1%-2% max if volume confirms.\n中文：LCID | 8月4日财报窗口 | EV交付/现金消耗 | 投机观察 | red | early | 若成交量确认最多1%-2%。",
+          "EN: PLTR | post-earnings | already triggered | long thesis hit but entry extended | red | extended | wait for secondary base.\n中文：PLTR | 财报后 | 已触发 | 多头逻辑命中但入场已伸展 | red | extended | 等二次平台。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
+        "items": [
+          "EN: AMD options carry earnings IV; if buying premium, keep it small and understand IV crush can overwhelm correct direction.\n中文：AMD期权带财报IV；若买权利金，仓位要小，并理解IV crush可能压过正确方向。",
+          "EN: PLTR post-earnings options are especially risky because the expected move may already be consumed.\n中文：PLTR财报后期权尤其危险，因为预期波动可能已经被消耗。"
+        ]
+      },
+      {
+        "title": "EN: Entry Timing And Risk Controls\n中文：入场时机与风险控制",
+        "items": [
+          "EN: First 30-60 minutes are mandatory after a strong index rally; do not buy the first candle of a post-gap name.\n中文：指数大涨后必须等开盘30-60分钟；不要买跳空个股第一根K线。",
+          "EN: Invalidation: VWAP loss, first-hour low break, sector ETF failure, or oil/yield reversal.\n中文：失效条件：跌破VWAP、跌破首小时低点、板块ETF失败、油价/收益率反转。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Metrics Check\n中文：基本面指标检查",
+        "items": [
+          "EN: PLTR quality improved materially, but valuation and expectations now matter. AMD must prove AI revenue, margins and guidance. CAT/MCD/PFE/MRK test whether breadth extends beyond AI.\n中文：PLTR质量明显改善，但估值和预期现在很重要。AMD必须证明AI收入、利润率和指引。CAT/MCD/PFE/MRK测试行情能否扩散到AI之外。"
+        ]
+      },
+      {
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
+        "items": [
+          "EN: The correct process is: PLTR was a hit, but current entry is extended; AMD is still-ahead and therefore cleaner for pre-catalyst planning.\n中文：正确流程是：PLTR是命中，但当前入场已伸展；AMD仍在催化前，因此更适合提前计划。"
+        ]
+      },
+      {
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
+        "items": [
+          "EN: AI software strength from PLTR must now be tested against AI hardware expectations in AMD and AI networking in ANET.\n中文：PLTR的AI软件强势，现在要通过AMD的AI硬件预期和ANET的AI网络来继续测试。"
+        ]
+      },
+      {
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
+        "items": [
+          "EN: Iran de-escalation and oil-price relief helped Monday's rally; any reversal in geopolitical headlines can quickly change the tape.\n中文：伊朗风险降温和油价回落推动周一反弹；任何地缘headline反转都会快速改变盘面。"
+        ]
+      },
+      {
+        "title": "EN: Credit Positioning And Market Internals\n中文：信用、仓位与市场内部结构",
+        "items": [
+          "EN: HYG/LQD and IWM are the permission checks before adding red-risk names after a strong index day.\n中文：在指数大涨后，加红色风险名字前必须看HYG/LQD和IWM是否允许。"
+        ]
+      },
+      {
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
+        "items": [
+          "EN: Today: AMD after close; CAT/MCD/PFE/MRK/SBUX/ANET/LCID earnings window; Friday: U.S. employment report.\n中文：今天：AMD盘后；CAT/MCD/PFE/MRK/SBUX/ANET/LCID财报窗口；周五：美国就业报告。"
+        ]
+      },
+      {
+        "title": "EN: Why It Matters\n中文：为什么重要",
+        "items": [
+          "EN: This briefing fixes the missing automation run and keeps the process focused on catching the next catalyst before it moves, while refusing to chase the one that already moved.\n中文：这份简报修复缺失的自动化运行，并继续把流程聚焦在提前捕捉下一个催化，同时拒绝追已经走完第一波的标的。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "WSJ: Palantir lifts guidance as revenue nearly doubles",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/business/earnings/palantir-lifts-guidance-as-revenue-nearly-doubles-f4d79fa7"
+      },
+      {
+        "label": "IBD: Dow Jones futures, Palantir earnings, AMD and SpaceX on deck",
+        "confidence": "Market data",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-stock-market-rally-palantir-earnings-spacex-on-deck/"
+      },
+      {
+        "label": "MarketWatch: Palantir stock climbs after earnings",
+        "confidence": "High-quality reporting",
+        "url": "https://www.marketwatch.com/story/palantirs-stock-gains-as-ai-drives-turbocharged-growth-e006b70a"
+      },
+      {
+        "label": "Kiplinger: Earnings calendar for August 3-7, 2026",
+        "confidence": "Calendar",
+        "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      },
+      {
+        "label": "TipRanks: Earnings calendar August 4, 2026",
+        "confidence": "Calendar",
+        "url": "https://www.tipranks.com/calendars/earnings/2026-8-4"
+      },
+      {
+        "label": "Cboe VIX product page",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/tradable_products/vix/"
+      }
+    ]
+  },
+  {
     "date": "2026-08-03",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-08-03 10:06 GMT+8",
