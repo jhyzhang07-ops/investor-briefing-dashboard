@@ -86,6 +86,83 @@ def validate_practical_watch_items(prefix: str, entry: dict[str, Any], errors: l
         )
 
 
+def require_min_list(entry: dict[str, Any], key: str, minimum: int, prefix: str, errors: list[str]) -> None:
+    value = entry.get(key)
+    actual = len(value) if isinstance(value, list) else 0
+    require(
+        actual >= minimum,
+        f"{prefix} entry requires at least {minimum} {key} items; found {actual}",
+        errors,
+    )
+
+
+def section_titles(entry: dict[str, Any]) -> list[str]:
+    sections = entry.get("sections")
+    if not isinstance(sections, list):
+        return []
+    titles: list[str] = []
+    for section in sections:
+        if isinstance(section, dict) and isinstance(section.get("title"), str):
+            titles.append(section["title"])
+    return titles
+
+
+def has_section(entry: dict[str, Any], expected: str) -> bool:
+    return any(expected in title for title in section_titles(entry))
+
+
+def validate_action_board(prefix: str, entry: dict[str, Any], errors: list[str]) -> None:
+    board = entry.get("actionBoard")
+    if not isinstance(board, dict):
+        return
+    for slot, value in board.items():
+        require(isinstance(value, dict), f"{prefix} actionBoard.{slot} must be an object", errors)
+        if not isinstance(value, dict):
+            continue
+        for key in ["ticker", "direction", "riskLevel", "setup", "reason", "convictionScore", "timeframe"]:
+            require(value.get(key) is not None, f"{prefix} actionBoard.{slot} missing {key}", errors)
+
+
+def validate_us_density_and_sections(entry: dict[str, Any], errors: list[str]) -> None:
+    require_min_list(entry, "stocks", 7, "U.S. latest", errors)
+    require_min_list(entry, "smallCaps", 6, "U.S. latest", errors)
+    require_min_list(entry, "etfs", 6, "U.S. latest", errors)
+    require_min_list(entry, "sectors", 4, "U.S. latest", errors)
+    require_min_list(entry, "sections", 10, "U.S. latest", errors)
+    require_min_list(entry, "sources", 6, "U.S. latest", errors)
+
+    required_sections = [
+        "Catalyst Timing And Setup Stage",
+        "Pre-Catalyst Watchlist",
+        "Options And Volatility Watch",
+        "Entry Timing And Risk Controls",
+        "Fundamental Metrics Check",
+        "Company And Sector Highlights",
+        "Technology And Innovation Watch",
+        "Trump Administration And Washington Watch",
+        "Credit Positioning And Market Internals",
+        "Earnings And Macro Calendar",
+        "Why It Matters",
+    ]
+    for title in required_sections:
+        require(has_section(entry, title), f"U.S. latest entry missing required section: {title}", errors)
+
+    for item in iter_watch_items(entry):
+        ticker = item.get("ticker", "unknown ticker")
+        why = item.get("why", "")
+        require(
+            "News/Catalyst" in why or "消息面" in why,
+            f"U.S. latest entry {ticker} why field missing news/catalyst discussion",
+            errors,
+        )
+        buy_text = item.get("suggestedBuyPrice", "")
+        require(
+            isinstance(buy_text, str) and "%" in buy_text,
+            f"U.S. latest entry {ticker} suggestedBuyPrice missing position/risk budget percentage",
+            errors,
+        )
+
+
 def validate_us_latest(entry: dict[str, Any], errors: list[str]) -> None:
     required_lists = [
         "priorities",
@@ -118,6 +195,8 @@ def validate_us_latest(entry: dict[str, Any], errors: list[str]) -> None:
                 require(is_non_empty_text(item), f"U.S. latest entry {key}[{index}] missing text", errors)
                 require(has_bilingual_markers(item), f"U.S. latest entry {key}[{index}] must be bilingual EN/中文", errors)
 
+    validate_action_board("U.S. latest entry", entry, errors)
+    validate_us_density_and_sections(entry, errors)
     validate_practical_watch_items("U.S. latest entry", entry, errors)
 
 
