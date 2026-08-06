@@ -4,7 +4,7 @@ window.A_SHARE_BRIEFINGS = [
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-08-06 09:34 GMT+8",
     "title": "中文：A股投资者简报 - 2026-08-06\nEN: A-Share Investor Brief - 2026-08-06",
-    "tone": "中文：这份简报生成于2026年8月6日周四09:34 GMT+8，已经跨过09:20公开市场操作窗口，也处在09:25集合竞价后。人民银行今天开展10亿元7天逆回购，利率1.40%，高于8月5日的50亿元? 不对，今天是10亿元，仍然只是“维持平稳”而不是“风险偏好重新点火”。更关键的是，集合竞价里上证指数约3864.27、沪深300ETF约4.688、国电南瑞约24.45、科创50ETF约1.75，说明8月5日的修复之后，8月6日一开盘先面对的是回吐和确认，而不是无条件追价。\nEN: This brief is generated on Thursday, August 6, 2026 at 09:34 GMT+8, after the 09:20 open-market window and after the 09:25 call auction. The PBOC conducted RMB 1.0 billion of 7-day reverse repos today at 1.40%. That is slightly above the RMB 0.5 billion on Aug. 5, but it still signals “maintain stability,” not “reignite risk appetite.” More importantly, the call auction showed the SSE Composite near 3864.27, CSI 300 ETF near 4.688, NARI near 24.45, and STAR 50 ETF near 1.75, which says Aug. 6 starts with give-back and confirmation after Aug. 5’s repair, not with unconditional chasing.",
+    "tone": "中文：这份简报生成于2026年8月6日周四09:34 GMT+8，已经跨过09:20公开市场操作窗口，也处在09:25集合竞价后。人民银行今天开展10亿元7天逆回购，利率1.40%，低于8月5日的50亿元，仍然只是“维持平稳”而不是“风险偏好重新点火”。更关键的是，集合竞价里上证指数约3864.27、沪深300ETF约4.688、国电南瑞约24.45、科创50ETF约1.75，说明8月5日的修复之后，8月6日一开盘先面对的是回吐和确认，而不是无条件追价。\nEN: This brief is generated on Thursday, August 6, 2026 at 09:34 GMT+8, after the 09:20 open-market window and after the 09:25 call auction. The PBOC conducted RMB 1.0 billion of 7-day reverse repos today at 1.40%. That is below the RMB 5.0 billion on Aug. 5, but it still signals “maintain stability,” not “reignite risk appetite.” More importantly, the call auction showed the SSE Composite near 3864.27, CSI 300 ETF near 4.688, NARI near 24.45, and STAR 50 ETF near 1.75, which says Aug. 6 starts with give-back and confirmation after Aug. 5’s repair, not with unconditional chasing.",
     "priorities": [
       "中文：第一优先级仍是环境。先看510300.SH能否重新站稳4.68-4.71，再决定是否把个股观察升级成真实执行。\nEN: The first priority is still the regime. Watch whether 510300.SH can reclaim 4.68-4.71 first before upgrading stock watches into actual execution.",
       "中文：8月6日10亿元逆回购只说明流动性没有转紧，不说明成长和高弹性方向可以忽视T+1隔夜风险。\nEN: The RMB 1.0 billion reverse repo on Aug. 6 only says liquidity is not tightening; it does not mean growth and higher-beta names can ignore T+1 overnight risk.",
@@ -16,7 +16,7 @@ window.A_SHARE_BRIEFINGS = [
       "中文：8月5日A股把“宽基修复先于高贝塔全面回归”这个判断进一步坐实。根据8月6日09:25集合竞价反推，8月5日上证指数收3878.43、深证成指收14144.2、创业板指收3535.14、沪深300收4658.15、科创50收1693.67。但8月6日竞价里创业板和科创50又更弱，说明资金还没有把成长重新当成舒服主线。\nEN: Aug. 5 reinforced the view that broad-beta repair is ahead of a full high-beta comeback. Based on the Aug. 6 09:25 call auction reference, the Aug. 5 closes were 3878.43 for the SSE Composite, 14144.2 for the Shenzhen Component, 3535.14 for ChiNext, 4658.15 for the CSI 300, and 1693.67 for the STAR 50. But the Aug. 6 auction immediately showed ChiNext and STAR weaker again, which means capital still does not treat growth as a comfortable primary lane.",
       "中文：对你最实用的结论仍然不是“今天谁最刺激”，而是“哪些低价票在情绪回撤时仍有真实承接”。今天最贴合这个条件的还是国电南瑞、正泰电器、中国西电、安科瑞、富春环保这组，而不是高贝塔科技ETF。\nEN: The most useful conclusion for you is still not “which name is most exciting today,” but “which lower-priced names still have real absorption when emotion pulls back.” The set that fits best remains NARI, Chint Electric, China XD Electric, Acrel, and Fuchun Environmental, rather than higher-beta tech ETFs.",
       "中文：高风险层不是没有机会，但今天更像“先验证再参与”：中恒电气、睿能科技、九洲集团、中兰环保都可以放在提前催化观察里，但都不适合越过仓位纪律去硬接。\nEN: The higher-risk layer is not empty, but today looks more like “verify first, participate second”: Zhongheng Electric, Raynen Technology, Jiuzhou Group, and Zhonglan Environmental can all sit in the pre-catalyst watchlist, but none should be chased past the sizing rules.",
-      "中文：今天新增的重要变量是，人民银行8月6日只做10亿元7天逆回购，利率仍为1.40%。这比8月5日略高，但仍是很克制的维稳，不足以单独证明成长风格会连续两天接力。\nEN: The important new variable today is that the PBOC conducted only RMB 1.0 billion of 7-day reverse repos on Aug. 6 at the same 1.40% rate. That is slightly above Aug. 5, but still very restrained stabilization and not enough on its own to prove growth can keep relaying for a second session.",
+      "中文：今天新增的重要变量是，人民银行8月6日只做10亿元7天逆回购，利率仍为1.40%。这低于8月5日的50亿元，仍是很克制的维稳，不足以单独证明成长风格会连续两天接力。\nEN: The important new variable today is that the PBOC conducted only RMB 1.0 billion of 7-day reverse repos on Aug. 6 at the same 1.40% rate. That is below Aug. 5’s RMB 5.0 billion, but still very restrained stabilization and not enough on its own to prove growth can keep relaying for a second session.",
       "中文：上一版提前催化预警里，510300.SH、中恒电气、中国西电和中兰环保都给出了可以验证的次日反馈：宽基修复过、数据中心电力弹过、订单主线续过、风格样本也震荡过。这说明预警方向并不空，但今天要把真正大仓位继续留给环境确认和低价稳态主线。\nEN: In the prior pre-catalyst watchlist, 510300.SH, Zhongheng Electric, China XD Electric, and Zhonglan Environmental all gave verifiable next-session feedback: broad beta repaired, data-center power bounced, the order lane extended, and the style sample stayed volatile. That means the warning list was not empty, but real size today should still stay with regime confirmation and the steadier lower-priced main lane."
     ],
     "marketPulse": {
@@ -45,7 +45,7 @@ window.A_SHARE_BRIEFINGS = [
         "note": "中文：今天真正要看的不是“有没有反弹”，而是回踩时是否缩量、扩散时是否有同伴。\nEN: What matters today is not whether there is a rebound, but whether pullbacks come on lighter volume and whether extension comes with peers."
       },
       "利率与流动性 / Rates And Liquidity": {
-        "value": "中文：人民银行8月6日开展10亿元7天逆回购、利率1.40%；8月5日为5亿元，8月4日为46.5亿元。今天的信号仍然是“维持稳定”，不是“主动猛推”。\nEN: On Aug. 6 the PBOC conducted RMB 1.0 billion of 7-day reverse repos at 1.40%; Aug. 5 was RMB 0.5 billion and Aug. 4 was RMB 4.65 billion. Today’s signal is still “maintain stability,” not “push hard.”",
+        "value": "中文：人民银行8月6日开展10亿元7天逆回购、利率1.40%；8月5日为50亿元，8月4日为465亿元。今天的信号仍然是“维持稳定”，不是“主动猛推”。\nEN: On Aug. 6 the PBOC conducted RMB 1.0 billion of 7-day reverse repos at 1.40%; Aug. 5 was RMB 5.0 billion and Aug. 4 was RMB 46.5 billion. Today’s signal is still “maintain stability,” not “push hard.”",
         "note": "中文：流动性不差，但并不足以单独支撑高贝塔加仓；仍先看宽基和防守ETF承接。\nEN: Liquidity is not bad, but it is not enough by itself to justify adding high beta; still watch broad and defensive ETF absorption first."
       },
       "人民币与离岸人民币 / Yuan And Offshore CNH": {
@@ -127,7 +127,7 @@ window.A_SHARE_BRIEFINGS = [
       {
         "date": "2026-08-06 09:20",
         "event": "中文：人民银行公开市场操作结果：10亿元7天逆回购，利率1.40%\nEN: PBOC open-market result: RMB 1.0 billion of 7-day reverse repos at 1.40%",
-        "watch": "中文：金额比8月5日略高，但仍是克制维稳；先看510300.SH和512800.SH承接，再看个股。\nEN: The amount is slightly higher than Aug. 5 but still restrained stabilization; watch 510300.SH and 512800.SH absorption first, then single stocks.",
+        "watch": "中文：金额低于8月5日，但仍是克制维稳；先看510300.SH和512800.SH承接，再看个股。\nEN: The amount is lower than Aug. 5 but still restrained stabilization; watch 510300.SH and 512800.SH absorption first, then single stocks.",
         "relatedTickers": "510300.SH, 512800.SH, 510880.SH, 600406.SH"
       },
       {
@@ -659,7 +659,7 @@ window.A_SHARE_BRIEFINGS = [
         "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026080608581014813/index.html"
       },
       {
-        "label": "中文：人民银行公开市场业务交易公告[2026]第150号：8月5日5亿元7天逆回购。\nEN: PBOC open-market notice [2026] No. 150: RMB 0.5 billion of 7-day reverse repos on Aug. 5.",
+        "label": "中文：人民银行公开市场业务交易公告[2026]第150号：8月5日50亿元7天逆回购。\nEN: PBOC open-market notice [2026] No. 150: RMB 5.0 billion of 7-day reverse repos on Aug. 5.",
         "confidence": "Primary",
         "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/2026080509015322425/index.html"
       },
