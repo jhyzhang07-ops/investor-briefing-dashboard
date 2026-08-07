@@ -1,5 +1,834 @@
 window.MARKET_BRIEFINGS = [
   {
+    "date": "2026-08-07",
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-08-07 11:12 GMT+8",
+    "title": "EN: U.S. Market Brief - 2026-08-07\n中文：美股市场简报 - 2026-08-07",
+    "tone": "EN: Friday, August 7, 2026 is not a blind momentum session. Thursday, August 6, 2026 closed with index damage limited but not erased, and the real regime decision comes later tonight at 8:30 p.m. Beijing time when the U.S. July jobs report hits. The usable edge for small capital is to separate fresh post-earnings names from already-exhausted gaps, lean on liquid ETFs when macro direction is unclear, and force regular-session confirmation before touching high-beta stories. This briefing is market education and scenario analysis, not personalized financial advice.\n中文：2026年8月7日周五并不是一个可以盲目追动量的交易日。2026年8月6日周四虽然指数跌幅可控，但并未完全修复，真正的市场状态判断要等到今晚北京时间20:30公布的美国7月非农就业报告。对小资金而言，可用优势在于把“新鲜财报后机会”与“已经走完第一波的跳空”区分开来，在宏观方向不清时优先使用高流动性ETF，并在接触高beta故事前强制要求正股时段确认。本简报用于市场教育与情景分析，不构成个性化投资建议。",
+    "priorities": [
+      "EN: Market regime first, ticker stories second. U.S. stock futures were mixed early Friday, August 7, 2026 ahead of payrolls, so tonight's first hour matters more than thin overnight prints.\n中文：先看市场状态，再看个股故事。2026年8月7日周五非农前，美股期货早段表现分化，因此今晚首小时的重要性高于薄量隔夜走势。",
+      "EN: Entry timing is the edge. Fresh earnings names such as NET, ABNB, and MRNA can be actionable only after a 30-60 minute hold, VWAP reclaim, or opening-range breakout with volume; TEAM and APP already carry clear chase risk.\n中文：入场时机本身就是优势。NET、ABNB、MRNA这类新鲜财报或事件股，只有在30-60分钟后守住、收复VWAP，或放量突破开盘区间时才具备可执行性；TEAM和APP则已经带有明显追高风险。",
+      "EN: Liquidity and breadth outrank hero trades. If SPY, QQQ, and IWM cannot stabilize together after payrolls, reduce red-risk single-name exposure first and use smaller probes only.\n中文：流动性和市场宽度优先级高于英雄式交易。若非农后SPY、QQQ和IWM不能同步企稳，应先削减红色风险单股仓位，并且只保留更小的试探仓。",
+      "EN: Respect event asymmetry. Disney and Lilly rewarded positive earnings quality, while Uber and AppLovin showed that a good story is not the same as a good tape reaction.\n中文：必须尊重事件的不对称性。Disney与Lilly奖励了高质量财报，而Uber与AppLovin则说明“好故事”并不等于“好股价反应”。",
+      "EN: Options risk is elevated into payrolls and post-earnings digestion. Keep stock risk budgets roughly 5%-12% for liquid green-risk ETF/core names, 3%-6% for ordinary yellow-risk stocks, 1%-3% for red-risk high-beta names, and options premium generally around 0.5%-1.0% of account or 0.5% or less for red-risk weeklies.\n中文：在非农和财报后消化阶段，期权风险偏高。流动性好的绿色风险ETF/核心股仓位大致控制在5%-12%，普通黄色风险股票约3%-6%，红色高beta股票约1%-3%，而期权权利金通常控制在账户的0.5%-1.0%，红色高风险周度期权最好不超过0.5%。"
+    ],
+    "summary": [
+      "EN: Thursday, August 6, 2026 closed lower but not disorderly. AP reported the S&P 500 fell 0.4% to 7,582.61, the Nasdaq slid 0.7% to 26,208.26, and the Dow dipped 0.1% to 52,509.64.\n中文：2026年8月6日周四美股收低，但并非失序下跌。美联社报道称，标普500下跌0.4%至7,582.61，纳指下跌0.7%至26,208.26，道指下跌0.1%至52,509.64。",
+      "EN: Rates and oil both pressed the tape. Reuters reported the U.S. 10-year Treasury yield climbed toward 4.87% and oil rose as investors waited for Friday's payrolls report.\n中文：利率与油价共同压制盘面。路透报道称，美国10年期国债收益率上行至接近4.87%，油价走高，市场则等待周五的非农报告。",
+      "EN: Thursday's earnings tape split cleanly between fresh winners and punished crowd favorites. Airbnb rose after revenue beat estimates, Cloudflare jumped after a beat-and-raise, and Atlassian surged after strong results, while AppLovin dropped sharply and Datadog also traded lower after results.\n中文：周四财报盘面在“新鲜赢家”和“被惩罚的拥挤股”之间明显分化。Airbnb在营收超预期后上涨，Cloudflare在业绩与指引双优后跳涨，Atlassian在强劲业绩后大幅上冲；而AppLovin则大跌，Datadog财报后也走弱。",
+      "EN: Healthcare added a separate catalyst lane. Moderna won U.S. FDA approval for its flu shot, and Eli Lilly followed through on earnings quality, which keeps XLV and selective biotech on the board even if growth beta gets choppy.\n中文：医疗保健板块还提供了独立催化主线。Moderna获得美国FDA流感疫苗批准，而Eli Lilly延续了高质量财报后的强势，即便成长beta震荡，XLV与精选生物科技仍值得保留关注。",
+      "EN: Washington remains relevant to sector rotation. The Trump administration's higher solar import tariffs and broader China technology restrictions keep policy-sensitive clean-energy and supply-chain names less attractive than liquid software, healthcare, and broad-index exposure tonight.\n中文：华盛顿政策仍会影响板块轮动。特朗普政府提高太阳能进口关税，并扩大对中国科技领域的限制，使得受政策影响较大的清洁能源与供应链个股，今晚相较高流动性软件、医疗保健和宽基指数敞口更不具吸引力。"
+    ],
+    "marketPulse": {
+      "S&P 500 / SPY": {
+        "value": "EN: Thursday close 7,582.61, down 0.4% by AP reporting.\n中文：按美联社报道，周四收于7,582.61，下跌0.4%。",
+        "note": "EN: SPY is still above key medium-term trend support in broad market reporting, but tonight it needs a payrolls reaction hold or a VWAP reclaim before broad-beta adds.\n中文：从广义市场报道看，SPY仍高于关键中期趋势支撑，但今晚仍需非农后的反应守住，或至少先收复VWAP，才适合增加广谱beta敞口。"
+      },
+      "Nasdaq / QQQ": {
+        "value": "EN: Thursday close 26,208.26, down 0.7% by AP reporting.\n中文：按美联社报道，周四收于26,208.26，下跌0.7%。",
+        "note": "EN: QQQ remains the main expression of AI and software leadership, but payrolls plus yields can still create a first-hour shakeout.\n中文：QQQ仍是AI与软件龙头的主要表达工具，但非农与收益率仍可能制造首小时洗盘。"
+      },
+      "Dow / Industrials": {
+        "value": "EN: Thursday close 52,509.64, down 0.1% by AP reporting.\n中文：按美联社报道，周四收于52,509.64，下跌0.1%。",
+        "note": "EN: The Dow held up better than tech, which matters if tonight turns into a quality-or-defense rotation instead of a pure beta chase.\n中文：道指的抗跌性强于科技板块，这一点在今晚若演变为质量或防御轮动、而非纯beta追逐时尤其重要。"
+      },
+      "Russell 2000 / IWM": {
+        "value": "EN: AP described small-cap participation as weaker than the best risk-on days but not a collapse.\n中文：美联社的描述显示，小盘股参与度弱于最强的风险偏好日，但并未崩塌。",
+        "note": "EN: IWM confirmation is a required filter for red-risk names such as IONQ, RGTI, or SG; if IWM lags, those stay tiny or watch-only.\n中文：IWM的确认是IONQ、RGTI、SG这类红色风险标的的必要过滤条件；若IWM掉队，它们就应保持极小仓位或只观察。"
+      },
+      "Breadth / Semis": {
+        "value": "EN: IBD reported the major indexes remained above critical moving averages overall, but breadth narrowed and semis lost some momentum after Wednesday's surge.\n中文：IBD报道称，整体上主要指数仍在关键均线之上，但市场宽度收窄，半导体在周三大涨后有所降温。",
+        "note": "EN: This is not a tape for assuming every AI name will work; semis, networking, and software now need name-by-name confirmation.\n中文：这不是一个可以默认“所有AI股都会继续涨”的盘面；半导体、网络与软件现在都需要逐名确认。"
+      },
+      "Oil / Commodities": {
+        "value": "EN: Reuters said oil prices rose on Thursday, August 6, 2026, which kept pressure on inflation-sensitive growth positioning.\n中文：路透称，2026年8月6日周四油价走高，这继续压制了对通胀敏感的成长仓位。",
+        "note": "EN: If crude extends higher tonight, treat travel and consumer discretionary longs more carefully and avoid forcing XLY-like exposure too early.\n中文：若今晚原油继续上冲，应更谨慎对待出行和可选消费多头，并避免过早强行建立类似XLY的敞口。"
+      },
+      "Rates / Dollar": {
+        "value": "EN: Reuters reported the 10-year Treasury yield rose to about 4.87% before payrolls; Treasury remains the official close reference.\n中文：路透报道称，非农前10年期美债收益率升至约4.87%；美国财政部仍是官方收盘核验来源。",
+        "note": "EN: Higher yields are the cleanest macro risk for QQQ, SMH, and leveraged tech ETFs; if yields spike after payrolls, reduce tech beta first.\n中文：更高的收益率是QQQ、SMH和杠杆科技ETF最干净的宏观风险；若非农后收益率急升，应先降低科技beta。"
+      },
+      "Volatility / Options": {
+        "value": "EN: Cboe's daily market statistics remain the primary public reference for put/call and index-options context ahead of payrolls.\n中文：在非农前，Cboe日度市场统计仍是公开可用的Put/Call和指数期权背景的主要参考。",
+        "note": "EN: The practical message is simple: event IV and gap risk stay elevated for SPY, QQQ, IWM, and post-earnings single names, so thin first moves should not be trusted.\n中文：实操信息很简单：SPY、QQQ、IWM以及财报后单股的事件IV和跳空风险都偏高，因此不能轻信薄量的第一波走势。"
+      },
+      "Futures / Premarket": {
+        "value": "EN: IBD reported early Friday futures were mixed, with Dow and S&P 500 futures modestly higher and Nasdaq 100 futures slightly lower before the jobs report.\n中文：IBD报道称，周五早段期货表现分化，非农前道指和标普500期货小幅走高，而纳指100期货略偏弱。",
+        "note": "EN: Mixed futures reinforce that regular-session confirmation matters more than the overnight color.\n中文：期货分化再次说明，正股时段确认比隔夜颜色更重要。"
+      },
+      "Credit / Liquidity": {
+        "value": "EN: Reuters described rising Treasury yields and payrolls caution as the dominant liquidity pressure, while no separate credit-panic signal was highlighted in reviewed reporting.\n中文：路透将收益率上行与非农前谨慎情绪视为主要流动性压力，而已审阅报道中并未出现单独的信用恐慌信号。",
+        "note": "EN: If HYG and IWM both underperform after payrolls, assume liquidity is tightening and downgrade speculative setups quickly.\n中文：若非农后HYG和IWM同时跑输，应视为流动性在收紧，并迅速下调投机设置评级。"
+      }
+    },
+    "forecast": [
+      "EN: Bull case: payrolls land soft enough to calm yields but not so weak that recession fear takes over, SPY and QQQ both reclaim VWAP, and post-earnings winners such as NET or ABNB hold their first pullback.\n中文：偏强情景：非农温和到足以压低收益率，但又没有弱到引发衰退恐慌，SPY和QQQ同时收复VWAP，而NET或ABNB这类财报后赢家能守住第一次回踩。",
+      "EN: Base case: the open is volatile, index ETFs remain the cleaner execution path, and only one or two post-earnings names provide usable entries after the first 30-60 minutes.\n中文：基准情景：开盘波动较大，指数ETF仍是更干净的执行路径，而真正可用的财报后入场点可能只出现在首30-60分钟后的1到2只个股上。",
+      "EN: Bear case: payrolls push yields and the dollar higher, QQQ loses the first bounce, and APP, SG, or other failed earnings names drag sentiment lower; in that path, cash or tactical shorts beat forced longs.\n中文：偏弱情景：非农推动收益率和美元继续走高，QQQ失守第一次反弹，而APP、SG等失败财报股继续拖累情绪；在这种路径下，持币或战术空头优于强行做多。",
+      "EN: Defensive case: if healthcare and consumer staples hold up while high-beta software fades, favor XLV or SPY over speculative software and quantum tickers.\n中文：防御情景：若医疗和必需消费更抗跌，而高beta软件走弱，应优先考虑XLV或SPY，而非投机性软件和量子主题票。",
+      "EN: Event case: names that already moved hard after hours, such as TEAM, NET, or ABNB, may still be good companies but bad entries; a good story is not automatically actionable.\n中文：事件情景：TEAM、NET、ABNB这类盘后已经大幅波动的名字，可能仍是好公司，但不是好入场点；好故事并不会自动变成可执行机会。"
+    ],
+    "actionBoard": {
+      "bestLong": {
+        "ticker": "NET",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Actionable only after the first 30-60 minutes if NET holds its opening range or reclaims VWAP with cloud peers firm; use roughly 3%-5% stock exposure, not an opening-gap chase.\n中文：只有在开盘后30-60分钟，NET守住开盘区间或收复VWAP，且云软件同类保持强势时，才视为可执行；正股敞口大致3%-5%，不是追开盘跳空。",
+        "reason": "EN: Cloudflare delivered a fresh beat-and-raise style catalyst with liquid tape and cleaner relative strength than many crowded software peers.\n中文：Cloudflare给出了新鲜的业绩与指引催化，盘面流动性好，相比许多拥挤软件同类，相对强度也更干净。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "bestShort": {
+        "ticker": "APP",
+        "direction": "short",
+        "riskLevel": "red",
+        "setup": "EN: Tactical short only if APP fails a rebound below VWAP or below the opening range after the first 30-60 minutes; keep it to roughly 1%-2% stock risk or skip if spreads remain chaotic.\n中文：只有在开盘后30-60分钟，APP在VWAP下方或开盘区间下方反弹失败时，才考虑战术空头；股票风险大致控制在1%-2%，若价差和波动过乱就直接放弃。",
+        "reason": "EN: AppLovin became a clear post-earnings punishment tape, which often offers cleaner failed-bounce logic than trying to bottom-fish the first flush.\n中文：AppLovin已经变成典型的财报后惩罚性盘面，这种情况下“反弹失败”逻辑通常比抄第一次急跌底更干净。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "bestEtf": {
+        "ticker": "SPY",
+        "direction": "long",
+        "riskLevel": "green",
+        "setup": "EN: Actionable only if SPY stabilizes after payrolls and either holds the first pullback or reclaims VWAP; use roughly 6%-10% ETF exposure instead of forcing multiple event names.\n中文：只有在非农后SPY企稳，并守住第一次回踩或收复VWAP时，才算可执行；ETF仓位大致6%-10%，而不是强行同时做多多只事件股。",
+        "reason": "EN: When macro direction is unsettled, SPY is the cleanest way to express a constructive bias without taking single-name earnings gap risk.\n中文：当宏观方向未明时，SPY是表达偏建设性观点、同时避免单股财报跳空风险的最干净工具。",
+        "convictionScore": 4,
+        "timeframe": "trade"
+      },
+      "earlyCatalystLong": {
+        "ticker": "ABNB",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "setup": "EN: Fresh after-hours catalyst only; wait for Friday's regular session and require a VWAP reclaim or opening-range hold before using roughly 3%-5% stock exposure.\n中文：这只是新鲜盘后催化；先等周五正股时段，并要求VWAP收复或开盘区间守住后，再考虑大致3%-5%的正股仓位。",
+        "reason": "EN: Airbnb beat on revenue and kept travel-demand relevance, but the first after-hours move already happened and must be separated from the real entry window.\n中文：Airbnb在营收上超预期，且保留了出行需求主线的相关性，但第一波盘后走势已经发生，必须和真正的入场窗口分开看。",
+        "convictionScore": 3,
+        "timeframe": "trade"
+      },
+      "highestRiskOpportunity": {
+        "ticker": "IONQ",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Only consider a roughly 1%-2% stock probe if IONQ shows real relative volume in the regular session, holds VWAP, and the quantum basket confirms; otherwise keep it watch-only.\n中文：只有在IONQ于正股时段出现真实相对放量、守住VWAP，并且量子主题篮子共振时，才考虑大致1%-2%的试探仓；否则只观察。",
+        "reason": "EN: IonQ still offers real catalyst sensitivity into earnings and contract commentary, but the setup quality depends entirely on confirmation, not on story alone.\n中文：IonQ在财报和合同评论上仍具备真实催化敏感性，但设置质量完全取决于确认，而不是故事本身。",
+        "convictionScore": 2,
+        "timeframe": "trade"
+      },
+      "avoidWait": {
+        "ticker": "TEAM",
+        "direction": "long",
+        "riskLevel": "red",
+        "setup": "EN: Treat TEAM as extended after a powerful after-hours earnings response; wait for a secondary base or pullback hold, and if it still gaps excessively keep size to roughly 1%-3% max or pass.\n中文：TEAM在强烈的财报后盘后反应后应视为extended；等待二次平台或回踩守住，若仍大幅高开，仓位最多控制在大致1%-3%，或者直接放弃。",
+        "reason": "EN: The earnings quality was strong, but the first easy money is gone if the gap stays huge.\n中文：财报质量很强，但若跳空维持过大，最容易赚的第一段已经结束。",
+        "convictionScore": 3,
+        "timeframe": "watch"
+      }
+    },
+    "catalystCalendar": [
+      {
+        "date": "2026-08-07 08:30 ET / 20:30 Beijing",
+        "event": "EN: U.S. July payrolls and unemployment rate\n中文：美国7月非农就业与失业率",
+        "watch": "EN: Watch yields, the dollar, SPY/QQQ first-hour direction, and whether growth can survive a hotter print.\n中文：关注收益率、美元、SPY/QQQ首小时方向，以及成长股能否承受偏热数据。",
+        "relatedTickers": "SPY, QQQ, IWM, TLT, UUP, VIX"
+      },
+      {
+        "date": "2026-08-07 regular session",
+        "event": "EN: Post-earnings price discovery for ABNB, NET, TEAM, APP, DDOG, SG, CART, DKNG, RKT\n中文：ABNB、NET、TEAM、APP、DDOG、SG、CART、DKNG、RKT财报后价格发现",
+        "watch": "EN: Separate names that hold VWAP and opening range from names that only gap and fade.\n中文：把能守住VWAP和开盘区间的名字，与只会跳空后回落的名字区分开来。",
+        "relatedTickers": "ABNB, NET, TEAM, APP, DDOG, SG, CART, DKNG, RKT"
+      },
+      {
+        "date": "2026-08-07 premarket and regular session",
+        "event": "EN: Moderna FDA-approval follow-through\n中文：Moderna FDA批准后的延续反应",
+        "watch": "EN: Watch whether MRNA sustains the flu-vaccine approval move or gives it back as a one-day biotech pop.\n中文：关注MRNA能否延续流感疫苗获批带来的涨势，还是回吐成一次性生物科技脉冲。",
+        "relatedTickers": "MRNA, XLV, XBI"
+      },
+      {
+        "date": "2026-08-11 after U.S. close",
+        "event": "EN: Fastly investor forum / near-term cloud follow-through window\n中文：Fastly投资者活动 / 近端云软件延续观察窗口",
+        "watch": "EN: Edge-cloud and software risk appetite matter more than the event alone; use it only if NET and broader software stay constructive.\n中文：边缘云和软件风险偏好比活动本身更重要；只有NET和更广软件板块维持建设性时，才值得使用。",
+        "relatedTickers": "FSLY, NET, IGV"
+      },
+      {
+        "date": "2026-08-12 after U.S. close",
+        "event": "EN: IonQ Q2 2026 earnings window\n中文：IonQ 2026年第二季度财报窗口",
+        "watch": "EN: Bookings, customer mix, cash runway, and any raised commercialization commentary.\n中文：关注订单、客户结构、现金续航，以及是否有上调商业化评论。",
+        "relatedTickers": "IONQ, RGTI, QBTS, IWM"
+      }
+    ],
+    "performanceTracker": [
+      {
+        "date": "2026-08-07",
+        "ticker": "DIS",
+        "status": "hit",
+        "result": "EN: The prior Pre-Catalyst Watchlist caught a real earnings winner. Disney rose 2.9% Thursday after stronger earnings and guidance commentary.\n中文：此前的提前催化预警抓到了真实的财报赢家。Disney在更强的业绩和指引评论后，周四上涨2.9%。",
+        "lesson": "EN: High-quality consumer/IP stories can still work when the report confirms, but after the first gap they usually downgrade from early to wait for pullback.\n中文：高质量消费/IP故事在财报确认后仍然有效，但第一波跳空之后，设置通常会从early降级到wait for pullback。"
+      },
+      {
+        "date": "2026-08-07",
+        "ticker": "UBER",
+        "status": "miss",
+        "result": "EN: The event was correctly flagged, but the direction did not pay. Uber fell about 6% on Wednesday after guidance disappointed despite solid underlying demand.\n中文：事件本身被正确提前标记，但方向没有兑现。尽管底层需求不差，Uber仍在指引令人失望后于周三下跌约6%。",
+        "lesson": "EN: Good operating metrics do not rescue a setup if forward commentary disappoints and the first reaction breaks.\n中文：若前瞻评论令人失望且第一反应失守，再好的经营指标也救不了设置。"
+      },
+      {
+        "date": "2026-08-07",
+        "ticker": "LLY",
+        "status": "hit",
+        "result": "EN: Lilly followed through after earnings and gained 1.9% Thursday, confirming that defensive growth still had buyers.\n中文：Lilly在财报后继续走强，周四上涨1.9%，确认了防御型成长仍有买盘。",
+        "lesson": "EN: In uncertain macro tapes, green-risk healthcare can be more actionable than crowded software momentum.\n中文：在宏观不确定的盘面里，绿色风险的医疗保健往往比拥挤的软件动量更可执行。"
+      },
+      {
+        "date": "2026-08-07",
+        "ticker": "APP",
+        "status": "miss",
+        "result": "EN: AppLovin turned into a failed post-earnings tape and fell 18.6% Thursday. A bullish follow-through thesis would have been wrong.\n中文：AppLovin演变成财报后失败盘面，周四下跌18.6%；若坚持看多延续，就是错误判断。",
+        "lesson": "EN: When a crowded winner misses the market's quality bar, treat it as a short or avoid-chase candidate, not a reflex dip buy.\n中文：当一只拥挤赢家达不到市场对质量的要求时，应把它视为短线空头或避免追高对象，而不是条件反射式抄底。"
+      },
+      {
+        "date": "2026-08-07",
+        "ticker": "ABNB",
+        "status": "open",
+        "result": "EN: The earlier watch on travel earnings stayed relevant. Airbnb beat on revenue and traded about 11% higher after hours on Thursday, but Friday's regular session will decide whether that becomes a clean hit or an extended gap.\n中文：此前对出行财报的观察仍然有效。Airbnb周四在营收超预期后盘后上涨约11%，但周五正股时段将决定这究竟是干净命中，还是已经过度伸展的跳空。",
+        "lesson": "EN: The screen found the right event; now the discipline is to separate correct discovery from correct entry timing.\n中文：筛选找到了正确事件；现在更重要的是把“发现正确”与“入场正确”分开。"
+      },
+      {
+        "date": "2026-08-07",
+        "ticker": "screening",
+        "status": "hit",
+        "result": "EN: The prior Pre-Catalyst Watchlist identified several real movers, but the best outcomes came from scheduled earnings with verified numbers, not from vague sympathy trades.\n中文：此前的提前催化预警确实抓到数只真实异动股，但最好的结果来自有已验证数据的计划内财报，而不是模糊的情绪联动。",
+        "lesson": "EN: Tighten the screen further toward liquid earnings, FDA, or contract catalysts, and downgrade headline-only high-beta names faster after the move starts.\n中文：后续应进一步把筛选聚焦到高流动性的财报、FDA或合同催化，并在行情启动后更快下调只靠headline的高beta名字。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "EN: Cybersecurity / Cloud Infrastructure\n中文：网络安全 / 云基础设施",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: NET's strong quarter and broader enterprise software earnings differentiation.\n中文：NET的强劲季度表现，以及企业软件财报分化。",
+        "watch": "EN: NET and software peers must hold the first pullback; if they only gap and fade, treat the sector as in progress but not clean.\n中文：NET及软件同类必须守住第一次回踩；若只会跳空后回落，就应视为仍在进行中、但不够干净。",
+        "risk": "EN: Rising yields and payroll shock can quickly hit duration-sensitive software multiples.\n中文：收益率上行和非农冲击会迅速打击久期敏感的软件估值。"
+      },
+      {
+        "name": "EN: Travel / Consumer Platforms\n中文：出行 / 消费平台",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: ABNB and DIS delivered positive earnings data, while UBER showed guidance sensitivity.\n中文：ABNB和DIS交出了正面财报数据，而UBER则暴露出市场对指引的敏感性。",
+        "watch": "EN: Use ABNB or DIS only with post-open confirmation; avoid assuming all travel names should move together.\n中文：ABNB或DIS都只能在开盘后确认时使用；不要默认所有出行股都会一起走强。",
+        "risk": "EN: Oil strength, weaker consumer tone, and failed first-hour gaps.\n中文：油价走强、消费者语气转弱，以及首小时跳空失败。"
+      },
+      {
+        "name": "EN: Healthcare / Biopharma / GLP-1\n中文：医疗保健 / 生物医药 / GLP-1",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "EN: Lilly earnings follow-through and Moderna's FDA flu-shot approval.\n中文：Lilly财报后的延续，以及Moderna流感疫苗获得FDA批准。",
+        "watch": "EN: XLV and MRNA are cleaner if the tape rotates toward defense or lower-beta growth.\n中文：若盘面转向防御或低beta成长，XLV和MRNA会是更干净的路径。",
+        "risk": "EN: Good biotech headlines can still fade fast if the market chooses macro de-risking over catalyst quality.\n中文：若市场选择宏观去风险而非奖励催化质量，生物科技的好消息也可能很快回吐。"
+      },
+      {
+        "name": "EN: AI Networking / Semis\n中文：AI网络 / 半导体",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: ANET remains a fresh infrastructure winner while broader semiconductor momentum is digesting rates.\n中文：ANET仍是新鲜的基础设施赢家，而更广半导体动量正在消化利率压力。",
+        "watch": "EN: Favor ANET and SMH only if yields calm and semis stop slipping versus QQQ.\n中文：只有在收益率冷静下来、且半导体不再相对QQQ继续走弱时，才偏向ANET和SMH。",
+        "risk": "EN: A hotter payrolls print or renewed rate spike can stall the whole lane.\n中文：若非农偏热或收益率再次飙升，整条主线都可能熄火。"
+      },
+      {
+        "name": "EN: Software Re-Rating / Crowded Winners\n中文：软件重定价 / 拥挤赢家",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "EN: APP and DDOG showed that crowded software can be punished sharply even when the broader market is not crashing.\n中文：APP和DDOG说明，即使大盘没有崩盘，拥挤软件股也可能被剧烈惩罚。",
+        "watch": "EN: Failed bounces below VWAP matter more here than trying to catch falling knives.\n中文：在这里，更重要的是观察VWAP下方的反弹失败，而不是去接飞刀。",
+        "risk": "EN: Crowded shorts can snap back violently if rates cool and software breadth improves.\n中文：若收益率降温且软件宽度改善，拥挤空头也可能剧烈反抽。"
+      },
+      {
+        "name": "EN: Policy-Sensitive Clean Energy / Solar Imports\n中文：政策敏感型清洁能源 / 太阳能进口",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Higher U.S. solar import tariffs and ongoing Washington trade restrictions.\n中文：美国更高的太阳能进口关税，以及华盛顿持续的贸易限制。",
+        "watch": "EN: Avoid assuming tariff headlines help all domestic names; near-term tape risk is still cleaner in liquid index and software names.\n中文：不要默认关税headline会利好所有本土名字；短线盘面风险仍然更适合放在高流动性指数和软件股上处理。",
+        "risk": "EN: Policy headlines can reverse quickly and produce whipsaws in both domestic and importer-exposed names.\n中文：政策headline可能很快反向，给本土股和进口暴露股同时制造来回甩动。"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "ANET",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only after the first 30-60 minutes if ANET reclaims VWAP and the opening range with semis and networking peers firm; use roughly 3%-5% stock exposure and avoid chasing any immediate pop.\n中文：只有在开盘后30-60分钟，ANET收复VWAP和开盘区间，且半导体与网络同类保持强势时，才视为可执行；正股仓位大致3%-5%，避免追任何立即拉升。",
+        "suggestedProfitTake": "EN: Take partials into a 5%-8% extension from a confirmed regular-session entry, or shift to wait-for-pullback logic if it already opens beyond expected range; a clean loss of VWAP invalidates.\n中文：从正股时段确认入场算起，若延伸5%-8%可分批止盈；若开盘已超出预期波动范围，就改用等待回踩逻辑；干净跌破VWAP则失效。",
+        "type": "EN: AI networking / cloud infrastructure\n中文：AI网络 / 云基础设施",
+        "catalyst": "EN: Post-earnings infrastructure winner still digesting after the earlier beat-and-raise reaction.\n中文：财报后基础设施赢家，仍在消化此前业绩和指引双超预期后的反应。",
+        "why": "EN Fundamentals / 中文基本面: Recent reporting confirmed revenue, EPS, and guidance strength tied to enterprise and hyperscaler AI demand. EN Technicals / 中文技术面: After the initial earnings burst, the cleaner trigger is a regular-session VWAP reclaim or opening-range hold; exact short-term moving-average values are unavailable in reviewed public premarket sources. EN News/Catalyst / 中文消息面: This remains a verified earnings-driven setup, not a rumor tape. EN Volume/Liquidity / 中文成交量/流动性: Liquidity and options depth are strong, but after-hours prints alone are not enough.\n中文：基本面：近期报道确认，营收、EPS和指引均受企业与超大云厂商AI需求支撑。技术面：在财报后第一波冲高之后，更干净的触发是正股时段收复VWAP或守住开盘区间；已审阅的公开盘前来源未给出精确短期均线数值。消息面：这仍是已验证的财报驱动设置，而不是传闻盘。成交量/流动性：流动性和期权深度都很好，但盘后打印本身并不足够。",
+        "risk": "EN: If yields keep climbing or semis continue to lag, ANET can stall even with a solid business story.\n中文：若收益率继续上行或半导体继续掉队，即使业务逻辑扎实，ANET也可能失速。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The stock gave back some momentum after its earlier earnings surge and now needs fresh regular-session confirmation.\n中文：该股在此前财报大涨后回吐了部分动量，现在需要新的正股时段确认。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "DIS",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Wait for a pullback hold or a first 30-60 minute reclaim after any payroll-driven volatility; use roughly 3%-5% stock exposure and avoid buying a stretched gap.\n中文：若受到非农波动影响，先等待回踩守住或首30-60分钟后的收复；正股仓位大致3%-5%，避免去买已经拉开的跳空。",
+        "suggestedProfitTake": "EN: Scale partials into follow-through above the post-earnings range, but if the stock opens already extended, reduce size and treat it as a wait-for-pullback setup; a failure back through VWAP cancels the entry.\n中文：若股价向上延续并突破财报后区间，可分批止盈；若开盘已经明显伸展，则减小仓位并按等待回踩处理；若重新跌回VWAP下方则取消。",
+        "type": "EN: Media / parks / streaming\n中文：媒体 / 乐园 / 流媒体",
+        "catalyst": "EN: Disney posted stronger earnings and guidance commentary, with the stock up 2.9% Thursday.\n中文：Disney公布了更强的业绩与指引评论，股价周四上涨2.9%。",
+        "why": "EN Fundamentals / 中文基本面: Disney's latest quarter improved confidence in its parks and streaming mix, and the positive earnings reaction matters more than narrative alone. EN Technicals / 中文技术面: The stock is coming off a confirmed earnings breakout but is no longer early; the better trigger is a pullback hold or opening-range stabilization. EN News/Catalyst / 中文消息面: The catalyst is verified company earnings, not rumor. EN Volume/Liquidity / 中文成交量/流动性: Volume was above normal in market reporting and liquidity is strong enough for small-capital execution.\n中文：基本面：Disney最新季度提升了市场对其乐园与流媒体结构的信心，积极的财报反应比单纯叙事更重要。技术面：该股来自已确认的财报突破，但已不算早期；更好的触发是回踩守住或开盘区间企稳。消息面：催化来自已验证的公司财报，而非传闻。成交量/流动性：市场报道显示成交量高于常态，流动性足够支持小资金执行。",
+        "risk": "EN: Consumer names can still fade if oil and yields both push higher or if the post-earnings gap gets crowded.\n中文：若油价和收益率同时继续走高，或财报后跳空过于拥挤，消费股仍可能回落。",
+        "convictionScore": 4,
+        "timeframe": "swing",
+        "recentPerformance": "EN: Up 2.9% Thursday after earnings.\n中文：财报后周四上涨2.9%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "UBER",
+        "direction": "short",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Short bias only if UBER fails a rebound below VWAP after the first 30-60 minutes; keep stock risk around 2%-4% and do not press if the broader tape turns risk-on.\n中文：只有在开盘后30-60分钟，UBER在VWAP下方反弹失败时，才保留偏空思路；股票风险大致2%-4%，若大盘重新转强就不要硬做。",
+        "suggestedProfitTake": "EN: Cover partials into a flush toward the post-guidance reaction low, and if the stock reclaims VWAP with market breadth improving, step aside rather than overstay.\n中文：若股价回落至指引反应低点附近，可分批回补；若股价收复VWAP且市场宽度改善，应退出而不是恋战。",
+        "type": "EN: Mobility / delivery platform\n中文：出行 / 外卖平台",
+        "catalyst": "EN: The company reported solid metrics but the stock fell about 6% on guidance disappointment.\n中文：公司经营指标不差，但由于指引令人失望，股价下跌约6%。",
+        "why": "EN Fundamentals / 中文基本面: Underlying demand and platform scale remain real, but the market is signaling that forward expectations mattered more than backward-looking metrics. EN Technicals / 中文技术面: The setup is now a failed-event chart until it can reclaim VWAP and the post-earnings range; exact short-term moving-average values are unavailable in reviewed public premarket sources. EN News/Catalyst / 中文消息面: The catalyst is verified earnings and guidance reaction. EN Volume/Liquidity / 中文成交量/流动性: Uber remains highly liquid with active options, which makes failed-bounce logic executable.\n中文：基本面：底层需求和平台规模仍然真实存在，但市场正在表明，前瞻预期比过去式指标更重要。技术面：在收复VWAP和财报后区间之前，这仍是失败事件图形；已审阅的公开盘前来源未给出精确短期均线数值。消息面：催化来自已验证的财报与指引反应。成交量/流动性：Uber流动性很高，期权也活跃，因此反弹失败逻辑较可执行。",
+        "risk": "EN: A cooling-yield environment or consumer internet bid can reverse the bearish setup quickly.\n中文：若收益率降温或消费互联网板块重新获得买盘，偏空设置也可能很快被扭转。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Fell about 6% on the initial post-earnings reaction.\n中文：财报后第一反应下跌约6%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "LLY",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Actionable only on a first 30-60 minute hold above VWAP or a pullback that holds with XLV firm; use roughly 4%-6% stock exposure, or 6%-10% via XLV if the single name feels too extended.\n中文：只有在开盘后30-60分钟站稳VWAP上方，或回踩守住且XLV保持强势时，才视为可执行；正股仓位大致4%-6%，若单股过于伸展，可改用6%-10%的XLV。",
+        "suggestedProfitTake": "EN: Take partials if it extends too far from the post-earnings base, and if it already opens beyond expected range switch to XLV or wait-for-pullback logic.\n中文：若股价远离财报后平台过多，可分批止盈；若开盘已明显超出预期波动范围，就切换到XLV或等待回踩逻辑。",
+        "type": "EN: Large-cap pharma / obesity-drug leader\n中文：大型制药 / 减重药龙头",
+        "catalyst": "EN: Lilly followed through after earnings and gained 1.9% Thursday.\n中文：Lilly在财报后继续走强，周四上涨1.9%。",
+        "why": "EN Fundamentals / 中文基本面: Lilly still carries one of the strongest large-cap healthcare growth profiles, supported by obesity-drug demand and earnings quality. EN Technicals / 中文技术面: The chart remains constructive, but a good company is not the same as a good gap chase; better entries come from a pullback hold or calm post-open strength. EN News/Catalyst / 中文消息面: This is a verified earnings-quality and healthcare-leadership story. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is deep, options are active, and XLV provides a lower-beta substitute if the single name becomes too stretched.\n中文：基本面：Lilly仍具备大型医疗股中最强之一的成长质量，减重药需求和财报质量提供支持。技术面：图形仍具建设性，但好公司不等于好追高；更好的入场来自回踩守住或开盘后平稳走强。消息面：这是已验证的财报质量与医疗龙头故事。成交量/流动性：流动性深、期权活跃，而且若单股过度伸展，XLV可以作为更低beta替代。",
+        "risk": "EN: Expectations remain high, so even good data can stall if the market rotates away from healthcare.\n中文：市场预期仍然很高，因此即使数据不错，若市场从医疗板块撤出，股价也可能停滞。",
+        "convictionScore": 4,
+        "timeframe": "swing",
+        "recentPerformance": "EN: Up 1.9% Thursday.\n中文：周四上涨1.9%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "ABNB",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Fresh setup only if Friday's regular session holds the opening range or reclaims VWAP after the first 30-60 minutes; use roughly 3%-5% stock exposure and avoid chasing a double-digit opening gap.\n中文：只有在周五正股时段于首30-60分钟后守住开盘区间或收复VWAP时，才算新鲜设置；正股仓位大致3%-5%，避免追两位数高开。",
+        "suggestedProfitTake": "EN: Take partials into a clean second leg only if relative volume stays strong; if the stock opens far beyond expected range, treat it as target exceeded and wait for a reset.\n中文：只有在相对放量持续强劲时，才对第二波上冲分批止盈；若开盘已远超预期波动范围，就把它视为target exceeded并等待重置。",
+        "type": "EN: Travel platform / online marketplace\n中文：出行平台 / 在线市场",
+        "catalyst": "EN: Airbnb beat on revenue and traded about 11% higher after hours Thursday.\n中文：Airbnb营收超预期，周四盘后上涨约11%。",
+        "why": "EN Fundamentals / 中文基本面: Revenue beat supported the thesis that travel demand remains resilient enough to matter, though exact updated margin and cash-flow details require the full shareholder materials. EN Technicals / 中文技术面: The first reaction is strong but still lives in after-hours territory, so the real test is Friday's regular-session VWAP and opening range. EN News/Catalyst / 中文消息面: This is a verified earnings catalyst. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is strong, but after-hours moves can exaggerate the true entry quality.\n中文：基本面：营收超预期支持了“出行需求仍具韧性”的逻辑，但更新后的利润率和现金流细节仍需完整股东材料确认。技术面：第一反应很强，但仍主要发生在盘后，因此真正测试要看周五正股时段的VWAP和开盘区间。消息面：这是已验证的财报催化。成交量/流动性：流动性较好，但盘后走势可能夸大真实入场质量。",
+        "risk": "EN: Travel names can reverse hard if oil, rates, or the consumer read-through deteriorates.\n中文：若油价、收益率或消费者映射恶化，出行股可能快速反转。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Up about 11% after hours Thursday following earnings.\n中文：财报后周四盘后上涨约11%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "NET",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only after the first 30-60 minutes if NET holds above VWAP or confirms an opening-range breakout with cloud peers supportive; use roughly 3%-5% stock exposure.\n中文：只有在开盘后30-60分钟，NET守在VWAP上方，或在云软件同类配合下确认开盘区间突破时，才视为可执行；正股仓位大致3%-5%。",
+        "suggestedProfitTake": "EN: Take partials into continued strength once the first regular-session extension reaches a stretched state, and if the name gaps too far at the open downgrade it to wait-for-pullback.\n中文：若正股时段第一段延伸进入明显拉开状态，可分批止盈；若开盘跳空过大，则降级为等待回踩。",
+        "type": "EN: Cloud security / networking\n中文：云安全 / 网络",
+        "catalyst": "EN: Cloudflare beat estimates and guided higher, with shares up roughly 15% after hours.\n中文：Cloudflare业绩超预期并上调指引，股价盘后上涨约15%。",
+        "why": "EN Fundamentals / 中文基本面: The quarter improved confidence in enterprise demand, margins, and the company's ability to outgrow weaker software peers. EN Technicals / 中文技术面: The after-hours gap is strong, but the clean setup still requires Friday regular-session confirmation; exact 5/10/20/50-day values are unavailable in reviewed public premarket sources. EN News/Catalyst / 中文消息面: This is a verified earnings and guidance catalyst. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is high enough for execution, and options interest is meaningful, but gap risk is also high.\n中文：基本面：该季度提升了市场对企业需求、利润率以及公司相对弱软件同类实现更快增长能力的信心。技术面：盘后跳空很强，但更干净的设置仍需周五正股时段确认；已审阅的公开盘前来源未给出精确5/10/20/50日均线。消息面：这是已验证的财报与指引催化。成交量/流动性：流动性足以执行，期权兴趣也较明显，但跳空风险同样很高。",
+        "risk": "EN: Payroll-driven rate spikes can punish software duration even in a high-quality tape.\n中文：即使基本面优秀，非农引发的收益率上冲也可能打击软件久期。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Up about 15% after hours Thursday on earnings.\n中文：财报后周四盘后上涨约15%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "TEAM",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for pullback or secondary-base logic only; if Friday opens with another large gap, keep any stock exposure to roughly 1%-3% max or pass entirely.\n中文：只接受等待回踩或二次平台逻辑；若周五再度大幅高开，任何正股仓位最多控制在大致1%-3%，或者干脆放弃。",
+        "suggestedProfitTake": "EN: If a calmer entry appears later, take partials quickly into a renewed squeeze because the stock may already have exceeded its first easy target.\n中文：若稍后出现更平稳的入场点，一旦再次挤升就应较快分批止盈，因为这只股票可能已经超过第一阶段的容易目标。",
+        "type": "EN: Collaboration software\n中文：协作软件",
+        "catalyst": "EN: Atlassian delivered a strong earnings reaction with shares up roughly 35% after hours.\n中文：Atlassian给出了强烈的财报反应，股价盘后上涨约35%。",
+        "why": "EN Fundamentals / 中文基本面: The report reinforced the company's enterprise software durability, but exact updated revenue-growth and margin lines require the full release for precision. EN Technicals / 中文技术面: A 30%+ after-hours jump is usually not an early setup; it is extended unless it builds a secondary range. EN News/Catalyst / 中文消息面: The catalyst is verified earnings strength. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is good, but the size of the overnight move sharply lowers chase quality.\n中文：基本面：这份财报强化了公司企业软件韧性的判断，但更新后的营收增长和利润率细节仍需完整财报核对。技术面：30%以上的盘后涨幅通常不是早期设置；除非形成二次区间，否则它属于extended。消息面：催化来自已验证的财报强势。成交量/流动性：流动性不错，但隔夜波动幅度过大，明显降低了追价质量。",
+        "risk": "EN: Massive earnings gaps often fade once the first wave of enthusiasm passes.\n中文：巨大的财报跳空在第一波兴奋过去后，经常出现回吐。",
+        "convictionScore": 3,
+        "timeframe": "watch",
+        "recentPerformance": "EN: Up about 35% after hours Thursday.\n中文：周四盘后上涨约35%。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "MRNA",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Actionable only if MRNA holds the FDA-approval pop in the regular session with biotech breadth supportive; use roughly 1%-3% stock exposure and avoid chasing a thin premarket spike.\n中文：只有在正股时段MRNA守住FDA批准带来的上冲，且生物科技板块宽度配合时，才视为可执行；正股仓位大致1%-3%，避免追薄量盘前尖刺。",
+        "suggestedProfitTake": "EN: Take partials quickly into continued biotech momentum, and if the approval move fades back below VWAP treat the setup as invalidated.\n中文：若生物科技动量继续上冲，应较快分批止盈；若批准带来的涨势回落至VWAP下方，则视为失效。",
+        "type": "EN: Biotech / vaccines\n中文：生物科技 / 疫苗",
+        "catalyst": "EN: Moderna won FDA approval for its flu shot and the stock rose in premarket trading.\n中文：Moderna获得FDA流感疫苗批准，股价在盘前走高。",
+        "why": "EN Fundamentals / 中文基本面: The approval improves the commercial case for Moderna's respiratory franchise, though durability still depends on execution and demand. EN Technicals / 中文技术面: Biotech event gaps are often unstable, so the real trigger is a regular-session hold above VWAP with broader healthcare support. EN News/Catalyst / 中文消息面: This is a verified FDA catalyst, not a rumor. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is solid, but biotech reactions can be sharp and reversible.\n中文：基本面：这一批准改善了Moderna呼吸道产品线的商业化前景，但持续性仍取决于执行和需求。技术面：生物科技事件跳空往往不稳定，因此真正触发要看正股时段在更广医疗板块支持下守住VWAP。消息面：这是已验证的FDA催化，而非传闻。成交量/流动性：流动性尚可，但生物科技反应往往剧烈且可逆。",
+        "risk": "EN: Biotech event moves can reverse quickly if traders sell the news.\n中文：若交易者选择“利好兑现”，生物科技事件股可能迅速反转。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Rose in premarket trading after the FDA approval headline.\n中文：在FDA批准headline后于盘前上涨。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "APP",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Short bias only after the first 30-60 minutes if APP fails to reclaim VWAP and relative volume stays heavy on bounces; use roughly 1%-2% stock risk and avoid chasing a capitulation flush.\n中文：只有在开盘后30-60分钟，APP无法收复VWAP，且反弹时相对放量仍然偏重时，才保留偏空思路；股票风险大致1%-2%，避免追杀恐慌性下砸。",
+        "suggestedProfitTake": "EN: Cover partials into a sharp downside extension, and if the stock builds a higher low with breadth improving, stop pressing the short.\n中文：若股价出现急速下探延伸，可分批回补；若股价构筑更高低点且市场宽度改善，就不要继续压空。",
+        "type": "EN: Ad tech / software monetization\n中文：广告科技 / 软件变现",
+        "catalyst": "EN: AppLovin fell 18.6% Thursday after its earnings reaction disappointed the market.\n中文：AppLovin在财报反应令市场失望后，周四下跌18.6%。",
+        "why": "EN Fundamentals / 中文基本面: The company still has a real business, but the market clearly marked down the quarter relative to crowded expectations; precise updated valuation and margin lines require the full filing package. EN Technicals / 中文技术面: This is a broken-event chart unless it reclaims VWAP and starts building a base. EN News/Catalyst / 中文消息面: The catalyst is a verified post-earnings disappointment. EN Volume/Liquidity / 中文成交量/流动性: Trading volume and options activity are strong, which supports tactical setups but also increases squeeze risk.\n中文：基本面：公司业务并非虚构，但市场显然认为该季度未达到拥挤预期；更精确的估值和利润率更新仍需完整披露文件确认。技术面：在重新收复VWAP并构筑平台前，这仍是破位事件图形。消息面：催化来自已验证的财报后失望反应。成交量/流动性：成交量和期权活跃度都很高，既支持战术设置，也提高挤压风险。",
+        "risk": "EN: High-beta software shorts can squeeze violently if rates cool and sector breadth improves.\n中文：若收益率降温且板块宽度改善，高beta软件空头也可能被猛烈挤压。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Down 18.6% Thursday.\n中文：周四下跌18.6%。",
+        "setupStatus": "in progress"
+      }
+    ],
+    "smallCaps": [
+      {
+        "ticker": "IONQ",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider a roughly 1%-2% stock probe if IONQ prints strong regular-session volume, holds VWAP, and the quantum group confirms; otherwise keep it watch-only into the August 12 earnings window.\n中文：只有在IONQ于正股时段放出强相对成交量、守住VWAP，且量子板块共振时，才考虑大致1%-2%的试仓；否则在8月12日财报窗口前只观察。",
+        "suggestedProfitTake": "EN: Take partials quickly on any 5%-10% intraday extension because pre-earnings speculation can mean fast reversals; a clean loss of VWAP invalidates.\n中文：对任何5%-10%的日内延伸都应较快分批止盈，因为财报前投机会迅速反转；干净跌破VWAP则失效。",
+        "type": "EN: Quantum computing\n中文：量子计算",
+        "catalyst": "EN: Near-term Q2 earnings window on August 12 and continued contract sensitivity.\n中文：8月12日临近Q2财报窗口，以及对合同消息的持续敏感性。",
+        "why": "EN Fundamentals / 中文基本面: Commercial traction remains early, and cash-runway durability matters as much as growth rhetoric; exact updated quarter metrics are still pending. EN Technicals / 中文技术面: This only becomes actionable on real volume and VWAP support because pre-earnings quantum moves are often noisy. EN News/Catalyst / 中文消息面: The near catalyst is a verified earnings date rather than rumor. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is acceptable for a speculative name, but spreads and volatility are still much worse than in large caps.\n中文：基本面：商业化仍处早期，现金续航和增长叙事同样重要；更新后的季度数据仍待披露。技术面：只有在真实放量和VWAP支撑下才具备可执行性，因为财报前量子股波动通常很噪。消息面：近端催化是已验证的财报日期，而非传闻。成交量/流动性：作为投机标的，流动性尚可，但价差和波动仍明显差于大型股。",
+        "risk": "EN: Thematic momentum can disappear fast if IWM lags or the report setup gets crowded too early.\n中文：若IWM掉队，或财报前设置过早拥挤，主题动量会很快消失。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The name stayed on the speculative radar ahead of its earnings window, but clean price confirmation is still required.\n中文：该股在财报窗口前仍处于投机雷达内，但仍需要干净的价格确认。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SITM",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for the first 30-60 minutes and require an opening-range hold or VWAP reclaim after Thursday's earnings spike; use roughly 1%-3% stock exposure only.\n中文：在周四财报暴涨后，先等开盘后30-60分钟，并要求守住开盘区间或收复VWAP；正股仓位仅大致1%-3%。",
+        "suggestedProfitTake": "EN: Take partials quickly if it extends again because the stock already had a very large post-report move; if it cannot hold the first pullback, step aside.\n中文：若再次延伸，应较快分批止盈，因为该股财报后的第一波已很大；若守不住第一次回踩，就退出。",
+        "type": "EN: Timing chips / semiconductors\n中文：时序芯片 / 半导体",
+        "catalyst": "EN: SiTime surged more than 20% Thursday after earnings, with IBD highlighting a 398% earnings jump.\n中文：SiTime在财报后周四上涨逾20%，IBD强调其盈利增长398%。",
+        "why": "EN Fundamentals / 中文基本面: The reported earnings acceleration is real, but it also raises the bar for the next leg. EN Technicals / 中文技术面: A 20%+ post-earnings move makes the setup extended unless it forms a calmer secondary pattern. EN News/Catalyst / 中文消息面: This is a verified earnings-momentum catalyst. EN Volume/Liquidity / 中文成交量/流动性: Liquidity improved on the move, but it remains less forgiving than mega-cap semis.\n中文：基本面：已报道的盈利加速是真实的，但也抬高了下一段上涨的门槛。技术面：20%以上的财报后涨幅意味着该设置在形成更平稳的二次形态前都属于extended。消息面：这是已验证的财报动量催化。成交量/流动性：上涨过程中流动性改善，但容错率仍不如超大盘半导体。",
+        "risk": "EN: Extended semiconductor winners are vulnerable to fast give-backs if QQQ weakens.\n中文：若QQQ转弱，这类已伸展的半导体赢家很容易快速回吐。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Up more than 20% Thursday after earnings.\n中文：财报后周四上涨逾20%。",
+        "setupStatus": "extended"
+      },
+      {
+        "ticker": "RGTI",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider a roughly 1%-2% stock probe if RGTI reclaims VWAP with real regular-session volume and quantum peers confirm; otherwise keep it on the watchlist.\n中文：只有在RGTI于正股时段真实放量收复VWAP，且量子同类确认时，才考虑大致1%-2%的试仓；否则继续放在观察名单。",
+        "suggestedProfitTake": "EN: Take partials fast on momentum extension because these quantum names can mean-revert hard; if it fails the opening range, do not force it.\n中文：若动量继续延伸，应快速分批止盈，因为这类量子股均值回归很快；若失守开盘区间，就不要强行参与。",
+        "type": "EN: Quantum hardware\n中文：量子硬件",
+        "catalyst": "EN: The next catalyst is its August 7 premarket earnings report.\n中文：下一催化是其8月7日盘前财报。",
+        "why": "EN Fundamentals / 中文基本面: Quantum-commercialization fundamentals remain early-stage and fragile, so balance-sheet and runway concerns matter as much as bookings. EN Technicals / 中文技术面: The chart only becomes actionable on regular-session confirmation because after-hours and premarket moves in this group are often unreliable. EN News/Catalyst / 中文消息面: The catalyst is a verified earnings date. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is tradable but still thin enough to create large intraday slippage.\n中文：基本面：量子商业化基本面仍处早期且脆弱，因此资产负债表与现金续航的重要性不亚于订单。技术面：只有在正股时段确认后图形才具备可执行性，因为这个板块的盘后和盘前波动通常不可靠。消息面：催化是已验证的财报日期。成交量/流动性：流动性可交易，但仍然足够薄，容易产生较大日内滑点。",
+        "risk": "EN: This group is highly vulnerable to failed first moves and rumor-like volatility.\n中文：这一板块极易出现第一波失败和类似传闻盘的波动。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The stock was down in the after-hours session ahead of its report, reinforcing the need for confirmation.\n中文：该股在财报前盘后走弱，进一步强化了必须确认的纪律。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "FSLY",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Wait for first 30-60 minute confirmation or keep it watch-only until broader software and edge-cloud sentiment improve; use roughly 1%-2% stock exposure at most.\n中文：先等开盘后30-60分钟确认，或在更广软件与边缘云情绪改善前只观察；股票仓位最多大致1%-2%。",
+        "suggestedProfitTake": "EN: Take partials on any sharp squeeze and do not expect smooth trend persistence; if it loses VWAP quickly, stand aside.\n中文：若出现快速挤空，应分批止盈，不要期待平滑趋势延续；若迅速跌破VWAP，就退出。",
+        "type": "EN: Edge cloud / CDN\n中文：边缘云 / CDN",
+        "catalyst": "EN: Near-term investor forum and sympathy read-through from Cloudflare's stronger quarter.\n中文：近端投资者活动，以及Cloudflare强劲季度带来的同业映射。",
+        "why": "EN Fundamentals / 中文基本面: Fastly remains a turnaround-style software story, so evidence quality is weaker than in Cloudflare and exact updated metrics are unavailable in reviewed public sources. EN Technicals / 中文技术面: The better setup is a sympathy move that survives the open, not a blind premarket chase. EN News/Catalyst / 中文消息面: The catalyst is a mix of scheduled company visibility and peer read-through, not a verified beat of its own today. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is good enough to trade, but still volatile enough to demand smaller sizing.\n中文：基本面：Fastly仍更像转型型软件故事，因此证据质量弱于Cloudflare，且已审阅公开来源中没有其最新精确指标。技术面：更好的设置是同业映射在开盘后仍能存活，而不是盲目追盘前。消息面：催化来自计划内公司曝光和同业映射，而不是今天自身已验证的大超预期。成交量/流动性：流动性足够交易，但波动仍大，需要更小仓位。",
+        "risk": "EN: Sympathy trades fail quickly when the sector bid narrows.\n中文：当板块买盘收窄时，同业映射交易会很快失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The stock remained a high-beta software watch rather than a clean fresh catalyst today.\n中文：该股今天更像高beta软件观察标的，而不是干净的新鲜催化。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "AEHR",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only after the first 30-60 minutes if AEHR shows relative-volume confirmation and a VWAP reclaim; use roughly 2%-3% stock exposure, not a blind momentum entry.\n中文：只有在开盘后30-60分钟，AEHR出现相对放量确认并收复VWAP时，才算可执行；正股仓位大致2%-3%，不是盲目动量追击。",
+        "suggestedProfitTake": "EN: Take partials into a clean second leg and avoid overstaying because semi-cap names can reverse once the first catalyst burst is priced in.\n中文：若出现干净第二波，可分批止盈；不要久留，因为半导体设备股在第一波催化被定价后容易反转。",
+        "type": "EN: Semiconductor test equipment\n中文：半导体测试设备",
+        "catalyst": "EN: The company recently reported a record backlog, which keeps the fundamental catalyst alive if the chart confirms again.\n中文：公司近期公布了创纪录积压订单，若图形再次确认，这一基本面催化仍然有效。",
+        "why": "EN Fundamentals / 中文基本面: Record backlog improves the visibility argument, but updated revenue and margin conversion still need continued execution proof. EN Technicals / 中文技术面: Because the earlier news is no longer fresh, the next valid trigger must come from volume and VWAP support, not from memory of the headline. EN News/Catalyst / 中文消息面: The catalyst quality is better than a rumor because backlog is a concrete operating metric. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is acceptable but materially thinner than large-cap semis, so sizing must stay smaller.\n中文：基本面：创纪录积压订单改善了业绩可见性，但营收和利润率兑现仍需后续执行证明。技术面：由于此前消息已不再新鲜，下一个有效触发必须来自成交量和VWAP支撑，而不是仅靠headline记忆。消息面：与传闻不同，积压订单是具体经营指标，因此催化质量更高。成交量/流动性：流动性尚可，但明显薄于大型半导体股，因此仓位必须更小。",
+        "risk": "EN: Without renewed volume, the old catalyst can fade into a dead-money setup.\n中文：若没有新的成交量确认，旧催化可能退化成无效占资设置。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The earlier backlog catalyst kept the stock on watch, but fresh price confirmation is still required.\n中文：此前积压订单催化让该股继续留在观察名单，但仍需要新的价格确认。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SG",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Short bias only if SG fails a rebound below VWAP after the first 30-60 minutes; keep any stock risk to roughly 1%-2% because headline volatility is high.\n中文：只有在开盘后30-60分钟，SG在VWAP下方反弹失败时，才保留偏空思路；股票风险仅大致1%-2%，因为headline波动很大。",
+        "suggestedProfitTake": "EN: Cover partials into any sharp downside extension because restaurant and consumer names can mean-revert quickly after panic drops.\n中文：若出现急速下探延伸，应分批回补，因为餐饮和消费股在恐慌下跌后经常很快均值回归。",
+        "type": "EN: Restaurant / consumer growth\n中文：餐饮 / 消费成长",
+        "catalyst": "EN: Sweetgreen dropped roughly 15% after hours after disappointing results and an E. coli-related sales impact.\n中文：Sweetgreen在业绩失望及大肠杆菌相关销售影响后，盘后下跌约15%。",
+        "why": "EN Fundamentals / 中文基本面: The report weakened confidence in near-term execution, and sales quality matters more than concept narrative in this tape. EN Technicals / 中文技术面: A large after-hours drop creates a broken chart unless it can reclaim VWAP later, which is not the base case. EN News/Catalyst / 中文消息面: The catalyst is verified company results plus a specific operating issue. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is tradable but far less forgiving than mega-cap consumer names.\n中文：基本面：这份财报削弱了市场对近端执行的信心，在当前盘面里，销售质量比概念叙事更重要。技术面：大幅盘后下跌会形成破位图形，除非后续能重新收复VWAP，但这并不是基准情景。消息面：催化来自已验证的公司业绩和具体经营问题。成交量/流动性：流动性可以交易，但容错率远不如超大盘消费股。",
+        "risk": "EN: Very weak earnings names can still squeeze hard if the market decides the miss was one-off.\n中文：若市场认为利空只是一次性问题，极弱财报股也可能剧烈反抽。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Down about 15% after hours Thursday.\n中文：周四盘后下跌约15%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "CART",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if CART confirms its after-hours strength in the regular session with a VWAP hold or opening-range breakout; use roughly 2%-4% stock exposure.\n中文：只有在正股时段CART用VWAP守住或开盘区间突破来确认其盘后强势时，才视为可执行；正股仓位大致2%-4%。",
+        "suggestedProfitTake": "EN: Take partials into a clean continuation move, and if the stock opens excessively far above expected range downgrade it to wait-for-pullback.\n中文：若出现干净的延续上涨，可分批止盈；若开盘远超预期波动范围，则降级为等待回踩。",
+        "type": "EN: Delivery marketplace\n中文：配送平台",
+        "catalyst": "EN: Instacart traded about 9% higher after hours after earnings and raised guidance.\n中文：Instacart在财报并上调指引后，盘后上涨约9%。",
+        "why": "EN Fundamentals / 中文基本面: Raised guidance improves confidence in demand durability and execution, though the company still has to prove sustained profitable growth. EN Technicals / 中文技术面: The better setup is a regular-session hold of the after-hours gap, not a blind chase into the first spike. EN News/Catalyst / 中文消息面: This is a verified earnings and guidance catalyst. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is solid for a smaller-cap platform name, but not as forgiving as UBER or SPY.\n中文：基本面：上调指引提升了市场对需求韧性和执行力的信心，但公司仍需证明持续的盈利性增长。技术面：更好的设置是正股时段守住盘后跳空，而不是盲目追第一波尖刺。消息面：这是已验证的财报与指引催化。成交量/流动性：对于较小市值平台股而言流动性尚可，但容错率不如UBER或SPY。",
+        "risk": "EN: Smaller platform names can gap-and-fade if broad consumer internet appetite weakens.\n中文：若更广的消费互联网风险偏好减弱，较小平台股也可能高开低走。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Up about 9% after hours Thursday.\n中文：周四盘后上涨约9%。",
+        "setupStatus": "in progress"
+      }
+    ],
+    "etfs": [
+      {
+        "ticker": "SPY",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Actionable only after payrolls if SPY holds the first pullback or reclaims VWAP; use roughly 6%-10% ETF exposure and avoid trading the first headline spike.\n中文：只有在非农后SPY守住第一次回踩或收复VWAP时，才视为可执行；ETF仓位大致6%-10%，避免去交易headline后的第一波尖刺。",
+        "suggestedProfitTake": "EN: Take partials into a clean post-payroll extension, and if the move already exhausts in the first hour treat it as a reduced-size day rather than a chase.\n中文：若非农后出现干净延伸，可分批止盈；若第一小时已明显衰竭，就应视为缩小仓位日，而不是追高日。",
+        "type": "EN: Broad U.S. equity ETF\n中文：美股宽基ETF",
+        "catalyst": "EN: Payrolls, yields, and broad market breadth.\n中文：非农、收益率与整体市场宽度。",
+        "why": "EN Fundamentals / 中文基本面: SPY reflects broad corporate earnings and macro expectations rather than a single company narrative. EN Technicals / 中文技术面: The key trigger is post-payroll VWAP behavior and the first pullback hold; major-index reporting still shows the market above important medium-term averages overall. EN News/Catalyst / 中文消息面: Tonight's main catalyst is the July jobs report. EN Volume/Liquidity / 中文成交量/流动性: SPY remains the cleanest high-liquidity execution tool for small capital.\n中文：基本面：SPY反映的是广泛企业盈利与宏观预期，而不是单一公司故事。技术面：关键触发是非农后的VWAP行为和第一次回踩守住；主要指数报道仍显示市场整体位于重要中期均线上方。消息面：今晚最主要催化是7月就业报告。成交量/流动性：SPY仍是小资金最干净的高流动性执行工具。",
+        "risk": "EN: A hot payrolls print can create immediate two-way whipsaw.\n中文：偏热非农可能立即制造双向甩动。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Down 0.4% equivalent with the S&P 500 on Thursday.\n中文：对应标普500周四约下跌0.4%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if QQQ reclaims VWAP after payrolls or holds the first pullback while yields stop rising; use roughly 5%-10% ETF exposure.\n中文：只有在非农后QQQ收复VWAP，或在收益率不再上行时守住第一次回踩，才视为可执行；ETF仓位大致5%-10%。",
+        "suggestedProfitTake": "EN: Scale out into a clean second leg, and if rate pressure returns quickly reduce size instead of forcing tech-beta.\n中文：若出现干净第二波，可分批减仓；若利率压力迅速回归，就减小仓位，而不是强行做科技beta。",
+        "type": "EN: Nasdaq-100 ETF\n中文：纳斯达克100ETF",
+        "catalyst": "EN: Payrolls and the market's response in software, semis, and AI leaders.\n中文：非农，以及软件、半导体和AI龙头的市场反应。",
+        "why": "EN Fundamentals / 中文基本面: QQQ captures the strongest large-cap growth franchises, but valuation sensitivity to yields remains high. EN Technicals / 中文技术面: The trade is about post-payroll VWAP and first-hour structure, not about guessing the headline print. EN News/Catalyst / 中文消息面: Macro plus post-earnings software dispersion is tonight's catalyst mix. EN Volume/Liquidity / 中文成交量/流动性: QQQ is highly liquid and safer for small capital than forcing many single-name earnings bets.\n中文：基本面：QQQ囊括最强的大型成长龙头，但对收益率的估值敏感性仍然很高。技术面：这笔交易关注的是非农后的VWAP和首小时结构，而不是去猜headline本身。消息面：宏观数据加上财报后软件分化构成今晚的催化组合。成交量/流动性：QQQ流动性极高，对小资金而言比强行押注多只个股财报更安全。",
+        "risk": "EN: Rising yields are the cleanest invalidation signal for aggressive QQQ longs.\n中文：收益率继续上行，是激进QQQ多头最干净的失效信号。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: The Nasdaq fell 0.7% Thursday.\n中文：纳指周四下跌0.7%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "IWM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if IWM confirms breadth improvement after payrolls with a VWAP reclaim or opening-range hold; use roughly 4%-8% ETF exposure.\n中文：只有在非农后IWM用收复VWAP或守住开盘区间来确认宽度改善时，才视为可执行；ETF仓位大致4%-8%。",
+        "suggestedProfitTake": "EN: Take partials if breadth broadens cleanly, but if IWM lags SPY and QQQ again, cut exposure quickly.\n中文：若市场宽度干净扩散，可分批止盈；但若IWM再次落后于SPY和QQQ，就应快速减仓。",
+        "type": "EN: Russell 2000 ETF\n中文：罗素2000ETF",
+        "catalyst": "EN: Payrolls and domestic-risk appetite.\n中文：非农与美国本土风险偏好。",
+        "why": "EN Fundamentals / 中文基本面: IWM is less about a single earnings story and more about whether growth and credit conditions support smaller companies. EN Technicals / 中文技术面: The ETF must outperform its weak overnight signal and show a regular-session reclaim, otherwise red-risk small caps stay unattractive. EN News/Catalyst / 中文消息面: Payrolls are the main catalyst. EN Volume/Liquidity / 中文成交量/流动性: IWM is liquid and useful as a filter for whether speculative single names deserve attention.\n中文：基本面：IWM更少取决于单个财报故事，而更多取决于成长和信用条件是否支持较小公司。技术面：该ETF必须扭转隔夜偏弱信号，并在正股时段实现收复，否则红色风险小盘股仍缺乏吸引力。消息面：非农是主要催化。成交量/流动性：IWM流动性好，也可作为判断投机单股是否值得关注的过滤器。",
+        "risk": "EN: Small-cap beta usually fails first if yields or growth fear move the wrong way.\n中文：若收益率或增长担忧走错方向，小盘beta通常最先失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Small-cap participation was mixed Thursday.\n中文：周四小盘股参与度偏分化。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SMH",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only after the first 30-60 minutes if SMH reclaims VWAP and semis stop lagging QQQ; use roughly 4%-8% ETF exposure.\n中文：只有在开盘后30-60分钟，SMH收复VWAP且半导体不再继续跑输QQQ时，才视为可执行；ETF仓位大致4%-8%。",
+        "suggestedProfitTake": "EN: Take partials into a clean follow-through move, and if yields keep rising downgrade it to watch-only.\n中文：若出现干净延续上涨，可分批止盈；若收益率继续走高，则降级为只观察。",
+        "type": "EN: Semiconductor ETF\n中文：半导体ETF",
+        "catalyst": "EN: AI infrastructure demand versus rates pressure.\n中文：AI基础设施需求与利率压力的博弈。",
+        "why": "EN Fundamentals / 中文基本面: Semiconductor demand remains supported by AI capex, but the group is highly sensitive to rates and expectations. EN Technicals / 中文技术面: The better setup is a regular-session reclaim after Thursday's cooling rather than a blind pre-open buy. EN News/Catalyst / 中文消息面: The catalyst is the combination of payrolls, yields, and name-level earnings digestion. EN Volume/Liquidity / 中文成交量/流动性: SMH is liquid and cleaner than forcing lower-liquidity chip names.\n中文：基本面：半导体需求仍受AI资本开支支撑，但这一板块对利率和预期非常敏感。技术面：更好的设置是周四降温后的正股时段收复，而不是盘前盲买。消息面：催化来自非农、收益率和个股财报消化的组合。成交量/流动性：SMH流动性好，比强行做更低流动性的芯片个股更干净。",
+        "risk": "EN: A hotter macro print can turn semis from leadership into drag very quickly.\n中文：若宏观数据偏热，半导体可能很快从领涨转为拖累。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Semiconductor momentum cooled after the earlier surge.\n中文：半导体动量在此前大涨后有所降温。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "XLV",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Actionable if XLV holds the first pullback or reclaims VWAP while healthcare leaders stay firm; use roughly 5%-10% ETF exposure.\n中文：若XLV守住第一次回踩或收复VWAP，且医疗龙头保持强势，则视为可执行；ETF仓位大致5%-10%。",
+        "suggestedProfitTake": "EN: Take partials into a clean defensive rotation, and if the market flips back to pure high-beta risk-on, keep gains rather than overstay.\n中文：若出现干净的防御轮动，可分批止盈；若市场重新转向纯高beta风险偏好，就应保留利润而不是久留。",
+        "type": "EN: Healthcare ETF\n中文：医疗保健ETF",
+        "catalyst": "EN: Lilly follow-through and Moderna FDA approval.\n中文：Lilly延续强势与Moderna FDA批准。",
+        "why": "EN Fundamentals / 中文基本面: Healthcare currently offers a better balance of earnings quality and macro defensiveness than many crowded software names. EN Technicals / 中文技术面: The trigger is a calm post-open hold rather than a large gap chase. EN News/Catalyst / 中文消息面: Verified single-name catalysts in LLY and MRNA support the group. EN Volume/Liquidity / 中文成交量/流动性: XLV is highly liquid and suitable when the user wants lower-beta exposure.\n中文：基本面：相比许多拥挤软件股，当前医疗板块更能平衡业绩质量与宏观防御属性。技术面：触发点是开盘后平稳守住，而不是去追大跳空。消息面：Lilly和MRNA的已验证个股催化支持了整个板块。成交量/流动性：XLV流动性高，适合需要更低beta敞口时使用。",
+        "risk": "EN: If the market rotates back into pure growth aggression, XLV may simply lag.\n中文：若市场重新转向纯成长进攻，XLV可能只是单纯跑输。",
+        "convictionScore": 4,
+        "timeframe": "swing",
+        "recentPerformance": "EN: Healthcare kept relative strength better than many speculative growth groups.\n中文：医疗板块的相对强度好于许多投机成长方向。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "XLE",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if oil extends and XLE holds VWAP after the first 30-60 minutes; use roughly 3%-6% ETF exposure and avoid buying if crude immediately reverses.\n中文：只有在油价延续走强、且XLE于开盘后30-60分钟守住VWAP时，才视为可执行；ETF仓位大致3%-6%，若原油立即反转就不要买。",
+        "suggestedProfitTake": "EN: Take partials into continued oil strength, but if payrolls cool inflation and crude fades, reduce quickly.\n中文：若油价继续走强，可分批止盈；但若非农缓解通胀、原油回落，就应快速减仓。",
+        "type": "EN: Energy ETF\n中文：能源ETF",
+        "catalyst": "EN: Higher oil prices and inflation sensitivity into payrolls.\n中文：油价走高，以及非农前的通胀敏感性。",
+        "why": "EN Fundamentals / 中文基本面: Energy cash-flow profiles improve when crude firms, though this is more macro-sensitive than company-specific tonight. EN Technicals / 中文技术面: XLE only works if oil confirms after the open; otherwise it becomes a failed inflation hedge. EN News/Catalyst / 中文消息面: The catalyst is verified oil strength and rate-sensitive positioning. EN Volume/Liquidity / 中文成交量/流动性: XLE is liquid and safer than forcing thinner single-name oil trades.\n中文：基本面：原油走强时，能源股现金流轮廓会改善，但今晚它更多受宏观影响，而非个股逻辑。技术面：只有在开盘后油价确认时，XLE才有效；否则会变成失败的通胀对冲。消息面：催化来自已验证的油价走强与利率敏感仓位。成交量/流动性：XLE流动性高，比强行做更薄的单一油气股更安全。",
+        "risk": "EN: Energy can reverse sharply if macro data reduce inflation fear.\n中文：若宏观数据缓解通胀担忧，能源板块可能快速反转。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Oil strength made energy more relevant again into Friday's session.\n中文：油价走强让能源板块在周五交易前再次变得相关。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "HYG",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "EN: Actionable only as a confirmation tool if HYG stabilizes with SPY after payrolls; use roughly 4%-8% ETF exposure only if credit confirms, otherwise keep it as a filter rather than a trade.\n中文：只有在非农后HYG与SPY同步企稳时，才作为确认工具使用；若信用确认，可用大致4%-8%的ETF仓位，否则把它更多当过滤器而非交易标的。",
+        "suggestedProfitTake": "EN: Treat HYG more as a sentiment and liquidity gauge than a big-profit vehicle; reduce if credit lags.\n中文：应把HYG更多视为情绪与流动性指标，而不是高收益工具；若信用掉队，就减仓。",
+        "type": "EN: High-yield credit ETF\n中文：高收益信用ETF",
+        "catalyst": "EN: Credit confirmation for risk appetite after payrolls.\n中文：非农后对风险偏好的信用确认。",
+        "why": "EN Fundamentals / 中文基本面: HYG reflects credit conditions more than earnings growth, which makes it useful for judging whether speculative equity risk is justified. EN Technicals / 中文技术面: The important signal is whether it confirms or diverges from SPY and IWM after the open. EN News/Catalyst / 中文消息面: Payrolls and rates are the main catalysts. EN Volume/Liquidity / 中文成交量/流动性: HYG is liquid enough to use as a practical market-internals filter.\n中文：基本面：HYG反映的是信用条件，而非盈利增长，因此它适合判断投机权益风险是否值得承担。技术面：重要信号是开盘后它究竟与SPY、IWM同步，还是出现背离。消息面：非农与利率是主要催化。成交量/流动性：HYG流动性足够，适合作为实用的市场内部结构过滤器。",
+        "risk": "EN: If credit lags, the message is usually to reduce equity aggression, not to force a standalone HYG thesis.\n中文：若信用掉队，通常传递的是应降低权益进攻性，而不是去强做单独的HYG逻辑。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Credit did not flash panic, but remained sensitive to Treasury yields.\n中文：信用市场没有发出恐慌信号，但仍对国债收益率敏感。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "SOXL",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only consider SOXL if SMH and QQQ both confirm with a strong VWAP reclaim after the first 30-60 minutes; use roughly 1%-2% exposure only because leverage decay and path dependency are real.\n中文：只有在开盘后30-60分钟，SMH和QQQ都用强力收复VWAP来确认时，才考虑SOXL；仓位仅大致1%-2%，因为杠杆衰减和路径依赖都是真实风险。",
+        "suggestedProfitTake": "EN: Take profits faster than in unlevered ETFs, and if semis hesitate at all, exit rather than hold for hope.\n中文：止盈速度要快于无杠杆ETF；只要半导体出现犹豫，就应退出，而不是抱有希望硬扛。",
+        "type": "EN: 3x leveraged semiconductor ETF\n中文：3倍杠杆半导体ETF",
+        "catalyst": "EN: Semiconductor rebound only if rates calm and AI beta returns.\n中文：只有在收益率冷静且AI beta回归时，半导体才有反弹机会。",
+        "why": "EN Fundamentals / 中文基本面: SOXL is a trading instrument, not a fundamental long-term business exposure. EN Technicals / 中文技术面: It requires strong confirmation from SMH and QQQ because leverage magnifies every failed first move. EN News/Catalyst / 中文消息面: The catalyst is macro plus sector confirmation, not a single-company report. EN Volume/Liquidity / 中文成交量/流动性: Liquidity is good, but leverage decay, path dependency, and intraday reversals make sizing critical.\n中文：基本面：SOXL是交易工具，而不是长期基本面配置。技术面：它必须得到SMH和QQQ的强确认，因为杠杆会放大每一次第一波失败。消息面：催化来自宏观与板块确认，而不是某一家公司财报。成交量/流动性：流动性不错，但杠杆衰减、路径依赖和日内反转让仓位控制极为关键。",
+        "risk": "EN: This should usually be avoided unless the setup is exceptionally clean.\n中文：除非设置异常干净，否则通常应避免使用。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Leveraged semi exposure became less forgiving after Thursday's cooling move.\n中文：在周四降温后，杠杆半导体敞口的容错率变得更低。",
+        "setupStatus": "avoid chase"
+      }
+    ],
+    "sections": [
+      {
+        "title": "EN: Catalyst Timing And Setup Stage\n中文：催化时点与设置阶段",
+        "items": [
+          "EN: Fresh actionable lane: NET, ABNB, MRNA. These have real catalysts, but only become tradable if Friday's regular session confirms with VWAP support, opening-range hold, or volume-backed breakout.\n中文：新鲜可执行主线：NET、ABNB、MRNA。这些名字确实有催化，但只有在周五正股时段通过VWAP支撑、开盘区间守住或放量突破来确认时，才算可交易。",
+          "EN: Triggered but extended lane: TEAM and SITM already had very large after-hours or post-earnings moves. Treat the discovery as correct, but the setup stage as extended or target exceeded unless they form a calmer second base.\n中文：已触发但已伸展主线：TEAM和SITM已经出现很大的盘后或财报后涨幅。发现本身可能是对的，但除非形成更平稳的二次平台，否则设置阶段应视为extended或target exceeded。",
+          "EN: Failed-event lane: APP, UBER, and SG are not automatic shorts, but their current edge comes from failed-bounce logic, not from heroic bottom-fishing.\n中文：失败事件主线：APP、UBER和SG并不是自动空头，但当前优势来自“反弹失败”逻辑，而不是英雄式抄底。",
+          "EN: Early-pre-catalyst lane: IONQ, RGTI, AEHR, and FSLY still need either scheduled events or new volume to graduate from early to in progress.\n中文：提前催化早期主线：IONQ、RGTI、AEHR和FSLY仍需计划内事件或新增成交量，才能从early升级到in progress。"
+        ]
+      },
+      {
+        "title": "EN: Pre-Catalyst Watchlist\n中文：提前催化预警",
+        "items": [
+          "EN: ABNB | Catalyst date/time: 2026-08-07 regular session after 2026-08-06 after-hours earnings | Catalyst type: earnings follow-through | Why it could move: revenue beat, travel-demand read-through, and crowded consumer-internet positioning | Expected direction bias: long/watch | riskLevel: yellow | Stage: in progress | No-chase rule: if Friday opens with a large gap and cannot hold VWAP, mark it missed move / avoid chase.\n中文：ABNB | 催化日期/时间：2026-08-07 正股时段，承接2026-08-06盘后财报 | 催化类型：财报延续 | 可能波动原因：营收超预期、出行需求映射、以及拥挤的消费互联网仓位 | 方向偏向：long/watch | 风险等级：yellow | 阶段：in progress | 不追高规则：若周五大幅高开且守不住VWAP，应标记为错过行情 / 避免追高。",
+          "EN: NET | Catalyst date/time: 2026-08-07 regular session after 2026-08-06 after-hours earnings | Catalyst type: earnings + guidance | Why it could move: beat-and-raise style reaction and cloud-security relative strength | Expected direction bias: long/watch | riskLevel: yellow | Stage: in progress | No-chase rule: do not buy the first spike; require first-hour hold or opening-range breakout.\n中文：NET | 催化日期/时间：2026-08-07 正股时段，承接2026-08-06盘后财报 | 催化类型：财报 + 指引 | 可能波动原因：类似beat-and-raise的反应，以及云安全相对强度 | 方向偏向：long/watch | 风险等级：yellow | 阶段：in progress | 不追高规则：不要买第一波尖刺；必须要求首小时守住或开盘区间突破。",
+          "EN: TEAM | Catalyst date/time: 2026-08-07 regular session after 2026-08-06 after-hours earnings | Catalyst type: earnings | Why it could move: very strong enterprise software reaction | Expected direction bias: watch | riskLevel: red | Stage: extended | No-chase rule: if it opens still massively above the prior close, treat it as extended unless it builds a secondary base.\n中文：TEAM | 催化日期/时间：2026-08-07 正股时段，承接2026-08-06盘后财报 | 催化类型：财报 | 可能波动原因：企业软件极强反应 | 方向偏向：watch | 风险等级：red | 阶段：extended | 不追高规则：若开盘仍远高于前收，应视为extended，除非它构筑二次平台。",
+          "EN: APP | Catalyst date/time: 2026-08-07 regular session after 2026-08-06 earnings reaction | Catalyst type: failed earnings tape | Why it could move: crowded growth unwind and heavy options interest | Expected direction bias: short/watch | riskLevel: red | Stage: in progress | No-chase rule: do not short a capitulation flush; wait for failed bounce below VWAP.\n中文：APP | 催化日期/时间：2026-08-07 正股时段，承接2026-08-06财报反应 | 催化类型：失败财报盘 | 可能波动原因：拥挤成长股出清与高期权活跃度 | 方向偏向：short/watch | 风险等级：red | 阶段：in progress | 不追高规则：不要追空恐慌性下砸；等待VWAP下方反弹失败。",
+          "EN: MRNA | Catalyst date/time: 2026-08-07 premarket / regular session | Catalyst type: FDA approval | Why it could move: new flu-shot approval and biotech sympathy | Expected direction bias: long/watch | riskLevel: red | Stage: in progress | No-chase rule: treat thin premarket strength as unreliable until the regular session confirms.\n中文：MRNA | 催化日期/时间：2026-08-07 盘前 / 正股时段 | 催化类型：FDA批准 | 可能波动原因：新流感疫苗获批及生物科技联动 | 方向偏向：long/watch | 风险等级：red | 阶段：in progress | 不追高规则：在正股时段确认前，薄量盘前强势都不可靠。",
+          "EN: IONQ | Catalyst date/time: 2026-08-12 after U.S. close | Catalyst type: earnings | Why it could move: bookings, cash runway, commercialization language, and thematic squeeze potential | Expected direction bias: long/watch | riskLevel: red | Stage: early | No-chase rule: no pre-earnings chase without regular-session relative-volume confirmation.\n中文：IONQ | 催化日期/时间：2026-08-12 美股收盘后 | 催化类型：财报 | 可能波动原因：订单、现金续航、商业化表述以及主题挤压潜力 | 方向偏向：long/watch | 风险等级：red | 阶段：early | 不追高规则：在没有正股时段相对放量确认前，不要提前追财报。",
+          "EN: RGTI | Catalyst date/time: 2026-08-07 premarket | Catalyst type: earnings | Why it could move: quantum-theme sensitivity and small-float volatility | Expected direction bias: watch | riskLevel: red | Stage: early | No-chase rule: if it gaps without volume quality, treat it as missed move / avoid chase.\n中文：RGTI | 催化日期/时间：2026-08-07 盘前 | 催化类型：财报 | 可能波动原因：量子主题敏感性和小流通盘波动 | 方向偏向：watch | 风险等级：red | 阶段：early | 不追高规则：若无量质支撑仅靠跳空，应视为错过行情 / 避免追高。",
+          "EN: FSLY | Catalyst date/time: 2026-08-11 after U.S. close investor event window | Catalyst type: company visibility + cloud sympathy | Why it could move: peer read-through from NET and edge-cloud re-rating potential | Expected direction bias: watch | riskLevel: red | Stage: early | No-chase rule: treat it as watch-only unless the software group broadens.\n中文：FSLY | 催化日期/时间：2026-08-11 美股收盘后投资者活动窗口 | 催化类型：公司曝光 + 云软件同业映射 | 可能波动原因：来自NET的同业映射，以及边缘云重估潜力 | 方向偏向：watch | 风险等级：red | 阶段：early | 不追高规则：除非软件板块明显扩散，否则只观察。",
+          "EN: AEHR | Catalyst date/time: next 1-5 trading days if semi-cap momentum revives | Catalyst type: backlog conversion follow-through | Why it could move: record backlog quality and semicap sympathy | Expected direction bias: long/watch | riskLevel: yellow | Stage: early | No-chase rule: old news without new volume is not a valid trigger.\n中文：AEHR | 催化日期/时间：若半导体设备动量回归，则在未来1-5个交易日内 | 催化类型：积压订单兑现延续 | 可能波动原因：创纪录积压订单质量，以及半导体设备同业联动 | 方向偏向：long/watch | 风险等级：yellow | 阶段：early | 不追高规则：没有新成交量支持的旧消息，不算有效触发。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Watch\n中文：期权与波动率观察",
+        "items": [
+          "EN: SPX/SPY: Into Friday, August 7, 2026 the practical risk is payrolls-induced gap volatility rather than a clean intraday trend. Public pre-open sources did not provide a reliable live IV rank snapshot, so treat the first reaction as suspect until SPY shows whether dealers are pinning around the opening range or allowing expansion.\n中文：SPX/SPY：进入2026年8月7日周五，真正的实操风险是非农引发的跳空波动，而不是干净的日内趋势。公开盘前来源没有提供可靠的实时IV Rank快照，因此在SPY显示做市商究竟是把价格钉在开盘区间附近，还是允许波幅扩张之前，都应怀疑第一反应。",
+          "EN: QQQ/NDX: Index-tech options remain sensitive to yields. If payrolls push rates up, QQQ call-chasing can fail quickly even when the headline is not disastrous; if rates cool, short-gamma style upside extension becomes more plausible.\n中文：QQQ/NDX：科技指数期权仍对收益率高度敏感。若非农推高利率，即便headline不算灾难，追QQQ看涨也可能迅速失败；若利率降温，短gamma式上冲延伸的概率才会更高。",
+          "EN: IWM/RUT: Small-cap options should be treated as secondary confirmation, not a primary bet. If IWM cannot confirm breadth, weekly calls or puts on high-beta small caps risk spread blowouts and poor exits.\n中文：IWM/RUT：小盘指数期权应被视为次级确认，而非主要押注。若IWM无法确认市场宽度，高beta小盘股的周度期权容易出现价差失控和难以退出的问题。",
+          "EN: VIX/VIX futures: The key question is whether payrolls create a one-print volatility pop or a durable repricing. If VIX lifts while SPY quickly reclaims VWAP, that usually argues for smaller stock size rather than aggressive options premium buying.\n中文：VIX/VIX期货：关键在于非农带来的是一次性波动脉冲，还是更持久的重定价。若VIX上升但SPY很快收复VWAP，通常意味着应该缩小股票仓位，而不是激进买入期权权利金。",
+          "EN: Single-name earnings options: NET, ABNB, TEAM, APP, and SG all carry post-event IV crush risk. Even when the directional thesis is right, paying up for weekly premium after the report can still lose if the move already happened; stock is often the cleaner tool unless the premium is very small.\n中文：单名财报期权：NET、ABNB、TEAM、APP和SG都带有财报后IV Crush风险。即使方向判断正确，若财报后才去买高价周度期权，也可能因为行情已经走完而亏损；除非权利金极小，否则股票通常是更干净的工具。"
+        ]
+      },
+      {
+        "title": "EN: Entry Timing And Risk Controls\n中文：入场时机与风险控制",
+        "items": [
+          "EN: Do not confuse a good name with a good entry. NET and ABNB may be the right stories, but if they open too far above the prior close without a calm first-hour structure, the trade quality is poor.\n中文：不要把“好名字”和“好入场”混为一谈。NET和ABNB也许是对的故事，但若它们远高于前收开盘、且首小时结构不平稳，交易质量仍然很差。",
+          "EN: Premarket and after-hours moves are secondary evidence only. Require regular-session volume, VWAP behavior, and opening-range structure before calling a high-beta setup actionable.\n中文：盘前和盘后走势只能算次级证据。在把高beta设置定义为可执行之前，必须先看到正股时段成交量、VWAP行为和开盘区间结构。",
+          "EN: The first 30-60 minutes remain the kill zone for false breakouts. Failed first moves in APP, SG, UBER, or RGTI are more reliable than emotional instant reactions.\n中文：开盘后30-60分钟仍然是假突破的高发区。APP、SG、UBER或RGTI的第一波失败，往往比情绪化瞬间反应更可靠。",
+          "EN: Respect account constraints. U.S. T+0 mechanics, PDT rules, cash-account settlement, wide bid/ask spreads, and overnight gap risk all matter more when account size is small.\n中文：必须尊重账户约束。美股T+0机制、PDT规则、现金账户交割、宽价差以及隔夜跳空风险，在小账户中都更加重要。",
+          "EN: Options are educational tools here, not personalized advice. Keep premium small, understand IV crush and leverage decay, and avoid treating weekly options as substitutes for discipline.\n中文：这里的期权讨论是教育用途，不是个性化建议。应保持小权利金、理解IV Crush和杠杆衰减，并避免把周度期权当作替代纪律的工具。"
+        ]
+      },
+      {
+        "title": "EN: Fundamental Metrics Check\n中文：基本面指标核查",
+        "items": [
+          "EN: Best verified earnings quality in the current reviewed set came from names with concrete numbers or approvals: DIS, LLY, NET, ABNB, TEAM, MRNA, and SITM. Those are preferable to headline-only sympathy trades.\n中文：在当前已审阅样本中，业绩或事件质量最可验证的名字来自有明确数字或审批结果的公司：DIS、LLY、NET、ABNB、TEAM、MRNA和SITM。这些都优于只靠headline的情绪联动。",
+          "EN: When a full metric set was not available in reviewed public pre-open sources, the correct action was to say so explicitly rather than invent it. That is why several speculative names remain early/watch rather than promoted to best ideas.\n中文：当已审阅的公开盘前来源没有给出完整指标时，正确做法是明确说明“暂无”，而不是编造。因此几只投机票仍停留在early/watch，而没有被提升为最佳想法。",
+          "EN: Balance-sheet and cash-runway quality matter most in the quantum and small-cap lane. For IONQ and RGTI, commercialization narrative without cash-discipline evidence is not enough.\n中文：在量子和小盘主线中，资产负债表和现金续航质量最重要。对IONQ和RGTI而言，只有商业化叙事而缺少现金纪律证据，是不够的。",
+          "EN: For software names, guidance quality and margin durability matter more than backward-looking beats. UBER and APP are the latest reminder of that rule.\n中文：对软件和平台股而言，指引质量和利润率持续性比过去式“超预期”更重要。UBER和APP再次提醒了这一点。"
+        ]
+      },
+      {
+        "title": "EN: Company And Sector Highlights\n中文：公司与板块重点",
+        "items": [
+          "EN: Disney and Lilly proved that quality earnings can still be rewarded in this tape. Those are cleaner references for tonight than trying to guess whether every crowded software name deserves another squeeze.\n中文：Disney和Lilly证明，在当前盘面中，高质量财报仍会得到奖励。对今晚而言，它们比去猜测每只拥挤软件股是否还配得上再挤一段，更值得作为参考。",
+          "EN: Cloudflare and Atlassian created the strongest fresh software upside reactions, but the setup stage is different: NET still has a tradable lane if it confirms, while TEAM is closer to extended.\n中文：Cloudflare和Atlassian给出了最强的新鲜软件上行反应，但它们的设置阶段并不相同：NET若确认仍有可交易空间，而TEAM更接近extended。",
+          "EN: AppLovin and Sweetgreen are useful because they show what failure looks like in a crowded or disappointed tape. Those are better as tactical cautionary examples than as blind bounce candidates.\n中文：AppLovin和Sweetgreen的意义在于，它们展示了拥挤或失望盘面中的失败形态。这些票更适合作为战术上的警示案例，而不是盲目的反弹候选。",
+          "EN: Moderna's FDA approval adds a non-payroll, non-software catalyst lane, which improves diversification if the market rotates toward healthcare.\n中文：Moderna的FDA批准提供了一条不依赖非农、也不依赖软件的催化主线，若市场转向医疗板块，这有助于提高分散度。"
+        ]
+      },
+      {
+        "title": "EN: Technology And Innovation Watch\n中文：科技与创新观察",
+        "items": [
+          "EN: AI infrastructure remains intact, but the easy money is no longer in buying every overnight winner. ANET and SMH need calmer rates and better regular-session confirmation.\n中文：AI基础设施主线仍在，但“买所有隔夜赢家”的容易钱已经过去。ANET和SMH需要更平稳的利率环境和更好的正股时段确认。",
+          "EN: Cloud software has turned into a stock-picker's market. NET and TEAM were rewarded, APP and DDOG were punished, and that spread argues for tighter selectivity.\n中文：云软件已经变成选股市场。NET和TEAM被奖励，APP和DDOG被惩罚，这种分化意味着必须更严格筛选。",
+          "EN: Quantum remains real as a trading theme but still speculative as a business theme. IONQ and RGTI belong in the small-size, high-discipline bucket only.\n中文：量子作为交易主题仍然存在，但作为商业主题仍偏投机。IONQ和RGTI只能放在“小仓位、高纪律”篮子里。",
+          "EN: Biotech innovation is relevant again when the catalyst is concrete. MRNA's FDA approval is a better setup driver than broad biotech hope.\n中文：当催化足够具体时，生物科技创新再次变得相关。MRNA的FDA批准，比泛泛的生物科技希望更能驱动设置。"
+        ]
+      },
+      {
+        "title": "EN: Trump Administration And Washington Watch\n中文：特朗普政府与华盛顿观察",
+        "items": [
+          "EN: The White House tariff and trade stance still matters for sector rotation. This week the market had to process higher solar import tariffs and continued Washington pressure on China-linked technology supply chains.\n中文：白宫的关税与贸易立场仍会影响板块轮动。本周市场需要消化更高的太阳能进口关税，以及华盛顿继续对与中国相关的科技供应链施压。",
+          "EN: For tonight, the tradable implication is not to force policy-sensitive clean-energy names when liquid software, healthcare, and broad index ETFs offer cleaner setups.\n中文：对今晚而言，可交易含义并不是去强做政策敏感型清洁能源股，而是优先选择高流动性软件、医疗和宽基ETF这些更干净的设置。",
+          "EN: Washington headline risk also argues for smaller overnight holds in import-sensitive or regulation-sensitive names.\n中文：华盛顿headline风险也意味着，对受进口或监管影响较大的标的，应减少隔夜持仓。"
+        ]
+      },
+      {
+        "title": "EN: Credit Positioning And Market Internals\n中文：信用、仓位与市场内部结构",
+        "items": [
+          "EN: If payrolls hit and SPY bounces but HYG and IWM do not confirm, assume the move is fragile. That is a message to stay with liquid ETFs, not to add red-risk names.\n中文：若非农落地后SPY反弹，但HYG和IWM没有确认，就应假设这波上涨很脆弱。这传递的信息是应留在高流动性ETF，而不是增加红色风险个股。",
+          "EN: Breadth remains more important than isolated winners. A tape where only one or two software gaps work is not the same as a healthy market for broad speculation.\n中文：市场宽度仍比个别赢家更重要。若只有一两只软件股跳空有效，这并不等于适合广泛投机的健康市场。",
+          "EN: Dealer and gamma context is credible only after the opening range prints. Before that, payrolls can create fake stability or fake panic.\n中文：做市商和gamma背景只有在开盘区间形成后才更可信。在那之前，非农可能制造虚假的稳定，也可能制造虚假的恐慌。"
+        ]
+      },
+      {
+        "title": "EN: Earnings And Macro Calendar\n中文：财报与宏观日历",
+        "items": [
+          "EN: Friday, August 7, 2026 at 08:30 ET / 20:30 Beijing: U.S. payrolls, unemployment rate, and wage data. This is the dominant macro event for tonight's session.\n中文：2026年8月7日周五 08:30 ET / 北京时间20:30：美国非农就业、失业率和薪资数据。这是今晚交易时段最核心的宏观事件。",
+          "EN: Friday's main company event cluster is post-earnings price discovery in ABNB, NET, TEAM, APP, DDOG, SG, CART, DKNG, and RKT.\n中文：周五的主要公司事件簇，是ABNB、NET、TEAM、APP、DDOG、SG、CART、DKNG和RKT的财报后价格发现。",
+          "EN: Next week begins with follow-through opportunities rather than obvious clean pre-earnings swing candidates, which is why the watchlist stays selective.\n中文：下周初更像是延续观察窗口，而不是显而易见的干净财报前波段机会，因此观察名单保持选择性。"
+        ]
+      },
+      {
+        "title": "EN: Why It Matters\n中文：为何重要",
+        "items": [
+          "EN: Small capital does not need to catch every headline. It needs to survive bad gaps, avoid poor liquidity, and focus on the few setups where catalyst quality, tape quality, and entry quality all align.\n中文：小资金不需要抓住每一个headline。它需要的是躲开糟糕跳空、避开差流动性，并专注于那些“催化质量、盘面质量、入场质量”三者同时对齐的少数设置。",
+          "EN: Tonight's market will likely punish impatience. The user edge comes from waiting through the first chaotic prints, not from reacting faster than everyone else to payrolls or after-hours headlines.\n中文：今晚市场很可能会惩罚没有耐心的人。用户真正的优势来自熬过最混乱的第一波打印，而不是比所有人更快地对非农或盘后headline做反应。",
+          "EN: The best outcome is often not the highest-beta winner; it is the cleanest, most repeatable execution.\n中文：最好的结果往往不是波动最大的赢家，而是最干净、最可复制的执行。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "EN: Associated Press - How major U.S. stock indexes fared Thursday, August 6, 2026 / 中文：美联社 - 2026年8月6日周四美股主要指数表现",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/850fa8cfc4e1d98d2bdff3eb6a302b1b"
+      },
+      {
+        "label": "EN: Reuters via TradingView - Wall Street ends lower as Treasury yields climb ahead of payrolls / 中文：路透（经TradingView转发）- 国债收益率在非农前走高，华尔街收低",
+        "confidence": "High-quality reporting",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N44F0NA:0-wall-street-ends-lower-as-treasury-yields-climb-ahead-of-payrolls/"
+      },
+      {
+        "label": "EN: U.S. Department of the Treasury - Daily Treasury Par Yield Curve Rates / 中文：美国财政部 - 每日国债收益率曲线",
+        "confidence": "Primary",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+      },
+      {
+        "label": "EN: BLS - Employment Situation news release schedule / 中文：美国劳工统计局 - 就业形势新闻发布时间表",
+        "confidence": "Primary",
+        "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+      },
+      {
+        "label": "EN: Cboe Options - Daily market statistics / 中文：Cboe期权 - 日度市场统计",
+        "confidence": "Market data",
+        "url": "https://www.cboe.com/us/options/market_statistics/daily/"
+      },
+      {
+        "label": "EN: Investors Business Daily - Dow Jones futures mixed before jobs report, major indexes above key levels / 中文：IBD - 非农前道指期货分化，主要指数仍处关键位之上",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-jobs-report-cloudflare-app-stock/"
+      },
+      {
+        "label": "EN: Associated Press - Disney jumps after a strong quarter helped by streaming and experiences / 中文：美联社 - 受流媒体与体验业务带动，Disney强劲季度后上涨",
+        "confidence": "High-quality reporting",
+        "url": "https://apnews.com/article/disney-earnings-streaming-theme-park-3408d7aa91755c38e97b93286ca3f0e1"
+      },
+      {
+        "label": "EN: MarketWatch - Disney stock rises after earnings / 中文：MarketWatch - Disney财报后上涨",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/story/disney-stock-rises-after-earnings-theme-park-bookings-prove-resilient-despite-soft-global-outlook-eab9080b"
+      },
+      {
+        "label": "EN: Barron's - Uber stock falls after guidance disappointment / 中文：Barron's - Uber因指引令人失望而下跌",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/uber-stock-price-earnings-guidance-a4c8b16d"
+      },
+      {
+        "label": "EN: MarketWatch - Lilly leads pharma gainers after earnings / 中文：MarketWatch - Lilly财报后领涨制药股",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/story/pfizer-stock-gains-after-a-rosy-outlook-from-covid-vaccines-lilly-leads-pharma-gainers-eaece2fc"
+      },
+      {
+        "label": "EN: Barron's - Airbnb stock jumps after revenue beat / 中文：Barron's - Airbnb营收超预期后股价跳涨",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/airbnb-earnings-stock-price-25ae87c6"
+      },
+      {
+        "label": "EN: Barron's - Cloudflare beats and guides above expectations / 中文：Barron's - Cloudflare业绩和指引均超预期",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/cloudflare-stock-earnings-price-b32da8b9"
+      },
+      {
+        "label": "EN: Barron's - Atlassian surges after strong results / 中文：Barron's - Atlassian强劲业绩后大涨",
+        "confidence": "High-quality reporting",
+        "url": "https://www.barrons.com/articles/atlassian-stock-earnings-price-0bb44ad9"
+      },
+      {
+        "label": "EN: MarketWatch - AppLovin stock plunges after results / 中文：MarketWatch - AppLovin财报后暴跌",
+        "confidence": "Market data",
+        "url": "https://www.marketwatch.com/story/applovin-stock-tumbles-after-earnings-deepseek-bets-and-concern-about-google-pressure-weigh-on-the-stock-26ec17c8"
+      },
+      {
+        "label": "EN: Investopedia - Moderna gains after FDA approves flu vaccine / 中文：Investopedia - Moderna在FDA批准流感疫苗后上涨",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investopedia.com/moderna-stock-gains-fda-approval-flu-vaccine-11789110"
+      },
+      {
+        "label": "EN: Investors Business Daily - SiTime jumps after earnings / 中文：IBD - SiTime财报后大涨",
+        "confidence": "High-quality reporting",
+        "url": "https://www.investors.com/news/technology/sitime-stock-soars-after-earnings/"
+      },
+      {
+        "label": "EN: IonQ Investor Relations - Q2 2026 earnings date / 中文：IonQ投资者关系 - 2026年二季度财报日期",
+        "confidence": "Primary",
+        "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Date-of-Second-Quarter-2026-Financial-Results/default.aspx"
+      },
+      {
+        "label": "EN: Rigetti press release - Q2 2026 earnings date / 中文：Rigetti新闻稿 - 2026年二季度财报日期",
+        "confidence": "Primary",
+        "url": "https://www.businesswire.com/news/home/20260729512112/en/Rigetti-Computing-Announces-Date-of-Second-Quarter-2026-Financial-Results-and-Conference-Call"
+      },
+      {
+        "label": "EN: Fastly Investor Relations - Upcoming events / 中文：Fastly投资者关系 - 即将举行的活动",
+        "confidence": "Calendar",
+        "url": "https://investors.fastly.com/overview/default.aspx"
+      },
+      {
+        "label": "EN: Aehr Test Systems - Announces record backlog / 中文：Aehr Test Systems - 宣布创纪录积压订单",
+        "confidence": "Primary",
+        "url": "https://www.globenewswire.com/news-release/2026/07/08/3102792/0/en/Aehr-Test-Systems-Announces-Record-Backlog-of-24-4-Million-for-Fox-XP-Wafer-Level-Test-and-Burn-In-Systems.html"
+      },
+      {
+        "label": "EN: Wall Street Journal - U.S. plans higher tariffs on some solar imports / 中文：华尔街日报 - 美国计划提高部分太阳能进口关税",
+        "confidence": "High-quality reporting",
+        "url": "https://www.wsj.com/business/energy-oil/trump-administration-to-set-higher-tariffs-on-some-solar-imports-5af59ae8"
+      }
+    ]
+  },
+  {
     "date": "2026-08-05",
     "timezone": "Asia/Shanghai GMT+8",
     "generatedAt": "2026-08-05 09:50 GMT+8",
