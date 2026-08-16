@@ -1,5 +1,304 @@
 window.A_SHARE_WEEKLY_BRIEFINGS = [
   {
+    "date": "2026-08-16",
+    "weekId": "2026-W33",
+    "weekNumber": 33,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-08-16 08:00 GMT+8",
+    "title": "中文：A股周度市场简报 - 第33周\nEN: A-share Weekly Market Brief - Week 33",
+    "tone": "中文：本周不是全面风险偏好回归，而是“上证与沪深300偏弱、深市与创业板勉强偏强、真正赚钱效应集中在少数数据中心电力和高弹性电力设备”。对下周更重要的不是追最强，而是把还能做10日波段的低价稳态票，与已经过热的冲高票彻底分开。\nEN: This was not a full risk-on return but a week of “weaker SSE and CSI 300, barely positive Shenzhen and ChiNext, and actual money-making concentrated in a few data-center-power and high-beta power-equipment names.” The more important task for next week is not chasing the strongest tape, but clearly separating lower-priced setups still tradable over roughly 10 sessions from names that already look overheated.",
+    "priorities": [
+      "中文：2026-08-17先看国家统计局09:30房价与10:00国民经济运行数据，再决定是否扩大风险暴露。若数据出来后上证、沪深300、银行/宽基都不配合，本周的高弹性强势股默认只当局部行情，不当成全面主升。\nEN: On 2026-08-17, first watch the NBS housing-price release at 09:30 and the national economic activity release at 10:00 before expanding risk. If the SSE, CSI 300, and bank/broad-beta layer do not cooperate after the data, this week’s high-beta winners should still be treated as local tape rather than a broad new impulse leg.",
+      "中文：主执行层要向仍在50元以下、流动性够、走势相对平滑的海兴电力、正泰电器、安科瑞倾斜；把科华数据、科士达、特锐德放在次级执行层，只接受回踩或二次确认。\nEN: The main execution layer should tilt toward sub-RMB-50 names with usable liquidity and relatively smoother paths such as HX Electric, Chint Electric, and Acrel; keep Kehua Data, Kstar, and TGOOD in the secondary execution layer and accept only pullbacks or second confirmations.",
+      "中文：本周真正大涨的盛弘股份和中恒电气要继续列入“看到但不追”的模板。它们周涨约18.6%和12.3%，量能与波动都说明周一若再高开，A股T+1下追价性价比很差。\nEN: The real weekly surge names, Shenghong Shares and Zhongheng Electric, should remain in the “seen but not chased” template. They rose about 18.6% and 12.3% for the week, and both the volume and volatility profile say that if they gap higher again on Monday, chasing them under A-share T+1 offers poor odds.",
+      "中文：本周日报里做对的是没有把市场直接写成全面牛回，且周三已看到深市/创业板修复；做错的是对国电南瑞、平高电气这类老主线的降级不够快。下周必须把“旧稳态主线失去相对优势”这件事承认得更彻底。\nEN: What the daily briefs got right was avoiding a blanket bull-restart call and noticing the Shenzhen/ChiNext repair by Wednesday; what they got wrong was downgrading older core lines such as NARI and Pinggao too slowly. Next week the loss of relative edge in those older steadier leaders has to be acknowledged more decisively.",
+      "中文：2026-08-20的LPR是固定利率观察点，但真正决定交易成色的，还是周一到周三之间窄宽度行情能否扩散。若只有数据中心电力几个名字反复冲高，而宽基和银行不跟，默认仓位继续轻。\nEN: The 2026-08-20 LPR is the fixed rates checkpoint, but what really decides tape quality is whether this narrow market broadens between Monday and Wednesday. If only a few data-center-power names keep spiking while broad beta and banks do not follow, default to staying light."
+    ],
+    "summary": [
+      "中文：按2026-08-07至2026-08-14收盘计，上证指数由3940.04降至3927.18，周跌约0.33%；深证成指由14311.01升至14354.31，周涨约0.30%；创业板指由3563.12升至3626.30，周涨约1.77%；沪深300由4694.44降至4665.88，周跌约0.61%；科创50由1744.02降至1717.68，周跌约1.51%。\nEN: From the 2026-08-07 close to the 2026-08-14 close, the SSE Composite fell from 3940.04 to 3927.18, down about 0.33%; the Shenzhen Component rose from 14311.01 to 14354.31, up about 0.30%; ChiNext rose from 3563.12 to 3626.30, up about 1.77%; the CSI 300 fell from 4694.44 to 4665.88, down about 0.61%; and the STAR 50 fell from 1744.02 to 1717.68, down about 1.51%.",
+      "中文：这组数据说明本周绝不是“所有成长都回来了”。真正更强的是创业板里的少数电力设备/数据中心电力高弹性票，而科创50和宽基并没有同步确认，市场宽度仍然偏窄。\nEN: That set of numbers shows this was not a week where “all growth came back.” What truly led were a few high-beta power-equipment and data-center-power names inside ChiNext, while the STAR 50 and broad beta did not confirm together, leaving breadth still narrow.",
+      "中文：本周最强的可量化样本并不在国电南瑞、平高电气这些老稳态龙头，而在盛弘股份、中恒电气、特锐德、科华数据、海兴电力、科士达这组。周涨幅约分别为+18.6%、+12.3%、+4.8%、+4.6%、+3.9%、+3.4%。\nEN: The strongest quantifiable weekly samples were not the older steadier leaders such as NARI or Pinggao, but the group of Shenghong Shares, Zhongheng Electric, TGOOD, Kehua Data, HX Electric, and Kstar. Their approximate weekly gains were +18.6%, +12.3%, +4.8%, +4.6%, +3.9%, and +3.4%, respectively.",
+      "中文：本周最适合你的结论不是“追上最热轮动”，而是“承认轮动已发生，但只交易还没被挤得太过分的部分”。海兴电力、正泰电器、安科瑞这类票更接近你偏好的日线稳定度；盛弘股份、中恒电气则更像该被拿来做情绪温度计。\nEN: The best fit for your style this week is not “catch the hottest rotation,” but “accept that rotation happened while trading only the part that has not been squeezed too far.” Names such as HX Electric, Chint Electric, and Acrel are closer to your preferred day-to-day stability, while Shenghong Shares and Zhongheng Electric are better used as sentiment thermometers.",
+      "中文：日报层面，周三对深市/创业板修复的识别是有效的，说明防守切成长修复的时点没有完全看错；但对国电南瑞、平高电气继续保留较高主观察权重，到周四和周五已经不够高效，这部分本周应判定为“识别慢半拍”。\nEN: At the daily-brief level, the Wednesday recognition of Shenzhen and ChiNext repair was valid, showing that the defense-to-growth-repair timing was not totally missed; but keeping relatively high primary-watch weight on NARI and Pinggao into Thursday and Friday was no longer efficient, and that part should be scored as “a half-step too slow.”",
+      "中文：政策和流动性背景仍更像“托底但不包赢”。7月20日LPR维持1年期3.0%、5年期以上3.5%，7月30日政治局会议强调加力扩大内需、适度宽松货币政策和提升资本市场韧性，但这更支持逢回踩择强，不支持无条件追高。\nEN: The policy and liquidity backdrop still looks more like “a floor but not a free pass.” The July 20 LPR held at 3.0% for one year and 3.5% for over five years, while the July 30 Politburo meeting emphasized stronger domestic demand, appropriately accommodative monetary policy, and greater capital-market resilience, but that supports buying stronger names on pullbacks rather than unconditional chasing."
+    ],
+    "marketPulse": {
+      "主要指数": {
+        "value": "中文：上证 3927.18（周跌约0.33%）/ 深成指 14354.31（周涨约0.30%）/ 创业板指 3626.30（周涨约1.77%）/ 沪深300 4665.88（周跌约0.61%）/ 科创50 1717.68（周跌约1.51%）。\nEN: SSE 3927.18 (about -0.33% for the week) / Shenzhen 14354.31 (about +0.30%) / ChiNext 3626.30 (about +1.77%) / CSI 300 4665.88 (about -0.61%) / STAR 50 1717.68 (about -1.51%).",
+        "note": "中文：本周最重要的信息不是创业板涨了，而是“创业板涨、科创50跌、沪深300跌”。这说明行情宽度并不健康，真正强势集中在少数方向。\nEN: The key message was not simply that ChiNext rose, but that “ChiNext rose while the STAR 50 and CSI 300 fell.” That says breadth was not healthy and real strength stayed concentrated in only a few directions."
+      },
+      "成交/宽度": {
+        "value": "中文：本周宽度更像“个股与细分链条爆发”，而不是全市场同步扩张。盛弘股份成交量由8月7日约17.85万手放大到8月11日约41.62万手、8月12日约36.70万手；中恒电气由8月7日约34.38万手放大到8月13日约68.18万手、8月14日约50.74万手。相对地，国电南瑞和平高电气周内量价都走弱。\nEN: Breadth this week looked more like “single-stock and subchain explosions” rather than a market-wide expansion. Shenghong’s volume expanded from about 178.5k lots on August 7 to about 416.2k on August 11 and 367.0k on August 12; Zhongheng Electric expanded from about 343.8k on August 7 to about 681.8k on August 13 and 507.4k on August 14. By contrast, NARI and Pinggao both saw weakening price-volume behavior during the week.",
+        "note": "中文：这种宽度结构意味着看对题材并不等于买点舒服。T+1下，量能集中在大阳线和冲板日时，第二天反而更容易高开低走。\nEN: That breadth structure means spotting the right theme does not automatically mean getting a comfortable entry. Under T+1, when volume clusters on big-up days and quasi-limit runs, the next session is more likely to produce a gap-up fade."
+      },
+      "流动性": {
+        "value": "中文：7月20日LPR维持1年期3.0%、5年期以上3.5%，下一个固定观察点是2026-08-20。7月30日政治局会议延续“更加积极的财政政策、适度宽松的货币政策、提升资本市场韧性和信心”的表述，流动性背景更像支撑风险偏好不至于崩，但不等于给高位票提供无限接力。\nEN: The July 20 LPR stayed at 3.0% for one year and 3.5% for over five years, with the next fixed checkpoint on 2026-08-20. The July 30 Politburo meeting kept language around more proactive fiscal policy, appropriately accommodative monetary policy, and improving capital-market resilience and confidence, so the liquidity backdrop looks more like preventing risk appetite from collapsing than giving high-level names unlimited follow-through.",
+        "note": "中文：这里“下周LPR仍是观察点”是基于中国货币网每月20日公布LPR的规则推断，而非提前知道结果。\nEN: The statement that next week’s LPR remains a checkpoint is an inference from ChinaMoney’s rule that LPR is published on the 20th of each month, not advance knowledge of the result."
+      }
+    },
+    "weekReview": [
+      "中文：本周前半段的盘面看起来仍像“低价稳态电网/分红链可以继续做桥梁”，但到周四和周五，实际强势已经明显转到数据中心电力、电源设备和更高弹性的电力设备分支。也就是说，旧主线没有立刻失效，但相对收益已经让位。\nEN: The first half of the week still made the tape look as if “lower-priced steadier grid/dividend chains can keep acting as bridge positions,” but by Thursday and Friday the real strength had clearly rotated toward data-center power, power-supply equipment, and higher-beta power-equipment branches. In other words, the old line did not instantly fail, but it did lose the relative-return lead.",
+      "中文：这正是本周日报最需要复盘的地方。周三看到深市和创业板修复是对的，但对国电南瑞、平高电气的降级慢了，导致对“能看”和“该做”之间的切换不够快。\nEN: That is exactly what the daily briefs most need to review. It was right to notice the Shenzhen and ChiNext repair on Wednesday, but the downgrade on NARI and Pinggao came too slowly, so the switch between “worth watching” and “worth trading” was not fast enough.",
+      "中文：从价格结果看，国电南瑞本周约跌3.7%、平高电气约跌4.6%，而特锐德、海兴电力、科华数据、科士达则分别约涨4.8%、3.9%、4.6%、3.4%。这说明市场并非只奖励最稳，而是在奖励“有题材、有电力/AI耦合、又有资金愿意放量追逐”的那一段。\nEN: From the price outcome, NARI fell about 3.7% and Pinggao about 4.6% for the week, while TGOOD, HX Electric, Kehua Data, and Kstar rose about 4.8%, 3.9%, 4.6%, and 3.4%, respectively. That shows the market was not rewarding mere steadiness, but specifically the segment with theme linkage, power/AI coupling, and enough capital willing to chase with volume.",
+      "中文：不过，这类强势并不自动适合你的持仓风格。盛弘股份和中恒电气虽然分别大涨约18.6%与12.3%，但它们的量能和波动都明显高于你偏好的“10日左右稳态波段”，周一一旦高开，T+1会把错误追价的被动性放大。\nEN: Even so, that kind of strength does not automatically fit your holding style. Although Shenghong and Zhongheng surged about 18.6% and 12.3%, their volume and volatility profiles both sit well above your preferred “roughly 10-day steadier swing,” and any Monday gap-up would magnify the passivity of a wrong chase under T+1.",
+      "中文：本周最值得保留的思路，是继续偏好低于50元、流动性够、产业逻辑能核验的电力与设备链；但“稳态”这个词要重新定义，不再只指传统电网龙头，也包括海兴电力、部分计量设备和能承接AI电力需求的中价设备股。\nEN: The main framework worth keeping is the preference for sub-RMB-50, liquid, and fundamentally checkable power and equipment chains; but the word “steady” now needs to be redefined so it no longer points only to traditional grid leaders, but also to names such as HX Electric, selected metering equipment, and mid-priced equipment stocks able to absorb AI-driven power demand."
+    ],
+    "nextWeekFocus": [
+      "中文：2026-08-17 09:30按国家统计局发布日程先看商品住宅销售价格指数，10:00再看国民经济运行情况。若这组数据出来后上证和沪深300仍弱，而创业板只是局部强，默认把行情定义为窄轮动而不是全面扩张。\nEN: On 2026-08-17, first watch the residential-property price release at 09:30 per the NBS schedule, then the national economic activity release at 10:00. If the SSE and CSI 300 stay weak after that while ChiNext is only selectively strong, default to defining the market as a narrow rotation rather than a broad expansion.",
+      "中文：2026-08-20按中国货币网规则是LPR公布日。若LPR维持不变而市场反应平淡，更要回到个股量价和板块扩散本身，而不是提前赌利率故事。\nEN: Under ChinaMoney’s rule, 2026-08-20 is the LPR release day. If the LPR is unchanged and the market reaction is muted, the focus should return even more to individual price-volume action and sector diffusion rather than pre-betting a rates story.",
+      "中文：继续盯中报与业绩预告窗口。对海兴电力、正泰电器、安科瑞这类偏稳标的，公告更像确认；对科华数据、科士达、特锐德和更高弹性名字，公告更可能放大隔夜跳空和高开回落风险。\nEN: Keep watching the interim-report and earnings-guidance window. For steadier names such as HX Electric, Chint Electric, and Acrel, filings act more like confirmation; for Kehua Data, Kstar, TGOOD, and higher-beta names, filings are more likely to amplify overnight gaps and gap-up fade risk.",
+      "中文：观察本周最强线能否真正扩散到第二梯队，而不是只剩盛弘股份、中恒电气这类高波动名字反复冲高。若扩散到海兴电力、安科瑞、正泰电器等更稳样本，才更适合你的执行框架。\nEN: Watch whether this week’s strongest line can truly broaden into the second tier rather than leaving only high-volatility names such as Shenghong and Zhongheng repeatedly spiking. If the move spreads into steadier samples like HX Electric, Acrel, and Chint Electric, it fits your execution framework much better.",
+      "中文：若国电南瑞、平高电气下周能先止跌，再配合宽基回稳，它们仍可重新回到观察名单；但在周线相对弱势尚未修复前，不应再自动享受主观察层待遇。\nEN: If NARI and Pinggao can first stop falling next week and broad beta also stabilizes, they can still re-enter the observation list; but before their relative weekly weakness is repaired, they should no longer automatically receive primary-watch status."
+    ],
+    "sectors": [
+      {
+        "name": "中文：数据中心电力 / 智算电源\nEN: Data-Center Power / AI Power Supply",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "中文：AI基础设施扩张、数据中心配电与电源需求、市场对电力+AI耦合链条的追逐。\nEN: AI infrastructure expansion, data-center power-distribution and supply demand, and market chasing of the power-plus-AI linkage chain.",
+        "watch": "中文：科华数据、科士达、盛弘股份、中恒电气先分成两层看，前两者只在回踩或二次确认时观察，后两者继续只做温度计。\nEN: Split Kehua Data, Kstar, Shenghong, and Zhongheng into two layers: watch the first two only on pullbacks or second confirmations, and keep the latter two as thermometers only.",
+        "risk": "中文：这是下周最容易高开诱多的板块，T+1下若周一直接高开4%-6%，默认不追。\nEN: This is the sector most likely to trap traders with hot gap-ups next week, and if Monday opens 4%-6% higher under T+1 the default should be no chase."
+      },
+      {
+        "name": "中文：电力设备与充电基础设施\nEN: Power Equipment And Charging Infrastructure",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：电网项目、充电设备与电力设备景气度、AI带来的配电与供电需求外溢。\nEN: Grid projects, charging-equipment and power-equipment demand, and spillover from AI-driven distribution and power-supply demand.",
+        "watch": "中文：特锐德优先看35.8-36.2回踩承接或37.4上方二次确认，不接受直接高开硬追。\nEN: For TGOOD, prioritize pullback support around 35.8-36.2 or a second confirmation above 37.4, and do not accept raw chasing into a hot open.",
+        "risk": "中文：题材与业绩预期容易叠加成大缺口，若板块只有单票活跃，隔夜风险会高于看上去的趋势强度。\nEN: Theme momentum and earnings expectations can combine into large gaps, and if only a single stock stays active the overnight risk will exceed the apparent trend strength."
+      },
+      {
+        "name": "中文：智能电表与出口型电力设备\nEN: Smart Metering And Export-Oriented Power Equipment",
+        "direction": "long",
+        "riskLevel": "green",
+        "catalyst": "中文：出海订单、全球电网与电力设备投资、AI基础设施带来的变压器与配电需求。\nEN: Overseas orders, global grid and power-equipment investment, and transformer/distribution demand driven by AI infrastructure.",
+        "watch": "中文：海兴电力、安科瑞优先看回踩后的缩量企稳，这条线更接近“能拿10天左右”的执行节奏。\nEN: Focus on HX Electric and Acrel after lighter-volume pullback stabilization; this lane is closer to a “holdable for around 10 sessions” execution rhythm.",
+        "risk": "中文：若下周市场风险偏好突然只剩高弹性而不再奖励稳态票，这条线会跑得慢，但慢并不等于失效。\nEN: If next week’s tape suddenly rewards only the highest-beta names and stops rewarding steadier ones, this lane may move slowly, but slow does not mean invalid."
+      },
+      {
+        "name": "中文：传统电网主干设备与分红防守\nEN: Traditional Grid Backbone Equipment And Dividend Defense",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "中文：政策托底、电网投资、中期分红与回购型信号。\nEN: Policy support, grid investment, and interim-dividend or buyback-style signals.",
+        "watch": "中文：正泰电器可以继续放在观察名单；国电南瑞、平高电气先等止跌再谈升级，不再把它们默认当周度领涨样本。\nEN: Chint Electric can stay on the watchlist; wait for NARI and Pinggao to stop falling before discussing any upgrade, and no longer default them into weekly leadership status.",
+        "risk": "中文：本周已经证明这条线不是当前市场的最强相对收益来源，若继续机械重仓，会拖慢节奏。\nEN: This week already showed that this lane is not the market’s current strongest source of relative return, and mechanically overweighting it further would slow execution."
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "603556.SH",
+        "chineseName": "海兴电力",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：优先观察25.20-25.60回踩缩量企稳，或26.20上方二次放量确认；绿色仓位首笔6%-8%。\nEN: First watch for lighter-volume stabilization on a 25.20-25.60 pullback, or a second volume confirmation above 26.20; use a 6%-8% first fill for a green setup.",
+        "suggestedProfitTake": "中文：第一目标看26.80-27.40；若量价继续顺，可看27.80附近。跌回24.90下方则取消本轮观察。\nEN: First target is roughly 26.80-27.40; if price and volume continue constructively, 27.80 is the next zone. Cancel this round of observation below 24.90.",
+        "type": "中文：10日波段 / 低于50元 / 稳态优先\nEN: 10-day swing / below RMB 50 / steadier-profile priority",
+        "catalyst": "中文：智能电表与出口型电力设备需求，以及全球电力基础设施扩张背景。\nEN: Demand for smart metering and export-oriented power equipment, plus the global power-infrastructure buildout backdrop.",
+        "why": "中文基本面 / EN Fundamentals: 中文：公司所处的电力计量与配电设备方向，兼具出海和基础设施属性，相比纯题材票更容易验证。EN: The company sits in power metering and distribution equipment with both export and infrastructure characteristics, making it easier to verify than pure-theme names.\n中文技术面 / EN Technicals: 中文：8月14日收25.89元，较8月7日涨约3.9%，周线保持抬升但没有像高弹性票那样失控，适合等回踩后再看。EN: It closed at RMB 25.89 on August 14, up about 3.9% from August 7, with a rising weekly path that did not run out of control like the highest-beta names, which makes a pullback worth watching.\n中文成交量/流动性 / EN Volume/Liquidity: 中文：周内量能在7.96万到22.18万手之间，流动性足够但没有爆量失真，更接近可执行的稳态波段。EN: Weekly volume ranged from about 79.6k to 221.8k lots, providing usable liquidity without the distortion of blowout turnover, closer to an executable steadier swing.",
+        "risk": "中文：若它只是被高弹性情绪短暂带动，而不是板块真正扩散，周一高开后也可能回落，因此仍要等位置。\nEN: If it is only being dragged higher temporarily by high-beta sentiment rather than true sector broadening, a Monday gap-up can still fade, so entry location still matters.",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约涨3.9%，属于少数兼顾涨幅与相对平稳形态的低价样本。\nEN: It rose about 3.9% for the week and was one of the few lower-priced samples combining upside with relatively smoother structure.",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "300001.SZ",
+        "chineseName": "特锐德",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：优先观察35.80-36.20回踩缩量承接，或37.40上方二次确认且电力设备同伴共振；黄色仓位首笔4%-6%。\nEN: First watch for lighter-volume support on a 35.80-36.20 pullback, or a second confirmation above 37.40 with power-equipment peers resonating; use a 4%-6% first fill for a yellow setup.",
+        "suggestedProfitTake": "中文：第一目标看38.80-39.60，强势才看40元附近。跌回35.20下方则先退出观察。\nEN: First target is roughly 38.80-39.60, with around 40.00 only if strength persists. Exit the watch below 35.20.",
+        "type": "中文：10日波段 / 低于50元 / 事件驱动\nEN: 10-day swing / below RMB 50 / event-driven",
+        "catalyst": "中文：电力设备、充电基础设施与项目型催化叠加。\nEN: The combination of power equipment, charging infrastructure, and project-style catalysts.",
+        "why": "中文基本面 / EN Fundamentals: 中文：它比传统电网龙头更具弹性，同时仍处在可解释的电力设备与充电基础设施链条里。EN: It carries more elasticity than traditional grid leaders while still sitting inside an explainable power-equipment and charging-infrastructure chain.\n中文技术面 / EN Technicals: 中文：8月14日收36.82元，较8月7日涨约4.8%，但周内多次冲高回落，说明可做但不适合开盘硬追。EN: It closed at RMB 36.82 on August 14, up about 4.8% from August 7, but the week saw repeated intraday pushes and fades, showing it is tradable but not suitable for aggressive open chasing.\n中文成交量/流动性 / EN Volume/Liquidity: 中文：周内成交量由15.32万手提升到29.21万手后再回落，流动性够用，但也说明情绪参与度明显抬升。EN: Volume expanded from about 153.2k lots to 292.1k before easing, giving usable liquidity but also showing a clear jump in sentiment participation.",
+        "risk": "中文：若周一高开超过3%-4%且板块没有同步扩散，T+1下隔夜风险会明显放大。\nEN: If Monday gaps more than 3%-4% without the sector broadening together, overnight risk under T+1 rises materially.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约涨4.8%，比老电网主线强，但仍不属于最稳的一档。\nEN: It rose about 4.8% for the week, stronger than the older grid core but still not in the steadiest tier.",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "002335.SZ",
+        "chineseName": "科华数据",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：优先观察31.90-32.30回踩企稳，或33.10上方重新放量转强；黄色仓位首笔4%-5%。\nEN: First watch for stabilization on a 31.90-32.30 pullback, or a renewed volume push above 33.10; use a 4%-5% first fill for a yellow setup.",
+        "suggestedProfitTake": "中文：第一目标看34.20-35.00；若只回到前高附近又放量滞涨，先收缩。跌回31.60下方则取消计划。\nEN: First target is roughly 34.20-35.00; if it only retests the prior high area and stalls on heavy volume, reduce first. Cancel the plan below 31.60.",
+        "type": "中文：10日波段 / 低于50元 / 数据中心电力\nEN: 10-day swing / below RMB 50 / data-center power",
+        "catalyst": "中文：数据中心电源链、AI基础设施扩张与业绩窗口。\nEN: Data-center power-supply chain, AI infrastructure expansion, and the earnings window.",
+        "why": "中文基本面 / EN Fundamentals: 中文：公司处在更受本周资金偏好的数据中心电力方向，题材与产业逻辑都清楚，但波动高于稳态设备票。EN: The company sits in the data-center power direction favored by this week’s capital, with a clear theme and industry logic, but volatility is higher than in steadier equipment names.\n中文技术面 / EN Technicals: 中文：8月14日收32.70元，较8月7日涨约4.6%，但8月13日冲到34.33后回吐，说明这里更适合等回踩，而不是把周内高点当成起点。EN: It closed at RMB 32.70 on August 14, up about 4.6% from August 7, but after spiking to 34.33 on August 13 it gave back part of the move, showing that this is better handled via pullback rather than treating the weekly high as a fresh start.\n中文成交量/流动性 / EN Volume/Liquidity: 中文：周内量能明显放大到36.69万和42.99万手，说明资金关注度够高，但同样提高了次日冲高回落概率。EN: Weekly turnover expanded clearly to about 366.9k and 429.9k lots, proving strong attention from capital but also increasing the odds of next-day spike-and-fade behavior.",
+        "risk": "中文：这是有逻辑但已经被资金充分看到的方向，周一若高开，不追比追更有纪律。\nEN: This is a logical but already well-seen direction, so if Monday gaps higher, not chasing is the more disciplined choice.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约涨4.6%，周内强过宽基，但高点回吐提醒它并非无脑持有型趋势。\nEN: It rose about 4.6% for the week and beat broad beta, but the giveback from the weekly high is a reminder that this is not a mindless hold trend.",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "002518.SZ",
+        "chineseName": "科士达",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "中文：优先观察34.70-35.00回踩缩量企稳，或35.90上方二次确认；黄色仓位首笔4%-5%。\nEN: First watch for lighter-volume stabilization on a 34.70-35.00 pullback, or a second confirmation above 35.90; use a 4%-5% first fill for a yellow setup.",
+        "suggestedProfitTake": "中文：第一目标看36.80-37.60；若靠近36.50-37.00却量价背离，优先减仓。跌回34.40下方则放弃。\nEN: First target is roughly 36.80-37.60; if it nears 36.50-37.00 with price-volume divergence, prioritize trimming. Abandon below 34.40.",
+        "type": "中文：10日波段 / 低于50元 / 电源设备\nEN: 10-day swing / below RMB 50 / power-supply equipment",
+        "catalyst": "中文：数据中心电力链与AI相关配电需求。\nEN: Data-center power chain demand and AI-related distribution demand.",
+        "why": "中文基本面 / EN Fundamentals: 中文：它同样受益于电源设备和数据中心建设主题，但相对盛弘股份、中恒电气，它的波动稍可控一些。EN: It also benefits from the power-supply-equipment and data-center buildout theme, but versus Shenghong and Zhongheng its volatility is somewhat more controllable.\n中文技术面 / EN Technicals: 中文：8月14日收35.38元，较8月7日涨约3.4%，结构偏强但没有彻底加速，适合等待更好的位置。EN: It closed at RMB 35.38 on August 14, up about 3.4% from August 7, with a constructive but not fully accelerated structure that favors waiting for a better location.\n中文成交量/流动性 / EN Volume/Liquidity: 中文：周内量能从12.75万手逐步扩到21.50万手后回落，说明资金进来了，但还没有到失真级别。EN: Weekly volume expanded from about 127.5k lots to 215.0k before easing, showing capital participation without reaching fully distorted levels.",
+        "risk": "中文：如果板块情绪转冷，它会比海兴电力这类更稳的票更容易被甩开。\nEN: If sector sentiment cools, it is more likely than steadier names such as HX Electric to get shaken out quickly.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约涨3.4%，属于跟随强势线但尚未失控的中间层样本。\nEN: It rose about 3.4% for the week and represents an intermediate-layer sample following the strong line without fully running away.",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "601877.SH",
+        "chineseName": "正泰电器",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：优先观察24.70-24.95回踩后缩量企稳，或25.40上方重新站稳；绿色仓位首笔6%-8%。\nEN: First watch for lighter-volume stabilization after a 24.70-24.95 pullback, or for price to reclaim and hold above 25.40; use a 6%-8% first fill for a green setup.",
+        "suggestedProfitTake": "中文：第一目标看25.90-26.40；若宽基走弱而它只是慢反弹，先把节奏放慢。跌回24.50下方则取消。\nEN: First target is roughly 25.90-26.40; if broad beta weakens while this only drifts higher slowly, slow the trade down first. Cancel below 24.50.",
+        "type": "中文：10日波段 / 低于50元 / 防守底仓候选\nEN: 10-day swing / below RMB 50 / defensive base-position candidate",
+        "catalyst": "中文：分红与现金流属性、电气设备防守特征，以及若宽基回稳后的低波动承接。\nEN: Dividend and cash-flow characteristics, defensive electrical-equipment traits, and lower-volatility support if broad beta stabilizes.",
+        "why": "中文基本面 / EN Fundamentals: 中文：它仍然属于更适合你风格的低价稳态设备股，基本面可解释性强于本周最热的冲高票。EN: It still belongs to the lower-priced steadier equipment names that fit your style better, with stronger explainability than this week’s hottest spike names.\n中文技术面 / EN Technicals: 中文：8月14日收25.01元，周跌约1.3%，说明它本周不是相对强者，但这也让它更接近重新布局而非追高。EN: It closed at RMB 25.01 on August 14, down about 1.3% for the week, showing it was not a relative winner this week, but that also leaves it closer to a re-entry setup than a chase setup.\n中文成交量/流动性 / EN Volume/Liquidity: 中文：周内量能在10万到17万手附近，流动性稳定且不过热，符合防守型波段的要求。EN: Weekly turnover stayed roughly in the 100k to 174k lot range, with stable and non-manic liquidity that fits a defensive swing profile.",
+        "risk": "中文：若市场继续只奖励高弹性而不回到稳态票，它可能继续慢于热点，节奏上要有耐心。\nEN: If the market keeps rewarding only higher-beta names and does not rotate back toward steadier ones, it may keep lagging the hot tape and will require patience.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约跌1.3%，弱于热点，但也因此没有过热问题。\nEN: It fell about 1.3% for the week, lagging the hot tape but also avoiding an overheating problem.",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "300286.SZ",
+        "chineseName": "安科瑞",
+        "direction": "long",
+        "riskLevel": "green",
+        "suggestedBuyPrice": "中文：优先观察20.20-20.45回踩缩量企稳，或20.95上方放量再确认；绿色仓位首笔5%-7%。\nEN: First watch for lighter-volume stabilization on a 20.20-20.45 pullback, or a volume-backed reconfirmation above 20.95; use a 5%-7% first fill for a green setup.",
+        "suggestedProfitTake": "中文：第一目标看21.40-22.00；若板块不扩散而它单票走不动，先减仓。跌回20.00下方则先取消。\nEN: First target is roughly 21.40-22.00; if the sector fails to broaden and it stalls on its own, reduce first. Cancel below 20.00.",
+        "type": "中文：10日波段 / 低于50元 / 计量设备\nEN: 10-day swing / below RMB 50 / metering equipment",
+        "catalyst": "中文：计量与配电自动化逻辑，以及若强势线向更稳二线扩散时的承接可能。\nEN: Metering and distribution-automation logic, plus possible support if the strong line broadens into steadier second-tier names.",
+        "why": "中文基本面 / EN Fundamentals: 中文：它仍具备你偏好的低价、设备链、逻辑清晰三要素，只是本周没有处在市场最热资金的第一排。EN: It still has the three elements you prefer: lower price, equipment-chain exposure, and clear logic, but it was not in the first row of the market’s hottest capital this week.\n中文技术面 / EN Technicals: 中文：8月14日收20.62元，较8月7日仅跌约1.0%，说明它虽然没爆发，但相对仍稳，适合继续等待更清楚的扩散信号。EN: It closed at RMB 20.62 on August 14, down only about 1.0% from August 7, showing that although it did not explode higher, it stayed relatively stable and remains suitable for waiting on clearer diffusion signals.\n中文成交量/流动性 / EN Volume/Liquidity: 中文：周内成交量大多在3万到5万手之间，流动性不如主热点深，但也更容易在回踩后给出干净形态。EN: Weekly volume mostly stayed in the 30k to 50k lot range; liquidity is lighter than the main hot names, but that also makes cleaner pullback structure easier to read.",
+        "risk": "中文：若市场宽度始终不扩散到更稳的二线设备股，它可能继续只是观察样本。\nEN: If market breadth never broadens into steadier second-tier equipment stocks, it may remain only an observation sample.",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "中文：本周约跌1.0%，表现不亮眼，但稳定性仍强于最热高弹性票。\nEN: It fell about 1.0% for the week and was not flashy, but its stability remains better than the hottest high-beta names.",
+        "setupStatus": "early"
+      }
+    ],
+    "riskControls": [
+      "中文：若2026-08-17宏观数据出来后，上证、沪深300、510300.SH和512800.SH继续走弱，而高弹性名字单独冲高，本周行情仍按“窄轮动”定义处理，普通仓位控制在4%-6%或更低。\nEN: If, after the 2026-08-17 macro releases, the SSE, CSI 300, 510300.SH, and 512800.SH remain weak while high-beta names spike on their own, this week’s market should still be treated as a “narrow rotation,” with ordinary position size kept around 4%-6% or lower.",
+      "中文：对盛弘股份、中恒电气这类本周大涨票，周一若高开超过4%-5%且前30分钟量能异常集中，默认不追。A股T+1下，这类仓位最容易在隔夜被动承受回撤。\nEN: For weekly surge names such as Shenghong and Zhongheng, if Monday gaps more than 4%-5% higher and the first 30 minutes absorb unusually concentrated volume, default to no chase. Under A-share T+1, these are the positions most likely to force passive overnight drawdown.",
+      "中文：对海兴电力、特锐德、科华数据、科士达这类仍可观察的票，只有回踩缩量承接或二次放量确认才算有效买点。任何依赖第二天继续高开来证明自己正确的仓位，都不符合本周计划。\nEN: For still-watchable names such as HX Electric, TGOOD, Kehua Data, and Kstar, only lighter-volume pullback support or second volume confirmation counts as a valid entry. Any position that needs the next day’s gap-up to prove it was right does not fit this week’s plan.",
+      "中文：若国电南瑞、平高电气等旧稳态主线继续放量下跌，不要因为“它们曾经最稳”而机械补仓。先等止跌、再等宽基回稳、最后才谈重新升级。\nEN: If older steadier leaders such as NARI and Pinggao keep falling on volume, do not mechanically average down just because they used to be the steadiest names. First wait for them to stop falling, then wait for broad beta to stabilize, and only then discuss any upgrade."
+    ],
+    "sections": [
+      {
+        "title": "中文：本周大涨股票与原因\nEN: Major Surges And Reasons",
+        "items": [
+          "300693.SZ 盛弘股份：中文：8月7日至8月14日由38.21元涨至45.33元，周涨约18.6%。8月11日和8月12日成交量分别放大到约41.62万手和36.70万手，说明资金集中追逐数据中心电力/电源设备高弹性方向。它是本周最典型的“强但已经偏热”样本。状态：extended / avoid chase。\nEN: 300693.SZ Shenghong Shares rose from RMB 38.21 to RMB 45.33 between August 7 and August 14, up about 18.6% for the week. Volume expanded to about 416.2k and 367.0k lots on August 11 and August 12, showing concentrated chasing in the high-beta data-center-power and power-supply-equipment lane. It is the week’s clearest “strong but already hot” sample. Status: extended / avoid chase.",
+          "002364.SZ 中恒电气：中文：8月7日至8月14日由40.08元涨至45.00元，周涨约12.3%。8月13日高点到45.75元、8月14日收盘回到45.00元，说明强势仍在，但隔夜追涨的舒适度已经显著下降。状态：extended / wait for deep pullback。\nEN: 002364.SZ Zhongheng Electric rose from RMB 40.08 to RMB 45.00 between August 7 and August 14, up about 12.3% for the week. It hit RMB 45.75 intraday on August 13 and closed back at RMB 45.00 on August 14, showing strength is still present but the comfort of overnight chasing has fallen materially. Status: extended / wait for deep pullback.",
+          "300001.SZ 特锐德：中文：8月7日至8月14日由35.13元涨至36.82元，周涨约4.8%。它比盛弘股份和中恒电气更适合继续观察，因为涨幅没有完全失控，但周内量能也曾放大到约29.21万手，说明已经进入资金可见区。状态：still tradable on pullback / not on gap-up。\nEN: 300001.SZ TGOOD rose from RMB 35.13 to RMB 36.82 between August 7 and August 14, up about 4.8% for the week. It remains more watchable than Shenghong or Zhongheng because the advance did not fully run away, but volume still expanded to about 292.1k lots during the week, showing it has already entered the visible-capital zone. Status: still tradable on pullback / not on gap-up.",
+          "002335.SZ 科华数据：中文：8月7日至8月14日由31.25元涨至32.70元，周涨约4.6%。8月13日一度冲到34.33元后回落，说明资金认可数据中心电力逻辑，但高位追价的T+1收益风险比已经变差。状态：in progress / wait for pullback。\nEN: 002335.SZ Kehua Data rose from RMB 31.25 to RMB 32.70 between August 7 and August 14, up about 4.6% for the week. After it spiked to RMB 34.33 on August 13 and then faded, the move showed capital endorsement of the data-center-power logic but also a worsening T+1 risk-reward for high-level chasing. Status: in progress / wait for pullback.",
+          "603556.SH 海兴电力：中文：8月7日至8月14日由24.92元涨至25.89元，周涨约3.9%。它不是最热，但它把“电力设备链景气 + 低于50元 + 相对稳态”组合得更完整，因此比最热票更接近你的风格。状态：still tradable / in progress。\nEN: 603556.SH HX Electric rose from RMB 24.92 to RMB 25.89 between August 7 and August 14, up about 3.9% for the week. It was not the hottest name, but it combines “power-equipment demand plus sub-RMB-50 pricing plus relative steadiness” more completely, making it closer to your style than the hottest winners. Status: still tradable / in progress.",
+          "002518.SZ 科士达：中文：8月7日至8月14日由34.23元涨至35.38元，周涨约3.4%。它同样受益于数据中心电力与电源设备逻辑，但强度弱于盛弘股份和中恒电气，反而更适合等回踩后观察。状态：still tradable on pullback / avoid chase.\nEN: 002518.SZ Kstar rose from RMB 34.23 to RMB 35.38 between August 7 and August 14, up about 3.4% for the week. It also benefits from the data-center-power and power-supply-equipment logic, but with less raw strength than Shenghong or Zhongheng, which actually makes it better suited for pullback observation. Status: still tradable on pullback / avoid chase."
+        ]
+      },
+      {
+        "title": "中文：本周表现复盘\nEN: Weekly Performance Scorecard",
+        "items": [
+          "中文：做对的第一件事，是本周日报没有把市场简单写成“全面牛回”，也持续提醒T+1和隔夜高开风险。这避免了把本周最热的高弹性票误写成舒适持仓。\nEN: The first thing done right was that this week’s daily briefs did not lazily label the market a full bull restart and kept warning about T+1 and overnight gap risk. That prevented the hottest high-beta names from being misframed as comfortable holdings.",
+          "中文：做对的第二件事，是周三已经承认深市与创业板修复更强，说明对风格切换不是完全后知后觉。这个判断至少让本周后半段不再只盯防守链。\nEN: The second thing done right was acknowledging by Wednesday that Shenzhen and ChiNext repair were stronger, which means the style shift was not completely recognized after the fact. That at least prevented the second half of the week from staring only at defensive chains.",
+          "中文：做错的核心，是对国电南瑞、平高电气等旧主线的降级慢了半拍。它们本周分别约跌3.7%和4.6%，已经不配继续占据最高观察权重。\nEN: The core mistake was downgrading older core lines such as NARI and Pinggao a half-step too slowly. They fell about 3.7% and 4.6% for the week and no longer deserved the highest observation weight.",
+          "中文：对你的风格最重要的修正，不是把盛弘股份和中恒电气补进主仓，而是承认“热点在线、但执行层应下沉一档”。换句话说，要从最热龙头退一步，去找海兴电力、特锐德、科华数据、科士达、安科瑞这类更容易处理的位置。\nEN: The most important correction for your style is not promoting Shenghong and Zhongheng into the core book, but accepting that “the hot theme is live, while the execution layer should sit one notch below it.” In other words, step back from the hottest leaders and look for more manageable locations in names such as HX Electric, TGOOD, Kehua Data, Kstar, and Acrel.",
+          "中文：中兰环保继续证明它更适合做风格参照，而不是本周主线。你喜欢的低价稳态风格没错，但本周真正可执行的是“低价电力设备/计量里仍有相对强度的部分”，而不是任意低价小票。\nEN: Zhonglan Environmental kept proving it works better as a style reference than as this week’s main line. Your preference for lower-priced steadier setups is not wrong, but the executable version this week was “the lower-priced part of power equipment and metering that still carries relative strength,” not any random low-priced small cap."
+        ]
+      },
+      {
+        "title": "中文：下周即将发生的催化\nEN: Upcoming Catalyst Watch",
+        "items": [
+          "2026-08-17 09:30：中文：国家统计局发布日程显示将公布商品住宅销售价格指数月度报告。若地产相关数据偏弱但市场并未因此大跌，说明托底预期仍在；若数据一弱宽基立刻走弱，高弹性票更应降温。EN: At 09:30 on 2026-08-17, the NBS schedule shows the monthly residential property price report. If property-related data is soft but the market does not sell off hard, the floor narrative is still alive; if weak data immediately weakens broad beta, high-beta names should be cooled down faster.",
+          "2026-08-17 10:00：中文：国家统计局发布日程显示将公布国民经济运行情况。对下周最关键的不是数据绝对值多漂亮，而是数据公布后上证、沪深300和银行/宽基是否能同步企稳。EN: At 10:00 on 2026-08-17, the NBS schedule shows the release of the national economic activity report. What matters most is not just how pretty the absolute data looks, but whether the SSE, CSI 300, and bank/broad-beta layer can stabilize together after the release.",
+          "2026-08-20 09:00：中文：中国货币网说明LPR每月20日公布，因此2026-08-20是固定利率观察点。若LPR维持不变，则更需要回到个股量价本身。EN: At 09:00 on 2026-08-20, the LPR is the fixed rates checkpoint because ChinaMoney states it is published on the 20th of each month. If the LPR is unchanged, focus should return even more directly to single-stock price-volume action.",
+          "2026-08-17 至 2026-08-21：中文：中报与业绩预告继续密集。电力设备、计量和数据中心电力票的公告很可能继续决定谁能承接、谁会高开低走。EN: From 2026-08-17 to 2026-08-21, interim reports and earnings guidance stay dense. Filings in power equipment, metering, and data-center power are likely to keep deciding which names can absorb and which ones simply gap up and fade.",
+          "2026-08-17 至 2026-08-21：中文：继续观察AI基础设施热度是否继续往更稳二线扩散。若海兴电力、安科瑞、正泰电器开始接力，而不是只剩盛弘股份和中恒电气独舞，执行难度会明显下降。EN: From 2026-08-17 to 2026-08-21, keep watching whether AI-infrastructure enthusiasm broadens into steadier second-tier names. If HX Electric, Acrel, and Chint Electric begin to take over rather than leaving only Shenghong and Zhongheng dancing alone, execution difficulty drops materially."
+        ]
+      },
+      {
+        "title": "中文：风险控制与失效条件\nEN: Risk Controls And Invalidation",
+        "items": [
+          "中文：若2026-08-17宏观数据后，上证和沪深300继续弱于创业板，且银行ETF/宽基ETF没有跟上，本周的高弹性强势只能继续按局部题材处理，不能上调总风险偏好。EN: If, after the 2026-08-17 macro releases, the SSE and CSI 300 continue to lag ChiNext and the bank or broad-beta ETFs do not confirm, this week’s high-beta winners must continue to be treated as local-theme strength rather than a reason to raise total risk appetite.",
+          "中文：若盛弘股份、中恒电气、科华数据、科士达周一再大幅高开，但前30到60分钟后无法扩散到海兴电力、安科瑞、正泰电器等更稳名字，就默认这是情绪冲顶，不是可舒适持有的10日波段。EN: If Shenghong, Zhongheng, Kehua, and Kstar gap sharply higher again on Monday but fail after the first 30 to 60 minutes to broaden into steadier names such as HX Electric, Acrel, and Chint Electric, default to treating that as a sentiment spike rather than a comfortable 10-day swing.",
+          "中文：任何需要靠第二天继续高开来证明逻辑成立的交易，都不适合你的下周脚本。更合适的节奏仍是：回踩、缩量、板块确认、再试探。EN: Any trade that needs the next day’s gap-up to prove the thesis was right does not fit your script for next week. The better rhythm remains: pullback, lighter volume, sector confirmation, then probe.",
+          "中文：若国电南瑞、平高电气继续走弱，不要把“之前最稳”当成补仓理由。若它们重新止跌并获得宽基确认，再重新评估；在那之前，先尊重本周相对弱势。EN: If NARI and Pinggao keep weakening, do not use “they used to be the steadiest” as an averaging-down reason. Reassess only if they stop falling and gain broad-beta confirmation; until then, respect this week’s relative weakness first."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "国家统计局：2026年国家统计局主要统计信息发布日程表",
+        "confidence": "Primary",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html"
+      },
+      {
+        "label": "中国货币网：2026年7月20日LPR公告",
+        "confidence": "Primary",
+        "url": "https://www.chinamoney.com.cn/chinese/rdgz/20260720/3379021.html"
+      },
+      {
+        "label": "中国货币网：LPR发布规则说明",
+        "confidence": "Primary",
+        "url": "https://www.chinamoney.com.cn/chinese/bklpr/"
+      },
+      {
+        "label": "新华社转载：2026年7月30日政治局会议部署下半年经济工作",
+        "confidence": "Primary",
+        "url": "https://www.audit.gov.cn/n4/n18/c10803661/content.html"
+      },
+      {
+        "label": "FT：AI frenzy drives Chinese tech valuations to multiples of US peers",
+        "confidence": "Secondary",
+        "url": "https://www.ft.com/content/094f578b-517a-4d05-a9f1-1cc1f2e56c44"
+      },
+      {
+        "label": "Caixin：China’s Power-Equipment Makers Ride AI Infrastructure Boom",
+        "confidence": "Secondary",
+        "url": "https://www.caixinglobal.com/2026-04-17/in-depth-chinas-power-equipment-makers-ride-ai-infrastructure-boom-102435204.html"
+      },
+      {
+        "label": "Caixin：China’s Power Equipment Exports Jump 26% as Emerging Markets Ramp Up Grid Spending",
+        "confidence": "Secondary",
+        "url": "https://www.caixinglobal.com/2026-03-06/chinas-power-equipment-exports-jump-26-as-emerging-markets-ramp-up-grid-spending-102419939.html"
+      },
+      {
+        "label": "腾讯行情K线：上证指数 2026-08-07 至 2026-08-14",
+        "confidence": "Secondary",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2026-08-07,2026-08-14,640,qfq"
+      },
+      {
+        "label": "腾讯行情K线：创业板指 2026-08-07 至 2026-08-14",
+        "confidence": "Secondary",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2026-08-07,2026-08-14,640,qfq"
+      },
+      {
+        "label": "腾讯行情K线：盛弘股份 2026-08-07 至 2026-08-14",
+        "confidence": "Secondary",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300693,day,2026-08-07,2026-08-14,640,qfq"
+      },
+      {
+        "label": "腾讯行情K线：中恒电气 2026-08-07 至 2026-08-14",
+        "confidence": "Secondary",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002364,day,2026-08-07,2026-08-14,640,qfq"
+      },
+      {
+        "label": "腾讯行情K线：科华数据 2026-08-07 至 2026-08-14",
+        "confidence": "Secondary",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002335,day,2026-08-07,2026-08-14,640,qfq"
+      },
+      {
+        "label": "腾讯行情K线：海兴电力 2026-08-07 至 2026-08-14",
+        "confidence": "Secondary",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603556,day,2026-08-07,2026-08-14,640,qfq"
+      }
+    ]
+  },
+  {
     "date": "2026-08-02",
     "weekId": "2026-W31",
     "weekNumber": 31,
