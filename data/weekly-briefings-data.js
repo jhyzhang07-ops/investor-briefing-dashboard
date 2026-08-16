@@ -1,5 +1,336 @@
 window.WEEKLY_MARKET_BRIEFINGS = [
   {
+    "date": "2026-08-16",
+    "weekId": "2026-W33",
+    "weekNumber": 33,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-08-16 08:00 GMT+8",
+    "title": "EN: U.S. Weekly Market Brief - Week 33\n中文：美股周度市场简报 - 第33周",
+    "tone": "EN: Weekly tone: the tape survived oil and macro noise, but next week's edge is still in disciplined secondary entries, not in celebrating this week's AI winners. Respect retail earnings, Fed minutes, and first-30-minute confirmation.\n中文：周度基调：本周行情顶住了油价与宏观噪音，但下周的优势仍在于有纪律的二次入场，而不是继续庆祝本周的AI赢家。要尊重零售财报、Fed会议纪要，以及开盘后前30分钟确认。",
+    "priorities": [
+      "EN: Monday, August 17, 2026 U.S. time, treat the open as a reset session after Friday's retail-sales miss and oil rebound. If QQQ cannot hold the first-hour range while oil and yields rise together, cut beta first.\n中文：美股时间2026年8月17日周一，把开盘视为对周五“零售销售走弱 + 油价反弹”的重置检验。若QQQ在油价和收益率同步上行时守不住首小时区间，应先降beta。",
+      "EN: Tuesday, August 18, 2026 U.S. time, housing starts, industrial production, and Home Depot are the clearest read on whether the economy is merely cooling or genuinely losing momentum.\n中文：美股时间2026年8月18日周二，住房开工、工业生产和Home Depot财报，是判断美国经济究竟只是降温，还是正在明显失速的最清晰组合。",
+      "EN: Wednesday, August 19, 2026 U.S. time, the Fed's July meeting minutes plus Target and Lowe's matter because rates and consumer behavior are now tightly linked.\n中文：美股时间2026年8月19日周三，Fed 7月会议纪要加上Target与Lowe's财报很关键，因为利率和消费者行为目前高度绑定。",
+      "EN: Thursday, August 20, 2026 U.S. time, Walmart is the practical consumer bellwether. If Walmart holds up while rates stay contained, the market may tolerate a broader risk bid; if not, defensive positioning can return quickly.\n中文：美股时间2026年8月20日周四，Walmart是最实用的消费风向标。若Walmart表现稳住且利率受控，市场可能容忍更广泛的风险偏好；否则防御姿态会很快回归。",
+      "EN: Keep safer vehicles and speculative vehicles separate. QQQ, SMH, HD, and WMT are cleaner than SMCI, NBIS, AAOI, SOXL, or weekly options after a hot AI week.\n中文：必须把相对稳健工具和投机工具分开。经历一周火热AI行情后，QQQ、SMH、HD和WMT都比SMCI、NBIS、AAOI、SOXL或周度期权更干净。"
+    ],
+    "summary": [
+      "EN: AP's week-ending data for Friday, August 14, 2026 showed the S&P 500 up 0.4%, the Nasdaq up 0.1%, the Russell 2000 up 1.1%, and the Dow down 0.6%. The week finished positive on the surface, but leadership was narrow and the path was not clean.\n中文：美联社截至2026年8月14日周五的周度统计显示：标普500上涨0.4%，纳指上涨0.1%，罗素2000上涨1.1%，而道指下跌0.6%。表面上周线仍偏正面，但领涨范围很窄，路径也并不干净。",
+      "EN: Monday, August 10 and Tuesday, August 11 were pressure days. AP reported oil-driven inflation fear pushed Brent as high as the low $90s intraday on Tuesday, and the Nasdaq fell 0.6% that day as traders waited for CPI.\n中文：8月10日周一和8月11日周二属于承压阶段。美联社报道显示，受油价驱动的通胀担忧影响，布伦特原油在周二盘中一度摸到90美元上方附近，而交易者在等待CPI时，纳指当天下跌0.6%。",
+      "EN: Wednesday, August 12 and Thursday, August 13 repaired the tape. July CPI cooled to 3.4%, July PPI slowed to 4.7%, the 10-year Treasury yield eased from about 4.70% on Tuesday to 4.65% on Thursday, and AI infrastructure winners drove fresh records.\n中文：8月12日周三和8月13日周四修复了盘面。7月CPI降至3.4%，7月PPI回落至4.7%，10年期美债收益率从周二约4.70%回落到周四约4.65%，AI基础设施赢家推动指数再创新高。",
+      "EN: What worked in the daily briefings was the pre-catalyst and no-chase discipline around SMCI, CRWV, APP, CSCO, and COHR. The market rewarded verified numbers and punished late emotional entries.\n中文：本周日更里真正有效的是围绕SMCI、CRWV、APP、CSCO和COHR执行“提前催化 + 不追高”的纪律。市场奖励了经过验证的数字，也惩罚了情绪化的迟到入场。",
+      "EN: The biggest miss was still expectation ranking. NBIS surged materially and was underweighted in the daily process, while the old CRM short remains a miss / thesis invalidated and should stay labeled that way.\n中文：最大失误仍然是预期排序。NBIS本周大幅上涨，但在日更流程里权重不够；同时，旧的CRM空头仍然属于失误 / 逻辑失效，必须继续这样标记。",
+      "EN: Friday, August 14 reminded traders that a softer inflation week does not remove execution risk. Retail sales fell 0.6% month over month, oil rebounded, Reddit surged on S&P 500 inclusion, and Applied Materials still dropped despite a beat.\n中文：8月14日周五提醒交易者，即使整周通胀数据偏温和，也不会消除执行风险。零售销售环比下滑0.6%，油价反弹，Reddit因纳入标普500大涨，而Applied Materials即使业绩超预期仍然下跌。",
+      "EN: For next week, the practical edge is to separate still-early catalysts from already-extended winners. Retail earnings and Fed minutes are cleaner than chasing a fourth or fifth candle in SMCI, NBIS, or AAOI.\n中文：对下周来说，真正的实用优势是把“仍处于早期的催化”与“已经明显拉伸的赢家”分开。零售财报和Fed会议纪要，比去追SMCI、NBIS或AAOI的第四根、第五根K线更干净。"
+    ],
+    "marketPulse": {
+      "SPY/QQQ/IWM": {
+        "value": "SPY 776.34 (+0.40% WoW) / QQQ 731.07 (+1.11% WoW) / IWM 305.09 (+1.17% WoW) as of Friday, August 14, 2026",
+        "note": "EN: QQQ and IWM both finished the week green, but the stronger practical message was not broad calm. It was that selective leadership and secondary confirmation mattered more than simple index color.\n中文：QQQ和IWM周线都收涨，但更重要的实战信息并不是“市场很平静”，而是精选龙头和二次确认，比单看指数红绿更重要。"
+      },
+      "Rates": {
+        "value": "10Y Treasury roughly 4.70% on Tuesday, 4.68% on Wednesday, 4.65% on Thursday, and 4.69% on Friday",
+        "note": "EN: The rate backdrop improved midweek with CPI and PPI, then became less friendly again on Friday as oil bounced. That keeps late growth entries vulnerable if yields stop cooperating.\n中文：收益率环境在CPI和PPI之后于周中改善，但周五随着油价反弹又重新变得不那么友好。这意味着如果收益率不再配合，晚进的成长股多头仍然很脆弱。"
+      },
+      "Volatility / Options": {
+        "value": "Index fear cooled during the CPI/PPI window, but single-name post-earnings IV and gap risk stayed elevated in AI infrastructure, networking, optics, and next week's retail reports",
+        "note": "EN: This was a classic week where traders could be right on theme and still lose on entry, IV crush, or first-30-minute failure. AMAT, CSCO, and COHR all reinforced that lesson.\n中文：这是一种典型周：主题方向可能看对，但仍会输给进场时点、IV回落或前30分钟失败。AMAT、CSCO和COHR都再次强化了这个教训。"
+      }
+    },
+    "weekReview": [
+      "EN: Monday, August 10 and Tuesday, August 11, 2026 U.S. time, showed that oil and rates still set the macro ceiling. AP reported Brent crude jumped 5% on Monday and briefly moved above $90 on Tuesday, while the Nasdaq fell 0.3% and then 0.6%.\n中文：美股时间2026年8月10日周一和8月11日周二说明，油价和利率仍在决定宏观上限。美联社报道显示，布伦特原油周一上涨5%，周二盘中一度站上90美元，而纳指则先跌0.3%，随后再跌0.6%。",
+      "EN: Wednesday, August 12 was the key repair day. CPI cooled to 3.4%, the 10-year Treasury yield eased to 4.68%, and AP reported Super Micro rose 19%, CoreWeave 19.3%, and Nvidia 3%. This was a real information day, not just a sentiment day.\n中文：8月12日周三是关键修复日。CPI降至3.4%，10年期美债收益率回落到4.68%，而美联社报道称，Super Micro上涨19%，CoreWeave上涨19.3%，Nvidia上涨3%。这是真信息驱动，而不只是情绪驱动。",
+      "EN: Thursday, August 13 extended the macro repair but also raised the bar. AP reported the S&P 500 closed at a record 7,798.99 as PPI slowed to 4.7% and the 10-year yield fell to 4.65%, yet Cisco still dropped 8.4%. A cooler inflation print did not save weak post-earnings setups.\n中文：8月13日周四延续了宏观修复，但也抬高了门槛。美联社报道称，在PPI降至4.7%、10年期美债收益率回落到4.65%之后，标普500创下7,798.99的新高，但Cisco仍下跌8.4%。温和的通胀数据并不能拯救糟糕的财报后设置。",
+      "EN: Friday, August 14 separated usable strength from dangerous storytelling. Retail sales fell 0.6% month over month, Brent rebounded to $88.52, Applied Materials fell 5.1% despite beating, and Reddit jumped 12.6% on S&P 500 inclusion. Good numbers alone were not enough; price action decided.\n中文：8月14日周五，把“可用的强势”和“危险的讲故事”彻底区分开来。零售销售环比下滑0.6%，布伦特油价回升到$88.52，Applied Materials即使业绩超预期仍下跌5.1%，而Reddit因纳入标普500上涨12.6%。光有好数字并不够，真正决定结果的是价格行为。",
+      "EN: AAOI-style first-30-minute failure risk remained relevant all week. AAOI still finished the week up about 10.8%, but as a high-beta optics sympathy name it remained better for pullback or VWAP reclaim entries than for emotional gap chasing.\n中文：AAOI式的“前30分钟失败风险”整周都依然有效。AAOI周线仍上涨约10.8%，但作为高beta的光模块联动股，它更适合等回踩或收复VWAP，而不是情绪化追跳空。",
+      "EN: The old CRM short remains a miss / thesis invalidated. Verified week-over-week market data still showed CRM up about 1.8% for the August 7 to August 14 window, and nothing in this week's tape revived the original bearish call.\n中文：旧的CRM空头仍然是失误 / 逻辑失效。经核实，CRM在2026年8月7日至8月14日这一周仍上涨约1.8%，本周没有任何价格行为重新激活最初的空头判断。"
+    ],
+    "nextWeekFocus": [
+      "EN: Monday, August 17, 2026 U.S. time, watch whether Friday's retail-sales fade becomes a broader growth scare or merely a one-day digestion. The first 30 to 60 minutes in QQQ, SMH, and XLY matter more than the overnight narrative.\n中文：美股时间2026年8月17日周一，重点看周五的零售销售回落是否会演变成更广泛的增长担忧，还是仅仅一天消化。QQQ、SMH和XLY在开盘后30到60分钟的表现，比隔夜叙事更重要。",
+      "EN: Tuesday, August 18, 2026 U.S. time, Home Depot plus housing starts and industrial production can reshape the market's read on U.S. consumer durability and housing sensitivity.\n中文：美股时间2026年8月18日周二，Home Depot财报加上住房开工和工业生产，可能重塑市场对美国消费韧性与住房敏感度的判断。",
+      "EN: Wednesday, August 19, 2026 U.S. time, the Fed minutes are critical because the market already knows July CPI and PPI cooled; what it still needs to know is how serious policymakers remain about another hike.\n中文：美股时间2026年8月19日周三，Fed会议纪要很关键，因为市场已经知道7月CPI和PPI降温；真正还不知道的是，政策制定者对再次加息到底还有多认真。",
+      "EN: Wednesday's Target and Lowe's reports, followed by Thursday's Walmart report, are cleaner next-week catalysts than chasing extended AI cloud winners. These names can show whether discounting, traffic, and housing-linked demand are stabilizing or worsening.\n中文：周三的Target和Lowe's财报，再到周四的Walmart财报，都比去追已经拉伸的AI云赢家更像干净的下周催化。这些名字能显示折扣力度、客流和住房相关需求究竟在稳定还是恶化。",
+      "EN: In AI infrastructure, the best question is no longer 'is the story real?' It is 'can the stock offer a second setup?' That makes SMCI, NBIS, CRWV, and AAOI pullback quality more important than headline strength.\n中文：在AI基础设施方向，最重要的问题已经不再是“故事是不是真的”，而是“股票还能否给出第二次设置”。这使得SMCI、NBIS、CRWV和AAOI的回踩质量，比headline强弱更重要。",
+      "EN: If oil stays firm and the 10-year Treasury yield rises back toward or above Friday's level while QQQ loses the first-hour low, reduce beta and leave SOXL or weekly calls alone.\n中文：如果油价保持强势、10年期美债收益率回升到周五附近或更高，同时QQQ跌破首小时低点，就应降低beta，并回避SOXL或周度认购。"
+    ],
+    "sectors": [
+      {
+        "name": "EN: Nasdaq / Semiconductor Leadership\n中文：纳指 / 半导体主线",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Midweek CPI/PPI relief plus ongoing AI infrastructure earnings follow-through kept QQQ and SMH constructive.\n中文：周中CPI/PPI缓和，加上AI基础设施财报的持续发酵，让QQQ和SMH维持建设性。",
+        "watch": "EN: Prefer QQQ or SMH on a first pullback hold, VWAP reclaim, or orderly two-day consolidation.\n中文：更偏好在第一次回踩守住、收复VWAP或两天有序整理后观察QQQ或SMH。",
+        "risk": "EN: Higher oil and higher yields together can quickly turn this from leadership into a failed extension.\n中文：若油价和收益率一起上行，这条主线很快就可能从领涨变成延伸失败。"
+      },
+      {
+        "name": "EN: Retail / Consumer Read-Through\n中文：零售 / 消费验证主线",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Home Depot, Target, Lowe's, and Walmart next week can confirm whether July's retail-sales miss was temporary or structural.\n中文：下周Home Depot、Target、Lowe's和Walmart能验证7月零售销售走弱究竟是暂时现象还是结构性问题。",
+        "watch": "EN: Watch HD, TGT, LOW, WMT, and XLY for traffic, margin, and demand commentary rather than just headline beats.\n中文：重点观察HD、TGT、LOW、WMT和XLY的客流、利润率与需求评论，而不只是headline是否超预期。",
+        "risk": "EN: Weak guidance can pressure the entire consumer complex quickly, especially if Friday's slowdown data was the start of a softer trend.\n中文：若指引偏弱，整个消费板块都可能很快承压，尤其是在周五的走弱数据代表更软趋势开端时。"
+      },
+      {
+        "name": "EN: High-Beta AI Cloud / Optics Continuation\n中文：高beta AI云 / 光模块延续",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: SMCI, CRWV, NBIS, and AAOI all carry real momentum, but the easy first move already happened this week.\n中文：SMCI、CRWV、NBIS和AAOI都带着真实动量，但最容易的第一段已经在本周走完。",
+        "watch": "EN: Only secondary entries count here: pullback hold, VWAP reclaim, or opening-range breakout after digestion.\n中文：这里只有二次入场才算数：回踩守住、收复VWAP，或消化后突破开盘区间。",
+        "risk": "EN: These names can gap, reverse, and fail in the first 30 minutes even when the broader theme remains right.\n中文：即使大主题没错，这些股票也会跳空、反转，并在前30分钟直接失败。"
+      },
+      {
+        "name": "EN: Failed Post-Earnings Networking / Software\n中文：财报后失败的网络 / 软件",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "EN: CSCO, COHR, and APP showed that high-expectation names can still lose altitude even in a constructive index week.\n中文：CSCO、COHR和APP说明，即使指数周线偏建设性，高预期股票仍可能显著失速。",
+        "watch": "EN: Favor only failed bounces under VWAP or under the opening range; no capitulation chasing.\n中文：只在VWAP下方或开盘区间下方的反弹失败时再看，不要追杀恐慌性下砸。",
+        "risk": "EN: Softer yields or a sudden breadth expansion can squeeze these names sharply.\n中文：若收益率继续走软，或市场宽度突然扩张，这些名字也可能出现快速逼空。"
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if QQQ holds VWAP or reclaims the opening range after the first 30-60 minutes; roughly 5%-10% ETF exposure is cleaner than forcing hot single names.\n中文：只有在开盘后30-60分钟，QQQ守住VWAP或收复开盘区间时才算可执行；大致5%-10%的ETF敞口，比强做火热单股更干净。",
+        "suggestedProfitTake": "EN: Trim into a clean extension and reduce faster if yields and oil rise together while QQQ loses the first-hour low.\n中文：若出现干净延续，可分批止盈；如果收益率和油价一起上行且QQQ跌破首小时低点，就要更快减仓。",
+        "type": "EN: balanced large-cap growth ETF\n中文：相对稳健的大盘成长ETF",
+        "catalyst": "EN: Fed minutes, retail earnings, housing starts, and industrial production all flow through next week's QQQ tape.\n中文：Fed会议纪要、零售财报、住房开工和工业生产，都会映射到下周QQQ的盘口。",
+        "why": "EN: QQQ stays cleaner than forcing already-extended AI infrastructure winners after a narrow leadership week.\n中文：在经历一周狭窄领涨之后，QQQ仍比强押已经拉伸的AI基础设施赢家更干净。",
+        "risk": "EN: Invalidated if breadth narrows again and rates stop cooperating.\n中文：若市场宽度再次收窄，且利率不再配合，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: QQQ closed Friday, August 14 at 731.07, up about 1.11% from August 7.\n中文：QQQ在2026年8月14日周五收于731.07，较8月7日上涨约1.11%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "HD",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Pre-earnings only if the broader consumer tape is stable; otherwise wait for the first post-earnings pullback hold or VWAP reclaim.\n中文：只有在消费板块整体稳定时，才考虑财报前观察；否则应等待财报后的第一次回踩守住或收复VWAP。",
+        "suggestedProfitTake": "EN: Scale partials into a clean post-report extension and protect quickly if housing-sensitive peers fail to confirm.\n中文：若财报后出现干净延续，可分批止盈；若住房相关同类股不确认，就要快速保护利润。",
+        "type": "EN: balanced consumer / housing read-through stock\n中文：相对稳健的消费 / 住房验证股",
+        "catalyst": "EN: Home Depot reports on Tuesday, August 18, 2026 U.S. time, alongside housing starts and industrial production.\n中文：Home Depot将于美股时间2026年8月18日周二公布业绩，同日还有住房开工和工业生产数据。",
+        "why": "EN: It is an earlier, cleaner next-week catalyst than trying to discover a sixth day of AI momentum.\n中文：相比去寻找AI动量第六天的延续，它是更早、更干净的下周催化。",
+        "risk": "EN: Invalidated if weak demand commentary reinforces Friday's retail-sales slowdown.\n中文：若需求评论偏弱，并强化周五零售销售走弱的担忧，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Still pre-catalyst rather than already extended in the reviewed next-week setup set.\n中文：在已审阅的下周设置中，它仍属于催化前阶段，而不是已经明显拉伸。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "WMT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Prefer post-earnings confirmation only: wait for regular-session VWAP support or an orderly opening-range breakout.\n中文：更偏好财报后确认：等待正股时段VWAP支撑，或有序突破开盘区间。",
+        "suggestedProfitTake": "EN: Take partials into extension because defensive retail can gap and then stall once the information is priced.\n中文：若出现延续上涨，可分批止盈，因为防御型零售在信息定价后也可能高开后停滞。",
+        "type": "EN: balanced defensive retail stock\n中文：相对稳健的防御型零售股",
+        "catalyst": "EN: Walmart reports on Thursday, August 20, 2026 U.S. time and is the week's cleanest consumer bellwether.\n中文：Walmart将于美股时间2026年8月20日周四公布业绩，是本周最干净的消费风向标。",
+        "why": "EN: If Friday's retail-sales miss was over-read, Walmart can prove it. If it was real, Walmart can expose it quickly.\n中文：如果周五的零售销售下滑被过度解读，Walmart可以证明这一点；如果问题真实存在，Walmart也能很快揭示出来。",
+        "risk": "EN: Invalidated if guidance or basket-size commentary confirms a broader consumer slowdown.\n中文：若指引或客单价评论确认更广泛的消费放缓，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: Next week's usefulness is mainly event-driven rather than momentum-driven.\n中文：它对下周的价值主要来自事件驱动，而不是动量驱动。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only on a real pullback hold, calm two-day base, or post-gap VWAP reclaim. Do not buy a fresh vertical open after a 27.98% weekly move.\n中文：只有在真实回踩守住、两天平稳平台，或缺口后收复VWAP时才考虑。在周涨幅27.98%之后，不要去买新的垂直式高开。",
+        "suggestedProfitTake": "EN: If a secondary setup works, pay yourself early into the first expansion leg because the stock already used a large part of its easy move.\n中文：若二次设置奏效，应在第一段扩张中尽早兑现利润，因为这只股票已经走掉了很大一部分容易赚钱的空间。",
+        "type": "EN: speculative AI infrastructure server stock\n中文：投机型AI基础设施服务器股",
+        "catalyst": "EN: The catalyst was this week's earnings and FY2027 sales outlook, with the main surge occurring in Wednesday's regular session.\n中文：催化来自本周财报和FY2027销售展望，而主要拉升发生在周三的正规交易时段。",
+        "why": "EN: The story is verified, but the next trade is about entry quality, not about discovering whether the business is real.\n中文：故事已经被验证，但下一笔交易的重点是入场质量，而不是再去判断业务是否真实。",
+        "risk": "EN: Invalidated if a secondary setup cannot hold or if sector breadth narrows sharply.\n中文：若连二次结构都守不住，或板块宽度明显收窄，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: SMCI closed Friday, August 14 at 39.84, up about 27.98% from August 7.\n中文：SMCI在2026年8月14日周五收于39.84，较8月7日上涨约27.98%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "NBIS",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Watch only unless the stock digests the surge and then offers a tight base, VWAP reclaim, or first pullback hold. A 47.73% weekly move is not an early-stage chase setup.\n中文：默认只观察，除非该股先消化暴涨，再给出紧凑平台、收复VWAP或第一次回踩守住。周涨47.73%绝不是适合早期追入的设置。",
+        "suggestedProfitTake": "EN: If a secondary entry appears, scale even faster than usual because crowding risk is now extreme.\n中文：若出现二次入场，应比平时更快分批止盈，因为现在的拥挤交易风险已经很高。",
+        "type": "EN: speculative AI cloud stock\n中文：投机型AI云股票",
+        "catalyst": "EN: This week's AI-cloud enthusiasm and earnings-linked momentum drove the move, with the biggest expansion in Wednesday's regular session.\n中文：本周的AI云热度和财报相关动量推动了这波上涨，其中最大扩张发生在周三的正规交易时段。",
+        "why": "EN: It was the week's clearest miss-by-omission in the daily process, but that does not make it a good late chase now.\n中文：它是本周日更流程中最明显的“漏掉的赢家”，但这并不意味着现在就变成了好的迟到追涨。",
+        "risk": "EN: Invalidated if the stock loses a secondary setup or if the broader AI-cloud basket stops confirming.\n中文：若股价失守二次结构，或更广泛的AI云篮子停止确认，则逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: NBIS closed Friday, August 14 at 277.68, up about 47.73% from August 7.\n中文：NBIS在2026年8月14日周五收于277.68，较8月7日上涨约47.73%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "APP",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Short bias only on a failed bounce under VWAP or below the opening range after the first 30-60 minutes; avoid chasing a flush.\n中文：只有在开盘后30-60分钟，APP在VWAP下方或开盘区间下方反弹失败时，才保留偏空思路；不要追空恐慌性下砸。",
+        "suggestedProfitTake": "EN: Take partials into weakness and tighten quickly if QQQ breadth broadens or yields soften further.\n中文：若股价走弱，可分批止盈；如果QQQ宽度扩散或收益率继续走软，就要更快收紧保护。",
+        "type": "EN: speculative failed-earnings software stock\n中文：投机型失败财报软件股",
+        "catalyst": "EN: The active catalyst is still the failed post-earnings tape rather than a fresh positive narrative.\n中文：当前有效催化仍然是财报后的失败盘，而不是新的正面叙事。",
+        "why": "EN: This remained one of the cleaner red-risk short/watch lanes because the stock kept acting heavy after the earnings failure.\n中文：它仍是更干净的红色高风险 short/watch 路径之一，因为财报失败后股价持续表现沉重。",
+        "risk": "EN: Invalidated if APP reclaims VWAP with improving software breadth and softer rates.\n中文：若APP收复VWAP，同时软件板块宽度改善且收益率走软，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: APP closed Friday, August 14 at 315.44, down about 9.04% from August 7.\n中文：APP在2026年8月14日周五收于315.44，较8月7日下跌约9.04%。",
+        "setupStatus": "in progress"
+      }
+    ],
+    "riskControls": [
+      "EN: Respect U.S. T+0 mechanics, account restrictions, and settlement limits. Good narratives do not help if capital gets trapped in an illiquid or over-levered vehicle.\n中文：尊重美股T+0机制、账户限制和结算规则。若资金被困在低流动性或过度杠杆工具里，再好的叙事也没用。",
+      "EN: For any gap larger than roughly 4% to 5%, default to wait-first mode. The first 30 to 60 minutes often tell you whether the move is real sponsorship or just overnight enthusiasm.\n中文：对于任何大于约4%到5%的跳空，默认先等待。开盘后30到60分钟通常才会告诉你，这到底是真正资金接力，还是隔夜情绪。",
+      "EN: For small capital, keep ETF exposure roughly 5%-10%, ordinary yellow-risk stock exposure roughly 2%-4%, red-risk high-beta stock exposure roughly 1%-2%, and options premium usually around 0.5% or less per idea.\n中文：对小资金账户，ETF敞口大致控制在5%-10%，普通黄色风险股票约2%-4%，红色高beta股票约1%-2%，而每个期权想法的权利金通常控制在0.5%或更低。",
+      "EN: SOXL and weekly options are confirmation-only tools. They magnify good entries, but they also magnify leverage decay, spread risk, IV crush, and bad fills.\n中文：SOXL和周度期权都只能作为“确认后工具”。它们会放大好入场，但也会放大杠杆损耗、价差风险、IV Crush和差成交。",
+      "EN: Keep the scorecard honest. NBIS underweight was a miss, and the old CRM short remains miss / thesis invalidated. Do not recycle an invalidated short narrative just because it once sounded good.\n中文：必须保持复盘诚实。NBIS权重不足是失误，旧的CRM空头仍然是失误 / 逻辑失效。不要因为一个空头叙事曾经听起来顺耳，就重复使用已经失效的判断。"
+    ],
+    "sections": [
+      {
+        "title": "EN: Major Surges And Reasons\n中文：本周大涨股票与原因",
+        "items": [
+          "NBIS: EN: about +47.7% for the August 7 to August 14 week, with the main expansion happening in Wednesday's regular session. The credible reason was AI-cloud momentum and earnings-linked enthusiasm. Tradability: extended; only worth watching for pullback or a tight secondary base.\n中文：NBIS：在8月7日至8月14日这一周约上涨47.7%，其中主要扩张发生在周三正规交易时段。可信原因是AI云动量与财报相关热情。可交易性：已经明显延伸；更适合等回踩或紧凑二次平台。",
+          "SMCI: EN: about +28.0% on the week, with the key surge occurring in Wednesday's regular session after its earnings and FY2027 sales outlook. This was not just premarket noise; it had strong cash-session follow-through. Tradability: no longer early; wait for pullback.\n中文：SMCI：周涨约28.0%，关键拉升发生在周三正规交易时段，对应的是财报和FY2027销售展望。这不只是盘前噪音，而是有强正股跟随。可交易性：已经不再早期；等待回踩。",
+          "CRWV: EN: about +16.1% on the week, mostly driven by Wednesday's regular-session earnings follow-through after better-than-expected revenue and backlog strength. Tradability: in progress but not early; better on secondary entries than fresh chase.\n中文：CRWV：周涨约16.1%，主要由周三正规交易时段的财报后跟随推动，核心原因是营收好于预期和积压订单偏强。可交易性：仍在进行中，但已不算早期；更适合二次入场，而不是新追涨。",
+          "RDDT: EN: about +10.1% on the week, with Friday's regular-session +12.6% surge driven by its coming inclusion in the S&P 500. This was an index-inclusion catalyst, not an earnings catalyst. Tradability: can have short-term follow-through, but gap risk is high for small accounts.\n中文：RDDT：周涨约10.1%，其中周五正规交易时段上涨12.6%，原因是即将被纳入标普500。这是指数纳入催化，不是财报催化。可交易性：短线可能还有延续，但对小账户来说跳空风险很高。",
+          "AAOI: EN: about +10.8% on the week, mostly as optics-theme continuation and sympathy rather than a fresh primary filing. Tradability: only worth watching for pullback or VWAP reclaim; avoid emotional open chasing.\n中文：AAOI：周涨约10.8%，主要来自光模块主题延续与联动，而不是新的一级文件。可交易性：只适合等回踩或收复VWAP；避免情绪化追开盘。"
+        ]
+      },
+      {
+        "title": "EN: Performance Scorecard\n中文：表现复盘",
+        "items": [
+          "HIT: EN: The AI infrastructure pre-catalyst screen worked in SMCI and CRWV. Both delivered verified regular-session follow-through after real earnings information, not just overnight headline spikes.\n中文：命中：AI基础设施的提前催化筛选在SMCI和CRWV上奏效。两者都在真实财报信息后给出了经验证的正规交易时段跟随，而不只是隔夜headline脉冲。",
+          "HIT: EN: The failed-earnings / no-chase framing in APP stayed valid. APP finished the week down about 9.0%, so late hero long attempts remained the wrong lane.\n中文：命中：APP的失败财报 / 不追高框架继续有效。APP周跌约9.0%，因此任何迟到式英雄做多依旧是错误路径。",
+          "HIT / OPEN RESOLVED: EN: Caution on CSCO and COHR was right. By Friday, CSCO was down about 8.0% for the week and COHR was down about 14.1%, confirming that weak after-hours reactions were warning signs rather than noise.\n中文：命中 / open已解决：对CSCO和COHR保持谨慎是对的。到周五为止，CSCO周跌约8.0%，COHR周跌约14.1%，说明偏弱的盘后反应是警告，而不是噪音。",
+          "MISS: EN: NBIS was underweighted in the daily process and became the week's clearest omission miss. The lesson is to rank liquid AI-cloud read-through names higher when the theme is broadening.\n中文：失误：NBIS在日更流程中的权重不够，成为本周最明显的漏检失误。教训是，当主题正在扩散时，应把高流动性的AI云映射股排得更高。",
+          "MISS / THESIS INVALIDATED: EN: The old CRM short remains wrong. CRM still rose about 1.8% week over week in the reviewed August 7 to August 14 window, and the broader tape never validated the original bearish thesis.\n中文：失误 / 逻辑失效：旧的CRM空头仍然是错的。CRM在审阅的8月7日至8月14日窗口里仍上涨约1.8%，而更广泛的盘口也从未验证最初的空头逻辑。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Setup\n中文：期权与波动率设置",
+        "items": [
+          "EN: Applied Materials was the cleanest reminder that a beat is not the same as a good options trade. The stock fell 5.1% on Friday despite stronger profit and revenue, which is classic expectations and IV-crush risk.\n中文：Applied Materials是最清晰的提醒：业绩超预期并不等于好期权交易。该股周五即使利润和营收更强，仍下跌5.1%，这就是典型的预期过高和IV Crush风险。",
+          "EN: Cisco and Coherent showed that the first after-hours print is not the trade. Weak initial reactions that fail to improve by the next regular session are often more useful as avoid-long or failed-bounce setups.\n中文：Cisco和Coherent说明，盘后第一笔成交并不等于交易本身。若初始反应偏弱且到次日正股时段仍未改善，它们通常更适合作为“回避做多”或“反弹失败”设置。",
+          "EN: For SMCI, NBIS, AAOI, and next week's retailers, stock or defined-risk spreads are usually cleaner than buying expensive weekly premium after the move is obvious.\n中文：对SMCI、NBIS、AAOI以及下周零售财报股而言，正股或有限风险价差通常都比在走势已经很明显后再去买昂贵周度权利金更干净。",
+          "EN: Leveraged ETFs such as SOXL remain confirmation-only tools. They are useful only when QQQ and SMH both confirm with breadth and VWAP support.\n中文：SOXL这类杠杆ETF仍然只能作为“确认后工具”。只有在QQQ和SMH都用市场宽度和VWAP支撑来确认时，它们才有意义。"
+        ]
+      },
+      {
+        "title": "EN: Upcoming Catalyst Watch\n中文：下周催化观察",
+        "items": [
+          "EN: Monday, August 17, 2026 U.S. time: post-retail-sales reset. Watch QQQ, SMH, XLY, oil, and the 10-year yield during the first 30-60 minutes.\n中文：美股时间2026年8月17日周一：零售销售之后的重置日。重点观察QQQ、SMH、XLY、油价和10年期收益率在前30-60分钟的表现。",
+          "EN: Tuesday, August 18, 2026 U.S. time: housing starts, industrial production, and Home Depot earnings. This is the key housing / consumer combo of the week.\n中文：美股时间2026年8月18日周二：住房开工、工业生产和Home Depot财报。这是全周最关键的住房 / 消费组合。",
+          "EN: Wednesday, August 19, 2026 U.S. time: Fed July meeting minutes plus Target and Lowe's earnings. Watch whether the market reads the Fed as still hike-biased and whether consumers are trading down.\n中文：美股时间2026年8月19日周三：Fed 7月会议纪要加上Target和Lowe's财报。重点看市场是否仍把Fed解读为偏加息，以及消费者是否继续降级消费。",
+          "EN: Thursday, August 20, 2026 U.S. time: Walmart earnings. If Walmart cannot hold up, do not assume Friday's retail-sales miss was harmless.\n中文：美股时间2026年8月20日周四：Walmart财报。若Walmart都守不住，就不要假设周五的零售销售走弱只是无害噪音。",
+          "EN: Across all four sessions, respect whether extended AI leaders can build a second base. If not, the better trade may be in cleaner macro or retail setups instead.\n中文：在接下来四个交易日里，都要观察那些已拉伸的AI龙头能否搭出第二个平台。若不能，更好的交易可能反而在更干净的宏观或零售设置里。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "AP - U.S. stocks edge down from their record after oil prices climb 5%",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/adb7b918b15206e38d7899d482422308"
+      },
+      {
+        "label": "AP - U.S. stocks edge further from their records as oil prices keep swinging",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/3f3f2f2d49e4aa8744d21ecd0ce55a9c"
+      },
+      {
+        "label": "AP - Wall Street rises near a record as AI stocks climb and worries about inflation ease a bit",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/db541ced9f928f993bd3a17958a3deaa"
+      },
+      {
+        "label": "AP - U.S. stocks rise to a record as oil prices drop and inflation gets less bad",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/3a23f22469cd0e0062f711096906525c"
+      },
+      {
+        "label": "AP - Wall Street slips from its record following the latest weak update on the U.S. economy",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/5d9870d6c5ae735f9b74bf4ceefaa3ec"
+      },
+      {
+        "label": "AP - How major U.S. stock indexes fared Friday 8/14/2026",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/41b7cf2acc6562758183b1c5eae73635"
+      },
+      {
+        "label": "AP - U.S. retail sales slump unexpectedly and sharply after a summer tax-refund boost fades",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/3e2bc5807d7396b8e6c5f599941cb2a9"
+      },
+      {
+        "label": "AP - Wholesale price inflation slows last month as gas, food costs fall",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/f9bf278f4550a956b1f350722817371d"
+      },
+      {
+        "label": "AP - Wall Street week ahead: Home Depot and Walmart report earnings, minutes of Fed meeting are released",
+        "confidence": "Secondary",
+        "url": "https://apnews.com/article/7dd75609981e7e96b40aa82523b0ea57"
+      },
+      {
+        "label": "Federal Reserve - FOMC calendars and information",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      {
+        "label": "Federal Reserve - Industrial Production and Capacity Utilization",
+        "confidence": "Primary",
+        "url": "https://www.federalreserve.gov/releases/g17/current/"
+      },
+      {
+        "label": "U.S. Census Bureau - New Residential Construction",
+        "confidence": "Primary",
+        "url": "https://www.census.gov/construction/nrc/index.html"
+      },
+      {
+        "label": "Home Depot Investor Relations - Quarterly Earnings 2026",
+        "confidence": "Primary",
+        "url": "https://ir.homedepot.com/financial-reports/quarterly-earnings/2026"
+      },
+      {
+        "label": "Lowe's Investor Relations - Quarterly Results",
+        "confidence": "Primary",
+        "url": "https://investor.lowes.com/financial-information/quarterly-results"
+      },
+      {
+        "label": "Target Corporate Press Releases",
+        "confidence": "Primary",
+        "url": "https://corporate.target.com/press/release"
+      },
+      {
+        "label": "StockAnalysis - SMCI historical price data",
+        "confidence": "Market data",
+        "url": "https://stockanalysis.com/stocks/smci/history/"
+      },
+      {
+        "label": "StockAnalysis - NBIS historical price data",
+        "confidence": "Market data",
+        "url": "https://stockanalysis.com/stocks/nbis/history/"
+      },
+      {
+        "label": "StockAnalysis - APP historical price data",
+        "confidence": "Market data",
+        "url": "https://stockanalysis.com/stocks/app/history/"
+      },
+      {
+        "label": "StockAnalysis - CRM historical price data",
+        "confidence": "Market data",
+        "url": "https://stockanalysis.com/stocks/crm/history/"
+      },
+      {
+        "label": "StockAnalysis - QQQ historical price data",
+        "confidence": "Market data",
+        "url": "https://stockanalysis.com/etf/qqq/history/"
+      }
+    ]
+  },
+  {
     "date": "2026-08-02",
     "weekId": "2026-W31",
     "weekNumber": 31,
