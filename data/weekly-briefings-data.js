@@ -1,5 +1,317 @@
 window.WEEKLY_MARKET_BRIEFINGS = [
   {
+    "date": "2026-08-23",
+    "weekId": "2026-W34",
+    "weekNumber": 34,
+    "timezone": "Asia/Shanghai GMT+8",
+    "generatedAt": "2026-08-23 08:00 GMT+8",
+    "title": "EN: U.S. Weekly Market Brief - Week 34\n中文：美股周度市场简报 - 第34周",
+    "tone": "EN: Weekly tone: this was a de-risk week, not a stealth breakout. The right playbook for small capital is to respect yields, respect first-30-minute failures, and treat next Wednesday's macro stack plus Nvidia as a fresh reset rather than as permission to blindly reload old AI winners.\n中文：周度基调：这不是一次“偷偷转强”的周，而是一周明显去风险。对小资金账户，正确剧本仍是尊重收益率、尊重开盘后前30分钟失败，并把下周三的宏观数据堆叠加上Nvidia财报视为新的重置点，而不是盲目回补旧AI赢家的许可。",
+    "priorities": [
+      "EN: Wednesday, August 26, 2026 U.S. time is the week's main macro gate because BEA schedules GDP (second estimate) and Personal Income and Outlays for 8:30 ET, while Census schedules durable goods the same morning. Watch yields first, then QQQ.\n中文：美股时间2026年8月26日周三是全周最重要的宏观闸门，因为BEA安排二季度GDP二读和7月个人收入与支出在美东8:30公布，Census同日也安排耐用品订单。先看收益率，再看QQQ。",
+      "EN: Nvidia after the close on Wednesday, August 26, 2026 is the cleanest single-stock catalyst for semis, QQQ, and leveraged ETF temptation. For small accounts, ETF confirmation is cleaner than oversized weekly calls.\n中文：Nvidia将在美股时间2026年8月26日周三盘后公布业绩，这是半导体、QQQ以及杠杆ETF冲动最关键的单一催化。对小账户，先看ETF确认比押过大的周度期权更干净。",
+      "EN: The old CRM short stays labeled miss / thesis invalidated. If CRM keeps holding up into its August 26 earnings, do not recycle the bearish narrative; judge only the actual post-earnings tape.\n中文：旧的CRM空头必须继续标记为失误 / 逻辑失效。若CRM在8月26日财报前继续抗跌，就不要重复旧空头叙事；只根据财报后的真实盘口判断。",
+      "EN: Separate safer vehicles from speculative vehicles. QQQ and SPY remain cleaner than SOXL, AAOI, or MRNA chase entries after this week's violent reversals and gap behavior.\n中文：必须把相对稳健工具和投机工具分开。经历本周剧烈反转和跳空行为后，QQQ与SPY仍然比SOXL、AAOI或追MRNA更干净。",
+      "EN: Do not force a DELL/SNOW-style gap analogy when the tape does not offer one. This week produced one powerful biotech burst and several ugly AI reversals, not a fresh broad-based software breakout.\n中文：当盘口没有给出类似DELL/SNOW那样的结构时，不要硬套那种跳空模板。本周真正出现的是一次强烈的生物科技脉冲和几次难看的AI反转，而不是新的软件普涨突破。"
+    ],
+    "summary": [
+      "EN: Verified Friday-to-Friday price action showed a clear de-risk week: SPY fell about 1.4%, QQQ fell about 2.4%, and IWM fell about 1.7% from August 14 to August 21, 2026. This was not broad follow-through.\n中文：经核实，从2026年8月14日到8月21日的周五到周五价格行为显示这是一周明显去风险：SPY约跌1.4%，QQQ约跌2.4%，IWM约跌1.7%。这不是全面延续上涨。",
+      "EN: Reuters framed Monday and Tuesday as yield-and-oil pressure sessions. That matters because the first crack appeared in the exact place that had been most crowded: hot AI and leveraged beta.\n中文：Reuters将周一和周二定性为“收益率与油价施压”的交易日。这很重要，因为最先出现裂缝的正是此前最拥挤的地方：火热AI与杠杆beta。",
+      "EN: Wednesday's rebound was selective, not a full repair. Moderna exploded on vaccine data and Target rallied on stronger guidance, but that strength did not rescue the broader AI cloud / optics complex.\n中文：周三的反弹是有选择性的，而不是全面修复。Moderna因疫苗数据暴涨，Target因更强指引上涨，但这些强势并没有拯救更广泛的AI云和光模块板块。",
+      "EN: Thursday reset the consumer debate. Walmart fell about 10.0% on the week after Reuters reported a rare sales miss and slower growth, which told traders not to treat all retail earnings as the same quality of setup.\n中文：周四重新定义了消费主线。Reuters报道Walmart出现罕见销售失手和增长放缓后，该股全周约跌10.0%，这提醒交易者不要把所有零售财报都视为同等质量的设置。",
+      "EN: What worked from the prior framework was relative caution. QQQ lost far less than SOXL (-16.8%), AAOI (-16.9%), NBIS (-21.1%), and CRWV (-21.1%), so the warning against chasing old AI winners was directionally right.\n中文：上周框架里真正有效的是相对谨慎。QQQ的跌幅明显小于SOXL（-16.8%）、AAOI（-16.9%）、NBIS（-21.1%）和CRWV（-21.1%），因此“不要追旧AI赢家”的警告方向上是对的。",
+      "EN: The clearest miss stayed the same: CRM was not a valid short. Verified price action showed CRM rising about 6.6% for the week and finishing at 209.17 on Friday, August 21, 2026, which keeps the old short thesis invalidated.\n中文：最明确的失误仍然没有改变：CRM并不是有效空头。经核实，CRM本周约上涨6.6%，并在2026年8月21日周五收于209.17，这使旧空头逻辑继续处于失效状态。",
+      "EN: Next week's usable edge is concentration, not quantity. Wednesday, August 26, 2026 carries GDP, personal income/outlays, durable goods, and Nvidia, while late-week Jackson Hole can reprice rates again.\n中文：下周真正可用的优势在于聚焦，而不是数量。2026年8月26日周三同时承载GDP、个人收入与支出、耐用品订单以及Nvidia财报，而周后段的Jackson Hole又可能重新定价利率。"
+    ],
+    "marketPulse": {
+      "SPY/QQQ/IWM": {
+        "value": "SPY 765.72 (-1.37% WoW) / QQQ 713.44 (-2.41% WoW) / IWM 299.96 (-1.68% WoW) as of Friday, August 21, 2026",
+        "note": "EN: Index damage was moderate, but the message underneath was sharper: broad ETFs held up much better than the crowded AI and leverage expressions. That argues for cleaner instruments first.\n中文：指数层面的伤害并不极端，但底层信息更尖锐：宽基ETF明显比拥挤的AI和杠杆表达更抗跌。这说明应优先使用更干净的工具。"
+      },
+      "Rates": {
+        "value": "10Y Treasury yield proxy (^TNX) 4.70% on August 14 to 4.74% on August 21; HYG 79.71 to 79.61",
+        "note": "EN: Rates never gave growth a durable tailwind this week. The yield back-up into Friday helps explain why QQQ, SOXL, and high-beta semis kept struggling to hold rebounds.\n中文：本周利率并没有真正持续给成长股顺风。收益率到周五重新抬升，有助于解释为何QQQ、SOXL和高beta半导体始终难以稳住反弹。"
+      },
+      "Volatility / Options": {
+        "value": "VIX 14.25 to 15.13 during the week; event IV now shifts to August 26 macro releases, NVDA, and CRM",
+        "note": "EN: This is a classic week where being right on theme is not enough. Wednesday's stacked macro plus major earnings can punish naked premium buying, especially in weekly options.\n中文：这是那种“主题看对也不够”的典型周。下周三堆叠的宏观数据加上大市值财报，会明显惩罚裸买权利金，尤其是周度期权。"
+      }
+    },
+    "weekReview": [
+      "EN: Monday, August 17, 2026 U.S. time opened the week with Reuters describing slipping indexes as oil prices rose and traders waited for retail results. That kept the tone defensive from the start instead of launching a clean continuation week.\n中文：美股时间2026年8月17日周一，Reuters将其描述为“油价上涨、零售财报待公布、指数回落”的交易日。这意味着本周从一开始就是防御基调，而不是干净的延续上涨周。",
+      "EN: Tuesday, August 18, 2026 made the damage more obvious. QQQ closed at 717.51 and SOXL at 129.10, while Reuters described a tech selloff as bond yields climbed. That was the moment extended AI setups stopped getting the benefit of the doubt.\n中文：美股时间2026年8月18日周二，伤害变得更明显。QQQ收于717.51，SOXL收于129.10，而Reuters将其描述为“债券收益率上行引发科技抛售”。从这一刻起，已经拉伸的AI设置不再自动得到宽容。",
+      "EN: Wednesday, August 19, 2026 produced the week's most important divergence. MRNA surged in the regular session after Reuters reported that Moderna and Merck's vaccine cut recurrence and spread of melanoma, and Target rallied after raising annual forecasts, but QQQ still closed below Monday's level and the old AI leaders did not repair cleanly.\n中文：美股时间2026年8月19日周三，出现了本周最重要的分化。Reuters报道Moderna与Merck疫苗降低黑色素瘤复发和扩散后，MRNA在正规交易时段暴涨；Target在上调全年指引后走强；但QQQ收盘仍低于周一水平，旧AI龙头也没有实现干净修复。",
+      "EN: Thursday, August 20, 2026 confirmed that first-30-minute failure risk was still real. Reuters reported Walmart's rare sales miss and slower growth, and the tape quickly punished risk again. AAOI never repaired the week's Tuesday-Wednesday damage, which is exactly why open chasing remains dangerous.\n中文：美股时间2026年8月20日周四，进一步确认“前30分钟失败风险”依然真实。Reuters报道Walmart出现罕见销售失手和增长放缓后，盘口迅速再次惩罚风险资产。AAOI始终没有修复周二和周三的伤害，这正是为什么追开盘仍然危险。",
+      "EN: Friday, August 21, 2026 gave only a partial bounce. Reuters said Wall Street rose on the day but fell for the week, with bond yields and Iran in focus. That is the correct read: Friday's green close did not undo a week where DELL fell about 9.9%, NVDA fell about 4.6%, SOXL fell about 16.8%, and CRM kept invalidating the old short thesis by rising to 209.17.\n中文：美股时间2026年8月21日周五只给出了部分反弹。Reuters指出华尔街“当日上涨，但全周下跌”，焦点仍在债券收益率和伊朗风险。这个解读是正确的：周五的收绿并没有扭转这样一周的事实，即DELL约跌9.9%、NVDA约跌4.6%、SOXL约跌16.8%，而CRM则继续通过涨到209.17来否定旧空头逻辑。",
+      "EN: There was no fresh DELL/SNOW-style clean upside gap template this week. SNOW finished only about +1.2% for the week and DELL was weak, so the practical lesson was to trade the tape in front of you, not last month's favorite analogies.\n中文：本周并没有出现新的、类似DELL/SNOW那样的干净向上跳空模板。SNOW全周仅约上涨1.2%，而DELL偏弱，因此更实用的教训是交易眼前的盘口，而不是套用上个月最喜欢的类比。"
+    ],
+    "nextWeekFocus": [
+      "EN: Wednesday, August 26, 2026 at 8:30 ET is overloaded with GDP (second estimate), Personal Income and Outlays, and durable goods. If yields rise first and QQQ loses the first-hour range, reduce beta before debating any stock story.\n中文：2026年8月26日周三美东8:30同时堆叠GDP二读、个人收入与支出以及耐用品订单。若收益率先上行、QQQ再跌破首小时区间，就应先降beta，而不是先争论个股故事。",
+      "EN: Nvidia after the close on Wednesday, August 26, 2026 is the main semiconductor and AI sentiment event. For small capital, QQQ or SMH confirmation is cleaner than trying to guess the first options print.\n中文：Nvidia将在2026年8月26日周三盘后公布业绩，这是半导体和AI情绪最关键的事件。对小资金而言，等待QQQ或SMH确认，比猜第一笔期权成交更干净。",
+      "EN: CRM also enters the week as a live catalyst into August 26. Because the prior short thesis was invalidated by actual tape, the only disciplined approach is to judge post-earnings regular-session behavior, not stale bearish narrative.\n中文：CRM也将在8月26日附近成为活跃催化。由于先前空头逻辑已被实际价格行为否定，唯一有纪律的做法是观察财报后正规交易时段的行为，而不是抱着过期的空头叙事不放。",
+      "EN: Late-week Jackson Hole matters because rates, not just earnings, have been controlling tape quality. Friday, August 28, 2026 is the speech day the market is most likely to care about.\n中文：周后段的Jackson Hole很重要，因为最近决定盘口质量的不只是财报，还有利率。市场最可能重点关注的是2026年8月28日周五的讲话时点。",
+      "EN: The best tactical question for next week is not 'what is the hottest name?' It is 'which setup is still early?' QQQ, selective post-earnings CRM, and disciplined NVDA read-through are earlier than trying to force AAOI, SOXL, or old AI cloud leaders back into trend.\n中文：下周最好的战术问题不是“最热的名字是什么”，而是“哪个设置仍然处于早期”。QQQ、选择性的CRM财报后机会，以及有纪律的NVDA联动，都比强行把AAOI、SOXL或旧AI云龙头重新拉回趋势更早。"
+    ],
+    "sectors": [
+      {
+        "name": "EN: Index ETFs / Quality Beta\n中文：指数ETF / 质量型Beta",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Next Wednesday's macro stack and Nvidia earnings can restore direction, but cleaner beta vehicles are still preferable to crowded single names.\n中文：下周三的宏观堆叠和Nvidia财报可能重建方向，但更干净的beta工具仍优于拥挤单股。",
+        "watch": "EN: Prefer SPY or QQQ only after first-hour range stability or a clean VWAP reclaim.\n中文：只有在首小时区间稳定，或干净收复VWAP后，才优先考虑SPY或QQQ。",
+        "risk": "EN: If yields break higher again, even safer beta can fail.\n中文：如果收益率再次上破，即使相对稳健的beta也会失败。"
+      },
+      {
+        "name": "EN: Semiconductors / AI Hardware Into NVDA\n中文：Nvidia前的半导体 / AI硬件",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Nvidia earnings on August 26 are the week's main chip catalyst.\n中文：Nvidia在8月26日的财报是全周最关键的芯片催化。",
+        "watch": "EN: Watch QQQ, SMH, NVDA, and whether regular-session breadth confirms before touching leverage.\n中文：重点看QQQ、SMH、NVDA，以及正规交易时段宽度是否先确认，再决定是否碰杠杆。",
+        "risk": "EN: Event IV, first-print whipsaws, and leveraged ETF decay all rise together here.\n中文：在这个方向里，事件IV、第一笔价格震荡和杠杆ETF损耗会同时上升。"
+      },
+      {
+        "name": "EN: Retail / Consumer Dispersion\n中文：零售 / 消费分化",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "catalyst": "EN: Target's stronger guidance and Walmart's miss created a useful split instead of a simple sector answer.\n中文：Target更强的指引和Walmart的失手，带来的是一个有用的分化，而不是简单的板块统一答案。",
+        "watch": "EN: Favor only names that hold post-earnings gains in regular session; do not assume the entire consumer complex moves together.\n中文：只偏好那些能在正规交易时段守住财报后涨幅的名字；不要假设整个消费板块会同涨同跌。",
+        "risk": "EN: A weak macro read on income, spending, or rates can reopen the Walmart problem quickly.\n中文：如果收入、支出或利率的宏观读数偏弱，Walmart式问题会很快再次出现。"
+      },
+      {
+        "name": "EN: Biotech Event Momentum\n中文：生物科技事件动量",
+        "direction": "long",
+        "riskLevel": "red",
+        "catalyst": "EN: Moderna's melanoma-vaccine data created the week's biggest single-name upside burst.\n中文：Moderna的黑色素瘤疫苗数据制造了本周最大单股上冲。",
+        "watch": "EN: Only watch for pullback hold or higher-low stabilization; the easy move is gone.\n中文：只观察回踩守住或更高低点企稳；最容易的一段已经走完。",
+        "risk": "EN: Binary biotech moves can retrace violently even when the headline is real.\n中文：即使headline真实，二元生物科技行情也会剧烈回吐。"
+      },
+      {
+        "name": "EN: Optics / Leveraged Semiconductor Risk\n中文：光模块 / 杠杆半导体风险",
+        "direction": "short",
+        "riskLevel": "red",
+        "catalyst": "EN: This week's AAOI and SOXL damage showed how quickly crowded momentum breaks when yields rise and buyers hesitate.\n中文：本周AAOI和SOXL的伤害说明，当收益率抬升、买盘犹豫时，拥挤动量会多快崩掉。",
+        "watch": "EN: Favor only failed bounces under VWAP or stand aside until post-NVDA structure becomes cleaner.\n中文：只在VWAP下方反弹失败时保留偏空思路，否则就先站一边，等NVDA之后结构更干净。",
+        "risk": "EN: A strong Nvidia print can squeeze this whole lane sharply.\n中文：若Nvidia业绩强劲，这条线也可能被快速逼空。"
+      }
+    ],
+    "watchlist": [
+      {
+        "ticker": "QQQ",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Actionable only if QQQ holds VWAP or reclaims the opening range after the first 30-60 minutes on macro day; roughly 5%-10% ETF exposure remains the cleaner choice.\n中文：只有在宏观数据日开盘后30-60分钟，QQQ守住VWAP或收复开盘区间时才算可执行；大致5%-10%的ETF仓位仍是更干净的选择。",
+        "suggestedProfitTake": "EN: Trim into clean extensions and cut faster if yields rise while QQQ loses the first-hour low.\n中文：若出现干净延续，可分批止盈；若收益率上行且QQQ跌破首小时低点，就应更快减仓。",
+        "type": "EN: balanced large-cap growth ETF\n中文：相对稳健的大盘成长ETF",
+        "catalyst": "EN: GDP, income/outlays, durable goods, NVDA, and Jackson Hole all flow directly through QQQ next week.\n中文：GDP、收入与支出、耐用品订单、NVDA以及Jackson Hole都会直接映射到下周QQQ的盘口。",
+        "why": "EN: QQQ remains the cleanest way to express upside without forcing damaged single names.\n中文：QQQ仍是表达上行而不必强做受损单股的最干净方式。",
+        "risk": "EN: Invalidated if rates keep rising and breadth narrows again.\n中文：若收益率继续上行且市场宽度再次收窄，则逻辑失效。",
+        "convictionScore": 4,
+        "timeframe": "trade",
+        "recentPerformance": "EN: QQQ closed Friday, August 21 at 713.44, down about 2.41% from August 14.\n中文：QQQ在2026年8月21日周五收于713.44，较8月14日下跌约2.41%。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Prefer post-earnings confirmation only: either a first pullback hold in the regular session or a clean opening-range breakout with QQQ and SMH confirmation.\n中文：更偏好财报后确认：要么在正规交易时段第一次回踩守住，要么在QQQ与SMH确认下干净突破开盘区间。",
+        "suggestedProfitTake": "EN: Take partials early on any post-report extension because overnight gaps and IV repricing can make the first clean move the best move.\n中文：若财报后出现延续，应尽早分批兑现，因为隔夜缺口和IV重定价往往会让第一段干净走势成为最好的一段。",
+        "type": "EN: speculative mega-cap AI semiconductor\n中文：投机型超大市值AI半导体股",
+        "catalyst": "EN: Nvidia reports after the U.S. close on Wednesday, August 26, 2026.\n中文：Nvidia将在美股时间2026年8月26日周三收盘后公布业绩。",
+        "why": "EN: It is the cleanest single-name read-through for semis and AI hardware, but it is not a clean pre-event chase.\n中文：它是半导体与AI硬件最干净的单名映射，但并不是一个适合财报前强追的干净设置。",
+        "risk": "EN: Invalidated if semis gap but fail to hold the first-hour range or if yields overwhelm the report.\n中文：若半导体跳空后守不住首小时区间，或收益率直接压过财报影响，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: NVDA closed Friday, August 21 at 214.72, down about 4.64% from August 14.\n中文：NVDA在2026年8月21日周五收于214.72，较8月14日下跌约4.64%。",
+        "setupStatus": "early"
+      },
+      {
+        "ticker": "CRM",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Do not pre-earnings chase. Only consider a post-earnings long if CRM holds VWAP or recovers the opening range in the regular session after results.\n中文：不要在财报前追涨。只有在财报后正规交易时段CRM守住VWAP或收复开盘区间时，才考虑偏多。",
+        "suggestedProfitTake": "EN: Scale out into strength quickly because this is still an earnings setup, not a slow trend investment.\n中文：若走势转强，应快速分批兑现，因为这仍是财报型设置，而不是缓慢趋势投资。",
+        "type": "EN: balanced large-cap software earnings watch\n中文：相对稳健的大市值软件财报观察股",
+        "catalyst": "EN: Earnings are scheduled for the week of August 26, 2026, and the prior short thesis is already invalidated by price action.\n中文：财报安排在2026年8月26日这一周内，而先前空头逻辑已被价格行为提前否定。",
+        "why": "EN: Relative strength matters here because the stock rose while much of software stayed messy.\n中文：这里的相对强势很重要，因为当许多软件股仍然混乱时，它却在上涨。",
+        "risk": "EN: Invalidated if the stock loses its post-earnings opening range and software breadth weakens again.\n中文：若财报后失守开盘区间，同时软件板块宽度再次转弱，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: CRM closed Friday, August 21 at 209.17, up about 6.61% from August 14.\n中文：CRM在2026年8月21日周五收于209.17，较8月14日上涨约6.61%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "TGT",
+        "direction": "long",
+        "riskLevel": "yellow",
+        "suggestedBuyPrice": "EN: Prefer only a post-earnings hold above VWAP or a quiet pullback into support; do not chase a third or fourth fast candle after the guidance move.\n中文：更偏好财报后在VWAP上方稳住，或安静回踩支撑后再考虑；不要在指引推动后的第三、第四根快涨K线去追。",
+        "suggestedProfitTake": "EN: Trim into extension because consumer names can give back gains quickly if macro data turns risk-off.\n中文：若出现延续，可分批止盈，因为一旦宏观数据转向risk-off，消费股很容易回吐。",
+        "type": "EN: balanced retail earnings follow-through stock\n中文：相对稳健的零售财报延续股",
+        "catalyst": "EN: Reuters reported Target lifted annual forecasts again as its turnaround gained traction.\n中文：Reuters报道Target再次上调全年指引，显示其修复节奏正在落地。",
+        "why": "EN: It is one of the few weekly winners that came from verified numbers rather than pure narrative.\n中文：它是本周少数由经验证数字驱动、而非纯叙事驱动的赢家之一。",
+        "risk": "EN: Invalidated if Walmart-style consumer worries spill across the group.\n中文：若Walmart式消费担忧扩散到整个板块，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: TGT closed Friday, August 21 at 165.44, up about 7.09% from August 14.\n中文：TGT在2026年8月21日周五收于165.44，较8月14日上涨约7.09%。",
+        "setupStatus": "in progress"
+      },
+      {
+        "ticker": "MRNA",
+        "direction": "long",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Only worth watching for a higher low or a real pullback hold; a 129% weekly move is no longer an early entry.\n中文：只值得等待更高低点或真实回踩守住；周涨129%之后，这已经不再是早期入场。",
+        "suggestedProfitTake": "EN: If a secondary setup appears, take profits faster than usual because binary-biotech reversals are violent.\n中文：若出现二次设置，止盈速度要比平时更快，因为二元生物科技的反转往往非常剧烈。",
+        "type": "EN: speculative biotech event stock\n中文：投机型生物科技事件股",
+        "catalyst": "EN: Reuters reported Moderna and Merck's vaccine cut recurrence and spread of melanoma.\n中文：Reuters报道Moderna与Merck的疫苗降低了黑色素瘤的复发和扩散。",
+        "why": "EN: The catalyst is real, but the easy price discovery already happened in Wednesday's regular session.\n中文：催化本身真实存在，但最容易的价格发现阶段已经在周三正规交易时段完成。",
+        "risk": "EN: Invalidated if the stock cannot hold a secondary base and continues to retrace its post-data spike.\n中文：若该股连二次平台都守不住，并继续回吐数据后的脉冲上涨，则逻辑失效。",
+        "convictionScore": 2,
+        "timeframe": "trade",
+        "recentPerformance": "EN: MRNA closed Friday, August 21 at 145.13, up about 129.20% from August 14.\n中文：MRNA在2026年8月21日周五收于145.13，较8月14日上涨约129.20%。",
+        "setupStatus": "wait for pullback"
+      },
+      {
+        "ticker": "AAOI",
+        "direction": "short",
+        "riskLevel": "red",
+        "suggestedBuyPrice": "EN: Short bias only if AAOI fails a regular-session bounce under VWAP or under the opening range after the first 30-60 minutes; do not short a washout low.\n中文：只有在开盘后30-60分钟，AAOI在VWAP下方或开盘区间下方反弹失败时，才保留偏空思路；不要追空在洗盘低点。",
+        "suggestedProfitTake": "EN: Pay yourself into weakness because this name can reverse hard on sympathy headlines or a strong NVDA read-through.\n中文：若走弱，应分批兑现，因为这只股票会因为联动headline或NVDA强势读数而快速反抽。",
+        "type": "EN: speculative failed-high-beta optics name\n中文：投机型失败高beta光模块股",
+        "catalyst": "EN: This week's damage came from risk-off rotation and failed follow-through in crowded optics / AI momentum.\n中文：本周的伤害来自risk-off轮动，以及拥挤光模块 / AI动量的延续失败。",
+        "why": "EN: The stock is still a useful tape-reading vehicle because it demonstrates how dangerous premarket strength becomes when regular-session sponsorship disappears.\n中文：这只股票仍是很有用的读盘样本，因为它展示了当正规交易时段承接消失时，盘前强势会多快变成危险。",
+        "risk": "EN: Invalidated if AAOI reclaims VWAP with strong sector breadth and a favorable NVDA reaction.\n中文：若AAOI在板块宽度走强和NVDA反应正面的背景下收复VWAP，则逻辑失效。",
+        "convictionScore": 3,
+        "timeframe": "trade",
+        "recentPerformance": "EN: AAOI closed Friday, August 21 at 124.82, down about 16.94% from August 14.\n中文：AAOI在2026年8月21日周五收于124.82，较8月14日下跌约16.94%。",
+        "setupStatus": "in progress"
+      }
+    ],
+    "riskControls": [
+      "EN: Respect U.S. T+0 mechanics, account restrictions, and settlement limits. The right thesis still fails if capital gets trapped in a wide-spread, premarket, or over-levered product.\n中文：尊重美股T+0机制、账户限制和结算规则。若资金被困在点差很宽、盘前流动性差或杠杆过高的工具里，再对的逻辑也会失败。",
+      "EN: Any premarket gap larger than roughly 4%-5% defaults to wait-first mode. The first 30-60 minutes matter more than the overnight headline.\n中文：任何超过约4%-5%的盘前跳空，都默认先等待。开盘后30-60分钟的重要性，高于隔夜headline本身。",
+      "EN: For small capital, keep ETF exposure roughly 5%-10%, ordinary yellow-risk stock exposure roughly 2%-4%, red-risk high-beta stock exposure roughly 1%-2%, and options premium generally around 0.5% or less per idea.\n中文：对小资金账户，ETF敞口大致控制在5%-10%，普通黄色风险股票约2%-4%，红色高beta股票约1%-2%，而每个期权想法的权利金通常控制在0.5%或更低。",
+      "EN: Wednesday's stacked macro data plus NVDA and CRM create correlation risk. Do not hold multiple leveraged bets that all need the same rate and AI outcome.\n中文：下周三堆叠的宏观数据加上NVDA和CRM，会制造高度相关风险。不要同时持有多笔都依赖同一个利率和AI结果的杠杆押注。",
+      "EN: Keep the scorecard honest. CRM short remains miss / thesis invalidated, and AAOI-style open chasing remains a process error until the tape proves otherwise.\n中文：必须保持复盘诚实。CRM空头仍然是失误 / 逻辑失效，而AAOI式追开盘在盘口证明相反之前，仍属于流程错误。"
+    ],
+    "sections": [
+      {
+        "title": "EN: Major Surges And Reasons\n中文：本周大涨股票与原因",
+        "items": [
+          "MRNA: EN: about +129.2% for the August 14 to August 21 week, with the decisive move happening in Wednesday's regular session. Reuters said Moderna and Merck's vaccine cut recurrence and spread of melanoma. Tradability: extended; only worth watching for pullback or a higher-low base.\n中文：MRNA：在8月14日至8月21日这一周约上涨129.2%，决定性涨幅发生在周三正规交易时段。Reuters称Moderna与Merck的疫苗降低了黑色素瘤复发和扩散。可交易性：已经明显延伸；更适合等回踩或更高低点平台。",
+          "TGT: EN: about +7.1% on the week, with the key move occurring in Wednesday's regular session after Reuters reported Target lifted annual forecasts again. Tradability: in progress but not early; better on a hold or pullback than on fresh chase.\n中文：TGT：全周约上涨7.1%，关键涨幅出现在周三正规交易时段，原因是Reuters报道Target再次上调全年指引。可交易性：仍在进行中，但已不算早期；更适合等守住或回踩，而不是新追涨。",
+          "CRM: EN: about +6.6% on the week, with regular-session follow-through building into next week's earnings while much of software stayed messy. Tradability: not an early chase; better as a post-earnings read-through or pullback watch. This move also invalidates the old short idea.\n中文：CRM：全周约上涨6.6%，在多数软件股仍显混乱时，它在下周财报前持续获得正规交易时段跟随。可交易性：不是早期追涨；更适合作为财报后联动或回踩观察。这波上涨也同时否定了旧空头想法。"
+        ]
+      },
+      {
+        "title": "EN: Performance Scorecard\n中文：表现复盘",
+        "items": [
+          "HIT: EN: The prior warning that safer ETFs were cleaner than hot AI and leverage stayed right. QQQ lost about 2.4%, but SOXL lost about 16.8%, NBIS about 21.1%, CRWV about 21.1%, and AAOI about 16.9%.\n中文：命中：此前“相对稳健ETF比火热AI和杠杆更干净”的提醒继续正确。QQQ约跌2.4%，但SOXL约跌16.8%，NBIS约跌21.1%，CRWV约跌21.1%，AAOI约跌16.9%。",
+          "HIT: EN: The old guidance to wait for pullbacks instead of chasing SMCI/NBIS/AAOI remained correct. This week punished late AI extension rather than rewarding it.\n中文：命中：此前“等回踩而不是追SMCI/NBIS/AAOI”的指导仍然正确。本周市场惩罚的是迟到AI延伸，而不是奖励它。",
+          "MIXED: EN: Retail earnings were indeed cleaner catalysts than blindly chasing old AI winners, but selection mattered. TGT gained about 7.1%, while HD fell about 1.0%, LOW fell about 1.1%, and WMT fell about 10.0%.\n中文：混合：零售财报确实比盲目追旧AI赢家更像干净催化，但选股依然重要。TGT约涨7.1%，而HD约跌1.0%，LOW约跌1.1%，WMT约跌10.0%。",
+          "MISS / THESIS INVALIDATED: EN: The old CRM short remains wrong. Verified price action showed CRM rising from 196.21 on August 14 to 209.17 on August 21, and from 190.97 Monday's low to 209.17 Friday's close. The tape invalidated the bearish thesis.\n中文：失误 / 逻辑失效：旧的CRM空头仍然是错的。经核实，CRM从8月14日的196.21涨到8月21日的209.17，并从周一低点190.97涨到周五收盘209.17。盘口已经否定了空头逻辑。",
+          "OPEN: EN: The next clean semiconductor read-through now resets to NVDA on August 26. This week did not produce a fresh DELL/SNOW-style upside template worth forcing ahead of that event.\n中文：进行中：下一个干净的半导体映射点，已经重置到8月26日的NVDA。本周并没有在那之前提供值得强做的DELL/SNOW式向上模板。"
+        ]
+      },
+      {
+        "title": "EN: Options And Volatility Setup\n中文：期权与波动率设置",
+        "items": [
+          "EN: Wednesday, August 26, 2026 stacks macro data and major earnings on the same day. That is a classic trap for buying rich weekly premium without a clear post-event plan.\n中文：2026年8月26日周三把宏观数据和大市值财报堆在同一天。这是典型的“没有清晰事件后计划却去买贵周权”的陷阱。",
+          "EN: MRNA reminded traders that even a real positive catalyst can still produce violent day-two reversals. The stock jumped from 62.96 on Tuesday to 174.38 on Wednesday, then closed Thursday at 133.32.\n中文：MRNA提醒交易者：即使催化真实利好，也仍会出现剧烈的第二天反转。该股从周二的62.96跳到周三的174.38，随后周四收于133.32。",
+          "EN: SOXL remains confirmation-only. If QQQ and SMH do not both confirm with breadth and rate support, leverage decay can become the main story very quickly.\n中文：SOXL仍然只能作为“确认后工具”。如果QQQ和SMH没有同时用宽度和利率配合来确认，杠杆损耗很快就会变成主线。",
+          "EN: For NVDA and CRM, stock or defined-risk spreads are cleaner than emotional same-day weekly calls, especially for small accounts.\n中文：对NVDA和CRM来说，正股或有限风险价差都比情绪化的当天周度认购更干净，尤其是对小账户而言。",
+          "EN: In AAOI-style setups, the danger is not only direction. It is also liquidity, spread, and getting trapped by a premarket narrative that fails once regular session opens.\n中文：在AAOI这类设置里，危险不只在方向，还在流动性、点差，以及被一个到了正规交易时段就失效的盘前叙事困住。"
+        ]
+      },
+      {
+        "title": "EN: Upcoming Catalyst Watch\n中文：下周催化观察",
+        "items": [
+          "EN: Monday, August 24, 2026 U.S. time: watch whether Friday's bounce can hold if the 10-year yield stays near or above 4.74%. If not, treat the rebound as a fade candidate.\n中文：美股时间2026年8月24日周一：重点看如果10年期收益率维持在4.74%附近或更高，周五的反弹能否守住。若不能，应把这次反弹视为可被回吐的对象。",
+          "EN: Wednesday, August 26, 2026 at 8:30 ET: GDP (second estimate), Personal Income and Outlays, and durable goods. This is the week's most concentrated macro risk window.\n中文：2026年8月26日周三美东8:30：GDP二读、个人收入与支出以及耐用品订单。这是全周最集中的宏观风险窗口。",
+          "EN: Wednesday, August 26, 2026 after the close: Nvidia earnings. Watch not just NVDA itself, but also QQQ, SMH, SOXL, and whether failed AI names can finally build a second base.\n中文：2026年8月26日周三盘后：Nvidia财报。不要只看NVDA本身，也要看QQQ、SMH、SOXL，以及那些失败过的AI名字能否终于搭出第二个平台。",
+          "EN: Around the same August 26 earnings window, CRM is also a practical watch item because the market already invalidated the prior short thesis. Only the actual post-report tape matters now.\n中文：在同一个8月26日财报窗口附近，CRM也属于实用观察对象，因为市场已经提前否定了旧空头逻辑。现在真正重要的只有财报后的实际盘口。",
+          "EN: Thursday-Friday, August 27-28, 2026: Jackson Hole. Friday's Warsh speech is the rate-sensitive event most likely to reset the market's view of duration and growth.\n中文：2026年8月27日至28日周四至周五：Jackson Hole。周五Warsh讲话，是最可能重置市场对久期和成长看法的利率敏感事件。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Yahoo Finance - SPY historical prices",
+        "confidence": "Market Data",
+        "url": "https://finance.yahoo.com/quote/SPY/history?p=SPY"
+      },
+      {
+        "label": "Yahoo Finance - QQQ historical prices",
+        "confidence": "Market Data",
+        "url": "https://finance.yahoo.com/quote/QQQ/history?p=QQQ"
+      },
+      {
+        "label": "Yahoo Finance - IWM historical prices",
+        "confidence": "Market Data",
+        "url": "https://finance.yahoo.com/quote/IWM/history?p=IWM"
+      },
+      {
+        "label": "Yahoo Finance - CRM historical prices",
+        "confidence": "Market Data",
+        "url": "https://finance.yahoo.com/quote/CRM/history?p=CRM"
+      },
+      {
+        "label": "Yahoo Finance - AAOI historical prices",
+        "confidence": "Market Data",
+        "url": "https://finance.yahoo.com/quote/AAOI/history?p=AAOI"
+      },
+      {
+        "label": "Yahoo Finance - MRNA historical prices",
+        "confidence": "Market Data",
+        "url": "https://finance.yahoo.com/quote/MRNA/history?p=MRNA"
+      },
+      {
+        "label": "Yahoo Finance - TGT historical prices",
+        "confidence": "Market Data",
+        "url": "https://finance.yahoo.com/quote/TGT/history?p=TGT"
+      },
+      {
+        "label": "Yahoo Finance - WMT historical prices",
+        "confidence": "Market Data",
+        "url": "https://finance.yahoo.com/quote/WMT/history?p=WMT"
+      },
+      {
+        "label": "Reuters - Wall St rises on the day but falls for the week; bond yields and Iran in focus",
+        "confidence": "Secondary",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5"
+      },
+      {
+        "label": "Reuters - Wall Street indexes slip as oil prices rise, retail results awaited",
+        "confidence": "Secondary",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5"
+      },
+      {
+        "label": "Reuters - Moderna, Merck vaccine cuts recurrence and spread of melanoma, raising new treatment hope",
+        "confidence": "Secondary",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV1VaQ05TQmRfMmJzTUkwU2puSHBUcE9FdzY2OW5SaXVFc2FpR25rclJEY1NHS1lrYWdaWE5OUVdhZ2VfTGVHak45akZnYm0wbEZVdXpOYjJEYkpVc3VXaDRrQnZBMDlJbWJLZUY2M2dFc0lycDc1LUtiSmxEWnlsVThSY1RRRG5WM050bEZLR1puWlhDMGlJczRZM0tXb2lHYzlSSmxTRFlQdm52THFDbG1zZlBWLUNUZG9qVjFoQlI?oc=5"
+      },
+      {
+        "label": "Reuters - Target lifts annual forecasts again as Fiddelke's turnaround takes root",
+        "confidence": "Secondary",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUFLMlkyUFN2QXJ4aWF3WWgtaTJSWFNmdndBZEkyUmRPb1RFWGJ5ck42REplSlJDbjAyS0ZWaklhMUNZcUpyeEVCbXJYRlE0enk4VTZheWxXblVobmVuUE9vajQ3N3BRU2FKdmZhTWJrdGJ0X3U3TkNlLUJkQWd0SGE4bkVwLXA5OUFTWHRvTEpQYlp3Q3lDTHhERm02SmFjN2VVZWxiaGJycmpiYzZuZnY1N2ltNFR2Q0NBQm5fWTNxMkp4Vmdj?oc=5"
+      },
+      {
+        "label": "Reuters - Walmart sales growth slowdown tests consumer resilience, shares slide 9%",
+        "confidence": "Secondary",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWHpDQjhTTjdrTGVtLWhZMUJIdWtybnk5SjJ0bWxfMjZ3VmhYXzE3UGljRlZiMmI3V0FNN09Pb1NYWlhCWTVmMlFsdjZTRDFLUFh4WV9Yb0ZGMTJWYTc0eWVWVEZiVC1oVmdXNTBNdGtGdGZoWHN3MzRndDR2YlY2bzFuWTlJeHBXdGJzZHZzMmFiVzYxWUtsZDFlN0F6OWJPTktkS0RaTmtjY0I4WU9wQ3Y4X1VsZzQ?oc=5"
+      },
+      {
+        "label": "BEA - News Release Schedule",
+        "confidence": "Primary",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      {
+        "label": "U.S. Census Bureau - Economic Indicators",
+        "confidence": "Primary",
+        "url": "https://www.census.gov/economic-indicators/"
+      }
+    ]
+  },
+  {
     "date": "2026-08-16",
     "weekId": "2026-W33",
     "weekNumber": 33,
